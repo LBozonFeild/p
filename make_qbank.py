@@ -379,16 +379,34 @@ def p1_hits(doc):
         else:
             bot = FOOTER
         t = doc[p].get_text("text", clip=pymupdf.Rect(0, y, doc[p].rect.width, bot)) or ""
-        if P1_STRONG.search(t) and "dialysis" not in t.lower():
+        if (
+            P1_STRONG.search(t)
+            and "dialysis" not in t.lower()
+            and not re.search(
+                r"fetus|umbilical|sperm|pregnan|food chain|reproductive system",
+                t,
+                re.I,
+            )
+        ):
             out.append(q)
     return out
 
 
-def caption_bar(text, width):
-    im = Image.new("RGB", (width, 16), (255, 255, 255))
-    d = ImageDraw.Draw(im)
-    d.text((1, 1), text, font=ImageFont.truetype(SANSB, 10), fill=(0, 0, 0))
-    return im
+SANS = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
+SERIFB = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
+
+BG = (236, 230, 216)
+NAVY = (28, 44, 66)
+GOLD = (176, 132, 58)
+WHITE = (252, 250, 246)
+MS_NAVY = (46, 92, 74)
+INK = (36, 36, 38)
+MUTED = (210, 200, 178)
+
+
+def fnt(path, size):
+    return ImageFont.truetype(path, size)
 
 
 def scale_w(im, max_w):
@@ -398,70 +416,167 @@ def scale_w(im, max_w):
     return im.resize((max_w, nh), Image.LANCZOS)
 
 
-def pack(items):
+def round_rect(draw, box, r, fill, outline=None, width=1):
+    x0, y0, x1, y1 = box
+    draw.rounded_rectangle(box, radius=r, fill=fill, outline=outline, width=width)
+
+
+def drop_shadow(card, pad=10):
+    from PIL import ImageFilter
+    w, h = card.size
+    canvas = Image.new("RGB", (w + pad * 2, h + pad * 2), BG)
+    blob = Image.new("L", canvas.size, 0)
+    bd = ImageDraw.Draw(blob)
+    bd.rounded_rectangle(
+        (pad + 3, pad + 5, pad + w + 3, pad + h + 6), 10, fill=90
+    )
+    blob = blob.filter(ImageFilter.GaussianBlur(6))
+    sh = Image.composite(Image.new("RGB", canvas.size, (150, 142, 128)), canvas, blob)
+    sh.paste(card, (pad, pad))
+    return sh
+
+
+def make_card(img, kind, title, max_w):
+    """kind: 'Q' or 'MS'."""
+    inner_w = max_w - 20
+    img = scale_w(img.convert("RGB"), inner_w)
+    bar_h = 28
+    pad = 10
+    w = max_w
+    h = bar_h + pad + img.size[1] + pad
+    card = Image.new("RGB", (w, h), WHITE)
+    d = ImageDraw.Draw(card)
+    bar = NAVY if kind == "Q" else MS_NAVY
+    d.rectangle((0, 0, w, bar_h), fill=bar)
+    d.rectangle((0, bar_h - 3, w, bar_h), fill=GOLD)
+    badge = "QUESTION" if kind == "Q" else "MARK SCHEME"
+    d.text((12, 7), badge, font=fnt(SANSB, 10), fill=GOLD)
+    d.text((w - 12, 7), title, font=fnt(SANS, 10), fill=(245, 240, 228), anchor="ra")
+    card.paste(img, (10, bar_h + pad))
+    d.rectangle((0, 0, w - 1, h - 1), outline=(210, 204, 190))
+    return drop_shadow(card)
+
+
+def new_page(pw, ph, page_no):
+    im = Image.new("RGB", (pw, ph), BG)
+    d = ImageDraw.Draw(im)
+    d.rectangle((0, 0, pw, 46), fill=NAVY)
+    d.rectangle((0, 46, pw, 50), fill=GOLD)
+    d.text(
+        (22, 14),
+        "Cambridge O Level 5090   ·   Ch 7 Transport in plants   ·   Ch 13 Excretion",
+        font=fnt(SANS, 11),
+        fill=(245, 240, 228),
+    )
+    d.text((pw - 22, 14), str(page_no), font=fnt(SANSB, 12), fill=GOLD, anchor="ra")
+    d.rectangle((0, ph - 22, pw, ph), fill=NAVY)
+    d.text(
+        (22, ph - 17),
+        "past-paper crops  ·  mark scheme sits under each question",
+        font=fnt(SANS, 9),
+        fill=(200, 190, 168),
+    )
+    return im
+
+
+def cover(pw, ph):
+    im = Image.new("RGB", (pw, ph), NAVY)
+    d = ImageDraw.Draw(im)
+    d.rectangle((0, 0, 14, ph), fill=GOLD)
+    d.rectangle((pw - 14, 0, pw, ph), fill=GOLD)
+    d.text((pw // 2, 210), "CAMBRIDGE O LEVEL", font=fnt(SANS, 16), fill=GOLD, anchor="ma")
+    d.text((pw // 2, 270), "Biology  5090", font=fnt(SERIFB, 42), fill=WHITE, anchor="ma")
+    d.line((pw // 2 - 140, 310, pw // 2 + 140, 310), fill=GOLD, width=2)
+    d.text((pw // 2, 350), "Chapters 7  &  13", font=fnt(SERIFB, 26), fill=(245, 240, 228), anchor="ma")
+    d.text(
+        (pw // 2, 400),
+        "Transport in flowering plants   ·   Excretion",
+        font=fnt(SERIF, 16),
+        fill=(200, 190, 168),
+        anchor="ma",
+    )
+    d.rounded_rectangle((pw // 2 - 200, 470, pw // 2 + 200, 545), 8, outline=GOLD, width=1)
+    d.text(
+        (pw // 2, 490),
+        "QUESTION BANK",
+        font=fnt(SANSB, 14),
+        fill=GOLD,
+        anchor="ma",
+    )
+    d.text(
+        (pw // 2, 518),
+        "cropped from QP  ·  mark scheme under each question",
+        font=fnt(SANS, 11),
+        fill=(210, 200, 178),
+        anchor="ma",
+    )
+    d.text(
+        (pw // 2, ph - 80),
+        "2010–2025   ·   syllabus 2026–2028",
+        font=fnt(SANS, 12),
+        fill=(160, 150, 130),
+        anchor="ma",
+    )
+    return im
+
+
+def pack_units(units):
+    """Each unit is (q_title, q_img, ms_img). MS is placed immediately after Q."""
     pw, ph = int(A4[0] * DPI / 72), int(A4[1] * DPI / 72)
-    margin, gap = 12, 7
+    margin = 18
     max_w = pw - 2 * margin
-    pages, canvas, y = [], Image.new("RGB", (pw, ph), (255, 255, 255)), margin
-    col_x = None
-    col_bottom = None
+    bottom = ph - 30
+    pages = [cover(pw, ph)]
+    page_no = 1
+    canvas = new_page(pw, ph, page_no)
+    y = 62
 
     def flush():
-        nonlocal canvas, y, col_x, col_bottom
+        nonlocal canvas, y, page_no
         pages.append(canvas)
-        canvas = Image.new("RGB", (pw, ph), (255, 255, 255))
-        y, col_x, col_bottom = margin, None, None
+        page_no += 1
+        canvas = new_page(pw, ph, page_no)
+        y = 62
 
-    def place(cap, im, x, yy):
-        canvas.paste(cap, (x, yy))
-        canvas.paste(im, (x, yy + cap.size[1]))
-        return yy + cap.size[1] + im.size[1] + gap
+    def fit(im, room):
+        """Scale a card down if it is taller than room (and room is usable)."""
+        if im.size[1] <= room:
+            return im
+        if room < 80:
+            return im
+        sc = room / im.size[1]
+        return im.resize((max(1, int(im.size[0] * sc)), max(1, int(im.size[1] * sc))), Image.LANCZOS)
 
-    i = 0
-    while i < len(items):
-        cap_t, im = items[i]
-        if im is None:
-            i += 1
-            continue
-        # two-up for short crops when the next one is also short
-        half = (max_w - gap) // 2
-        im1 = scale_w(im, max_w)
-        bar1 = caption_bar(cap_t, im1.size[0])
-        need1 = bar1.size[1] + im1.size[1] + gap
-        if need1 > ph - 2 * margin:
-            sc = (ph - 2 * margin - 20) / im1.size[1]
-            im1 = im1.resize((max(1, int(im1.size[0] * sc)), max(1, int(im1.size[1] * sc))), Image.LANCZOS)
-            bar1 = caption_bar(cap_t, im1.size[0])
-            need1 = bar1.size[1] + im1.size[1] + gap
+    for n, (title, qim, msim) in enumerate(units, 1):
+        qcard = make_card(qim, "Q", f"{n}   ·   {title}", max_w)
+        mscard = make_card(msim, "MS", title, max_w) if msim is not None else None
+        gap = 8
+        room = bottom - y
+        need_q = qcard.size[1] + gap
+        need_ms = (mscard.size[1] + gap) if mscard else 0
 
-        pair = None
-        if i + 1 < len(items) and items[i + 1][1] is not None:
-            cap2, im2 = items[i + 1]
-            im2s = scale_w(im2, half)
-            im1s = scale_w(im, half)
-            b1 = caption_bar(cap_t, im1s.size[0])
-            b2 = caption_bar(cap2, im2s.size[0])
-            hpair = max(b1.size[1] + im1s.size[1], b2.size[1] + im2s.size[1]) + gap
-            def is_mcq(c):
-                return ("/11/" in c or "/12/" in c) and not c.startswith("MS")
-            if is_mcq(cap_t) and is_mcq(cap2):
-                pair = (b1, im1s, b2, im2s, hpair, cap2)
-
-        if pair:
-            _, _, _, _, hpair, _ = pair
-            if y > margin and y + hpair > ph - margin:
-                flush()
-            b1, im1s, b2, im2s, hpair, cap2 = pair
-            place(b1, im1s, margin, y)
-            place(b2, im2s, margin + half + gap, y)
-            y += hpair
-            i += 2
-            continue
-
-        if y > margin and y + need1 > ph - margin:
+        # keep Q+MS together when they can share a page
+        if y > 62 and need_q + need_ms > room and need_q + need_ms <= bottom - 62:
             flush()
-        y = place(bar1, im1, margin, y)
-        i += 1
+            room = bottom - y
+        elif y > 62 and need_q > room:
+            flush()
+            room = bottom - y
+
+        qcard = fit(qcard, min(room - 8, bottom - 62 - 8))
+        canvas.paste(qcard, (margin, y))
+        y += qcard.size[1] + gap
+
+        if mscard is None:
+            continue
+        room = bottom - y
+        if room < 90:
+            flush()
+            room = bottom - y
+        mscard = fit(mscard, min(room - 4, bottom - 62 - 4))
+        canvas.paste(mscard, (margin, y))
+        y += mscard.size[1] + 14
+
     pages.append(canvas)
     return pages
 
@@ -471,36 +586,37 @@ def to_pdf(pages):
     aw, ah = A4
     for im in pages:
         buf = io.BytesIO()
-        im.convert("RGB").save(buf, "JPEG", quality=72, optimize=True)
+        im.convert("RGB").save(buf, "JPEG", quality=80, optimize=True)
         buf.seek(0)
         c.drawImage(ImageReader(buf), 0, 0, width=aw, height=ah)
         c.showPage()
     c.save()
 
 
-def section(title):
-    im = Image.new("RGB", (900, 24), (255, 255, 255))
-    d = ImageDraw.Draw(im)
-    d.text((2, 4), title, font=ImageFont.truetype(SANSB, 13), fill=(0, 0, 0))
-    return im
-
-
 def main():
-    items = [("QUESTIONS — cropped from the question papers",
-              section("QUESTIONS — cropped from the question papers"))]
+    units = []
 
     for code, qnum, start_at, stop_at in P2:
         try:
-            doc = open_pdf(code, 2, "qp")
+            qp = open_pdf(code, 2, "qp")
         except FileNotFoundError as e:
             print("missing QP", e)
             continue
-        im = crop_question(doc, qnum, start_at, stop_at)
-        doc.close()
-        lab = f"{paper_code(code)}  Q{qnum}"
-        print("QP", lab, None if im is None else im.size)
-        if im is not None:
-            items.append((lab, im))
+        qim = crop_question(qp, qnum, start_at, stop_at)
+        qp.close()
+        if qim is None:
+            print("no QP", paper_code(code), qnum)
+            continue
+        msim = None
+        try:
+            ms = open_pdf(code, 2, "ms")
+            msim = crop_ms_question(ms, qnum)
+            ms.close()
+        except FileNotFoundError as e:
+            print("missing MS", e)
+        lab = f"{paper_code(code)}   Q{qnum}"
+        print("unit", lab, qim.size, None if msim is None else msim.size)
+        units.append((lab, qim, msim))
 
     p1_selected = []
     for y in range(20, 26):
@@ -515,57 +631,31 @@ def main():
                     p1_selected.append((code, q))
                 doc.close()
 
+    ms_cache = {}
     for code, qnum in p1_selected:
-        doc = open_pdf(code, 1, "qp")
-        im = crop_question(doc, qnum)
-        doc.close()
-        lab = f"{paper_code(code)}  Q{qnum}"
-        print("P1", lab, None if im is None else im.size)
-        if im is not None:
-            items.append((lab, im))
-
-    items.append(("MARK SCHEME — cropped from the mark schemes",
-                  section("MARK SCHEME — cropped from the mark schemes")))
-
-    for code, qnum, start_at, stop_at in P2:
-        try:
-            doc = open_pdf(code, 2, "ms")
-        except FileNotFoundError as e:
-            print("missing MS", e)
+        qp = open_pdf(code, 1, "qp")
+        qim = crop_question(qp, qnum)
+        qp.close()
+        if qim is None:
             continue
-        im = crop_ms_question(doc, qnum)
-        lab = f"MS {paper_code(code)}  Q{qnum}"
-        print(lab, None if im is None else im.size)
-        doc.close()
-        if im is not None:
-            items.append((lab, im))
+        if code not in ms_cache:
+            try:
+                ms_cache[code] = open_pdf(code, 1, "ms")
+            except FileNotFoundError:
+                ms_cache[code] = None
+        msim = None
+        if ms_cache[code] is not None:
+            msim = crop_ms_question(ms_cache[code], qnum)
+        lab = f"{paper_code(code)}   Q{qnum}"
+        print("P1 unit", lab, qim.size, None if msim is None else msim.size)
+        units.append((lab, qim, msim))
+    for doc in ms_cache.values():
+        if doc is not None:
+            doc.close()
 
-    by = {}
-    for code, q in p1_selected:
-        by.setdefault(code, []).append(q)
-    for code, qnums in by.items():
-        try:
-            doc = open_pdf(code, 1, "ms")
-        except FileNotFoundError:
-            continue
-        parts = []
-        for qn in qnums:
-            im = crop_ms_question(doc, qn)
-            if im is not None:
-                parts.append(im)
-        doc.close()
-        if not parts:
-            print("no P1 MS", code)
-            continue
-        im = vstack(parts, gap=2)
-        lab = f"MS {paper_code(code)}  Q " + ",".join(map(str, qnums))
-        print(lab, im.size)
-        items.append((lab, im))
-
-    pages = pack(items)
-    pages = [ImageOps.invert(p.convert("RGB")) for p in pages]
+    pages = pack_units(units)
     to_pdf(pages)
-    print("wrote", OUT, "pages", len(pages), "bytes", OUT.stat().st_size)
+    print("wrote", OUT, "pages", len(pages), "bytes", OUT.stat().st_size, "units", len(units))
 
 
 if __name__ == "__main__":
