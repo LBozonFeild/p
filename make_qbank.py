@@ -270,15 +270,13 @@ def vstack(imgs, gap=3):
 
 
 def crop_question(doc, qnum, start_at=None, stop_at=None):
+    # Keep the QP's own line spacing — do not collapse dotted answer lines.
     parts = []
     for pi, y0, y1 in q_spans(doc, qnum, start_at, stop_at):
         im = render_clip(doc[pi], y0, y1)
-        if im is None:
-            continue
-        im = trim_empty_bands(im)
-        if im.size[1] > 10:
+        if im is not None and im.size[1] > 10:
             parts.append(im)
-    return vstack(parts)
+    return vstack(parts, gap=0)
 
 
 def disp(page, rect):
@@ -393,20 +391,6 @@ def p1_hits(doc):
 
 
 SANS = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
-SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
-SERIFB = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
-
-BG = (236, 230, 216)
-NAVY = (28, 44, 66)
-GOLD = (176, 132, 58)
-WHITE = (252, 250, 246)
-MS_NAVY = (46, 92, 74)
-INK = (36, 36, 38)
-MUTED = (210, 200, 178)
-
-
-def fnt(path, size):
-    return ImageFont.truetype(path, size)
 
 
 def scale_w(im, max_w):
@@ -416,167 +400,55 @@ def scale_w(im, max_w):
     return im.resize((max_w, nh), Image.LANCZOS)
 
 
-def round_rect(draw, box, r, fill, outline=None, width=1):
-    x0, y0, x1, y1 = box
-    draw.rounded_rectangle(box, radius=r, fill=fill, outline=outline, width=width)
-
-
-def drop_shadow(card, pad=10):
-    from PIL import ImageFilter
-    w, h = card.size
-    canvas = Image.new("RGB", (w + pad * 2, h + pad * 2), BG)
-    blob = Image.new("L", canvas.size, 0)
-    bd = ImageDraw.Draw(blob)
-    bd.rounded_rectangle(
-        (pad + 3, pad + 5, pad + w + 3, pad + h + 6), 10, fill=90
-    )
-    blob = blob.filter(ImageFilter.GaussianBlur(6))
-    sh = Image.composite(Image.new("RGB", canvas.size, (150, 142, 128)), canvas, blob)
-    sh.paste(card, (pad, pad))
-    return sh
-
-
-def make_card(img, kind, title, max_w):
-    """kind: 'Q' or 'MS'."""
-    inner_w = max_w - 20
-    img = scale_w(img.convert("RGB"), inner_w)
-    bar_h = 28
-    pad = 10
-    w = max_w
-    h = bar_h + pad + img.size[1] + pad
-    card = Image.new("RGB", (w, h), WHITE)
-    d = ImageDraw.Draw(card)
-    bar = NAVY if kind == "Q" else MS_NAVY
-    d.rectangle((0, 0, w, bar_h), fill=bar)
-    d.rectangle((0, bar_h - 3, w, bar_h), fill=GOLD)
-    badge = "QUESTION" if kind == "Q" else "MARK SCHEME"
-    d.text((12, 7), badge, font=fnt(SANSB, 10), fill=GOLD)
-    d.text((w - 12, 7), title, font=fnt(SANS, 10), fill=(245, 240, 228), anchor="ra")
-    card.paste(img, (10, bar_h + pad))
-    d.rectangle((0, 0, w - 1, h - 1), outline=(210, 204, 190))
-    return drop_shadow(card)
-
-
-def new_page(pw, ph, page_no):
-    im = Image.new("RGB", (pw, ph), BG)
+def label_strip(text, width):
+    im = Image.new("RGB", (width, 14), (255, 255, 255))
     d = ImageDraw.Draw(im)
-    d.rectangle((0, 0, pw, 46), fill=NAVY)
-    d.rectangle((0, 46, pw, 50), fill=GOLD)
-    d.text(
-        (22, 14),
-        "Cambridge O Level 5090   ·   Ch 7 Transport in plants   ·   Ch 13 Excretion",
-        font=fnt(SANS, 11),
-        fill=(245, 240, 228),
-    )
-    d.text((pw - 22, 14), str(page_no), font=fnt(SANSB, 12), fill=GOLD, anchor="ra")
-    d.rectangle((0, ph - 22, pw, ph), fill=NAVY)
-    d.text(
-        (22, ph - 17),
-        "past-paper crops  ·  mark scheme sits under each question",
-        font=fnt(SANS, 9),
-        fill=(200, 190, 168),
-    )
-    return im
-
-
-def cover(pw, ph):
-    im = Image.new("RGB", (pw, ph), NAVY)
-    d = ImageDraw.Draw(im)
-    d.rectangle((0, 0, 14, ph), fill=GOLD)
-    d.rectangle((pw - 14, 0, pw, ph), fill=GOLD)
-    d.text((pw // 2, 210), "CAMBRIDGE O LEVEL", font=fnt(SANS, 16), fill=GOLD, anchor="ma")
-    d.text((pw // 2, 270), "Biology  5090", font=fnt(SERIFB, 42), fill=WHITE, anchor="ma")
-    d.line((pw // 2 - 140, 310, pw // 2 + 140, 310), fill=GOLD, width=2)
-    d.text((pw // 2, 350), "Chapters 7  &  13", font=fnt(SERIFB, 26), fill=(245, 240, 228), anchor="ma")
-    d.text(
-        (pw // 2, 400),
-        "Transport in flowering plants   ·   Excretion",
-        font=fnt(SERIF, 16),
-        fill=(200, 190, 168),
-        anchor="ma",
-    )
-    d.rounded_rectangle((pw // 2 - 200, 470, pw // 2 + 200, 545), 8, outline=GOLD, width=1)
-    d.text(
-        (pw // 2, 490),
-        "QUESTION BANK",
-        font=fnt(SANSB, 14),
-        fill=GOLD,
-        anchor="ma",
-    )
-    d.text(
-        (pw // 2, 518),
-        "cropped from QP  ·  mark scheme under each question",
-        font=fnt(SANS, 11),
-        fill=(210, 200, 178),
-        anchor="ma",
-    )
-    d.text(
-        (pw // 2, ph - 80),
-        "2010–2025   ·   syllabus 2026–2028",
-        font=fnt(SANS, 12),
-        fill=(160, 150, 130),
-        anchor="ma",
-    )
+    d.text((2, 1), text, font=ImageFont.truetype(SANSB, 10), fill=(0, 0, 0))
     return im
 
 
 def pack_units(units):
-    """Each unit is (q_title, q_img, ms_img). MS is placed immediately after Q."""
+    """Plain packed crops. MS follows its question. New page only if it will not fit."""
     pw, ph = int(A4[0] * DPI / 72), int(A4[1] * DPI / 72)
-    margin = 18
+    margin, gap = 10, 6
     max_w = pw - 2 * margin
-    bottom = ph - 30
-    pages = [cover(pw, ph)]
-    page_no = 1
-    canvas = new_page(pw, ph, page_no)
-    y = 62
+    pages = []
+    canvas = Image.new("RGB", (pw, ph), (255, 255, 255))
+    y = margin
 
     def flush():
-        nonlocal canvas, y, page_no
+        nonlocal canvas, y
         pages.append(canvas)
-        page_no += 1
-        canvas = new_page(pw, ph, page_no)
-        y = 62
+        canvas = Image.new("RGB", (pw, ph), (255, 255, 255))
+        y = margin
 
-    def fit(im, room):
-        """Scale a card down if it is taller than room (and room is usable)."""
-        if im.size[1] <= room:
-            return im
-        if room < 80:
-            return im
-        sc = room / im.size[1]
-        return im.resize((max(1, int(im.size[0] * sc)), max(1, int(im.size[1] * sc))), Image.LANCZOS)
+    def place(im):
+        nonlocal y
+        canvas.paste(im, (margin, y))
+        y += im.size[1] + gap
 
-    for n, (title, qim, msim) in enumerate(units, 1):
-        qcard = make_card(qim, "Q", f"{n}   ·   {title}", max_w)
-        mscard = make_card(msim, "MS", title, max_w) if msim is not None else None
-        gap = 8
-        room = bottom - y
-        need_q = qcard.size[1] + gap
-        need_ms = (mscard.size[1] + gap) if mscard else 0
-
-        # keep Q+MS together when they can share a page
-        if y > 62 and need_q + need_ms > room and need_q + need_ms <= bottom - 62:
+    def need_place(im):
+        nonlocal y
+        if y > margin and y + im.size[1] > ph - margin:
             flush()
-            room = bottom - y
-        elif y > 62 and need_q > room:
-            flush()
-            room = bottom - y
+        if im.size[1] > ph - 2 * margin:
+            sc = (ph - 2 * margin) / im.size[1]
+            im = im.resize((max(1, int(im.size[0] * sc)), max(1, int(im.size[1] * sc))), Image.LANCZOS)
+        place(im)
 
-        qcard = fit(qcard, min(room - 8, bottom - 62 - 8))
-        canvas.paste(qcard, (margin, y))
-        y += qcard.size[1] + gap
-
-        if mscard is None:
+    for title, qim, msim in units:
+        qim = scale_w(qim.convert("RGB"), max_w)
+        qblock = Image.new("RGB", (max_w, 14 + qim.size[1]), (255, 255, 255))
+        qblock.paste(label_strip(title, max_w), (0, 0))
+        qblock.paste(qim, (0, 14))
+        need_place(qblock)
+        if msim is None:
             continue
-        room = bottom - y
-        if room < 90:
-            flush()
-            room = bottom - y
-        mscard = fit(mscard, min(room - 4, bottom - 62 - 4))
-        canvas.paste(mscard, (margin, y))
-        y += mscard.size[1] + 14
-
+        msim = scale_w(msim.convert("RGB"), max_w)
+        msblock = Image.new("RGB", (max_w, 14 + msim.size[1]), (255, 255, 255))
+        msblock.paste(label_strip("MS  " + title, max_w), (0, 0))
+        msblock.paste(msim, (0, 14))
+        need_place(msblock)
     pages.append(canvas)
     return pages
 
@@ -654,6 +526,7 @@ def main():
             doc.close()
 
     pages = pack_units(units)
+    pages = [ImageOps.invert(p.convert("RGB")) for p in pages]
     to_pdf(pages)
     print("wrote", OUT, "pages", len(pages), "bytes", OUT.stat().st_size, "units", len(units))
 
