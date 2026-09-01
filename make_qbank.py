@@ -18,53 +18,39 @@ DPI = 130
 HEADER, FOOTER = 54, 786
 SANSB = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
+# One recent question per unique MS point. Older duplicates dropped.
 # (code, qnum, start_at, stop_at)
 P2 = [
-    ("s11_22", 6, None, None),
-    ("s11_22", 7, None, "kept alive"),
-    ("s12_21", 6, None, None),
-    ("s12_21", 7, None, "human gametes"),
-    ("s12_22", 3, "(b) List three structural", None),
-    ("s12_22", 9, None, None),
-    ("s16_21", 1, None, None),
-    ("s17_21", 2, None, None),
-    ("s18_21", 6, None, None),
-    ("s20_21", 3, None, None),
-    ("s21_21", 1, None, None),
-    ("s21_21", 7, None, None),
-    ("s21_22", 3, None, None),
-    ("s22_21", 3, None, None),
-    ("s22_22", 5, None, None),
-    ("s22_22", 9, None, "dialysis"),
-    ("s24_22", 4, None, None),
-    ("s24_22", 6, None, None),
-    ("s25_22", 7, None, None),
-    ("w11_21", 8, None, None),
-    ("w12_21", 1, None, None),
-    ("w12_21", 6, None, None),
-    ("w12_22", 7, None, "dialysis"),
-    ("w13_21", 6, None, None),
-    ("w13_22", 7, None, "kidneys maintain"),
-    ("w14_21", 2, None, None),
-    ("w14_21", 7, None, None),
-    ("w14_22", 1, None, None),
-    ("w15_21", 5, None, None),
-    ("w15_21", 9, None, "dialysis"),
-    ("w15_22", 7, None, None),
-    ("w17_21", 2, None, "dialysis"),
-    ("w19_21", 8, None, None),
-    ("w20_22", 7, None, "dialysis"),
-    ("w21_21", 3, None, "dialysis"),
-    ("w22_21", 1, None, None),
-    ("w22_21", 6, None, None),
-    ("w22_22", 8, None, None),
-    ("w23_21", 7, None, None),
-    ("w23_22", 3, None, None),
-    ("w24_21", 1, None, None),
-    ("w24_21", 4, None, None),
-    ("w25_21", 3, None, None),
-    ("w25_21", 4, "Mistletoe", None),
-    ("w25_22", 2, "(b) A scientist", None),
+    ("s21_21", 1, None, None),          # root hair / ion uptake
+    ("w23_21", 7, None, None),          # ions need respiration; water does not
+    ("w24_21", 1, None, None),          # path hair→cortex→xylem + humidity
+    ("s11_22", 6, None, None),          # transpiration def + stained stem
+    ("s17_21", 2, None, None),          # potometer
+    ("w22_21", 6, None, None),          # osmosis / evaporation / diffusion
+    ("s22_22", 5, None, None),          # transpiration in the leaf + factors
+    ("s25_22", 7, None, None),          # transpiration necessary vs problem
+    ("w15_22", 7, None, None),          # how wilting occurs
+    ("w15_21", 5, None, None),          # transplant wilt / root hairs
+    ("s22_21", 3, None, None),          # cuttings + xylem structure↔function
+    ("s21_22", 3, None, None),          # blocked xylem → wilt + yellow
+    ("w25_22", 2, "(b) A scientist", None),  # transpiration pull + light/temp
+    ("w12_21", 6, None, None),          # phloem / aphids / sucrose+AA
+    ("s24_22", 6, None, None),          # fertiliser path + cut flowers
+    ("s16_21", 1, None, None),          # TS root and stem: xylem, phloem, cortex
+    ("s12_22", 3, "(b) List three structural", None),  # young cell → xylem
+    ("w14_21", 7, None, None),          # root hair vs villus
+    ("s12_22", 9, None, None),          # egestion is not excretion
+    ("w24_21", 4, None, None),          # excretion definition + CO2
+    ("w13_22", 7, None, "kidneys maintain"),  # lungs as excretory organs
+    ("w22_21", 1, None, None),          # kidney, ureter, bladder, urethra
+    ("s22_22", 9, None, "dialysis"),    # ureter vs urethra
+    ("s24_22", 4, None, None),          # nephron: filter / reabsorb / urine
+    ("s21_21", 7, None, None),          # urea path liver → urine
+    ("w14_21", 2, None, None),          # assimilation AA → protein
+    ("w19_21", 8, None, None),          # deamination / protein → urea
+    ("w25_21", 3, None, None),          # more protein → more urea
+    ("w23_22", 3, None, None),          # urea in hepatic vs renal vessels
+    ("w21_21", 3, None, "dialysis"),    # liver makes urea
 ]
 
 P1_STRONG = re.compile(
@@ -491,7 +477,8 @@ def main():
         units.append((lab, qim, msim))
 
     p1_selected = []
-    for y in range(20, 26):
+    # 2024–25 only: older MCQs repeat the same traps.
+    for y in range(24, 26):
         for s in ("s", "w"):
             for v in ("11", "12"):
                 code = f"{s}{y:02d}_{v}"
