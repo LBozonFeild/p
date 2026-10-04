@@ -551,42 +551,6 @@ def main():
         print("unit", lab, qim.size, None if msim is None else msim.size)
         units.append((lab, qim, msim))
 
-    p1_selected = []
-    # 2020–25: unique-enough recent MCQs; older years repeat the same traps.
-    for y in range(20, 26):
-        for s in ("s", "w"):
-            for v in ("11", "12"):
-                code = f"{s}{y:02d}_{v}"
-                try:
-                    doc = open_pdf(code, 1, "qp")
-                except FileNotFoundError:
-                    continue
-                for q in p1_hits(doc):
-                    p1_selected.append((code, q))
-                doc.close()
-
-    ms_cache = {}
-    for code, qnum in p1_selected:
-        qp = open_pdf(code, 1, "qp")
-        qim = crop_question(qp, qnum)
-        qp.close()
-        if qim is None:
-            continue
-        if code not in ms_cache:
-            try:
-                ms_cache[code] = open_pdf(code, 1, "ms")
-            except FileNotFoundError:
-                ms_cache[code] = None
-        msim = None
-        if ms_cache[code] is not None:
-            msim = crop_ms_question(ms_cache[code], qnum)
-        lab = f"{paper_code(code)}   Q{qnum}"
-        print("P1 unit", lab, qim.size, None if msim is None else msim.size)
-        units.append((lab, qim, msim))
-    for doc in ms_cache.values():
-        if doc is not None:
-            doc.close()
-
     pages = pack_units(units)
     pages = [ImageOps.invert(p.convert("RGB")) for p in pages]
     to_pdf(pages)
