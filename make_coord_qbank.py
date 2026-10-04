@@ -62,12 +62,15 @@ P1_STRONG = re.compile(
 P1_FALSE = re.compile(
     r"fetus|umbilical|sperm|pregnan|food chain|reproductive system|dialysis|"
     r"genetic modif|inserted into bacter|insulin genes|artificial insulin|"
-    r"production of human insulin|menstrual|ovulation|carbon monoxide|"
+    r"production of human insulin|human insulin gene|produce human insulin|"
+    r"insulin from other animals|menstrual|ovulation|egg cell from the ovary|"
+    r"Which row is correct|carbon monoxide|"
     r"assimilation|dietary deficiency|biological catalyst|"
     r"example of an organ|identifies a cell, a tissue|"
     r"photomicrograph shows a sample of blood|example of excretion|"
     r"Which substance is an enzyme|nerve impulses travelling|"
-    r"phototrop|gravitrop|auxin|tropism|shoot tip|plant shoot",
+    r"phototrop|gravitrop|auxin|tropism|shoot tip|plant shoot|"
+    r"cerebrum|cerebellum|shaded part of the brain",
     re.I,
 )
 
@@ -549,8 +552,8 @@ def main():
         units.append((lab, qim, msim))
 
     p1_selected = []
-    # 2024–25 only: older MCQs repeat the same traps.
-    for y in range(24, 26):
+    # 2020–25: unique-enough recent MCQs; older years repeat the same traps.
+    for y in range(20, 26):
         for s in ("s", "w"):
             for v in ("11", "12"):
                 code = f"{s}{y:02d}_{v}"
