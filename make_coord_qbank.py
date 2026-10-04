@@ -25,9 +25,16 @@ P2 = [
     ("w24_21", 3, None, None),  # CNS labels + reflex + adrenal C
     ("w25_21", 8, None, None),  # synapse events
     ("s20_21", 9, None, "parts of the brain"),  # motor vs sensory; drop cerebrum
+    ("s11_21", 9, None, None),  # neurone location in reflex arc + functions
+    ("s19_22", 7, None, None),  # name reflex + neurone sequence
+    ("s18_21", 8, None, "Explain the concept of control"),  # example + importance
+    ("w11_22", 3, None, None),  # letter sequences: reflex vs voluntary vs hormone
     ("w25_21", 2, None, "(b) Some people have"),  # iris / fovea / lens / suspensory
     ("w24_22", 4, None, None),  # accommodation + pupil appearance
     ("s21_21", 2, "(c) When the bright light", "(d) Some people inherit"),
+    ("s12_21", 4, None, None),  # light path to retina + pupil + reflex def
+    ("s12_22", 1, None, None),  # eye labels + dim light + detached retina
+    ("w22_21", 7, "A man is threading", None),  # near-object focus
     ("w25_22", 1, None, "plant shoot"),  # glands → hormones → targets; drop auxin
     ("s23_21", 1, None, None),  # hormone definition + gland table
     ("s22_21", 8, None, None),  # nervous vs hormonal + adrenaline
@@ -39,6 +46,8 @@ P2 = [
     ("s22_21", 1, None, None),  # skin labels / cold / fat
     ("w20_22", 6, None, None),  # skin in a hot environment
     ("s15_21", 1, None, None),  # two skin conditions
+    ("w13_21", 1, None, None),  # skin two temps + named constricting vessel
+    ("w17_21", 9, None, None),  # nervous system in temperature + adrenaline
 ]
 
 P1_STRONG = re.compile(
@@ -70,6 +79,8 @@ MS_CLIP = {
     ("w24_22", 3): (None, "3(b)"),
     ("s14_21", 6): (None, "water absorbed"),
     ("w25_22", 1): (None, "1(b)"),
+    ("w22_21", 7): ("7(b)", None),
+    ("s18_21", 8): (None, "9(a)"),
 }
 
 
@@ -373,6 +384,11 @@ def crop_ms_question(doc, qnum: int, ms_start=None, ms_stop=None):
             mine = [disp(page, h).y0 for h in hits]
             if not mine:
                 if started:
+                    later = [y for y in nxt if y > 40]
+                    if later:
+                        im = render_clip(page, 28, min(later) - 3, x0=14, dpi=120)
+                        if im is not None and im.size[1] > 10:
+                            parts.append(im)
                     break
                 continue
         started = True
