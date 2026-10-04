@@ -13,7 +13,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.utils import ImageReader
 
 ROOT = Path("/home/user/p")
-OUT = ROOT / "Ch14_Ch15_Question_Bank.pdf"
+OUT = ROOT / "Ch14_Question_Bank.pdf"
 DPI = 130
 HEADER, FOOTER = 54, 786
 SANSB = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
@@ -28,7 +28,7 @@ P2 = [
     ("w25_21", 2, None, "(b) Some people have"),  # iris / fovea / lens / suspensory
     ("w24_22", 4, None, None),  # accommodation + pupil appearance
     ("s21_21", 2, "(c) When the bright light", "(d) Some people inherit"),
-    ("w25_22", 1, None, "constant supply of water"),  # glands → hormones → targets
+    ("w25_22", 1, None, "plant shoot"),  # glands → hormones → targets; drop auxin
     ("s23_21", 1, None, None),  # hormone definition + gland table
     ("s22_21", 8, None, None),  # nervous vs hormonal + adrenaline
     ("s20_21", 1, None, "healthy diet"),  # hormone in blood to target
@@ -39,14 +39,12 @@ P2 = [
     ("s22_21", 1, None, None),  # skin labels / cold / fat
     ("w20_22", 6, None, None),  # skin in a hot environment
     ("s15_21", 1, None, None),  # two skin conditions
-    ("s23_21", 3, "(c) The tomato plant", "(d) The diploid"),  # phototropism / auxin
-    ("w24_22", 7, "phototropism and gravitropism", None),  # tropism compare
 ]
 
 P1_STRONG = re.compile(
     r"neurone|neuron|synapse|reflex|hormone|adrenaline|insulin|glucagon|"
-    r"homeostasis|hypothalamus|vasodilat|vasoconstrict|phototrop|gravitrop|auxin|"
-    r"pupil|iris|retina|diabetes|ciliary|fovea|tropism|optic nerve|blind spot|"
+    r"homeostasis|hypothalamus|vasodilat|vasoconstrict|"
+    r"pupil|iris|retina|diabetes|ciliary|fovea|optic nerve|blind spot|"
     r"sweat gland|erector|shiver|negative feedback|endocrine|accommodat|"
     r"sensory neurone|motor neurone|relay neurone|set point",
     re.I,
@@ -59,7 +57,8 @@ P1_FALSE = re.compile(
     r"assimilation|dietary deficiency|biological catalyst|"
     r"example of an organ|identifies a cell, a tissue|"
     r"photomicrograph shows a sample of blood|example of excretion|"
-    r"Which substance is an enzyme|nerve impulses travelling",
+    r"Which substance is an enzyme|nerve impulses travelling|"
+    r"phototrop|gravitrop|auxin|tropism|shoot tip|plant shoot",
     re.I,
 )
 
@@ -70,8 +69,7 @@ MS_CLIP = {
     ("s21_21", 2): ("2(c)", "2(d)"),
     ("w24_22", 3): (None, "3(b)"),
     ("s14_21", 6): (None, "water absorbed"),
-    ("s23_21", 3): ("3(c)", "3(d)"),
-    ("w24_22", 7): ("7(c)", None),
+    ("w25_22", 1): (None, "1(b)"),
 }
 
 

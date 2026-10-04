@@ -1,6 +1,6 @@
-# 5090 Ch 14 + 15 — MS points + MCQ traps
-2010–2025 P1/P2. Latest MS wins. Bound to **2026–28** 14 + 15 only.  
-**Out:** cerebrum/cerebellum/medulla functions; ADH/osmoregulation; dialysis; rods vs cones by name; choroid; Type 2; hydrotropism; weedkillers; auxin **in roots** as required explanation; neurotransmitter breakdown enzymes; GM insulin manufacture.
+# 5090 Ch 14 — MS points + MCQ traps
+2010–2025 P1/P2. Latest MS wins. Bound to **2026–28** **14 Coordination and control** only (no Ch 15 plants).  
+**Out:** plant tropisms / auxin; cerebrum/cerebellum/medulla functions; ADH/osmoregulation; dialysis; rods vs cones by name; choroid; Type 2; neurotransmitter breakdown enzymes; GM insulin manufacture.
 
 P2 = **one idea per semicolon**. Always **link**.
 
@@ -110,26 +110,6 @@ Must control [glucose]: too high/low harms cells / respiration / water potential
 
 ---
 
-# 15 Coordination and response in plants
-
-**Gravitropism:** grow **towards or away from gravity** (shoot **negative**; root **positive**).  
-**Phototropism:** grow **towards or away from light** (shoot **positive**).
-
-**Auxin in the shoot only (this list):**  
-(a) made in the **shoot tip**  
-(b) **spreads** from the tip  
-(c) **unequal** distribution in **light** and **gravity**  
-(d) **stimulates cell elongation**
-
-Light from one side → more auxin on **shaded** side → shaded cells elongate more → shoot **bends towards light**.  
-Shoot on its side → more auxin on **lower** side → lower cells elongate more → shoot bends **up**.
-
-**Investigate** tropisms in **shoots and roots** (clinostat / unilateral light / seedlings on side; equal vs unequal light).
-
-**R:** auxin **inhibits** shoot elongation; auxin made in the root as a required point; hydrotropism.
-
----
-
 # MCQ traps (recent)
 - Pupil receptors are in the **retina**, not iris/pupil.  
 - Bright light: **circular** contract (not ciliary).  
@@ -137,6 +117,5 @@ Shoot on its side → more auxin on **lower** side → lower cells elongate more
 - Synapse: chemical then electrical in the **next** neurone; **one way**.  
 - Insulin **lowers** blood glucose; glucagon **raises**. Adrenaline **raises** glucose **and** heart rate.  
 - Type 1 sign = **glucose in urine** / raised blood glucose — not “no glucose in blood”.  
-- Auxin: **stimulates** elongation in **shoots**; more on **shaded / lower** side.  
 - Homeostasis ≠ “body temperature never changes”; it is **returned to a set point**.  
 - Vasodilation/constriction = **arterioles** to skin, not capillaries themselves.
