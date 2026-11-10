@@ -20,6 +20,7 @@ safely be re-run (it will not double-invert).
   python3 invert_pdfs.py --restore FILE...  # undo the inversion
 """
 import argparse
+import re
 import sys
 
 import pikepdf
@@ -29,6 +30,15 @@ MARKER = '/ArenaInvert'
 GS_NAME = 'ArenaInv'
 
 
+def _norm(data: bytes) -> bytes:
+    """Canonical form of a wrapper stream: line endings + ExtGState name."""
+    data = data.replace(b"\r\n", b"\n")
+    return _GS_RE.sub(b"/" + GS_NAME.encode(), data)
+
+
+_GS_RE = re.compile(rb"/" + GS_NAME.encode() + rb"\d*")
+
+
 def _box(page):
     mb = [float(v) for v in page.MediaBox]
     w, h = mb[2] - mb[0], mb[3] - mb[1]
@@ -36,6 +46,22 @@ def _box(page):
 
 
 def _templates(page):
+    """Content-stream wrappers.
+
+    The original content is sandwiched in its own q/Q so that a leaked clipping
+    path inside it cannot clip the inversion rectangle (which is what happens on
+    a handful of CAMBRIDGE examiner reports). The % comment lines let a later
+    --restore find the wrappers regardless of how they were built.
+    """
+    box = _box(page)
+    prefix = (b"%ArenaInvertBase\nq\n" + box + b" re W n\n1 1 1 rg\n" + box + b" re f\nq\n")
+    suffix = (b"\nQ\n%ArenaInvertInvert\n/" + GS_NAME.encode() + b" gs\n1 1 1 rg\n"
+              + box + b" re f\nQ\n")
+    return prefix, suffix
+
+
+def _legacy_templates(page):
+    """Templates produced by the first version of this tool (no q/Q isolation)."""
     box = _box(page)
     prefix = b"q\n" + box + b" re W n\n1 1 1 rg\n" + box + b" re f\n"
     suffix = b"\n/" + GS_NAME.encode() + b" gs\n1 1 1 rg\n" + box + b" re f\nQ\n"
@@ -92,13 +118,16 @@ def restore_page(pdf, page):
     if not page.get(MARKER):
         return False
 
-    prefix, suffix = _templates(page)
+    lprefix, lsuffix = _legacy_templates(page)
+    known = {_norm(lprefix), _norm(lsuffix)}
     kept = []
-    for s in _streams(page):
-        data = s.read_bytes()
-        if data == prefix or data == suffix or data.replace(b'\r\n', b'\n') in (prefix, suffix):
+    for st in _streams(page):
+        data = st.read_bytes()
+        if b"%ArenaInvertBase" in data or b"%ArenaInvertInvert" in data:
             continue
-        kept.append(s)
+        if _norm(data) in known:
+            continue
+        kept.append(st)
 
     if len(kept) == 1:
         page.Contents = pdf.make_indirect(kept[0])
