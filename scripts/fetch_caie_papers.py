@@ -100,6 +100,25 @@ KIND_CODES = [
 ]
 
 
+# Folder names as they actually exist in papers/ (e.g. papers/biology-5090).
+FOLDER_SLUGS = {
+    "5090": "biology-5090",
+    "5070": "chemistry-5070",
+    "2210": "computer-science-2210",
+    "2281": "economics-2281",
+    "5054": "physics-5054",
+    "4037": "mathematics-additional-4037",
+    "4024": "mathematics-d-calculator-version-4024",
+    "3204": "bengali-3204",
+    "7707": "accounting-7707",
+    "1123": "english-language-1123",
+}
+
+
+def folder_name(code: str) -> str:
+    return FOLDER_SLUGS[code]
+
+
 def kind_code(text: str) -> str:
     t = " ".join(text.lower().split())
     for needle, code in KIND_CODES:
@@ -174,7 +193,7 @@ def fetch_from_missing(manifest: Path, out_root: Path, session=requests.Session(
     want = sorted(set(found))
     print(f"{len(want)} files listed in {manifest}")
 
-    folder_for = {code: f"{code}_{name}" for code, (slug, name) in SUBJECTS.items()}
+    folder_for = {code: folder_name(code) for code in SUBJECTS}
     got: list[Path] = []
     for name in want:
         code = name.split("_")[0]
