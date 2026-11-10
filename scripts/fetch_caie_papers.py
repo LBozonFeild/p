@@ -158,6 +158,41 @@ def fetch(session: requests.Session, url: str, dest: Path, retries: int = 3) -> 
     return "fail"
 
 
+
+PAPA = "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/{name}.pdf"
+
+
+def fetch_from_missing(manifest: Path, out_root: Path, session=requests.Session()) -> list[Path]:
+    """Download the exact files named in papers/MISSING.md, then invert them.
+
+    The manifest lists bare names such as 5090_s26_qp_11; the subject folder is
+    derived from the syllabus code, so the layout matches the rest of papers/.
+    """
+    import re as _re
+    text = manifest.read_text()
+    found = _re.findall(r"`([0-9]{4}_[smw][0-9]{2}_[A-Za-z0-9_\-]+)`", text)
+    want = sorted(set(found))
+    print(f"{len(want)} files listed in {manifest}")
+
+    folder_for = {code: f"{code}_{name}" for code, (slug, name) in SUBJECTS.items()}
+    got: list[Path] = []
+    for name in want:
+        code = name.split("_")[0]
+        dest_dir = out_root / folder_for[code]
+        dest = dest_dir / f"{name}.pdf"
+        if dest.exists() and dest.stat().st_size > 1024:
+            continue
+        url = PAPA.format(name=name)
+        status = fetch(session, url, dest)
+        if status == "ok":
+            got.append(dest)
+            print(f"  + {dest_dir.name}/{name}.pdf", flush=True)
+        elif status != "skip":
+            print(f"  ? {name}: {status}", flush=True)
+        time.sleep(0.3)
+    return got
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--subject", nargs="*", default=sorted(SUBJECTS),
@@ -166,6 +201,8 @@ def main() -> int:
     ap.add_argument("--no-invert", action="store_true", help="download only")
     ap.add_argument("--restore", action="store_true", help="undo the colour inversion")
     ap.add_argument("--delay", type=float, default=0.4, help="seconds between requests")
+    ap.add_argument("--from-missing", metavar="FILE",
+                    help="download exactly the files named in papers/MISSING.md")
     args = ap.parse_args()
 
     out_root = Path(args.out)
@@ -178,6 +215,13 @@ def main() -> int:
 
     downloaded: list[Path] = []
     report: list[tuple[str, int, int]] = []
+
+    if args.from_missing:
+        downloaded = fetch_from_missing(Path(args.from_missing), out_root, session)
+        print(f"\n{len(downloaded)} files downloaded from the manifest")
+        if args.no_invert or not downloaded:
+            return 0
+        args.subject = []            # skip the subject-page crawl below
 
     for code in args.subject:
         if code not in SUBJECTS:
