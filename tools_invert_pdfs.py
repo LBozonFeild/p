@@ -20,6 +20,8 @@ safely be re-run (it will not double-invert).
   python3 invert_pdfs.py --restore FILE...  # undo the inversion
 """
 import argparse
+import glob as _glob
+import os
 import re
 import sys
 
@@ -151,10 +153,28 @@ def main():
     ap.add_argument('--quiet', action='store_true')
     args = ap.parse_args()
 
+    # Expand directories and glob patterns ourselves: cmd.exe on Windows does
+    # not expand *.pdf for external programs, and a bare folder is convenient.
+    targets: list[str] = []
+    for raw in args.paths:
+        if os.path.isdir(raw):
+            hits = sorted(_glob.glob(os.path.join(raw, "**", "*.pdf"), recursive=True))
+        elif any(ch in raw for ch in "*?["):
+            hits = sorted(_glob.glob(raw, recursive=True))
+        else:
+            hits = [raw]
+        found = [h for h in hits if os.path.isfile(h)]
+        if not found:
+            print(f"!! nothing matched: {raw}", file=sys.stderr)
+        targets.extend(found)
+    # de-duplicate while keeping order
+    seen = set()
+    targets = [t for t in targets if not (t in seen or seen.add(t))]
+
     op = restore_page if args.restore else invert_page
     total_files = total_pages = 0
     failures = []
-    for path in args.paths:
+    for path in targets:
         try:
             with pikepdf.open(path, allow_overwriting_input=True) as pdf:
                 changed = sum(1 for pg in pdf.pages if op(pdf, pg))
@@ -171,6 +191,9 @@ def main():
 
     verb = "restored" if args.restore else "inverted"
     print(f"\nDONE: {total_files} files, {total_pages} pages {verb}, {len(failures)} failures", flush=True)
+    if failures:
+        return 1
+    return 0
 
 
 if __name__ == '__main__':

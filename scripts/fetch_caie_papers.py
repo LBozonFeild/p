@@ -297,11 +297,11 @@ def main() -> int:
         return 0
 
     # ---- invert ----
-    script = Path(__file__).with_name("invert_pdfs.py")
-    if not script.exists():
-        script = Path(__file__).with_name("tools_invert_pdfs.py")
-    if not script.exists():
-        print("\n! inverter not found next to this script; skipping inversion")
+    repo = Path(__file__).resolve().parent.parent
+    script = next((c for c in (repo / "tools_invert_pdfs.py", repo / "scripts" / "invert_pdfs.py",
+                               Path(__file__).with_name("invert_pdfs.py")) if c.exists()), None)
+    if script is None:
+        print("\n! inverter not found; expected tools_invert_pdfs.py at the repo root")
         return 0
 
     try:
