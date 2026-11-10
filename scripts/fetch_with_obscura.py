@@ -97,15 +97,9 @@ def already_have(name: str) -> bool:
 
 
 def obscura_fetch(binary: str, url: str, dest: Path, args) -> str:
-    """Fetch one URL through Obscura's JS engine and write the bytes out."""
-    # Read the file as base64 so binary PDFs survive both `--dump` modes.
-    js = (
-        "fetch(location.href).then(r=>r.arrayBuffer())"
-        ".then(b=>{let s='',u=new Uint8Array(b),C=0x8000;"
-        "for(let i=0;i<u.length;i+=C){s+=String.fromCharCode.apply(null,u.subarray(i,i+C));}"
-        "return btoa(s);})"
-    )
-    cmd = [binary, "fetch", url, "--eval", js, "--timeout", str(args.timeout), "--quiet"]
+    """Fetch one URL with `obscura fetch --dump original` (binary-safe)."""
+    cmd = [binary, "fetch", url, "--dump", "original",
+           "--timeout", str(args.timeout), "--quiet"]
     if args.stealth:
         cmd.append("--stealth")
     if args.proxy:
@@ -116,34 +110,20 @@ def obscura_fetch(binary: str, url: str, dest: Path, args) -> str:
         cmd += ["--wait", str(args.wait)]
 
     try:
-        proc = subprocess.run(cmd, capture_output=True, text=True, timeout=args.timeout + 60)
+        proc = subprocess.run(cmd, capture_output=True, timeout=args.timeout + 60)
     except subprocess.TimeoutExpired:
         return "timeout"
 
-    out = (proc.stdout or "").strip()
-    if proc.returncode != 0 or not out:
-        err = (proc.stderr or "").strip().splitlines()
+    data = proc.stdout or b""
+    if proc.returncode != 0 or not data:
+        err = (proc.stderr or b"").decode("utf-8", "replace").strip().splitlines()
         print(f"    ! obscura failed rc={proc.returncode} {err[-1][:100] if err else ''}")
         return "fail"
 
-    # The eval result is JSON (a quoted string) unless --quiet printed raw base64.
-    payload = out
-    if payload.startswith('"') and payload.endswith('"'):
-        payload = payload[1:-1]
-
-    import base64
-    import json
-
-    try:
-        data = base64.b64decode(payload, validate=True)
-    except Exception:
-        try:  # maybe it was JSON-escaped
-            data = base64.b64decode(json.loads(out), validate=True)
-        except Exception:
-            return "not-base64"
-
+    # Cloudflare / error pages must never be saved as papers
     if not data.startswith(b"%PDF"):
-        # Cloudflare interstitial or an error page came back instead of the file
+        head = data[:60].decode("utf-8", "replace").replace("\n", " ")
+        print(f"    ! not a PDF (got {len(data)}B: {head!r})")
         return "not-a-pdf"
 
     dest.parent.mkdir(parents=True, exist_ok=True)
@@ -192,8 +172,13 @@ def main() -> int:
             "  Download: https://github.com/h4ckf0r0day/obscura/releases/latest"
         )
     print(f"using {binary}")
-    ver = subprocess.run([binary, "--version"], capture_output=True, text=True).stdout.strip()
-    print(f"  {ver}")
+    try:
+        ver = subprocess.run([binary, "--version"], capture_output=True, text=True,
+                             timeout=30).stdout.strip()
+        if ver:
+            print(f"  {ver}")
+    except Exception:
+        pass
 
     got: list[Path] = []
     stats: dict[str, int] = {}
