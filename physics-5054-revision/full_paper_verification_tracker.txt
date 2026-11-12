@@ -1,5 +1,5 @@
 CAMBRIDGE O LEVEL PHYSICS 5054 — FULL PAPER VERIFICATION TRACKER (Papers 1 and 2)
-generated 2026-11-12 15:41 UTC from per-paper findings files in findings/ (regenerate with tools/check.py + tools/report.py)
+generated 2026-11-12 15:58 UTC from per-paper findings files in findings/ (regenerate with tools/check.py + tools/report.py)
 
 Eligible pairs: 156 (Paper 1: 78, Paper 2: 78) | fully verified so far: 156 (Paper 1: 78, Paper 2: 78) | not yet verified: 0
 

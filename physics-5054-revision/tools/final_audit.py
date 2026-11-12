@@ -210,8 +210,8 @@ a=subprocess.run([sys.executable,os.path.join(REPO,'tools','audit_notes.py')],ca
 for ln in a.stdout.strip().split('\n'): P('   '+ln)
 if a.returncode!=0 or 'A structure problems: 0' not in a.stdout or 'still to be read by hand: 0' not in a.stdout: problems.append('notes audit not clean')
 notes=open(REPO+'/physics_papers_1_2_notes.txt',encoding='utf-8').read()
-ntick=sum(1 for l in notes.split(chr(10)) if l.startswith('  [ ] '))
-P(f'   notes file: {notes.count(chr(10))} lines, {len(notes)} characters, {ntick} tick-box lines (lines that start with "  [ ] ")')
+ntick=sum(1 for l in notes.split(chr(10)) if l.startswith('  - '))
+P(f'   notes file: {notes.count(chr(10))} lines, {len(notes)} characters, {ntick} checklist lines (lines that start with "  - ")')
 def _num(rx,default='?'):
     m_=re.search(rx,a.stdout); return m_.group(1) if m_ else default
 A_else=_num(r'sister sections\): (\d+)'); A_spread=_num(r'several lines of the section: (\d+)'); A_okB=_num(r'listed in _audit_ok.txt\): (\d+)')

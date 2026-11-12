@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """build_notes.py — assemble physics_papers_1_2_notes.txt from tools/notes_src/<section>.txt.
 Each sub-topic prints its Paper 2 marking points ('- ' lines) and then its Paper 1 multiple-choice points ('* ' lines)
-as tick-box lines.  Order of sub-topics: the 'ORDER' line of the section file (default: file order).
+as lines that start with a dash.  Order of sub-topics: the 'ORDER' line of the section file (default: file order).
 The script refuses to build if a sub-topic that holds findings has no checklist, or if the catch-all 'Z' holds findings."""
 import sys, re, textwrap
 from notes_lib import *
@@ -29,6 +29,8 @@ EQ_RX=re.compile(r'(?<![A-Za-z.])([A-Za-zλρΔ]{1,3}) = (?=\S)')
 def wrap(prefix,text):
     text=UNIT_RX.sub('\u00a0',text)
     text=EQ_RX.sub(lambda m:m.group(1)+'\u00a0=\u00a0',text)
+    # checklist lines start with a dash, so a wrapped line must not begin with a dash or a minus sign: both stay with the word before
+    text=text.replace(' – ','\u00a0– ').replace(' − ','\u00a0− ')
     out=textwrap.fill(text,width=W,initial_indent=prefix,subsequent_indent=' '*len(prefix),break_long_words=False,break_on_hyphens=False)
     return out.replace('\u00a0',' ')
 def sections():
@@ -69,7 +71,7 @@ def main():
       '"earlier syllabuses" (induced charges; earthing and charging by induction; static electricity in practice).'))
     out+=['','HOW TO READ THE CHECKLISTS','']
     for t in [
-     'Every line that starts with [ ] is one point to learn and tick off.',
+     'Every line that starts with a dash (-) is one point to learn.',
      'PAPER 2 MARKING POINTS are the answers that the mark schemes for the structured paper give credit for. The same point asked in several papers is written once, in general wording. Alternatives that the schemes accept, and answers they ignore or reject, are kept with the point.',
      'PAPER 1 MULTIPLE-CHOICE POINTS are short explanations of the ideas that lead to the correct option in the multiple-choice paper. A multiple-choice mark scheme gives only the letter of the answer, so these lines are explanations written for these notes and are not official marking points.',
      'Numbers inside a point are examples of the method; in an examination use the data of the question.']:
@@ -116,14 +118,14 @@ def main():
             body+=['',caps(b['title']),'']
             if p2:
                 body.append('  Paper 2 marking points'); np2+=len(p2)
-                body+=[wrap('  [ ] ',t) for t in p2]
+                body+=[wrap('  - ',t) for t in p2]
             if p1:
                 if p2: body.append('')
                 body.append('  Paper 1 multiple-choice points (explanations, not official marking points)'); np1+=len(p1)
-                body+=[wrap('  [ ] ',t) for t in p1]
+                body+=[wrap('  - ',t) for t in p1]
     out+=['','CONTENTS']+toc+body+['','',bar,'END OF NOTES',bar]
     if problems:
         print('NOT BUILT —',len(problems),'problem(s):'); print('\n'.join(problems)); sys.exit(1)
     open(OUT,'w',encoding='utf-8').write('\n'.join(out)+'\n')
-    print(f'wrote {OUT}: {len(out)} lines; {nsub} sub-topics; {np2} Paper 2 marking points; {np1} Paper 1 points; {np2+np1} tick-box lines')
+    print(f'wrote {OUT}: {len(out)} lines; {nsub} sub-topics; {np2} Paper 2 marking points; {np1} Paper 1 points; {np2+np1} checklist lines')
 if __name__=='__main__': main()

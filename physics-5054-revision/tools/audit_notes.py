@@ -120,12 +120,12 @@ for sec,title,rows in build_notes.sections():
 txt=open(NOTES,encoding='utf-8').read()
 flat=[];cur=None
 for ln in txt.split('\n'):
-    if ln.startswith('  [ ] '): cur=ln[6:]; flat.append(cur)
-    elif ln.startswith('      ') and flat and cur is not None: flat[-1]+=' '+ln.strip()
+    if ln.startswith('  - '): cur=ln[4:]; flat.append(cur)
+    elif ln.startswith('    ') and flat and cur is not None: flat[-1]+=' '+ln.strip()
     else: cur=None
 want=[l for _,_,l in allp2]+[l for _,_,l in allp1]
 cw=collections.Counter(re.sub(r'\s+',' ',x) for x in want); cf=collections.Counter(re.sub(r'\s+',' ',x) for x in flat)
-if cw!=cf: rep.append(f'A FAIL notes file differs from notes_src: {sum((cw-cf).values())} missing, {sum((cf-cw).values())} extra tick-box lines')
+if cw!=cf: rep.append(f'A FAIL notes file differs from notes_src: {sum((cw-cf).values())} missing, {sum((cf-cw).values())} extra checklist lines')
 # D: references and scope
 body=txt.split('END OF NOTES')[0]
 start=body.index('CONTENTS')
@@ -152,7 +152,7 @@ for sec_,b_,l in allp2+allp1:
         if sec_ not in SCOPE_OK.get(w,'').split(): scopelines.append((f'S|{sec_}|{b_}|{w}|{l[:50]}',l))
 out=[]
 out.append(f'findings lines: {tot_items} | filed in a sub-topic with a checklist: {filed} | marking points / MCQ lines checked: {tot_points}')
-out.append(f'checklist lines: Paper 2 {len(allp2)}, Paper 1 {len(allp1)} | tick-box lines in the notes file: {len(flat)}')
+out.append(f'checklist lines: Paper 2 {len(allp2)}, Paper 1 {len(allp1)} | lines that start with a dash in the notes file: {len(flat)}')
 out.append('coverage of findings points by the best single checklist line: '+', '.join(f'{k} {v}' for k,v in sorted(histB.items())))
 out.append(f'A structure problems: {len(rep)}')
 out+=rep

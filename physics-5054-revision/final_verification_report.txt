@@ -1,5 +1,5 @@
 FINAL VERIFICATION REPORT — Cambridge O Level Physics 5054, Papers 1 and 2
-generated 2026-11-12 15:41 UTC by tools/final_audit.py (does not use tools/check.py or the pipeline parsers)
+generated 2026-11-12 15:59 UTC by tools/final_audit.py (does not use tools/check.py or the pipeline parsers)
 
 RESULT
    eligible question paper / mark scheme pairs: 156 | verified: 156 | unverified: 0
@@ -84,14 +84,14 @@ LIMITS AND JUDGEMENT CALLS (read these before relying on the figures)
 
 5. NOTES AUDIT (tools/audit_notes.py)
    findings lines: 3406 | filed in a sub-topic with a checklist: 3406 | marking points / MCQ lines checked: 4992
-   checklist lines: Paper 2 1005, Paper 1 439 | tick-box lines in the notes file: 1444
+   checklist lines: Paper 2 1005, Paper 1 439 | lines that start with a dash in the notes file: 1444
    coverage of findings points by the best single checklist line: best<0.6 536, best>=0.6 1050, best>=0.8 2769, no words 637
    A structure problems: 0
    B findings points below the threshold in their own sub-topic: matched by one checklist line elsewhere in the section (or its sister sections): 254 | content words found across several lines of the section: 152 | accepted after reading (listed in _audit_ok.txt): 59
    B findings points still to be read by hand: 0
    C checklist lines whose content words are not all found in the findings of the section: accepted after reading 48, still to be read 0 | lines with numbers not found in the section findings: accepted after reading 1, still to be read 0
    D reference-like strings (paper ids, sessions, years, question or figure numbers): 0 | words from other syllabus sections: 213 occurrences, of which outside the reviewed contexts: 0
-   notes file: 4102 lines, 271405 characters, 1444 tick-box lines (lines that start with "  [ ] ")
+   notes file: 4042 lines, 264991 characters, 1444 checklist lines (lines that start with "  - ")
 
 6. SPOT-CHECKS OF NOTES STATEMENTS AGAINST THE MARK-SCHEME TEXT
    36 Paper 2 checklist lines were taken at fixed intervals through the notes (every 42nd line from the 20th, and every 84th line
