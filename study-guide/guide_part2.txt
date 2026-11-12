@@ -47,11 +47,10 @@ Q:(3) Write a procedure __PrintLine(Symbol : CHAR, Times : INTEGER)__ that outpu
 **Pseudocode:**
 ```
 FUNCTION MaxOf(Value1 : INTEGER, Value2 : INTEGER) RETURNS INTEGER
-    IF Value1 > Value2
-        THEN
-            RETURN Value1
-        ELSE
-            RETURN Value2
+    IF Value1 > Value2 THEN
+        RETURN Value1
+    ELSE
+        RETURN Value2
     ENDIF
 ENDFUNCTION
 
@@ -189,13 +188,11 @@ Largest ← Value
 Smallest ← Value
 FOR I ← 2 TO 3
     INPUT Value
-    IF Value > Largest
-        THEN
-            Largest ← Value
+    IF Value > Largest THEN
+        Largest ← Value
     ENDIF
-    IF Value < Smallest
-        THEN
-            Smallest ← Value
+    IF Value < Smallest THEN
+        Smallest ← Value
     ENDIF
 NEXT I
 OUTPUT Largest, Smallest
@@ -236,18 +233,16 @@ Found ← FALSE
 Position ← 0
 I ← 1
 WHILE Found = FALSE AND I <= 4 DO
-    IF A[I] = SearchKey
-        THEN
-            Found ← TRUE
-            Position ← I
+    IF A[I] = SearchKey THEN
+        Found ← TRUE
+        Position ← I
     ENDIF
     I ← I + 1
 ENDWHILE
-IF Found = TRUE
-    THEN
-        OUTPUT "Found at ", Position
-    ELSE
-        OUTPUT "Not found"
+IF Found = TRUE THEN
+    OUTPUT "Found at ", Position
+ELSE
+    OUTPUT "Not found"
 ENDIF
 ```
 **Python (with shortcuts; positions 0-based):**
@@ -282,11 +277,10 @@ Q:(3) Write a linear search in pseudocode **and** Python that inputs a name and 
 ```
 FOR Outer ← 1 TO N - 1
     FOR Inner ← 1 TO N - Outer
-        IF A[Inner] > A[Inner + 1]
-            THEN
-                Temp ← A[Inner]
-                A[Inner] ← A[Inner + 1]
-                A[Inner + 1] ← Temp
+        IF A[Inner] > A[Inner + 1] THEN
+            Temp ← A[Inner]
+            A[Inner] ← A[Inner + 1]
+            A[Inner + 1] ← Temp
         ENDIF
     NEXT Inner
 NEXT Outer
@@ -347,9 +341,8 @@ Q:(2) Explain why programmers use dry-runs and trace tables before running a pro
 ```
 REPEAT
     INPUT Age
-    IF Age < 13 OR Age > 19
-        THEN
-            OUTPUT "Invalid age - must be 13 to 19"
+    IF Age < 13 OR Age > 19 THEN
+        OUTPUT "Invalid age - must be 13 to 19"
     ENDIF
 UNTIL Age >= 13 AND Age <= 19
 OUTPUT "Welcome"
@@ -384,11 +377,10 @@ Q:(3) Define **validation** and **verification**, making the difference between 
 ```
 INPUT First
 INPUT Second
-IF First = Second
-    THEN
-        OUTPUT "Entry verified"
-    ELSE
-        OUTPUT "Mismatch - retype"
+IF First = Second THEN
+    OUTPUT "Entry verified"
+ELSE
+    OUTPUT "Mismatch - retype"
 ENDIF
 ```
 **Python:**
@@ -533,9 +525,8 @@ Average ← Total / 5
 OUTPUT "Average temperature: ", Average
 HotDays ← 0
 FOR I ← 1 TO 5
-    IF Temps[I] > 25
-        THEN
-            HotDays ← HotDays + 1
+    IF Temps[I] > 25 THEN
+        HotDays ← HotDays + 1
     ENDIF
 NEXT I
 OUTPUT "Days above 25 degrees: ", HotDays

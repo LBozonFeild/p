@@ -113,9 +113,22 @@ st_toc1 = S("toc1", fontSize=9.3, leading=14.5, leftIndent=16,
 # ------------------------------------------------------------- text utils
 def esc(text: str) -> str:
     text = text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    # stash mono spans first so literal * / _ runs inside them survive
+    spans = []
+
+    def _stash(m):
+        spans.append(m.group(1))
+        return f"\x00{len(spans) - 1}\x00"
+
+    text = re.sub(r"`(.+?)`", _stash, text)
+    text = re.sub(r"__(.+?)__", _stash, text)
     text = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", text)
-    text = re.sub(r"__(.+?)__", r'<font name="DejaVuMono">\1</font>', text)
-    text = re.sub(r"`(.+?)`", r'<font name="DejaVuMono">\1</font>', text)
+    text = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<b>\1</b>", text)
+    text = re.sub(
+        r"\x00(\d+)\x00",
+        lambda m: f'<font name="DejaVuMono">{spans[int(m.group(1))]}</font>',
+        text,
+    )
     return text
 
 def para(text, style=st_body):
@@ -155,8 +168,13 @@ def heading(text, level):
 # ------------------------------------------------------------- block parser
 def split_blocks(text):
     blocks, cur = [], []
+    in_fence = False
     for line in text.splitlines():
-        if line.strip() == "":
+        if line.strip().startswith("```"):
+            in_fence = not in_fence
+            cur.append(line.rstrip())
+            continue
+        if not in_fence and line.strip() == "":
             if cur:
                 blocks.append(cur)
                 cur = []

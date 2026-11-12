@@ -25,8 +25,16 @@ STROKE = colors.HexColor("#c8c8c8")
 EDGE = colors.HexColor("#a8a8a8")
 FILL = colors.HexColor("#161616")
 
-CHARW = 4.55   # rough width of one character at FSIZE (sizing estimate)
+CHARW = 4.55   # fallback per-char estimate if font metrics are unavailable
 PAD = 10       # padding around the drawing
+
+
+def _text_width(s):
+    try:
+        from reportlab.pdfbase import pdfmetrics
+        return pdfmetrics.stringWidth(s, FONT, FSIZE)
+    except Exception:
+        return len(s) * CHARW
 
 
 def _label_lines(label):
@@ -34,23 +42,24 @@ def _label_lines(label):
 
 
 def _auto_size(node):
+    """Size a node to its measured label text with uniform per-shape padding."""
     t = node["type"]
     lines = _label_lines(node.get("label", ""))
-    maxc = max((len(l) for l in lines), default=6)
     n = max(len(lines), 1)
+    tw = max((_text_width(l) for l in lines), default=20)
     if t == "label":
-        w, h = maxc * 4.2 + 8, 12
+        w, h = tw + 8, 12
     elif t in ("start", "stop"):
-        w, h = maxc * CHARW + 32, 25
+        w, h = tw + 34, 25
     elif t == "decision":
-        w, h = maxc * 5.1 + 42, 52 + 9 * (n - 1)
+        w, h = tw * 1.35 + 26, 52 + 9 * (n - 1)
     elif t == "io":
-        w, h = maxc * CHARW + 40, 16 + LEADING * n
+        w, h = tw + 42, 16 + LEADING * n
     elif t == "sub":
-        w, h = maxc * CHARW + 30, 15 + LEADING * n
+        w, h = tw + 32, 15 + LEADING * n
     else:  # process
-        w, h = maxc * CHARW + 24, 14 + LEADING * n
-    return node.get("w", w), node.get("h", h)
+        w, h = tw + 24, 14 + LEADING * n
+    return w, h
 
 
 def _anchor(node, side):
@@ -244,8 +253,8 @@ class Flowchart(Flowable):
             d = math.hypot(dx, dy) or 1.0
             ux, uy = dx / d, dy / d
             px, py = -uy, ux   # left of travel
-            lx = x1 + ux * min(17, d * 0.5) + px * 8
-            ly = y1 + uy * min(17, d * 0.5) + py * 8
+            lx = x1 + ux * min(16, d * 0.5) + px * 10.5
+            ly = y1 + uy * min(16, d * 0.5) + py * 10.5
             self._draw_text(lx, ly - 2.4, e["label"])
         c.restoreState()
 

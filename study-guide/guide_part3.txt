@@ -84,9 +84,8 @@ Mark points: missing initialisation (1); wrong upper bound (1); corrected code (
 Count ← 0
 FOR I ← 1 TO 5
     INPUT Value
-    IF Value > 10
-        THEN
-            Count ← Count + 1
+    IF Value > 10 THEN
+        Count ← Count + 1
     ENDIF
 NEXT I
 OUTPUT Count
@@ -106,16 +105,14 @@ Mark points: counter initialised (1); loop of 5 inputs (1); correct test, increm
 **Answer 9** (3 marks)
 **Pseudocode:**
 ```
-IF Age < 13
-    THEN
-        OUTPUT "Child"
+IF Age < 13 THEN
+    OUTPUT "Child"
+ELSE
+    IF Age < 20 THEN
+        OUTPUT "Teen"
     ELSE
-        IF Age < 20
-            THEN
-                OUTPUT "Teen"
-            ELSE
-                OUTPUT "Adult"
-        ENDIF
+        OUTPUT "Adult"
+    ENDIF
 ENDIF
 ```
 **Python:** the same nested inside else (or the elif ladder). Age 10 → **Child** (fails the first test's bound... 10 < 13 → Child); Age 15 → **Teen** (not < 13, but < 20); Age 22 → **Adult** (neither).
@@ -172,9 +169,8 @@ INPUT S
 Count ← 0
 FOR I ← 1 TO LENGTH(S)
     Ch ← LCASE(SUBSTRING(S, I, 1))
-    IF Ch = "e"
-        THEN
-            Count ← Count + 1
+    IF Ch = "e" THEN
+        Count ← Count + 1
     ENDIF
 NEXT I
 OUTPUT Count
@@ -328,9 +324,8 @@ Mark points: correct field (1); justification (1).
 **Pseudocode:**
 ```
 FOR I ← 1 TO 5
-    IF Class[I] = "9A" AND Mark[I] >= 80
-        THEN
-            OUTPUT Name[I]
+    IF Class[I] = "9A" AND Mark[I] >= 80 THEN
+        OUTPUT Name[I]
     ENDIF
 NEXT I
 ```
@@ -370,7 +365,7 @@ def print_line(symbol, times):
 
 print_line('*', 10)
 ```
-Prints ********** (10 stars on one line).
+Prints `**********` (10 stars on one line).
 Mark points: header with both typed parameters (1); loop building the string (1); single output and correct call (1).
 
 **Answer 28** (4 marks)
@@ -383,9 +378,8 @@ ENDFUNCTION
 Count ← 0
 FOR I ← 1 TO 10
     INPUT Value
-    IF IsEven(Value)
-        THEN
-            Count ← Count + 1
+    IF IsEven(Value) THEN
+        Count ← Count + 1
     ENDIF
 NEXT I
 OUTPUT Count
@@ -510,13 +504,11 @@ Largest ← Value
 Smallest ← Value
 FOR I ← 2 TO 12
     INPUT Value
-    IF Value > Largest
-        THEN
-            Largest ← Value
+    IF Value > Largest THEN
+        Largest ← Value
     ENDIF
-    IF Value < Smallest
-        THEN
-            Smallest ← Value
+    IF Value < Smallest THEN
+        Smallest ← Value
     ENDIF
 NEXT I
 OUTPUT "Largest is ", Largest
@@ -559,16 +551,14 @@ Mark points: three correct iterations (3); correct output 3 (1).
 INPUT Target
 Found ← FALSE
 FOR I ← 1 TO 5
-    IF Names[I] = Target
-        THEN
-            Found ← TRUE
+    IF Names[I] = Target THEN
+        Found ← TRUE
     ENDIF
 NEXT I
-IF Found = TRUE
-    THEN
-        OUTPUT "Yes"
-    ELSE
-        OUTPUT "No"
+IF Found = TRUE THEN
+    OUTPUT "Yes"
+ELSE
+    OUTPUT "No"
 ENDIF
 ```
 **Python:**
@@ -721,9 +711,8 @@ FUNCTION GetMeals(Day : INTEGER) RETURNS INTEGER
     REPEAT
         OUTPUT "Meals sold on day ", Day
         INPUT Value
-        IF Value < 0
-            THEN
-                OUTPUT "Invalid: the number must not be negative"
+        IF Value < 0 THEN
+            OUTPUT "Invalid: the number must not be negative"
         ENDIF
     UNTIL Value >= 0
     RETURN Value
@@ -745,18 +734,16 @@ OUTPUT "Average per day: ", Average
 
 Highest ← Meals[1]
 FOR Day ← 2 TO 10
-    IF Meals[Day] > Highest
-        THEN
-            Highest ← Meals[Day]
+    IF Meals[Day] > Highest THEN
+        Highest ← Meals[Day]
     ENDIF
 NEXT Day
 OUTPUT "Highest day: ", Highest
 
 Above ← 0
 FOR Day ← 1 TO 10
-    IF Meals[Day] > Average
-        THEN
-            Above ← Above + 1
+    IF Meals[Day] > Average THEN
+        Above ← Above + 1
     ENDIF
 NEXT Day
 OUTPUT "Days above average: ", Above

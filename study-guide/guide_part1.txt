@@ -29,7 +29,7 @@ T:
 | 1D array | numbered lockers | A = [7, 2, 9, 4]; A[3] = 9 |
 | 2D array | cinema seats | Grid[2, 3] = row 2, seat 3 |
 | String | bead necklace | "HELLO": LENGTH = 5 |
-| Procedure | recipe card | CALL PrintLine('*', 5) prints ***** |
+| Procedure | recipe card | CALL PrintLine('*', 5) prints `*****` |
 | Function | blender | Square(3) hands back 9 |
 | Local vs global | notepad vs whiteboard | local Total = 10 leaves global Total = 5 |
 | File | filing cabinet | Scores.txt survives the program |
@@ -181,9 +181,8 @@ Count ← 0
 FOR I ← 1 TO 5
     INPUT Price
     Total ← Total + Price
-    IF Price > 4
-        THEN
-            Count ← Count + 1
+    IF Price > 4 THEN
+        Count ← Count + 1
     ENDIF
 NEXT I
 OUTPUT Total, Count
@@ -223,16 +222,14 @@ Q:(3) Write an algorithm in pseudocode **and** Python that inputs 5 integers and
 
 **Pseudocode:**
 ```
-IF Score >= 80
-    THEN
-        OUTPUT "Grade A"
+IF Score >= 80 THEN
+    OUTPUT "Grade A"
+ELSE
+    IF Score >= 60 THEN
+        OUTPUT "Grade B"
     ELSE
-        IF Score >= 60
-            THEN
-                OUTPUT "Grade B"
-            ELSE
-                OUTPUT "Grade C"
-        ENDIF
+        OUTPUT "Grade C"
+    ENDIF
 ENDIF
 
 FOR Row ← 1 TO 2
@@ -347,9 +344,8 @@ INPUT S
 Count ← 0
 FOR I ← 1 TO LENGTH(S)
     Ch ← UCASE(SUBSTRING(S, I, 1))
-    IF Ch = "A" OR Ch = "E" OR Ch = "I" OR Ch = "O" OR Ch = "U"
-        THEN
-            Count ← Count + 1
+    IF Ch = "A" OR Ch = "E" OR Ch = "I" OR Ch = "O" OR Ch = "U" THEN
+        Count ← Count + 1
     ENDIF
 NEXT I
 OUTPUT Count
@@ -433,9 +429,8 @@ Q:(4) The array __A__ holds 2, 7, 4, 9 in positions 1 to 4. Trace the algorithm 
 ```
 Max ← A[1]
 FOR I ← 2 TO 4
-    IF A[I] > Max
-        THEN
-            Max ← A[I]
+    IF A[I] > Max THEN
+        Max ← A[I]
     ENDIF
 NEXT I
 OUTPUT Max
@@ -508,9 +503,8 @@ Output: Chen (91), Aisha (84).
 **Pseudocode (the same filter as a loop):**
 ```
 FOR I ← 1 TO 5
-    IF Class[I] = "9A" AND Mark[I] >= 80
-        THEN
-            OUTPUT Name[I], Mark[I]
+    IF Class[I] = "9A" AND Mark[I] >= 80 THEN
+        OUTPUT Name[I], Mark[I]
     ENDIF
 NEXT I
 ```
