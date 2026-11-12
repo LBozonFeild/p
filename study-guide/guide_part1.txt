@@ -60,25 +60,7 @@ NEXT I
 for i in range(1, 6):      # range stops BEFORE 6, so laps 1..5
     print(i)
 ```
-**Flowchart:**
-```
-    ( Start )
-        |
-        v
-    [ I <- 1 ]
-        |
-        v
-   < I <= 5? > ---- No ----> ( Stop )
-        |
-       Yes
-        v
-   / OUTPUT I /
-        |
-        v
-  [ I <- I + 1 ]
-        |
-        +------ back up to the test
-```
+F: for-loop
 
 N:(Common errors) **Fence posts.** __TO 5__ means **5** laps (1, 2, 3, 4, 5) — not 4. Python's `range(1, 5)` gives only 1 to 4; to include 5 write `range(1, 6)`. When a loop "prints one too few", count the fence posts first. Also: if start > end the body never runs — that is correct behaviour, not a bug.
 
@@ -114,22 +96,7 @@ while password != "Secret":
     password = input("Password: ")
 print("Access granted")
 ```
-**Flowchart:**
-```
-  ( Start )
-      |
-      v
-  [ Pwd <- "" ]
-      |
-      v
- < Pwd <> "Secret" > -- No --> / OUTPUT "OK" /
-      |                          |
-     Yes                         v
-      v                       ( Stop )
- / INPUT Pwd /
-      |
-      +------ back up to the test
-```
+F: while-password
 
 N:(Common errors) **The hamster wheel.** A WHILE loop whose counter is never incremented runs forever:
 ```
@@ -180,20 +147,7 @@ while True:
         break                       # the UNTIL test
 print("Access granted")
 ```
-**Flowchart:**
-```
-  ( Start )
-      |
-      v
- / INPUT Pwd /
-      |
-      v
- < Pwd = "Secret" > -- Yes --> / OUTPUT "OK" /
-      |                          |
-      No                         v
-      |                       ( Stop )
-      +------ back up to INPUT
-```
+F: repeat-password
 
 N:(Common errors) **UNTIL polarity.** __UNTIL__ stops when the condition is **TRUE** — the sugar must be dissolved. Writing the wrong side inverts the loop:
 ```
@@ -245,35 +199,7 @@ for i in range(1, 6):
         count += 1
 print(total, count)
 ```
-**Flowchart:**
-```
-  ( Start )
-      |
-      v
- [ Total <- 0 ]
- [ Count <- 0 ] <- [ I <- 1 ]
-      |               |
-      v               v
-      |        < I <= 5? > -- No --> / OUTPUT Total, Count /
-      |            |                          |
-      |           Yes                         v
-      |            v                       ( Stop )
-      |      / INPUT Price /
-      |            |
-      |            v
-      |    [ Total <- Total + Price ]
-      |            |
-      |            v
-      |    < Price > 4? > -- No --+
-      |            |              |
-      |           Yes             |
-      |            v              |
-      |   [ Count <- Count + 1 ]  |
-      |            |              |
-      |            +---- < -------+
-      |            v
-      +--- [ I <- I + 1 ] (back up to the test)
-```
+F: total-count
 
 N:(Common errors) **The till must start at zero.** __Total ← Total + Value__ without __Total ← 0__ first adds to a garbage starting value. And keep the pair apart: prices go in the __Total__, clicks go in the __Count__ — __Count ← Count + Price__ runs perfectly and is perfectly wrong.
 
@@ -342,24 +268,7 @@ elif score >= 60:
 else:
     print("Grade C")
 ```
-**Flowchart (nested IF):**
-```
- ( Start )
-     |
-     v
- < Score >= 80? > -- Yes --> / OUTPUT "A" / --> ( Stop )
-     |
-    No
-     v
- < Score >= 60? > -- Yes --> / OUTPUT "B" / --> ( Stop )
-     |
-    No
-     v
- / OUTPUT "C" /
-     |
-     v
- ( Stop )
-```
+F: nested-if
 
 N:(Common errors) **Pairs and indentation.** Every nested __IF__ needs its **own** __ENDIF__ (two IFs above, two ENDIFs below). In Python the nested IF belongs **inside** the else block — one indent deeper; a mis-indented IF silently joins the wrong branch. And in nested loops, use the **right counter** in the body: __Grid[Row, Row]__ looks up the wrong seat.
 
@@ -416,25 +325,7 @@ part = text[2:5]              # offset: position 3 = index 2
 first = text[0:1].upper()
 print(part, first)            # outputs: mpu C
 ```
-**Flowchart:**
-```
- ( Start )
-     |
-     v
- [ Text <- "Computer" ]
-     |
-     v
- [ Part <- SUBSTRING(Text, 3, 3) ]
-     |
-     v
- [ First <- UCASE(SUBSTRING(Text, 1, 1)) ]
-     |
-     v
- / OUTPUT Part, First /
-     |
-     v
- ( Stop )
-```
+F: substring-linear
 
 N:(Common errors) **The offset trap.** Cambridge bead 3 is Python bead 2: __SUBSTRING(S, 3, 3)__ = `s[2:5]` — the rule is `s[p-1 : p-1+l]`. When a substring answer returns "the wrong letters", check the offset before anything else.
 
@@ -486,32 +377,7 @@ print(s[::-1])                     # slicing shortcut: same result
 print("-" * 30)                    # repetition: 30 dashes
 print(f"Count: {count}")           # f-string shortcut
 ```
-**Flowchart (vowel counter):**
-```
- ( Start )
-     |
-     v
- / INPUT S /   [ Count <- 0 ]  [ I <- 1 ]
-     |              |              |
-     +--------------+--------------+
-     v
- < I <= LENGTH(S)? > -- No --> / OUTPUT Count /
-     |                          |
-    Yes                         v
-     v                       ( Stop )
- [ Ch <- UCASE(SUBSTRING(S, I, 1)) ]
-     |
-     v
- < Ch = "A" OR "E" OR "I" OR "O" OR "U"? >
-     | No                |
-     |                   Yes
-     |                    v
-     |         [ Count <- Count + 1 ]
-     |                    |
-     +-------- < ---------+
-     v
- [ I <- I + 1 ] (back up to the test)
-```
+F: vowel-count
 
 N:(Common errors) **Three string traps.** (1) **Case sensitivity:** input "secret" fails against __= "Secret"__ — normalise with __UCASE__ / `.upper()` when the question wants case-insensitive matching. (2) **Text + number in print:** `print("Total: " + total)` is a TypeError — use `print("Total:", total)`, `str(total)`, or an f-string. (3) **Slicing past the end:** `s[0:100]` is harmless in Python (it just stops), but __SUBSTRING__ past the end in pseudocode is a logic error — check lengths first.
 
@@ -555,23 +421,7 @@ print(marks[2])                  # locker 3 = index 2
 for mark in marks:               # for-each: walk without indexes
     print(mark)
 ```
-**Flowchart:**
-```
- ( Start )
-     |
-     v
- [ I <- 1 ]
-     |
-     v
- < I <= 4? > -- No --> / OUTPUT Marks[3] / --> ( Stop )
-     |
-    Yes
-     v
- / INPUT Marks[I] /
-     |
-     v
- [ I <- I + 1 ] (back up to the test)
-```
+F: fill-array
 
 N:(Common errors) **Lockers that don't exist.** For __ARRAY[1:30]__ the lockers are __A[1]__ to __A[30]__: a loop from 0, or to 31, walks past the corridor's end. And the numbering differs between languages — Cambridge __Marks[5]__ is Python `marks[4]` (the same offset trap as strings).
 
@@ -624,29 +474,7 @@ for row in range(0, 2):
         total += grid[row][col]
     print("Row", row + 1, "total is", total)
 ```
-**Flowchart:**
-```
-   ( Start ) [ Row <- 1 ]
-        |
-        v
-  < Row <= 2? > -- No --> ( Stop )
-        |
-       Yes
-        v
-  [ Sum <- 0 ]  [ Col <- 1 ]
-        |            |
-        v            v
-        |     < Col <= 3? > -- No --> / OUTPUT Row, Sum /
-        |          |                          |
-        |         Yes                         |
-        |          v                          |
-        |  [ Sum <- Sum + Grid[Row, Col] ]    |
-        |          |                          |
-        |          v                          |
-        |  [ Col <- Col + 1 ] (back to test)  |
-        |                                     |
-        +---- [ Row <- Row + 1 ] (back to test)
-```
+F: row-totals
 
 N:(Common errors) **Wrong index in the body.** __Grid[Row, Row]__ (using the outer counter twice) silently reads the wrong seat — always check that the inner loop's counter is the one used for the column. Also mind the bases: pseudocode __Grid[2, 3]__ is Python `grid[1][2]`.
 
@@ -692,25 +520,7 @@ for i in range(0, 5):
     if class_[i] == "9A" and mark[i] >= 80:
         print(name[i], mark[i])
 ```
-**Flowchart (the query as a road):**
-```
- ( Start ) [ I <- 1 ]
-      |
-      v
- < I <= 5? > -- No --> ( Stop )
-      |
-     Yes
-      v
- < Class[I] = "9A" AND Mark[I] >= 80? >
-      | No                 |
-      |                    Yes
-      |                     v
-      |          / OUTPUT Name[I], Mark[I] /
-      |                     |
-      +-------- < ----------+
-      v
- [ I <- I + 1 ] (back up to the test)
-```
+F: sql-filter
 
 N:(Common errors) **Both conditions, every row.** When predicting SQL output, check each record against **all** the WHERE conditions — __AND__ means both must hold (in the table above, Ben has 72 ≥ 80 but is 9B, so he is out). And choose primary keys for uniqueness: __Name__ can repeat; __StudentID__ cannot.
 

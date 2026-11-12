@@ -30,26 +30,7 @@ def print_line(symbol, times):
 
 print_line('*', 5)     # prints *****
 ```
-**Flowchart (the subroutine box points to a separate chart):**
-```
- ( Start )  [ LineText <- "" ]  [ I <- 1 ]
-     |            |                  |
-     +------------+------------------+
-     v
- < I <= Times? > -- No --> / OUTPUT LineText / --> ( Stop )
-     |
-    Yes
-     v
- [ LineText <- LineText + Symbol ]
-     |
-     v
- [ I <- I + 1 ] (back up to the test)
-
- The call site is one box:
- +--------------------------+
- | CALL PrintLine('*', 5)   |  (subroutine: double side bars)
- +--------------------------+
-```
+F: procedure-call
 
 N:(Common errors) **CALL is for procedures only.** A function call is an **expression** (it hands a value back) — writing __CALL MaxOf(3, 4)__ is wrong; use __OUTPUT MaxOf(3, 4)__ or put it in an expression. In Python the "call" is just the name: `print_line('*', 5)`.
 
@@ -83,15 +64,7 @@ def max_of(value1, value2):
 
 print("The winner is", max_of(72, 88))
 ```
-**Flowchart (the function as a subroutine that returns):**
-```
- +---------------------------+     +--------------------------+
- | [ W <- MaxOf(72, 88) ]    | --> | FUNCTION MaxOf:         |
- +---------------------------+     |  < Value1 > Value2? >   |
-                                   |   Yes -> RETURN Value1  |
- ( Continue with W = 88 )          |   No  -> RETURN Value2  |
-                                   +--------------------------+
-```
+F: function-call
 
 N:(Common errors) **The empty blender.** A Python function without `return` hands back `None` — silently. The program runs and the garbage appears far from the real bug. In pseudocode, forgetting __RETURN__ inside a __FUNCTION__ (or putting __RETURN__ in a procedure that should return nothing) is the same slip.
 
@@ -137,21 +110,7 @@ def add_up():
 add_up()
 print(total)        # prints 5
 ```
-**Flowchart:**
-```
- ( Start ) [ Total <- 5 ]
-      |
-      v
- +---------------------+
- | CALL AddUp          | --->  PROCEDURE AddUp:
- +---------------------+       [ local Total <- 10 ]  (notepad)
-      |                        (whiteboard untouched)
-      v
- / OUTPUT Total /   ->   5
-      |
-      v
- ( Stop )
-```
+F: local-global
 
 N:(Common errors) **The shadowing trap.** If a subroutine declares a name that already exists globally, it gets a **fresh local** — changes inside never travel back out. To change a global's value, work through a **return value** (or in pseudocode, don't re-declare the name inside).
 
@@ -198,26 +157,7 @@ for i in range(1, 4):
 f.close()
 print(f"Average is {total / 3}")         # f-string shortcut
 ```
-**Flowchart:**
-```
- ( Start )
-     |
-     v
- [ OPENFILE "Scores.txt" FOR READ ]
- [ Total <- 0 ] <- [ I <- 1 ]
-     |                  |
-     v                  v
-     |           < I <= 3? > -- No --> [ CLOSEFILE ]
-     |                |                         |
-     |               Yes                        v
-     |                v                  / OUTPUT Total / 3 /
-     |      [ READFILE Mark ]                     |
-     |                |                           v
-     |                v                        ( Stop )
-     |      [ Total <- Total + Mark ]
-     |                |
-     +-- [ I <- I + 1 ] (back up to the test)
-```
+F: file-average
 
 N:(Common errors) **Three file traps.** (1) **Write erases:** __FOR WRITE__ / `"w"` truncates the file first — it does not append; opening a file you meant to **keep** for writing destroys it. (2) **The open drawer:** forgetting __CLOSEFILE__ / `f.close()` leaves later reads with stale or missing data. (3) **Mode mismatch:** never __WRITEFILE__ to a file opened __FOR READ__ (or write on `"r"`) — open the source for reading and the destination for writing, both at once.
 
@@ -238,7 +178,7 @@ Q:(4) Write a program that copies a single line of text from "FileA.txt" to "Fil
 
 ## 7.1 Maximum, minimum and average — the tallest kid
 
-**Explanation.** Finding the tallest kid in a line: assume the **first** kid is tallest, then walk the line updating the record whenever someone beats it. Real values: __A = [3, 9, 4]__: start __Max = 3__; look at 9 — bigger, __Max = 9__; look at 4 — smaller, ignored. Answer **9**. Minimum is the same walk with __<__. Average is the till divided by the count: (3+9+4) ÷ 3 = **5.33...**. The first value must seed __Max__/__Min__ — starting at 0 breaks for negative numbers (a line of negative temperatures would wrongly report max = 0).
+**Explanation.** Finding the tallest kid in a line: assume the **first** kid is tallest, then walk the line updating the record whenever someone beats it. Real values: __A = [3, 9, 4]__: start __Max = 3__; look at 9 — bigger, __Max = 9__; look at 4 — smaller, ignored. So the maximum is **9**. Minimum is the same walk with __<__. Average is the till divided by the count: (3+9+4) ÷ 3 = **5.33...**. The first value must seed __Max__/__Min__ — starting at 0 breaks for negative numbers (a line of negative temperatures would wrongly report max = 0).
 
 **Examples.** Largest and smallest of 3 values:
 
@@ -274,30 +214,7 @@ print(largest, smallest)
 # shortcut when the method itself is NOT being tested:
 # print(max(a), min(a), sum(a) / len(a))
 ```
-**Flowchart:**
-```
- ( Start ) / INPUT Value /
-      |        [ Largest <- Value ]
-      |        [ Smallest <- Value ] <- [ I <- 2 ]
-      |               |                        |
-      +---------------+------------------------+
-      v
- < I <= 3? > -- No --> / OUTPUT Largest, Smallest / --> ( Stop )
-      |
-     Yes
-      v
- / INPUT Value /
-      |
-      v
- < Value > Largest? > -- Yes --> [ Largest <- Value ]
-      | No                               |
-      v                                  |
- < Value < Smallest? > -- Yes -> [ Smallest <- Value ]
-      | No                               |
-      +---------------- < ---------------+
-      v
- [ I <- I + 1 ] (back up to the test)
-```
+F: max-min
 
 N:(Common errors) **Seeding and direction.** Seed __Max__/__Min__ from the **first value**, not 0. And check the update direction: in a smallest-value search, __IF Value > Smallest__ silently finds the biggest instead. Python shortcut caveat: `max(a)` is great code — but if the question says **"write an algorithm to find the maximum"**, the loop *is* the answer.
 
@@ -345,26 +262,7 @@ while found == False and i < 4:
     i += 1
 print(f"Found at {position}" if found else "Not found")
 ```
-**Flowchart:**
-```
- ( Start ) [ Found <- FALSE ] [ Pos <- 0 ] [ I <- 1 ]
-      |              |               |            |
-      +--------------+---------------+------------+
-      v
- < Found = FALSE AND I <= 4? > -- No --> < Found = TRUE? >
-      |                                      | Yes      | No
-     Yes                                      v          v
-      v                              / OUTPUT Pos /  / OUTPUT "Not" /
- < A[I] = SearchKey? >                  |               |
-      | No        | Yes                 +------ < ------+
-      |            v                              v
-      |   [ Found <- TRUE ]                   ( Stop )
-      |   [ Pos <- I ]
-      |            |
-      +--- < ------+
-      v
- [ I <- I + 1 ] (back up to the test)
-```
+F: linear-search
 
 N:(Common errors) **Two positions, two bases.** The same search reports position 3 in pseudocode and index 2 in Python — answer in the language of the question. And the loop must **stop when found** (the __Found = FALSE__ in the condition); scanning on after a find can overwrite the position with a later match.
 
@@ -400,31 +298,7 @@ for outer in range(0, n - 1):
         if a[inner] > a[inner + 1]:
             a[inner], a[inner + 1] = a[inner + 1], a[inner]   # swap shortcut
 ```
-**Flowchart (one pass, simplified):**
-```
- ( Start ) [ Outer <- 1 ]
-      |
-      v
- < Outer <= N-1? > -- No --> ( Stop )  (array sorted)
-      |
-     Yes
-      v
- [ Inner <- 1 ]
-      |
-      v
- < Inner <= N-Outer? > -- No --> [ Outer <- Outer + 1 ]
-      |                              |
-     Yes                             +--- back up to outer test
-      v
- < A[Inner] > A[Inner+1]? > -- No --+
-      | Yes                         |
-      v                             |
- [ swap A[Inner], A[Inner+1] ]       |
-      |                             |
-      +-------- < ------------------+
-      v
- [ Inner <- Inner + 1 ] (back up to inner test)
-```
+F: bubble-pass
 
 N:(Common errors) **The neighbour beyond the end.** The inner loop going __TO N__ (Python `range(0, n)`) reads __A[N + 1]__ on its last run — a locker that doesn't exist (Python: IndexError). The bound is __N - Outer__ (or at least __N - 1__). Also note the swap needs the temporary __Temp__ in pseudocode; Python's `a[i], a[j] = a[j], a[i]` does it in one line.
 
@@ -457,7 +331,7 @@ N:(Common errors) **Recorder mistakes.** Put the initial row first; show each ro
 
 **Practice questions**
 
-Q:(4) Complete a trace table (__Value__, __Total__, __Count__) for the REPEAT program above with inputs 5, −3, 2, 0, and state what is output.
+Q:(4) Complete a trace table (__Value__, __Total__, __Count__) for the REPEAT program above with inputs 4, −2, 6, 1, 0, and state what is output.
 
 Q:(2) Explain why programmers use dry-runs and trace tables before running a program.
 
@@ -490,22 +364,7 @@ while True:
         break                        # passed the bouncer
 print("Welcome")
 ```
-**Flowchart:**
-```
- ( Start )
-     |
-     v
- / INPUT Age /
-     |
-     v
- < 13 <= Age <= 19? > -- Yes --> / OUTPUT "Welcome" / --> ( Stop )
-     |
-     No
-     v
- / OUTPUT "Invalid" /
-     |
-     +------ back up to INPUT
-```
+F: validation-age
 
 N:(Common errors) **Validation vs verification.** Validation (bouncer) asks "is this data **reasonable**?"; verification (proofreader) asks "was it **copied accurately**?" — comparing two entries of the same password is **verification**, not validation. And validate **before** processing; a program that averages the marks first and checks them later has already crashed.
 
@@ -541,24 +400,7 @@ if first == second:
 else:
     print("Mismatch - retype")
 ```
-**Flowchart:**
-```
- ( Start )
-     |
-     v
- / INPUT First /   / INPUT Second /
-     |                    |
-     +--------- < --------+
-     v
- < First = Second? > -- Yes --> / OUTPUT "Verified" / --> ( Stop )
-     |
-     No
-     v
- / OUTPUT "Mismatch" /
-     |
-     v
- ( Stop )
-```
+F: double-entry
 
 N:(Common errors) **Extreme vs boundary.** **Extreme** = the largest/smallest value that should be **accepted** (13, 19). **Boundary** = those values **plus** the neighbours that must be **rejected** (12, 20). Answering "13 and 19" for boundary data loses half the marks — the rejected neighbours are the point.
 
@@ -591,27 +433,7 @@ while True:
         break
 print("Access granted")
 ```
-**Flowchart:**
-```
-      ( Start )                    ( Start )
-          |                            |
-          v                            v
-  / INPUT Password \           / INPUT Password /
-          |                            |
-          v                            v
-  +-----------------+   No    < Password = "Secret" >
-  | Password =      |--------+        | Yes
-  | "Secret" ?      |        |        v
-  +-----------------+        |  / OUTPUT "Granted" /
-          | Yes              |        |
-          v                  |        v
-  / OUTPUT "Granted" \       |    ( Stop )
-          |                  |        ^
-          v                  |        |
-      ( Stop )               |        |
-          ^                  |        |
-          |__________________+  (No loops back to INPUT)
-```
+F: repeat-password
 (Diamond or box? The middle shape must be a **diamond** — draw decisions as diamonds, actions as rectangles.)
 
 N:(Common errors) **Shape crimes.** A decision drawn as a parallelogram or rectangle is wrong (diamond!). Unlabelled decision exits are wrong (Yes/No or True/False on **both**). Assignments hiding in input/output parallelograms are wrong (__X ← X + 1__ is a Process). Missing flow-line arrowheads leave the reader guessing the direction.
@@ -667,23 +489,7 @@ c = int(input("C: "))
 x = (a and b) or c
 print(int(x))
 ```
-**Flowchart (the expression as roads):**
-```
- ( Start ) / INPUT A, B, C /
-      |
-      v
- < A = 1 AND B = 1? > -- Yes --> [ X <- 1 ]
-      | No                          |
-      v                             |
- < C = 1? > -- Yes --> [ X <- 1 ]   |
-      | No                |         |
-      v                   |         |
- [ X <- 0 ]               |         |
-      |                   |         |
-      +-------- < --------+---------+
-      v
- / OUTPUT X / --> ( Stop )
-```
+F: gates-eval
 
 N:(Common errors) **Parentheses and rows.** Write expressions with explicit parentheses — __(A AND NOT B) OR C__ — pseudocode has no precedence rules for mixed logical operators. And count the rows: a 3-input truth table **always** has 8 rows (000 to 111); a 6-row table is missing combinations.
 
@@ -749,22 +555,7 @@ print(f"Average temperature: {average}")
 hot_days = sum(1 for v in temps if v > 25)      # or a plain counting loop
 print(f"Days above 25 degrees: {hot_days}")
 ```
-**Flowchart (the program's spine):**
-```
- ( Start ) [ I <- 1 ]
-      |
-      v
- < I <= 5? > -- No --> [ Total <- 0, I <- 1 ] ...
-      | Yes                        |
-      v                            v
- / INPUT Temps[I] /        < I <= 5? > -- No --> / OUTPUT Average /
-      |                        | Yes                      |
-      v                        v                          v
- [ I <- I + 1 ]      [ Total <- Total + Temps[I] ]   < count HotDays loop >
-                            |                          |
-                            v                          v
-                      [ I <- I + 1 ]             / OUTPUT HotDays /
-```
+F: scenario-loop
 
 **Practice questions**
 

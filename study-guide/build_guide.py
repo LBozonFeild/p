@@ -27,9 +27,16 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import (
     BaseDocTemplate, Frame, PageTemplate, Paragraph, Preformatted,
-    Spacer, Table, TableStyle, PageBreak, HRFlowable,
+    Spacer, Table, TableStyle, PageBreak, HRFlowable, KeepTogether,
 )
 from reportlab.platypus.tableofcontents import TableOfContents
+
+try:
+    from flowchart_lib import Flowchart
+    from flowcharts import CHARTS
+except Exception:  # keep the build working without the flowchart module
+    Flowchart = None
+    CHARTS = {}
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONT_DIR = "/usr/share/fonts/truetype/dejavu"
@@ -159,6 +166,24 @@ def split_blocks(text):
         blocks.append(cur)
     return blocks
 
+
+def split_at_flowcharts(blocks):
+    """Break blocks apart so each 'F: name' line becomes its own block."""
+    out = []
+    for block in blocks:
+        cur = []
+        for line in block:
+            if line.startswith("F: "):
+                if cur:
+                    out.append(cur)
+                    cur = []
+                out.append([line])
+            else:
+                cur.append(line)
+        if cur:
+            out.append(cur)
+    return out
+
 def split_chunks(lines):
     """Split a block into ('text', [lines]) / ('code', [lines]) chunks at ``` fences."""
     chunks, cur, in_code = [], [], False
@@ -261,7 +286,7 @@ def build_story():
     qn = an = 0
     for part in ("guide_part1.txt", "guide_part2.txt", "guide_part3.txt"):
         with open(os.path.join(HERE, part), encoding="utf-8") as fh:
-            blocks = split_blocks(fh.read())
+            blocks = split_at_flowcharts(split_blocks(fh.read()))
         for block in blocks:
             first = block[0]
             if first.startswith("### "):
@@ -272,6 +297,17 @@ def build_story():
                 story.append(heading(first[2:].strip(), 0))
             elif first.startswith("T:"):
                 story.append(make_table(block[1:]))
+                story.append(Spacer(1, 6))
+            elif first.startswith("F: "):
+                name = first[3:].strip()
+                if Flowchart is not None and name in CHARTS:
+                    chart = Flowchart(CHARTS[name], max_width=CONTENT_W,
+                                      max_height=640, label=name)
+                    story.append(KeepTogether(
+                        [Paragraph("<b>Flowchart:</b>", st_body), chart]))
+                else:
+                    story.append(Paragraph(f"<b>Flowchart:</b> ({esc(name)})",
+                                           st_body))
                 story.append(Spacer(1, 6))
             elif first.startswith("Q:"):
                 qn += 1
