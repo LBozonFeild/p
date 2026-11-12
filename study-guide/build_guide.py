@@ -238,11 +238,10 @@ def build_story():
     story.append(HRFlowable(width="100%", thickness=1.2,
                             color=colors.HexColor("#8a8a8a"), spaceBefore=8, spaceAfter=14))
     story.append(Paragraph(
-        "Explanations, worked examples and practice questions with full answers for everything "
-        "<b>after</b> the basics (variables, input/output and decisions). Section 1 builds strong "
-        "fundamentals with analogies — lockers, pizza, bouncers, two-key safes — and from there "
-        "pseudocode and Python are treated as equals: every concept and every model answer appears "
-        "in both languages, with a full section on Python's shortcuts.", st_covermeta))
+        "A subtopic-by-subtopic study guide for everything <b>after</b> the basics. Every subtopic "
+        "follows the same recipe: an explanation built on analogies and worked through with real "
+        "values, examples in pseudocode, Python and flowchart form, the common errors, and practice "
+        "questions — with every answer collected at the back of the guide in full detail.", st_covermeta))
     story.append(Paragraph(
         "Based on the <b>Cambridge O Level Computer Science 2210</b> syllabus for 2026–2028, "
         "Paper 2: Algorithms, Programming and Logic (Topics 7–10), including the 15-mark "
@@ -260,7 +259,7 @@ def build_story():
 
     # ---------- content ----------
     qn = an = 0
-    for part in ("guide_part1.txt", "guide_part2.txt"):
+    for part in ("guide_part1.txt", "guide_part2.txt", "guide_part3.txt"):
         with open(os.path.join(HERE, part), encoding="utf-8") as fh:
             blocks = split_blocks(fh.read())
         for block in blocks:
@@ -270,7 +269,6 @@ def build_story():
             elif first.startswith("## "):
                 story.append(heading(first[3:].strip(), 1))
             elif first.startswith("# "):
-                qn = an = 0
                 story.append(heading(first[2:].strip(), 0))
             elif first.startswith("T:"):
                 story.append(make_table(block[1:]))
