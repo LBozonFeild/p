@@ -1,0 +1,76 @@
+14.2 MAMMALIAN SENSE ORGANS
+
+RECEPTORS AND STIMULI
+- Receptor cells detect stimuli; in the eye the light receptors (photoreceptors - rods and cones) are in the retina.
+- Receptors / nerve endings in the skin detect touch, pressure, pain and temperature (mark the first answer on each line; "detection of stimuli" alone earns 1 mark at most). They are unevenly distributed - e.g. a high density in fingers / lips; exposed areas need higher sensitivity.
+- Taste buds / sensory endings in the tongue are the receptors for taste.
+- The eye is an organ; its light receptor cells (rods / cones) are cells; the retina, cornea, iris, sclera, conjunctiva, muscle and suspensory ligament are tissues.
+
+IDENTIFYING PARTS OF THE EYE IN A SECTION
+- Cornea: the transparent, curved front of the eye.
+- Conjunctiva and cornea cover the pupil at the front of the eye.
+- Iris: the coloured ring in front of the lens; contains the circular and radial muscles.
+- Pupil: the opening in the centre of the iris (the space in front of the lens was also credited as aqueous humour / anterior chamber).
+- Lens: behind the pupil; held by the suspensory ligaments.
+- Suspensory ligaments: between the lens and the ciliary body.
+- Ciliary muscles (ciliary body): the ring round the lens to which the ligaments attach. In a front view the outer ring is the ciliary muscle and the radiating strands are the suspensory ligaments.
+- Retina: the inner layer at the back of the eye; contains the receptor cells sensitive to light; where the image is detected.
+- Fovea (accept yellow spot / macula): the small region of the retina directly behind the lens; has the highest concentration / greatest density of light receptors.
+- Optic nerve: leaves the back of the eye; carries impulses to the brain.
+- Blind spot: where the optic nerve leaves the retina.
+- Choroid: the dark (pigmented) layer outside the retina; its blood vessels supply the retina - they bring glucose / amino acids / minerals / vitamins for energy / repair; bring oxygen for respiration; remove urea / carbon dioxide; by diffusion; bring white blood cells to fight infection.
+- Order in which light passes: cornea -> aqueous humour -> (pupil) -> lens -> vitreous humour -> retina. Light does not pass through the sclera.
+
+FUNCTIONS
+- Cornea: refracts / bends light (most of the bending happens here).
+- Lens: transparent / curved sides - allows light through and refracts / focuses it; flexible / elastic / able to change shape - allows accommodation (focusing on objects at different distances). One mark for the structural feature and one for its function.
+- The cornea and the lens focus light rays onto the retina (with the ciliary muscle changing the lens shape).
+- Suspensory ligaments (max 3): attached to the ciliary body / muscles; can be loose / slack or taut / tight; pull on the lens; control / change the shape of the lens; allow accommodation.
+- Iris: controls the size of the pupil and so the amount of light entering.
+- Retina: light is detected by the light receptors (rods / cones); nerve impulses are triggered; and pass along the optic nerve to the brain.
+- Ray diagram: rays travel parallel from a distant object until they reach the cornea; converge at the cornea; converge further at the lens; and meet on the retina (not in front of it).
+
+PUPIL REFLEX
+- It is a reflex / involuntary action (older scheme: reflex / autonomic / automatic / involuntary; reject spinal / conditioned).
+- Bright light: retina / rods / light-sensitive cells detect the increased light intensity; impulses pass along the optic nerve / sensory neurone; to the brain / CNS (the relay neurones are in the brain); impulses return along a motor neurone to the iris muscles (the effector).
+- Bright light: circular muscles of the iris contract; radial muscles relax; the pupil constricts / narrows / becomes smaller (reject "contracts" for the pupil); less light enters.
+- Dim light: radial muscles contract; circular muscles relax; the pupil dilates / widens / gets bigger; more light enters and reaches the retina / rods / cones.
+- The circular and radial muscles are antagonistic - when one set contracts the other relaxes. (The iris, the wall of the oesophagus and the upper arm have antagonistic muscles; the heart ventricle does not.)
+- Reject any reference to ciliary muscles or suspensory ligaments in the pupil reflex.
+- Importance: protection / prevents damage; rapidly; of the retina / rods / cones / light receptors; from too much light / bright light / high light intensity. Drugs that prevent the reflex let too much light enter and damage the retina / light-sensitive cells.
+- Receptors for the reflex are in the retina; the effectors are the muscles of the iris.
+- Drawing the eye in bright light: the pupil is drawn with a smaller diameter (a shaded circle within the iris, smaller than before).
+- Drops that keep the pupil wide open make the radial iris muscles contract. When a person is shocked (adrenaline) the pupils widen.
+- Graphs: pupil diameter is larger at low light intensity and smaller at high intensity (inverse relationship; "proportional" alone is rejected); the diameter changes most rapidly at intermediate intensities and levels off at high intensity. A fall in diameter means the light is getting brighter - the steeper the fall the faster the increase in light intensity (taking off sunglasses on a sunny day gives a sudden fall). A slow rise in diameter means the light slowly became dimmer. In a darkened room the pupil is wide; it narrows when a light is turned on and widens again when it is turned off.
+- Percentage decrease in diameter = (original - new) / original x 100 (e.g. 5.7 mm to 2.6 mm = 54.4 %).
+- An albino has no pigment in the iris / choroid (reject "eye"): too much light enters / is reflected inside the eye / reaches the retina (no shading / shielding of the retina); damaging the retina / receptors / light-sensitive cells (reject "damage to eyes").
+
+ACCOMMODATION - NEAR OBJECT
+- Light is refracted / bent by the cornea.
+- Ciliary muscles contract.
+- Suspensory ligaments slacken / become loose / less tension.
+- Lens becomes fatter / thicker / rounder / more spherical / more convex.
+- Light is refracted / bent more by the lens.
+- Light / image is focused on the retina (fovea).
+- As an object approaches, the ciliary muscles contract more, the ligaments have less tension and the lens becomes more rounded; the faster the lens curvature rises on a graph, the faster the object is approaching.
+- Reading glasses bring a near image into focus (max 3): the spectacle lens is convex; light rays are bent / refracted / converged; before entering the eye / eye lens; this compensates for the thinness / lack of convexity of the eye lens; so the rays focus on the retina / fovea (yellow spot).
+
+ACCOMMODATION - DISTANT OBJECT
+- Ciliary muscles relax.
+- Suspensory ligaments tighten / become taut / are pulled tight / under tension.
+- Increased pull / tension on the lens; the lens is pulled / stretched.
+- Lens becomes thinner / flatter / longer / less convex.
+- Light is refracted less (reject "bent more"); longer focal length.
+- Light converges / the image forms on the retina / fovea.
+- Lens thickness against distance: as distance from the eye increases the lens gets thinner (inverse relationship), up to about 150 cm, after which the thickness stays constant.
+- Combined conditions: distant object in dim light - thin lens and wide pupil; reading in dim light - ciliary muscles contracted, circular iris muscles relaxed, radial iris muscles contracted; near object in bright light - ciliary muscle and circular iris muscle both contracted; looking at the sky at night - wide pupil and thin lens.
+- These changes are controlled by the nervous system rather than by hormones because nervous control is quicker.
+
+WHEN FOCUSING FAILS (question-specific applications)
+- A lens that has lost elasticity (older person): light is refracted as it passes the cornea, pupil, aqueous / vitreous humour and lens; the lens is less able to change shape / accommodate; cannot bulge fully; cannot refract enough / shorten its focal length enough; so the image of a near object is not focused on the retina / fovea. Reading glasses: a convex lens; bends / converges the light rays; before they enter the eye; compensating for the thinness of the eye lens; so the light meets on the retina and the image is clear.
+- A cornea that is too flat: light is not bent / refracted enough; so it is not focused on the retina.
+- An eyeball that is too long: light rays are bent so that they meet (cross) before the retina, so distant objects are not seen clearly.
+- A detached retina: the light receptors (rods / cones) are no longer in contact with the optic nerve; no impulses; reach the brain; no picture is formed / unable to see / blindness (reject blurred or reduced vision); less / no nutrition for the retina.
+- Cloudy patches in the lens (cataract): failure to focus (all) the light rays; blurred image; passage of light impaired (reflected / absorbed / deflected); possible change in elasticity / ability to accommodate; faded colour vision.
+- Parts with similar jobs: cornea / lens / humours let light through and focus it; retina / fovea / rods / cones detect it.
+- Data on an eye condition: state the overall change, say whether it applies to both sexes / all age groups, identify the group that changed most and quote comparative figures.

@@ -1,0 +1,57 @@
+4.1 BIOLOGICAL MOLECULES
+
+CHEMICAL ELEMENTS
+- Carbohydrates: carbon + hydrogen + oxygen (accept C, H, O) - all three needed for the mark.
+- Fats / lipids: carbon + hydrogen + oxygen only.
+- Proteins: carbon + hydrogen + oxygen + nitrogen (ignore other possibilities such as sulfur; sulfur accepted where listed).
+- Substances that contain ONLY carbon, hydrogen and oxygen: carbohydrates; fats / lipids.
+- Elements present in both fats and proteins: carbon, hydrogen and oxygen only; nitrogen is in protein (and urea) but not normally in a fat.
+- An amino acid has nitrogen in its structure (fatty acids, glucose and glycerol do not); nitrogen is needed to form protein.
+- All enzymes / antibodies are proteins, so always contain carbon, hydrogen, oxygen and nitrogen.
+- DNA contains carbon, hydrogen, nitrogen and phosphorus (as well as oxygen) - cellulose, lipid and starch do not contain nitrogen or phosphorus.
+- A tissue with a relatively high percentage of nitrogen: muscle - because it contains much protein.
+- Chlorophyll contains carbon, hydrogen, oxygen, nitrogen and an atom of magnesium.
+Context: in one data question the three most common elements by mass in the human body were oxygen, carbon and hydrogen (65 + 18.5 + 9.5 = 93.0 %; the three correct readings earned 1 mark, the total 2).
+
+LARGE MOLECULES MADE FROM SMALLER MOLECULES
+- Starch, glycogen and cellulose are made from glucose (a simple sugar); glycogen is a chain of glucose units only.
+- Proteins are made from amino acids (an enzyme such as amylase is a large molecule built up from amino acids).
+- Lipids (fats / oils) are made from fatty acids + glycerol - both needed.
+- DNA is made from nucleotides.
+- Cellulose is a long chain of glucose molecules: number of glucose units = length of cellulose molecule / length of one glucose molecule (same units), e.g. 10 000 (1 x 10^4).
+- Examples of small molecules built up into larger ones in the body (assimilation): in the liver, glucose -> glycogen; in muscle, amino acids -> protein; under the skin, glycerol + fatty acids -> fat; amino acids -> antibodies.
+- NOT building up: proteins -> amino acids and starch -> glucose (these are digestion / breakdown).
+- Animal tissues with a high carbohydrate content: liver / muscle - their cells store glycogen.
+
+BREAKDOWN OF LARGE MOLECULES (ENZYME - SUBSTRATE - PRODUCT)
+- Amylase: starch -> maltose (accept glucose / reducing sugar / disaccharide where listed; one mark scheme rejected glucose and sucrose as the product drawn for starch).
+- Maltose -> glucose.
+- Protease: protein (polypeptide) -> amino acids (accept polypeptides / peptides / peptones where listed).
+- Lipase: fat / oil / lipid (triglyceride) -> fatty acids + glycerol (accept glycerine / propantriol).
+- The same breakdown is credited in germinating seeds (stored food digested) and in decay by bacteria and fungi: enzyme; digest / break down / hydrolysis.
+
+CARBOHYDRATES IN PLANTS (NAMED CARBOHYDRATE LINKED TO ITS USE)
+- Glucose - used in respiration; respiration of glucose releases energy.
+- Starch - storage.
+- Glucose - used to make amino acids / proteins / lipids.
+- Cellulose - (to build) cell walls.
+- Sucrose - transport (the sugar carried in the phloem); glucose is converted to sucrose for transport.
+- A wrongly named additional carbohydrate loses the mark (e.g. "starch and glycogen are stored" in a plant = 0).
+- Carbon-containing substances found in plants but not in animals: starch / cellulose / chlorophyll / sucrose.
+- Starch is a better storage substance than glucose: insoluble; large / compact / complex molecule (polysaccharide); remains inside the cell / cannot cross the membrane (stored as grains); does not change (lower) the water potential inside the cell; prevents the cell gaining water by osmosis. Accept the reverse argument for glucose. Reject: "glucose is used up".
+
+FOOD TESTS
+- Starch: add iodine solution - positive result blue-black (accept black); negative result stays yellow-brown / brown / orange-brown.
+- In a plant cell stained with iodine solution the starch grains / chloroplasts containing starch go blue-black; the cell wall is orange-brown.
+- Reducing sugar (glucose, maltose): add Benedict's solution and HEAT - positive result an orange / red / brick-red (precipitate); negative result stays blue.
+- Benedict's gives a graded colour with increasing glucose content: blue (none) -> green -> yellow -> orange -> red (most).
+- Protein: add biuret reagent (cold, no heating) - positive result purple / violet / mauve / lilac; negative result stays (pale) blue.
+- Fat / oil: ethanol emulsion test - add (dissolve the sample in) ethanol, then add to water - positive result a white / cloudy / milky emulsion; negative result stays clear / colourless.
+- An enzyme solution (e.g. amylase, lipase, the enzyme in biological washing powder) gives a positive biuret test, because enzymes are proteins; amylase solution alone is blue with Benedict's and brown with iodine.
+- A protein solution: iodine brown; Benedict's blue; biuret purple.
+- Interpreting several tests on one sample: each food type is present only if its own test is positive (e.g. Benedict's red + biuret purple + iodine yellow-brown = reducing sugar and protein only; iodine blue-black + Benedict's blue + biuret violet = starch and protein).
+- A food containing carbohydrate, fat and protein may show: iodine blue-black (starch is the carbohydrate), biuret violet, ethanol emulsion milky - even when Benedict's stays blue.
+- Urine containing protein and glucose: Benedict's red; biuret mauve (purple); ethanol test colourless; iodine yellow-brown.
+- A seed nutrient broken down by lipase (oil) is detected by the ethanol emulsion test.
+- Lipase + oil inside a partially permeable bag in water: biuret is purple inside the bag (enzyme) but blue in the water outside; the pH of the water falls (e.g. to 5.5) as fatty acids pass out.
+- Testing the contents of plant transport cells: the contents of a xylem vessel give negative results with both Benedict's solution and iodine solution; in the newer papers the contents of a phloem cell give a positive Benedict's result and a negative iodine result (sugars present, no starch). An older (2008) key expected negative results for the phloem cell as well - the later keys take priority.

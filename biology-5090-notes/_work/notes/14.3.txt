@@ -1,0 +1,62 @@
+14.3 MAMMALIAN HORMONES
+
+DEFINITION OF A HORMONE
+- A chemical (substance). Reject a named hormone given instead of "chemical"; ignore named examples.
+- Produced / released by a gland (endocrine / ductless gland). Reject a specific named gland in the definition.
+- Secreted into / carried by the blood.
+- Alters the activity of / has an effect on a target organ (one or more specific target organs). Reject a specific named target organ in the definition.
+- Destroyed by the liver.
+- The organs affected by a hormone are called target organs.
+- Three characteristics of all hormones: affect target organs; carried by the blood; produced by glands.
+
+ENDOCRINE GLANDS AND THE HORMONES THEY SECRETE
+- Adrenal glands (one on top of each kidney): adrenaline; target e.g. heart, liver.
+- Pancreas (in the upper abdomen, below the stomach): insulin and glucagon; target liver. Accept islets of Langerhans; when labelling, the line must touch or enter the gland.
+- Pituitary gland (in the head, at the base of the brain; the part of the brain region that produces / secretes hormones): follicle-stimulating hormone (FSH) and luteinising hormone (LH); target ovary. It coordinates the menstrual cycle.
+- Testes (accept testicles / gonads): testosterone; responsible for sperm production and male secondary sexual characteristics.
+- Ovaries (in the lower abdomen): oestrogen and progesterone; target uterus. Oestrogen repairs / thickens / increases the thickness of the lining of the uterus (also development / release of an egg, secondary sexual characteristics, inhibits FSH). Progesterone maintains the lining of the uterus (also inhibits ovulation / FSH / LH); also from the corpus luteum / placenta.
+- LH causes the release of an egg from the ovary (ovulation) and stimulates the ovary to produce progesterone; FSH and LH are the two hormones needed for ovulation.
+- Sorting a list of hormones: made in the pituitary gland - luteinising hormone; made in the ovary - progesterone and oestrogen; released to increase blood sugar concentration - adrenaline and glucagon; released to build up the uterus lining after menstruation - oestrogen (ignore progesterone). Pancreas - insulin - glucose to glycogen conversion (in liver / muscles).
+- Linking exercises: one mark per correct line; any additional line to or from a box cancels that mark. Adrenal - adrenaline - heart (or: conversion of glycogen to glucose); pancreas - glucagon - liver; pituitary - FSH - ovary; ovary - progesterone - uterus.
+
+HOW A HORMONE REACHES ITS TARGET
+- Named gland secretes the named hormone.
+- In solution / dissolved.
+- In the blood / plasma (bloodstream).
+- Passes out into tissue fluid.
+- Reaches / acts on the named target organ; capillaries allow maximum uptake / offloading by diffusion.
+- After acting, hormones are destroyed / broken down; by the liver; the products are removed (excreted); this prevents a continued effect.
+
+ADRENALINE
+- Secreted by the adrenal glands; travels in the blood; to a named target organ (e.g. heart, lungs, liver).
+- Released in a named situation - fright / fight / flight / shock / excitement / danger (or described); it prepares the body for action / increased activity (a defence mechanism).
+- Increases heart rate - the heart beats faster ("increased heart rate" earns both the target organ and the effect); faster circulation / faster delivery of oxygen or glucose.
+- Increases blood glucose concentration: stimulates the liver to convert glycogen to glucose; increases glucose uptake by muscle cells.
+- More glucose / oxygen / blood to the muscles; blood diverted to muscles / away from the gut.
+- Breathing rate changes (faster, deeper); air passages widen.
+- Pupils dilate.
+- Dry mouth; digestive activity decreases / peristalsis slows.
+- Effect on liver cells: glycogen; is broken down to glucose; which is released into the blood / raises the blood glucose level (ignore references to glucagon / pancreas).
+- When frightened: adrenaline is released, the heart beat increases and the pupils dilate; adrenaline (not insulin, carbon dioxide or lactic acid) raises the blood sugar level; a condition producing too much adrenaline raises blood glucose concentration.
+- Not effects of adrenaline: lower heart rate, lower breathing rate, faster peristalsis, more saliva, smaller pupils, liver taking up glucose.
+- A loud noise followed by a faster heartbeat: sound is the stimulus; detected by the ears; impulses in a (sensory) neurone; to the brain; (motor neurone to) the adrenal gland; adrenaline released; carried in the blood; to the heart muscle; fight-or-flight response.
+- A raised adrenaline level explains a fast heartbeat and fast, deep breathing in a person at rest.
+- During a race: adrenaline; converts glycogen to glucose; in the liver / muscles; boosting blood glucose; faster heart beat and circulation; more oxygen and glucose reach the muscles.
+- Adrenaline occurs naturally in the body (unlike heroin, nicotine, penicillin). It is destroyed by the liver.
+
+HORMONE AND DRUG
+- Adrenaline is a hormone and caffeine a drug; a drug is taken into the body and affects chemical reactions / body functions; a hormone is made in the body / by glands.
+
+NERVOUS AND HORMONAL CONTROL COMPARED (comparative statements are needed)
+- Both trigger responses; both act on specific effectors / targets.
+- Nervous: fast / faster. Hormonal: slow / slower.
+- Nervous: short-term / temporary effect. Hormonal: longer-term / more lasting effect.
+- Nervous: electrical impulses. Hormonal: chemical.
+- Nervous: travel along neurones / nerve cells (reject "nerves" in the older scheme). Hormonal: carried in the blood / plasma.
+- Nervous: impulses are all the same; generated by receptors. Hormonal: different chemicals; from glands.
+- Nervous: effectors are muscles (or glands); specific; sometimes deliberate. Hormonal: act on glands / organs; more general effect; less controlled.
+- Blood glucose concentration is controlled by hormones, not directly by the nervous system (heart rate, pupil diameter and dilation of blood vessels are under nervous control).
+- Changes in the eye are under nervous control because it is quicker.
+
+HORMONES IN HOMEOSTASIS
+- To describe a hormone keeping conditions constant: deviation from the set point (for insulin the set point must refer to glucose in the blood); named hormone (reject adrenaline / thyroxine); the gland that makes it; its target organ; its homeostatic effect; return to the set point ("keeps constant" accepted; "regulates" / "controls" rejected); homeostasis.

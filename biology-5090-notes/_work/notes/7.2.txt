@@ -1,0 +1,169 @@
+7.2 TRANSPIRATION AND TRANSLOCATION
+
+DEFINITION OF TRANSPIRATION
+- Loss of water.
+- As water vapour / by evaporation.
+- From the leaves / aerial parts of a plant / to the atmosphere.
+- Through the stomata (accept: between or through the guard cells).
+- Evaporation of water at the surfaces of the mesophyll cells and its loss (as vapour) through the stomata. Not: evaporation "from the stomata"; movement of water through the cuticle; movement of water in the xylem from roots to leaves; gas exchange.
+- The term for loss of water vapour by a plant is transpiration (accept evapotranspiration). "Evaporation" alone was rejected in one scheme (2006) and accepted, with diffusion, in another (2019) - use transpiration.
+
+HOW WATER LEAVES THE LEAF
+- The xylem brings water into the leaf (reject phloem); it transports water from a named lower part to a named higher part.
+- Water passes from the xylem into the mesophyll cells - by osmosis (diffusion also credited) - down a water potential gradient (the leaf cell contents are more concentrated).
+- A film / layer of water lies on the surface / cell wall of the mesophyll cells.
+- Water evaporates from the surfaces of the (spongy) mesophyll cells - forming water vapour.
+- Into the air spaces / intercellular spaces (humidity inside the leaf is high).
+- Water vapour then moves by diffusion - from high to low concentration / down a concentration gradient.
+- Out of the leaf through the stomata / pores - between the guard cells. When asked for the cells between which the vapour passes: guard cells (ignore mesophyll; reject "stomatal cells").
+- Stages in order: xylem vessel -> mesophyll cell = osmosis; water layer on the cell surface -> air space = evaporation; air space -> outside = diffusion. Most water evaporates from the spongy mesophyll cells; most transpiration takes place from the lower surface of the leaf.
+- Arrows drawn on a leaf section: one arrow leaving the xylem (reject any passing through phloem); passing into a mesophyll cell; entering an air space in the spongy mesophyll; passing out of a stoma (the sequence must be plausible). Evaporation is marked where water enters the air space / at the wall of a mesophyll cell (reject on a guard cell).
+- Pathway from a cut stem to the air: xylem; to the leaves / flowers; between the leaf cells; surface of mesophyll cells; (leaf) air spaces; through the stomata / guard cells.
+- Whole pathway from the soil: osmosis; through the cell membrane; of a root hair; from cell to cell; through or between cell walls; enters the xylem; transpiration pull / stream (capillarity / molecular cohesion / root pressure also credited); evaporation / water vapour; from mesophyll cells / into air spaces; water potential gradient; diffusion; through stomata.
+- Carbon dioxide enters a leaf by diffusion; water enters a leaf by the transpiration pull / transpiration.
+
+LEAF STRUCTURES AND TRANSPIRATION (points are not transferable between structures)
+- Cuticle: waterproof / waxy; prevents / reduces water loss / transpiration / evaporation.
+- Xylem (reject phloem): transports water; from a named location to a named higher location.
+- Spongy mesophyll: air / intercellular spaces; water film; evaporation / water vapour; diffusion; moist surface; large surface area.
+- Stoma / stomata: guard cell; opens / closes; water vapour exits; by diffusion.
+- Guard cells: control the size / opening and closing; of the stomata; so control water loss / transpiration; allow exchange of oxygen and carbon dioxide; for respiration; and photosynthesis.
+- Importance of stomata: allow carbon dioxide into the leaf (reject "into cells"); oxygen out (one mark only for "gas exchange"); for photosynthesis / to make carbohydrates; allow water vapour out / transpiration; which brings water / salts to the leaves / cools the leaf / plant.
+- Stomata open in the day: carbon dioxide can enter / oxygen can be released (photosynthesis); water loss / transpiration gives cooling / brings water or ions to the leaf from the soil (reject: water loss "for temperature regulation / control"). Closed at night: prevents / reduces / stops transpiration / loss of water; avoids wilting; (oxygen entry for respiration also credited).
+- Appearance of the pore: wide open in the day; partly open in the evening; closed at night.
+- The upper surface of a leaf has fewer / no stomata / guard cells - this reduces / stops water loss / transpiration; it appears shiny / bright (cuticle).
+- A gas that builds up in the leaf air spaces in darkness: water vapour; from transpiration (the transpiration stream); it cannot escape / the stomata (guard cells) are closed. (Carbon dioxide from respiration is the alternative answer.)
+
+MOVEMENT OF WATER UP THE XYLEM - TRANSPIRATION PULL
+- Water evaporates / transpires from the leaves - water vapour is lost from the leaf / stomata (accept: water vapour diffuses out).
+- This reduces the water potential of the leaf cells; the water lost must be replaced.
+- Transpiration pull (accept transpiration / transpiration stream) - draws / pulls water up (reject "sucks").
+- Water molecules are held together by forces of attraction (accept cohesion / adhesion).
+- Water moves in a continuous column.
+- In the xylem (vessels), from the roots to the leaves (reject phloem). Reject: water moves by active transport.
+- Older schemes also credited capillarity and root pressure.
+- The main cause of water moving up to the leaves is evaporation from the walls of the mesophyll cells - water moves up the stem as it evaporates from the leaves (not active transport, evaporation from the epidermis, use in photosynthesis, osmosis or a push from the roots). The main source of the energy is heat from the Sun.
+- The water-uptake curve follows the water-loss curve because: water evaporates / transpires from the leaves; this reduces the water potential of the leaves; water moves up / through the xylem vessels; transpiration pull / stream; forces of attraction between water molecules; this prevents loss of turgidity / wilting.
+- A blockage / air bubbles in the xylem stops water moving up a cut shoot.
+- Water molecules move up only in the xylem; in the phloem they move both up and down.
+
+FACTORS AFFECTING THE RATE OF TRANSPIRATION
+- A correct reference to diffusion is credited in any of the explanations.
+- Naming factors: any of humidity, temperature / heat, light, wind / air movement, amount of water in the soil. Format often marked as factor; variation; explanation.
+- TEMPERATURE higher -> rate increases: increased / faster evaporation (of water) / more water vapour; from the surface of the mesophyll cells; molecules have more kinetic energy / move faster; (steeper diffusion gradient). At a lower temperature the curve keeps the same shape but lies below the original.
+- WIND / AIR MOVEMENT faster -> rate increases: wind blows away / removes water vapour (moisture) from around the leaf; humidity there decreases / fewer water molecules outside; increased concentration gradient; faster diffusion / evaporation. On a graph the line becomes steeper while air is blown; water loss plotted against wind speed rises and then levels off.
+- HUMIDITY higher -> rate decreases: greater concentration of water molecules in the atmosphere; reduced / loss of gradient; slower / less evaporation; slower / less diffusion (ignore "water" alone). Lower humidity -> the lower the humidity the higher the rate; the concentration of water outside is lower than inside the leaf / the atmosphere is not saturated; water is lost by diffusion. A graph of rate against humidity falls as humidity rises.
+- LIGHT INTENSITY higher -> rate increases: stomata open / more stomata open / open wider (one scheme: reject "guard cells open"); increased surface area for water loss / a greater volume of vapour can be lost; (greater light intensity + faster evaporation / more diffusion). A graph of rate against light intensity rises and then levels off.
+- Low light / darkness (e.g. a black bag over the plant) -> rate decreases: photosynthesis decreases / stops; less water needed; guard cells lose their turgidity; stomata close / open less; humidity rises around the leaf; decreased concentration gradient; less diffusion; less evaporation / transpiration.
+- SOIL WATER shortage: less water uptake; water lost cannot be replaced (accept: loses water faster than it gains it); the water content of the plant falls / loss of turgidity (accept wilting); stomata / pores close; water loss falls / stops.
+- Combinations: fastest when hot, dry and windy (less humid and more windy; dry, bright and warm; lower humidity with higher temperature, e.g. 60 % and 25 C rather than 100 % or 15 C). Slower with decreased air currents or increased humidity. Increased humidity is the change least likely to increase the rate.
+- Over a day: water loss rises during the light / day when the stomata are open and falls in the dark / at night when the stomata close; the rise through the morning is explained by increased light (intensity); increased temperature / heat (faster evaporation - ignore references to transpiration here); wind / increased air movement; decreased humidity; stomata / guard cells opening (wider). The greatest loss is around midday.
+- A plant whose transpiration rate is lowest around midday closes its stomata during the brightest part of the day.
+- Leaves are coolest when transpiration is fastest: highest / fastest rate; of (evapo)transpiration / evaporation; over the preceding hours; evaporation cools the leaves / removes heat. The temperature inside a leaf stays below the air temperature: evaporation (reject transpiration here); faster at high temperatures; cools / removes heat. A plant in dry soil is hotter at midday than one in damp soil: less evaporation of water / less loss of latent heat (reject "less transpiration"); so less cooling (reverse argument accepted).
+- A branch enclosed in a transparent bag loses more water at first and then less: it warms up more quickly at first (like a glasshouse); humidity inside the bag increases; this becomes a limiting factor / less transpiration. The water that collects is safe to drink even from a poisonous plant: it comes from the soil (not made by the plant); it is carried in the xylem / xylem is just hollow tubes; it contains only dissolved salts / metabolites are carried in the phloem; the poison stays in the cells; only water evaporates in transpiration.
+- Changing from humid to dry air: greatly increased upward movement in the xylem; little change in the phloem.
+
+DIFFERENCES BETWEEN PLANTS AND BETWEEN LEAF SURFACES
+- Reasons one plant loses more water than another in the same conditions (reverse argument accepted): different species; more / bigger leaves - greater surface area for evaporation; more stomata / greater density of stomata - more places for water to escape; bigger / wider stomata / degree of opening - larger area from which water is lost; thinner (waxy) cuticle - a thicker cuticle is a greater barrier to water molecules; better / bigger root system / more root hairs / faster water uptake; size of plant; no hairs / no sunken stomata. Mesophyll cells with a greater surface area also give greater loss. (Max 2 for structural features given without explanation.)
+- Features that cut water loss by raising humidity next to the leaf: sunken stomata; ridged epidermis; curled / rolled leaves; hairs / projections.
+- Leaves that fold together at night: effect - reduces transpiration / water loss (ignore wilting); explanation - stomata; (mostly) on the lower surface; then any two of: humidity builds up / reduced diffusion gradient / reduced evaporation rate / reduced surface area / stomata (guard cells) close; protection from breeze / wind.
+- Cactus leaves with a small surface area (spines): there is a lack of (available) water; transpiration / evaporation / water loss is reduced. Many stomata on the stem: none / fewer on the leaves; passage of oxygen / carbon dioxide / water vapour / gas exchange; for respiration / photosynthesis / transpiration.
+- Processes that normally occur in leaves: photosynthesis (synthesis of carbohydrate / protein); transpiration / water loss / evaporation; respiration; translocation; osmosis / diffusion; gas exchange.
+- Cuttings: removing the lower leaves reduces the surface area / number of stomata; covering with a transparent bag increases humidity; both reduce transpiration / evaporation / water loss.
+- A water plant has weaker leaf stalks than a land plant: less / no thickening / lignin / xylem / woody tissue (reject unqualified hard / rigid); no need for support / it is supported by the water (accept floats).
+
+IMPORTANCE OF TRANSPIRATION AND OF A GOOD WATER SUPPLY
+- Necessary: brings / provides water to the leaves for photosynthesis; transports mineral ions / salts (accept nutrients) from the roots to the leaves / up the stem; provides the cells with support / turgidity / turgor; cools the leaf / plant.
+- A problem: too much water may be lost (through the stomata / leaf); leading to wilting / death; plants may close their stomata to prevent transpiration, which slows down photosynthesis.
+- Not a function of transpiration: releasing energy in cells.
+- The transpiration stream and protein production: it brings nitrates; dissolved in water; from the soil / to combine with carbohydrates.
+- Good water supply: water potential gradient; intake by osmosis / diffusion; root hair; turgor; prevents wilting; reactant in photosynthesis; transpiration; cooling effect on the plant; solvent / substances dissolved; sucrose / amino acids carried in the phloem; mineral ions carried in the xylem.
+- Uses of water in a plant at night (any three): solvent; transport medium; turgidity; medium for enzyme action; hydrolysis / reactant; elongation (reject "growth" unqualified). Additional uses in the daytime: photosynthesis; cooling / transpiration.
+- Deforestation: with fewer trees there is less transpiration - credited (with less rainfall / drought / desertification) as an effect on climate.
+
+WILTING
+- The condition is wilting / wilted / flaccid (reject plasmolysed).
+- Water is lost from the leaves / the plant is dehydrated - by transpiration / evaporation / through the stomata.
+- Water loss is faster than water uptake / water is lost faster than it is gained (less water is absorbed by the root hairs than is lost through the stomata) / the water cannot be replaced.
+- Water is lost from the cells (reject "from the plant" for this point) - less water in the cells.
+- Cells / tissues lose turgor (turgor pressure) / become flaccid (plasmolysed was accepted in two schemes and rejected in two others - use flaccid / loss of turgor); it is the mesophyll cells that lose turgor.
+- The cells no longer support the plant / leaf - loss of support; the stem droops / sags. (In one scheme "droop / wilt" was not accepted as the explanation.)
+- Conditions that lead to wilting (mark the first answer on each line): low humidity / dry air (reject "humidity" alone); wind; lack of (available) water in the soil / drought; high / raised temperature / hot / warm (reject "warmth", "temperature" unqualified); high light intensity; insufficient water in the plant.
+- Most rapid wilting: dry, windy conditions in daylight rather than in rain / fog, at night or in still air. The shoot whose water uptake is lower than its water loss is the one most likely to wilt.
+- In the afternoon, when loss exceeds uptake: loss of turgor; wilting; closing of the stomata; more transpiration / water loss than uptake / overheating.
+- Xylem blocked (by disease, bacteria or the plant's own response): less / no water transported / absorbed / transpired; water lost from the leaves by evaporation / transpiration cannot be replaced / cannot pass up the stem; water loss greater than uptake; less water in the cells; cells flaccid / lose turgor. Yellowing of such leaves: magnesium (not delivered); less / no chlorophyll.
+- A cut leafy branch: the stem stays firm because it contains xylem; which is thickened / strengthened / contains lignin; and provides support. The leaves go limp because xylem is less important for support in the leaf; water is lost / transpiration; the water is not replaced / does not reach the leaves; cells become flaccid / lose turgor (reject plasmolysed); the cells cannot support the weight of the leaf / it wilts.
+- Transplanting: wilting (max 3) - root hairs removed / roots damaged (the surface area of the root is reduced); stem / xylem damaged; less water absorbed (reject "no water absorbed"); the plant still loses water / transpires; cells lose water / become flaccid. Recovery - root (hairs) regrow; (more) water absorbed; cells gain water again / become turgid. A mature plant wilts less: root system undamaged; root hairs present; water uptake sufficient; cells turgid; xylem / lignin supports.
+- How a plant stays upright: water inside the cells; osmosis; pressure / turgor; cells push against one another; strengthening / lignin; in the xylem; effect of the roots. The first four also explain wilting when reversed.
+
+INVESTIGATING TRANSPIRATION
+- Potometer (leafy shoot joined to a capillary tube with an air bubble): the bubble moves towards the plant / upwards; because water is used for photosynthesis; and lost in transpiration / evaporation from the leaves; transpiration pull. Rate = distance moved by the bubble / time (60 mm in 10 minutes = 6 mm per minute).
+- With a fan switched on the bubble travels further each minute (steeper line). In lower light the rate falls: less photosynthesis; less water needed; stomata / guard cells open less / are closed; less diffusion; less evaporation / transpiration.
+- Shoot covered with black polythene: gradually / over a period of time; the bubble slows down; it might stop - because vapour builds up around / stays close to the leaf; the cover prevents air currents / wind reaching the leaf; increased humidity; slower water loss / transpiration / evaporation; diffusion gradient less steep; photosynthesis stops; stomata close; less water used by the shoot.
+- Mass / volume method (plant in a container of water on a balance, or in a measuring cylinder): a layer of oil on the water prevents water loss / evaporation of water from the container; measure the mass / volume at the start and at the end (e.g. after 24 hours); subtract the end value from the start value / calculate the difference. The loss in mass is due to transpiration from the leaves. A potted plant has a plastic bag round the pot so that only the leaves lose water.
+- Mean rate = total loss in mass / time (1276 g - 1252 g = 24 g in 6 hours = 4 g per hour). Reading a graph: quote the value with its unit (e.g. 15 cm3 per hour) and the time of the greatest (combined) loss.
+- Bright light v dark at the same temperature: mass falls faster in bright light.
+- Waterproof jelly / grease on leaf surfaces: untreated - greatest loss; upper surfaces covered - slightly less; lower surfaces covered - much less; both surfaces covered - least. Plants with greased leaves are the ones that lose least mass.
+- Cobalt chloride paper (blue when dry, pink when damp) held against the upper and lower surfaces under dry glass slides: conclusion - more transpiration / water lost from the lower surface (ORA). Explanation - waterproof; cuticle / waxy layer on the upper surface (reject "skin"); stomata / pores (correctly placed on the upper or lower surface); release water (vapour) - credited only if stomata have been mentioned.
+- Unexpected result with the paper: paper / slide / leaf surface not properly dry; touched with wet fingers; damaged vein / xylem in the leaf; slow to set up after drying; any reasonable, qualified student error.
+- Improving reliability: repeat the experiment / run it more times; take an average; use another similar leaf (reject a leaf of a different species).
+- Showing that the water vapour concentration leaving a leaf is greater than that in the atmosphere: leave cobalt chloride paper exposed on the bench; time it (the paper on the leaf takes less time to change).
+- Sketch graph of water loss against humidity: the line is highest at low humidity and lowest at high humidity.
+
+TRANSLOCATION
+- Translocation is the movement / transport of sucrose and amino acids.
+- In the phloem.
+- From a source (where they are produced / released, e.g. leaves, storage organ) to a sink (where they are used or stored, e.g. roots, fruits, seeds, growing shoots) - accept from a named location to a named location, e.g. leaves to roots.
+- Dissolved / in solution.
+- The flow is bidirectional - up or down / around the plant.
+- Substances: sucrose / sugar(s) / products of photosynthesis (reject glucose, starch, "food"); amino acids. Glucose made in photosynthesis is converted to sucrose to be transported.
+- Producing and moving sugar to a fruit: photosynthesis; light absorbed by chlorophyll / chloroplasts; water and carbon dioxide combined; glucose and oxygen formed; glucose converted to sucrose / other sugars; (water from the soil / xylem, carbon dioxide from the air / stomata); then (max one) in the phloem / by translocation / active transport.
+- Leaf carbohydrate becoming starch stored in a root: changed to sucrose; suitable enzyme reference; in solution; translocated / carried in the phloem; out of the cells where it was made / into the cells where it is stored.
+- Stored starch and protein in a root used for shoot growth at night: enzyme / named enzyme; its action; named product; the product is soluble (accept amino acids / glucose / sugar); diffusion from the storage cells to the phloem; sucrose / amino acids moved up the phloem; translocation / transport up the stem; no photosynthesis at night; energy released in respiration (reject "produced"); sugar provides energy for growth; amino acids make proteins; for new cytoplasm / cells.
+- How a seed obtains its food store from the parent plant: amino acids / sucrose (sugar); made as a result of photosynthesis; in / from the leaves / source / storage organ of the parent; in solution; translocated / in the phloem; in the veins / vascular bundles; to the cotyledon / endosperm (sink). Amino acids reach the fruit / ovary through the phloem and are made into protein.
+- Sampling the phloem to follow photosynthesis: photosynthesis produces glucose / sugar / starch / carbohydrate; this is changed into sucrose; which passes down the phloem; its concentration varies; it is highest when the rate of photosynthesis is highest.
+- Insects (aphids) feeding from the phloem rather than any other tissue: it is within reach / nearer the outside; contains sucrose / sugar / carbohydrate (reject starch / glucose / mineral ions; ignore "nutrients"); contains amino acids (not present in xylem); in solution / water; phloem is not lignified / unthickened / softer, so the insect can penetrate the wall. Use to the insect: sugar (turned to glucose) used for respiration to release energy (reject produce); amino acids used to make protein for growth / repair. Mouthparts entering from the upper surface pass through upper epidermis, palisade cells, then phloem.
+- Many aphids feeding for weeks: impaired growth / death of the shoot; (loss of) amino acids used to make protein; less / no new cytoplasm; less sucrose / carbohydrate; less glucose; for use in respiration; less energy; for a named purpose; may introduce viruses / disease; damage to the plant (ignore wilting).
+- Ringing (removing a ring of bark, which includes the phloem): the tree eventually dies because organic nutrients can no longer reach the roots; water and mineral salts still reach the leaves in the xylem.
+- Cut flowers with their leaves removed are given sucrose: no photosynthesis; so no glucose produced; no sucrose produced; sucrose travels in the phloem; it is used for respiration / energy; the flowers last longer.
+- Parasitic and partly parasitic plants: a plant with little chlorophyll photosynthesises less and makes less sugar, so its roots grow into the host's phloem, which contains sugars / sucrose. A green plant with suckers in the host's veins takes water and mineral ions from the xylem (xylem + phloem if it also takes sucrose / amino acids). Nutrients passing from a tree to a plant with no chloroplasts: carbohydrate / sucrose / glucose / sugar; amino acids (reject protein); mineral ions / salts / nitrate (accept phosphate, potassium; ignore magnesium and water).
+- A plantlet on a runner before it roots: its leaves photosynthesise and make carbohydrate / amino acids (reject "food"); its roots absorb water and ions / salts / minerals (reject "nutrients") and anchor it; the connecting stem carries water / salts before the roots develop and carries sugars (reject glucose) / amino acids, with a correct reference to xylem or phloem.
+- Digested food store moving to the growing point of a seedling: in solution; through the phloem (idea of movement / translocation); reference to active transport / leaving or entering the phloem / cells. Ignore: references to diffusion.
+- Germinating seed, changes in the first days: no sugar at the start; the stored starch is digested (enzyme action - amylase; ignore "breakdown") to sugar (starch -> sucrose or glucose; protein -> amino acids), so sugar increases; it is transported / translocated (accept diffusion) to the growing regions (radicle and plumule) and used there for growth and for respiration (correct energy reference). These points explain the changes in mass of the food store and of the radicle and plumule.
+- Comparing transpiration and translocation: transpiration - loss of water vapour; from the leaves. Translocation - movement of sucrose and amino acids; in the phloem; from source to sink.
+
+XYLEM, PHLOEM AND CORTEX IN SECTIONS OF ROOTS, STEMS AND LEAVES
+- Root (transverse section): xylem in the centre, often star / cross-shaped; phloem in small groups between the arms of the xylem; cortex is the wide tissue outside; xylem and phloem are not paired.
+- Stem (transverse section): vascular bundles arranged in a ring round the outer part / near the edge; in each bundle the xylem is on the inner side and the phloem on the outer side (paired); many xylem groups in a stem against one in a root.
+- A leaf vein / midrib is vascular tissue (xylem + phloem). Leaf: xylem is in the upper part of the vein and phloem in the lower part; xylem conducts water into the leaf and phloem conducts sugars out.
+- The group of xylem and phloem tissues is a vascular bundle (accept organ). A section with separate bundles in a ring is a stem.
+- Drawing a stem section: vascular bundle(s) drawn towards the outside of the section / oval and correctly located; each bundle divided into two parts; three or more bundles; xylem labelled on the inside and phloem labelled separately on the outside of at least one bundle.
+- Describing the difference between root and stem: name xylem and phloem; around the edge of the stem / in vascular bundles; in the centre of the root; many xylem groups in the stem, one in the root; paired in the stem, unpaired in the root.
+- Importance of the position: in the centre of a root - resists pulling / helps anchorage; round the outer part of a stem - support / resists bending; (distribution through the leaf supports and spreads it out).
+- In photomicrographs xylem vessels are the large, empty, thick-walled cells; phloem cells are small and thin-walled.
+- Testing cell contents: xylem vessel - Benedict's negative and iodine negative; phloem cell - Benedict's positive and iodine negative in the newer papers (an older 2008 key expected negative for both; the later keys take priority).
+- After a plant has stood in dye only the xylem is stained.
+
+FUNCTIONS OF XYLEM AND XYLEM VESSEL ADAPTATIONS
+- Transports / carries / conducts water.
+- Transports mineral ions / salts (accept a named ion). Reject: transport of amino acids / sugars.
+- From the roots (root hairs) to the aerial parts - in one direction / upwards.
+- Support / rigidity / keeps the stem upright / prevents collapse of the vessel / resists bending; strengthens roots and stems and supports leaf shape (prevents tearing / spreads out the leaf).
+- Adaptations for transport: long (root to leaves); narrow / thin / capillary-like; hollow / tubular / pipe-like / continuous lumen; no cytoplasm / no cell contents (dead); no end walls / cross walls - cells joined end to end.
+- Adaptations for support: thick walls; lignified / lignin / woody / strengthened / thickened / hard walls (reject "strong / hard / rigid" alone).
+- Changes as a young cell becomes a xylem vessel: elongation of the cell (reject "cylindrical"); loss of cell contents / of a named content (accept death of the cell / hollow; reject loss of chloroplasts / dissolving of contents); loss of end walls; addition of thickening / strengthening material / lignin.
+- Xylem cell compared with phloem cell: thick wall / thin wall; lignin / no lignin; no cell contents or organelles / has cell contents; no end walls or cross walls / has sieve plates; no companion cell / has a companion cell.
+- Xylem carries mineral ions and water; phloem carries sucrose (and amino acids) in water.
+- One vascular tissue described in full - xylem: transpiration; transport of water / mineral ions; in one direction / upwards; support. Or phloem: translocation; transport of sucrose / amino acids; up or down; source to sink.
+- Functions of plant cells: phloem cells - sugar transport; root hair cells - ion uptake; palisade cells - photosynthesis.
+
+LINKS WITH OTHER TOPICS
+- Water transport in a plant and in a human. Similar: both carried in tubes; one-way movement; water travels between cells by osmosis. Plant: from soil / root; in xylem; no end walls, lignin; transpiration; cohesion / adhesion / continuous water column; lost by evaporation. Human: by ingestion / alimentary canal; in blood vessels; muscular / elastic artery walls; the heart pumps; heart muscle contracts and elastic tissue allows pulsing; lost by sweating / urination.
+- Sweating and transpiration are similar: loss of water; involves evaporation / as vapour; to the atmosphere / surroundings; cooling effect; through pores; in the epidermis; both affected by temperature / humidity / wind speed.
+- Plants in the water cycle: water is present in the soil; absorbed by roots; carried in the xylem; lost to the atmosphere from the leaves / aerial parts by evaporation / transpiration / diffusion; also released in respiration. In a sealed jar the water from transpiration (and evaporation from the soil, and respiration) condenses, returns to the soil and is absorbed / used again by the plants.
+- Substances leaving a plant: water (from the soil / from respiration) moves to the leaves / stomata, evaporates and is lost in transpiration; carbon dioxide from respiration in the cells and oxygen from photosynthesis in the chloroplasts leave by diffusion through the stomata.
+- Sweating compared with transpiration (max 7; reverse arguments accepted): sweating occurs in animals; involves loss of urea / ions / salts; is under nervous control; is part of homeostasis / determined by body temperature; uses sweat glands / ducts; sweat is extracted from the blood; lost from the skin; transpiration is from leaves / stems; helps bring ions up the stem / xylem to the leaves; helps bring water up the stem / xylem to the leaves / cells; is a consequence of stomata being open for photosynthesis.
+- Points credited in leaf / photosynthesis answers: the vein (vascular bundle) is present so that xylem (vessels) bring water (from the soil) and phloem removes the products; a plant cannot raise its rate of photosynthesis if it cannot store / translocate the sucrose / sugar more quickly; a plant without chlorophyll has no stomata or large air spaces - reduced need for gas diffusion and reduced / no transpiration; water vapour given off by a flower is lost by transpiration; in a section of a floating leaf the cells of the vein furthest from the upper surface are phloem / sieve tubes (accept companion cells).
+- A fungus growing inside a leaf can kill it by blocking the stomata (interfering with the movement of gases and with transpiration) and by blocking the veins / vascular bundles (xylem / phloem).
+- Fruits of a plant with blocked xylem are small and poorly developed: reduced photosynthesis; less sugar / starch / protein made; less water available to the fruit; fewer nutrients (or a named nutrient) sent to the fruit; less growth / development (linked to protein).
+- In accounts of leaf gas exchange over 24 hours the transpiration points credited are: stomata open in the day / closed at night; more water vapour is lost during the day.

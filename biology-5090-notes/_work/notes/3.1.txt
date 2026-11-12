@@ -1,0 +1,143 @@
+3.1 DIFFUSION AND OSMOSIS
+
+DIFFUSION - DEFINITION AND FEATURES
+- Movement of molecules / particles / ions.
+- From a region of their higher concentration to a region of their lower concentration / down a concentration gradient. Reject: "along" a gradient.
+- The movement is random (net random movement) - a result of the kinetic energy of the particles.
+- Passive - no energy from the cell / from respiration is required.
+- Processes that do not need energy from respiration: movement of oxygen from the alveoli (lungs) into the blood; diffusion of glucose; water entering a cell by osmosis. Processes that do: muscle contraction (e.g. of heart muscle), generation / conduction of nerve impulses, protein synthesis (converting amino acids into proteins), active uptake of ions (e.g. nitrate ions entering a root hair cell against the concentration gradient), production of antibodies by lymphocytes, digestion of food, mitosis, keeping the body temperature constant.
+- No membrane is required (but molecules MAY diffuse through a partially permeable membrane).
+- Diffusion does not always involve water, does not only happen in solutions / liquids (gases diffuse) and does not only occur in living systems.
+- Continues until the concentrations are equal (equilibrium); a gradient is maintained when the substance is used up inside the cell.
+- Diffusion and osmosis (not active transport) can continue in a root hair cell when no oxygen is available.
+
+FACTORS AFFECTING THE RATE OF DIFFUSION
+- Surface area - a larger surface area gives faster diffusion.
+- Temperature - a higher temperature gives faster diffusion (the rate does NOT slow as temperature increases).
+- Concentration gradient - a steeper gradient gives faster diffusion.
+- Distance - a thinner membrane / shorter diffusion distance gives faster diffusion.
+- Features of a gas exchange surface: thin / one cell thick / short distance; moist; large surface area; permeable; these give maximum / more / quick / efficient diffusion (absorption / exchange); gases dissolve / are in solution.
+- A thinner blood-gas barrier gives faster / greater gas exchange (diffusion), so more oxygen is supplied / more carbon dioxide removed, allowing more (aerobic) respiration in muscles.
+- Oxygen diffuses rapidly into the blood because: thin walls / one cell thick (alveoli / capillaries); relatively high concentration of oxygen in the lungs / more oxygen in alveolar air than in the blood / oxygen regularly replenished; continuous movement of blood; large surface area / rich supply of capillaries; haemoglobin absorbs the oxygen.
+
+EXAMPLES OF DIFFUSION CREDITED
+- Carbon dioxide moving into the palisade cells of a leaf; carbon dioxide entering a leaf.
+- Oxygen diffusing out of a plant cell - always because the oxygen concentration is higher inside the cell than outside.
+- Oxygen entering the blood from an alveolus (alveolar air has the higher oxygen concentration); uptake / loss of carbon dioxide by the blood (a process that occurs by diffusion alone).
+- Water vapour passing out of a leaf (through the stomata).
+- Water and ions moving through plant cell walls (without crossing a membrane) - both by diffusion.
+- A dye entering roots: by diffusion, down a concentration gradient, through the permeable (cellulose) cell walls. Reject: osmosis for the dye.
+- Respiration depends on diffusion: substances cross a (thin) membrane; oxygen into the cell; glucose into the cell; carbon dioxide out of the cell.
+- Exchange between blood capillaries and surrounding cells: oxygen / glucose from capillary to cells and carbon dioxide / urea from cells to capillary, by diffusion across the cell membrane.
+- Across the placenta: the substances the fetus needs (oxygen, glucose, amino acids, salts / ions, vitamins) diffuse from the mother's blood to the fetal blood, and carbon dioxide and urea diffuse the other way; because the necessary substances can diffuse across the placenta, the mother's blood need not (and must not) pass directly into the fetus. Drugs in the mother's blood reach the fetus the same way: by diffusion; across / through the placenta; into the blood of the fetus; along the umbilical cord / umbilical vein (reject umbilical artery).
+- A seed germinating while still on the parent plant obtains its water and oxygen by osmosis / diffusion (one correct relevant reference is credited).
+- Absorption in the small intestine: digested food molecules must be small / soluble / diffusible to be absorbed (large, insoluble, non-diffusible molecules are not); they pass by diffusion (and active transport) through the thin, one-cell-thick wall / epithelium of the villi / microvilli (reject "cell wall") - glucose and amino acids into the blood capillaries, fatty acids and glycerol into the lacteals / lymph (the lymph is later returned to the blood). Thin walls reduce the distance and so increase the speed of molecular movement; the villi give an increased surface area and have a good supply of capillaries.
+- Vitamins need no digestive enzymes: their molecules are small / soluble / already in the simplest form; they are absorbed by diffusion; through the villi / capillary / cell membrane (a partially permeable membrane).
+- When the absorbing surface of the small intestine is reduced (shorter / fewer villi; smaller area) there is less diffusion / active transport of glucose / amino acids / fatty acids / glycerol / vitamins / minerals. Conversely, the large surface area given by the villi gives a greater chance of food molecules diffusing into the blood.
+- Gas exchange in a leaf (credited in photosynthesis / respiration answers): the gases move by diffusion (credited anywhere in the answer); through the stomata / intercellular air spaces / spongy mesophyll; then through the cell wall to the chloroplast; carbon dioxide in and oxygen out by day (a plant obtains its oxygen for respiration the same way, or from its own chloroplasts); a thin leaf gives a short distance for gases to move; a large surface area (of the leaf / of the cell surfaces) allows more gas exchange / CO2 entry; a reference to the concentration gradients of CO2 / O2 is credited; the air chambers of a floating leaf supply CO2 by diffusion; oxygen made in a green stem under water diffuses out and appears as bubbles.
+- In the lungs: an inhaled substance (insulin taken by breathing it in; chemicals from cigarette smoke) reaches the alveoli / air sacs and enters the blood by diffusion into the capillaries; carbon dioxide leaves the blood by diffusion into the alveoli; when the walls of the alveoli are broken down (emphysema) there is less surface area, so less diffusion / gas exchange.
+- Carbon dioxide enters a leaf: by diffusion; down a concentration gradient; through the stomata; into the air spaces (in the leaf).
+- Processes in a leaf: water passes from the xylem vessel into a mesophyll cell by osmosis; it evaporates from the water layer on the surface of the mesophyll cell; water vapour passes out of the leaf (past the guard cells) by diffusion; carbon dioxide enters the leaf by diffusion.
+- Movement of molecules between a blood capillary and the cytoplasm of the surrounding cells: the blood is under pressure; the capillary wall is thin / one cell thick; soluble materials / plasma are squeezed / leak out; oxygen / glucose pass from the capillary to the cells; carbon dioxide / urea pass from the cells to the capillary; by diffusion; across the (partially permeable) cell membrane; any other named soluble substance (e.g. amino acids) with its direction.
+- A "disc diffusion" test is so called because the substance (e.g. an antibiotic) moves / diffuses out of the disc into the agar / bacteria.
+
+OSMOSIS - DEFINITION
+- Movement (diffusion) of WATER molecules.
+- From a region of higher water potential to a region of lower water potential / down a water potential gradient. Accept: from a dilute to a concentrated solution; from high to low water concentration; from low to high solute concentration; hypotonic to hypertonic.
+- Through / across a partially permeable membrane. Accept: selectively / differentially / semi-permeable; Visking tubing / dialysis tubing in a model.
+- Passive - no energy required.
+- Continues until the concentrations are equal on both sides / equilibrium / no net movement (or until pressure prevents further entry).
+- References to "concentration" must say whether it is the water or the solute; "(water moves) down the concentration gradient" alone is ignored in newer mark schemes.
+- Only water moves by osmosis - glucose and other solutes do not. Solute (e.g. sucrose) molecules are too large to pass through the membrane; water molecules are small enough.
+- Osmosis is a special form of diffusion: it is diffusion of water only and it needs a partially permeable membrane, whereas diffusion needs no membrane; neither needs energy.
+- In a diagram of two solutions separated by a membrane: large molecules = solute (sucrose); barrier = partially permeable membrane; small molecules = water; water moves towards the more concentrated solution.
+- Osmosis compared with active transport: osmosis is simple diffusion needing no energy / active transport needs energy; water only / ions or larger molecules; down / against a concentration gradient. Both need a partially permeable (cell) membrane.
+
+WATER POTENTIAL
+- Distilled (pure) water has the highest water potential (at atmospheric pressure); dissolved solutes lower the water potential.
+- A larger negative number (in kPa) is a lower water potential; net water movement between cells is always to the neighbouring cell with the lower water potential.
+- Where arrows show water moving between cells, the cell that only loses water has the highest water potential and the cell that only gains water has the lowest.
+- In a root, water potential falls from soil water -> root hair cell -> cortex cells -> xylem; a cell in the middle has a lower water potential than the cell outside it and a higher one than the cell inside it.
+- Water enters root hair cells from high to low water potential by osmosis: the cytoplasm / cell sap has a lower water potential than the soil water; the root hair cell wall is permeable; the cell membrane is the partially permeable membrane.
+- Starch is a better storage substance than glucose because it is insoluble and its molecules are large / compact, so it stays inside the cell / cannot cross the membrane, does not change (lower) the water potential inside the cell and so prevents the cell gaining water by osmosis.
+
+PLANT CELLS IN SOLUTIONS OF HIGHER WATER POTENTIAL (e.g. WATER)
+- Water enters the cell / vacuole.
+- By osmosis (diffusion), because the cell sap is more concentrated / down the water potential gradient.
+- Volume of the vacuole / sap / cytoplasm increases; cell swells.
+- Pressure inside the cell rises - turgor (pressure); the cell becomes turgid.
+- The cell wall withstands the pressure / prevents the cell from bursting; pressure from the cell wall prevents further expansion.
+- A cell whose wall has been removed with an enzyme: water enters by osmosis, the cell swells and BURSTS (ruptures) - there is no cell wall to stop it.
+- Cell enlargement during growth: water enters by osmosis from the soil / surrounding cells / xylem across the partially permeable membrane, increasing the volume of sap / cytoplasm.
+
+PLANT CELLS IN SOLUTIONS OF LOWER WATER POTENTIAL (CONCENTRATED SALT / SUGAR SOLUTION)
+- Water potential (water concentration) is lower outside the cell than inside (ORA).
+- Water moves out of the cell by osmosis / diffusion through the partially permeable membrane.
+- Vacuole shrinks / becomes smaller; cytoplasm shrinks; volume of the cells decreases.
+- Cell membrane / cytoplasm pulls away from the cell wall.
+- The cell is plasmolysed (plasmolysis); it is flaccid / no longer turgid / lacks turgor pressure.
+- The space between the cell wall and the cell membrane fills with the external solution (salt + water) - because the cell wall is permeable and the solution passes in, but the cell membrane is partially permeable: water can pass through it, other substances (e.g. salt) cannot. Ignore shading of the cell wall itself.
+- The only partially permeable structures in a plasmolysed cell are the membranes (cell membrane / vacuolar membrane), not the wall.
+- No sugar / salt enters the cell or leaves it.
+- A model cell (tubing permeable only to water inside a permeable outer layer) behaves the same way: water leaves by osmosis, the model shrinks, the tubing pulls away from the outer layer. Reject: reference to the vacuole shrinking in the model.
+- Pollen grains in a sucrose solution that is too concentrated: lower water concentration / potential outside; less / no water enters or water leaves; by osmosis - so fewer germinate.
+- A dried-out plant cell: loss of water (osmosis / diffusion / evaporation); cytoplasm and sap vacuole shrink; membrane pulls away from the wall; no turgor pressure; plasmolysis.
+
+EXPERIMENTS WITH PLANT TISSUE AND SOLUTIONS OF DIFFERENT CONCENTRATION
+- Potato pieces gain length / mass in solutions of higher water potential (water enters by osmosis) and lose length / mass in solutions of lower water potential (water leaves).
+- A piece that decreases in length was in a solution with a LOWER water potential than the potato cells; changes are due to water movement, not to sugar being taken up or lost.
+- The solution in which there is no (or the least) change in length / mass has the same water potential as the potato cells; on a graph this is where the line crosses zero change (or where initial mass : final mass = 1.0).
+- Graph of mass (or length) after immersion against sucrose concentration: the mass falls as the concentration increases.
+- The strip in pure water shows the greatest increase in length.
+- When potato gains mass in a dilute sucrose solution, the process is osmosis and the sucrose solution left behind becomes MORE concentrated.
+- Boiled potato does not swell in water - only unboiled (living) tissue placed in distilled water becomes larger.
+- Wilting / flaccid tissue: water lost from cells; loss of turgor.
+
+EXPERIMENTS WITH PARTIALLY PERMEABLE (DIALYSIS / VISKING) TUBING
+- A concentrated solution (sugar / salt / starch) separated from water by a partially permeable membrane: WATER molecules cross the membrane into the solution; the level of the solution rises; the solution becomes more dilute.
+- A more concentrated solution inside the bag (e.g. 0.4 instead of 0.2 mol per dm3 sucrose) makes the liquid rise higher.
+- Visking tubing is permeable to small molecules (e.g. glucose) but not to large molecules (e.g. starch).
+- Starch + amylase inside Visking tubing standing in water: after an hour the water outside gives a red colour with Benedict's solution (sugar has diffused out) and stays yellow-brown with iodine solution (starch cannot pass through).
+- Fat + lipase inside Visking tubing: fatty acids / smaller molecules pass through the tubing by diffusion down a concentration gradient and lower the pH of the water outside.
+- Starch suspension inside a membrane bag standing in iodine solution: the starch turns blue-black because iodine diffuses IN through the membrane; starch does not diffuse out (the outside stays yellow-brown).
+- Bags of partially permeable membrane in water, the water outside then boiled with Benedict's solution: starch solution alone - blue; reducing sugar solution - orange; starch solution + saliva - orange (sugar formed passes out); saliva alone - blue.
+- Starch + amylase inside a membrane permeable to sugar and water but not to starch or protein: water outside gives red with Benedict's, stays blue with biuret (the enzyme, a protein, cannot pass out) and brown with iodine.
+
+DIFFUSION ACROSS AN ARTIFICIAL (DIALYSIS) MEMBRANE - POINTS CREDITED IN KIDNEY-MACHINE QUESTIONS
+Context: kidney dialysis itself is not in the listed syllabus sections; only the diffusion / osmosis / membrane points are kept here.
+- The membrane / tubing is partially (selectively / semi-) permeable; the blood passes ALONG the tube (reject blood passing through the wall of the tube).
+- Small molecules pass through: urea / nitrogenous waste / toxins, salts / ions, (excess) water; they move from the blood into the dialysis fluid.
+- By diffusion (osmosis for water), not by active transport - any correct reference; from high to low concentration / down a concentration gradient / reference to the relative concentrations.
+- Large molecules / proteins (e.g. insulin) / blood cells do not pass through - the membrane prevents protein molecules diffusing out, so they stay in the blood.
+- The membrane is made as many tubes / sheets, coiled / folded / long, giving a large surface area.
+- The dialysis fluid has no / low urea (so urea is removed along a concentration gradient) and the same glucose and ion concentrations as normal blood; it keeps the blood at a constant osmotic potential.
+- The fluid is continuously replaced / flows counter-current: to maintain the gradient; to prevent a build-up of / ensure removal of waste products (urea, toxins); so that diffusion / exchange continues at its maximum.
+- Blood returning from the machine has less / no urea (and a changed ion concentration; lower pressure).
+
+ANIMAL CELLS AND TISSUES
+- A red blood cell / animal cell placed in pure water: water enters (water uptake); by osmosis; because the water potential is higher outside / lower inside the cell; across the partially permeable membrane; the cell swells / its volume increases (ignore "turgid"); the membrane cannot withstand the pressure / there is no cell wall; the cell bursts (accept haemolysis).
+- Animal cells in a liquid of lower water potential than their cytoplasm lose water and shrink (appear crinkled). A red blood cell in strong salt solution: water moves OUT of the cell and the cell decreases slightly in size (it does not burst and its volume does change).
+- Animal cells burst in distilled water but plant cells do not, because the plant cell wall resists the turgor pressure.
+- An animal with a partially permeable skin placed in sea water loses water by osmosis; a partially permeable object stored in distilled water loses water to a more concentrated fluid and shrinks.
+- Absorption of water in the ileum: by osmosis / diffusion; down a water concentration / water potential gradient; through the villi / microvilli; into the blood / plasma / capillaries.
+- Osmosis and diarrhoea (cholera): the toxin makes cells secrete chloride ions into the small intestine; the ions lower the water potential in the gut (accept: make the gut contents hypertonic); water moves out of the cells / into the gut (ignore "out of the blood"); by osmosis, down the water potential gradient / from high to low water potential; the faeces become watery.
+
+WATER PRESSURE AND SUPPORT IN PLANTS
+- Water inside the cells, taken up by osmosis, creates pressure / turgor.
+- Turgid cells push against one another - this supports the plant (stem / leaves) and keeps it upright.
+- The cell wall is tough / flexible and made of cellulose; it gives shape / rigidity / support to the cell and prevents the cell bursting.
+- Additional support comes from strengthening material / lignin in the xylem.
+- Turgor gives support in thin-walled cells (e.g. a root hair cell) but not in a xylem vessel.
+- A plant watered with a concentrated salt solution (or with its roots standing in one): the soil solution has a lower water potential than the cell sap; water leaves the cells / is lost from the plant by osmosis; cells become flaccid / lose turgor / support; the plant wilts (accept drooping; reject withering). Reject: references to the quantity of water rather than its concentration.
+- A plant that droops on a hot, dry or windy day is wilting / wilted / flaccid (reject plasmolysed): evaporation / transpiration; water loss faster than water uptake; loss of water from the cells (reject "from the plant"); loss of turgor / flaccidity / pressure (reject plasmolysed); loss of support (reject droop / wilt as the explanation).
+- Model of a wilting stem (a net tube packed with air-filled balloons): air = cell sap; balloons = cells; rubber = cell walls; net = epidermis. With every balloon fully inflated the structure is firm; with some air let out it sags (cells that have lost water / turgor give less support).
+
+WATER AS A SOLVENT AND ITS OTHER USES
+- Solvent - substances dissolve in it (e.g. sucrose and amino acids carried in the phloem; mineral ions in the xylem; substances carried in blood; urea and other wastes excreted in solution in urine).
+- Why water makes up so much of body mass (any three): solvent; a named dissolved substance; cytoplasm is mostly water; in blood / plasma for transport; in urine for excretion; in sweat - evaporation cools the body.
+- Transport medium / transporter.
+- Medium for chemical reactions / enzyme activity (reject "helps"); activates enzymes in a germinating seed. For germination water is credited as: solvent / for chemical reactions / for transport; activation of enzymes; softening / rupturing the testa.
+- Reactant, e.g. in hydrolysis (digestion) and in photosynthesis.
+- Much of the content of cells / cytoplasm / blood / the body is water; water lost in sweat / urine / breath must be replaced; prevents dehydration.
+- Gives turgor / turgidity (support) and allows cell elongation in plants (reject "growth" unqualified); needed for transpiration, which cools the plant. Uses of water credited for a plant: photosynthesis / turgor / transport / solvent / hydrolysis / enzyme activity ("transpiration" was rejected as a use in one scheme).
+- Also credited for water in the diet: temperature regulation / sweating; osmoregulation; lubrication; prevents constipation. (An older mark scheme rejected "simple references to temperature control".)

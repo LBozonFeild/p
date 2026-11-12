@@ -1,0 +1,87 @@
+14.1 MAMMALIAN NERVOUS SYSTEM
+
+PARTS OF THE NERVOUS SYSTEM
+- Central nervous system (CNS): brain; and spinal cord.
+- Peripheral nervous system (PNS): the nerves / nervous tissue / neurones outside the CNS.
+- Components of the nervous system other than the brain: spinal cord; nerves / neurones; a named receptor / sense organ.
+- Receptors respond to changes in the environment (stimuli) and send impulses to the CNS; receptors are found at one end of sensory neurones.
+- Effectors are muscles or glands; they carry out the response.
+- All neurones transmit electrical impulses. Write "impulse" / "electrical impulse" - "signal" and "message" are ignored / rejected.
+- Generating and conducting nerve impulses needs energy from respiration.
+- Units: 1 mm = 1000 micrometres, so 0.00003 mm = 0.03 micrometres (the width of a synaptic gap in one question).
+
+THE THREE TYPES OF NEURONE
+- Sensory (afferent) neurone: carries impulses from the receptor / sense organ; to the CNS / spinal cord / brain. Impulses travel towards the CNS. Reject "nerve" where neurone is required.
+- Relay (intermediate / inter- / connector) neurone: lies within the CNS (in the grey matter of the spinal cord, or in the brain); carries impulses from the sensory neurone; to the motor neurone. Impulses travel within the CNS.
+- Motor (efferent / effector) neurone: carries impulses from the CNS / spinal cord / brain (from the relay neurone); to the effector - muscle or gland. Impulses travel away from the CNS.
+- If no neurone is named, no marks are given for describing roles; when more than the required number are described the best are marked.
+- Motor and sensory neurones compared. Similarities: both carry impulses; quickly; over long distances; during voluntary, involuntary or reflex actions. Differences: motor - from CNS to effector; sensory - from receptor to CNS.
+- In a diagram through the spinal cord: the sensory neurone enters from the receptor (its cell body lies in a swelling on the root outside the cord); the relay neurone lies inside the cord; the motor neurone leaves the cord for the muscle.
+- In temperature control, sensory neurones carry information from skin receptors to the brain and motor neurones carry it from the brain to the sweat glands.
+
+REFLEX ACTIONS
+- Definition: rapid (accept quick / fast / sudden / immediate / instant);
+- automatic (accept involuntary / unconscious / instinctive / spontaneous / no decision or conscious thought involved / cannot be controlled);
+- response / reaction;
+- to a stimulus.
+- Ignore "brain" in the definition; reject "no involvement of the brain".
+- Value: automatic / innate / does not have to be learnt; protective / aids survival / limits damage (accept an example, e.g. prevents too much light entering the eye).
+- Examples: withdrawing a hand from a hot or sharp object; blinking when an object approaches the eye; pupil change in bright light; jumping at a loud noise; eyes watering; sneezing. Not reflexes: steering a car, lifting a book, solving a problem.
+- To describe one example: name the stimulus; name the correct receptor; describe the action; explain why that action is important.
+- A simple limb reflex involves the spinal cord; the brain is informed of what has happened (it receives information) but does not initiate the response. Reject the brain if it is said to direct / decide the response (marking stops at that point in one scheme); reject "consciousness involved".
+
+THE REFLEX ARC - SEQUENCE
+- Stimulus (or a named example).
+- Detected by a receptor (or correctly named; reject a named sense organ where the receptor is required) - the receptor converts the stimulus into an impulse.
+- Impulse / electrical impulse;
+- passes along the sensory neurone;
+- to the CNS / spinal cord;
+- across a synapse;
+- to the relay neurone;
+- (across a synapse) to the motor neurone;
+- to the effector - a muscle (accept the correct named muscle, e.g. biceps / flexor for withdrawal) or gland;
+- which contracts / acts to give the response (described, and correct for the stimulus).
+- Sequence mark: receptor / sensory / relay / CNS points must come before motor / effector / muscle points.
+- Flow diagram: receptor -> sensory neurone -> central nervous system (relay neurone) -> motor neurone -> effector -> response.
+- Blink reflex: stimulus detected by receptors (in the retina - rods / cones - or in the cornea; ignore "eye"); impulse in the sensory (optic) neurone; relay neurone in the CNS; motor neurone; eyelid muscles (the effector); which contract to close the eye.
+- Pupil reflex arc: retina -> sensory neurone -> relay neurone (in the brain) -> motor neurone -> iris muscle.
+- Labelling a pin-prick reflex: the receptor is in the skin of the hand where the pin touches; the effector is the muscle of the arm.
+
+REFLEX AND VOLUNTARY (DELIBERATE) ACTIONS
+- Reflex: started by an (external) stimulus acting on a receptor; protective / always the same response; immediate / rapid; not learnt / automatic / instinctive / involuntary; the impulse takes the shortest pathway; effectors are muscles or glands.
+- Voluntary: controlled / involves a decision / conscious; initiated from the brain; may be slower; always involves the brain.
+- Named types of response: reflex / involuntary / unintentional (reject "spinal reflex"); voluntary / deliberate / intentional.
+- Sequences: reflex with a gland as effector (eyes watering) - receptor, impulse, sensory neurone, brain, motor neurone, gland; voluntary action - brain, impulse, spinal cord, motor neurone, muscle, contraction; a loud noise followed by a faster heartbeat - receptor, impulse, sensory neurone, brain, motor neurone, gland, hormone, (heart) muscle.
+
+BECOMING AWARE OF A STIMULUS
+- Stimulus (stimulates - reject "detects" for the stimulus).
+- Receptor (e.g. taste bud / sensory endings in the tongue; receptors in the skin; retina / rods / cones in the eye).
+- Impulses (reject messages).
+- Sensory neurone (reject nerve in the older schemes).
+- Synapse; relay neurone.
+- To the brain / CNS (ignore spinal cord for taste).
+
+DAMAGE AND BLOCKS
+- Damage to the spinal cord: impulses are not transmitted; so the effector (or a named effector) is not activated.
+- Sensory neurone cut / blocked: no pain is felt and there is no reflex movement; the muscles can still be moved because the motor neurone is intact.
+- Motor neurone blocked: the stimulus is felt but the limb cannot be moved.
+- Block in the spinal cord between the reflex arc and the brain: the limb moves in response to the stimulus but nothing is felt.
+- Relay neurone damaged: impulses cannot pass from the sensory neurone to the motor neurone.
+- Pathway from the brain damaged: the reflex still happens but cannot be controlled consciously.
+- Sensory root cut on one side of the spinal cord: loss of some sensation on that side of the body.
+
+SYNAPSES
+- A synapse is the junction between two neurones (accept synaptic cleft / synaptic gap as the name of the junction).
+- The impulse arriving stimulates the release of neurotransmitter molecules;
+- from vesicles;
+- into the synaptic gap / cleft;
+- the neurotransmitter molecules diffuse across the gap;
+- and bind with receptor proteins (receptor molecules / sites) on the membrane of the next neurone;
+- this causes an impulse to be stimulated / initiated in the next (post-synaptic / relay) neurone.
+- Role in a reflex arc: transmission of the impulse between neurones; in one direction.
+- One-way transmission: vesicles contain / release the neurotransmitter; vesicles are only on one side of the gap; receptor proteins are in the cell membrane only on the other side of the gap.
+- On a diagram the impulse arrow is drawn from the neurone containing vesicles to the neurone that does not. A diagram showing neurotransmitter molecules attached to the second membrane shows the "bind with receptor proteins" stage.
+- Drugs acting at synapses. A pain-killing (analgesic) molecule has a similar shape to the neurotransmitter; fits / binds with the receptor proteins; blocks them / stops the neurotransmitter binding; so information from the pain receptor cannot reach the brain. Nicotine, with a shape similar to a neurotransmitter, binds to the receptor proteins on the post-synaptic membrane and impulses are generated / more impulses travel. Depressants (alcohol, heroin): impulses pass more slowly; between neurones; reaction times are longer / reflexes slower.
+
+DATA
+- Comparing reductions in impulse speed: convert each to the same form - e.g. 0.14 m/s per year for 20 years = 2.8 m/s; 10 % of 55 m/s = 5.5 m/s.

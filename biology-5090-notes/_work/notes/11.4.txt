@@ -1,0 +1,105 @@
+11.4 BLOOD
+
+COMPOSITION OF BLOOD
+- Plasma (the liquid part; mostly water).
+- Red blood cells (erythrocytes).
+- White blood cells: lymphocytes and phagocytes.
+- Platelets.
+- Dissolved (named) food substances in the plasma; other plasma components, e.g. urea, carbon dioxide, hormones, antibodies, fibrinogen.
+- Relative proportions, with a figure quoted: plasma about 55 % of the volume, red blood cells about 44 %, white blood cells about 1 %.
+- In centrifuged blood the denser cells settle to the bottom and the plasma forms the upper layer. Red cells are denser than white cells: haemoglobin; densely packed; contains iron; less water / solvent in red cells; solutes increase density.
+- Matching components to functions: red blood cell - transports oxygen; platelet - involved in clotting; plasma - transports (e.g. fibrinogen, carbon dioxide, nutrients, hormones, antibodies); phagocyte - engulfs pathogens; lymphocyte - makes antibodies.
+- An essay that only names components without explaining functions earns at most 1 mark (for any three named).
+
+IDENTIFYING BLOOD CELLS IN PHOTOMICROGRAPHS AND DIAGRAMS
+- Red blood cells: the numerous small round cells with no nucleus and a paler centre. Accept red blood cell / erythrocyte / RBC.
+- White blood cells: larger, fewer, with a stained nucleus. Lobed nucleus = phagocyte (accept polymorph / neutrophil / macrophage); large round nucleus filling most of the cell = lymphocyte.
+- The clear liquid between the cells = plasma. Tiny fragments = platelets.
+- The same red cells look different seen from the side and from above: both are the same shape; seen from different angles.
+- A red cell looks paler at its centre: it is thinner in the middle / biconcave; contains haemoglobin; more haemoglobin at the edges than at the centre; light passes more easily through the centre; there is no nucleus.
+- Red blood cells of birds compared with mammals (comparisons must be valid pairs): nucleus v no nucleus; larger v smaller; larger than the white cells v smaller than the white cells; oval / egg-shaped v round disc; biconvex / not biconcave v biconcave. Reject: spherical; references to haemoglobin or surface area; "oval v biconcave".
+- Red blood cells are the sample examined to detect the malarial parasite (infected cells show the pathogen inside them); infection with the malarial pathogen can cause anaemia because red blood cells are destroyed / their number is reduced.
+
+RED BLOOD CELLS
+- Function: transport / carry / absorb oxygen. Accept transport of carbon dioxide (one scheme). Reject "carry substances"; ignore "contain haemoglobin" given as a function.
+- Contain haemoglobin; which binds / combines with oxygen; forming oxyhaemoglobin; haemoglobin absorbs oxygen quickly and carries it in the red blood cells.
+- No nucleus (anucleate); so more room / volume / space for haemoglobin. No cell wall. Have cytoplasm and a cell membrane.
+- Biconcave shape ("doughnut" shape); gives a large / increased surface area; for faster / more uptake / diffusion of oxygen in and out.
+- Small / flexible / elastic / able to change shape; so they can squeeze through capillaries.
+- Live for about 90 - 120 days (3 - 4 months).
+- Iron (Fe) is the mineral ion needed to make haemoglobin - red blood cells are the component that cannot function effectively if the diet lacks iron.
+- Oxygen entering the blood in the lungs: dissolves; diffuses (through the alveolus wall / capillary wall / plasma); combines with haemoglobin / forms oxyhaemoglobin. Changes in blood passing through lung capillaries: carbon dioxide lost; oxygen gained / becomes oxygenated ("gas exchange" = 1 mark); haemoglobin becomes oxyhaemoglobin; pH changes / becomes less acidic; down diffusion / concentration gradients.
+- Diet short of iron for years: iron is needed for haemoglobin; less haemoglobin is formed; less oxygen is absorbed by the red blood cells; so more oxygen remains in the air breathed out.
+- Carbon monoxide combines with haemoglobin (forming carboxyhaemoglobin): less oxygen is carried by the blood / red cells / haemoglobin to the organs.
+- Unusually low number of red cells - symptoms: tiredness / fatigue / weakness / dizziness / fainting; inability to exercise / inactive; breathing problems; because of reduced oxygen transport; reduced respiration; reduced energy release; irregular menstruation.
+- Factors changing the red blood cell count: iron in the diet; anaemia / sickle cell anaemia; pregnancy; menstruation; accidental loss of blood; altitude.
+- High altitude: less oxygen in the atmosphere; more red blood cells / more haemoglobin are made; more oxygen carried / supplied as oxyhaemoglobin; gives athletes a competitive advantage. Other adaptations of people living at altitude: rapid / deeper breathing; modified lung structure; more (efficient) haemoglobin; more efficient blood supply to organs / larger heart; faster heart rate / circulation.
+- More haemoglobin per unit volume (e.g. in birds): more / sufficient oxygen carried as oxyhaemoglobin; for aerobic respiration (reject anaerobic); releasing more / enough energy; for muscle contraction.
+- Red cells that lose their shape, become less flexible or stick together (as in uncontrolled high blood glucose, or sickle cell anaemia): reduced surface area / volume; so less haemoglobin; less oxygen absorbed / carried / supplied; loss of elasticity - harder to fit / move through capillaries / vessels; sticky - clump together / clot; blockage of a blood vessel; reduced blood flow to the tissue; less aerobic respiration; less energy.
+- A fish with colourless blood has no red blood cells / erythrocytes / haemoglobin. It survives in very cold water: less aerobic respiration; enzyme reactions are slower; less oxygen is needed; more oxygen is absorbed; more oxygen is carried in the plasma; more blood / oxygen is pumped (larger heart, wider vessels, more blood); to the organs / tissues / cells.
+- Calculations: 0.470 dm3 = 470 cm3, so at 5000 million cells per cm3 one donation holds 2.35 x 10^12 red cells; 5 million per mm3 = 5 x 10^6; a diameter of 0.007 mm = 7 x 10^-3 mm.
+
+WHITE BLOOD CELLS
+- Function: immunity / immune response / destroy pathogens - bacteria / viruses / microorganisms / dead cells. Ignore "germs" and "foreign bodies".
+- Phagocytes: engulf / ingest pathogens - phagocytosis (or described). Reject "digesting" for the act of engulfing.
+- Lymphocytes: produce antibodies (accept antitoxins). The blood component that makes antibodies is white blood cells / lymphocytes (the abbreviation "WBC" was ignored in one scheme).
+- White blood cells are responsible for the rejection of transplanted tissue.
+- White blood cells do not produce antigens, convert fibrinogen or transport toxins.
+- Fewer white cells than normal. Problem: reduced immunity / immune response / less able to fight infection / kill microorganisms / more likely to suffer (infectious) disease (accept a named disease, bacteria / viruses / fungi; reject leukaemia). Explanation: less phagocytosis; less antibody production; microorganisms / pathogens remain in the blood / body / are not destroyed.
+- HIV reproduces in white blood cells and destroys them: the immune system / immunity is weakened; lymphocyte numbers fall; reduced antibody production; reduced phagocytic action.
+
+ANTIBODIES
+- Pathogens carry antigens - specific chemicals / proteins on their surface; recognised as foreign.
+- Lymphocytes produce antibodies.
+- Antibodies are proteins; carried in the blood plasma.
+- Each antibody is specific; its shape / structure is complementary to / fits the antigen (not "the same shape").
+- The antibody binds to the antigen (antibody-antigen complex).
+- This leads to direct destruction of the pathogen / virus / bacterium;
+- or marks the pathogen (points it out / clumps pathogens together / immobilises them) for destruction / engulfing by phagocytes (macrophages).
+- Antibodies destroy bacteria but not the body's own cells: the antigens / proteins are on the surface of the bacteria (not on human cells); they are recognised as foreign; the antibody is specific to that antigen.
+- After infection or vaccination, memory cells are produced; antibody production on the next infection is rapid / increased. Testing blood for a specific antibody shows a past infection even when the pathogen is no longer in the blood / is only inside cells, because the lymphocytes will have made antibodies that remain in the blood.
+- Antibodies compared with antibiotics: both cure disease / fight infection; antibodies are proteins, in the blood / plasma, produced by white blood cells / lymphocytes / internally by the body, in response to / against antigens / pathogens, and are more specific; antibodies affect viruses; antibiotics are drugs / medicines - artificial / manufactured (produced externally / in a laboratory / fermenter, often using fungi), taken / swallowed / injected, used only against bacteria and not viruses, and assist the immune system.
+- Transplants and transfusions: white blood cells / lymphocytes make antibodies against foreign proteins / antigens, causing rejection; blood groups / types must match; relatives have similar proteins / tissues so rejection is less likely. Tissue treated before transplant has its antigens / proteins removed / blocked / coated (or made like human tissue): it is not recognised; by white blood cells / lymphocytes / phagocytes; the immune response is reduced; fewer antibodies / less phagocytosis.
+- A person's blood group needs to be known for blood transfusion / tissue or organ transplant; to avoid clotting of the blood / prevent rejection; or to check paternity.
+- A mother's antibodies do not usually meet the antigens of her fetus: the placenta; keeps the two blood streams separate; antibodies are too big / cannot pass across the placenta / through capillary walls. CAUTION - this ruling comes from one question about a mother's antibodies and the antigens of her fetus. Other mark schemes list antibodies among the substances that pass from the mother's blood to the fetus across the placenta, and credit "fewer antibodies (passed) across the placenta" as the reason why babies born prematurely are at higher risk of infectious disease.
+- Variation in immune response between people: numbers of lymphocytes / ability to produce antibodies; HIV infection; age; sex; genetics; diet; previous exposure to the pathogen / immunity / vaccination.
+- A blood test for antibodies is delayed until some time after possible infection: time is needed for the production of antibodies / for the immune response.
+
+PLATELETS AND CLOTTING
+- Platelets are involved in blood clotting; they plug damaged vessels (plug the hole).
+- Platelets (release enzymes that) cause fibrinogen to change to fibrin. Reject "fibres" for fibrin.
+- Soluble fibrinogen is converted to insoluble fibrin; which forms threads / a mesh.
+- The mesh traps red blood cells; forming a clot; which dries to a scab.
+- Importance: stops bleeding / prevents blood loss; prevents infection / entry of pathogens (bacteria).
+- Order of involvement: platelets, fibrinogen, fibrin, red blood cells.
+- Older schemes also credit thrombokinase / thromboplastin / prothrombin / thrombin / antithrombin / factor VIII as clotting proteins.
+- Cuts that do not heal and blood that does not clot easily: a lower than normal level of platelets. A chemical that prevents clotting stops the animal making fibrinogen / fibrin.
+- After a cut - complete sequence: capillaries / blood vessels damaged; bleeding; platelets; fibrinogen; fibrin; clotting; scab; new cell growth (reproduction / growth of skin cells); skin re-seals / barrier to bacteria restored; white blood cells; antibodies / antitoxins (clumping of bacteria); phagocytosis.
+- "Anti-platelet" drugs are given before a stent is fitted: the natural response to damage is for blood to clot; platelets cause fibrinogen to change to fibrin; the drug prevents clotting.
+
+PLASMA
+- Mostly water; acting as a solvent - substances are carried dissolved / in solution.
+- Transports nutrients: glucose; amino acids; mineral ions / salts (accept named); vitamins (accept named); fats / fatty acids and glycerol.
+- Transports urea; carbon dioxide; hormones; plasma (blood) proteins such as fibrinogen and antibodies.
+- Transports blood cells and platelets.
+- Transports heat.
+- Serves the body cells / carries hormones to target organs.
+- One function of plasma: transport of a named substance (accept blood clotting).
+- Most carbon dioxide is carried in the plasma (as hydrogencarbonate ions, HCO3-) and leaves the blood from the plasma into the moisture lining the alveolus and then the alveolar air.
+- Mineral ions in plasma with functions: iron for haemoglobin / red blood cells; calcium for bones / teeth / blood clotting (accept others with a correct function, e.g. sodium / potassium for nerve impulses; reject nitrogen, iodine, sulfur given as elements).
+- Blood compared with urine: blood has cells / platelets / plasma, protein / antibodies / amino acids / fats, glucose and more hormones / vitamins; urine has none of these, a higher urea concentration and more salts / water.
+- Blood tests as a guide to health (at most 3 marks for factors with no explanation): glucose concentration - diabetes; urea concentration - kidney disease; number of red cells - ability to deliver oxygen / shortage of iron / anaemia; shape of red cells - sickle cell anaemia; number of white cells - cancer / leukaemia / infection; cholesterol - blocking of arteries; specific antibodies - immunity / previous exposure to a pathogen.
+
+TISSUE FLUID AND EXCHANGE WITH CELLS
+- Blood in the capillary is under pressure; the capillary wall is thin / one cell thick / leaky.
+- Plasma / soluble materials are squeezed (leak) out of the capillaries to form tissue fluid - at the arterial, high-pressure end. Blood pressure, not osmosis or active transport, causes this transfer.
+- Liquid in the capillary = plasma; liquid round the cells = tissue fluid (older scheme also accepts ECF / lymph / interstitial fluid / plasma for the fluid leaving; reject blood).
+- Tissue fluid has fewer protein molecules than plasma; both contain dissolved glucose and oxygen (and white blood cells can pass through).
+- From capillary to cells: oxygen; glucose; other soluble substances such as amino acids, hormones, ions, vitamins (direction must be given).
+- From cells to capillary: carbon dioxide; urea / waste products; water.
+- Movement is by diffusion; across the (partially permeable) cell membrane; water returns to the capillary at the low-pressure (venous) end by osmosis.
+- Pressure in a capillary is highest at the end where blood enters from the artery.
+- Carbon dioxide leaving a cell: diffusion; from the cytoplasm; through the cell membrane; into tissue fluid; into the capillary; carried in the plasma / red blood cells.
+- Blood vessels supplying a tissue: bring glucose / amino acids / minerals / vitamins; for energy / repair of cells; bring oxygen; for (aerobic) respiration; take away urea / carbon dioxide; by diffusion; bring white blood cells; to fight infection.
+- Substances passing from liver cells into the blood: urea (accept uric acid / creatinine); carbon dioxide; iron; glucose; vitamins; water.
+- Hormones are transported in solution; in the blood; in the plasma.

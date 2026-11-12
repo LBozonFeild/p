@@ -1,0 +1,129 @@
+1.1 CELL STRUCTURE AND FUNCTION
+
+STRUCTURES FOUND IN BOTH ANIMAL AND PLANT CELLS
+- Cell membrane (cell surface membrane) - found in ALL cells (animal, plant, bacterial, fungal).
+- Cytoplasm.
+- Nucleus.
+- Mitochondria.
+- Ribosomes.
+- Vacuole / vacuoles (small) may be present in animal cells. Reject: "cell sap" or "large vacuole" as a feature common to animal and plant cells.
+- A human cheek cell and a leaf (spongy mesophyll) cell both show: cell membrane, nucleus and cytoplasm.
+- Cytoplasm is present in a liver cell, a leaf palisade cell AND a red blood cell (a red blood cell has no nucleus, so the nucleus is not common to all three).
+- Cell membrane is the only structure common to a bacterial cell, a red blood cell, a liver cell and an onion epidermal cell.
+
+STRUCTURES FOUND IN PLANT CELLS BUT NOT IN ANIMAL CELLS
+- (Cellulose) cell wall.
+- Chloroplasts. Ignore: "chlorophyll" when a structure is asked for.
+- (Large / central / permanent) sap vacuole containing cell sap.
+- Starch grains (plant cells store starch).
+- Animal cell (e.g. fresh liver) compared with a plant cell (e.g. onion epidermis) under the microscope: a difference in shape (with both cells named); the plant cell has a cell wall, a vacuole, a nucleus pushed to the outside / not towards the centre, and (in green cells) chloroplasts and starch grains - ORA for the animal cell.
+- Vacuolar membrane (tonoplast) is credited as a labelled plant-cell feature in drawings.
+- A single large sap vacuole identifies a cell seen under the microscope as a plant cell.
+- A cell wall (or a large / central / sap vacuole) shows that a root hair cell / root cell is a plant cell. Root cells have NO chloroplasts.
+- ALL plant epidermal cells have a cell wall and a nucleus; they do not all have chloroplasts or starch grains.
+- In the leaf epidermis only the guard cells contain chloroplasts; the other epidermal cells have a nucleus but no chloroplasts.
+- An animal cell is recognised by: no (cellulose) cell wall / only a cell membrane as the outer layer / no (large) vacuole / no chloroplasts.
+- Newly formed (dividing) plant cells at a shoot tip differ from mature cells: no chloroplasts, no (sap) vacuole, less cytoplasm.
+
+FUNCTIONS OF CELL STRUCTURES
+- Nucleus - contains the cell's genetic material / chromosomes / DNA.
+- DNA is the chemical in the nucleus that controls the production of protein. Chromosomes carry DNA; chromosomes are in the nucleus (not free in the cytoplasm) of animal and plant cells.
+- Cell membrane - controls the entry and exit (passage) of substances into and out of the cell. It is partially permeable.
+- The cell membrane of a living cell prevents a stain from entering (only dead cells take up such a stain).
+- Mitochondria - site of aerobic respiration.
+- Ribosomes - protein synthesis.
+- Chloroplast - photosynthesis / converts light energy to chemical energy / makes glucose / makes starch.
+- Chloroplast is a structure / organelle found in plant (leaf) cells; it contains chlorophyll and contains the enzymes for photosynthesis.
+- Chlorophyll is a green chemical / pigment; it contains magnesium; it traps / absorbs / converts light.
+- During the daytime a chloroplast contains a HIGH concentration of oxygen and a HIGH concentration of magnesium compared with the rest of the cell.
+- After a plant has been in bright light, starch grains in the chloroplasts stain blue-black with iodine solution.
+- (Sap) vacuole - storage / turgor / support; it contains varying amounts of water, ions and sugars.
+- Cell wall - gives the cell its rigid shape / shape / support / turgidity.
+- Cell wall - prevents the cell bursting when water enters; it resists turgor pressure. A plant cell with its cell wall removed bursts in distilled water, as animal cells do.
+- Cell wall is made of cellulose (plants use cellulose for making cell walls). The cell wall does not contain starch.
+- Cell wall is fully permeable (a solution passes through it); the cell membrane is partially permeable.
+- Cytoplasm - the region of the cell that contains the nucleus and the other organelles.
+
+IDENTIFYING STRUCTURES ON DIAGRAMS, PHOTOMICROGRAPHS AND ELECTRON MICROGRAPHS
+- Cell wall - the outermost boundary line / layer of a plant cell.
+- Cell membrane - the line immediately inside the cell wall (in an animal cell it is the outer layer).
+- Cytoplasm - the (dotted / granular) region between the cell membrane and the vacuole.
+- Sap vacuole - the large clear central space.
+- Nucleus - single dark, rounded body lying in the cytoplasm (never inside the vacuole or the wall).
+- Chloroplasts - several oval bodies lying in the cytoplasm around the edge of the cell (in an electron micrograph they show internal stacks of membranes).
+- Mitochondrion - small oval / sausage-shaped body with a folded inner membrane.
+- Ribosomes and mitochondria are NOT visible with a light microscope but are visible in the cytoplasm in an electron micrograph. Accept other correct structures not on the syllabus, e.g. rough ER, Golgi apparatus.
+- A cell seen with the electron microscope is an animal cell if its outer layer is the cell membrane (no cell wall).
+- In a plasmolysed plant cell the membrane has pulled away from the wall; the solution fills the space between the cell wall and the cell membrane.
+- Order of structures crossed by carbon dioxide entering a leaf cell: intercellular (air) space -> cell wall -> cell membrane -> cytoplasm -> chloroplast membrane.
+
+DRAWING AND LABELLING CELL DIAGRAMS (credited features)
+- Cell wall drawn OUTSIDE the cell membrane.
+- Nucleus drawn in the cytoplasm (must be in the cytoplasm) and labelled; nucleus drawn larger than a chloroplast.
+- Vacuole drawn in the middle and larger than the nucleus; cell wall on the outside and nucleus between them.
+- Chloroplast drawn in the cytoplasm, in the correct position, and labelled; chloroplasts are drawn only in leaf (photosynthetic) cells.
+- Other labelled components credited: cell membrane; cytoplasm / protoplasm; sap / vacuole; tonoplast (vacuolar membrane); nucleolus / nuclear membrane.
+- Guard cell (surface view) labels credited: nucleus; vacuole / cell sap; cytoplasm; chloroplast; cell wall; cell membrane; vacuolar membrane / tonoplast. Ignore: mitochondrion / ribosome.
+- A label is credited only if the structure is drawn in a plausible position; a label line must end on the structure named (a line for the cell wall must not end on the inner line).
+
+MICROSCOPY AND TEMPORARY STAINING
+- Iodine solution stains starch grains blue-black; the cell wall (and the rest of the cell) stays the orange-brown colour of the iodine.
+- A stained nucleus becomes visible in cells under the light microscope.
+- Mitochondria occupy a share of the cell volume: mean volume of one mitochondrion = (fraction of cell volume occupied x cell volume) / number of mitochondria (e.g. 20% of 11 305 um3 shared by 1500 mitochondria = 1.5 um3 each).
+
+BACTERIAL CELLS
+- Bacterial cell structures: ribosomes; circular DNA (one large loop of DNA in the cytoplasm); plasmids; cytoplasm; cell membrane; cell wall.
+- Bacteria are single-celled / unicellular.
+- No nucleus / no true nucleus / no nuclear membrane (nucleus not membrane-bound); DNA lies in the cytoplasm.
+- DNA is circular / a loop / a single chromosome / a strand of DNA; plasmids are also present.
+- Plasmids - small rings of DNA that carry genes; a plasmid is another structure (besides the main loop) that contains DNA; the plasmid is the structure used in genetic modification: genes / DNA can be inserted into it and it can pass into a (bacterial) cell - a vector that carries a gene into the cell. The presence of plasmids (with rapid, asexual reproduction by binary fission giving genetically identical cells) is a reason why bacteria are suitable for genetic modification.
+- Ribosomes - protein synthesis.
+- Cell membrane - controls the passage of substances into and out of the cell.
+- Cell wall - shape / support / turgidity; the bacterial cell wall is NOT made of cellulose.
+- No (membrane-bound) organelles / no mitochondria; ribosomes are smaller.
+- May have flagella / a flagellum (ignore "tail"); may have a (slime) capsule.
+- Size: smaller than animal and plant cells / about 1-2 um (0.5-5.0 um) / microscopic.
+- Reproduce by binary fission / asexual reproduction; capable of independent existence.
+- A cell labelled with cell membrane, cell wall, ribosome, DNA and plasmid (or with a strand of DNA, cell wall and cytoplasm, about 1 um long) is a bacterium.
+- Components of a bacterial cell that are also found in animal and plant cells: cytoplasm; cell membrane; ribosomes; DNA / RNA / genetic material / chromosome.
+- Bacterial cell compared with animal cell: has a cell wall; no (true) nucleus; different arrangement of DNA, e.g. plasmid; (may) have flagella (ignore "tail") - the flagellum is the external structure used for movement by some bacteria (cilia also accepted); smaller; no mitochondria; smaller ribosomes; slime capsule; capable of independent existence; (an older scheme also credited: bacteria produce spores).
+- Features always present in a plant cell but absent from a bacterial cell: nucleus; cellulose cell wall; mitochondria; large vacuole / cell sap.
+- To enter a bacterium, a plasmid must pass through the (cell) wall and the (cell) membrane.
+
+LOCATION AND FORM OF THE GENETIC MATERIAL
+- Animal (human) cell: DNA is in the nucleus / within a nuclear membrane; it is linear / straight / a thread / strand; arranged as chromosomes; genes / chromosomes are paired.
+- Bacterial cell: DNA is in the cytoplasm; it is circular; a thread (loop) plus plasmid(s).
+- DNA is found in the nucleus / plasmids / chloroplasts / mitochondria.
+
+COMPARING BACTERIA, VIRUSES AND FUNGI WITH ANIMAL AND PLANT CELLS
+Context: classification of organisms is outside this syllabus section; the points below are the cell-structure distinctions credited in mark schemes.
+- Virus: not a cell / acellular / not truly living; no cell wall, no cell membrane, no cytoplasm, no nucleus, no ribosomes; has a protein coat (capsid) (reject "protein wall"); contains genetic material that is DNA or RNA; reproduces only inside a living host cell / all viruses are parasites; much smaller than bacteria (below about 300-400 nm; cannot be seen with a light microscope); not affected by antibiotics.
+- Bacterium: living cell with cell wall, cell membrane, cytoplasm, ribosomes and DNA (genetic material) but no nucleus; may have a plasmid; affected by antibiotics.
+- Both viruses and bacteria contain genetic material (nucleic acid); neither has a nucleus; both can be pathogenic / parasitic.
+- Animal cell compared with a virus: animal cell is larger; has a (cell surface) membrane; has a nucleus / nuclear membrane; contains cytoplasm / organelles; genetic material is always DNA.
+- Fungal cell (e.g. yeast): has a nucleus (nuclei surrounded by a membrane), cell membrane, cell wall and cytoplasm; no chloroplasts; a bacterium differs from a fungal cell in having no true nucleus. Cell features credited as characteristics of fungi: cell wall (made of chitin); cytoplasm; cell nuclei (more than one nucleus / multinucleate; eukaryotic); hyphae / mycelium.
+- Structural features that place an organism in the plant kingdom: chloroplasts; cell walls; multicellular.
+- Yeast cells and plant (e.g. grape) cells both have: nucleus; cell membrane; cell wall; cytoplasm. Accept: mitochondria / ribosomes.
+- Fungal hypha compared with a palisade cell: several nuclei / not divided into separate cells (palisade: one nucleus per cell, separate cells each with a wall); several small vacuoles (palisade: large central vacuole); stores glycogen (palisade: starch); no chloroplasts / chlorophyll; wall made of a different material (chitin).
+- Spherical, unicellular organisms visible with the light microscope, with cytoplasm, a nucleus visible after staining and a vacuole are fungi (yeast) - not bacteria (no nucleus), not viruses.
+- Features suggesting a microscopic one-celled organism is plant-like: chloroplast(s) and cell wall.
+- A single-celled alga differs from a palisade cell: no vacuole / no cell sap; one (large) chloroplast only; round / spherical cell; the cell is the entire organism / not part of a tissue.
+
+WHAT IS MEANT BY A CELL
+- A unit of life.
+- Made of nucleus + cytoplasm + membrane.
+- Can undergo / is formed by division; a means of transferring genetic information.
+- Can be modified (specialised) to do many different jobs.
+- Often incapable of independent existence (in a multicellular organism).
+- A reference to the significance of cells in any metabolic process is credited (reject a mere list of metabolic processes).
+
+CELL WALL COMPARED WITH CELL MEMBRANE
+- Structure: cell wall thick / cell membrane thin; cellulose in the cell wall; fat (lipid) / protein in the cell membrane; the cell wall surrounds / protects the cell membrane (ORA).
+- Cell wall is (fully) permeable - water and dissolved salts pass through it by diffusion; it has no control over what enters. Reject: "permeable membrane" for the wall.
+- Cell membrane is partially / selectively / differentially / semi-permeable; it controls what enters and leaves; only required substances enter; manufactured substances are exported; it holds / forms the boundary of the cytoplasm.
+- Osmosis and active transport take place (only) through the cell membrane: water enters by osmosis (reject "water particles"); salts / ions / minerals or a named ion (reject "particles" / "substances") enter selectively by active transport; against a concentration gradient; using energy; the membrane therefore plays its part in turgor.
+- Cell wall is tough / flexible / elastic; supports and protects the cell; maintains its shape; stops the cell bursting / the membrane tearing; allows turgor to develop; helps keep the plant upright.
+- Advantage to a plant of having its cell membranes surrounded by cell walls: water enters the cell; by osmosis / diffusion; down a concentration gradient (the cell sap is more concentrated); pressure builds up within the cell (turgor); the cell wall is tough / flexible / made of cellulose; it prevents the cell bursting / the membrane tearing; gives shape / rigidity / support to the cell; and so support to the plant / stem / leaves.
+- Root hair cells have both cytoplasm and cell walls (liver cells and red blood cells have no cell wall; mature xylem vessels have no cytoplasm); a root hair cell has a nucleus but no chloroplasts.
+- In a bacterial cell two parts take part in making a protein: the DNA / genetic material - contains the gene for the protein / codes for the sequence of amino acids (mRNA); and the ribosome - joins amino acids together to build the protein.
+- DNA in animal and bacterial cells: in the nucleus in animal cells but in the cytoplasm in bacterial cells; linear / straight strands in animal cells but circular in bacterial cells.

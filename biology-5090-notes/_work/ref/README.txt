@@ -1,0 +1,2 @@
+Learning objectives of the Cambridge O Level Biology 5090 syllabus for 2026-2028 were consulted (not copied here) in an unofficial transcription published in the public GitHub repository KanzaAkram/teachme_pipeline, folder syllabus_json_structured_pipeline/split_subtopics/O'level/5090 (one JSON file per subsection).
+They were used only to decide to which syllabus section a marking point belongs where a requested and an unrequested section touch (see excluded_files_and_issues.txt, section H). The requested list itself was taken exactly as supplied in the brief.

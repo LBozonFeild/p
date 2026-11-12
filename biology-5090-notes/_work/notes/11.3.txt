@@ -1,0 +1,101 @@
+11.3 BLOOD VESSELS
+
+NAMED VESSELS - WHERE THEY RUN
+- Aorta: from the left ventricle to the rest of the body (all organs except the lungs); the first artery, with the highest pressure; oxygenated blood. Accept (dorsal / systemic) aorta, aortic arch.
+- Vena cava: from the body / head to the right atrium; the last vein, with the lowest pressure; deoxygenated blood. Ignore anterior / superior / inferior.
+- Pulmonary artery: from the right ventricle (through a semilunar valve) to the lungs; deoxygenated blood - an artery that carries deoxygenated blood.
+- Pulmonary vein: from the lungs to the heart / left atrium; oxygenated blood - the vein that carries oxygenated blood; lowest carbon dioxide.
+- Hepatic artery: from the aorta to the liver; carries oxygen (and hormones such as insulin / adrenaline).
+- Hepatic portal vein (ignore the abbreviation HPV in the newest scheme): from the small intestine / gut / villi to the liver; carries absorbed (digested) food - glucose, amino acids - also ions, vitamins, water, alcohol; dissolved / in solution, in the blood / plasma.
+- Advantage of blood from the ileum going first to the liver in the hepatic portal vein: excess glucose can be converted to glycogen for storage (and is not excreted).
+- Hepatic vein: from the liver to the vena cava; carries away carbon dioxide, urea and other products of the liver.
+- Renal artery: from the aorta to the kidney. Renal vein: from the kidney to the vena cava.
+- Coronary arteries: on the surface of the heart, supplying the heart muscle.
+- The liver receives blood from two major vessels (hepatic artery and hepatic portal vein) and all of it leaves in a single major vessel (hepatic vein); blood passing from the gut to the heart goes through the liver.
+- The liver is the organ that receives blood from both an artery and a vein.
+- Routes: vena cava -> right side of heart -> pulmonary artery -> lungs -> pulmonary vein -> left side of heart -> aorta. A heart-lung machine takes blood from the vena cava and returns it to the aorta. An assist device for the pulmonary circulation would run from the right ventricle to the pulmonary artery; one for the body circulation from the left ventricle to the aorta. An under-developed left ventricle immediately lowers the flow into the aorta.
+- A join made between an artery and a vein is called an AV fistula (artery + vein).
+
+COMPOSITION OF THE BLOOD IN DIFFERENT VESSELS
+- Oxygenated: aorta, pulmonary vein, hepatic artery, renal artery, coronary artery (and the left atrium / ventricle). Deoxygenated: vena cava, pulmonary artery, hepatic vein, hepatic portal vein, renal vein (and the right atrium / ventricle).
+- "All arteries carry oxygenated blood" is false; all arteries carry blood away from the heart, at high pressure.
+- Carbon dioxide: lowest in the pulmonary vein; highest in the vena cava (after exercise); higher in the hepatic portal vein than in the artery supplying the gut.
+- Glucose: highest in the hepatic portal vein about two hours after a meal, and most variable there; the hepatic vein also has a high concentration (blood leaving the liver after a meal has more glucose than blood arriving in the hepatic artery).
+- Urea: highest in the hepatic vein (especially after a protein-rich meal); lowest in the renal vein; always lower in any blood vessel than in the urine in the ureter. The liver adds urea - it never removes it.
+- Renal vein compared with renal artery: less oxygen, more carbon dioxide, less urea, less water.
+- Blood entering and leaving the liver: hepatic artery - more / most oxygen, more hormones (insulin / glucagon / adrenaline are used / destroyed in the liver); hepatic portal vein - digested foods, ions, vitamins, water (direction of flow must be clear); hepatic vein - carbon dioxide / deoxygenated, urea; correct reference to glucose levels.
+- Identifying veins from data: highest urea = hepatic vein; highest oxygen = pulmonary vein; lowest urea = renal vein.
+
+STRUCTURE OF ARTERIES
+- Thick wall.
+- Thick layer of muscle and elastic tissue (more elastic tissue than a vein).
+- Narrow / small (round) lumen.
+- No valves along their length (the aorta and pulmonary artery have a semilunar valve at their base, which prevents blood returning to the heart).
+- Carry blood away from the heart, under high pressure, with a pulse.
+- Elastic walls stretch and recoil (the lumen can stretch) - this maintains the pressure / pulse beat; link on to capillaries and veins.
+- Aorta: oxygenated blood; from the left ventricle to the rest of the body; thick walls; elastic + muscle; elastic recoil; high pressure; valve prevents blood returning to the heart (max 4 for one vessel).
+
+STRUCTURE OF VEINS
+- Thin wall.
+- Less / thinner muscle and elastic tissue.
+- Wide / large lumen - offers less resistance to blood flow.
+- Valves - at intervals along their length - prevent backflow / keep blood flowing in one direction.
+- Carry blood back to the heart, at low pressure, flowing smoothly (no pulse).
+- Contraction of the surrounding (skeletal) muscles squeezes the thin-walled veins and pushes the blood along from one set of valves to the next (reject: muscular walls of the vein).
+- Vena cava: deoxygenated blood; from the body / head to the right atrium; thin walls; wide lumen; low pressure; valves to prevent backflow / one-way flow.
+- Pulmonary vein in a table of features: oxygenated blood, wide lumen, thin muscle layer. Pulmonary artery: thick muscle layer, narrow lumen, flow away from the heart, deoxygenated blood.
+
+COMPARING VESSELS
+- Vein v artery: thin wall v thick wall; thin muscle / elastic layer v thick; wide lumen v narrow lumen; valves v no valves (reverse argument accepted).
+- In cross-section: the artery has the thick wall and small round lumen, the vein the thin wall and large lumen - refer to the size / shape of the lumen and to the size of the wall / muscle / elastic layer. The thin inner lining is the same thickness in both.
+- In a data table the artery has the thicker wall and narrower lumen; the vein the wider lumen; the capillary a wall less than 1 micrometre thick and a lumen about 0.008 mm across. Cross-sectional area of the lumen = 3.14 x radius x radius.
+- Pulmonary artery compared with vena cava: both carry deoxygenated blood; pulmonary artery from the heart / right ventricle, to the lungs; vena cava from the body, to the heart / right atrium; vena cava is a vein with valves; pulmonary artery has a thick / muscular / elastic wall, a narrow / small lumen and high pressure (reverse statements accepted).
+- Fish and human: the pressure in the aorta of a fish is lower than in the aorta of a human.
+
+VALVES IN VEINS
+- Drawing a valve: two flaps drawn towards the lumen from a similar height on opposite walls; both flaps pointing in the direction of blood flow (towards the heart).
+- A closed valve in longitudinal section: flaps touching; the vessel is widest on the side where the blood is held back, with walls shown before and after the valve.
+- Function: the flaps open / close; prevent backflow of blood / keep blood flowing in one direction; in blood returning from the lower regions of the body; where the pressure is low.
+- Valves are found in veins (e.g. the renal vein) and at the base of the aorta; not in capillaries or other arteries (e.g. the renal artery). A vein in the forearm: has valves; carries deoxygenated blood; blood is returning to the heart.
+- Blood is kept flowing from the foot to the heart: (remaining) pressure; movement by contraction of the skeletal muscles; in the veins (or a named vein); valves in the veins; which prevent backflow.
+- Sitting still for a long time lets the lower legs swell because fewer leg-muscle contractions push blood along the veins; blood collecting in the veins makes the lower leg heavier.
+- Vein demonstration on the forearm: the vessel visible under the skin is a vein; the swelling where blood stops is a valve. A stretch of vein disappears when emptied: the vein is empty / no blood is flowing through; blood has been pushed out; blood cannot flow back past the valve; the finger at the other end stops blood entering; the vein walls are thin so are not visible beneath the skin. Gripping a rod repeatedly first: muscle contraction; increases blood pressure; increases blood flow / helps fill the vein.
+- In a section of a vein the valve flaps point in the direction of flow, i.e. towards the heart; the organ on the other side is one the blood has come from (e.g. the brain).
+- With a cloth tied round the arm, one finger pressed on a vein and another stroking the blood along it, the vein lies flat because the pressed finger prevents more blood entering the vein and a valve further along prevents backflow (the cloth / bandage does neither).
+- A vein used as a graft in place of a coronary artery is less suitable: thinner / weaker (less muscular) walls; has valves; pressure difference (mark the first answer on each line).
+
+CAPILLARIES
+- Join / connect arteries (arterioles) to veins (venules); form a network; run close to / between the body cells.
+- Very small / narrow / microscopic - small diameter of lumen; red blood cells pass in single file (the width of a red blood cell).
+- Walls thin / one cell thick (about 1 micrometre; accept epithelium). ("They are one cell thick" was ignored in one scheme - the wall must be mentioned.)
+- No muscle / no elastic tissue (compared with an artery or vein).
+- Walls leaky / permeable - allow passage of tissue fluid / plasma / substances (accept phagocytes).
+- Very numerous / large surface area.
+- Short distance for diffusion; slow blood flow; pressure falls along the capillary.
+- Exchange by diffusion, to / from the cells / tissues: oxygen and glucose (also amino acids, hormones, ions / salts) pass out of the capillary; carbon dioxide (also urea, water) passes into the capillary.
+- Naming a vessel as a capillary from a diagram - any two reasons: blood cells in single file; running between body cells; walls thin / permeable / one cell thick; substances pass through; vessels form a network.
+- In excretory organs: thin walls / one cell thick; allow diffusion; short distance / close to cells; of urea / salts into the kidney; of carbon dioxide into the alveoli; and bring oxygen to the excretory tissues.
+- An insect feeds from a capillary rather than an artery: the capillary is close to the surface; thin / one cell thick; low blood pressure (reverse for the artery).
+- In a capillary round an alveolus, carbon dioxide diffuses fastest at the end joined to the pulmonary artery.
+- A capillary is adapted for the transport (delivery / collection) of hormone molecules: very small / narrow; thin / one-cell-thick / leaky walls; runs close to the cells; very numerous / large surface area; so maximum uptake / offloading of the hormone; by diffusion.
+
+STRUCTURE RELATED TO BLOOD PRESSURE
+- Pressure falls from arteries, through capillaries, to veins (e.g. 13.0, 4.0, 0.6 kPa; pulmonary artery 14, capillaries 8, pulmonary vein 5 kPa).
+- The heart / ventricle is the pump / source of the pressure; pressure depends on distance from the heart (arteries take blood from / are close to the heart).
+- Resistance / friction in the vessels, especially the capillary network; fluid is lost from the capillaries (formation of tissue fluid).
+- Arteries have a narrow lumen and thick / muscular / elastic walls; veins have a wider lumen and a thinner layer of muscle / elastic tissue.
+- Arteries show a pulse; blood flows smoothly, with no pulse, in veins / venules.
+- Vessel diameter falls to a minimum at the capillaries and then rises again; veins are wider than the corresponding arteries. Rate of flow: capillary slowest, then small vein, small artery, main artery fastest.
+- Typical pressures: aorta about 16 kPa (120 mm Hg); pulmonary artery about 4 kPa (12 mm Hg); vena cava about 2 kPa; pulmonary vein about 1 kPa. A pressure graph for the pulmonary circuit has the same shape as the systemic one but lies below it at every point.
+- Pulmonary artery v aorta: right ventricle wall thinner / left thicker; shorter distance (only to the lungs); little work against gravity; low pressure avoids damage to lung capillaries; the body needs high pressure for kidney filtration and to supply the brain.
+- A cut that has damaged an artery: the blood is bright red / oxygenated; it leaves in spurts / shows a pulse (ignore references to pressure).
+- Drugs that lower blood pressure by acting on vessels: arteries / arterioles; muscular wall; relaxes / constriction prevented; larger lumen / dilation / widening; deposits / atheroma reduced; less resistance / friction.
+- Prolonged raised blood pressure: cumulative effect; damage to capillaries (thin walls); damage to kidneys / brain / heart / blood vessels.
+- Range in a table = highest value minus lowest value (e.g. muscle in the aorta wall: range 7 in young adults, 28 in old adults - four times greater).
+
+FOLLOWING A SUBSTANCE ROUND THE BODY
+- Oxygen from the air to a muscle: nose / nasal passages, larynx / trachea; bronchus / bronchioles; air sacs / alveoli; diffuses into the blood / capillaries; carried by red blood cells / haemoglobin (as oxyhaemoglobin); pulmonary vein; pumped by the heart (atrium / ventricle contracts); arteries / arterioles.
+- Carbon dioxide from a body cell to the lungs: diffusion; cytoplasm; across the cell membrane; tissue fluid; capillary; plasma / red blood cell; vein / vena cava; right side of the heart; atrium then ventricle; pulmonary artery; capillary; alveolus.
+- An amino acid from the ileum to the liver: absorbed / diffuses; villus; capillary; blood plasma; in solution; hepatic portal vein. Alcohol follows the same route from the stomach / small intestine to the liver, where it is broken down.
+- A chemical absorbed through the skin of a finger and tasted on the tongue: diffusion; epidermis; dermis; tissue fluid / plasma; capillary; venule / vein / vena cava; right atrium and right ventricle; pulmonary artery / vein; lungs; left atrium and left ventricle; aorta / artery / arteriole.
+- Oxygen and carbohydrate to the liver: oxygen - alveoli / capillaries, pulmonary vein, aorta, hepatic artery, used in respiration / oxidation of glucose; carbohydrate - villi, hepatic portal vein, converted to / from glycogen or respired.

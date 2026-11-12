@@ -1,0 +1,84 @@
+7.1 UPTAKE AND TRANSPORT OF WATER AND IONS
+
+ROOT HAIR CELLS - STRUCTURE AND FUNCTION
+- Identified as a root hair (cell) / root epidermis cell; these are the cells through which water (and mineral ions) are absorbed from the soil.
+- The hair is a long, thin extension / projection / finger-like outgrowth of a single cell of the outer layer of the root; the vacuole extends into the hair.
+- Long / very small (microscopic) - lies between the soil particles, in contact with the soil water.
+- Gives an increased / large surface area.
+- For maximum / rapid uptake (absorption).
+- Of water - by osmosis (accept diffusion).
+- Of ions / salts / minerals (or a named ion, e.g. nitrate, magnesium) - by active transport.
+- Of oxygen - for root respiration. Reject: nitrogen as a substance absorbed.
+- Cell contents: cytoplasm, cell wall, nucleus and large vacuole are present; chloroplasts are absent.
+- Not a function of root hairs: sugar uptake, photosynthesis, anchorage, storage of starch, transport of sugars; roots do not "search" for water or ions.
+- A feature of the cell that helps absorption, with its matching explanation:
+    - cell membrane: living; partially permeable; only selected molecules enter; allows osmosis (reject diffusion here); active transport;
+    - cellulose cell wall: permeable; tough / flexible; helps keep the shape of the cell; allows turgor / gives mechanical support;
+    - cell sap / vacuole / cytoplasm: contains a concentrated solution (concentration gradient); for water entry; by osmosis / diffusion;
+    - cytoplasm / mitochondria: respiration / energy release; for active transport;
+    - nucleus (one mark only): controls the cell's activities.
+- The cell membrane allows water and ions to move into and out of the cell - movement of both nitrate ions and water molecules is possible in either direction.
+- A plant that takes its water from a host plant lacks roots / a root system (reject "root hairs" as the missing organ).
+
+ROOT HAIRS COMPARED WITH VILLI
+- Similarities: both long / elongated; both provide a large surface area; both absorb (uptake); by active transport / diffusion; both absorb ions (salts / minerals) and water; substances are in solution; a membrane is involved.
+- Structural differences: root hair has a cell wall / villus cells have none; a root hair is part of one cell / a villus is made of many cells (multicellular); root hairs have no blood vessels / lacteals (ORA).
+- Functional differences: root hairs absorb from the soil / villi absorb from the gut; villi absorb amino acids; glucose; lipids / fatty acids / glycerol.
+- In diagrams: the animal structure is a villus (reject microvillus); the plant structure is a root hair (cell).
+
+UPTAKE OF WATER
+- By osmosis (accept diffusion). Reject: active transport.
+- From a higher to a lower water potential / down a water potential gradient (accept: from a high to a lower water concentration; hypotonic to hypertonic) - the water potential (water concentration) inside the root hair is lower than in the soil water.
+- Through the cell wall.
+- Through / across the partially permeable cell membrane.
+- Into the root hair (cell).
+- In waterlogged soil with no oxygen, water uptake is unaffected (ion uptake slows); in soil flooded with salty sea water, water uptake by root hairs stops (ion uptake continues).
+
+UPTAKE OF MINERAL IONS
+- The ions are dissolved in (soil) water / in solution.
+- Absorbed by root hairs.
+- Pass through the cell wall.
+- Pass through the (partially permeable) cell membrane - by carriers in the membrane.
+- By active transport (accept diffusion where the gradient allows) with a correct reference to the concentration gradient - active transport is against the gradient: the ion concentration is higher inside the root hair than in the soil (e.g. magnesium 75 units inside, 15 outside).
+- Active transport uses energy.
+- The energy comes from (aerobic) respiration.
+- Ion uptake by root hairs is the energy-consuming process controlled by the cell surface membrane - unlike absorption of carbon dioxide or oxygen by leaf cells, loss of water vapour into the leaf air spaces, or transport of water and ions up the xylem.
+- Evidence: uptake of mineral ions / nitrate is reduced at lower oxygen concentrations. On a graph of uptake against oxygen: an initial increase in oxygen concentration increases the uptake; a further increase gives no further increase.
+- Uptake against soil ion concentration: ions are absorbed even when the soil concentration is lower than that in the cell; the rate rises with soil concentration and then levels off.
+- The large surface area of the root hair assists the uptake of ions.
+- Two routes across the root: (through the living cells) active transport; requires energy; from respiration / mitochondria; across a living cell membrane; against the concentration gradient - works even when ions are very dilute in the soil. (Along the cell walls) suited to ions at high concentration in the soil: down a concentration gradient; by diffusion; the cellulose cell wall is fully permeable; a direct pathway to the xylem with no barrier.
+- Water and ions moving along cell walls (not crossing a membrane) both move by diffusion.
+
+WHY THE IONS AND WATER MATTER
+- Nitrate ions are carried in the xylem and used to make amino acids / proteins (growth).
+- Magnesium (ions) are carried, dissolved in water, in the xylem (in the transpiration stream) into the palisade mesophyll and into the chloroplasts, to make chlorophyll.
+- Water is needed for cell elongation and for photosynthesis.
+- Nitrogen from fertiliser to human food: ammonium ions / urea / nitrates in the fertiliser enter the soil; bacteria produce nitrates (nitrification); root hairs absorb them; by active transport; transported in the xylem; used to make amino acids / proteins; humans eat the proteins.
+- A nitrate ion becoming part of a stored molecule in a seed: in solution; absorbed by a root hair; by active transport / diffusion with a correct description of the gradient; carried in the xylem; used to make an amino acid; the amino acid is carried in the phloem; to the fruit / ovary; made into protein; stored in the cotyledon / endosperm.
+- Ions released into the soil from decomposed fallen leaves are recycled: ions / a named ion / mineral salts; pass into the plant / root; by diffusion or active transport (down / against the concentration gradient). Credited uses: nitrates and ammonium - amino acids / protein; magnesium and iron - chlorophyll; phosphate - DNA / membranes; sulfate - amino acids / proteins; calcium - cell walls; potassium - enzymes; growth.
+- If the xylem is blocked (e.g. by bacteria), mineral ions such as magnesium (zinc also credited) do not reach the leaves, so the leaves cannot make chlorophyll and develop white / yellow patches.
+- The water needed for photosynthesis comes from the soil (or irrigation) through the roots / root hair cells.
+
+PATHWAY OF WATER (AND IONS) THROUGH THE PLANT
+- Root hair cells -> root cortex cells -> xylem -> mesophyll cells (leaf).
+- From the root cortex, water passes into the xylem vessels.
+- The xylem carries the water up the stem to the leaf; xylem is the tissue bringing water into the leaf, and the tissue with the highest water concentration in the plant.
+- Full pathway from soil to atmosphere, as separately credited points: root hair; cell wall; membrane; partially permeable; osmosis / diffusion; (root cortex); xylem; stem; leaf / mesophyll; water film on the mesophyll cells; air / intercellular spaces; out through the stomata / between the guard cells; as water vapour by evaporation / transpiration.
+- Position of the xylem: in a root section it is the central star / cross-shaped tissue (phloem lies between its arms); in a stem section it is the inner part of each vascular bundle (phloem is the outer part), the bundles forming a ring; in a leaf it is the upper part of the vein (phloem below).
+
+INVESTIGATING THE PATHWAY WITH A STAIN / DYE
+- A cut shoot, or a whole plant with its roots, is stood in a solution of dye for some hours; sections of root, stem and leaf are then cut and examined.
+- Only the xylem is stained (ignore "vessel"): the central star in the root; the inner part of each vascular bundle in the stem; the upper part of the vein in the leaf. Phloem, cortex, pith, guard cells and palisade cells are not stained.
+- How the dye enters the root: by diffusion (reject osmosis - also when it is mentioned together with diffusion; ignore active transport); down a concentration gradient; through the (cellulose) cell walls of the root (hair) cells; the cell wall is permeable (reject semi- / partially / selectively permeable for the wall); the cell membrane lets the dye molecules pass. Ignore references to the cell membrane in the newer scheme.
+- The dye then enters the xylem and travels upwards (accept: in the transpiration stream / by transpiration pull / capillarity / root pressure).
+- Rate of movement = distance moved / time taken, converted to the units asked for (e.g. 12 mm in 5 minutes = 144 mm per hour).
+
+WATER UPTAKE AND WILTING
+- A mature plant wilts less than a newly transplanted seedling: its root system is undamaged (ORA); it has its root hairs; water uptake is sufficient for the plant (ORA); its cells / tissues stay turgid; older plants are also supported by xylem / lignin. Ignore: "more / less water uptake" alone.
+- A plant pulled out of the ground and re-planted wilts for several days: root hairs removed / roots damaged; stem / xylem damaged; less water absorbed (reject: no water absorbed); the plant still loses water / transpires; cells lose water / become flaccid (max 3 for wilting). Recovery: root hairs regrow; more water is absorbed; cells gain water again / become turgid.
+- Water leaving a cut shoot in a potometer: xylem; to the leaves / flowers; between the leaf cells; surface of the mesophyll cells; leaf air spaces; out through the stomata / guard cells.
+- Water passing across the root: movement from cell to cell; through or between the cell walls; then enters the xylem.
+- Dye rising in a stem: transpiration / evaporation; water (vapour) is lost from the leaf / stomata; this pulls / draws up the water / solution (reject sucks) / the water lost must be replaced; capillarity / root pressure / cohesion / adhesion also credited. When shading the stained tissue: xylem only (accept shading in one vascular bundle only).
+- Coloured water reaches the leaves of a cut shoot fastest in warm, moving air (e.g. 30 C with a fan rather than 10 C or still air).
+- A young plant dug up and re-planted may wilt because the surface area of its roots has been reduced (root hairs lost).
+- When there is little or no water near the soil surface, shallow-rooted plants (roots too short to reach the water) decline first: less water for photosynthesis, and less water in which mineral salts can dissolve and be absorbed (less water for cell sap).

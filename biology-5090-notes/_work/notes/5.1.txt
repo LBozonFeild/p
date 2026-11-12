@@ -1,0 +1,59 @@
+5.1 ENZYME ACTION
+
+CATALYST
+- Speeds up / increases the rate of a (chemical) reaction.
+- Is not changed by the reaction / is not used up / can be reused (only small amounts are needed).
+- Accept (one mark scheme): lowers the activation energy of the reaction.
+
+ENZYMES
+- An enzyme is a protein.
+- It is a (biological) catalyst - it speeds up (alters the rate of) chemical reactions.
+- It is not changed itself / not used up / can be reused: after a reaction it is available to catalyse the same reaction again.
+- Enzymes are made by / work in living cells; they are involved in ALL metabolic reactions.
+- Structural features: made of protein / polypeptides / (chains of) amino acids; have an active site; have a specific shape / a shape complementary to the substrate.
+- Enzymes change the rate of a reaction; they do not start reactions that would not otherwise occur and do not change the end products.
+- Not true of ALL enzymes: secreted into the alimentary canal; work only inside cells; work only at body temperature.
+- An enzyme supplement / washing powder ingredient is an enzyme / protein / catalyst; a named enzyme such as maltase is an example of a biological catalyst (bile, DNA and insulin are not).
+- The enzymes used to cut and rejoin DNA in genetic engineering were credited simply as "enzyme" (or named) / catalyst.
+- Enzymes are made from amino acids / are proteins - so a plant needs nitrate ions to produce the enzymes in its leaf cells.
+- Enzymes inside microorganisms carry out the changes used in food production: enzymes (lactase) in bacteria convert lactose (milk sugar) to lactic acid in yoghurt-making and digest milk proteins; a reference to enzymes is credited for yeast in wine- and bread-making.
+
+SUBSTRATE, ACTIVE SITE, ENZYME-SUBSTRATE COMPLEX, PRODUCT
+- Substrate: the molecule(s) on which an enzyme acts.
+- Product: the molecule(s) formed in the reaction.
+- Active site: the part / region of the enzyme molecule where the substrate fits (accept: place where the reaction occurs). Reject: "lock" or "key" as the name of this region.
+- The active site is on the ENZYME, not on the substrate.
+- Enzyme-substrate complex (ES complex): formed when the substrate binds to / fits into the active site.
+- Sequence: enzyme + substrate -> enzyme-substrate complex -> enzyme-product -> product released + enzyme free (unchanged).
+- Named examples: amylase - starch -> maltose (accept sugar / glucose where listed; older names diastase / ptyalin accepted for amylase); maltase - maltose -> glucose; protease - protein -> amino acids; lipase - fat / lipid / oil -> fatty acids + glycerol; the enzyme that digests plant cell walls acts on cellulose (reject "cellulase" as the substrate).
+- To remove stains: starch - amylase; fat - lipase.
+- When asked to suggest an enzyme: name it, give a specific location correct for that enzyme, and give its function as substrate + product.
+
+LOCK AND KEY HYPOTHESIS AND SPECIFICITY
+- The enzyme has an active site.
+- The active site has a particular / specific / exact shape that is COMPLEMENTARY to the shape of the substrate. Reject: the active site is the same shape as the substrate.
+- The substrate fits into / binds to / combines with the active site.
+- An enzyme-substrate complex is formed.
+- The substrate is split (or substrates joined) - product(s) formed.
+- The product(s) leave / are released from the active site.
+- The enzyme is unchanged / ready to be used again.
+- Enzymes are specific: each enzyme acts on only one substrate / catalyses only one reaction (e.g. maltase acts only on maltose); wrongly shaped substrates cannot fit the active site.
+- The enzyme is the lock and the substrate is the key (e.g. lipase = lock, fat = key; amylase = lock, starch = key; protease = lock, protein = key).
+- With a named example: enzyme + its name (e.g. amylase); substrate + its name (e.g. starch); named product formed.
+- If nothing else is credited, a bare reference to "lock and key" can gain one mark.
+- Also credited in older mark schemes: stress is put on the substrate molecule; the reaction can also work in reverse.
+- The statement essential to the hypothesis is that each enzyme molecule has a distinct shape; the property it explains is that most enzymes catalyse only one reaction.
+- In diagrams: the substrate is the molecule whose shape fits the active site; the molecule that appears unchanged before and after is the enzyme; the pieces released are the products.
+- Cellulase breaks down / digests / hydrolyses cellulose (the material of plant cell walls); fibre (cellulose / lignin) passes undigested to the colon because humans have no suitable enzyme for it.
+
+CONSEQUENCES OF THE SHAPE OF THE ACTIVE SITE
+- If the active site is damaged / changed, the enzyme cannot carry out its specific reaction (the substrate no longer fits; fewer or no enzyme-substrate complexes; less or no product).
+- A mutation (a change in the gene / allele / base sequence of DNA) changes the code for the enzyme (protein), so the active site no longer fits the substrate and the correct enzyme is not made.
+- Rate against substrate concentration, with a fixed amount of enzyme: while the rate is still rising, the enzyme active sites are not all occupied.
+- Evidence that a substance is an enzyme: it digests its substrate when untreated but hardly at all after boiling (e.g. pepsin + acid gives large amounts of amino acids from egg white; boiled pepsin + acid gives only traces).
+- A solution of an enzyme gives a positive biuret test, because enzymes are proteins.
+- Stored food in a germinating seed is made available by: an enzyme / named enzyme (correct for the storage product); digestion / hydrolysis - the enzymes are activated by / need water; large molecules are changed to small molecules / insoluble to soluble (accept a correctly named small molecule, including glucose). "Broken down" alone scores one mark only. The products are used as appropriate, e.g. protein for growth, carbohydrate / fat for energy (reject storage).
+- Lipase is an enzyme; chlorophyll, fibrinogen and insulin are not enzymes.
+- Changing an enzyme so that it acts on a different substrate (genetic modification): enzymes are proteins; a gene codes for the enzyme; a changed sequence of bases; gives a changed sequence of amino acids; and a changed shape of the enzyme molecule / active site; the active site; now has a shape complementary to / fits the new substrate.
+- A gene mutation can leave a person unable to make the correct enzyme: the change in the gene / base sequence changes the protein, so the active site does not fit the substrate.
+- An animal cannot digest a substance when it has no enzyme for it - it has no gene / allele coding for that enzyme.

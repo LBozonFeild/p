@@ -1,0 +1,125 @@
+FINAL VERIFICATION REPORT - Cambridge O Level Biology 5090, Papers 1 and 2
+Written 2026-11-12 16:14 UTC.
+
+1. RESULT IN NUMBERS
+   Eligible question-paper / mark-scheme pairs: 158 (Paper 1: 80; Paper 2: 78)
+   Pairs FULLY VERIFIED: 158 of 158
+   Question-level items: 5529 (Paper 1 questions: 3200; Paper 2 mark-bearing parts: 2329)
+      verified, in scope:       2835 (Paper 1: 1546; Paper 2: 1289)
+      read, out of scope:       2694 (Paper 1: 1654; Paper 2: 1040)
+      in scope, still pending:     0
+   Paper 2 items moved into scope by the full mark-scheme audit of out-of-scope items: 180
+   Paper 1 questions moved into scope by the review against the learning objectives: 37
+   Marks available in the eligible papers: 10080
+   Marking points accounted for in verified items: 7441 (Paper 1 keys: 1546; Paper 2 ";" points: 5895)
+   Items whose figure was rendered and inspected: 790 (Paper 1: 631; Paper 2: 159) | figure checks outstanding: 0
+   Marking-point lines (dash bullets) in the notes: 1673
+   Flagged items (key / mark-scheme problems): 4
+
+2. VERIFIED ITEMS AND NOTE POINTS PER SUBSECTION
+   sec   title                                                     P1      P2  points
+   1.1   CELL STRUCTURE AND FUNCTION                               93      67     105
+   1.2   SPECIALISED CELLS, TISSUES AND ORGANS                     23      22      43
+   3.1   DIFFUSION AND OSMOSIS                                    138     121     115
+   3.2   ACTIVE TRANSPORT                                          62      43      47
+   4.1   BIOLOGICAL MOLECULES                                      65      28      45
+   5.1   ENZYME ACTION                                             61      50      48
+   5.2   EFFECTS OF TEMPERATURE AND pH                             61      67      63
+   7.1   UPTAKE AND TRANSPORT OF WATER AND IONS                    69      47      62
+   7.2   TRANSPIRATION AND TRANSLOCATION                          137     151     142
+   11.1  CIRCULATORY SYSTEM                                        20      15      32
+   11.2  HEART                                                     81      82     102
+   11.3  BLOOD VESSELS                                            109      85      82
+   11.4  BLOOD                                                     60      92      88
+   13.1  EXCRETION                                                 25      28      31
+   13.2  URINARY SYSTEM                                            51      59      65
+   14.1  MAMMALIAN NERVOUS SYSTEM                                  54      51      68
+   14.2  MAMMALIAN SENSE ORGANS                                    78      50      61
+   14.3  MAMMALIAN HORMONES                                        42      48      47
+   14.4  HOMEOSTASIS                                               12      15      23
+   14.5  TEMPERATURE CONTROL                                       88      57      59
+   14.6  BLOOD GLUCOSE CONTROL                                     50      33      38
+   15.1  COORDINATION AND RESPONSE IN PLANTS                       15       6      33
+   17.1  VARIATION                                                 26      28      27
+   17.2  DNA                                                       32      46      45
+   17.3  INHERITANCE                                              203     143     137
+   17.4  SELECTION                                                 42      59      65
+
+3. OUT-OF-SCOPE ITEMS BY CODE
+   code             P1     P2
+   o10             113     63
+   o12             139     65
+   o16             283    227
+   o18             111     57
+   o19             319    202
+   o2               33     21
+   o6              209    106
+   o8              154    166
+   o9              156     78
+   oX              136     51
+   o10+o6            0      1
+   o18+o12           1      0
+   o6+o19            0      2
+   o9+o10            0      1
+   Codes: o2 = Classification (syllabus section 2); o6 = Plant nutrition (section 6); o8 = Human nutrition (section 8); o9 = Human gas exchange (section 9); o10 = Respiration (section 10); o12 = Disease and immunity (section 12); o16 = Development of organisms / reproduction / nuclear division (section 16); o18 = Biotechnology and genetic modification (section 18); o19 = Organisms and environment / ecology / human impact (section 19); oX = Legacy or other topic not in the supplied syllabus list (e.g. support and movement, drugs, kidney dialysis, ADH, growth)
+
+4. HOW THE WORK WAS DONE
+   Pairing. Every Paper 1 and Paper 2 question paper in biology-5090/ (166 files, Oct/Nov 2002 to May/June 2026) was matched to its own official mark scheme or key by session and variant: 154 by file name, 2 through the combined mark scheme of May/June 2004, 2 through the key tables printed in the examiner reports of Oct/Nov 2002 and 2003. 8 question papers have no official scheme or key in the folder and are excluded (excluded_files_and_issues.txt, section A).
+   Extraction. Question text was extracted per question (Paper 1: 40 per paper) and per mark-bearing part (Paper 2), mark-scheme text per label, and each part was matched to its mark-scheme section. Paper 2 part marks add up to the paper total for all 78 papers.
+   First pass (first working session). Every item was read with its key or mark scheme, assigned to a requested subsection or to an out-of-scope code, and its in-scope points were written into the notes. Paper 1 questions that depend on a figure, or whose options could not be read from text, were rendered and viewed.
+   Second session (after the working state was lost and rebuilt from the saved tracker and notes):
+   - all text extracted again; the 16 items left pending were read and verified;
+   - Paper 1 keys re-extracted from the official sources and compared with the tracker;
+   - the complete mark-scheme text of every out-of-scope Paper 2 part re-examined, first by a vocabulary scan and then by reading all of it, family by family; parts crediting in-scope points were given a mixed code and the notes were patched at the same time;
+   - out-of-scope Paper 1 questions containing vocabulary of the requested sections (291 questions, plus every out-of-scope question with genetics vocabulary) re-read against the learning objectives;
+   - the boundary with unrequested sections reviewed against the learning objectives of the 2026-2028 syllabus, and over-inclusions of an earlier step removed (22 Paper 2 parts returned to out-of-scope, 7 lost one subsection code, one block of nuclear-division points removed from 17.3);
+   - lexical coverage checks of the notes against every marking point of the verified Paper 2 parts, with the low-scoring points read by hand, and a ranking of the verified Paper 1 questions by how well their vocabulary is represented, with the lowest-ranked read against the notes;
+   - the renderer corrected and the affected "figure viewed" questions inspected again (section F2 of the issues file);
+   - the figures of the Paper 2 parts whose marking points name or mark structures on a figure inspected page by page;
+   - the notes of 3.1 re-ordered so that every line stands under its proper heading.
+
+5. CHECKS AND THEIR RESULTS
+   Paper 1 keys: 3,200 of 3,200 re-extracted keys agree with the tracker.
+   Paper 1 option format: 64 verified non-figure questions whose options were not line-initial in the extracted text were displayed in full; all keys consistent.
+   Paper 1 notes coverage: 1,540 verified questions ranked by the share of their vocabulary found in the notes of their subsection; the 45 lowest read against the notes (all represented, including the calculation questions of 2025-2026); earlier random sample of 12, all represented.
+   Paper 1 keyed-answer coverage: for the 859 verified questions whose keyed option is text, the wording of the keyed option was compared with the notes of the subsection; the 60 lowest-scoring were examined (tabular answers, ratios and one-off scenarios) and all are represented in the notes.
+   Paper 2 notes coverage, parts coded only with requested subsections: 3,439 marking points; 60 score below one half and were read by hand - they are question-specific data (graph readings, labels to draw, genotype lines, sequence letters) held in the notes as method rules.
+   Paper 2 notes coverage, mixed-code parts: 1,831 marking points; 233 score below one half, as expected because their out-of-scope points are deliberately absent. All were read; one in-scope point was found missing and added (carbon dioxide carried in the plasma as hydrogencarbonate ions), and one part was given an additional in-scope code for a point the notes already held (capillaries join / connect arteries to veins; the mark-scheme word "connect" was added to that line).
+   Complete read of out-of-scope Paper 2 mark schemes: every part read. After the boundary review 180 Paper 2 parts stand in scope because of it.
+   Vocabulary re-check of out-of-scope Paper 1 questions: 37 questions moved in (for example Down's syndrome chromosome number, liver as the site of assimilation of amino acids, diffusion across a dialysis membrane, energy for active transport, cell-structure comparisons of micro-organisms, genetic variation from meiosis and sexual reproduction). Their facts were already in the notes or were added.
+   Figures: 790 verified items have had their figure rendered and inspected (Paper 1: 631; Paper 2: 159). 84 of the Paper 1 questions were inspected a second time after the renderer correction; every key was confirmed. In the Paper 2 inspection every mark scheme agreed with its figure.
+   Automatic audit: 20 checks, all passed on the final run (listed at the end of this report).
+
+6. WHAT "FULLY VERIFIED" MEANS HERE - AND WHAT WAS NOT DONE
+   A pair is FULLY VERIFIED when every question or part of it has been read with its key or mark-scheme section and carries a decision (in scope with subsection, or out of scope with code), no item is pending, no figure check is outstanding, and the in-scope points are in the notes.
+   It does NOT mean that a second person has checked the work, that the first-pass decisions were re-read one by one after the state loss, that the figures of out-of-scope questions were viewed, or that every graph and data table of Paper 2 was rendered. These limits, and the choices made at the boundary of the requested sections, are set out in sections G and H of excluded_files_and_issues.txt. The brief asked for parallel workers and one uninterrupted run; neither was available - one verifier worked sequentially over two sessions, with the state rebuilt once.
+
+7. THE NUMBERS ASKED FOR IN THE BRIEF
+   Eligible question-paper / mark-scheme pairs: 158 (Paper 1: 80; Paper 2: 78).
+   Fully verified pairs (as defined in section 6): 158.
+   Excluded question papers (no official mark scheme or key in the folder): 8.
+   Unresolved issues: none pending or blocking; 4 flagged key / mark-scheme problems are documented in section C of excluded_files_and_issues.txt and resolved in the notes by the priority rule (newer scheme first) or recorded as given.
+
+AUTOMATIC CONSISTENCY AUDIT (scripts/audit.py)
+   run 2026-11-12 16:14 UTC
+   [PASS] 1. every eligible pair points to existing question-paper and mark-scheme files - 158 pairs
+   [PASS] 2. every Paper 1 / Paper 2 question paper in the folder is either an eligible pair or a documented exclusion - 166 question papers, 158 paired, 8 excluded
+   [PASS] 3. every Paper 1 has exactly 40 questions in the tracker - 80 papers x 40
+   [PASS] 4. item sets agree (order = decisions = extracted items) - 5529 items
+   [PASS] 5. Paper 2 part marks add up to the paper total (90 marks to 2022 with both optional questions counted, 80 from 2023) - 78 papers
+   [PASS] 6. no item is left pending
+   [PASS] 7. every item carries valid codes; verified items have a requested subsection, out-of-scope items have none
+   [PASS] 8. Paper 1 keys independently re-extracted from the official key source agree with the tracker - 3200 keys compared
+   [PASS] 9. every Paper 2 part is matched to a non-empty mark-scheme section - 2329 parts
+   [PASS] 10. no verified item has an outstanding figure check
+   [PASS] 11. notes files are well formed (title, headings, dash-bullet lines only) - 1673 bullet lines in 26 subsections
+   [PASS] 12. no bullet line is duplicated inside a subsection
+   [PASS] 13. every requested subsection is backed by verified items - min 21 items (15.1)
+   [PASS] 14. notes carry no paper / question references (they belong in the tracker)
+   [PASS] 15. the five deliverable files exist and match the live state - tracker lines P1 3200, P2 2329; VERIFIED 2835; OUT-OF-SCOPE 2694; notes bullet lines 1673
+   [PASS] 16. the complete mark-scheme text of every out-of-scope Paper 2 part is in the full-read record - 1040 parts
+   [PASS] 17. every 'figure viewed' Paper 1 question on a page that the first renderer variant drew incompletely was re-inspected with the corrected renderer - 84 questions
+   [PASS] 18. every verified Paper 2 part whose marking points name or mark structures on a figure has had the figure inspected - 159 parts (2 graph-only parts exempt)
+   [PASS] 19. lexical coverage: marking points of fully in-scope Paper 2 parts whose wording is less than half represented in the notes of their own subsection stay within the residue that was reviewed by hand (62) - 3439 points checked, 60 below the threshold
+   [PASS] 20. the notes contain no heading for an unrequested section (nuclear-division block removed from 17.3)
+   RESULT: ALL CHECKS PASSED (20 checks)

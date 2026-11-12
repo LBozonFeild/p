@@ -1,0 +1,59 @@
+17.2 DNA
+
+STRUCTURE OF DNA
+- The molecule is DNA / deoxyribonucleic acid.
+- Two strands / double stranded (accept sugar-phosphate backbone);
+- coiled to form a double helix (the term for its shape).
+- Each strand is a chain of nucleotides - the nucleotide is the unit of DNA; a DNA molecule consists of many nucleotides.
+- Each nucleotide contains a base; the letters A, T, G and C represent (nitrogenous / organic) bases.
+- The strands are held together by bonds between pairs of bases.
+- Complementary base pairing: A with T, and C with G - always the same way.
+- DNA contains the elements carbon, hydrogen, oxygen, nitrogen and phosphorus.
+- Incorrect statements: "four strands"; "a nucleotide contains a base, a sugar and an amino acid"; "bonds between sugar molecules hold the strands together"; pairs such as A-C, A-G, C-T, T-G.
+
+USING THE BASE-PAIRING RULE
+- Complementary strand: swap each base for its partner (e.g. CTCAGCA pairs with GAGTCGT).
+- Number of A = number of T; number of C = number of G. Example: 400 bases with 80 A -> 80 T -> 240 remaining -> 120 C = 30 %. If 46 nucleotides contain A, 46 contain T.
+
+DNA, GENES AND CHROMOSOMES
+- A chromosome includes / carries a long molecule of DNA; the DNA is divided into sections called genes; a gene is a section of a molecule of DNA; genes are found in chromosomes.
+- Size order, smallest to largest: gene, molecule of DNA, chromosome.
+- The DNA strand is part of a chromosome (accept chromatid).
+- Wrong statements: chromosomes are DNA molecules called genes; genes are divided into sections called DNA molecules; genes include DNA molecules called chromosomes.
+- Where DNA is found and why it matters (max 3): in the nucleus (accept plasmids / chloroplasts / mitochondria); in chromosomes / genes / it contains genetic information (reject "contains genes" here); it can be copied / inherited / is responsible for characteristics; it controls the production of a protein.
+- DNA is the chemical in the nucleus that controls the production of protein.
+- Animal cell v bacterial cell: in the nucleus v in the cytoplasm; linear / straight strands v circular. In a bacterium the strand (loop) is the structure made mostly of DNA; plasmids also contain DNA.
+
+- Gene: a section / piece of DNA (of a chromosome); controls the production of one protein / polypeptide (one characteristic); may be copied; the unit of inheritance - passed on to the next generation.
+- The part of a cell that contains the genes: nucleus / chromosomes / DNA.
+- DNA in inheritance: it forms the chromosomes / genes / alleles; is copied / replicated; and passed to the next generation from the parents; in the gametes (egg and sperm).
+
+- Chromosomes in inheritance (max 5): made of DNA; carry genes; responsible for characteristics (accept traits / enzymes, or a named character such as eye colour); passed from one generation to the next; during reproduction / at fertilisation; correct reference to chromosomes during cell (nuclear) division; sexual reproduction gives variation / asexual gives none.
+- Naming: structures in the nucleus responsible for inheritance - chromosomes / genes; the chemical in them that makes inheritance possible - DNA; a marked part of the DNA strand - gene / allele.
+
+- Each chromosome contains one molecule of DNA; a chromosome is larger than a gene; a gene does not contain smaller regions called alleles; an allele does not "carry molecules of DNA"; a chromosome is not part of a DNA molecule and does not control just one feature.
+- A gene is a unit of inheritance that controls the production of a protein; the primary function of DNA is to control the production of protein.
+- Size order: gene, chromosome, nucleus, cell, tissue.
+
+HOW DNA CONTROLS CELL FUNCTION
+- DNA contains genes;
+- DNA (a gene) codes for proteins / polypeptides (accept "contains instructions for proteins" / "controls protein production");
+- by the order / sequence of its bases (nucleotides);
+- the sequence of bases determines the sequence (order) of amino acids;
+- the sequence of amino acids determines the shape / structure / function of the protein;
+- example of a protein: enzyme, haemoglobin, antibody, a hormone such as insulin (a single protein controlled by a single gene); these proteins may act as enzymes.
+- Reject: "DNA codes for the production of amino acids"; "amino acids code for proteins".
+- Each person has a unique set of genes; genes make proteins; so proteins differ between people; relatives share genes and so have similar proteins / tissues.
+- In a cell making a protein: the DNA / genetic material contains the gene for the protein / codes for its amino acid sequence (mRNA); the ribosome joins amino acids together to build the protein.
+- Enzymes from different species differ in structure because their DNA base sequences, and so their amino acid sequences and shapes, differ; so some denature at different temperatures from others.
+
+CHANGES TO DNA
+- Gene mutation: a change / alteration; in the base / nucleotide sequence of DNA / gene structure.
+- The changed base sequence changes the sequence of amino acids;
+- so the protein has a different shape / structure (e.g. a different hair protein; an enzyme whose active site no longer fits its substrate).
+- Genetic modification is a change in genetic material: a new / changed sequence of bases gives a new sequence of amino acids and a new shape of enzyme / active site, complementary to a new substrate.
+- The piece of human DNA put into bacteria to make insulin is a gene / sequence of bases; for insulin (hormone) production.
+- An animal that cannot digest a particular substance has no enzyme for it; because it has no gene / allele coding for that enzyme.
+- Passage completion: the nucleus contains thread-like structures called chromosomes; made up of many units called genes; that instruct the cell to produce a particular protein.
+- A gene is a section of DNA; an allele is a version (alternative form) of the gene.
+- An animal lacking an enzyme that its diet makes unnecessary does not have a functional gene for that enzyme (mutation / evolution); no energy is wasted producing an unnecessary enzyme.

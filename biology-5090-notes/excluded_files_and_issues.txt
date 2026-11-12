@@ -1,0 +1,121 @@
+EXCLUDED FILES AND ISSUES - Cambridge O Level Biology 5090, Papers 1 and 2
+Written 2026-11-12 16:14 UTC.
+
+Folder scanned: biology-5090/ (791 PDF files). Files used as an eligible question paper or as its mark scheme / key source: 315.
+
+A. PAPER 1 / PAPER 2 QUESTION PAPERS EXCLUDED (8) - no usable official mark scheme or answer key in the folder
+   5090_w02_qp_2.pdf   no Paper 2 mark scheme for Oct/Nov 2002 (only the examiner report, which gives comments, not marking points)
+   5090_s03_qp_2.pdf   no Paper 2 mark scheme for May/June 2003
+   5090_w03_qp_2.pdf   no Paper 2 mark scheme for Oct/Nov 2003
+   5090_s03_qp_1.pdf   no mark scheme, and the May/June 2003 examiner report does not print the key table
+   5090_s10_qp_13.pdf  no mark scheme for variant 13 (the examiner report prints keys for variants 11 and 12 only)
+   5090_s10_qp_23.pdf  no mark scheme for variant 23
+   5090_w10_qp_13.pdf  no mark scheme for variant 13 (the examiner report prints keys for variants 11 and 12 only)
+   5090_w10_qp_23.pdf  no mark scheme for variant 23
+   Note: the variant-3 papers of 2010 are near-identical in content to variant 12 / 22 of the same session, which ARE included.
+
+   PAIRS INCLUDED THROUGH AN UNUSUAL KEY SOURCE (4)
+   5090_w02_qp_1.pdf   key table printed in the examiner report 5090_w02_er.pdf (page 2)
+   5090_w03_qp_1.pdf   key table printed in the examiner report 5090_w03_er.pdf (page 2)
+   5090_s04_qp_1.pdf   combined mark scheme 5090_s04_ms.pdf (Paper 1 key on page 3)
+   5090_s04_qp_2.pdf   combined mark scheme 5090_s04_ms.pdf (Paper 2 on pages 5-10)
+
+B. FILES IN THE FOLDER THAT WERE NOT USED AS QUESTION PAPER OR MARK SCHEME
+   317  question papers and mark schemes of other papers (Papers 3, 4, 6 - not requested)
+   78   practical instructions / confidential instructions
+   40   examiner reports (used only where they publish the Paper 1 key table)
+   26   grade thresholds
+   8    Paper 1 / Paper 2 question papers WITHOUT a usable official mark scheme or key (excluded - see section A)
+          5090_s03_qp_1.pdf
+          5090_s03_qp_2.pdf
+          5090_s10_qp_13.pdf
+          5090_s10_qp_23.pdf
+          5090_w02_qp_2.pdf
+          5090_w03_qp_2.pdf
+          5090_w10_qp_13.pdf
+          5090_w10_qp_23.pdf
+   3    unofficial 'solved' scans (image only, not official mark schemes)
+          5090_s19_qp_22-solved.pdf
+          5090_s20_qp_12-solved.pdf
+          5090_s21_qp_61-1-solved.pdf
+   2    errata sheets
+          5090_w09_qp_et_2.pdf
+          5090_w11_qp_22_erratum-1.pdf
+   2    syllabus documents
+          5090_y16_sy.pdf
+          5090_y17_sy.pdf
+
+C. FLAGGED ITEMS (answer key or mark scheme appears wrong, ambiguous or in conflict)
+   w08_1:12  [4.1+7.2, VERIFIED]
+      key conflict (resolved by newer papers): 2008 key D expects phloem sieve-tube contents negative with Benedict; the re-used question in w11_12:11 and s12_11:11 / w16_12:12 expect Benedict positive, iodine negative
+   s14_21:7(a)  [o16+17.3, VERIFIED]
+      MS table prints 'haploid' in the Mitosis column and 'diploid' in the Meiosis column (reversed; newer schemes give meiosis as diploid -> haploid). Those rows belong to nuclear division (syllabus 16.1, not requested); the only row used in the notes - genetic variation in the offspring - is not affected
+   w24_11:20  [11.4, VERIFIED]
+      Key D accepted (A, B and C are clearly wrong), but option D as printed says pathogens are marked 'for destruction by lymphocytes'; the Paper 2 mark schemes (w24_21 7(a), w24_22 2(c)(ii)) credit destruction / engulfing by phagocytes. Notes follow the Paper 2 wording.
+   s25_12:30  [14.6, VERIFIED]
+      Ambiguous key (B). The graph of liver glycogen falls in both period B (from the peak back to the normal level) and period C (from normal to below normal); in both, glycogen is being broken down, which is the action of adrenaline. Using the logic of the similar item w23_12:27 (glycogen rising = blood glucose above average), blood glucose would be moving up towards its set point in both B and C. Key B has been recorded as given; option C cannot be excluded from the information printed. Notes record only the general rule (falling liver glycogen = glycogen being converted to glucose).
+
+D. ITEM-LEVEL REMARKS (oddities in the source that do not change the notes)
+   s23_22:3(b)(ii)  the mark-scheme answer is a drawn arrow (viewed on the mark-scheme page): from the sensory neurone with vesicles to the relay neurone.
+   s24_21:1(a)(i)   the mark-scheme answer is a line-matching diagram (viewed on the mark-scheme page); the part is out of scope (airway cells).
+   s23_12:26        option units are printed as mg/cm3 although the graph axis is mg per 100 cm3; key B (80) fits the baseline of the graph.
+   s12_11:22        the y-axis labels of the figure are printed inverted.
+   s04_2:2(c)       the accept / reject line printed beside 2(c) in the mark scheme belongs to the leaf colours of 2(d).
+   s14_21:7(a)      mark scheme is a comparison table without ";" separators (tracker shows 0 pts); see also the flag in section C.
+   Mark schemes of 2004 use the symbols (R) for reject and (A) for accept; they were read as such.
+
+E. CONFLICTS BETWEEN MARK SCHEMES AND HOW THE NOTES RESOLVE THEM (newer scheme first, older wording kept where it does not conflict)
+   Phloem contents and Benedict's test (w08_1:12 against w11_12:11, s12_11:11, w16_12:12): notes follow the newer keys (Benedict's positive, iodine negative).
+   Antibodies "marking pathogens for destruction by lymphocytes" (w24_11:20 option D) against Paper 2 schemes crediting phagocytes: notes follow the Paper 2 wording.
+   Liver glycogen graph (s25_12:30): key recorded as given; the notes hold only the general rule.
+   Mitosis / meiosis table with haploid and diploid reversed (s14_21:7(a)): those rows belong to nuclear division, which is not a requested section; the only row used in the notes (genetic variation) is unaffected.
+   "Incomplete dominance": accepted by w10_21:4(a), rejected by the newer s18_22:7(b)(iii); notes follow the newer scheme and mention the older one.
+   "Plasmolysed" for a wilting plant: rejected in w04_2:7(b), s09_2:1(a) and s09_2:1(b)(ii); listed with flaccid / loss of turgor in s21_22:3(b). Notes: flaccid / loss of turgor is always safe; both rulings are recorded.
+   "Evaporation" for the loss of water vapour from a leaf: rejected in a 2006 scheme, accepted together with diffusion in a 2019 scheme; notes say use "transpiration".
+   Antibodies and the placenta: w25_22:5(c)(ii) credits "antibodies too big / cannot pass across the placenta"; s13_21:6(b), s15_21:3(b)(ii), w19_22:9(b), w21_22:4(b) and w24_22:2(d)(i) credit antibodies passing from mother to fetus. Notes (11.4) give the first as a ruling of one question and add a caution with the second.
+
+F. EXTRACTION AND MATCHING ISSUES (all handled; listed so that the tracker can be interpreted correctly)
+   1. Every PDF page in the folder carries three content streams (a colour-inversion wrapper round the original). The wrapper was neutralised before any page was rendered.
+   2. The wrapper also leaves white as the current fill colour, so anything a page draws before it sets a colour of its own is invisible unless the first wrapper stream is neutralised as well. The first renderer of the second session did not do that. A page-by-page comparison of both renderers over all 315 files found 230 affected pages, all in 16 question papers of 2003-2009. The renderer was corrected; the 84 "figure viewed" Paper 1 questions lying on those pages were inspected again with the corrected renderer and every key was confirmed. The Paper 2 figure inspections were made with the corrected renderer (two early ones on pages that the comparison showed to be unaffected).
+   3. Landscape mark schemes (2013 onwards) are stored as rotated pages; text was re-ordered into display orientation before parsing.
+   4. Five mark-scheme layouts occur (2004-2012 plain text; 2013; 2014-2016; 2017-2019; 2020 onwards). Each Paper 2 part was matched to its mark-scheme section by label; 2,400 mark-scheme labels were matched and none is empty. Where a mark scheme gives one section for several question parts (or the reverse) the tracker line names every label used.
+   5. Either / Or questions of 2004-2010 appear as 8E / 8O; both alternatives are tracked, so papers up to 2022 total 90 marks (80 from 2023).
+   6. Some question papers print the marks only after the last of several sub-parts; such parts are tracked as one line (remark "includes unmarked sibling part(s)").
+   7. Mark-scheme sections may end with harmless carried-over lines (page banner, repeated table header, "Section B", and - in the 2026 files - a download watermark line). They were ignored when reading.
+   8. The braille-paper appendix of 5090_w25_ms_22.pdf (pages 15-16) is not part of the standard paper and was skipped.
+   9. Page 4 of 5090_s15_ms_22.pdf stores its text as overlapping fragments; it was rebuilt from character positions.
+   10. Point counts in the tracker are counts of ";" in the matched mark-scheme text. They can differ from the marks: "max n" lists hold more points than marks; table-form schemes hold none. For ten parts the marks column of the mark scheme could not be read back reliably (s14_21:1(b)(i), s14_21:1(b)(ii), s14_22:1(c), w14_21:2(b)(iii), w14_22:6(a), s15_21:2(b), s15_22:2(a), w15_21:4(b), w15_22:9(b), w19_22:4(a)(iii)); the tracker marks come from the question papers and add up to the paper totals for all 78 papers.
+   11. Paper 1 option tables are sometimes split across text rows or drawn as ticks and crosses; where the extracted options were not unambiguous the page image was viewed (status "figure viewed").
+   12. The page number shown for a Paper 2 part is the page on which its text starts; its figure can be on the neighbouring page (those pages were opened as well during the figure inspection).
+   13. Unofficial "solved" scans and errata sheets in the folder were not used as mark schemes.
+
+G. LIMITS OF THIS VERIFICATION (read before relying on the notes)
+   1. One verifier worked through the papers sequentially. The environment offered no parallel workers, so the coordinator / worker scheme of the brief could not be used and there was no second independent reader.
+   2. The working state was lost once when the work environment was reset. It was rebuilt from the tracker and notes that had been saved. All question and mark-scheme text was then extracted again from the PDFs, but the 2,611 "verified" and 2,902 "out of scope" decisions of the first pass were restored from that tracker and were not re-read one by one. They were re-tested indirectly by the checks listed in the final report (key re-extraction, complete re-read of every out-of-scope Paper 2 mark scheme, vocabulary re-check of out-of-scope Paper 1 questions, lexical coverage checks, figure re-inspections).
+   3. Out-of-scope Paper 1 questions (1,654) were classified from stem, options and key. Their figures were not rendered, so their keys were not checked against the figures; nothing from them is in the notes.
+   4. Out-of-scope Paper 2 parts (1,040): the whole mark-scheme text of each was read; their figures were not rendered.
+   5. In-scope Paper 2 parts: the figure was inspected for the 159 parts whose marking points name or mark structures on a figure. For the other parts with a figure (status "text sufficient / figure not rendered") graphs and data tables were not rendered; their readings were taken from the mark scheme, and points that depend entirely on one graph or table are summarised as method rules.
+   6. A bullet line in the notes merges the wording of every mark scheme that credits the same idea, and one line often holds several ";" points. The number of bullet lines is therefore much smaller than the number of marking points read, and is not a count of marks.
+   7. The lexical coverage check compares words, not meaning. It shows that a marking point is represented in the notes of its subsection; it cannot prove that the wording is equivalent. Points below the threshold were read by hand.
+   8. The syllabus allocation follows the list supplied in the brief (2026-2028 numbering). Where two sections touch, the choices in section H were made; a different reader could draw some of these lines differently.
+
+H. SCOPE BOUNDARY RULES (how points that touch an unrequested section were treated)
+   The requested list was used exactly as supplied. An unofficial transcription of the learning objectives of the same syllabus, found in a public repository (see _work/ref/README.txt), was used only to decide to which section a point belongs where two sections touch; nothing was added to the list from it.
+   1. A question whose subject is a requested subsection is in scope with all its marking points, including older-syllabus points on the same subject.
+   2. A question whose subject is an unrequested section is out of scope. It gets a mixed code only when its mark scheme (Paper 2) or its keyed answer (Paper 1) rests on a point that is itself a statement of a requested subsection - a requested concept applied in another context.
+   3. The main neighbours:
+      - Nuclear division, chromosome number, haploid / diploid, asexual v sexual reproduction (sections 16.1, 16.2): out of scope in both papers. Kept in 17.3: meiosis, random fertilisation and sexual reproduction as sources of genetic variation; sex chromosomes in gametes; chromosome mutation (Down's syndrome, triploidy); points credited inside inheritance questions. A block of nuclear-division points that an earlier step of this work had placed in 17.3 was taken out on this ground; it is kept for reference in _work/removed/17.3_nuclear_division_block.txt.
+      - Menstrual-cycle roles of FSH, LH, oestrogen and progesterone (16.4): out of scope. Which gland produces which hormone (14.3): in scope.
+      - Cilia, goblet cells and mucus in the airways (9.1): out of scope, unless the question is about specialised cells (1.2).
+      - Leaf tissues, distribution of chloroplasts, mineral ions for chlorophyll and amino acids (6.2, 6.3): out of scope. Uptake and transport of water and ions, stomata and transpiration points in such questions: in scope (7.1, 7.2).
+      - Structure of viruses (2.2): out of scope. Comparisons that rest on the structures of bacterial, animal, plant and fungal cells: 1.1.
+      - Digestion and absorption (8.2, 8.3): out of scope. Points on enzyme action and on temperature and pH (5.1, 5.2), on diffusion, osmosis and active transport (3.1, 3.2), on food tests (4.1), on the hepatic portal vein (11.3) and on the liver and amino acids (13.2) in such questions: in scope.
+      - Gas exchange (9.1) and respiration (10): out of scope. Diffusion points (3.1), energy for active transport (3.2), carbon dioxide as an excretory product (13.1) and blood / circulation points (11) in such questions: in scope.
+      - Disease and immunity (12): out of scope. Antibody production and phagocytosis by white blood cells with the antibody points credited in blood questions (11.4), and antibiotic resistance as natural selection (17.4): in scope.
+      - Biotechnology and genetic modification (18): out of scope. Bacterial cell structures including plasmids (1.1), enzyme points (5) and DNA / gene points (17.2) in such questions: in scope.
+      - Ecology (19): out of scope. Points on uptake by roots, transpiration, active transport and selection inside such questions: in scope.
+      - Kidney dialysis, brain regions, skeleton and muscles, drugs (not in the 2026-2028 list): coded oX. Diffusion across a dialysis membrane is recorded in 3.1, the hypothalamus in 14.5, the pituitary gland in 14.3.
+   4. Known asymmetry. A Paper 1 question tests one fact and was assigned to the section of that fact; a Paper 2 part can credit several points, so mixed codes are much commoner in Paper 2 (337 verified parts) than in Paper 1 (88 verified questions). Some mixed-code points (for example excretion across the placenta under 13.1, enzymes of germinating seeds under 5.1, stomach pH under 5.2) could be argued to belong only to the unrequested section; they are genuine mark-scheme points and the notes word them with their context.
+
+I. UNRESOLVED ISSUES
+   No item is pending and nothing blocks the result. Open for the reader's judgement: the 4 flagged items in section C, the boundary choices in section H and the limits in section G.
