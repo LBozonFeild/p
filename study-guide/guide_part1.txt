@@ -1,78 +1,162 @@
 # How this guide works
 
-This guide covers everything **after** the basics — you already know variables, input/output, operators and decisions (IF/CASE), so those are skipped. What remains is the heart of Paper 2: iteration, strings, arrays, subroutines, files, standard algorithms, testing, flowcharts, Boolean logic, databases, and Python for the scenario question.
+This guide covers everything **after** the basics — you already know variables, input/output, operators and decisions, so those are skipped. What remains is the heart of Paper 2: iteration, strings, arrays, subroutines, files, standard algorithms, common errors, testing, flowcharts, Boolean logic, databases and the scenario question.
 
-Each section gives you tight explanations and worked examples, then practice questions with model answers and mark allocations. Try the questions **before** looking at the answers.
+**Pseudocode and Python are treated as equals here.** Every concept is explained with a pseudocode example **and** a Python example, and every coding question has a model answer in **both** languages. Study both — the logic is identical, only the syntax differs.
 
-N: **The golden exam rule.** In Paper 2, every coding answer must be written in **Cambridge pseudocode** — answers in Python (or any real language) score zero, **except** in the final 15-mark scenario question, where pseudocode **or** Python/Visual Basic/Java is allowed. Syntax is never marked: the **logic** is what earns marks. But operators must be precise: write __x > y__, never "x is greater than y".
+Each section gives you explanations and worked examples, then practice questions with model answers and mark allocations. Try the questions **before** looking at the answers.
 
-The guide mirrors the syllabus pseudocode exactly (assignment arrow __←__, keywords in upper case, __DECLARE / INPUT / OUTPUT / IF...ENDIF / WHILE...DO...ENDWHILE / REPEAT...UNTIL / FOR...NEXT / PROCEDURE / FUNCTION__). Python translations are shown in grey boxes where useful.
+N: **The golden exam rule.** In the real Paper 2 exam, every coding answer must be written in **Cambridge pseudocode** — answers in Python (or any real language) score zero, **except** in the final 15-mark scenario question, where pseudocode **or** Python/Visual Basic/Java is allowed. Syntax is never marked: the **logic** is what earns marks. But operators must be precise: write __x > y__, never "x is greater than y".
+
+In this guide, selection is built from **nested IF statements** throughout (in both languages), matching the syllabus requirement for nested selection and iteration. Where multi-way choice is needed, the Python examples nest IF statements inside ELSE blocks.
 
 # 1. Iteration and nested constructs
 
 ## 1.1 The three loop types
 
-Cambridge pseudocode has exactly three loop forms. Choosing the right one (and knowing when each runs **zero**, **one**, or **many** times) is a favourite exam target.
+Cambridge pseudocode has exactly three loop forms. Choosing the right one (and knowing when each runs **zero**, **one**, or **many** times) is a favourite exam target. Each is shown in both languages.
 
 **FOR — count-controlled.** Use when you know in advance how many times to repeat.
 
+**Pseudocode:**
 ```
 FOR I ← 1 TO 10
     OUTPUT I
 NEXT I
 ```
-
-- The counter (__I__ here) is assigned every integer value from the start to the end value **inclusive**.
-- If start > end, the loop body never runs.
-- A step size can be given — including negative steps:
-
+**Python:**
 ```
-FOR I ← 1 TO 9 STEP 2      // I takes 1, 3, 5, 7, 9
-    OUTPUT I
-NEXT I
+for i in range(1, 11):     # range stops BEFORE 11
+    print(i)
+```
 
+- The counter is assigned every integer value from the start to the end value **inclusive** (Python's `range` is exclusive at the end — the classic translation trap).
+- If start > end, the body never runs.
+- A step size can be given, including negative steps:
+
+**Pseudocode:**
+```
+FOR I ← 1 TO 9 STEP 2          // I takes 1, 3, 5, 7, 9
 FOR Countdown ← 10 TO 1 STEP -1
-    OUTPUT Countdown
-NEXT Countdown
+```
+**Python:**
+```
+for i in range(1, 10, 2):           # 1, 3, 5, 7, 9
+for countdown in range(10, 0, -1):  # 10, 9, ..., 1
 ```
 
 **WHILE — pre-condition.** Use when you repeat **while** something stays true and it might never be true at all. The test happens **before** each run, so the body can run zero times.
 
+**Pseudocode:**
 ```
 WHILE Password <> "Secret" DO
     INPUT Password
 ENDWHILE
 ```
+**Python:**
+```
+while password != "Secret":
+    password = input("Password: ")
+```
 
-**REPEAT ... UNTIL — post-condition.** Use when the body must run **at least once**. The test happens **after** each run, and the loop **stops when the condition becomes TRUE** (this is the opposite of Python's `while`, a classic trap).
+**REPEAT ... UNTIL — post-condition.** Use when the body must run **at least once**. The test happens **after** each run, and the loop **stops when the condition becomes TRUE** — the opposite of Python's `while`, a classic trap (see section 7).
 
+**Pseudocode:**
 ```
 REPEAT
     INPUT Password
 UNTIL Password = "Secret"       // stops when TRUE
 ```
+**Python:**
+```
+while True:
+    password = input("Password: ")
+    if password == "Secret":
+        break                   # stops when TRUE
+```
 
 ## 1.2 Totalling and counting
 
-Two patterns you will use constantly:
+Two patterns you will use constantly — the same logic in both languages:
 
+**Totalling (pseudocode):**
 ```
-Total ← 0                       Count ← 0
-FOR I ← 1 TO 5                  FOR I ← 1 TO 5
-    INPUT Value                     INPUT Value
-    Total ← Total + Value           IF Value > 10
-NEXT I                              THEN
-                                        Count ← Count + 1
-                                    ENDIF
-                                NEXT I
+Total ← 0
+FOR I ← 1 TO 5
+    INPUT Value
+    Total ← Total + Value
+NEXT I
+OUTPUT Total
+```
+**Totalling (Python):**
+```
+total = 0
+for i in range(1, 6):
+    value = int(input("Value: "))
+    total = total + value
+print(total)
 ```
 
-Always initialise the accumulator (__Total ← 0__) or counter (__Count ← 0__) **before** the loop.
+**Counting (pseudocode):**
+```
+Count ← 0
+FOR I ← 1 TO 5
+    INPUT Value
+    IF Value > 10
+        THEN
+            Count ← Count + 1
+    ENDIF
+NEXT I
+```
+**Counting (Python):**
+```
+count = 0
+for i in range(1, 6):
+    value = int(input("Value: "))
+    if value > 10:
+        count = count + 1
+```
 
-## 1.3 Nested statements
+Always initialise the accumulator (__Total ← 0__ / `total = 0`) or counter **before** the loop.
 
-Loops and IF statements can be placed inside each other. The syllabus never requires more than **three levels of nesting**, and indentation must make the structure obvious (four spaces per level; THEN/ELSE two extra spaces). Worked nested example — one total per row of a 2D structure:
+## 1.3 Nested IF and nested loops
 
+The syllabus requires **nested selection and iteration** (never more than **three levels** of nesting). In this guide multi-way choices are built by **nesting IF inside ELSE** — in both languages.
+
+**Nested IF — grade bands.** One condition checked inside the other's ELSE branch:
+
+**Pseudocode:**
+```
+IF Score >= 80
+    THEN
+        OUTPUT "Grade A"
+    ELSE
+        IF Score >= 60
+            THEN
+                OUTPUT "Grade B"
+            ELSE
+                OUTPUT "Grade C"
+        ENDIF
+ENDIF
+```
+**Python (nested if):**
+```
+if score >= 80:
+    print("Grade A")
+else:
+    if score >= 60:
+        print("Grade B")
+    else:
+        print("Grade C")
+```
+
+- Each nested IF has its **own** __ENDIF__ in pseudocode — count them carefully in error-finding questions.
+- In Python the nested IF simply lives **inside the else block** and is indented one level further. Indentation is the structure.
+- Three-way choice = one level of nesting; keep it at three levels or fewer.
+
+**Nested loops — one total per row:**
+
+**Pseudocode:**
 ```
 FOR Row ← 1 TO 3
     RowTotal ← 0
@@ -82,15 +166,30 @@ FOR Row ← 1 TO 3
     OUTPUT "Total for row ", Row, " is ", RowTotal
 NEXT Row
 ```
+**Python:**
+```
+for row in range(1, 4):
+    row_total = 0
+    for column in range(1, 5):
+        row_total = row_total + grid[row - 1][column - 1]
+    print("Total for row", row, "is", row_total)
+```
+(If the Python grid is 0-based, subtract 1 from the indices — or build the grid 1-based style and keep the indices.)
 
-## 1.4 Python translation
+## 1.4 Loops at a glance
 
-N: In Python: __FOR I ← 1 TO 10__ becomes `for i in range(1, 11):` (range stops **before** the end value). __REPEAT ... UNTIL cond__ becomes `while True:` with `if cond: break` at the **end** of the body. __WHILE cond DO__ becomes `while cond:`. Remember: pseudocode loops are 1-based and inclusive; Python `range` is 0-based and exclusive.
+T:
+| Task | Pseudocode | Python |
+| Count 1 to N | FOR I ← 1 TO N ... NEXT I | for i in range(1, N + 1): |
+| Count with step S | FOR I ← A TO B STEP S ... NEXT I | for i in range(A, B + 1, S): |
+| While condition is true | WHILE c DO ... ENDWHILE | while c: |
+| Repeat at least once, until c is true | REPEAT ... UNTIL c | while True: ... if c: break |
 
 ## 1.5 Worked example — trace of a REPEAT loop
 
 Trace tables track every variable and output at each step. For inputs 5, −3, 2, 0:
 
+**Pseudocode:**
 ```
 Total ← 0
 Count ← 0
@@ -103,6 +202,19 @@ REPEAT
     ENDIF
 UNTIL Value = 0
 OUTPUT Total, Count
+```
+**Python (same program):**
+```
+total = 0
+count = 0
+while True:
+    value = int(input("Value: "))
+    if value > 0:
+        total = total + value
+        count = count + 1
+    if value == 0:
+        break
+print(total, count)
 ```
 
 T:
@@ -115,9 +227,10 @@ T:
 
 The loop stops after the input 0 (condition __Value = 0__ now TRUE). Final output: __7, 2__.
 
-Q:(3) Write pseudocode for an algorithm that calculates the sum of the squares of the numbers 1 to 10 (that is 1 + 4 + 9 + ... + 100) and outputs the total. The value 385 should not appear as a literal in your code.
+Q:(3) Write an algorithm that calculates the sum of the squares of the numbers 1 to 10 (that is 1 + 4 + 9 + ... + 100) and outputs the total. Write it in pseudocode **and** Python. The value 385 must not appear as a literal in either version.
 
-A: The total must be built up with an accumulator using the square of the loop counter.
+A: The total is built up with an accumulator using the square of the loop counter.
+**Pseudocode:**
 ```
 Total ← 0
 FOR I ← 1 TO 10
@@ -125,9 +238,16 @@ FOR I ← 1 TO 10
 NEXT I
 OUTPUT Total
 ```
-Mark points: initialising __Total__ (1); correct loop 1 to 10 and accumulating __I ^ 2__ (1); OUTPUT of the calculated total (1). Accept __I * I__ instead of __I ^ 2__.
+**Python:**
+```
+total = 0
+for i in range(1, 11):
+    total = total + i ** 2
+print(total)
+```
+Both output 385. Mark points: initialising __Total__ (1); correct loop 1 to 10 and accumulating the square of the counter (1); output of the calculated total (1). Accept __I * I__ / `i * i` instead of __I ^ 2__ / `i ** 2`.
 
-Q:(4) The following program is run with inputs 5, −3, 2, 0 in that order. Complete a trace table showing __Value__, __Total__ and __Count__ at each step, and state what is output.
+Q:(4) The program below is run with inputs 5, −3, 2, 0 in that order. Complete a trace table showing __Value__, __Total__ and __Count__ at each step, and state what is output.
 ```
 Total ← 0
 Count ← 0
@@ -150,17 +270,17 @@ T:
 | 2 | -3 | 5 | 1 |
 | 3 | 2 | 7 | 2 |
 | 4 | 0 | 7 | 2 |
-Output: __7, 2__.
+Output: __7, 2__. The Python twin (see section 1.5) produces exactly the same table and output.
 Mark points: __Total__ column correct after each input (2); __Count__ column correct (1); correct final output (1). Note that −3 is ignored (not > 0) and that 0 is processed before the loop stops, because __UNTIL__ is tested after the body.
 
-Q:(3) Rewrite this FOR loop using a WHILE loop. It should produce exactly the same output.
+Q:(3) Rewrite this FOR loop using a WHILE loop, in pseudocode **and** Python. It must produce exactly the same output.
 ```
 FOR I ← 1 TO 10
     OUTPUT I * 2
 NEXT I
 ```
 
-A:
+A: **Pseudocode:**
 ```
 I ← 1
 WHILE I <= 10 DO
@@ -168,9 +288,16 @@ WHILE I <= 10 DO
     I ← I + 1
 ENDWHILE
 ```
-Mark points: initialise __I ← 1__ (1); correct condition __I <= 10__ (1); increment __I ← I + 1__ and correct WHILE structure (1). Common mistake: using __<__ instead of __<=__, which prints only 8 values (2 to 16).
+**Python:**
+```
+i = 1
+while i <= 10:
+    print(i * 2)
+    i = i + 1
+```
+Mark points: initialise the counter (1); correct condition __<= 10__ / `<= 10` (1); increment and correct WHILE structure (1). Common mistake: using __<__ instead of __<=__, which prints only 8 values (2 to 16).
 
-Q:(2) This loop is supposed to output the numbers 1 to 5, but it only outputs 1 to 4. Identify the error and write the corrected line.
+Q:(2) This loop is supposed to output the numbers 1 to 5, but it only outputs 1 to 4. Identify the error and write the corrected line. The same bug exists in the Python version — fix it there too.
 ```
 I ← 1
 WHILE I < 5 DO
@@ -179,9 +306,10 @@ WHILE I < 5 DO
 ENDWHILE
 ```
 
-A: The condition __I < 5__ should be __I <= 5__. Mark points: identifying the wrong condition (1); correcting it (1).
+A: The condition __I < 5__ should be __I <= 5__ (in Python: `while i <= 5:`). With __<__ the loop stops when __I__ reaches 5, so 5 is never printed.
+Mark points: identifying the wrong condition (1); correcting it in both languages (1).
 
-Q:(2) Translate this pseudocode into Python. Your code should print one number.
+Q:(2) Translate this pseudocode into Python. Then state the output of both versions.
 ```
 Total ← 0
 FOR I ← 1 TO 9 STEP 2
@@ -190,14 +318,14 @@ NEXT I
 OUTPUT Total
 ```
 
-A:
+A: **Python:**
 ```
 total = 0
 for i in range(1, 10, 2):
     total = total + i
 print(total)
 ```
-It prints 25 (1 + 3 + 5 + 7 + 9). Mark points: correct loop with __range(1, 10, 2)__ (1); accumulation and print (1). Remember __range__ stops before its end value.
+Both versions print __25__ (1 + 3 + 5 + 7 + 9). Mark points: correct loop with __range(1, 10, 2)__ (1); accumulation and output (1). Remember `range` stops before its end value: to include 9 the end must be 10.
 
 # 2. String handling
 
@@ -212,14 +340,23 @@ T:
 | UCASE(s) | all characters upper case | UCASE("Happy") | "HAPPY" |
 | LCASE(s) | all characters lower case | LCASE('W') | 'w' |
 
-Strings join with the __+__ operator: __FullName ← FirstName + " " + LastName__. Positions count from 1 (Cambridge normally uses 1-based positions — questions will make this clear).
+The same operations in Python:
+
+T:
+| Pseudocode | Python | Note |
+| LENGTH(s) | len(s) | same result |
+| SUBSTRING(s, p, l) | s[p-1 : p-1+l] | Python slices are 0-based |
+| UCASE(s) | s.upper() | |
+| LCASE(s) | s.lower() | |
+
+Strings join with __+__ in both languages: __FullName ← FirstName + " " + LastName__ / `full_name = first_name + " " + last_name`. Cambridge normally uses 1-based positions — questions will make this clear.
 
 ## 2.2 Processing strings character by character
 
-The standard pattern is a FOR loop from 1 to __LENGTH(s)__, extracting one character at a time with __SUBSTRING(s, I, 1)__:
+The standard pattern is a loop from 1 to __LENGTH(s)__, extracting one character at a time — count the vowels in __S__:
 
+**Pseudocode:**
 ```
-// count how many vowels are in S
 Count ← 0
 FOR I ← 1 TO LENGTH(S)
     Ch ← UCASE(SUBSTRING(S, I, 1))
@@ -230,22 +367,48 @@ FOR I ← 1 TO LENGTH(S)
 NEXT I
 OUTPUT Count
 ```
+**Python:**
+```
+count = 0
+for i in range(0, len(s)):
+    ch = s[i].upper()
+    if ch == "A" or ch == "E" or ch == "I" or ch == "O" or ch == "U":
+        count = count + 1
+print(count)
+```
 
-Common string tasks you should be able to write: counting occurrences of a character, reversing a string (loop downwards with __STEP -1__), checking a password against a rule, extracting parts of a formatted code.
+Reversing a string — loop downwards:
 
-## 2.3 Python translation
+**Pseudocode:**
+```
+Reversed ← ""
+FOR I ← LENGTH(S) TO 1 STEP -1
+    Reversed ← Reversed + SUBSTRING(S, I, 1)
+NEXT I
+OUTPUT Reversed
+```
+**Python:**
+```
+reversed_text = ""
+for i in range(len(s) - 1, -1, -1):
+    reversed_text = reversed_text + s[i]
+print(reversed_text)
+# or simply: print(s[::-1])
+```
 
-N: Python equivalents: __LENGTH(s)__ → `len(s)`; __UCASE(s)__ → `s.upper()`; __LCASE(s)__ → `s.lower()`; __SUBSTRING(s, start, length)__ → `s[start-1 : start-1+length]`. Watch the offset: __SUBSTRING(S, 4, 3)__ is `s[3:6]`. Python strings are 0-based; Cambridge pseudocode is normally 1-based.
+Other common string tasks: counting occurrences of a character, checking a password against a rule, extracting parts of a formatted code.
 
 Q:(3) The variable __Text__ contains "Computer". Evaluate:
 (a) __LENGTH(Text)__  (b) __SUBSTRING(Text, 3, 3)__  (c) __UCASE(SUBSTRING(Text, 2, 1))__
+Then give the Python equivalent of each expression.
 
 A: (a) 8  (b) "mpu"  (c) "O".
-Mark points: one per part. Positions: C=1, o=2, m=3, p=4, u=5, t=6, e=7, r=8. __SUBSTRING(Text, 3, 3)__ starts at "m" and takes 3 characters; __SUBSTRING(Text, 2, 1)__ is "o", which __UCASE__ turns into "O".
+Python equivalents: (a) `len(text)` → 8  (b) `text[2:5]` → "mpu"  (c) `text[1:2].upper()` → "O".
+Mark points: one per part. Positions: C=1, o=2, m=3, p=4, u=5, t=6, e=7, r=8. __SUBSTRING(Text, 3, 3)__ starts at "m" and takes 3 characters; __SUBSTRING(Text, 2, 1)__ is "o", upper-cased to "O". Note the offset: Python index 2 = pseudocode position 3.
 
-Q:(4) Write pseudocode that inputs a string __S__ and counts how many times the letter "e" appears, in either upper or lower case. Output the count.
+Q:(4) Write an algorithm that inputs a string __S__ and counts how many times the letter "e" appears, in either upper or lower case. Output the count. Write it in pseudocode **and** Python.
 
-A:
+A: **Pseudocode:**
 ```
 INPUT S
 Count ← 0
@@ -258,11 +421,21 @@ FOR I ← 1 TO LENGTH(S)
 NEXT I
 OUTPUT Count
 ```
-Mark points: loop over the whole string using __LENGTH__ (1); extracting the character with __SUBSTRING__ (1); case-insensitive comparison using __UCASE__ or __LCASE__ (1); counting and outputting (1). Accept comparison against both "e" and "E" instead of converting case.
+**Python:**
+```
+s = input("Text: ")
+count = 0
+for i in range(0, len(s)):
+    ch = s[i].upper()
+    if ch == "E":
+        count = count + 1
+print(count)
+```
+Mark points: loop over the whole string using __LENGTH__/`len` (1); extracting each character (1); case-insensitive comparison (1); counting and outputting (1). Accept comparison against both "e" and "E" instead of converting case.
 
-Q:(3) Write pseudocode that inputs a string __S__ and outputs it reversed. For input "ABC" the output must be "CBA".
+Q:(3) Write an algorithm that inputs a string __S__ and outputs it reversed. For input "ABC" the output must be "CBA". Write it in pseudocode **and** Python.
 
-A:
+A: **Pseudocode:**
 ```
 INPUT S
 Reversed ← ""
@@ -271,62 +444,88 @@ FOR I ← LENGTH(S) TO 1 STEP -1
 NEXT I
 OUTPUT Reversed
 ```
-Mark points: loop downwards from __LENGTH(S)__ to 1 (1); __STEP -1__ and character extraction (1); concatenation into __Reversed__ and output (1).
+**Python:**
+```
+s = input("Text: ")
+reversed_text = ""
+for i in range(len(s) - 1, -1, -1):
+    reversed_text = reversed_text + s[i]
+print(reversed_text)
+```
+Mark points: loop downwards over the string (1); character extraction (1); concatenation and output (1). In Python, `print(s[::-1])` alone is acceptable if the loop requirement is not being tested.
 
-Q:(2) This Python code is run. Write down the exact output.
+Q:(2) This Python code is run. Write down the exact output, then write the pseudocode version of the same program.
 ```
 s = "Computer"
 print(len(s), s[2:5], s.upper())
 ```
 
-A: __8 mpu COMPUTER__ (on one line). Mark points: __8__ and __mpu__ (1) — remember Python slices are 0-based, so `s[2:5]` is characters at indexes 2, 3, 4; __COMPUTER__ (1).
+A: Output: __8 mpu COMPUTER__ (on one line).
+**Pseudocode version:**
+```
+S ← "Computer"
+OUTPUT LENGTH(S), SUBSTRING(S, 3, 3), UCASE(S)
+```
+Mark points: __8__ and __mpu__ (1) — remember Python slices are 0-based, so `s[2:5]` is characters at indexes 2, 3, 4; __COMPUTER__ and a correct pseudocode translation (1).
 
 # 3. Arrays
 
 ## 3.1 One-dimensional arrays
 
-An array is a fixed-length block of elements of the **same** data type, accessed by index. Declare with explicit bounds (the lower bound is normally 1):
+An array is a fixed-length block of elements of the **same** data type, accessed by index. Cambridge arrays usually start at 1; Python lists always start at 0.
 
+**Pseudocode:**
 ```
 DECLARE StudentNames : ARRAY[1:30] OF STRING
 DECLARE Marks : ARRAY[1:30] OF INTEGER
-```
-
-Read and write single elements with square brackets: __Marks[5] ← 72__, __OUTPUT StudentNames[3]__. An index may be a variable or expression: __Marks[I]__, __Marks[I + 1]__.
-
-Arrays are nearly always used **with loops** — to fill them, print them, search them, or sort them:
-
-```
 FOR I ← 1 TO 30
     INPUT Marks[I]
 NEXT I
+OUTPUT Marks[5]
 ```
+**Python:**
+```
+marks = [0] * 30              # 30 slots, indexes 0 to 29
+for i in range(0, 30):
+    marks[i] = int(input("Mark: "))
+print(marks[4])               # the 5th mark
+```
+In Python a list can also grow: `marks.append(value)`.
+
+Arrays are nearly always used **with loops** — to fill them, print them, search them, or sort them.
 
 ## 3.2 Two-dimensional arrays
 
-A 2D array is declared with two bounds and accessed with two indices separated by a comma:
-
+**Pseudocode:**
 ```
-DECLARE NoughtsAndCrosses : ARRAY[1:3, 1:3] OF CHAR
-NoughtsAndCrosses[2, 3] ← 'X'
+DECLARE Grid : ARRAY[1:3, 1:4] OF INTEGER
+Grid[2, 3] ← 7
+OUTPUT Grid[2, 3]
 ```
+**Python (list of lists):**
+```
+grid = [[0] * 4 for row in range(3)]   # 3 rows of 4
+grid[1][2] = 7                          # row 2, column 3 in 1-based terms
+print(grid[1][2])
+```
+Typical operations need **nested loops**: every row × every column.
 
-Typical operations need **nested loops**: every row × every column. To walk down a column instead, swap the loop order.
+Q:(3) Write an algorithm to declare an array capable of holding 20 integer exam marks, then fill it with values typed by the user. Write it in pseudocode **and** Python.
 
-## 3.3 Python translation
-
-N: A Cambridge array of size 30 maps to a Python **list**. Python lists are dynamic and 0-based: `names = [""] * 30` then `names[i]` with `i` from 0. The pseudocode __Grid[2, 3]__ corresponds to `grid[2][3]` (a list of lists). In the scenario question either style is fine — just stay consistent.
-
-Q:(3) Write pseudocode to declare an array capable of holding 20 integer exam marks, then fill it with values typed by the user.
-
-A:
+A: **Pseudocode:**
 ```
 DECLARE Marks : ARRAY[1:20] OF INTEGER
 FOR I ← 1 TO 20
     INPUT Marks[I]
 NEXT I
 ```
-Mark points: declaration with type and bounds (1); loop from 1 to 20 (1); INPUT into the array element using the loop counter as index (1).
+**Python:**
+```
+marks = []
+for i in range(0, 20):
+    marks.append(int(input("Mark: ")))
+```
+Mark points: declaration of 20 integers (1); loop 20 times (1); input into the element using the loop counter as index (1).
 
 Q:(4) The array __A__ contains the values 2, 7, 4, 9 in positions 1 to 4. Trace the algorithm below, showing __I__, __A[I]__ and __Max__ at each step of the loop, and state what is output.
 ```
@@ -347,12 +546,12 @@ T:
 | 1 | 2 | 7 | 7 |
 | 2 | 3 | 4 | 7 |
 | 3 | 4 | 9 | 9 |
-Output: __9__.
-Mark points: __Max__ starts at 2 (1); each correct row of the trace (3). Award the rows mark by mark: 7 replaces 2, 4 is ignored, 9 replaces 7.
+Output: __9__. The Python twin runs identically (with `a = [2, 7, 4, 9]`, `max_value = a[0]`, `for i in range(1, 4):`).
+Mark points: __Max__ starts at 2 (1); each correct row of the trace (3). 7 replaces 2, 4 is ignored, 9 replaces 7.
 
-Q:(4) A 2D array __Grid__ has 2 rows and 3 columns. Row 1 contains 3, 1, 4 and row 2 contains 2, 5, 6. Write pseudocode to output the total of each row (your program must work for any values stored in the array).
+Q:(4) A 2D array __Grid__ has 2 rows and 3 columns. Row 1 contains 3, 1, 4 and row 2 contains 2, 5, 6. Write an algorithm (pseudocode **and** Python) to output the total of each row. Your program must work for any values stored in the array.
 
-A:
+A: **Pseudocode:**
 ```
 FOR Row ← 1 TO 2
     Sum ← 0
@@ -362,29 +561,45 @@ FOR Row ← 1 TO 2
     OUTPUT "Row ", Row, " total is ", Sum
 NEXT Row
 ```
+**Python:**
+```
+for row in range(0, 2):
+    sum_total = 0
+    for col in range(0, 3):
+        sum_total = sum_total + grid[row][col]
+    print("Row", row + 1, "total is", sum_total)
+```
 This outputs __Row 1 total is 8__ then __Row 2 total is 13__.
 Mark points: nested loop covering rows and columns (2); accumulation with both indices (1); correct totals output inside the outer loop (1).
 
-Q:(2) Translate the pattern below into Python: build a list called __squares__ holding the squares of the numbers 1 to 5 (1, 4, 9, 16, 25) by looping and appending.
+Q:(2) Show how to build a list/array called __Squares__ holding the squares of the numbers 1 to 5 (1, 4, 9, 16, 25) by looping — in both languages.
 
-A:
+A: **Pseudocode:**
+```
+DECLARE Squares : ARRAY[1:5] OF INTEGER
+FOR I ← 1 TO 5
+    Squares[I] ← I ^ 2
+NEXT I
+```
+**Python:**
 ```
 squares = []
 for i in range(1, 6):
     squares.append(i * i)
 ```
-Mark points: empty list plus `.append(...)` (1); loop with `range(1, 6)` producing 1 to 5 (1). Accept `squares = [i * i for i in range(1, 6)]`.
+Mark points: correct storage (array declaration / empty list with append) (1); loop producing 1 to 5 and squaring the counter (1). Accept `squares = [i * i for i in range(1, 6)]`.
 
 # 4. Procedures, functions and modularity
 
 ## 4.1 Why split up code?
 
-Topic 7 expects you to understand **decomposition** (breaking a problem into sub-systems) and Topic 8 expects **maintainable programs**: meaningful identifiers, comments (__//__), and subroutines. A program built from small procedures and functions is easier to write, test, read and reuse.
+Topic 7 expects you to understand **decomposition** (breaking a problem into sub-systems) and Topic 8 expects **maintainable programs**: meaningful identifiers, comments (__//__ in pseudocode, __#__ in Python), and subroutines. A program built from small procedures and functions is easier to write, test, read and reuse.
 
-## 4.2 Procedures
+## 4.2 Procedures (Python: functions with no return value)
 
-A procedure performs a task and returns nothing. It is defined at the start of the code and called with __CALL__:
+A procedure performs a task and returns nothing. In pseudocode it is defined at the start of the code and called with __CALL__; in Python it is a `def` that is simply named:
 
+**Pseudocode:**
 ```
 PROCEDURE PrintLine(Symbol : CHAR, Times : INTEGER)
     DECLARE I : INTEGER
@@ -398,16 +613,25 @@ ENDPROCEDURE
 
 CALL PrintLine('*', 10)
 ```
+**Python:**
+```
+def print_line(symbol, times):
+    line_text = ""
+    for i in range(1, times + 1):
+        line_text = line_text + symbol
+    print(line_text)
 
-- Parameters are typed (__Symbol : CHAR__); up to **three** parameters are allowed.
-- The call __CALL PrintLine('*', 10)__ is a complete statement.
+print_line('*', 10)
+```
+Parameters are typed in pseudocode (__Symbol : CHAR__); up to **three** parameters are examined. In Python, `print_line('*', 10)` is the "call" — there is no CALL keyword.
 
-## 4.3 Functions
+## 4.3 Functions (Python: functions with return)
 
 A function performs a task and **returns one value**, so it is used inside expressions — never with __CALL__:
 
+**Pseudocode:**
 ```
-FUNCTION Max(Value1 : INTEGER, Value2 : INTEGER) RETURNS INTEGER
+FUNCTION MaxOf(Value1 : INTEGER, Value2 : INTEGER) RETURNS INTEGER
     IF Value1 > Value2
         THEN
             RETURN Value1
@@ -416,18 +640,27 @@ FUNCTION Max(Value1 : INTEGER, Value2 : INTEGER) RETURNS INTEGER
     ENDIF
 ENDFUNCTION
 
-OUTPUT "The winner is ", Max(Score1, Score2)
+OUTPUT "The winner is ", MaxOf(Score1, Score2)
 ```
+**Python:**
+```
+def max_of(value1, value2):
+    if value1 > value2:
+        return value1
+    else:
+        return value2
 
-The definition states the return type (__RETURNS INTEGER__) and __RETURN__ sends the value back to the point of call.
+print("The winner is", max_of(score1, score2))
+```
+The pseudocode definition states the return type (__RETURNS INTEGER__); in Python the returned value's type follows from what __RETURN__ sends back. A Python function without `return` comes back as `None` — a common bug (section 7).
 
 ## 4.4 Local and global variables
 
-A variable declared **inside** a procedure or function is **local** — it exists only there, and shadows any global of the same name. A variable declared at the top of the program is **global** — visible everywhere. Parameters behave like locals.
+A variable declared **inside** a procedure/function is **local** — it exists only there, and shadows any global of the same name. Python behaves the same way: assigning to a name inside a function creates a **local**, unless you say `global` (best avoided — return values instead).
 
-Q:(3) Write a procedure __PrintLine__ with parameters __Symbol : CHAR__ and __Times : INTEGER__ that outputs a single line consisting of __Times__ copies of __Symbol__. Then call it to print 10 stars.
+Q:(3) Write a procedure __PrintLine__ with parameters __Symbol : CHAR__ and __Times : INTEGER__ that outputs a single line consisting of __Times__ copies of __Symbol__. Then call it to print 10 stars. Provide the Python version too.
 
-A:
+A: **Pseudocode:**
 ```
 PROCEDURE PrintLine(Symbol : CHAR, Times : INTEGER)
     DECLARE I : INTEGER
@@ -441,11 +674,21 @@ ENDPROCEDURE
 
 CALL PrintLine('*', 10)
 ```
-Mark points: correct procedure header with both typed parameters (1); loop from 1 to __Times__ building the string (1); a single OUTPUT of the built line and a correct __CALL__ (1).
+**Python:**
+```
+def print_line(symbol, times):
+    line_text = ""
+    for i in range(1, times + 1):
+        line_text = line_text + symbol
+    print(line_text)
 
-Q:(4) Write a function __IsEven(Number : INTEGER) RETURNS BOOLEAN__ that returns TRUE when __Number__ is even. Then use it in a program that inputs 10 integers and outputs how many of them are even.
+print_line('*', 10)
+```
+Mark points: correct header with both parameters (1); loop building the string (1); single output of the built line and a correct call (1).
 
-A:
+Q:(4) Write a function __IsEven(Number : INTEGER) RETURNS BOOLEAN__ that returns TRUE when __Number__ is even. Then use it in a program that inputs 10 integers and outputs how many are even. Do this in pseudocode **and** Python.
+
+A: **Pseudocode:**
 ```
 FUNCTION IsEven(Number : INTEGER) RETURNS BOOLEAN
     RETURN MOD(Number, 2) = 0
@@ -464,9 +707,21 @@ FOR I ← 1 TO 10
 NEXT I
 OUTPUT Count
 ```
-Mark points: function header with __RETURNS BOOLEAN__ (1); __MOD(Number, 2) = 0__ test (1); loop taking 10 inputs (1); counting and output (1). A number is even exactly when the remainder on division by 2 is zero.
+**Python:**
+```
+def is_even(number):
+    return number % 2 == 0
 
-Q:(3) This program uses a function. State exactly what it outputs, and show your working.
+count = 0
+for i in range(1, 11):
+    value = int(input("Number: "))
+    if is_even(value):
+        count = count + 1
+print(count)
+```
+Mark points: function header with return (1); remainder test __MOD(Number, 2) = 0__ / `number % 2 == 0` (1); loop taking 10 inputs (1); counting and output (1).
+
+Q:(3) This program uses a function. State exactly what it outputs, show your working, and give the Python version.
 ```
 FUNCTION Square(X : INTEGER) RETURNS INTEGER
     RETURN X * X
@@ -478,9 +733,17 @@ OUTPUT Square(N) + Square(N + 1)
 ```
 
 A: __25__. Working: __Square(3)__ = 3 × 3 = 9; __Square(4)__ = 4 × 4 = 16; 9 + 16 = 25.
-Mark points: 9 (1); 16 (1); 25 (1). Function calls are expressions — the arguments are evaluated, the returned values replace the calls, then the addition happens.
+**Python version:**
+```
+def square(x):
+    return x * x
 
-Q:(2) What does this program output? Explain why.
+n = 3
+print(square(n) + square(n + 1))
+```
+Mark points: 9 (1); 16 (1); 25 (1). Function calls are expressions — arguments are evaluated, returned values replace the calls, then the addition happens.
+
+Q:(2) What does this program output? Explain why. Then show the Python equivalent and its output.
 ```
 DECLARE Total : INTEGER
 Total ← 5
@@ -492,7 +755,17 @@ CALL AddUp
 OUTPUT Total
 ```
 
-A: It outputs __5__. The __Total__ declared inside the procedure is a **local** variable that shadows the global one; changing it to 10 leaves the global __Total__ (5) untouched.
+A: It outputs __5__. The __Total__ declared inside the procedure is a **local** variable shadowing the global one; changing it to 10 leaves the global __Total__ untouched.
+**Python equivalent:**
+```
+total = 5
+
+def add_up():
+    total = 10      # a new LOCAL variable
+
+add_up()
+print(total)        # prints 5
+```
 Mark points: correct output (1); explanation in terms of local vs global variables (1).
 
 # 5. File handling
@@ -503,20 +776,30 @@ Variables and arrays vanish when the program ends. A **file** on backing storage
 
 ## 5.2 The four file operations
 
+**Pseudocode:**
 ```
 OPENFILE "Marks.txt" FOR READ      // or FOR WRITE
 READFILE "Marks.txt", Mark
 WRITEFILE "Marks.txt", Mark
 CLOSEFILE "Marks.txt"
 ```
+**Python:**
+```
+f = open("Marks.txt", "r")     # "r" = read  ("FOR READ")
+mark = int(f.readline())       # READFILE one line
+f.write(str(mark) + "\n")      # WRITEFILE one item/line
+f.close()                      # CLOSEFILE
+```
+("w" = write, like __FOR WRITE__.)
 
 - Open a file in **one mode at a time**.
-- __FOR READ__ reads existing data; __FOR WRITE__ creates a new file and **destroys anything the file already contained**.
-- __READFILE__ / __WRITEFILE__ move one item (or one line of text) at a time, into/out of a variable.
-- Always __CLOSEFILE__ when finished.
+- __FOR READ__ reads existing data; __FOR WRITE__ (Python __"w"__) creates a new file and **destroys anything the file already contained**.
+- __READFILE__ / __WRITEFILE__ (or `readline()` / `write()`) move one item at a time into/out of a variable.
+- Always __CLOSEFILE__ / `f.close()` when finished.
 
 ## 5.3 Typical pattern: process a file of values
 
+**Pseudocode:**
 ```
 OPENFILE "Scores.txt" FOR READ
 Total ← 0
@@ -527,44 +810,7 @@ NEXT I
 CLOSEFILE "Scores.txt"
 OUTPUT "Average is ", Total / 10
 ```
-
-N: The syllabus does not define an "end of file" test, so exam questions say how many items the file holds, or end the data with a sentinel value such as −1. Check the question for which pattern to use.
-
-Q:(5) The text file "Scores.txt" contains exactly 10 integer exam marks, one per line. Write pseudocode to output the average (mean) of these marks.
-
-A:
-```
-OPENFILE "Scores.txt" FOR READ
-Total ← 0
-FOR I ← 1 TO 10
-    READFILE "Scores.txt", Mark
-    Total ← Total + Mark
-NEXT I
-CLOSEFILE "Scores.txt"
-OUTPUT "Average is ", Total / 10
-```
-Mark points: __OPENFILE ... FOR READ__ (1); loop 10 times (1); __READFILE__ into a variable and accumulate (1); divide by 10 and output (1); __CLOSEFILE__ (1).
-
-Q:(2) State what happens to the existing contents of "Notes.txt" when this statement runs, and why.
-```
-OPENFILE "Notes.txt" FOR WRITE
-```
-
-A: The existing contents are **erased/lost** — opening __FOR WRITE__ creates a new empty file (it does not append). Anything previously stored in "Notes.txt" is overwritten.
-Mark points: data is lost/overwritten (1); because __WRITE__ mode creates a new file (does not add to existing data) (1).
-
-Q:(3) A student wants to copy the contents of "Old.txt" into "New.txt". Their code opens "Old.txt" and then writes to it with __WRITEFILE__. Explain what is wrong and give the corrected opening lines.
-
-A: A file opened __FOR READ__ cannot be written to with __WRITEFILE__; also, writing must go to the **destination** file. "Old.txt" must be opened __FOR READ__ and "New.txt" __FOR WRITE__ (two files open at once, one per mode):
-```
-OPENFILE "Old.txt" FOR READ
-OPENFILE "New.txt" FOR WRITE
-```
-Mark points: mode mismatch — cannot __WRITEFILE__ to a file opened for reading (2); correct separate opens (1).
-
-Q:(2) Write the Python equivalent of the pseudocode in Question 1 (read 10 marks from "Scores.txt" and print their average).
-
-A:
+**Python:**
 ```
 total = 0
 f = open("Scores.txt", "r")
@@ -572,26 +818,99 @@ for i in range(10):
     mark = int(f.readline())
     total = total + mark
 f.close()
-print(total / 10)
+print("Average is", total / 10)
 ```
-Mark points: opening and reading inside a loop of 10 (1); closing the file and printing the average (1). Accept `lines = f.readlines()` then a loop, or `map(int, ...)`, provided exactly 10 values are used.
+
+N: The syllabus does not define an "end of file" test, so exam questions say how many items the file holds, or end the data with a sentinel value such as −1. Check the question for which pattern to use.
+
+Q:(5) The text file "Scores.txt" contains exactly 10 integer exam marks, one per line. Write an algorithm to output the average (mean) of these marks, in pseudocode **and** Python.
+
+A: **Pseudocode:**
+```
+OPENFILE "Scores.txt" FOR READ
+Total ← 0
+FOR I ← 1 TO 10
+    READFILE "Scores.txt", Mark
+    Total ← Total + Mark
+NEXT I
+CLOSEFILE "Scores.txt"
+OUTPUT "Average is ", Total / 10
+```
+**Python:**
+```
+total = 0
+f = open("Scores.txt", "r")
+for i in range(10):
+    mark = int(f.readline())
+    total = total + mark
+f.close()
+print("Average is", total / 10)
+```
+Mark points: open for reading (1); loop 10 times (1); read into a variable and accumulate (1); divide by 10 and output (1); close the file (1).
+
+Q:(2) State what happens to the existing contents of "Notes.txt" when this statement runs, and why. What is the Python equivalent?
+```
+OPENFILE "Notes.txt" FOR WRITE
+```
+
+A: The existing contents are **erased/lost** — opening __FOR WRITE__ creates a new empty file (it does not append). The Python equivalent is `f = open("Notes.txt", "w")`, which likewise truncates the file.
+Mark points: data is lost/overwritten (1); because __WRITE__ mode creates a new file rather than adding to existing data (1).
+
+Q:(3) A student wants to copy the contents of "Old.txt" into "New.txt". Their code opens "Old.txt" and then writes to it with __WRITEFILE__. Explain what is wrong and give the corrected opening lines in both languages.
+
+A: A file opened __FOR READ__ cannot be written to; also, writing must go to the **destination** file. "Old.txt" must be opened for reading and "New.txt" for writing (two files open at once, one per mode):
+**Pseudocode:**
+```
+OPENFILE "Old.txt" FOR READ
+OPENFILE "New.txt" FOR WRITE
+```
+**Python:**
+```
+f_old = open("Old.txt", "r")
+f_new = open("New.txt", "w")
+```
+Mark points: mode mismatch — cannot write to a file opened for reading (2); correct separate opens (1).
+
+Q:(4) Write a program that copies a single line of text from "FileA.txt" to "FileB.txt", in pseudocode **and** Python.
+
+A: **Pseudocode:**
+```
+DECLARE LineOfText : STRING
+OPENFILE "FileA.txt" FOR READ
+OPENFILE "FileB.txt" FOR WRITE
+READFILE "FileA.txt", LineOfText
+WRITEFILE "FileB.txt", LineOfText
+CLOSEFILE "FileA.txt"
+CLOSEFILE "FileB.txt"
+```
+**Python:**
+```
+f_a = open("FileA.txt", "r")
+f_b = open("FileB.txt", "w")
+line_of_text = f_a.readline()
+f_b.write(line_of_text)
+f_a.close()
+f_b.close()
+```
+Mark points: both files opened in correct modes (1); read one line (1); write one line (1); both closed (1).
 
 # 6. Standard algorithms, trace tables and debugging
 
 ## 6.1 The seven standard methods
 
-The syllabus limits "standard methods of solution" to exactly these — you must be able to **write**, **trace** and **apply** each one:
+The syllabus limits "standard methods of solution" to exactly these — you must be able to **write**, **trace** and **apply** each one in both languages:
 
 - **Linear search** — find a value in an array
 - **Bubble sort** — sort an array into order
-- **Totalling** — add up values (Section 1)
-- **Counting** — count values matching a condition (Section 1)
+- **Totalling** — add up values (section 1)
+- **Counting** — count values matching a condition (section 1)
 - **Finding the maximum** — largest value
 - **Finding the minimum** — smallest value
 - **Finding the average** — total ÷ count
 
-Maximum (and similarly minimum):
+Maximum (minimum works the same with __<__ / `<`):
 
+**Pseudocode:**
 ```
 Max ← A[1]
 FOR I ← 2 TO 12
@@ -601,11 +920,19 @@ FOR I ← 2 TO 12
     ENDIF
 NEXT I
 ```
+**Python:**
+```
+max_value = a[0]
+for i in range(1, 12):
+    if a[i] > max_value:
+        max_value = a[i]
+```
 
 ## 6.2 Linear search
 
 Walk through the array comparing each element to the search key; stop when found:
 
+**Pseudocode:**
 ```
 Found ← FALSE
 Position ← 0
@@ -625,11 +952,28 @@ IF Found = TRUE
         OUTPUT "Not found"
 ENDIF
 ```
+**Python (positions 0-based):**
+```
+found = False
+position = 0
+i = 0
+while found == False and i < 4:
+    if a[i] == search_key:
+        found = True
+        position = i
+    i = i + 1
+if found == True:
+    print("Found at position", position)
+else:
+    print("Not found")
+```
+Note the index bases: pseudocode position 1..4 with __<= 4__; Python index 0..3 with __< 4__.
 
 ## 6.3 Bubble sort
 
-Repeatedly sweep through the array, swapping neighbouring pairs that are out of order. Each sweep "bubbles" the next largest value to its correct place:
+Repeatedly sweep through the array, swapping neighbouring pairs that are out of order. Each sweep "bubbles" the next largest value to its place:
 
+**Pseudocode:**
 ```
 FOR Outer ← 1 TO N - 1
     FOR Inner ← 1 TO N - Outer
@@ -641,6 +985,15 @@ FOR Outer ← 1 TO N - 1
         ENDIF
     NEXT Inner
 NEXT Outer
+```
+**Python:**
+```
+for outer in range(0, n - 1):
+    for inner in range(0, n - 1 - outer):
+        if a[inner] > a[inner + 1]:
+            temp = a[inner]
+            a[inner] = a[inner + 1]
+            a[inner + 1] = temp
 ```
 
 Worked trace sorting 5, 3, 4 (ascending):
@@ -661,15 +1014,12 @@ A trace table documents a dry-run of an algorithm. Give **one column per variabl
 - Write down the initial values row first.
 - Show the row **after** each iteration's changes.
 - If asked for outputs, add an OUTPUT column and write each output when it happens.
-- Keep units/types consistent (e.g. don't put "TRUE" in a number column).
+- Keep types consistent (don't put "TRUE" in a number column).
+- A trace table works identically for the pseudocode and Python versions of a program — the logic is the same.
 
-## 6.5 Common logic errors to spot in error-finding questions
+## 6.5 Debugging — quick recap
 
-- **Missing increment** → infinite loop (the loop counter never changes).
-- **Wrong comparison** → __<__ instead of __<=__ (off-by-one: one value too few).
-- **Uninitialised accumulator/counter** → garbage starting total.
-- **Array index out of range** → reading __A[N + 1]__ in a bubble sort whose inner loop goes to __N__.
-- **Wrong operator** → __=__ used for assignment (should be __←__), words used instead of operator symbols.
+Section 7 lists the common syntax and logic errors in detail with corrections. For error-finding questions, remember the big five: missing increment (infinite loop), wrong comparison (off-by-one), uninitialised accumulator, array index out of range, wrong operator (__=__ where __←__ is needed, or words instead of symbols).
 
 Q:(4) The array __A__ holds 7, 2, 9, 4 in positions 1 to 4 and __SearchKey__ is 9. Complete a trace table for the linear search below (columns __I__, __A[I]__, __Found__, __Position__) and state the output.
 ```
@@ -694,7 +1044,7 @@ T:
 | 1 | 1 | 7 | FALSE | 0 |
 | 2 | 2 | 2 | FALSE | 0 |
 | 3 | 3 | 9 | TRUE | 3 |
-Output: __3__. The loop stops once __Found__ becomes TRUE (search key 9 is at position 3), so iteration 4 never runs.
+Output: __3__ (the Python twin prints 2 — its positions are 0-based!). The loop stops once __Found__ becomes TRUE, so iteration 4 never runs.
 Mark points: three correct iterations (3); correct output 3 (1).
 
 Q:(5) Trace one complete bubble sort of the array __5, 3, 4__ (ascending order). Show the array after every comparison and swap, and say how you know the sort is finished.
@@ -706,12 +1056,12 @@ T:
 | 1 | 5 vs 4 | swap | 3, 4, 5 |
 | 2 | 3 vs 4 | no swap | 3, 4, 5 |
 | 2 | 4 vs 5 | no swap | 3, 4, 5 |
-The sort is finished because pass 2 performs no swaps at all — every pair is already in order. Final array: __3, 4, 5__.
+The sort is finished because pass 2 performs no swaps at all — every pair is already in order. Final array: __3, 4, 5__. The pseudocode of section 6.3 and its Python twin produce this identical trace.
 Mark points: first swap correct (2); second swap correct (1); pass 2 with no swaps (1); final array / reasoning (1).
 
-Q:(5) Write pseudocode for an algorithm that inputs 12 integers and outputs the **largest** and the **smallest** of them.
+Q:(5) Write an algorithm that inputs 12 integers and outputs the **largest** and the **smallest** of them, in pseudocode **and** Python.
 
-A:
+A: **Pseudocode:**
 ```
 INPUT Value
 Largest ← Value
@@ -730,9 +1080,23 @@ NEXT I
 OUTPUT "Largest is ", Largest
 OUTPUT "Smallest is ", Smallest
 ```
-Mark points: initialising both with the first value (1); loop covering the remaining 11 values (1); update largest when bigger (1); update smallest when smaller (1); both outputs (1). Accept any clear alternative (e.g. an array filled first).
+**Python:**
+```
+value = int(input("Number: "))
+largest = value
+smallest = value
+for i in range(2, 13):
+    value = int(input("Number: "))
+    if value > largest:
+        largest = value
+    if value < smallest:
+        smallest = value
+print("Largest is", largest)
+print("Smallest is", smallest)
+```
+Mark points: initialising both with the first value (1); loop covering the remaining 11 values (1); update largest (1); update smallest (1); both outputs (1).
 
-Q:(3) This bubble sort should sort __A[1]__ to __A[N]__, but it sometimes crashes. Identify the error and write the corrected inner loop line.
+Q:(3) This bubble sort should sort __A[1]__ to __A[N]__, but it sometimes crashes. Identify the error and write the corrected inner loop line — then show the same bug in Python form.
 ```
 FOR Outer ← 1 TO N - 1
     FOR Inner ← 1 TO N
@@ -750,10 +1114,166 @@ A: When __Inner = N__ the code reads __A[N + 1]__, which is **outside the array*
 ```
     FOR Inner ← 1 TO N - Outer
 ```
-(__TO N - 1__ is also acceptable.)
+(__TO N - 1__ is also acceptable.) The same bug in Python:
+```
+for inner in range(0, n):          # WRONG - reads a[n] on the last pass
+    if a[inner] > a[inner + 1]:    # IndexError when inner == n - 1 ... a[n]
+```
+Fixed: `for inner in range(0, n - 1 - outer):`.
 Mark points: identifying the out-of-range read of __A[N + 1]__ (2); correcting the loop bound (1).
 
 Q:(2) Explain why programmers use dry-runs and trace tables before running a program.
 
-A: They verify the **logic** of an algorithm step by step without executing it — variable values and outputs can be checked at each stage, which reveals errors (wrong conditions, uninitialised variables, bad arithmetic) early, before coding or when no computer is available.
-Mark points: checking logic / finding errors before running (1); detail about tracking values at each step (1). Any two sensible benefits score the marks.
+A: They verify the **logic** of an algorithm step by step without executing it — variable values and outputs can be checked at each stage, which reveals errors (wrong conditions, uninitialised variables, bad arithmetic) early, before coding or when no computer is available. The same dry-run works for pseudocode and Python, because the logic — not the syntax — is what is being checked.
+Mark points: checking logic / finding errors before running (1); detail about tracking values at each step (1).
+
+# 7. Common errors in pseudocode and Python
+
+Most lost marks are not clever mistakes — they are the same dozen errors appearing again and again. Learn this section as a checklist.
+
+## 7.1 Same idea, different syntax
+
+T:
+| Idea | Pseudocode | Python |
+| assign | X ← X + 1 | x = x + 1 |
+| compare equal | IF X = 5 | if x == 5: |
+| not equal | IF X <> 5 | if x != 5: |
+| integer division | DIV(10, 3) gives 3 | 10 // 3 gives 3 |
+| remainder | MOD(10, 3) gives 1 | 10 % 3 gives 1 |
+| power | X ^ 2 | x ** 2 |
+| first element | A[1] (usually) | a[0] |
+| loop 1 to N inclusive | FOR I ← 1 TO N | for i in range(1, N + 1): |
+| repeat until true | REPEAT ... UNTIL c | while True: ... if c: break |
+
+## 7.2 Pseudocode errors
+
+**1. Assigning with = instead of ←**
+```
+Total = Total + 1          // WRONG: this compares
+Total ← Total + 1          // RIGHT: this assigns
+```
+
+**2. Words instead of operator symbols**
+```
+IF X is greater than 5     // WRONG
+IF X > 5                   // RIGHT
+```
+
+**3. Missing terminators.** Every construct closes: __ENDIF__, __ENDWHILE__, __NEXT I__, __ENDCASE__, __ENDPROCEDURE__, __ENDFUNCTION__. Count them in pairs.
+
+**4. REPEAT ... UNTIL polarity.** The loop stops when the condition is **TRUE**:
+```
+REPEAT
+    INPUT Password
+UNTIL Password <> "Secret"     // WRONG: stops when password is NOT "Secret"
+```
+```
+REPEAT
+    INPUT Password
+UNTIL Password = "Secret"      // RIGHT: stops when password IS "Secret"
+```
+
+**5. Uninitialised accumulator.** __Total ← Total + Value__ needs __Total ← 0__ before the loop, or the first total is garbage.
+
+**6. Missing increment → infinite loop.** FOR/NEXT increments for you; in a WHILE loop you must write __I ← I + 1__ yourself.
+
+**7. Array bounds.** For __ARRAY[1:30]__ the first element is __A[1]__ and the last is __A[30]__ — a loop from 0, or to 31, reads outside the array.
+
+## 7.3 Python errors
+
+**1. = is assignment, == is comparison**
+```
+if score = 100:            # WRONG: assigns (and is a syntax error here)
+if score == 100:           # RIGHT
+```
+
+**2. Colons and indentation.** Every `def`, `if`, `else`, `while`, `for` line ends with __:__ . A nested IF sits **inside** the else block, indented further:
+```
+if score >= 80:                # WRONG shape for nested choice
+print("A")
+else:
+print("B")                 # WRONG: not indented
+```
+```
+if score >= 80:                # RIGHT
+    print("A")
+else:
+    if score >= 60:
+        print("B")
+    else:
+        print("C")
+```
+
+**3. range is exclusive at the end.** `range(1, N)` gives 1 to N−1. To include N: `range(1, N + 1)`.
+
+**4. input() returns text.** `value = input("Age: ")` then `value + 1` fails. Use `value = int(input("Age: "))`.
+
+**5. Text + number in print.** `print("Total: " + total)` is a TypeError. Use `print("Total:", total)` or `print("Total: " + str(total))`.
+
+**6. Lists are 0-based.** `a[0]` is the first element and `a[len(a) - 1]` the last; habitually writing `a[i]` for i = 1..n reads one past the end (IndexError).
+
+**7. while True without break.** A REPEAT translation must contain its `if condition: break` or it loops forever.
+
+**8. A function without return.** Python returns `None` silently — forgetting `return` in a function that should return a value produces wrong results far down the line.
+
+## 7.4 Logic errors that appear in both languages
+
+- **Off-by-one conditions:** __<__ instead of __<=__ (or `<=` with a wrong end value) prints/counts one item too few — see section 1.
+- **Wrong update direction:** in a smallest-value search, writing __IF Value > Smallest__ finds the biggest instead.
+- **Totalling into the wrong variable:** __Count ← Count + Value__ (should be __Total ← Total + Value__) is silent — the program runs, the answer is wrong.
+- **Wrong loop variable in a nested loop:** using __Row__ where __Column__ belongs (e.g. __Grid[Row, Row]__).
+- **Case-sensitive comparison:** input "secret" fails against __= "Secret"__ — decide whether the question wants case-insensitive matching (__UCASE__ / `.upper()`).
+
+Q:(4) The Python program below is meant to total the three scores 50, 70, 90 and print the total. It crashes. Identify the **two** errors and write the corrected program.
+```
+scores = [50, 70, 90]
+total = 0
+for i in range(1, 4):
+    total = total + scores[i]
+print("Total: " + total)
+```
+
+A: **Error 1 — 0-based index out of range:** `range(1, 4)` visits 1, 2, 3 but valid indexes are 0, 1, 2, so `scores[3]` raises IndexError. Fix: `range(0, 3)` (or `range(len(scores))`).
+**Error 2 — text plus number:** `"Total: " + total` tries to join text to an int (TypeError). Fix: `print("Total:", total)`.
+```
+scores = [50, 70, 90]
+total = 0
+for i in range(0, 3):
+    total = total + scores[i]
+print("Total:", total)
+```
+Mark points: each error identified (2 — one per error); each fix shown (2).
+
+Q:(3) This pseudocode is supposed to keep asking until the user enters a valid mark between 0 and 100 inclusive. It does the opposite. Identify the error and fix it.
+```
+REPEAT
+    INPUT Mark
+UNTIL Mark < 0 OR Mark > 100
+```
+
+A: __UNTIL__ stops when the condition is **TRUE**, so this loop stops when the mark is **invalid** — and keeps asking while it is valid. The condition must describe the state you want to stop on:
+```
+REPEAT
+    INPUT Mark
+UNTIL Mark >= 0 AND Mark <= 100
+```
+Mark points: explaining the UNTIL polarity (1); corrected condition with both bounds and __AND__ (1); correct final code (1). This is the pseudocode twin of the Python "while True / if: break" trap.
+
+Q:(3) This pseudocode should output the sum 1 + 2 + 3 + 4 + 5 (= 15). Identify the **two** errors and write the corrected code.
+```
+FOR I ← 1 TO 4
+    Total ← Total + I
+NEXT I
+OUTPUT Total
+```
+
+A: **Error 1 — uninitialised accumulator:** __Total__ is never set to 0, so the starting value is undefined.
+**Error 2 — off-by-one bound:** __TO 4__ stops at 4; the question asks for 1 to 5.
+```
+Total ← 0
+FOR I ← 1 TO 5
+    Total ← Total + I
+NEXT I
+OUTPUT Total
+```
+Mark points: spotting the missing initialisation (1); spotting the wrong upper bound (1); corrected code outputting 15 (1).

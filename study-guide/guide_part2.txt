@@ -1,6 +1,6 @@
-# 7. Program development, testing and data checking
+# 8. Program development, testing and data checking
 
-## 7.1 The program development life cycle (PDLC)
+## 8.1 The program development life cycle (PDLC)
 
 Four stages — know what happens in **each** and which tasks belong where:
 
@@ -11,7 +11,7 @@ T:
 | Coding | Write the program code; test iteratively as you go |
 | Testing | Run the finished code against test data; find and fix remaining errors |
 
-## 7.2 Validation — is the data reasonable?
+## 8.2 Validation — is the data reasonable?
 
 Validation checks run **automatically on input** to reject impossible or suspicious values before processing. The six check types in the syllabus:
 
@@ -19,17 +19,31 @@ Validation checks run **automatically on input** to reject impossible or suspici
 - **Length check** — does a value have the right number of characters? (e.g. 6-character username)
 - **Type check** — is it the right kind of data? (e.g. a number where a number is expected)
 - **Presence check** — has anything been entered at all?
-- **Format check** — does it match the expected pattern? (e.g. letters only, or digits in the right places)
+- **Format check** — does it match the expected pattern? (e.g. letters only)
 - **Check digit** — an extra digit calculated from the others (e.g. barcodes, ISBNs); recalculated on receipt and compared to detect mistyping
 
-## 7.3 Verification — was it entered accurately?
+A range check in code, both languages:
+```
+// pseudocode
+IF Age < 13 OR Age > 19
+    THEN
+        OUTPUT "Invalid age"
+ENDIF
+```
+```
+# Python
+if age < 13 or age > 19:
+    print("Invalid age")
+```
+
+## 8.3 Verification — was it entered accurately?
 
 Verification checks that data was **transferred/recorded correctly** (as opposed to being reasonable):
 
 - **Visual check** — a person re-reads the entered data against the source.
 - **Double entry check** — the same data is entered twice and the two entries compared; a mismatch is flagged.
 
-## 7.4 Test data — normal, abnormal, extreme, boundary
+## 8.4 Test data — normal, abnormal, extreme, boundary
 
 Testing needs data chosen to prove the program handles every case:
 
@@ -38,12 +52,12 @@ Testing needs data chosen to prove the program handles every case:
 - **Extreme** — the **largest and smallest acceptable** values (13 and 19).
 - **Boundary** — the extreme values **plus** the corresponding values that must be rejected: just outside on each side (12 and 20).
 
-N: Boundary data is where programs most often fail (off-by-one errors — __<__ instead of __<=__). A good test plan always includes boundary values for every range.
+N: Boundary data is where programs most often fail (off-by-one errors — __<__ instead of __<=__, or `range` stopping one step early — see section 7). A good test plan always includes boundary values for every range.
 
 Q:(3) A registration program requires a username that is **exactly 6 characters long** and contains **letters only**. Identify the validation checks needed and say what each one checks.
 
 A: - **Presence check** — that a username has been entered at all.
-- **Length check** — that the username is exactly 6 characters.
+- **Length check** — that the username is exactly 6 characters (__LENGTH(Username) = 6__ / `len(username) == 6`).
 - **Format check** — that it contains letters only (no digits or symbols).
 Mark points: one per check, with a correct description of what it checks.
 
@@ -66,9 +80,9 @@ Q:(2) Define **validation** and **verification**, making the difference between 
 A: **Validation** checks that input data is **reasonable/acceptable** (within range, right type/format) before it is processed. **Verification** checks that data has been **transferred or entered accurately** (e.g. by visual check or double entry). One checks sense; the other checks accuracy of entry.
 Mark points: validation definition (1); verification definition (1).
 
-# 8. Flowcharts
+# 9. Flowcharts
 
-## 8.1 The six standard symbols
+## 9.1 The six standard symbols
 
 You must draw flowcharts with **exactly** these shapes — examiners penalise substitutes:
 
@@ -81,7 +95,7 @@ T:
 | Subroutine | Rectangle with double side bars | Call to a separate, non-linked flowchart |
 | Flow line | Arrow | Control passing between shapes |
 
-## 8.2 Loop patterns
+## 9.2 Loop patterns
 
 There is no "loop box" — loops are drawn with a **decision** and a **flow line looping back** to an earlier point. A WHILE-style loop tests before the body; a REPEAT-style loop tests after (its decision usually sits at the bottom).
 
@@ -108,10 +122,27 @@ Worked example — the password loop as an ASCII sketch (real answers are drawn 
           |__________________+  (loops back to INPUT)
 ```
 
-## 8.3 Converting between pseudocode and flowcharts
+The same loop in code — pseudocode and Python as equals:
+```
+// pseudocode
+REPEAT
+    INPUT Password
+UNTIL Password = "Secret"
+OUTPUT "Granted"
+```
+```
+# Python
+while True:
+    password = input("Password: ")
+    if password == "Secret":
+        break
+print("Granted")
+```
 
-- One box per action; keep assignments (__←__) inside **Process** boxes.
-- Conditions (__=__, __<__, __>__, ...) go in **Decision** diamonds; label both exits (Yes/No or True/False).
+## 9.3 Converting between pseudocode and flowcharts
+
+- One box per action; keep assignments (__←__ / `=`) inside **Process** boxes.
+- Conditions go in **Decision** diamonds; label both exits (Yes/No or True/False).
 - Initialise counters/accumulators **before** the loop in their own Process box.
 - A FOR loop becomes: initialiser → decision (counter within range?) → body → increment → flow line back to the decision.
 
@@ -137,7 +168,7 @@ OUTPUT Total
 
 A: - **Terminator**: "Start".
 - **Process** box: "Total ← 0", "I ← 1".
-- **Decision** diamond: "I <= 3?" with a **Yes** exit going down and a **No** exit going to the right/down towards the output.
+- **Decision** diamond: "I <= 3?" with a **Yes** exit going down and a **No** exit going towards the output.
 - Yes path: **Input/Output** "INPUT Value" → **Process** "Total ← Total + Value" → **Process** "I ← I + 1" → flow line back up to the **Decision**.
 - No path: **Input/Output** "OUTPUT Total" → **Terminator** "Stop".
 Mark points: initialisation in a process box (1); decision with __I <= 3__ and a loop-back line (1); body boxes in the correct order (1); No path with output and stop (1).
@@ -147,9 +178,9 @@ Q:(2) Sam drew a flowchart in which the decision was drawn as a parallelogram, a
 A: (a) A decision must be drawn as a **diamond** — a parallelogram is the Input/Output shape. (b) Both exit lines of a decision must be labelled (Yes/No or True/False) so the reader knows which condition leads where.
 Mark points: one per error with the correction.
 
-# 9. Boolean logic and logic gates
+# 10. Boolean logic and logic gates
 
-## 9.1 The seven gates
+## 10.1 The seven gates
 
 Logic values: TRUE = 1, FALSE = 0. The syllabus examines **NOT, AND, OR, NAND, NOR, XOR (also called EOR)**. NOT has a **single** input; all others have exactly **two**. Circuits are limited to **three inputs and one output**, drawn **exactly as the statement describes — never simplified**.
 
@@ -165,7 +196,7 @@ T:
 - **NOR** = NOT OR: output 1 only when both inputs are 0.
 - **XOR** outputs 1 only when the inputs are **different**.
 
-## 9.2 The three conversions
+## 10.2 The three conversions
 
 You must convert freely in every direction between **problem statement**, **logic expression**, **truth table** and **logic circuit**. Worked example: *A greenhouse fan (X) runs when the temperature is high (A) AND the window is open (B), OR whenever the manual switch (C) is on.*
 
@@ -183,6 +214,24 @@ T:
 | 1 | 0 | 1 | 0 | 1 |
 | 1 | 1 | 0 | 1 | 1 |
 | 1 | 1 | 1 | 1 | 1 |
+
+The same logic expressed in code — equals in both languages:
+```
+// pseudocode
+INPUT A
+INPUT B
+INPUT C
+X ← (A AND B) OR C
+OUTPUT X
+```
+```
+# Python (0 is False, 1 is True)
+a = int(input("A: "))
+b = int(input("B: "))
+c = int(input("C: "))
+x = (a and b) or c
+print(int(x))
+```
 
 N: Write expressions with explicit parentheses: __(A AND NOT B) OR C__. Pseudocode has no operator precedence rule for mixed logical operators, and examiners want the logic to be unambiguous. A 3-input truth table always has **8 rows** (000 to 111).
 
@@ -233,15 +282,15 @@ Q:(2) Compare the behaviour of the OR and XOR gates.
 A: **OR** outputs 1 when **one or both** inputs are 1 (so 1 OR 1 = 1). **XOR** outputs 1 only when the inputs are **different** (so 1 XOR 1 = 0). They differ only in the case where both inputs are 1.
 Mark points: OR behaviour (1); XOR behaviour including the both-1 case (1).
 
-# 10. Databases
+# 11. Databases
 
-## 10.1 Key concepts
+## 11.1 Key concepts
 
 - A **table** holds **records** (rows) and **fields** (columns).
 - Field data types: **text/alphanumeric**, **character**, **Boolean**, **integer**, **real**, **date/time**.
 - A **primary key** is a field (or combination) that **uniquely identifies each record** — no duplicates, no empty values, never changes (e.g. __StudentID__).
 
-## 10.2 SQL — the examinable keywords
+## 11.2 SQL — the examinable keywords
 
 SELECT · FROM · WHERE · ORDER BY ASCENDING · ORDER BY DESCENDING · SUM · COUNT · AND · OR
 
@@ -270,6 +319,27 @@ SELECT SUM(Mark) FROM Students WHERE Class = "9B"
 ```
 Output: 137 (72 + 65).
 
+## 11.3 The same query without SQL
+
+A query is just selection and processing — the same logic in pseudocode and Python (using parallel arrays of the table's columns):
+
+**Pseudocode:**
+```
+FOR I ← 1 TO 5
+    IF Class[I] = "9A" AND Mark[I] >= 80
+        THEN
+            OUTPUT Name[I]
+    ENDIF
+NEXT I
+```
+**Python:**
+```
+for i in range(0, 5):
+    if class_name[i] == "9A" and mark[i] >= 80:
+        print(name[i])
+```
+(Ordering by mark first would use the bubble sort of section 6.3.)
+
 Q:(3) Write an SQL query to list the __Name__ of every student in class "9A" with a __Mark__ of 80 or more, showing the highest mark first.
 
 A:
@@ -291,62 +361,51 @@ Q:(2) A school table has the fields __Name__, __DateOfBirth__, __Class__ and __S
 A: __StudentID__ — it is unique to every student (unlike Name or Class), always has a value, and never changes.
 Mark points: correct field (1); justification in terms of uniqueness/stability (1).
 
-# 11. Python for the scenario question
+# 12. The scenario question — pseudocode and Python as equals
 
-## 11.1 The rules
+## 12.1 The rules
 
-The **last question of Paper 2** is a 15-mark unseen scenario (~30 minutes of your exam). You may answer in **pseudocode, Python, Visual Basic or Java** — every other question on the paper must be pseudocode. If you choose Python, the logic still earns the marks (good structure, correctness, completeness), not Python-specific cleverness. Write comments and meaningful variable names — the marking rewards **maintainable** code.
+The **last question of Paper 2** is a 15-mark unseen scenario (~30 minutes of your exam). You may answer in **pseudocode, Python, Visual Basic or Java** — every other question on the paper must be pseudocode. Whichever language you choose, the **logic** earns the marks (structure, correctness, completeness), not language-specific cleverness. Write comments and meaningful variable names — the marking rewards **maintainable** code.
 
-## 11.2 Pseudocode → Python cheat table
-
-T:
-| Cambridge pseudocode | Python |
-| DECLARE X : INTEGER | x = 0 (just name it; add a comment with the type) |
-| CONSTANT Rate ← 5 | RATE = 5 |
-| X ← X + 1 | x = x + 1 |
-| INPUT X | x = int(input("...")) |
-| OUTPUT A, "is", B | print(A, "is", B) |
-| DIV(A, B) | A // B |
-| MOD(A, B) | A % B |
-| A ^ B | A ** B |
-| X <> Y | X != Y |
-| IF c THEN ... ELSE ... ENDIF | if c: ... else: ... |
-| CASE OF X ... ENDCASE | if / elif / else |
-| FOR I ← 1 TO N ... NEXT I | for i in range(1, N + 1): |
-| FOR I ← A TO B STEP S | for i in range(A, B + 1, S): |
-| WHILE c DO ... ENDWHILE | while c: |
-| REPEAT ... UNTIL c | while True: ... if c: break |
-| ARRAY[1:N] OF INTEGER | a = [0] * N (or just use append) |
-| Grid[2, 3] | grid[2][3] |
-| LENGTH(s) | len(s) |
-| SUBSTRING(s, p, l) | s[p-1 : p-1+l] |
-| UCASE(s) / LCASE(s) | s.upper() / s.lower() |
-| ROUND(x, n) / RANDOM() | round(x, n) / random.random() |
-| PROCEDURE P(x : INTEGER) ... CALL P(5) | def p(x): ... p(5) |
-| FUNCTION F(x) RETURNS INTEGER ... | def f(x): return ... |
-| OPENFILE "F" FOR READ | f = open("F", "r") |
-| READFILE "F", v | v = f.readline() |
-| WRITEFILE "F", v | f.write(str(v)) |
-| CLOSEFILE "F" | f.close() |
-
-## 11.3 Strategy for a strong 15-mark answer
+## 12.2 Strategy for a strong 15-mark answer
 
 - **Read the scenario twice.** Underline the inputs, outputs, processing and any validation rules — this is the analysis stage and it prevents losing easy marks.
-- **Plan on the question paper**: name your variables/arrays, sketch the main loop, decide whether to use a function or two (e.g. a __validate__ function, a __find_highest__ function).
+- **Plan on the question paper**: name your variables/arrays, sketch the main loop, decide whether to use a function or two (e.g. a validation function, a __FindHighest__ function).
 - **Cover every requirement**: each bullet of the question maps to marks. A missing feature is missing marks.
 - **Validate inputs** where the scenario implies limits, and handle the "not found"/empty case where relevant.
 - **Use meaningful identifiers and comments** (the syllabus explicitly assesses maintainability).
 - **Sanity-check with test data** mentally (a normal value, a boundary value) before moving on.
 
-## 11.4 Worked mini-scenario
+## 12.3 Worked mini-scenario
 
 *Ask the user for 5 daily temperatures. Store them. Output the average and the number of days above 25 degrees.*
 
+**Pseudocode:**
+```
+DECLARE Temps : ARRAY[1:5] OF REAL
+FOR Day ← 1 TO 5
+    INPUT Temps[Day]
+NEXT Day
+Total ← 0
+FOR I ← 1 TO 5
+    Total ← Total + Temps[I]
+NEXT I
+Average ← Total / 5
+OUTPUT "Average temperature: ", Average
+HotDays ← 0
+FOR I ← 1 TO 5
+    IF Temps[I] > 25
+        THEN
+            HotDays ← HotDays + 1
+    ENDIF
+NEXT I
+OUTPUT "Days above 25 degrees: ", HotDays
+```
+**Python:**
 ```
 # Store 5 daily temperatures and report the average and hot days
 temps = []
-
-for day in range(1, 6):                      # 5 days
+for day in range(1, 6):
     value = float(input("Temperature for day " + str(day) + ": "))
     temps.append(value)
 
@@ -363,7 +422,7 @@ for value in temps:
 print("Days above 25 degrees:", hot_days)
 ```
 
-Q:(10) **Scenario practice.** The school canteen records how many meals were sold each day for 10 days. Write a complete Python program that:
+Q:(10) **Scenario practice.** The school canteen records how many meals were sold each day for 10 days. Write a complete program that:
 
 - asks the user to enter the number of meals sold for each of the 10 days, rejecting and re-asking on any **negative** value;
 - stores the 10 values;
@@ -371,7 +430,55 @@ Q:(10) **Scenario practice.** The school canteen records how many meals were sol
 - outputs the **highest** number of meals sold;
 - outputs **how many days** were above the average.
 
-A: Model answer (other clear structures are equally acceptable):
+Write your solution in **either** pseudocode or Python (in the exam, either is allowed for this question only). Model answers for both are below.
+
+A: **Model answer — pseudocode:**
+```
+FUNCTION GetMeals(Day : INTEGER) RETURNS INTEGER
+    REPEAT
+        OUTPUT "Meals sold on day ", Day
+        INPUT Value
+        IF Value < 0
+            THEN
+                OUTPUT "Invalid: the number must not be negative"
+        ENDIF
+    UNTIL Value >= 0
+    RETURN Value
+ENDFUNCTION
+
+DECLARE Meals : ARRAY[1:10] OF INTEGER
+DECLARE Day : INTEGER
+FOR Day ← 1 TO 10
+    Meals[Day] ← GetMeals(Day)
+NEXT Day
+
+Total ← 0
+FOR Day ← 1 TO 10
+    Total ← Total + Meals[Day]
+NEXT Day
+Average ← Total / 10
+OUTPUT "Total meals sold: ", Total
+OUTPUT "Average per day: ", Average
+
+Highest ← Meals[1]
+FOR Day ← 2 TO 10
+    IF Meals[Day] > Highest
+        THEN
+            Highest ← Meals[Day]
+    ENDIF
+NEXT Day
+OUTPUT "Highest day: ", Highest
+
+Above ← 0
+FOR Day ← 1 TO 10
+    IF Meals[Day] > Average
+        THEN
+            Above ← Above + 1
+    ENDIF
+NEXT Day
+OUTPUT "Days above average: ", Above
+```
+**Model answer — Python:**
 ```
 def get_meals(day):
     """Ask for one day's sales, rejecting negative values."""
@@ -412,9 +519,43 @@ for v in meals:
         above = above + 1
 print("Days above average:", above)
 ```
-Mark points (10 total): loop asking for exactly 10 values and storing them (2); validation rejecting negative values and re-asking (2); correct total (1); correct average (1); correct highest value (2); correct count of days above average (2). Also credit comments and meaningful names where evident. A single monolithic script earns the same marks if the logic is complete and correct.
+Mark points (10 total, identical for either language): loop asking for exactly 10 values and storing them (2); validation rejecting negative values and re-asking (2); correct total (1); correct average (1); correct highest value (2); correct count of days above average (2). Also credit comments and meaningful names where evident. A monolithic script earns the same marks if the logic is complete and correct.
 
-# Appendix — command words
+# Appendix A — pseudocode ↔ Python reference
+
+T:
+| Pseudocode | Python |
+| DECLARE X : INTEGER | x = 0 (just name it; comment the type) |
+| CONSTANT Rate ← 5 | RATE = 5 |
+| X ← expr | x = expr |
+| INPUT X | x = int(input("...")) |
+| OUTPUT A, "is", B | print(A, "is", B) |
+| IF c THEN ... ELSE ... ENDIF | if c: ... else: ... |
+| nested IF inside ELSE | nested if inside else (one indent deeper) |
+| CASE OF X ... ENDCASE | nested if statements |
+| FOR I ← 1 TO N ... NEXT I | for i in range(1, N + 1): |
+| FOR I ← A TO B STEP S | for i in range(A, B + 1, S): |
+| WHILE c DO ... ENDWHILE | while c: |
+| REPEAT ... UNTIL c | while True: ... if c: break |
+| DIV(A, B) | A // B |
+| MOD(A, B) | A % B |
+| A ^ B | A ** B |
+| X <> Y | X != Y |
+| ARRAY[1:N] OF INTEGER | a = [0] * N (indexes 0 to N-1) |
+| Grid[2, 3] | grid[1][2] |
+| LENGTH(s) | len(s) |
+| SUBSTRING(s, p, l) | s[p-1 : p-1+l] |
+| UCASE(s) / LCASE(s) | s.upper() / s.lower() |
+| ROUND(x, n) / RANDOM() | round(x, n) / random.random() |
+| PROCEDURE P(x : INTEGER) ... CALL P(5) | def p(x): ... p(5) |
+| FUNCTION F(x) RETURNS INTEGER ... | def f(x): return ... |
+| // comment | # comment |
+| OPENFILE "F" FOR READ / WRITE | open("F", "r") / open("F", "w") |
+| READFILE "F", v | v = f.readline() |
+| WRITEFILE "F", v | f.write(str(v)) |
+| CLOSEFILE "F" | f.close() |
+
+# Appendix B — command words
 
 Knowing what each command word demands is free marks:
 
