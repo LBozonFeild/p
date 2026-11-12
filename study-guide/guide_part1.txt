@@ -2,17 +2,177 @@
 
 This guide covers everything **after** the basics — you already know variables, input/output, operators and decisions, so those are skipped. What remains is the heart of Paper 2: iteration, strings, arrays, subroutines, files, standard algorithms, common errors, testing, flowcharts, Boolean logic, databases and the scenario question.
 
-**Pseudocode and Python are treated as equals here.** Every concept is explained with a pseudocode example **and** a Python example, and every coding question has a model answer in **both** languages. Study both — the logic is identical, only the syntax differs.
+**Section 1 is different from the rest:** it is a fundamentals tour that explains **how and why** every idea works, using analogies (lockers, pizza, bouncers, two-key safes...). If a later section ever feels confusing, go back to section 1 — the analogies are the mental models everything else is built on.
+
+**Pseudocode and Python are treated as equals here.** Every concept is explained with a pseudocode example **and** a Python example, and every coding question has a model answer in **both** languages. Section 13 collects Python's shortcuts (elif, += and friends) — learn the fundamentals first, then use the shortcuts to write cleaner code.
 
 Each section gives you explanations and worked examples, then practice questions with model answers and mark allocations. Try the questions **before** looking at the answers.
 
 N: **The golden exam rule.** In the real Paper 2 exam, every coding answer must be written in **Cambridge pseudocode** — answers in Python (or any real language) score zero, **except** in the final 15-mark scenario question, where pseudocode **or** Python/Visual Basic/Java is allowed. Syntax is never marked: the **logic** is what earns marks. But operators must be precise: write __x > y__, never "x is greater than y".
 
-In this guide, selection is built from **nested IF statements** throughout (in both languages), matching the syllabus requirement for nested selection and iteration. Where multi-way choice is needed, the Python examples nest IF statements inside ELSE blocks.
+In this guide, selection is built from **nested IF statements** throughout (in both languages), matching the syllabus requirement for nested selection and iteration. Where multi-way choice is needed, the Python examples nest IF statements inside ELSE blocks. Section 13 then shows Python's __elif__ shortcut for exactly that pattern.
 
-# 1. Iteration and nested constructs
+# 1. The fundamentals — how it all works
 
-## 1.1 The three loop types
+This section builds the mental models. Each idea gets an analogy you can keep for life, then the same idea in pseudocode and Python. Read it slowly — everything after this is just these models wearing different clothes.
+
+## 1.1 Variables are labelled boxes
+
+A **variable** is a labelled box on a shelf. The label (the name) never changes; the contents can change any time. __Total ← Total + 1__ means: *look inside the box called Total, add 1 to what's there, put the result back in the same box*. The old value is gone — the box holds exactly one thing at a time.
+
+A **constant** is a box with the lid glued shut: __CONSTANT HourlyRate ← 6.50__ is set once and never changes. Constants make code read like English and make updates easy (change the value in one place).
+
+```
+// pseudocode                          # Python
+Total ← 0                              total = 0
+Total ← Total + 5                      total = total + 5
+CONSTANT Rate ← 6.50                   RATE = 6.50
+```
+
+Think of the name as the label and __←__ / __=__ as "put this into the box".
+
+## 1.2 The three kinds of loop — laps, pizza and tea
+
+Repetition happens in real life in three flavours. Match the flavour to the loop:
+
+**FOR = counting laps on a running track.** You decide **before** you start: "10 laps". A lap counter ticks up each time. Because you know the number in advance, there is no question to ask mid-run — you simply go round until the counter passes 10. If you plan 10 laps and realise the track is closed (start > end), you run **zero** laps.
+
+```
+// pseudocode                          # Python
+FOR I ← 1 TO 10                        for i in range(1, 11):
+    OUTPUT I                               print(i)
+NEXT I
+```
+
+**WHILE = eating pizza slices while any remain.** Before **every** slice you ask: "is there pizza left?" If the box is empty when you first look, you eat **nothing** — the check happens first. That's why a WHILE body can run zero times.
+
+```
+// pseudocode                          # Python
+WHILE Slices > 0 DO                    while slices > 0:
+    EatSlice                               eat_slice()
+    Slices ← Slices - 1                    slices = slices - 1
+ENDWHILE
+```
+
+**REPEAT ... UNTIL = stirring tea until the sugar dissolves.** You **always stir at least once** (you can't know before stirring), then check **after** each stir: "dissolved yet?" The loop stops when the answer becomes **TRUE**. Careful: UNTIL asks the **opposite** question to Python's `while` — it stops when the condition *is* true.
+
+```
+// pseudocode                          # Python
+REPEAT                                 while True:
+    Stir                                   stir()
+UNTIL SugarDissolved = TRUE                if sugar_dissolved == True:
+                                               break
+```
+
+An **infinite loop** is a hamster wheel: the exit condition never becomes true (often because the counter is never incremented), so the program runs forever. Off-by-one errors are **fence-post errors**: a fence with 10 panels needs 11 posts — counting from 1 to 10 inclusive is **10** numbers, and __TO 10__ / `range(1, 11)` gives exactly those.
+
+## 1.3 Accumulators and counters — the till and the clicker
+
+An **accumulator** is the running total on a till receipt. Each new item is scanned and added to the total already showing. The receipt starts at 0.00 before the first item — that's why __Total ← 0__ must come first.
+
+A **counter** is the door clicker a bouncer holds: click once per person entering. In code, __Count ← Count + 1__ is one click.
+
+```
+// pseudocode                          # Python
+Total ← 0                              total = 0
+FOR I ← 1 TO 5                         for i in range(1, 6):
+    Total ← Total + Price[I]               total = total + price[i - 1]
+NEXT I
+```
+
+Mixing the two up is a classic error (section 8): adding prices into the counter, or clicking the counter once per pound.
+
+## 1.4 Arrays are corridors of lockers
+
+An **array** is a corridor of identical lockers with numbers on them. Every locker holds the same kind of thing, and the number (**index**) is how you find a locker fast. Cambridge corridors are usually numbered **1 to N**; Python's are **0 to N−1**. Reading __A[7]__ is walking straight to locker 7. Asking for __A[31]__ in a corridor of 30 is asking for a locker that doesn't exist — **index out of range** (section 8).
+
+```
+// pseudocode                          # Python
+DECLARE Marks : ARRAY[1:30] OF INTEGER marks = [0] * 30      # lockers 0..29
+Marks[7] ← 95                          marks[6] = 95
+OUTPUT Marks[7]                        print(marks[6])
+```
+
+A **2D array** is a cinema: rows of seats. __Grid[2, 3]__ means *row 2, seat 3*. Nested loops walk the whole cinema: every seat in every row.
+
+## 1.5 Strings are necklaces of beads
+
+A **string** is a necklace of character beads. __LENGTH(s)__ counts the beads. __SUBSTRING(s, 3, 2)__ snips a run of 2 beads starting at bead 3. __UCASE__ / __LCASE__ repaint the beads upper or lower case. Processing a string character by character is sliding a magnifying glass along the necklace one bead at a time — a loop from 1 to __LENGTH(s)__. In Python the beads are numbered from 0, so bead "3" in pseudocode is index `2` in Python (section 3).
+
+## 1.6 Procedures and functions — recipe cards and machines
+
+A **procedure** is a recipe card on the wall: __CALL__ means *let's do the recipe now*. It performs a job (print a line, swap two values) and hands **nothing** back.
+
+A **function** is a kitchen machine (a blender): you put ingredients in (**parameters**), press the button (the call), and it hands you back a smoothie (**return value**). Because a function hands something back, its call sits **inside an expression** — the smoothie replaces the call: __OUTPUT SumSquare(10, 20)__.
+
+**Parameters** are the ingredients you pass in; the recipe/machine works with whatever it is given. **Local vs global** is notepad vs whiteboard: a variable made inside a subroutine is written in a **personal notepad** that is thrown away afterwards — the **classroom whiteboard** (global) is unchanged. **Decomposition** is Lego: build the castle from small sub-assemblies you can test one at a time.
+
+## 1.7 Files are the filing cabinet
+
+Variables and arrays live on the "desk" and are swept into the bin when the program ends. A **file** is the school's filing cabinet — data survives between program runs. __OPENFILE ... FOR READ__ is taking a folder out to photocopy pages; __FOR WRITE__ is putting in a **brand-new empty folder** — whatever was in the old one is gone (that's why writing overwrites). Always __CLOSEFILE__: shut the drawer so the next program finds everything tidy.
+
+## 1.8 Search and sort — the register and the fizzy drink
+
+**Linear search** is running your finger down a class register, name by name, until you find "Rahim" — or reach the bottom ("not found").
+
+**Bubble sort** is a line of kids sorting themselves by height: you walk down the line comparing **neighbours**, swapping any pair out of order. Each full walk "bubbles" the tallest remaining kid to the end of the line — like bubbles rising in a fizzy drink. When a full walk makes **no** swaps, everyone is in order.
+
+## 1.9 Trace tables are the flight recorder
+
+A **trace table** is an aircraft's flight recorder: at every step of the algorithm, it records the value of every variable and every output. Nothing is hidden — when the algorithm crashes (gives a wrong answer), the table shows exactly which step went wrong. That's how you dry-run an algorithm on paper.
+
+## 1.10 Validation is the bouncer; verification is the proofreader
+
+**Validation** is a bouncer at a club door: is this ID **plausible**? Right format, sensible age, actually present? It checks the data makes **sense** — range, length, type, presence, format, check digit.
+
+**Verification** is a proofreader comparing your typed copy against the original: is it **exactly what was written**? It checks **accuracy of entry** — visual check, double entry.
+
+A **check digit** is the final digit of a credit card or ISBN: it is calculated from the other digits, so mistyping one digit breaks the pattern and the error is caught.
+
+## 1.11 Logic gates are tiny decision machines
+
+A **logic gate** is a tiny machine with one or two input levers and a light bulb. You know the levers; the bulb lights or not — that's all a gate does.
+
+- **AND** = a two-key safe: **both** keys must turn before it opens.
+- **OR** = a house with two doors: **either** door lets you in.
+- **NOT** = opposite day: whatever you hear, the gate says the opposite.
+- **NAND / NOR** = the safe/doors with the wiring reversed: the bulb shows the **opposite** of AND / OR.
+- **XOR** = "exactly one of you, not both": the rule you'd use when sharing a pizza with someone who must take one slice and leave the rest.
+
+A **truth table** is simply a list of **every possible combination** of levers — like listing every outcome of flipping two coins (4 rows) or three coins (8 rows). Circuits are just machines bolted together, and the syllabus says you draw them **exactly as described** — no clever shortcuts.
+
+## 1.12 A database is a spreadsheet with rules
+
+A **database table** is a spreadsheet: each **record** is one row (one student), each **field** is a column (Name, Mark). A **primary key** is the candidate number on an exam script — unique to every student, never reused, never blank. **SQL** is a polite way of asking the spreadsheet questions: *who is in 9A with a mark over 80, highest first?*
+
+Q:(3) State which loop — FOR, WHILE or REPEAT ... UNTIL — best fits each situation, and justify your choice in one sentence each:
+(a) input exactly 20 exam marks;
+(b) keep asking for a password until the user types "Open123";
+(c) keep offering pizza slices while the box is not empty.
+
+A: (a) **FOR** — the number of repetitions (20) is known before the loop starts, like planning 20 laps.
+(b) **REPEAT ... UNTIL** — the body must run at least once (you must ask at least one time) and it stops when the password becomes correct (condition TRUE).
+(c) **WHILE** — the check happens **before** each slice; if the box starts empty, no slices are eaten.
+Mark points: one per situation with a fitting justification.
+
+Q:(2) Using the lockers analogy, explain what __A[7]__ does when __A__ is declared __ARRAY[1:10] OF INTEGER__, and explain what goes wrong with __A[11]__.
+
+A: __A[7]__ walks straight to the 7th locker in the corridor and reads (or replaces) its contents. __A[11]__ asks for an 11th locker, but the corridor only has lockers 1 to 10 — the locker does not exist, so this is an **index out of range** error.
+Mark points: correct locker reading for __A[7]__ (1); out-of-range explanation for __A[11]__ (1).
+
+Q:(2) For each action, say whether it is **validation** or **verification**, and name the bouncer/proofreader link:
+(a) the program checks a typed email address contains an "@" symbol;
+(b) the user types the password twice and the program compares the two versions.
+
+A: (a) **Validation** (bouncer) — a format check that the data looks like an email.
+(b) **Verification** (proofreader) — double entry check that the password was typed accurately.
+Mark points: one per action with the correct name of the check.
+
+# 2. Iteration and nested constructs
+
+(The analogies for these are in section 1.2 and 1.3: FOR = laps, WHILE = pizza, REPEAT = tea, accumulators = the till.)
+
+## 2.1 The three loop types
 
 Cambridge pseudocode has exactly three loop forms. Choosing the right one (and knowing when each runs **zero**, **one**, or **many** times) is a favourite exam target. Each is shown in both languages.
 
@@ -45,7 +205,7 @@ for i in range(1, 10, 2):           # 1, 3, 5, 7, 9
 for countdown in range(10, 0, -1):  # 10, 9, ..., 1
 ```
 
-**WHILE — pre-condition.** Use when you repeat **while** something stays true and it might never be true at all. The test happens **before** each run, so the body can run zero times.
+**WHILE — pre-condition.** The pizza loop: the test happens **before** each run, so the body can run zero times.
 
 **Pseudocode:**
 ```
@@ -59,7 +219,7 @@ while password != "Secret":
     password = input("Password: ")
 ```
 
-**REPEAT ... UNTIL — post-condition.** Use when the body must run **at least once**. The test happens **after** each run, and the loop **stops when the condition becomes TRUE** — the opposite of Python's `while`, a classic trap (see section 7).
+**REPEAT ... UNTIL — post-condition.** The tea loop: the body runs **at least once**, and the loop **stops when the condition becomes TRUE** — the opposite of Python's `while`, a classic trap (see section 8).
 
 **Pseudocode:**
 ```
@@ -75,9 +235,9 @@ while True:
         break                   # stops when TRUE
 ```
 
-## 1.2 Totalling and counting
+## 2.2 Totalling and counting
 
-Two patterns you will use constantly — the same logic in both languages:
+Two patterns you will use constantly — the same logic in both languages (the till and the clicker, section 1.3):
 
 **Totalling (pseudocode):**
 ```
@@ -117,11 +277,11 @@ for i in range(1, 6):
         count = count + 1
 ```
 
-Always initialise the accumulator (__Total ← 0__ / `total = 0`) or counter **before** the loop.
+Always initialise the accumulator (__Total ← 0__ / `total = 0`) or counter **before** the loop — start the till receipt at zero.
 
-## 1.3 Nested IF and nested loops
+## 2.3 Nested IF and nested loops
 
-The syllabus requires **nested selection and iteration** (never more than **three levels** of nesting). In this guide multi-way choices are built by **nesting IF inside ELSE** — in both languages.
+The syllabus requires **nested selection and iteration** (never more than **three levels** of nesting). In this guide multi-way choices are built by **nesting IF inside ELSE** — in both languages. Think of nested IF as a **triage of questions**: the second question is only asked if the first one sent you down a particular path.
 
 **Nested IF — grade bands.** One condition checked inside the other's ELSE branch:
 
@@ -152,9 +312,9 @@ else:
 
 - Each nested IF has its **own** __ENDIF__ in pseudocode — count them carefully in error-finding questions.
 - In Python the nested IF simply lives **inside the else block** and is indented one level further. Indentation is the structure.
-- Three-way choice = one level of nesting; keep it at three levels or fewer.
+- Three-way choice = one level of nesting; keep it at three levels or fewer. (Section 13 shows Python's __elif__ shortcut for this exact pattern.)
 
-**Nested loops — one total per row:**
+**Nested loops — one total per row** (the cinema: every seat in every row):
 
 **Pseudocode:**
 ```
@@ -176,7 +336,7 @@ for row in range(1, 4):
 ```
 (If the Python grid is 0-based, subtract 1 from the indices — or build the grid 1-based style and keep the indices.)
 
-## 1.4 Loops at a glance
+## 2.4 Loops at a glance
 
 T:
 | Task | Pseudocode | Python |
@@ -185,9 +345,9 @@ T:
 | While condition is true | WHILE c DO ... ENDWHILE | while c: |
 | Repeat at least once, until c is true | REPEAT ... UNTIL c | while True: ... if c: break |
 
-## 1.5 Worked example — trace of a REPEAT loop
+## 2.5 Worked example — trace of a REPEAT loop
 
-Trace tables track every variable and output at each step. For inputs 5, −3, 2, 0:
+Trace tables (the flight recorder, section 1.9) track every variable and output at each step. For inputs 5, −3, 2, 0:
 
 **Pseudocode:**
 ```
@@ -229,7 +389,7 @@ The loop stops after the input 0 (condition __Value = 0__ now TRUE). Final outpu
 
 Q:(3) Write an algorithm that calculates the sum of the squares of the numbers 1 to 10 (that is 1 + 4 + 9 + ... + 100) and outputs the total. Write it in pseudocode **and** Python. The value 385 must not appear as a literal in either version.
 
-A: The total is built up with an accumulator using the square of the loop counter.
+A: The total is built up with an accumulator (the till, section 1.3) using the square of the loop counter.
 **Pseudocode:**
 ```
 Total ← 0
@@ -270,7 +430,7 @@ T:
 | 2 | -3 | 5 | 1 |
 | 3 | 2 | 7 | 2 |
 | 4 | 0 | 7 | 2 |
-Output: __7, 2__. The Python twin (see section 1.5) produces exactly the same table and output.
+Output: __7, 2__. The Python twin (see section 2.5) produces exactly the same table and output.
 Mark points: __Total__ column correct after each input (2); __Count__ column correct (1); correct final output (1). Note that −3 is ignored (not > 0) and that 0 is processed before the loop stops, because __UNTIL__ is tested after the body.
 
 Q:(3) Rewrite this FOR loop using a WHILE loop, in pseudocode **and** Python. It must produce exactly the same output.
@@ -295,7 +455,7 @@ while i <= 10:
     print(i * 2)
     i = i + 1
 ```
-Mark points: initialise the counter (1); correct condition __<= 10__ / `<= 10` (1); increment and correct WHILE structure (1). Common mistake: using __<__ instead of __<=__, which prints only 8 values (2 to 16).
+Mark points: initialise the counter (1); correct condition __<= 10__ (1); increment and correct WHILE structure (1). Common mistake: using __<__ instead of __<=__, which prints only 8 values (2 to 16) — the fence-post error of section 1.2.
 
 Q:(2) This loop is supposed to output the numbers 1 to 5, but it only outputs 1 to 4. Identify the error and write the corrected line. The same bug exists in the Python version — fix it there too.
 ```
@@ -306,7 +466,7 @@ WHILE I < 5 DO
 ENDWHILE
 ```
 
-A: The condition __I < 5__ should be __I <= 5__ (in Python: `while i <= 5:`). With __<__ the loop stops when __I__ reaches 5, so 5 is never printed.
+A: The condition __I < 5__ should be __I <= 5__ (in Python: `while i <= 5:`). With __<__ the loop stops when __I__ reaches 5, so 5 is never printed — one fence post too few.
 Mark points: identifying the wrong condition (1); correcting it in both languages (1).
 
 Q:(2) Translate this pseudocode into Python. Then state the output of both versions.
@@ -327,9 +487,11 @@ print(total)
 ```
 Both versions print __25__ (1 + 3 + 5 + 7 + 9). Mark points: correct loop with __range(1, 10, 2)__ (1); accumulation and output (1). Remember `range` stops before its end value: to include 9 the end must be 10.
 
-# 2. String handling
+# 3. String handling
 
-## 2.1 The four string operations
+(Strings are bead necklaces — section 1.5. LENGTH counts the beads; SUBSTRING snips a run; UCASE/LCASE repaint them.)
+
+## 3.1 The four string operations
 
 Strings are examined heavily because they combine naturally with loops and selection.
 
@@ -351,9 +513,9 @@ T:
 
 Strings join with __+__ in both languages: __FullName ← FirstName + " " + LastName__ / `full_name = first_name + " " + last_name`. Cambridge normally uses 1-based positions — questions will make this clear.
 
-## 2.2 Processing strings character by character
+## 3.2 Processing strings character by character
 
-The standard pattern is a loop from 1 to __LENGTH(s)__, extracting one character at a time — count the vowels in __S__:
+The standard pattern is a loop over the necklace, bead by bead — count the vowels in __S__:
 
 **Pseudocode:**
 ```
@@ -376,8 +538,9 @@ for i in range(0, len(s)):
         count = count + 1
 print(count)
 ```
+(Python shortcut: the whole IF collapses to `if ch in "AEIOU":` — section 13.)
 
-Reversing a string — loop downwards:
+Reversing a string — loop downwards along the necklace:
 
 **Pseudocode:**
 ```
@@ -393,7 +556,7 @@ reversed_text = ""
 for i in range(len(s) - 1, -1, -1):
     reversed_text = reversed_text + s[i]
 print(reversed_text)
-# or simply: print(s[::-1])
+# shortcut: print(s[::-1])
 ```
 
 Other common string tasks: counting occurrences of a character, checking a password against a rule, extracting parts of a formatted code.
@@ -468,11 +631,13 @@ OUTPUT LENGTH(S), SUBSTRING(S, 3, 3), UCASE(S)
 ```
 Mark points: __8__ and __mpu__ (1) — remember Python slices are 0-based, so `s[2:5]` is characters at indexes 2, 3, 4; __COMPUTER__ and a correct pseudocode translation (1).
 
-# 3. Arrays
+# 4. Arrays
 
-## 3.1 One-dimensional arrays
+(Lockers and cinema seats — section 1.4. Cambridge lockers are numbered 1 to N; Python's 0 to N−1.)
 
-An array is a fixed-length block of elements of the **same** data type, accessed by index. Cambridge arrays usually start at 1; Python lists always start at 0.
+## 4.1 One-dimensional arrays
+
+An array is a fixed-length corridor of elements of the **same** data type, accessed by index.
 
 **Pseudocode:**
 ```
@@ -494,7 +659,7 @@ In Python a list can also grow: `marks.append(value)`.
 
 Arrays are nearly always used **with loops** — to fill them, print them, search them, or sort them.
 
-## 3.2 Two-dimensional arrays
+## 4.2 Two-dimensional arrays
 
 **Pseudocode:**
 ```
@@ -508,7 +673,7 @@ grid = [[0] * 4 for row in range(3)]   # 3 rows of 4
 grid[1][2] = 7                          # row 2, column 3 in 1-based terms
 print(grid[1][2])
 ```
-Typical operations need **nested loops**: every row × every column.
+Typical operations need **nested loops**: every seat in every row.
 
 Q:(3) Write an algorithm to declare an array capable of holding 20 integer exam marks, then fill it with values typed by the user. Write it in pseudocode **and** Python.
 
@@ -589,15 +754,17 @@ for i in range(1, 6):
 ```
 Mark points: correct storage (array declaration / empty list with append) (1); loop producing 1 to 5 and squaring the counter (1). Accept `squares = [i * i for i in range(1, 6)]`.
 
-# 4. Procedures, functions and modularity
+# 5. Procedures, functions and modularity
 
-## 4.1 Why split up code?
+(Recipe cards, blenders and notepads vs whiteboards — section 1.6.)
 
-Topic 7 expects you to understand **decomposition** (breaking a problem into sub-systems) and Topic 8 expects **maintainable programs**: meaningful identifiers, comments (__//__ in pseudocode, __#__ in Python), and subroutines. A program built from small procedures and functions is easier to write, test, read and reuse.
+## 5.1 Why split up code?
 
-## 4.2 Procedures (Python: functions with no return value)
+Topic 7 expects you to understand **decomposition** (the Lego principle — build from small tested sub-assemblies) and Topic 8 expects **maintainable programs**: meaningful identifiers, comments (__//__ in pseudocode, __#__ in Python), and subroutines. A program built from small procedures and functions is easier to write, test, read and reuse.
 
-A procedure performs a task and returns nothing. In pseudocode it is defined at the start of the code and called with __CALL__; in Python it is a `def` that is simply named:
+## 5.2 Procedures (Python: functions with no return value)
+
+A procedure is a recipe card: it performs a task and returns nothing. In pseudocode it is defined at the start of the code and called with __CALL__; in Python it is a `def` that is simply named:
 
 **Pseudocode:**
 ```
@@ -623,11 +790,11 @@ def print_line(symbol, times):
 
 print_line('*', 10)
 ```
-Parameters are typed in pseudocode (__Symbol : CHAR__); up to **three** parameters are examined. In Python, `print_line('*', 10)` is the "call" — there is no CALL keyword.
+Parameters are the ingredients handed to the recipe (__Symbol : CHAR__); up to **three** parameters are examined. In Python, `print_line('*', 10)` is the "call" — there is no CALL keyword.
 
-## 4.3 Functions (Python: functions with return)
+## 5.3 Functions (Python: functions with return)
 
-A function performs a task and **returns one value**, so it is used inside expressions — never with __CALL__:
+A function is the blender: it performs a task and **hands one value back**, so it is used inside expressions — never with __CALL__:
 
 **Pseudocode:**
 ```
@@ -652,11 +819,11 @@ def max_of(value1, value2):
 
 print("The winner is", max_of(score1, score2))
 ```
-The pseudocode definition states the return type (__RETURNS INTEGER__); in Python the returned value's type follows from what __RETURN__ sends back. A Python function without `return` comes back as `None` — a common bug (section 7).
+The pseudocode definition states the return type (__RETURNS INTEGER__); in Python the returned value's type follows from what __RETURN__ sends back. A Python function without `return` hands back `None` — an empty blender cup (section 8).
 
-## 4.4 Local and global variables
+## 5.4 Local and global variables
 
-A variable declared **inside** a procedure/function is **local** — it exists only there, and shadows any global of the same name. Python behaves the same way: assigning to a name inside a function creates a **local**, unless you say `global` (best avoided — return values instead).
+A variable declared **inside** a procedure/function is written in a **personal notepad** (local) — it exists only there, and shadows any global of the same name written on the **whiteboard**. Python behaves the same way: assigning to a name inside a function creates a **local**, unless you say `global` (best avoided — return values instead).
 
 Q:(3) Write a procedure __PrintLine__ with parameters __Symbol : CHAR__ and __Times : INTEGER__ that outputs a single line consisting of __Times__ copies of __Symbol__. Then call it to print 10 stars. Provide the Python version too.
 
@@ -741,7 +908,7 @@ def square(x):
 n = 3
 print(square(n) + square(n + 1))
 ```
-Mark points: 9 (1); 16 (1); 25 (1). Function calls are expressions — arguments are evaluated, returned values replace the calls, then the addition happens.
+Mark points: 9 (1); 16 (1); 25 (1). Function calls are expressions — arguments are evaluated, returned values replace the calls (the blender hands back the smoothie), then the addition happens.
 
 Q:(2) What does this program output? Explain why. Then show the Python equivalent and its output.
 ```
@@ -755,7 +922,7 @@ CALL AddUp
 OUTPUT Total
 ```
 
-A: It outputs __5__. The __Total__ declared inside the procedure is a **local** variable shadowing the global one; changing it to 10 leaves the global __Total__ untouched.
+A: It outputs __5__. The __Total__ declared inside the procedure is written in the **local notepad**, shadowing the global whiteboard variable; changing it to 10 leaves the global __Total__ untouched.
 **Python equivalent:**
 ```
 total = 5
@@ -768,13 +935,15 @@ print(total)        # prints 5
 ```
 Mark points: correct output (1); explanation in terms of local vs global variables (1).
 
-# 5. File handling
+# 6. File handling
 
-## 5.1 Why files?
+(The filing cabinet — section 1.7. Desk items are wiped when the program ends; files survive.)
 
-Variables and arrays vanish when the program ends. A **file** on backing storage keeps data between program runs — for long-term storage, large data sets, or moving data between programs.
+## 6.1 Why files?
 
-## 5.2 The four file operations
+Variables and arrays live on the "desk" and vanish when the program ends. A **file** on backing storage keeps data between program runs — for long-term storage, large data sets, or moving data between programs.
+
+## 6.2 The four file operations
 
 **Pseudocode:**
 ```
@@ -793,11 +962,11 @@ f.close()                      # CLOSEFILE
 ("w" = write, like __FOR WRITE__.)
 
 - Open a file in **one mode at a time**.
-- __FOR READ__ reads existing data; __FOR WRITE__ (Python __"w"__) creates a new file and **destroys anything the file already contained**.
+- __FOR READ__ is taking the folder out to copy pages; __FOR WRITE__ (Python __"w"__) puts in a **brand-new empty folder** — anything the file contained is destroyed.
 - __READFILE__ / __WRITEFILE__ (or `readline()` / `write()`) move one item at a time into/out of a variable.
-- Always __CLOSEFILE__ / `f.close()` when finished.
+- Always __CLOSEFILE__ / `f.close()` — shut the drawer.
 
-## 5.3 Typical pattern: process a file of values
+## 6.3 Typical pattern: process a file of values
 
 **Pseudocode:**
 ```
@@ -853,7 +1022,7 @@ Q:(2) State what happens to the existing contents of "Notes.txt" when this state
 OPENFILE "Notes.txt" FOR WRITE
 ```
 
-A: The existing contents are **erased/lost** — opening __FOR WRITE__ creates a new empty file (it does not append). The Python equivalent is `f = open("Notes.txt", "w")`, which likewise truncates the file.
+A: The existing contents are **erased/lost** — like replacing a full folder with a brand-new empty one. Opening __FOR WRITE__ does not append. The Python equivalent is `f = open("Notes.txt", "w")`, which likewise truncates the file.
 Mark points: data is lost/overwritten (1); because __WRITE__ mode creates a new file rather than adding to existing data (1).
 
 Q:(3) A student wants to copy the contents of "Old.txt" into "New.txt". Their code opens "Old.txt" and then writes to it with __WRITEFILE__. Explain what is wrong and give the corrected opening lines in both languages.
@@ -894,16 +1063,18 @@ f_b.close()
 ```
 Mark points: both files opened in correct modes (1); read one line (1); write one line (1); both closed (1).
 
-# 6. Standard algorithms, trace tables and debugging
+# 7. Standard algorithms, trace tables and debugging
 
-## 6.1 The seven standard methods
+(The register scan and the fizzy drink — section 1.8. The flight recorder — section 1.9.)
+
+## 7.1 The seven standard methods
 
 The syllabus limits "standard methods of solution" to exactly these — you must be able to **write**, **trace** and **apply** each one in both languages:
 
 - **Linear search** — find a value in an array
 - **Bubble sort** — sort an array into order
-- **Totalling** — add up values (section 1)
-- **Counting** — count values matching a condition (section 1)
+- **Totalling** — add up values (section 2)
+- **Counting** — count values matching a condition (section 2)
 - **Finding the maximum** — largest value
 - **Finding the minimum** — smallest value
 - **Finding the average** — total ÷ count
@@ -928,9 +1099,9 @@ for i in range(1, 12):
         max_value = a[i]
 ```
 
-## 6.2 Linear search
+## 7.2 Linear search
 
-Walk through the array comparing each element to the search key; stop when found:
+Run your finger down the register, comparing each name to the search key; stop when found:
 
 **Pseudocode:**
 ```
@@ -969,9 +1140,9 @@ else:
 ```
 Note the index bases: pseudocode position 1..4 with __<= 4__; Python index 0..3 with __< 4__.
 
-## 6.3 Bubble sort
+## 7.3 Bubble sort
 
-Repeatedly sweep through the array, swapping neighbouring pairs that are out of order. Each sweep "bubbles" the next largest value to its place:
+Repeatedly walk the line of kids, swapping neighbouring pairs that are out of order. Each walk floats the next tallest "bubble" to its place at the end:
 
 **Pseudocode:**
 ```
@@ -1007,9 +1178,9 @@ T:
 
 Two "no swap" comparisons in a row mean the array is sorted.
 
-## 6.4 Trace tables and dry-runs
+## 7.4 Trace tables and dry-runs
 
-A trace table documents a dry-run of an algorithm. Give **one column per variable** (plus one for outputs/prompts) and **one row per step** — usually one row per loop iteration. Exam tips:
+A trace table is the flight recorder (section 1.9). Give **one column per variable** (plus one for outputs/prompts) and **one row per step** — usually one row per loop iteration. Exam tips:
 
 - Write down the initial values row first.
 - Show the row **after** each iteration's changes.
@@ -1017,9 +1188,9 @@ A trace table documents a dry-run of an algorithm. Give **one column per variabl
 - Keep types consistent (don't put "TRUE" in a number column).
 - A trace table works identically for the pseudocode and Python versions of a program — the logic is the same.
 
-## 6.5 Debugging — quick recap
+## 7.5 Debugging — quick recap
 
-Section 7 lists the common syntax and logic errors in detail with corrections. For error-finding questions, remember the big five: missing increment (infinite loop), wrong comparison (off-by-one), uninitialised accumulator, array index out of range, wrong operator (__=__ where __←__ is needed, or words instead of symbols).
+Section 8 lists the common syntax and logic errors in detail with corrections. For error-finding questions, remember the big five: missing increment (hamster wheel), wrong comparison (fence-post error), uninitialised accumulator (till starting at garbage), array index out of range (locker that doesn't exist), wrong operator (__=__ where __←__ is needed, or words instead of symbols).
 
 Q:(4) The array __A__ holds 7, 2, 9, 4 in positions 1 to 4 and __SearchKey__ is 9. Complete a trace table for the linear search below (columns __I__, __A[I]__, __Found__, __Position__) and state the output.
 ```
@@ -1056,7 +1227,7 @@ T:
 | 1 | 5 vs 4 | swap | 3, 4, 5 |
 | 2 | 3 vs 4 | no swap | 3, 4, 5 |
 | 2 | 4 vs 5 | no swap | 3, 4, 5 |
-The sort is finished because pass 2 performs no swaps at all — every pair is already in order. Final array: __3, 4, 5__. The pseudocode of section 6.3 and its Python twin produce this identical trace.
+The sort is finished because pass 2 performs no swaps at all — every pair is already in order. Final array: __3, 4, 5__. The pseudocode of section 7.3 and its Python twin produce this identical trace.
 Mark points: first swap correct (2); second swap correct (1); pass 2 with no swaps (1); final array / reasoning (1).
 
 Q:(5) Write an algorithm that inputs 12 integers and outputs the **largest** and the **smallest** of them, in pseudocode **and** Python.
@@ -1110,7 +1281,7 @@ FOR Outer ← 1 TO N - 1
 NEXT Outer
 ```
 
-A: When __Inner = N__ the code reads __A[N + 1]__, which is **outside the array** (index out of range). The inner loop must stop one element early:
+A: When __Inner = N__ the code reads __A[N + 1]__, which is **outside the array** — asking for a locker that doesn't exist (index out of range). The inner loop must stop one element early:
 ```
     FOR Inner ← 1 TO N - Outer
 ```
@@ -1124,14 +1295,14 @@ Mark points: identifying the out-of-range read of __A[N + 1]__ (2); correcting t
 
 Q:(2) Explain why programmers use dry-runs and trace tables before running a program.
 
-A: They verify the **logic** of an algorithm step by step without executing it — variable values and outputs can be checked at each stage, which reveals errors (wrong conditions, uninitialised variables, bad arithmetic) early, before coding or when no computer is available. The same dry-run works for pseudocode and Python, because the logic — not the syntax — is what is being checked.
+A: They verify the **logic** of an algorithm step by step without executing it — the flight recorder shows every variable's value at every step, which reveals errors (wrong conditions, uninitialised variables, bad arithmetic) early, before coding or when no computer is available. The same dry-run works for pseudocode and Python, because the logic — not the syntax — is what is being checked.
 Mark points: checking logic / finding errors before running (1); detail about tracking values at each step (1).
 
-# 7. Common errors in pseudocode and Python
+# 8. Common errors in pseudocode and Python
 
 Most lost marks are not clever mistakes — they are the same dozen errors appearing again and again. Learn this section as a checklist.
 
-## 7.1 Same idea, different syntax
+## 8.1 Same idea, different syntax
 
 T:
 | Idea | Pseudocode | Python |
@@ -1145,7 +1316,7 @@ T:
 | loop 1 to N inclusive | FOR I ← 1 TO N | for i in range(1, N + 1): |
 | repeat until true | REPEAT ... UNTIL c | while True: ... if c: break |
 
-## 7.2 Pseudocode errors
+## 8.2 Pseudocode errors
 
 **1. Assigning with = instead of ←**
 ```
@@ -1161,7 +1332,7 @@ IF X > 5                   // RIGHT
 
 **3. Missing terminators.** Every construct closes: __ENDIF__, __ENDWHILE__, __NEXT I__, __ENDCASE__, __ENDPROCEDURE__, __ENDFUNCTION__. Count them in pairs.
 
-**4. REPEAT ... UNTIL polarity.** The loop stops when the condition is **TRUE**:
+**4. REPEAT ... UNTIL polarity.** The loop stops when the condition is **TRUE** — the sugar must be dissolved (section 1.2):
 ```
 REPEAT
     INPUT Password
@@ -1173,13 +1344,13 @@ REPEAT
 UNTIL Password = "Secret"      // RIGHT: stops when password IS "Secret"
 ```
 
-**5. Uninitialised accumulator.** __Total ← Total + Value__ needs __Total ← 0__ before the loop, or the first total is garbage.
+**5. Uninitialised accumulator.** __Total ← Total + Value__ needs __Total ← 0__ before the loop — the till must start at 0.00 (section 1.3).
 
-**6. Missing increment → infinite loop.** FOR/NEXT increments for you; in a WHILE loop you must write __I ← I + 1__ yourself.
+**6. Missing increment → hamster wheel.** FOR/NEXT increments for you; in a WHILE loop you must write __I ← I + 1__ yourself.
 
-**7. Array bounds.** For __ARRAY[1:30]__ the first element is __A[1]__ and the last is __A[30]__ — a loop from 0, or to 31, reads outside the array.
+**7. Array bounds.** For __ARRAY[1:30]__ the first locker is __A[1]__ and the last is __A[30]__ — a loop from 0, or to 31, asks for lockers that don't exist (section 1.4).
 
-## 7.3 Python errors
+## 8.3 Python errors
 
 **1. = is assignment, == is comparison**
 ```
@@ -1204,24 +1375,24 @@ else:
         print("C")
 ```
 
-**3. range is exclusive at the end.** `range(1, N)` gives 1 to N−1. To include N: `range(1, N + 1)`.
+**3. range is exclusive at the end.** `range(1, N)` gives 1 to N−1. To include N: `range(1, N + 1)` — the fence-post rule (section 1.2).
 
 **4. input() returns text.** `value = input("Age: ")` then `value + 1` fails. Use `value = int(input("Age: "))`.
 
-**5. Text + number in print.** `print("Total: " + total)` is a TypeError. Use `print("Total:", total)` or `print("Total: " + str(total))`.
+**5. Text + number in print.** `print("Total: " + total)` is a TypeError. Use `print("Total:", total)` or `print("Total: " + str(total))` (or an f-string — section 13).
 
-**6. Lists are 0-based.** `a[0]` is the first element and `a[len(a) - 1]` the last; habitually writing `a[i]` for i = 1..n reads one past the end (IndexError).
+**6. Lists are 0-based.** `a[0]` is the first locker and `a[len(a) - 1]` the last; habitually writing `a[i]` for i = 1..n reads one past the end (IndexError).
 
-**7. while True without break.** A REPEAT translation must contain its `if condition: break` or it loops forever.
+**7. while True without break.** A REPEAT translation must contain its `if condition: break` or the hamster never gets off the wheel.
 
-**8. A function without return.** Python returns `None` silently — forgetting `return` in a function that should return a value produces wrong results far down the line.
+**8. A function without return.** Python hands back `None` — an empty blender cup (section 1.6) — silently producing wrong results far down the line.
 
-## 7.4 Logic errors that appear in both languages
+## 8.4 Logic errors that appear in both languages
 
-- **Off-by-one conditions:** __<__ instead of __<=__ (or `<=` with a wrong end value) prints/counts one item too few — see section 1.
+- **Off-by-one conditions:** __<__ instead of __<=__ (fence-post error) prints/counts one item too few.
 - **Wrong update direction:** in a smallest-value search, writing __IF Value > Smallest__ finds the biggest instead.
-- **Totalling into the wrong variable:** __Count ← Count + Value__ (should be __Total ← Total + Value__) is silent — the program runs, the answer is wrong.
-- **Wrong loop variable in a nested loop:** using __Row__ where __Column__ belongs (e.g. __Grid[Row, Row]__).
+- **Totalling into the wrong variable:** __Count ← Count + Value__ (should be __Total ← Total + Value__) is silent — the program runs, the answer is wrong (prices scanned into the clicker, section 1.3).
+- **Wrong loop variable in a nested loop:** using __Row__ where __Column__ belongs (e.g. __Grid[Row, Row]__) — looking up the wrong seat.
 - **Case-sensitive comparison:** input "secret" fails against __= "Secret"__ — decide whether the question wants case-insensitive matching (__UCASE__ / `.upper()`).
 
 Q:(4) The Python program below is meant to total the three scores 50, 70, 90 and print the total. It crashes. Identify the **two** errors and write the corrected program.
@@ -1233,7 +1404,7 @@ for i in range(1, 4):
 print("Total: " + total)
 ```
 
-A: **Error 1 — 0-based index out of range:** `range(1, 4)` visits 1, 2, 3 but valid indexes are 0, 1, 2, so `scores[3]` raises IndexError. Fix: `range(0, 3)` (or `range(len(scores))`).
+A: **Error 1 — 0-based index out of range:** `range(1, 4)` visits 1, 2, 3 but valid indexes are 0, 1, 2, so `scores[3]` asks for a locker that doesn't exist (IndexError). Fix: `range(0, 3)` (or `range(len(scores))`).
 **Error 2 — text plus number:** `"Total: " + total` tries to join text to an int (TypeError). Fix: `print("Total:", total)`.
 ```
 scores = [50, 70, 90]
@@ -1251,7 +1422,7 @@ REPEAT
 UNTIL Mark < 0 OR Mark > 100
 ```
 
-A: __UNTIL__ stops when the condition is **TRUE**, so this loop stops when the mark is **invalid** — and keeps asking while it is valid. The condition must describe the state you want to stop on:
+A: __UNTIL__ stops when the condition is **TRUE**, so this loop stops when the mark is **invalid** — it keeps asking while the mark is valid. The condition must describe the state you want to stop on:
 ```
 REPEAT
     INPUT Mark
@@ -1267,8 +1438,8 @@ NEXT I
 OUTPUT Total
 ```
 
-A: **Error 1 — uninitialised accumulator:** __Total__ is never set to 0, so the starting value is undefined.
-**Error 2 — off-by-one bound:** __TO 4__ stops at 4; the question asks for 1 to 5.
+A: **Error 1 — uninitialised accumulator:** __Total__ is never set to 0 — the till starts at garbage.
+**Error 2 — off-by-one bound:** __TO 4__ stops at 4 (fence-post error); the question asks for 1 to 5.
 ```
 Total ← 0
 FOR I ← 1 TO 5

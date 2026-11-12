@@ -239,9 +239,10 @@ def build_story():
                             color=colors.HexColor("#8a8a8a"), spaceBefore=8, spaceAfter=14))
     story.append(Paragraph(
         "Explanations, worked examples and practice questions with full answers for everything "
-        "<b>after</b> the basics (variables, input/output and decisions). Pseudocode and Python "
-        "are treated as equals: every concept and every model answer appears in both languages.",
-        st_covermeta))
+        "<b>after</b> the basics (variables, input/output and decisions). Section 1 builds strong "
+        "fundamentals with analogies — lockers, pizza, bouncers, two-key safes — and from there "
+        "pseudocode and Python are treated as equals: every concept and every model answer appears "
+        "in both languages, with a full section on Python's shortcuts.", st_covermeta))
     story.append(Paragraph(
         "Based on the <b>Cambridge O Level Computer Science 2210</b> syllabus for 2026–2028, "
         "Paper 2: Algorithms, Programming and Logic (Topics 7–10), including the 15-mark "
