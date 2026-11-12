@@ -1,0 +1,49 @@
+14.6 BLOOD GLUCOSE CONTROL
+
+WHY BLOOD GLUCOSE IS REGULATED / THE SET POINT
+- Blood glucose concentration is kept close to a set point - the level about which it oscillates and to which it returns (on a regular oscillating graph, midway between peaks and troughs; on a graph of meals, the baseline level).
+- Glucose is always present in the blood - a graph line does not start at the origin / starts part-way up the y-axis.
+- Blood glucose is controlled by hormones, not directly by the nervous system.
+- After a meal blood glucose rises and then falls because: glucose is converted to glycogen / insulin is released; and glucose is used in respiration / for energy.
+- A diet of slowly digested starch is healthier (max 2): less variation in blood glucose concentration; the pancreas does not have to produce so much insulin; diabetes is less likely to develop.
+
+LIVER AND PANCREAS
+- Pancreas (accept islets of Langerhans): produces / releases insulin and glucagon - controls blood glucose concentration. It is an endocrine gland; it also makes amylase, protease, lipase and alkali (pancreatic juice).
+- Liver: converts glucose to glycogen and glycogen to glucose (also amino acids to glucose - never glucose to amino acids); stores glycogen. The liver does not secrete insulin.
+- Glycogen is used as a store of glucose / energy; it is insoluble, so it does not change the water potential of the cells.
+- Blood from the ileum goes first to the liver in the hepatic portal vein so that excess glucose can be converted to glycogen for storage and not excreted.
+
+INSULIN - WHEN BLOOD GLUCOSE IS TOO HIGH
+- Insulin is secreted (by the pancreas) when blood glucose is too high - e.g. after a (carbohydrate) meal; more insulin is released as blood glucose rises.
+- It is carried in the blood (plasma); to the liver / muscles.
+- It increases the uptake of glucose by cells (increased permeability of cells to glucose).
+- Glucose is converted to glycogen (increased synthesis of glycogen); in liver / muscle cells; for storage.
+- Blood glucose concentration is lowered - back to normal.
+- Insulin is broken down by the liver; its rate of secretion and its concentration in the blood both vary.
+- Too much insulin makes the blood glucose concentration low. After an insulin injection the production of glycogen increases.
+- Paragraph completion: glucose is transported in solution by the plasma; the hormone insulin is released into the blood by an endocrine gland called the pancreas; it promotes the conversion of glucose into glycogen.
+
+GLUCAGON (AND ADRENALINE) - WHEN BLOOD GLUCOSE IS TOO LOW
+- Blood glucose has decreased / is low / the body needs more sugar (e.g. exercise, missing a meal).
+- Glucagon is a hormone that increases blood glucose concentration (accept "controls blood sugar level" / "converts glycogen to glucose"; reject "decreases blood sugar").
+- Glycogen (in the liver) is broken down / hydrolysed to glucose - made soluble;
+- the glucose passes out of the liver into the blood (hepatic vein); so the hepatic vein can contain more glucose than the blood arriving at the liver.
+- The pancreas produces less insulin.
+- Adrenaline also raises blood glucose (when frightened / anxious) by stimulating the breakdown of glycogen to glucose in liver cells; the hormones released to increase blood sugar concentration are adrenaline and glucagon.
+- Liver glycogen graphs: the glycogen store rises while blood glucose is above average (glucose -> glycogen) and falls while glycogen is being converted to glucose.
+- Flow diagram: eating a meal -> blood sugar rises -> pancreas produces more insulin -> liver turns glucose to glycogen -> normal; exercise -> blood sugar goes down -> pancreas produces less insulin -> liver turns glycogen to glucose -> normal.
+
+TYPE 1 DIABETES
+- Cause: the pancreas does not produce (sufficient) insulin - damaged pancreas cells.
+- So glucose is not converted to glycogen / cells do not take up glucose.
+- Signs: increased / high blood glucose concentration.
+- Glucose in the urine (the urine gives a positive Benedict's test; accept sweet-smelling breath / urine) - the kidney cannot reabsorb all the glucose.
+- Frequent urination.
+- Tiredness / severe thirst / unexplained weight loss.
+- Blood glucose fluctuates widely / is poorly controlled; a person without diabetes shows the smallest fluctuations, at the lowest level.
+- Treatment: insulin (by injection - "injection" alone is rejected, insulin must be named).
+- Dietary control: reduced / controlled carbohydrate or sugar intake (ignore fats), because carbohydrate is digested to glucose.
+- Glucose is higher than normal in both the blood and the urine; the specific sign is glucose in the urine, since glucose is always present in blood.
+- A blood test for glucose concentration detects diabetes.
+- Insulin for treatment is made by genetically modified bacteria.
+- Graph reading: in a person with diabetes the point at which blood glucose begins to fall shows when an insulin injection was given; an injected substance that lowers blood glucose is insulin; a rise in blood glucose starting at a marked time is explained by eating sugary food; a rapid rise after an external stimulus is due to adrenaline.

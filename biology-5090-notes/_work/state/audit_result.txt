@@ -1,0 +1,22 @@
+   run 2026-11-12 16:14 UTC
+   [PASS] 1. every eligible pair points to existing question-paper and mark-scheme files - 158 pairs
+   [PASS] 2. every Paper 1 / Paper 2 question paper in the folder is either an eligible pair or a documented exclusion - 166 question papers, 158 paired, 8 excluded
+   [PASS] 3. every Paper 1 has exactly 40 questions in the tracker - 80 papers x 40
+   [PASS] 4. item sets agree (order = decisions = extracted items) - 5529 items
+   [PASS] 5. Paper 2 part marks add up to the paper total (90 marks to 2022 with both optional questions counted, 80 from 2023) - 78 papers
+   [PASS] 6. no item is left pending
+   [PASS] 7. every item carries valid codes; verified items have a requested subsection, out-of-scope items have none
+   [PASS] 8. Paper 1 keys independently re-extracted from the official key source agree with the tracker - 3200 keys compared
+   [PASS] 9. every Paper 2 part is matched to a non-empty mark-scheme section - 2329 parts
+   [PASS] 10. no verified item has an outstanding figure check
+   [PASS] 11. notes files are well formed (title, headings, dash-bullet lines only) - 1673 bullet lines in 26 subsections
+   [PASS] 12. no bullet line is duplicated inside a subsection
+   [PASS] 13. every requested subsection is backed by verified items - min 21 items (15.1)
+   [PASS] 14. notes carry no paper / question references (they belong in the tracker)
+   [PASS] 15. the five deliverable files exist and match the live state - tracker lines P1 3200, P2 2329; VERIFIED 2835; OUT-OF-SCOPE 2694; notes bullet lines 1673
+   [PASS] 16. the complete mark-scheme text of every out-of-scope Paper 2 part is in the full-read record - 1040 parts
+   [PASS] 17. every 'figure viewed' Paper 1 question on a page that the first renderer variant drew incompletely was re-inspected with the corrected renderer - 84 questions
+   [PASS] 18. every verified Paper 2 part whose marking points name or mark structures on a figure has had the figure inspected - 159 parts (2 graph-only parts exempt)
+   [PASS] 19. lexical coverage: marking points of fully in-scope Paper 2 parts whose wording is less than half represented in the notes of their own subsection stay within the residue that was reviewed by hand (62) - 3439 points checked, 60 below the threshold
+   [PASS] 20. the notes contain no heading for an unrequested section (nuclear-division block removed from 17.3)
+   RESULT: ALL CHECKS PASSED (20 checks)

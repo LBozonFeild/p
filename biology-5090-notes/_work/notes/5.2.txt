@@ -1,0 +1,74 @@
+5.2 EFFECTS OF TEMPERATURE AND pH
+
+EFFECT OF TEMPERATURE - DESCRIPTION
+- Increasing the temperature increases the rate of reaction (up to the optimum).
+- There is a maximum / best / optimum temperature - the temperature that produces the highest rate of enzyme activity (the peak of the curve), not the highest temperature at which there is any activity.
+- Above the optimum the rate slows rapidly.
+- The reaction stops / the rate falls to zero.
+- The rate is slower on both sides of the optimum; shape of the curve described (rises, peaks, falls steeply).
+- Drawing the curve for a human enzyme between 20 and 80 C: graph rises; reaches a peak between 35 and 55 C; falls to zero between 50 and 80 C. Accept: a vertical drop. Reject: an incurving drop.
+- Optimum values are read from the graph (a range is accepted, e.g. 37-39 C); most human enzymes work best at 35-40 C (body temperature); most product is released at the peak.
+- Enzymes from different organisms have different optimum temperatures (e.g. a detergent protease with an optimum of 60 C, not 37 C; enzymes of bacteria from hot springs peak at about 75-85 C); each is active only within its own range.
+
+EFFECT OF TEMPERATURE - EXPLANATION
+- Heat increases the kinetic energy / rate of movement of the molecules.
+- More (frequent, effective) collisions between enzyme and substrate (as temperature rises from 0 to 20 C the frequency of effective collisions increases; at low temperature there is less kinetic energy and fewer collisions).
+- In lock-and-key terms: "the key turns in the lock more often".
+- At high temperature the enzyme is denatured (accept: destroyed / damaged / loses its 3D structure). Reject: the enzyme "dies" / is "killed"; denaturing "of yeast".
+- The shape of the active site changes.
+- The substrate no longer fits / is no longer complementary to / cannot bind to the active site ("the key no longer fits the lock").
+- Fewer / no enzyme-substrate complexes form.
+- Reduced / no reaction - no product is made.
+- Denaturation happens only at high temperatures (accept 60 C or above if a figure is given) and it is permanent: on cooling again the rate stays at zero / there is no change, because the enzymes are still denatured / the active site is still changed.
+- Low temperatures do NOT denature enzymes - they only slow them (a frozen enzyme works again when warmed; a boiled enzyme does not work when cooled).
+- The falling part of the curve means the enzyme is becoming denatured - not that substrate or enzyme is running out.
+- Heat may also change the shape of the substrate molecule (credited once); in a protease reaction both enzyme and substrate are proteins, so both can be denatured.
+- If body temperature falls, respiratory enzymes work more slowly.
+
+EFFECT OF pH - DESCRIPTION AND EXPLANATION
+- pH is a measure of acidity / alkalinity (accept: hydrogen ion concentration).
+- Each enzyme has a best / optimum pH at which its rate is fastest; different enzymes have different optimum pH values.
+- The rate is slower on both sides of the optimum (a roughly symmetrical curve); the enzyme is inactive outside its own range.
+- At the optimum pH the active site and the substrate are complementary, enzyme-substrate complexes form and the frequency of effective collisions is greatest.
+- Away from the optimum the active site changes shape and the substrate fits less well; at an extreme pH the enzyme is denatured and the substrate no longer fits the active site.
+- The enzyme changes shape - the substrate does not.
+- Raising the temperature towards the optimum raises activity at every pH but leaves the optimum pH unchanged (a second curve is drawn above the first, with its peak at the same pH).
+- An enzyme whose optimum is about pH 2 works in the stomach: the stomach is acidic, due to hydrochloric acid. Gastric protease (pepsin) needs acid; a protease that digests protein in dilute alkali but not in acid comes from the pancreas.
+- Starch digestion stops in the stomach because the pH there changes the shape of amylase: digestion / enzyme activity stops (amylase does not work); the pH is incorrect / too acidic; no suitable amylase is produced in the stomach.
+- pH and the digestive enzymes: hydrochloric acid gives the optimum / best acidity / correct pH for the action of pepsin (protease) in the stomach; a drug that reduces acid production changes the stomach pH (less acid), so the protease has no / reduced activity (it works best in acid conditions) and less protein is digested (reject "the drug neutralises the acid"); bile and pancreatic juice neutralise the acid and provide the optimum (alkaline) pH for enzyme activity in the small intestine, avoiding denaturation of the enzymes; if the gall bladder is removed the pH in the duodenum is incorrect / more acidic / less alkaline and fat digestion / lipase action is slower / not optimum; salivary amylase acts at its (optimum) pH in the mouth.
+- The enzyme that curdles milk comes from the stomach (of a young mammal): the stomach is acidic; the enzyme has a low optimum pH; young mammals take only milk; curdling increases the surface area.
+- A swallowed enzyme tablet is given a coating that breaks down only in alkali: the stomach is acid (pH below 7); the coating resists the acid, so the tablet does not break down / the contents are not released in the stomach; this prevents the enzyme being denatured / destroyed / inactivated; the small intestine (duodenum) is alkaline (pH above 7); the tablet breaks down / the enzyme is released there, where it works at its optimum / fastest rate.
+- An enzyme preparation that stays highly active across a wide pH range is not denatured and is effective in both the stomach (acid, about pH 2) and the small intestine (alkaline); a powder has a larger surface area, giving more activity / collisions.
+
+EXPERIMENTS AND THEIR RESULTS
+- Rate can be followed by measuring a reactant disappearing (e.g. starch remaining; time for the iodine colour to disappear) or a product appearing (e.g. maltose concentration; volume of gas; time to collect a fixed volume of oxygen; amino acids formed; fall in pH as fatty acids form).
+- When TIME TAKEN (or amount of substrate left) is plotted, the curve is U-shaped: shortest time / least substrate at the optimum, more on both sides.
+- Amylase + starch mixed at different temperatures and sampled with iodine: at 35 C the mixture goes yellow-brown immediately; at 20 C after about five minutes; at 10 C it is still blue-black after 30 minutes (too slow); at 90 C it is still blue-black after 30 minutes (denatured).
+- Starch + amylase goes yellow-brown at 35 C and pH 6.9, but stays blue-black at 75 C or at pH 2.5.
+- Amylase boiled and then cooled gives no digestion; amylase frozen and then warmed to 25 C does digest starch; kept at 1 C it does not within a few minutes.
+- Starch-agar plate: the largest starch-free area forms round amylase solution alone - not round amylase + hydrochloric acid, boiled amylase, protease or water.
+- Protein-agar plate / egg-white suspension: digestion (largest clear area; cloudy suspension goes clear; egg white digested first) only with unboiled pepsin (protease) + hydrochloric acid - not pepsin alone, boiled pepsin + acid, acid alone or water.
+- Cooked egg white in stomach protease at pH 2, 5, 8, 11, 14: most digestion at pH 2, progressively less at higher pH.
+- Seeds on starch agar: a starch-free zone forms round non-boiled (germinating) seeds because they contain amylase; none forms round boiled seeds, because the amylase is denatured by boiling.
+- A tube with no enzyme is a control / comparison - it shows what happens without the enzyme.
+- Explaining results at three temperatures: more product at the warm temperature with enzyme (enzyme working / effective collisions; more kinetic energy; near the optimum); less at the cool temperature (less kinetic energy / fewer collisions); little at the very hot temperature (enzyme denatured / active site changed shape / substrate does not fit; yeast or cells killed). A predicted result must follow the same pattern (e.g. rising dough: a larger volume at 40 °C than at 20 °C, a smaller one at 80 °C).
+- Oil + bile without lipase: pH stays the same; no digestion of lipid. Oil + bile + lipase: bile emulsifies the oil / increases its surface area and provides the optimum pH for lipase; lipase digests the lipid into fatty acids + glycerol; the pH falls, caused by the fatty acids.
+- An enzyme experiment is kept at about 40 C because that is the optimum / best temperature for the action of the enzyme. Ignore: a reference to body temperature alone.
+- Describing data: quote the range over which the enzyme is active and the optimum values (e.g. "active from pH 6 to 8; optimum pH 7.5; active between 30 and 70 C; optimum 60 C"); readings need units.
+
+APPLICATIONS CREDITED
+- Industrial process / fermenter: pH and temperature are monitored to detect changes and keep the optimum / best conditions for the enzymes (and for growth / reproduction of the microorganism); this prevents denaturation and death of the microorganism; without it the rate of reaction / amount of product falls; the product is made rapidly / efficiently / cheaply with maximum yield.
+- Heated milk is cooled before bacteria are added: prevents denaturation of enzymes; brings it to the optimum temperature; the bacteria are not killed; maximum yield of product.
+- To speed up growth of microorganisms on agar: incubate at an optimum / suitable (raised) temperature and suitable pH - because growth and respiration are enzyme-controlled.
+- A seed kept much hotter than its optimum: develops more slowly / does not germinate; enzymes denature; digestion (hydrolysis) of stored food slows / stops.
+- Boiling plant tissue: kills cells / denatures enzymes / stops metabolic reactions (and breaks cell walls / membranes, releasing the contents).
+- Boiling stops cut fruit browning: the enzyme's active site is denatured / changes shape, the substrate no longer fits, no enzyme-substrate complex forms, so no reaction.
+- An enzyme used to tenderise meat is applied before cooking, not during: strong heat (60 C or above) denatures / destroys the enzyme, so it would not work; applying it earlier gives it time to act.
+- In a compost heap different microorganisms thrive at different temperatures - linked to the effect of temperature on enzyme action.
+- A protease used in laundry detergent is supplied with chemicals that give an alkaline solution: the enzyme then works at an increased rate / faster / at its optimum (pH); this prevents denaturation; the detergent is more effective / clothes are cleaner.
+- Enzymes from different species have different structures (different amino acid sequences), so some enzymes / active sites denature at lower or higher temperatures than others.
+- Seeds in soil warmed by released heat energy: the rate of enzyme action increases, so germination / growth of the radicle and plumule is faster (reject "for growth" / "helps growth" and any reference to a seedling or plant).
+- Raising the temperature round stored fruit speeds up its changes: digestion / chemical breakdown increases; correct reference to enzymes; the rate of reaction / respiration increases (also faster reproduction of microorganisms).
+- A suitable temperature is a condition for seed germination because of enzyme / named enzyme action; breaking down the food store (water is needed to activate the enzymes and as a solvent).
+- Temperature and enzyme-controlled processes in plants and decomposers: photosynthesis is enzyme-controlled; its rate increases with temperature because of faster molecular movement / more kinetic energy / more collisions and because enzymes work faster; below the optimum the enzymes work more slowly (slower metabolic rate / slower photosynthesis); a glasshouse gives a higher / optimum temperature for enzymes; warm (moist) conditions increase enzyme action in decomposition. At high temperatures water loss / wilting, loss of turgidity of guard cells and closure of stomata slow photosynthesis.
+- Microorganisms in fermenters and food production: temperature and pH are controlled because of the enzymes (25-45 degC and pH 5-8 quoted for an antibiotic fermenter; 32-50 degC for yoghurt; a suitable temperature / warmth for wine); the water jacket cools the fermenter contents, preventing high temperatures killing the fungus / denaturing the enzyme.

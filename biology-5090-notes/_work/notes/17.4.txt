@@ -1,0 +1,76 @@
+17.4 SELECTION
+
+NATURAL SELECTION - THE SEQUENCE OF MARKING POINTS
+- Variation exists within a population / there are different varieties.
+- The variation arises by mutation / genetic change (a change in a gene).
+- There is competition (e.g. for food) / a change in the environment / predation.
+- Some variations are advantageous - those individuals are better adapted / better suited to the environment (state the advantage in the context: better camouflaged, less easily seen, collect more food, more armour, resistant).
+- They are more likely to survive / less likely to be eaten (differential survival). The converse is accepted for the less well adapted form.
+- They are more likely to reproduce / breed / have offspring.
+- They pass on the allele (gene) for the advantageous feature to the next generation / it is inherited. Ignore "pass on the gene" where the question is about a named allele.
+- This is repeated over many generations / a long period of time (cumulative effect).
+- The advantageous form becomes more common / the other form less common - a change in the phenotype of the population.
+- The process is natural selection; it results in evolution.
+- Natural selection is reproduction between those members of a species that are best fitted to their environment (the term is not "survival of the fittest").
+- Both competition and variation are essential for natural selection.
+- Correct statements: many organisms in a population die before they breed; organisms with more advantageous inherited features are more likely to survive and produce offspring; survivors may transfer an advantageous feature to their offspring; an organism with an advantageous inherited feature does not always pass it on.
+- Natural selection can lead to better adapted species surviving, to the evolution of new species and to the extinction of a species. It does not cause mutations.
+- Natural selection results in evolution - the two are not the same and evolution does not cause natural selection.
+
+GENES, VARIATION AND EVOLUTION
+- Part played by genes (max 6): genes are inherited / passed on in reproduction; mutation / change in a gene; produces variation - differences in appearance, behaviour or phenotype; some are advantageous / give better adaptation; competition; change in the environment; survival; natural selection; over a long period of time; change in phenotype.
+- Changes in gene structure leading to a new species: change in appearance / phenotype; variation; change in environment; advantage; survival; natural selection; reproduction; inheritance; over a period of time; finally breeding only with the similar type / a separate species.
+- Why variation matters for the long-term survival of a species (max 5): some variations are advantageous; competition; in the organism's habitat / environment; those organisms survive; breed; pass on the beneficial allele; over many generations; continuous adaptation to a changing environment; evolution / natural selection; variation caused only by the environment is less important.
+- A new species forming after migration to a different environment is evolution (accept speciation): different environment; mutations; advantageous variations; survive; reproduce / passed on; over many generations; change in phenotype. The two species can no longer interbreed because of differences in genes / DNA or chromosomes, problems with fertilisation, no attraction / incompatibility, or geographical separation (max 2).
+- Genetic changes help a population survive an environmental change by making individuals better adapted to the new condition, e.g. protected from a predator / less eaten.
+- A feature that helps an animal see in cold water adapts it to survive (max 4): it can see / hunt prey; so obtains more food / energy; out-competes other animals; sees predators; avoids being eaten; sees mates; reproduces.
+- Loss of something no longer needed (an enzyme whose substrate is absent from the diet; genes for detecting bitter tastes in plant-eaters): the diet makes it unnecessary; no energy is wasted producing it; mutation / natural selection / evolution; no functional gene remains.
+- Asexually reproducing organisms stay unchanged for long periods: offspring identical / no variation; so no (or limited) natural selection and no (or limited) evolution. A disadvantage of asexual reproduction to a species: no variation / no evolution / all susceptible to the same disease / no resistance to environmental change.
+- Cross-pollination (two parents) gives variation in the offspring, allowing adaptation / natural selection / evolution. Reject references to new species.
+- Unrelated animals look alike when they have evolved in similar environmental conditions.
+- In a changing climate some mutations may prove to be an advantage in the new conditions.
+- Disadvantages of self-fertilisation to a plant (max 3): fewer or no new alleles / genes; limited variation; limited evolution / limited resistance to changes in the environment; inbred weaknesses likely to appear / no hybrid vigour / decreased fertility.
+- Sexual reproduction (e.g. by flowers / cross-pollination) v asexual reproduction for the survival of a species: sexual reproduction gives genetically different offspring / variation (meiosis); asexual reproduction gives genetically identical offspring / clones (mitosis); a named condition affecting survival (disease, temperature, water availability); some individuals will survive a changing environmental condition, so the population is more likely to survive environmental change / disease; the species can live in a wider range of environments; increased capacity to respond to changes in the environment.
+
+EXAMPLES AS THEY ARE MARKED
+- Camouflage: the form whose markings match the background is less easily seen / not eaten, is found in the greatest numbers, breeds and hands on its alleles; forms that do not match are easily seen and eaten and decline. If the background changes, the form that now matches increases.
+- Hunting pressure: where animals with tusks are killed, selection acts against them; tuskless animals are less likely to be killed, reproduce and pass on the allele, so they become commoner.
+- Feeding: as low vegetation disappeared, animals with shorter necks died / did not breed; later animals have longer necks (and are fewer).
+- Beak shape: individuals with more pointed beaks are better able to compete for food.
+- Graph of two colour forms after predators arrive: the camouflaged form rises and the other falls - natural selection.
+- Describing data on changing proportions: say which category falls, which rises, and which rises and then stays constant, with the dates.
+
+RESISTANCE TO ANTIBIOTICS (INCLUDING MRSA), DRUGS AND PESTICIDES
+- Variation within the bacterial population.
+- A mutation (of a gene) produces resistant bacteria - "resistant", not "immune" (accept tolerant).
+- The antibiotic kills many (non-resistant) bacteria; resistant ones survive.
+- Survivors reproduce; and pass on the alleles (resistance) to the next generation.
+- Repeated over many generations; so a higher proportion of the population is resistant / resistant forms become more common.
+- Bacteria have a short generation time.
+- Causes of the increase: antibiotics prescribed too readily / over-prescribed / too easily available; patients not finishing the course / treatment stopped too early; long exposure to the drug.
+- If treatment stops before all the bacteria are killed: resistant bacteria remain; they multiply again; symptoms recur; and the same antibiotic can no longer kill them.
+- MRSA is not destroyed by antibiotics such as penicillin because it is resistant; HIV is not, because it is a virus.
+- The more antibiotics a country uses, the more people have MRSA: more antibiotics are used to try to kill the pathogen; they do not kill resistant bacteria; and their use increases the number of resistant bacteria.
+- Reducing the risk: use antibiotics only when essential / only for harmful bacterial infections - not for viral infections, not to prevent infection, not without prescription, not shared.
+- Antibiotic discs on a bacterial plate: the antibiotic diffuses from the disc into the agar; a clear zone shows where bacteria have been killed, so the bacteria are not resistant to that antibiotic; no clear zone means the bacteria are resistant (or the antibiotic is the wrong one / not concentrated enough). An antibiotic giving clear zones on every strain's plate is effective against all the strains; one giving a clear zone on only one plate is effective only against that strain.
+- The strain with the fewest / smallest clear zones has the greatest resistance, is best adapted, survives, reproduces, passes on the beneficial alleles and becomes the largest percentage of the population.
+- The same sequence explains: insecticide resistance in insects (also credited: immigration of insects; less insecticide being sprayed); poison resistance in rats (a larger dose is needed to kill - the LD50 rises, slowly at first then faster); drug resistance in the malaria parasite (the older drug is no longer as effective; newer drugs are more effective / cheaper / have fewer side effects).
+
+ARTIFICIAL SELECTION (SELECTIVE BREEDING)
+- Selection is by humans (the farmer / breeder).
+- Choose / select individuals with the desirable feature (name it: more milk, more fibre, largest and most colourful flowers, better wool).
+- Cross / breed them together (both parents with the desired feature) - cross-breeding / cross-pollinating / cross-fertilising / hybridisation (ignore self-; reject crosses between species); repeated over many years / generations.
+- Select the offspring with the best of the feature to breed from.
+- Repeat for many generations / many years.
+- Offspring vary because of mutation and different combinations of genes; the genes are passed to the offspring; back / test crosses can be used to find homozygotes.
+- For a named economically important plant or animal: name it; name the selected feature; state why it is economically important / the financial reward; a danger is inbreeding / harm to the organism (e.g. breeds with breathing problems).
+- In flowering plants: transfer pollen from the anther (stamen) of one chosen plant to the stigma (carpel) of the other; fertilisation combines the genetic material; grow the seeds; select the plants with the best combination of characteristics. Ignore self-pollination; reject crossing between species.
+- Artificial selection differs from natural selection in that humans choose which individuals breed.
+- Examples: mating bulls with the cows that give most milk; picking the highest-yielding offspring of a cross for many generations; saving seed from the best crop plants; milk yield rising over centuries. Results such as seedless grapes, friendly dogs and disease-resistant crops come from artificial, not natural, selection.
+- Aims: increased yield / growth rate; decreased need for fertiliser / pesticide; seed from resistant crops improves yield without insecticide.
+- Choosing parents from data: pick the type with the largest size and the type with the highest sugar content.
+- A feature the crop does not possess at all (e.g. nitrogen fixation in a cereal) cannot be obtained by selective breeding alone.
+- A second way to obtain a new variety is genetic modification: transfer / insert / alter a gene so that the plant shows the feature.
+- Artificial insemination supports selective breeding: semen from a male with desirable features can be transported anywhere; the farmer need not keep male animals; it promotes cross-breeding / prevents inbreeding; improves the chance of fertilisation; is quicker / more convenient; and gives an economic benefit.
+- Calculation: increase per animal x number of animals (e.g. (9400 - 4500) x 250 = 1 225 000 = 1.225 x 10^6 kg per year); a part mark for the difference or the multiplication; give standard form when asked.
+- Commercial plants are often reproduced asexually (as clones of one parent): this is artificial selection / under human control; it reproduces the selected / desirable features (or an example).

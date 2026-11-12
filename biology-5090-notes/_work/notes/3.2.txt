@@ -1,0 +1,60 @@
+3.2 ACTIVE TRANSPORT
+
+DEFINITION
+- Movement of ions / molecules / particles / substances.
+- Against a concentration gradient / from a region of lower concentration to a region of higher concentration.
+- Requires energy. Reject: energy "produced".
+- The energy comes from respiration (released during respiration in the cell / mitochondria; ATP accepted in older mark schemes).
+- Takes place across / through a living cell membrane; needs a living cell. Accept: carrier proteins in the membrane.
+- A correct example with its context, e.g. nitrate / magnesium / mineral ions into root hair cells; glucose into the villi of the ileum (accept intestine).
+- Active transport occurs in animals as well as plants.
+- The cell membrane stops ions that have been taken up from moving back out of the cell.
+- Active transport is credited as one named use of energy by an organism - alongside muscle contraction / movement, protein synthesis / making large molecules, temperature control / homeostasis, nerve impulses, growth and cell division - e.g. in a germinating seed, which takes up oxygen for respiration to release this energy, and when explaining energy losses along a food chain.
+- Energy is also credited for other cell functions in the same questions: a sperm cell uses energy for the movement / action of its tail (flagellum) - swimming / motility; a palisade cell traps / absorbs light energy for photosynthesis (conversion into chemical energy). One older scheme credited a reference to phagocytosis / endocytosis / exocytosis in the active-transport part of an essay on movement into and out of cells.
+
+ACTIVE TRANSPORT COMPARED WITH DIFFUSION AND OSMOSIS
+- Both diffusion and active transport: movement of molecules / ions / particles.
+- Diffusion: down a concentration gradient / high to low concentration; passive - uses only the kinetic energy of the particles; no energy from respiration; no membrane or living cell needed.
+- Active transport: against a concentration gradient / low to high concentration; energy required from respiration; needs a (living) cell membrane / carrier proteins.
+- Active transport is faster than diffusion (as a way of absorbing).
+- Osmosis: water only, down a water potential gradient, no energy; active transport: ions or larger molecules, against the gradient, with energy.
+- Processes that occur only through a membrane: active transport and osmosis (not diffusion).
+- Processes that always occur down a concentration gradient: diffusion and osmosis (not active transport).
+- Energy from respiration is used for active transport (and e.g. cell division, muscle contraction) but NOT for diffusion or osmosis.
+- The greater the difference against which a substance is moved (e.g. inside 9, outside 3 units), the more energy is needed.
+- Not active transport: water entering root hairs (osmosis); carbon dioxide entering a leaf through stomata (diffusion); ions carried in blood plasma; water moving in the transpiration stream.
+
+ION UPTAKE BY ROOT HAIR CELLS
+- Mineral ions / salts (or a named ion, e.g. nitrate, magnesium, potassium) are absorbed from the soil (water). Accept: minerals. Reject: nutrients.
+- Through the root hairs (root hair cells).
+- By active transport / active uptake, because the concentration of the ions inside the root hair cell is higher than in the soil water - uptake continues even when the ions are scarce / at very low concentration in the soil.
+- Requires energy from respiration (mitochondria) in the root cells.
+- When the concentration outside is higher than inside, ions also enter by diffusion; both processes can operate (e.g. solution 20 and root hair 15 units at the start; 18 and 35 after 48 hours - diffusion first, then active transport).
+- In roots absorbing nitrate by active transport and water by osmosis, the nitrate concentration is higher in the roots than in the soil and the water concentration (water potential) is lower in the roots than in the soil.
+- Importance of the ions: nitrate - to make amino acids / proteins / DNA, for growth; magnesium - to make chlorophyll (reject chloroplasts), for photosynthesis.
+- Oxygen is also absorbed by root hairs, for root respiration.
+
+EVIDENCE THAT ION UPTAKE IS BY ACTIVE TRANSPORT
+- Root hairs take up ions more slowly in low oxygen concentrations / uptake of ions increases as oxygen concentration increases - respiration requires oxygen and supplies the energy.
+- A chemical (poison) that stops or slows respiration reduces ion uptake: there is less energy for active transport of the ions.
+- With respiration stopped, small amounts of ions still enter - by diffusion, not by active transport; uptake by the poisoned plant rises only as the outside concentration rises.
+- On a graph of rate of ion uptake against oxygen concentration: at zero / very low oxygen, uptake is by diffusion (passive, not energy-requiring); where the rate rises with oxygen, uptake is by active transport (requires energy; energy from respiration; respiration requires oxygen); where the graph levels off, the rate depends on another (limiting) factor, e.g. temperature. Ignore "against a concentration gradient" as the explanation here.
+- An ion whose rate of uptake does not change with oxygen concentration is entering by diffusion; one whose uptake rises with oxygen is entering by active transport.
+- Aerating the solution around roots (bubbling air): more bubbles / larger surface area of air; more oxygen; more aerobic respiration; more energy released (reject "produced"); more active transport / absorption of ions (e.g. magnesium); more growth.
+- A plant supplied with oxygen grows more: respiration in root cells; increased uptake of ions by active transport, which requires energy; more magnesium -> more chlorophyll -> more photosynthesis; more nitrate -> more amino acids / protein.
+- A toxin that slows respiration reduces growth: less energy released; less active transport; fewer ions absorbed / absorbed more slowly; less nitrate -> less amino acid / protein / growth; less magnesium -> less chlorophyll; less photosynthesis; less carbohydrate made.
+- Slower nitrate uptake -> proteins made more slowly / slower metabolism -> slower rate of growth.
+
+ACTIVE TRANSPORT IN HUMANS
+- Glucose (and amino acids) are absorbed from the gut into the cells of the villi (microvilli) by active transport - against the concentration gradient when the concentration in the small intestine is lower than in the blood.
+- Importance in the alimentary canal: absorption / uptake; by the villi; of digested carbohydrate / glucose / amino acids / mineral ions (salts); faster than diffusion; against a concentration gradient; prevents wastage / loss by egestion.
+- Evidence: glucose is absorbed faster by living intestine than by dead intestine (active transport), whereas a sugar absorbed at the same rate by living and dead intestine enters by diffusion.
+- Evidence: amino acid and glucose absorption falls when oxygen is absent (active transport is involved); fatty acid and glycerol absorption is unchanged without oxygen (mainly diffusion).
+- Processes absorbing substances in the small intestine: water by osmosis / diffusion; glucose / amino acids / fatty acids / glycerol by diffusion; glucose (also) by active transport; correct reference to the concentration gradient and to the energy requirement; through the membrane / epithelium; into tissue fluid / capillaries / plasma.
+- Uses of the absorbed substances: amino acids for protein manufacture; glucose for respiration (energy release).
+- Older mark schemes also credited reabsorption in the kidney (glucose, amino acids, salts) as an example of active transport.
+- How energy from the Sun comes to be used for active transport in the alimentary canal (max 7): light energy; photosynthesis; starch / carbohydrate made; the plant / producer is eaten; digested; by enzymes; to glucose; respiration; energy released; used for absorption; movement against a concentration gradient.
+
+SIMILARITIES AND DIFFERENCES: ION UPTAKE BY ROOTS AND GLUCOSE UPTAKE BY VILLI
+- Similarities: large surface area / both are elongated structures; active transport / requires energy / against a concentration gradient; substances are in solution; both require a membrane; both also absorb water.
+- Differences: root hairs (plants) / villi (humans); root hairs are single-celled / villi are multicellular; uptake is through cell walls in plants (ORA); ions are absorbed from the soil / glucose is absorbed from (in) the intestines / digestive system.

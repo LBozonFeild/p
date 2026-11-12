@@ -1,0 +1,50 @@
+1.2 SPECIALISED CELLS, TISSUES AND ORGANS
+
+LEVELS OF ORGANISATION
+- Cell - the unit of life.
+- Tissue - a group of cells that are specialised to perform a specific function; tissues are made up of cells; the cells in a tissue have a common / specific function.
+- Organ - made up of (several) tissues working / combining together.
+- Increasing order of complexity: (organelle, e.g. chloroplast) -> cell -> tissue -> organ -> organ system -> organism.
+- Tissue examples credited: blood, muscle, nervous, epithelial, connective, xylem, phloem, palisade (mesophyll), epidermis. A layer of leaf cells such as the palisade or spongy layer is a tissue / mesophyll (ignore "spongy" / "palisade" / "cells" as the term). Onion epidermis is a tissue.
+- Organ examples credited: heart, leaf, flower, root, stem (muscle also accepted as an organ example in one mark scheme).
+- The kidney is an organ; an alveolus, a sperm and a neurone are not organs.
+- The eye is an organ (the digestive system is an organ system, blood a tissue, a neurone a cell).
+- Correct rows: neurone (cell), muscle (tissue), leaf (organ), urinary system (organ system); neurone (cell), vascular bundle (tissue), leaf (organ), excretory system (organ system). A chloroplast and a sap vacuole are not cells; a red blood cell is not a tissue; the liver is not an organ system.
+- In a plant: whole leaf = organ; leaf mesophyll = tissue; leaf epidermis = tissue; one palisade cell / one guard cell = cell.
+- In the circulatory system: cell = blood cell (or any correctly named one); tissue = muscle (accept blood / capillary); organ = heart / blood vessel or a named vessel (reject capillary). Examples must come from the system named in the question; mark the first in a list.
+- In the female reproductive system: egg = cell; lining of the uterus = tissue; ovary = organ; the whole system = organ system.
+- An explanation with examples needs one named cell identified as a cell AND one named organ identified as an organ.
+
+SPECIALISED CELLS - STRUCTURE RELATED TO FUNCTION
+- Root hair cell - in contact with the soil; takes in water (and ions); long, thin extension gives a large surface area.
+- Root hair and villus share a feature that helps absorption: large surface area (to volume ratio) / long / thin.
+- Xylem vessel - adapted to carry water (and mineral ions) and to give support; lacks cytoplasm / no cell contents; woody (lignified) cell walls.
+- Changes as a young cell develops into a xylem vessel: elongation of the cell (reject "cylindrical"); loss of cell contents / of one named content (accept death of cell / hollow; reject loss of chloroplasts / "dissolving" of contents); loss of end walls; addition of thickening / strengthening material / lignin.
+- Red blood cell - adapted to carry (transport) oxygen; lacks a nucleus; it is the blood component that cannot function effectively if the diet lacks iron.
+- Ciliated cell (lining of trachea) - the cell bearing cilia; function = mucus removal (the cell without cilia secretes the mucus).
+- Palisade cell and spongy mesophyll cell - leaf cells containing chloroplasts (identified among mixed cell diagrams).
+- White blood cell and sperm cell are also identified from diagrams of mixed animal and plant cells.
+- Sperm cell compared with a cheek (body) cell - how: has a tail (cheek cell has none); less cytoplasm (reject "no cytoplasm"); different shape / length / has a head or acrosome (reject "round"); different position / size / shape of nucleus. Why: tail for swimming / movement / reaching the ovum (accept motility / mobility); absorbs nutrition from seminal fluid; penetrates the ovum; nucleus at the front since only the nucleus enters the ovum; half the amount of (accept less) genetic material / haploid.
+- Sperm compared with ovum: sperm smaller / ovum larger (ovum about 120-150 um; sperm about 60 um long with a head about 2.5 x 3 um); the sperm is only a nucleus + tail, whereas the ovum carries some nutrition / cytoplasm / yolk; the sperm is small enough to enter the egg; sperms have a tail / flagellum and swim / are motile (reject "move") to reach the ovum in the oviduct; ova are moved only passively.
+- Sperm cell v pollen grain (any six): both are gametes; both haploid / have half the chromosome number of a body cell / are produced by meiosis; both fuse with an egg (fertilisation) to produce a zygote; the sperm cell has a flagellum / tail to move; and enzymes / an acrosome to penetrate the egg; the pollen grain is carried by wind or by an insect; is small / light / sticky / has a sculptured coat; and grows a pollen tube to reach the egg / ovule / ovary.
+- A bacterial flagellum has the same function as the tail of a sperm cell: movement / swimming / locomotion.
+- Root hair cells are plant cells; sperm and egg cells are animal cells.
+
+MAGNIFICATION
+- magnification = image size / actual size.
+- actual size = image size / magnification.
+- Convert units before or after dividing: 1 mm = 1000 um (micrometres).
+- Worked steps credited: image 45 mm at x900 -> 45 / 900 = 0.05 mm (1 mark) -> x 1000 (2 marks) -> 50 um (3 marks); OR 45 x 1000 = 45 000 um (1 mark) -> / 900 (2 marks) -> 50 um. If nothing else is correct, 1 mark for multiplying the answer by 1000.
+- Image 10 mm at x1250 -> 10 / 1250 or correct equation (1) -> 0.008 mm or 8 x 10^-3 (1) -> 8 um (1); correct answer alone scores all 3 marks.
+- Image 100 mm at x50 000 -> 100 (or 100 000) divided by 50 000 (1) -> 2 um (2).
+- Magnification of a drawing: convert to the same units first, e.g. drawing 4.2 cm = 42 mm of a cell 0.12 mm across -> 42 / 0.12 = x350.
+- Root hair cell - structure related to function, as separately credited points: long / extension / projection / finger-like; increased / large surface area; uptake of water; by osmosis / diffusion; uptake of ions / mineral salts (or a named ion); by active transport.
+- Identifying cells from their contents / outline: cytoplasm + cell membrane but no nucleus = red blood cell; long hollow tube with no contents = xylem vessel; cell with a long thin extension = root hair cell.
+- Changes as a young plant cell develops into a xylem vessel: the cell elongates (reject "becomes cylindrical"); loses its cell contents / a named content (accept: the cell dies / becomes hollow; reject: loss of chloroplasts, contents dissolving); loses its end walls; thickening / strengthening material / lignin is added to the wall.
+- Xylem vessels are adapted for conduction and support by their lack of cytoplasm and their woody (lignified) cell walls.
+- Functions of specialised plant cells: palisade cells - photosynthesis; phloem cells - sugar transport; root hair cells - ion (and water) uptake; xylem vessels - conduction of water and support.
+- Examples from the circulatory system: cell - a blood cell (or a named one); tissue - muscle or a named tissue (accept blood / capillary); organ - heart / blood vessel or a named one (reject capillary). Only the first answer in a list is marked; examples from other systems are rejected.
+- Tissues and organs working together in the circulatory system: muscle tissue in artery walls maintains blood pressure and in the heart contracts continually to keep blood moving; nervous tissue in the heart controls its rate; blood is a tissue acting as a transport medium; epithelial tissue lines the vessels and reduces damage to their walls; the heart, arteries and veins are organs - the vessels are tubes for the blood.
+- Red blood cell (erythrocyte) - structure related to function: biconcave; increased / large surface area; for diffusion of oxygen in / out; no nucleus; so more volume / space; for haemoglobin; with which oxygen binds / combines (oxyhaemoglobin); flexible / elastic / can change shape; to squeeze into / through capillaries.
+- Organs, tissues and cells explained with the eye as the example (max 4): a cell is the basic unit of life; cell example - light receptor / rod / cone; a tissue is a group of cells with a similar structure / function; tissue example - retina / cornea / muscle / sclera / iris / conjunctiva / suspensory ligament; an organ is a group of tissues with a specific function; organ example - the eye / optic nerve.
+- Sequence from smallest to largest: gene -> chromosome -> nucleus -> cell -> tissue.

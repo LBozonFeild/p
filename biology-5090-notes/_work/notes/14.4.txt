@@ -1,0 +1,30 @@
+14.4 HOMEOSTASIS
+
+DEFINITION
+- Maintenance of / keeping constant (accept regulating / control).
+- The internal environment / conditions within the body. Ignore specific examples offered in place of the general statement.
+- Homeostasis is the term for: maintaining constant conditions such as temperature in the body; keeping the internal environment within narrow / strict limits (a graph of body temperature fluctuating between narrow "limits of variation"); keeping temperature and glucose concentration constant; regulating temperature and the amount of water in cells; the kidneys removing waste and keeping the composition of the blood constant.
+- With reference to sweating (any two): maintenance of a constant; internal environment / temperature; return to the norm / set point / negative feedback; evaporation of sweat removes heat / cools / lowers the temperature.
+
+NEGATIVE FEEDBACK AND SET POINTS
+- There is a condition / parameter with a set point (norm), e.g. body temperature.
+- A change away from the set point (an increase or a decrease);
+- is detected (by a sensor / receptor);
+- information is communicated (nerve impulse / hormone);
+- to a control centre / coordinator (hypothalamus / brain);
+- which brings about a response / corrective mechanism;
+- that reverses / corrects the initial change - the condition returns to the set point / norm / original level.
+- Short form: a change away from a set point causes a change back towards the set point - it reverses any change. A specific example is accepted in place of a general account.
+- The process by which a return to a set point is achieved is called negative feedback.
+- Flow diagram: excess of a substance in the body -> sensor detects the concentration -> correction by a gland to reduce the concentration -> normal level of the substance.
+- Water in the blood: rising -> more water in urine; falling -> less water in urine.
+- Examples of negative feedback: keeping core body temperature near 37 degrees C; release of insulin after a meal; release of glucose from the liver after missing a meal; high blood pressure causing nerve impulses from the brain to dilate blood vessels so that pressure falls.
+- Not negative feedback: release of adrenaline when frightened; activated platelets activating more platelets; LH and oestrogen stimulating more of each other; contractions in childbirth releasing a hormone that causes further contractions (these increase the change).
+
+APPLYING NEGATIVE FEEDBACK
+- A person drinks an excessive volume of water: water is absorbed into the blood (colon); the rise / excess in the water content of the blood is detected (accept hypothalamus / a correct reference to ADH); excess water is excreted / more urine is produced; by the kidney (nephron); via ureter, bladder and urethra.
+- The kidneys keeping the blood at a constant concentration: homeostasis / osmoregulation; salts / ions / urea and water are removed from the blood; with reabsorption in varying quantities; depending on food and water intake and on sweating; so tissue fluid stays at a constant concentration; otherwise water would enter or leave cells by osmosis; cells would swell / burst / shrink; enzyme action / metabolism would be affected.
+- A hormone in homeostasis (max 6): deviation from the set point (for insulin the set point must refer to glucose in the blood); named hormone (reject adrenaline / thyroxine); the gland that produces it; its target organ; its effect, which must be homeostatic; return to the set point ("keeps constant" accepted; "regulates" / "controls" rejected); the word homeostasis.
+- Temperature control is homeostasis because a constant internal temperature is kept, and negative feedback because a change (increase or decrease) is corrected / reversed back to normal.
+- The hypothalamus: homeostasis / maintenance of a constant internal environment; detects changes (increase / decrease) in blood temperature, blood (plasma) concentration, carbon dioxide concentration; triggers the appropriate response; controls pituitary secretions; acts through hormones / the nervous system ("controls / regulates" alone earns one mark).
+- Human respiration rate stays relatively constant because of homeostasis - body temperature is kept constant (thermoregulation).

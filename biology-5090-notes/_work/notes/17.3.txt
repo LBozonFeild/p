@@ -1,0 +1,174 @@
+17.3 INHERITANCE
+
+GENETIC INFORMATION - CHROMOSOMES, GENES AND ALLELES
+- Chromosomes: long thread-like structures in the nucleus that carry the genetic information; made of DNA; carry genes.
+- Genes are found in the nucleus / on the chromosomes; the chemical that makes inheritance possible is DNA.
+- Gene: a section of DNA / of a chromosome; controls the production of one protein (polypeptide) / one characteristic (accept feature / phenotype); can be copied; is the unit of inheritance / passed on to the next generation (accept "contains hereditary information").
+- Allele: an alternative form of a (the same) gene - accept version / variation / type / sort of a gene; reject "alternative form of genes". Alleles of a gene lie at the same position (same locus) on the two chromosomes of a (homologous) pair; they may be dominant, recessive or codominant / have different effects; an allele is copied during cell division and is part of a DNA molecule.
+- Gene v allele: a gene is a section of DNA; an allele is a version of that gene.
+- On a pair of chromosomes, the same position on each marks the site of a gene, which exists as two or more alleles that might be different; in a heterozygous individual the equivalent position on the other chromosome carries a different allele of the same gene.
+- A genotype written Tt shows that there are at least two different alleles of the gene.
+- Size: a gene is smaller than a chromosome, which is smaller than the nucleus (gene -> chromosome -> nucleus -> cell -> tissue).
+- Body cells hold two copies of each gene; one copy of each (half the total) was inherited from the mother and one from the father.
+- Evidence that genes are copied and passed on to the next generation: asexual reproduction produces genetically identical offspring.
+- Chromosomes in inheritance (max 5): made of DNA; carry genes; responsible for characteristics (accept traits / enzymes / a named character); passed from one generation to the next; during reproduction / at fertilisation; correct reference to chromosomes during nuclear division; sexual reproduction gives variation, asexual none.
+- Role of the nucleus and cell division in inheritance (any six): chromosomes; DNA / genetic material; genes / alleles; code for proteins; proteins determine characteristics; meiosis; reduction division / produces haploid cells / gametes; fertilisation; combination / mix of genetic material / genes / chromosomes from the two parents.
+- DNA in inheritance: forms chromosomes / genes / alleles; is copied / replicated; passed to the next generation from the parents; in the gametes (egg, sperm).
+- Paragraph completion: a chromosome (accept chromatid) includes a long molecule of DNA divided into genes; alternative forms of a gene are alleles; one may be dominant and the other recessive; a change in gene structure or chromosome number is a mutation; chemicals and radiation increase its rate.
+- A gamete carries only one chromosome of each pair, with the alleles that were on that chromosome (drawn as one chromosome, genes in the same shapes and sequence).
+- Egg nucleus v zygote nucleus: egg is haploid / 23 chromosomes and has only an X chromosome; zygote is diploid / 46 chromosomes / 23 pairs and has either XX or XY.
+- Each parent has an equal share in the genotype of the offspring (credited when the chromosome numbers of gametes and body cells are compared).
+
+KEY TERMS
+- Dominant allele: a form of a gene that is always expressed / always has an effect when present - expressed even if only one copy is present / in the heterozygote / over another allele.
+- Recessive allele: only affects the phenotype if two are present (it does not always affect the phenotype, is not always harmful and is not restricted to one sex).
+- Homozygous: having two of the same form of a gene (both alleles the same). Heterozygous: having two different forms of a gene.
+- Genotype: the combination of alleles an organism has. Phenotype: the feature that appears.
+- Dominance explained (max 3): allele(s); responsible for a characteristic; only one needs to be present / reference to the heterozygote; for the character to be expressed in the phenotype; example such as IAIO = group A, IBIO = group B, IA and IB dominant to IO.
+- Carrier: a heterozygous person who has one recessive (affected) allele but shows no symptoms.
+- Dominant alleles give the same phenotype in heterozygotes and homozygotes. They can mutate, are not necessarily commoner or rarer, and do not necessarily improve survival.
+- An organism with a dominant phenotype may be homozygous or heterozygous; a recessive phenotype is always homozygous (probability 1.00); one recessive allele alone does not give the recessive phenotype.
+- A homozygous genotype may be dominant or recessive - "the phenotype of a homozygote is always dominant" is wrong; "dominant-phenotype individuals are always heterozygous" is wrong.
+- A heterozygous person cannot show the recessive feature (e.g. no heterozygous blue-eyed person, max 3): the recessive phenotype needs two recessive alleles (bb); such a person is homozygous; heterozygous means the alleles differ (Bb); B is dominant, so Bb shows the dominant feature.
+- Pure-breeding parents are homozygous.
+
+GENETIC DIAGRAMS - HOW THE MARKS ARE AWARDED
+- Parental genotypes correct (use the letters given; wrong symbols lose the mark).
+- Gametes correctly shown - all four, separated / circled; needed once only for a homozygous parent. Gametes must not simply repeat the parental genotypes.
+- Offspring genotypes correctly derived (Punnett square correctly filled or correct linking lines).
+- Offspring phenotypes correctly linked to the genotypes; the individual asked about clearly identified.
+- Ratio or probability stated.
+- Labels: correct use of the words parents, gametes, genotypes / phenotypes / offspring (a mark may need three correct labels).
+- Each step is credited if it follows correctly from the step before, even after an earlier error; if the gametes are wrong no mark may be available, but gametes wrongly placed in a Punnett square can still gain the cross and probability marks. Any order within a marking point; a heterozygote may be written either way round (Rr or rR).
+- Answers accepted for probability / ratio: 50 % / 1/2 / 0.5 / 1 in 2 / 2 in 4 / 1:1; 25 % / 1/4 / 0.25 / 1 in 4 / 1:3.
+
+HETEROZYGOUS x HETEROZYGOUS (3 : 1)
+- Parents Tt x Tt; gametes T, t and T, t; offspring TT, Tt, Tt, tt.
+- Genotype ratio 1 : 2 : 1 (a quarter TT, half Tt, a quarter tt); homozygous : heterozygous = 1 : 1; each offspring has a 50 % chance of being heterozygous.
+- Phenotype ratio 3 dominant : 1 recessive (75 % : 25 %); the recessive offspring (tt) are identified as the ones with the recessive feature.
+- Explains how two parents who both show the dominant feature (or two unaffected carriers) can have a child with the recessive feature: both parents must be heterozygous / carriers; both pass the recessive allele to the child; probability 25 %.
+- The recessive phenotype is the rarer one (1 in 4) in the offspring of a hybrid cross.
+- Heterozygotes mating always go on producing all three genotypes (TT, Tt, tt), because both T and t alleles are handed on in the gametes.
+
+HETEROZYGOUS x HOMOZYGOUS RECESSIVE (1 : 1) - TEST CROSS
+- Parents Tt x tt; gametes T, t and t, t; offspring Tt, Tt, tt, tt; 1 dominant : 1 recessive (50 % each).
+- Explaining a 1 : 1 result (max 6): one feature is controlled by a dominant allele; the other by a recessive allele; one parent is heterozygous; the other is homozygous recessive; correct reference to gametes; gametes correctly identified for both parents; how the gametes pair to give 1 : 1.
+- An organism of unknown genotype crossed with a homozygous recessive: about half the offspring recessive -> the unknown parent is heterozygous.
+- About equal numbers of the two types (e.g. 26 : 24) show that one parent was heterozygous and the other had two recessive alleles.
+
+HOMOZYGOUS x HOMOZYGOUS, F1 AND F2
+- Homozygous dominant x homozygous recessive: all offspring alike - all heterozygous, all showing the dominant feature (red x white giving all red: offspring Rr only).
+- The feature shown by all the F1 is the dominant one.
+- F1 x F1 gives an expected F2 ratio of 3 : 1.
+- Two-step cross: BB x Bb gives BB and Bb (all dominant); a Bb offspring x bb gives Bb and bb in equal numbers.
+- If all of many offspring of a dominant-phenotype parent mated with recessive partners show the dominant feature, that parent is (most likely) homozygous dominant.
+- A dominant-phenotype parent that produces any recessive offspring must be heterozygous.
+- Dominant-phenotype individual x recessive individual has two possible outcomes: RR x rr -> all Rr, all dominant; Rr x rr -> Rr and rr, 1 : 1.
+- To obtain the highest proportion of recessive offspring from the crosses on offer, choose Bb x bb (50 %) rather than Bb x Bb (25 %).
+
+PROBABILITY
+- Each fertilisation is independent: the chance for the next child is unchanged by earlier children.
+- Combine with sex by multiplying by 1/2: e.g. affected child of two carriers 1/4, affected boy 1/8 (0.125, 12.5 %); child of a given blood group 1/2, boy with that group 1/4.
+- Dominant condition: heterozygous affected parent x unaffected parent -> 0.5 chance of passing on the dominant allele; an affected girl 0.25.
+- A person who does not show a dominant condition cannot pass it on (0.00).
+
+FAMILY TREES
+- Two unaffected parents with an affected child: the condition is recessive and both parents are heterozygous.
+- Every unaffected child of an affected (homozygous recessive) parent must be heterozygous; an unaffected person with an affected child must be heterozygous.
+- An unaffected brother or sister of an affected person (both parents carriers) has a 2 in 3 chance of being heterozygous.
+- Two people who both show the recessive feature can only have children with that feature.
+- Dominant condition: an affected person who has an unaffected parent or child is heterozygous; unaffected people are homozygous recessive.
+- In a table of genotypes and phenotypes, an individual with one dominant allele must be given the dominant phenotype.
+- Why marriage between closely related people is discouraged when a harmful (mutated) allele is recessive (max 3; reverse argument accepted): the parents have a normal phenotype / appear normal; but may both be heterozygotes / carriers of the recessive allele; there is a greater chance (correctly qualified) of children inheriting two recessive alleles / being homozygous; and so suffering from the condition.
+
+EXPECTED AND OBSERVED RATIOS
+- Observed ratios differ from expected ones because fertilisation is random (random fusion of gametes) and the number of offspring is small (small sample size).
+- Genetic ratios are unreliable for small numbers - a few children all of one type do not prove a parent is homozygous.
+- Example: expected 3 : 1, obtained 12 : 6 = 2 : 1.
+
+MODELLING INHERITANCE WITH SPINNERS OR CUBES
+- Two discs / cubes each marked half A and half a model a cross between two heterozygotes: expected results 1 AA : 2 Aa : 1 aa (e.g. 20 : 40 : 20 in 80 trials).
+- The two students / containers represent the parents (genotypes, gonads); spinning or shaking represents meiosis / gamete formation / fertilisation; the letters represent alleles / genes (accept chromosomes / gametes; reject genotype).
+- Shaking the containers prevents choice / bias, so the results are random.
+- A missing count = total trials minus the other counts.
+- Results differ from expected because the expected results are theoretical / statistical and each spin is random / due to chance; the disc may be badly made (axis not through the centre); counting errors. Ignore wind / force of spin.
+- To model heterozygous x homozygous recessive: one cube with three T and three t faces, the other with six t faces.
+- To model blood groups: use the alleles A, B and O (with or without I); one disc with A and B and one with A and O, in equal numbers; representing father and mother; spin many times; record / count the results.
+
+CODOMINANCE AND ABO BLOOD GROUPS
+- Codominance (max 3): two alleles; neither is recessive / both (equally) dominant; both have an effect / are expressed in the phenotype (phenotype intermediate); in the heterozygote; example IAIB = group AB.
+- The inheritance that gives group AB is codominance (reject "incomplete dominance"; one older scheme accepted it).
+- Three alleles IA, IB and IO; only two are present in one person. IA and IB are codominant; IO is recessive to both.
+- Genotypes: group A = IAIA or IAIO; group B = IBIB or IBIO; group AB = IAIB; group O = IOIO (four phenotypes, six genotypes).
+- IBIB (or IAIA) is homozygous dominant; IOIO is homozygous recessive; IAIB shows codominance.
+- A group A person has at least one dominant allele but may be homozygous or heterozygous; all group O people are homozygous.
+- Omitting the "I" prefix is penalised once only; some schemes accept the letters A, B and O alone.
+- IAIO x IBIO -> IAIB, IAIO, IBIO, IOIO: groups AB, A, B and O, each 25 % - the way parents of groups A and B can have a group O child (the IOIO box is identified as that child).
+- IAIB x IOIO -> IAIO and IBIO: groups A and B, 1 : 1 - no child has the same group as either parent.
+- IAIA x IBIB -> all IAIB.
+- IAIA x IBIO -> IAIB and IAIO: groups AB and A only.
+- IAIO x IOIO -> IAIO and IOIO: groups A and O, 1 : 1.
+- IBIO x IBIO -> IBIB, IBIO, IBIO, IOIO: groups B and O.
+- IAIB x IAIB -> IAIA, IAIB, IAIB, IBIB: 1 A : 2 AB : 1 B.
+- IAIO x IAIO -> a group O child with probability 0.25.
+- Group A x group AB parents: children may be A, B or AB.
+- A group AB person cannot have a group O child: the child must be IOIO, receiving IO from each parent; the AB parent can only pass on IA or IB; IA and IB are dominant to IO. So a group O mother with a group O child cannot have an AB partner.
+- A child needing an allele that neither parent has cannot be their genetic child (O x B parents cannot have an AB child).
+- A group O parent with children of groups A and B has an IAIB partner; a family containing A, B, AB and O children has IAIO and IBIO parents; brothers of groups A and B show that at least one parent is heterozygous.
+- Mother group O, fetus group B: the fetus is IBIO.
+- Blood group percentages differ between countries (max 2): the groups are controlled by alleles; each person has two; allele frequencies differ between populations; separate groups breed among themselves (geographical isolation, culture).
+- A gene with two codominant alleles and one recessive allele gives six genotypes and four phenotypes.
+- Other codominance results: red x white -> all intermediate (pink / roan); intermediate x intermediate -> 1 : 2 : 1 (25 % red); intermediate x red -> 1 red : 1 intermediate; two parents each with both codominant alleles can have children of all three types.
+- Unexpected intermediate offspring (max 2): mutation; a named mutagen; possible codominance; heterozygous plants being intermediate; availability of certain ions.
+
+LETHAL COMBINATIONS
+- Heterozygous x heterozygous gives 1 : 2 : 1; if one homozygous combination dies before birth, the 1 in 4 of that genotype is missing and the survivors show 2 : 1; the probability that a survivor is heterozygous is 2/3 (0.67).
+
+SEX DETERMINATION
+- Females are XX; males are XY. A karyotype with two similar (X) sex chromosomes and no Y is female; one with a Y chromosome is male (reject "Y gene").
+- All egg cells carry an X chromosome; each sperm carries either an X or a Y - only one sex chromosome per gamete.
+- The father determines the sex of a child: sex depends on which sperm (X or Y) fertilises the egg - the chromosome content of the sperm.
+- Egg X + sperm X -> XX girl; egg X + sperm Y -> XY boy; boys receive the Y from the father and the X from the mother.
+- Equal numbers of each sex (max 3): eggs carry X; sperms carry either X or Y (the mark is lost if "alleles" or "genes" is written); in equal numbers; so equal chances of XX and XY (1 : 1). A Punnett square alone does not score without explanation.
+- Sex is determined at fertilisation by the sex chromosomes (not by temperature).
+- Identical twins from one XY zygote are both male: the zygote is XY; it divides by mitosis; into genetically identical cells.
+- The Y chromosome is found only in males, so cells containing a Y found in a female must have come from a male donor.
+- A gene carried only on the X chromosome: males (XY) have only one allele, females (XX) have two; so males are more likely to lack the dominant allele and show the condition.
+
+MUTATION
+- Mutation: a change / alteration; in genetic material - DNA / a gene / a chromosome / the base (nucleotide) sequence.
+- Gene mutation: a change in the structure of a gene (base sequence); it can code for a new / different / incorrect protein. Chromosome mutation: a change in chromosome number.
+- Mutations are random / spontaneous / sudden.
+- Factors that increase the rate of mutation (mutagens): ionising radiation - or a named type (alpha, gamma, X-rays, ultraviolet); chemicals - or a named mutagenic chemical (mustard gas, benzene, tar; accept carcinogens / smoking). Also credited: faulty cell division; viruses. Reject heat, infra-red and disease; ignore inheritance.
+- Ionising radiation and inheritance (any four): it increases the chance of; mutation; change in chromosome number; change in gene structure / sequence; coding for a new or incorrect protein; may give new beneficial variation; may give a genetic disease (example).
+- Describing mutation with examples: for two examples alone, or examples linked to the wrong type of mutation, only one mark.
+
+GENE MUTATION - SICKLE CELL ANAEMIA
+- Caused by a gene mutation - a change in the structure of a gene / DNA / allele; affecting haemoglobin (formation); it is genetic / inherited; shown by people with two recessive alleles (homozygous recessive).
+- The red blood cells are abnormal, so the blood cannot carry the normal amount of oxygen; sickle-shaped cells have reduced surface area / volume, less haemoglobin, are less elastic and harder to move through blood vessels, may stick together and block a vessel, reducing blood flow to a tissue.
+
+CHROMOSOME MUTATION - DOWN'S SYNDROME
+- Caused by a chromosome mutation: one extra chromosome / three instead of two (trisomy) / 47 chromosomes instead of 46; the extra one is chromosome 21.
+- It arises during the production of a gamete (meiosis): a gamete with one extra chromosome (24 instead of 23); the extra chromosome is passed on at fertilisation, giving a zygote with 47 chromosomes. (No mark for only stating that the child has 47 chromosomes.)
+- Parents without the syndrome can therefore have an affected child.
+- A karyotype with three copies of chromosome 21 and X + Y is a male with Down's syndrome: conclusions and reasons - male, because of X + Y / non-matching sex chromosomes; Down's syndrome, because of 47 not 46 chromosomes / an extra chromosome 21.
+- Three sets of chromosomes in each cell (triploid, 3n) instead of two: a disadvantage is interference with sexual reproduction / infertility - meiosis (reduction division) is not possible, so gamete formation / seed production is impaired. It is commoner in plants than in animals because many plants can reproduce asexually / propagate vegetatively - mitosis is unaffected / meiosis is not involved (also credited: triploids are more hardy / survive better).
+
+SOURCES OF GENETIC VARIATION
+- Mutation (of a gene or a chromosome); meiosis; random mating / cross-fertilisation; random fertilisation / recombination of alleles.
+- Genetic changes that may occur in a population (max 2): gene mutation; chromosome mutation; codominance.
+- A feature unique to each individual: alleles; mutations; meiosis; different combinations of alleles; some homozygous and some heterozygous; codominance. A feature unaffected by another feature is controlled by a different gene.
+- Cross-pollinated species (two parents; mixing of alleles) show more variation in phenotype.
+- Asexual reproduction / binary fission (mitosis) gives identical offspring - a clone, no variation (not "similar"); no meiosis, fertilisation or gametes, only one parent. Reject "no mutation".
+- Meiosis gives genetically different cells / gametes (all gametes are genetically different), which leads to genetic variation in the offspring / population; mitosis gives genetically identical cells / clones - no genetic variation in the offspring. In a comparison of the two divisions the point must be linked to the right division.
+- Sperm nuclei differ from one another (and from the nuclei of body cells) because meiosis gives different allele combinations on the chromosomes.
+- Plants propagated without seeds / without sexual reproduction are all genetically identical, because it is sexual reproduction / gametes that produce genetic variation (ORA).
+- A seedling grown from a seed is not genetically identical to its parent plant: sexual reproduction (shown by the remains of a flower); self- or cross-pollination; with some genes / chromosomes from another flower / plant.
+- A seed and the fruit wall round it are genetically different: the seed results from fertilisation / sexual reproduction; fusion of gametes (pollen nucleus + egg); gametes often from different plants / flowers; gametes made by meiosis / reduction division; giving a new combination of (different) genes / alleles (max 3 for the seed); the fruit wall results from mitosis; so is genetically identical to the parent / a clone.
+- Sexual reproduction (fusion of gametes - including eggs and sperm released into water) gives genetically dissimilar offspring: the offspring show genetic variation (credited as an advantage of sexual reproduction).
+- Genetically different from one another: brothers and sisters in one family; gametes from the same parent; seeds produced by the same tree (two seeds, or two fruits with their seeds, can have different genotypes - each seed comes from a separate fertilisation). Genetically identical: two leaves, two petals or two root cuttings of one plant; cuttings taken from the same plant. Inside a fruit the cotyledon (embryo) has a genotype different from the fruit wall (pericarp) and the flower stalk, which are tissues of the parent plant.
+
+APPLYING GENETICS
+- Marriage between close relatives is discouraged (max 3): the parents appear normal; but may both be heterozygous carriers of the same recessive allele; there is a greater chance; of children inheriting two recessive alleles / being homozygous; and having the condition.
+- Offspring of two different species are usually infertile (max 2): their chromosomes / genes (reject alleles); do not match / pair / differ in number; so meiosis is not possible / gametes cannot be formed.
+- Why a person's blood group needs to be known: transfusion / transplant; to prevent clotting / rejection; to check paternity.

@@ -1,0 +1,41 @@
+17.1 VARIATION
+
+CONTINUOUS VARIATION
+- A range of phenotypes between two extremes - many forms / intermediates; any value from a minimum to a maximum; gradual change, small differences from one to the next; the extremes may differ considerably.
+- Caused by both genes and the environment (the interaction of the two); an example of an environmental factor may be credited (e.g. amount of food, sunlight).
+- Examples: body length / height, body mass / weight, foot length, length of seedlings, mass of fruits, human skin colour (reject eye colour as a continuous example).
+- Shown as a bell-shaped (normal distribution) curve or a histogram with most individuals in the middle classes; a labelled graph is accepted as part of an answer.
+
+DISCONTINUOUS VARIATION
+- A limited number of phenotypes - few, distinct forms / separate categories; no intermediates.
+- Caused by genes only (the result of inheritance); unaffected by the environment / environmental effect small; inherited / passed on to the next generation.
+- Examples: ABO blood groups, seed shape and seed colour in peas, tall and dwarf peas, sex, eye colour, red hair, albinism, sickle cell anaemia, free or attached ear lobes, horns or no horns in cattle, two colour forms of an animal, the number of flagella on a bacterium, ability / inability to show a particular inherited reaction.
+- Shown as a bar chart with separate bars; a labelled bar chart is accepted.
+- A blood-group bar chart shows discontinuous variation because there are no intermediate values / distinct, separate categories / a limited number of phenotypes (not because the percentages differ).
+- In an answer giving one example of each type, a correct example paired with an incorrect one loses the mark.
+
+- Explaining each type with an example: discontinuous - few phenotypes / categories or no intermediates; inherited / passed to the next generation; genes / genotype / alleles; correct example (blood group, eye colour, sex, ear lobes, tongue rolling); bar chart. Continuous - many phenotypes / intermediates / a range; genes + environment; a named environmental factor (diet, exposure to sunlight); correct example (skin colour, hair colour, height, weight); normal distribution.
+
+BOTH TYPES TOGETHER
+- A chart with two separate groups of bars, each group showing a spread (e.g. heights of tall and dwarf pea plants), shows both continuous and discontinuous variation.
+- Four graph shapes: one bell curve (continuous); separate bars (discontinuous); two separate humps (both); a straight line through the origin is not variation data.
+- A characteristic first thought to be either / or, later found to show a range of strengths because of environmental factors, is continuous.
+
+GENETIC AND ENVIRONMENTAL CAUSES
+- Identical twins are alike in characters caused by genes only - any two genetic similarities, e.g. sex, eye colour, blood group, shape of ears / nose (reject "look alike", same age, same chromosomes); because both inherited identical / the same genes; they arise from the same zygote (one sperm and one egg).
+- They may differ in environmentally affected characters, e.g. size, weight, hair colour (reject "different traits" unqualified and intelligence); because genes are only partly responsible / the environment has an effect; with a named environmental factor (amount of sunlight, lack of food).
+- A plant carrying the allele for chlorophyll production still forms no green leaves in the dark - the environment (light) is needed for the character to appear.
+- A condition caused by genes and environment together (e.g. short sight becoming commoner): a change in activity such as less time outdoors / more time looking at near objects, screens or phones; the eyes get too little practice at focusing on distant objects.
+- Plants propagated to be genetically identical (clones) show little variation / mutation; so all / very large numbers lack resistance to a disease (all are genetically susceptible); and, grown close together / connected to one another, a higher percentage is killed than among wild plants - the disease is hard to control.
+- Limited genetic variation follows from isolation and self-pollination: a crop grown in isolation from other varieties of the species (reject "other species") can pollinate only with plants in the same building / cannot cross-pollinate with plants outside, so its seeds show only small variations; a plant that depends too much on self-pollination lacks (genetic) variation.
+
+- The two main causes of variation: genes / mutation (or a named mutagen); and the environment / habitat (or a named environmental factor).
+- Plants of a species growing at very high altitude are much smaller - factors (any two): temperature; oxygen; carbon dioxide; water; soil fertility / lack of nutrients; wind; different genetic make-up / mutation. Reject any of the first five described as "high"; ignore light.
+- A species that is cross-pollinated (has two parents; mixing of genes / alleles) shows more variation in its phenotype than one that is not.
+
+- How variation arises in a natural population (max 4): mutation / change in a gene or chromosome; which is spontaneous / random / sudden; mutagens (radiation / chemicals); meiosis; random mating / cross-fertilisation / recombination; the environment; one environmental factor identified.
+
+INVESTIGATING VARIATION - DATA HANDLING
+- Number of people with a blood group = percentage read from the chart / 100 x population (e.g. 10 % of 63 million = 6.3 million; the correct answer alone earns both marks).
+- A missing percentage = 100 - the sum of the other groups.
+- Measurements such as foot length are grouped into classes and the number in each class counted; a pattern with most individuals in the middle classes indicates continuous variation caused by genes and the environment.

@@ -1,0 +1,76 @@
+14.5 TEMPERATURE CONTROL
+
+IDENTIFYING SKIN STRUCTURES
+- Hair, in its hair follicle.
+- Hair erector muscle: attached obliquely to the hair follicle.
+- Sweat gland: a coiled tube in the dermis with a duct leading to a pore at the surface (when asked for the gland, "sweat duct" was rejected in one scheme; another accepted a label on gland or duct - the label line must touch the structure).
+- Receptors / nerve endings: near the surface or as small end organs in the dermis (a temperature receptor lies under the epidermis); joined to sensory neurones.
+- Blood vessels: capillary loops just under the epidermis, supplied by arterioles from deeper vessels. Accept blood vessel / capillary / artery / arteriole as labels. The vessel that constricts when body temperature falls is the arteriole (accept artery) - the vessel supplying the capillary loops.
+- Fatty tissue (adipose tissue): the layer of rounded cells at the base of the skin.
+- Skin of a hot person is recognised by: sweat on the surface; wider blood vessels / capillaries / more blood in them (reject veins; ignore "constrict / shrink" for the other condition); the condition is "warmer" (a comparative statement is required) / body temperature has increased.
+
+RECEPTORS AND THE HYPOTHALAMUS
+- Receptors / sensors in the skin detect changes in temperature (of the surroundings); also touch, pressure and pain.
+- Sensory (afferent) neurones (reject "nerve") carry impulses to the CNS / brain / spinal cord.
+- The hypothalamus (accept thermoregulatory centre) is the part of the brain that monitors / controls body temperature: it detects the temperature of the blood and triggers the appropriate response. It lies at the base of the brain just above the pituitary gland.
+- Damage to the hypothalamus could cause inability to control body temperature.
+- Motor neurones carry impulses from the brain to the effectors: sweat glands, hair erector muscles, the (smooth) muscle of arterioles / blood vessels (reject capillary as the structure receiving impulses), skeletal muscles (shivering).
+- Full nervous sequence: receptors in the skin detect the temperature of the surroundings / hypothalamus detects blood temperature; impulse; sensory neurone; to the CNS / brain; motor neurone; to a named effector; response (shivering, vasoconstriction or vasodilation, more or less sweat); negative feedback.
+- Order on entering a hot room: temperature receptors in the skin are stimulated; the brain coordinates the response; the skin secretes sweat; sweat evaporates. On entering a cold room: cold receptors in the skin are stimulated first. When the external temperature drops: body temperature falls; the brain detects cooler blood; shivering begins; body temperature rises.
+- Structures involved in temperature control: blood vessels near the skin surface, hypothalamus, skeletal muscles; sweat glands, temperature receptors and blood vessels in the skin; brain and skin.
+
+WHEN THE BODY IS TOO HOT
+- Sweat glands produce / secrete / release more sweat on to the skin surface;
+- the sweat evaporates;
+- evaporation removes heat / thermal energy from the body - cools it (latent heat of vaporisation).
+- Vasodilation: arterioles / blood vessels supplying the skin dilate / widen. Reject "capillaries dilate" in the newest scheme (older schemes accepted dilation with reference to capillaries).
+- More blood flows to / through the capillaries near the surface of the skin. Reject "capillaries move closer to the surface".
+- The capillaries are close to the surface of the skin (ignore "arterioles close to the surface").
+- More heat is lost from the blood; by radiation (accept conduction / a named method). Ignore "keeps warm", "releases energy" unqualified, and heat loss due to sweating when vasodilation is being explained.
+- Hair erector muscles relax; hairs lie flat; less air is trapped / loss of insulation.
+- Metabolism / respiration is reduced.
+- This allows regulation of temperature / prevents overheating.
+- When the air is hotter than the body only the evaporation of sweat can lose heat (vasodilation and stopping shivering cannot).
+- Wet skin feels cold because the water absorbs heat from the body and evaporates. Red cheeks on a hot day are caused by dilated arterioles in the skin.
+
+WHEN THE BODY IS TOO COLD
+- Low temperature is detected; by receptors / sensors in the skin; impulses to the brain / hypothalamus.
+- Vasoconstriction: arterioles / arteries / blood vessels constrict / narrow (their muscle contracts). Reject constriction of capillaries or veins.
+- Less blood flows to the capillaries / close to the skin surface; the blood carries heat, so less heat is carried to the surface.
+- Less heat is lost by radiation.
+- Sweat glands become less active / sweating is reduced or stops; less evaporation of sweat (reject "no evaporation"). This is the one response that does not involve muscle contraction.
+- Shivering: rapid (sudden / uncontrollable / continuous) contractions of (skeletal) muscles; this releases / produces heat (from respiration).
+- Hair erector muscles contract; hairs are raised / stand upright; trap a layer of air; air is a good insulator / insulation; heat loss is reduced.
+- Higher metabolic rate / adrenaline release; behaviour such as moving about or putting on clothes (one behavioural reference credited).
+- Body temperature rises again to normal.
+
+INSULATION
+- Fatty tissue in and under the skin insulates the body / is the best insulator in the skin / helps heat retention.
+- Fat also stores energy and supplies energy / heat; the layer becomes thinner when less food is eaten or more exercise is taken, because fat is respired when the body uses more energy than it takes in. Thinning of the fat layer is the slowest way of losing more heat.
+- A compact body with small ears and a short tail gives a small surface area (to volume ratio) from which heat can be lost - an advantage at low external temperatures.
+- Sweat glands that hardly function in a furry animal of a cold habitat: very little sweat is lost; sweating is not needed / would be harmful; fur would prevent evaporation; less heat is lost.
+
+HOMEOSTASIS AND NEGATIVE FEEDBACK IN TEMPERATURE CONTROL
+- A constant internal (core) temperature is maintained - homeostasis.
+- A change (rise or fall) is detected and corrected / reversed back to normal - negative feedback.
+- Flow diagram: above-normal temperature -> coordinator (brain) -> corrective mechanisms (sweating; more blood flowing close to the skin surface) -> normal temperature; below-normal temperature -> coordinator -> corrective mechanisms (shivering; less blood near the surface) -> normal temperature.
+- Growth of longer hair is not a homeostatic mechanism; a fall in surrounding temperature causing a fall in respiration rate is not negative feedback.
+- Maintaining body temperature uses energy from respiration; an animal with a constant body temperature uses more oxygen as the external temperature falls (below about 28 degrees C); a small mammal diving in very cold water needs more oxygen because mammals regulate their body temperature, respiration releases the heat, and more is needed for muscle contraction.
+- If body temperature does fall, respiratory enzymes work more slowly.
+
+SWEAT AND WATER LOSS
+- Sweat contains water, salts / ions and a little urea (urea is made in the liver).
+- Percentage of daily water intake lost as sweat = volume of sweat / total intake x 100 (200 / 2500 = 8 %).
+- The proportion lost as sweat varies: homeostasis; to keep body temperature constant; sweat evaporates to remove heat; more activity or a higher temperature means more sweat; if the volume lost in faeces / breath / urine changes, the percentage lost in sweat changes.
+- Other routes of water loss: urination; breathing out; faeces; bleeding / crying / vomiting.
+- Sweating rate is higher when walking than sitting (more energy / heat released); when carrying a load (more respiration / work by muscles); in the sun than in the shade (higher temperature / faster evaporation); lower when clothed than unclothed (greater humidity next to the skin / less skin exposed / clothes deflect or absorb heat).
+- On a hot day less urine is made, and a drink that increases urine output should be avoided (water is already being lost in sweat; danger of dehydration).
+- Causes of a rise in body temperature above normal: exercise; high surrounding temperature; high humidity; hot food / drink; increased metabolism / respiration; fever / illness; ovulation; wearing more clothes. It falls again through sweating and its evaporation, vasodilation, more blood to the skin, heat loss by radiation and reduced metabolism.
+- Sweating and transpiration - similarities: loss of water; by evaporation / as vapour; to the surroundings; cooling effect; through pores; in the epidermis; both affected by temperature / humidity / wind. Differences: sweating occurs in animals, loses urea / salts, is under nervous control as part of homeostasis, uses sweat glands / ducts, the sweat coming from the blood.
+
+APPLICATIONS
+- An antiperspirant should be used only on small areas: sweating is inhibited; the ability to regulate temperature would be lost; the body would overheat; affecting metabolism / enzymes. An antibacterial soap is better for controlling odour: it kills the bacteria (reject germs); that decompose / break down; the nitrogenous compounds / wastes in sweat; it can be used all over the body / does not block sweat ducts; temperature regulation is not affected.
+- Alcohol relaxes the muscle of artery walls: vasodilation; more blood to the capillaries; the blood carries heat; more heat is lost; body temperature falls further in the cold (hypothermia).
+- A condition in which hands and feet react as if to extreme cold shows vasoconstriction - blood vessels at the skin surface narrow, reducing blood flow.
+- Graph reading: a rise followed by a fall in body temperature fits vigorous exercise followed by increased sweating; for a daily temperature record read the values at the stated times, take the mean, and find the range as highest minus lowest.
+- Farm animals kept with restricted movement at a surrounding temperature close to their body temperature: less energy is required; to raise body temperature / keep the body warm / for thermoregulation; less movement / muscle activity; less respiration (ignore "energy production"); more energy is available to increase biomass / grow.

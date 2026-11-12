@@ -1,0 +1,5 @@
+   No item is pending and no figure check is outstanding; all 158 eligible pairs are at FULLY VERIFIED as defined in the tracker legend.
+   Work that would strengthen the result further, not done (see section G of excluded_files_and_issues.txt):
+   - a second, independent re-read of the first-pass decisions restored from the saved tracker;
+   - rendering the figures of out-of-scope questions, and the graphs / data tables of in-scope Paper 2 parts whose status is "text sufficient / figure not rendered".
+   Records of the second-session checks: state/log.txt (every decision and note patch), state/oos_fullread.json (complete read of out-of-scope Paper 2 mark schemes), state/hidden_regions.json and state/reinspected_2005_2009.json (renderer correction), state/p2_fig_candidates.json and state/p2_sheets_index.txt (Paper 2 figure inspection), state/audit_result.txt (last audit).

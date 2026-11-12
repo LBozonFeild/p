@@ -1,0 +1,36 @@
+4. HOW THE WORK WAS DONE
+   Pairing. Every Paper 1 and Paper 2 question paper in biology-5090/ (166 files, Oct/Nov 2002 to May/June 2026) was matched to its own official mark scheme or key by session and variant: 154 by file name, 2 through the combined mark scheme of May/June 2004, 2 through the key tables printed in the examiner reports of Oct/Nov 2002 and 2003. 8 question papers have no official scheme or key in the folder and are excluded (excluded_files_and_issues.txt, section A).
+   Extraction. Question text was extracted per question (Paper 1: 40 per paper) and per mark-bearing part (Paper 2), mark-scheme text per label, and each part was matched to its mark-scheme section. Paper 2 part marks add up to the paper total for all 78 papers.
+   First pass (first working session). Every item was read with its key or mark scheme, assigned to a requested subsection or to an out-of-scope code, and its in-scope points were written into the notes. Paper 1 questions that depend on a figure, or whose options could not be read from text, were rendered and viewed.
+   Second session (after the working state was lost and rebuilt from the saved tracker and notes):
+   - all text extracted again; the 16 items left pending were read and verified;
+   - Paper 1 keys re-extracted from the official sources and compared with the tracker;
+   - the complete mark-scheme text of every out-of-scope Paper 2 part re-examined, first by a vocabulary scan and then by reading all of it, family by family; parts crediting in-scope points were given a mixed code and the notes were patched at the same time;
+   - out-of-scope Paper 1 questions containing vocabulary of the requested sections (291 questions, plus every out-of-scope question with genetics vocabulary) re-read against the learning objectives;
+   - the boundary with unrequested sections reviewed against the learning objectives of the 2026-2028 syllabus, and over-inclusions of an earlier step removed (22 Paper 2 parts returned to out-of-scope, 7 lost one subsection code, one block of nuclear-division points removed from 17.3);
+   - lexical coverage checks of the notes against every marking point of the verified Paper 2 parts, with the low-scoring points read by hand, and a ranking of the verified Paper 1 questions by how well their vocabulary is represented, with the lowest-ranked read against the notes;
+   - the renderer corrected and the affected "figure viewed" questions inspected again (section F2 of the issues file);
+   - the figures of the Paper 2 parts whose marking points name or mark structures on a figure inspected page by page;
+   - the notes of 3.1 re-ordered so that every line stands under its proper heading.
+
+5. CHECKS AND THEIR RESULTS
+   Paper 1 keys: 3,200 of 3,200 re-extracted keys agree with the tracker.
+   Paper 1 option format: 64 verified non-figure questions whose options were not line-initial in the extracted text were displayed in full; all keys consistent.
+   Paper 1 notes coverage: 1,540 verified questions ranked by the share of their vocabulary found in the notes of their subsection; the 45 lowest read against the notes (all represented, including the calculation questions of 2025-2026); earlier random sample of 12, all represented.
+   Paper 1 keyed-answer coverage: for the 859 verified questions whose keyed option is text, the wording of the keyed option was compared with the notes of the subsection; the 60 lowest-scoring were examined (tabular answers, ratios and one-off scenarios) and all are represented in the notes.
+   Paper 2 notes coverage, parts coded only with requested subsections: 3,439 marking points; 60 score below one half and were read by hand - they are question-specific data (graph readings, labels to draw, genotype lines, sequence letters) held in the notes as method rules.
+   Paper 2 notes coverage, mixed-code parts: 1,831 marking points; 233 score below one half, as expected because their out-of-scope points are deliberately absent. All were read; one in-scope point was found missing and added (carbon dioxide carried in the plasma as hydrogencarbonate ions), and one part was given an additional in-scope code for a point the notes already held (capillaries join / connect arteries to veins; the mark-scheme word "connect" was added to that line).
+   Complete read of out-of-scope Paper 2 mark schemes: every part read. After the boundary review 180 Paper 2 parts stand in scope because of it.
+   Vocabulary re-check of out-of-scope Paper 1 questions: 37 questions moved in (for example Down's syndrome chromosome number, liver as the site of assimilation of amino acids, diffusion across a dialysis membrane, energy for active transport, cell-structure comparisons of micro-organisms, genetic variation from meiosis and sexual reproduction). Their facts were already in the notes or were added.
+   Figures: 790 verified items have had their figure rendered and inspected (Paper 1: 631; Paper 2: 159). 84 of the Paper 1 questions were inspected a second time after the renderer correction; every key was confirmed. In the Paper 2 inspection every mark scheme agreed with its figure.
+   Automatic audit: 20 checks, all passed on the final run (listed at the end of this report).
+
+6. WHAT "FULLY VERIFIED" MEANS HERE - AND WHAT WAS NOT DONE
+   A pair is FULLY VERIFIED when every question or part of it has been read with its key or mark-scheme section and carries a decision (in scope with subsection, or out of scope with code), no item is pending, no figure check is outstanding, and the in-scope points are in the notes.
+   It does NOT mean that a second person has checked the work, that the first-pass decisions were re-read one by one after the state loss, that the figures of out-of-scope questions were viewed, or that every graph and data table of Paper 2 was rendered. These limits, and the choices made at the boundary of the requested sections, are set out in sections G and H of excluded_files_and_issues.txt. The brief asked for parallel workers and one uninterrupted run; neither was available - one verifier worked sequentially over two sessions, with the state rebuilt once.
+
+7. THE NUMBERS ASKED FOR IN THE BRIEF
+   Eligible question-paper / mark-scheme pairs: 158 (Paper 1: 80; Paper 2: 78).
+   Fully verified pairs (as defined in section 6): 158.
+   Excluded question papers (no official mark scheme or key in the folder): 8.
+   Unresolved issues: none pending or blocking; 4 flagged key / mark-scheme problems are documented in section C of excluded_files_and_issues.txt and resolved in the notes by the priority rule (newer scheme first) or recorded as given.

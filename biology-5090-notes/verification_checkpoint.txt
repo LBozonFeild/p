@@ -1,0 +1,82 @@
+VERIFICATION CHECKPOINT - Cambridge O Level Biology 5090, Papers 1 and 2
+Written 2026-11-12 16:14 UTC. This file is regenerated from the live state every time the deliverables are rebuilt.
+
+1. WHERE THE STATE LIVES (everything needed to resume is inside this folder)
+   biology-5090-notes/_work/state/decisions.json   one record per question-level item: subsection(s), status, key or matched mark-scheme labels, figure status, flags, remarks
+   biology-5090-notes/_work/state/pairs.json       the eligible question-paper / mark-scheme pairs
+   biology-5090-notes/_work/state/log.txt          time-stamped log of every decision and every note patch
+   biology-5090-notes/_work/data/items.json        extracted question text and full mark-scheme text for every item
+   biology-5090-notes/_work/notes/<subsection>.txt the live notes, one file per syllabus subsection
+   biology-5090-notes/_work/scripts/               extraction, viewing, marking, patching, audit and delivery scripts
+   To resume: python3 -m venv venv && venv/bin/pip install pymupdf pillow; then run scripts/show.py <item id> to view an item, scripts/mark.py to record a decision, scripts/deliver.py to rebuild these five files, scripts/audit.py to re-run the consistency checks.
+
+2. PROGRESS AT THIS CHECKPOINT
+   Eligible question-paper / mark-scheme pairs: 158 (Paper 1: 80; Paper 2: 78)
+   Pairs FULLY VERIFIED: 158 of 158
+   Question-level items: 5529 (Paper 1 questions: 3200; Paper 2 mark-bearing parts: 2329)
+      verified, in scope:       2835 (Paper 1: 1546; Paper 2: 1289)
+      read, out of scope:       2694 (Paper 1: 1654; Paper 2: 1040)
+      in scope, still pending:     0
+   Paper 2 items moved into scope by the full mark-scheme audit of out-of-scope items: 180
+   Paper 1 questions moved into scope by the review against the learning objectives: 37
+   Marks available in the eligible papers: 10080
+   Marking points accounted for in verified items: 7441 (Paper 1 keys: 1546; Paper 2 ";" points: 5895)
+   Items whose figure was rendered and inspected: 790 (Paper 1: 631; Paper 2: 159) | figure checks outstanding: 0
+   Marking-point lines (dash bullets) in the notes: 1673
+   Flagged items (key / mark-scheme problems): 4
+
+3. VERIFIED ITEMS AND NOTE POINTS PER SUBSECTION (an item credited to two subsections is counted in both)
+   sec   title                                                     P1      P2  points
+   1.1   CELL STRUCTURE AND FUNCTION                               93      67     105
+   1.2   SPECIALISED CELLS, TISSUES AND ORGANS                     23      22      43
+   3.1   DIFFUSION AND OSMOSIS                                    138     121     115
+   3.2   ACTIVE TRANSPORT                                          62      43      47
+   4.1   BIOLOGICAL MOLECULES                                      65      28      45
+   5.1   ENZYME ACTION                                             61      50      48
+   5.2   EFFECTS OF TEMPERATURE AND pH                             61      67      63
+   7.1   UPTAKE AND TRANSPORT OF WATER AND IONS                    69      47      62
+   7.2   TRANSPIRATION AND TRANSLOCATION                          137     151     142
+   11.1  CIRCULATORY SYSTEM                                        20      15      32
+   11.2  HEART                                                     81      82     102
+   11.3  BLOOD VESSELS                                            109      85      82
+   11.4  BLOOD                                                     60      92      88
+   13.1  EXCRETION                                                 25      28      31
+   13.2  URINARY SYSTEM                                            51      59      65
+   14.1  MAMMALIAN NERVOUS SYSTEM                                  54      51      68
+   14.2  MAMMALIAN SENSE ORGANS                                    78      50      61
+   14.3  MAMMALIAN HORMONES                                        42      48      47
+   14.4  HOMEOSTASIS                                               12      15      23
+   14.5  TEMPERATURE CONTROL                                       88      57      59
+   14.6  BLOOD GLUCOSE CONTROL                                     50      33      38
+   15.1  COORDINATION AND RESPONSE IN PLANTS                       15       6      33
+   17.1  VARIATION                                                 26      28      27
+   17.2  DNA                                                       32      46      45
+   17.3  INHERITANCE                                              203     143     137
+   17.4  SELECTION                                                 42      59      65
+
+4. OUT-OF-SCOPE ITEMS BY CODE
+   code             P1     P2
+   o10             113     63
+   o12             139     65
+   o16             283    227
+   o18             111     57
+   o19             319    202
+   o2               33     21
+   o6              209    106
+   o8              154    166
+   o9              156     78
+   oX              136     51
+   o10+o6            0      1
+   o18+o12           1      0
+   o6+o19            0      2
+   o9+o10            0      1
+
+5. PAIRS NOT YET FULLY VERIFIED
+   none
+
+6. OPEN POINTS AT THIS CHECKPOINT
+   No item is pending and no figure check is outstanding; all 158 eligible pairs are at FULLY VERIFIED as defined in the tracker legend.
+   Work that would strengthen the result further, not done (see section G of excluded_files_and_issues.txt):
+   - a second, independent re-read of the first-pass decisions restored from the saved tracker;
+   - rendering the figures of out-of-scope questions, and the graphs / data tables of in-scope Paper 2 parts whose status is "text sufficient / figure not rendered".
+   Records of the second-session checks: state/log.txt (every decision and note patch), state/oos_fullread.json (complete read of out-of-scope Paper 2 mark schemes), state/hidden_regions.json and state/reinspected_2005_2009.json (renderer correction), state/p2_fig_candidates.json and state/p2_sheets_index.txt (Paper 2 figure inspection), state/audit_result.txt (last audit).

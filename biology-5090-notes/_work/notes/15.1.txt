@@ -1,0 +1,46 @@
+15.1 COORDINATION AND RESPONSE IN PLANTS
+
+GRAVITROPISM AND PHOTOTROPISM
+- Both are plant growth responses; towards or away from a stimulus.
+- Phototropism: the stimulus is light. Gravitropism: the stimulus is gravity.
+- A stem / shoot growing towards light is positive phototropism (the correct example of phototropism).
+- A shoot (plumule) growing upwards, against gravity, shows negative gravitropism.
+- A root (radicle) growing downwards, towards gravity, shows positive gravitropism - two marks: "gravitropism" and "positive".
+- A seed germinating in darkness: the shoot grows up (negative gravitropism) and the root grows down (positive gravitropism). A plant laid on its side in the dark: roots show positive gravitropism, shoot negative gravitropism.
+- A root growing down into soil is not positive phototropism and not negative gravitropism. A main root that emerges into the air and grows back into the soil is responding negatively to the stimulus of light.
+
+AUXIN
+- Auxin is the chemical (plant hormone) made in a plant shoot that coordinates the shoot's responses to light and gravity.
+- Auxin is produced in the shoot tip (not in the stem).
+- It diffuses / spreads down the stem from the shoot tip.
+- It stimulates / promotes cell elongation in shoots (it does not stimulate cell division, germination, ion uptake or root branching, and it does not inhibit elongation).
+- It is unequally distributed in response to light and gravity; in full (all-round) light it is equally distributed.
+
+HOW A SHOOT GROWS TOWARDS LIGHT (POSITIVE PHOTOTROPISM)
+- The response is named phototropism.
+- Light is detected by the shoot (stem) tip.
+- Auxin is produced in the shoot tip;
+- diffuses down the stem / shoot;
+- more auxin moves / diffuses to (accumulates on) the shaded side - the side away from the light / less on the side exposed to light. Reject "auxin is destroyed on the light side"; ignore "uneven distribution" unless qualified.
+- Auxin promotes / stimulates cell elongation;
+- cells on the shaded side elongate more than those on the light side / more growth on the shaded side;
+- the shoot bends / grows towards the light. Ignore "moves towards the light".
+
+HOW A SHOOT GROWS AWAY FROM GRAVITY (NEGATIVE GRAVITROPISM)
+- Auxin diffuses down the stem;
+- auxin collects on the lower side of the stem;
+- cell elongation is stimulated on the lower side of the stem;
+- the stem grows away from gravity.
+
+INVESTIGATIONS
+- Tip covered with a black paper cap / aluminium foil: no response - the shoot grows straight up (the tip detects the light).
+- Tip covered with a transparent cap, or a black collar round the stem below the tip: the shoot still bends towards the light.
+- Permeable layer between tip and stem: the shoot still responds. Impermeable layer between tip and stem: no response (auxin cannot pass down).
+- A thin glass plate inserted across the shaded side just below the tip: the shoot will not grow towards the light (auxin cannot pass down the shaded side). A plate separating the two sides lower down, or a tip removed and then replaced, does not stop the response.
+- Tip cut off and replaced on one side of the shoot (in the dark): auxin passes down that side only, that side elongates more, and the shoot curves away from the side carrying the tip.
+- Seedlings in full light have auxin equally distributed and grow straight; seedlings lit from one side have auxin unequally distributed and bend towards the light.
+- Shoot tips placed on jelly blocks with light from one side: more auxin collects in the block under the shaded side (e.g. 14 units) than under the lit side (6 units); with the tip itself divided by glass the total collected (20 units) is the same. Conclusions: auxin moves downwards out of the shoot tip; its distribution in the tip is affected by light; auxin moves from areas of more light to areas of less light; auxin is not destroyed by light.
+
+PLANT AND ANIMAL RESPONSES TO LIGHT COMPARED
+- Human eye: light detected by the retina / light receptors; involves neurones / the nervous system / electrical impulses; the response is muscular contraction in the iris; making the pupil constrict / smaller.
+- Plant: light detected by the stem tip; involves hormones / auxin; more auxin moves to the side away from the light; causing more growth / elongation on the shaded side; positive phototropism - the stem grows / bends towards the light.
