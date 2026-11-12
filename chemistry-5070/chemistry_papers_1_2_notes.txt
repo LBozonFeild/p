@@ -47,6 +47,12 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Do not say diffusion stops completely when concentrations become equal: equal opposing movements produce zero net movement.
 - Temperature and molecular mass are different variables: avoid attributing a temperature effect to a change in molecular mass.
 - If comparing isotopic gas molecules, calculate the mass of each whole molecule before ranking diffusion rates.
+- Different gases in the same space can intermix without stirring because each gas's particles move freely among those of the other gas.
+- Diffusion in a liquid is usually slower than in a gas because liquid particles are much closer together and less free to travel long distances.
+- The direction of net diffusion follows the concentration gradient, even though an individual particle can move either way at any instant.
+- A sealed vessel reaches uniform composition by diffusion without creating or destroying molecules.
+- A comparison of diffusion times is the reverse of a comparison of diffusion speeds over equal distances: the faster gas takes less time.
+- If two gas molecules have equal relative molecular mass at the same temperature, their diffusion rates are approximately similar under otherwise identical conditions.
 
 2 ATOMS, ELEMENTS AND COMPOUNDS
 
@@ -61,6 +67,11 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - A mixture can have a uniform appearance yet still contain multiple substances; appearance alone does not establish whether chemical bonds formed.
 - Physical separation of a mixture can exploit boiling point, solubility or chromatography behaviour without changing the chemical identities of the components.
 - Chemical separation of a compound requires breaking or forming bonds; a physical process alone cannot separate its constituent elements.
+- An element's symbol identifies the element, whereas a formula records the types and counts or ratios of its atoms.
+- Chemical combination can change the properties of the starting elements; simple mixing generally leaves each substance identifiable.
+- An alloy is a mixture of a metal with one or more other elements, not necessarily a new compound with a fixed formula.
+- A sample can contain more than one phase and still be a mixture; the number of visible layers is not the definition of a compound.
+- When a diagram contains several kinds of particles, classify each particle first, then decide whether the whole diagram represents one substance or a mixture.
 
 2.2 Atomic structure and the Periodic Table
 - An atom consists of a central nucleus of protons and neutrons surrounded by electrons in shells.
@@ -100,6 +111,10 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Keep the distinction between mass number of a particular isotope and relative atomic mass of an element's natural mixture.
 - A nuclide symbol can indicate proton count, neutron count and electron count only after considering any separate ionic charge.
 - The weighted average must fall between the smallest and largest isotope masses used, which provides a check on calculation errors.
+- Isotope abundances can be given as a mass spectrum, a table of percentages or a ratio; the same weighted-mean method works for each.
+- A larger isotope peak means greater abundance, not automatically greater isotope mass.
+- If all isotopes of an element have the same proton number, the chemical symbol is the same even though the mass-number superscripts differ.
+- For an ion of a stated isotope, calculate neutrons from nucleus numbers and electrons from ionic charge in separate steps.
 
 2.4 Ions and ionic bonds
 - Metals lose electrons to form cations; non-metals gain electrons to form anions. An ionic crystal is a regular giant lattice of alternating oppositely charged ions.
@@ -152,6 +167,10 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Graphite and diamond are both forms of carbon but differ in connectivity; do not apply graphite's conductivity to diamond.
 - Silicon(IV) oxide is not a collection of discrete SiO₂ molecules in its giant structure; the formula expresses the overall atom ratio.
 - When comparing giant covalent materials with molecular ones, identify WHICH forces must be overcome during melting.
+- Atoms in diamond are not arranged in flat, easily sliding sheets; all directions in the network are held by strong covalent bonds.
+- Graphite can conduct because its mobile electrons carry charge along layers; its atoms do not need to become ions first.
+- In a comparison of silicon(IV) oxide and diamond, both have three-dimensional strong-bond networks, even though their atomic compositions differ.
+- Hardness and melting temperature require separate explanations if asked: resisting deformation and breaking the network both depend on strong bonds, but the observations are not identical.
 
 2.7 Metallic bonding
 - Metallic bonding is attraction between positive metal ions and mobile delocalised electrons. Mobile electrons enable conduction; layers sliding while bonding remains enable malleability and ductility.
@@ -164,6 +183,10 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Metallic electrical conduction can occur in the solid state because electrons are already free to move; melting is not required.
 - A metal remains coherent when layers slide because electrostatic attraction to the electron sea persists in the new positions.
 - If a question asks specifically why an alloy is harder, explain how differently sized particles obstruct layer movement rather than merely stating 'alloys are stronger'.
+- Positive metal ions and delocalised electrons attract throughout the lattice rather than in isolated pairs.
+- Thermal conduction is also aided by mobile electrons; electrical conduction specifically requires movement of charge.
+- Deforming a metal shifts ion layers without destroying the entire attraction network, unlike shattering many brittle ionic crystals.
+- An alloy's irregular arrangement impedes sliding but does not turn its metal atoms into an ionic compound.
 
 3 STOICHIOMETRY
 
@@ -197,6 +220,10 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - A molecular mass refers to a discrete molecule; an ionic compound's mass calculation uses its simplest formula unit instead.
 - A coefficient in a balanced equation changes the number of formula units reacting but is not part of the Mr of one formula unit.
 - When converting a measured mass to moles, use the correct formula mass for the species actually measured, including bound waters if it is hydrated.
+- Ar and Mr have no units because both compare masses with an agreed atomic reference; molar mass has units g mol⁻¹.
+- Multiplying the formula mass by the number of moles gives mass in grams when the numerical molar mass is in g mol⁻¹.
+- A bracket multiplier applies to every atom inside the bracket; overlooking this changes both Mr and percentage composition.
+- A formula's coefficient in a chemical equation is used for reacting mole ratios, not when calculating the formula mass of one molecule.
 
 3.3 The mole and the Avogadro constant
 - One mole contains 6.02 × 10²³ specified particles (Avogadro constant).
@@ -279,6 +306,10 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - A vehicle using a hydrogen–oxygen fuel cell does not release carbon-containing exhaust from that cell, but hydrogen manufacture and distribution may have separate environmental effects.
 - Compare like with like: point-of-use emissions, infrastructure and storage are distinct dimensions of the petrol-engine comparison.
 - If a mark scheme asks for a disadvantage of storage, describe the storage difficulty rather than asserting a generic danger without context.
+- The overall word equation is hydrogen + oxygen → water; the stoichiometric symbol equation is 2H₂ + O₂ → 2H₂O.
+- Electricity is the useful output, whereas water is the chemical product; avoid identifying electricity as a chemical species.
+- Hydrogen must be supplied and stored for vehicle use, and oxygen can be obtained from air; these are practical rather than equation-balancing issues.
+- Fuel-cell comparisons should not automatically call hydrogen a renewable source: its environmental impact depends on how it was produced.
 
 6.4 REDOX
 - Oxidation is electron loss, oxygen gain or increase in oxidation number; reduction is electron gain, oxygen loss or decrease in oxidation number. Both occur together in a redox reaction.
@@ -333,6 +364,10 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - An amphoteric oxide reacts with acid AND alkali; recognising only its acid reaction is insufficient to show amphoterism.
 - For a basic oxide with an acid, include salt and water among products; for an acidic oxide with alkali, balance the relevant salt formation.
 - Copper(II) oxide and calcium oxide are examples of basic oxides; carbon dioxide and sulfur dioxide are acidic; aluminium oxide and zinc oxide are amphoteric.
+- The oxide classification follows its reaction with acids and/or bases, not merely whether it is solid or gaseous.
+- In an acid reaction of a basic oxide, oxygen from the oxide may become part of water as H⁺ is neutralised.
+- For an amphoteric oxide reacting with strong alkali, a soluble complex salt may form; use the products specified by the question or accepted scheme rather than inventing an unsupported formula.
+- If a non-metal oxide dissolves in water to give an acid, the resulting solution can turn universal indicator toward acidic colours.
 
 7.3 Preparation of salts
 - For an insoluble base, metal or carbonate with acid, add excess solid, filter the unreacted solid, evaporate the filtrate to saturation, then cool, filter and dry crystals.
@@ -370,6 +405,11 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Moving across a period usually changes outer-electron number and hence metallic versus non-metallic character.
 - Same-group elements have the same outer-electron number, which underlies similar reactions even though their atomic sizes differ.
 - Predictions from a group trend should state both the direction of the trend and the predicted qualitative property.
+- For a period-3 atom, three electron shells are occupied; for a Group-VII atom, seven outer electrons are present in the main-group convention.
+- An element's atomic number, not its relative atomic mass, determines its place in the modern Periodic Table.
+- Moving from metallic to non-metallic character across a period does not mean every member has identical properties to its immediate neighbour.
+- To infer group membership from an ionic formula, first work out the ion's charge and then the likely electron loss or gain.
+- An unknown element's given proton number can be converted into shell configuration, group and period before its properties are predicted.
 
 8.2 Group I properties
 - Group I metals are relatively soft; density generally increases down the group.
@@ -382,6 +422,11 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Down the group, increasing reactivity makes water reactions more vigorous while melting point falls.
 - Typical physical traits include softness and comparatively low melting points; density generally rises down the group, with possible exceptions beyond simple generalisation.
 - Separate observations such as fizzing from explanation in terms of electron loss or relative reactivity.
+- The group-I reaction with water can be represented generally as 2M + 2H₂O → 2MOH + H₂ for an alkali metal M.
+- A metal hydroxide dissolving produces an alkaline solution; confirm its alkalinity using indicator behaviour when asked for an observation.
+- As the group-I atoms get larger down the group, the outer electron is generally easier to lose, helping explain the reactivity trend.
+- A reaction's vigour and a metal's melting point follow opposite trends down Group I; do not interchange the two.
+- Describing a metal as 'soft' is a physical property, whereas its water reaction is chemical reactivity.
 
 8.3 Group VII properties
 - Group VII halogens form −1 ions; reactivity decreases down the group. A more reactive halogen displaces a less reactive halogen from its aqueous halide.
@@ -396,6 +441,11 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - A halogen above another in the group can oxidise the lower halogen's halide ion; the reverse displacement does not normally occur.
 - Colour observations may refer to aqueous halogen solution rather than the pure element's r.t.p. appearance; state the relevant context.
 - Down the group the halogen colour darkens, physical density and boiling point increase and chemical reactivity decreases.
+- Halogen displacement can be represented generally as X₂ + 2Y⁻ → 2X⁻ + Y₂ when X is more reactive than Y.
+- The halogen's elemental oxidation number is zero and its halide ion has oxidation number −1; this links displacement to redox.
+- Chlorine can displace bromide and iodide ions; bromine can displace iodide but not chloride under ordinary syllabus conditions.
+- In a halogen comparison, identify whether a colour describes the pure halogen, its vapour or its aqueous solution.
+- A halogen displacement explanation should explicitly identify the MORE reactive halogen; saying only that both are in Group VII does not explain reaction direction.
 
 8.4 Transition elements
 - Transition elements typically have high density and melting point, coloured compounds, variable oxidation states and catalytic activity; distinguish requested physical properties from chemical ones.
@@ -407,6 +457,11 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - A single transition element can form compounds showing different oxidation states; this is what variable oxidation number means.
 - A catalyst speeds a reaction without being permanently used up by the overall process.
 - Coloured compounds may have colours that depend on the oxidation state or ligand environment; state the observed colour only when the compound is identified.
+- High density and high melting point are physical traits; coloured compounds, catalytic behaviour and variable oxidation numbers involve chemical context.
+- The colour of a transition-metal compound is not a colour that must apply to the pure elemental metal.
+- Catalysts may be elements or compounds of transition elements; they change reaction rate without being net reactants.
+- Variable oxidation state permits one metal to form different compounds with different ionic charges and formulas.
+- If the question excludes one named property, supply other distinct features rather than repeating its wording.
 
 8.5 Noble gases
 - Noble gases have full outer electron shells and are generally unreactive and monatomic; helium has two outer electrons, not eight.
@@ -414,6 +469,10 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Helium has a full first shell of two; the other familiar noble gases have eight outer electrons. A full shell is the shared feature, not always an octet.
 - Noble gases have filled outer shells and are monatomic; a molecule containing two noble-gas atoms is not the ordinary elemental description.
 - The full-shell explanation accounts for their low tendency to gain, lose or share electrons under normal conditions.
+- Full outer shells make noble-gas atoms reluctant to form bonds under ordinary conditions; their chemical stability is relative, not a claim that reactions are physically impossible.
+- Noble gases have very low boiling points because individual atoms attract one another only weakly, not because bonds within an atom are broken.
+- A noble gas's shell count increases down its group while its OUTER shell remains filled.
+- In diagrams, show individual atoms rather than diatomic pairs for elemental noble gases.
 
 9 METALS
 
@@ -427,6 +486,11 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Electrical and thermal conductivity are common metallic properties but should be matched to the specific use asked about.
 - Non-metal exceptions to typical low melting point or non-conduction include giant covalent networks and graphite respectively.
 - In a metal reaction with acid, hydrogen is produced only when conditions and reactivity permit displacement.
+- Metals usually form basic oxides with oxygen; exceptions and amphoteric oxides should be handled under the oxide-classification rules.
+- Reactive metal with water can generate hydrogen and a hydroxide; with steam, a metal oxide and hydrogen may form instead.
+- A metal's physical appearance alone does not establish its place in the reactivity series; use chemical tests or supplied data.
+- Electrical conduction can be explained by moving electrons even if the positive ions remain in their lattice positions.
+- An alloy remains a mixture, but its altered lattice can change hardness and corrosion behaviour.
 
 9.2 Uses of metals
 - Aluminium is useful in aircraft and overhead cables for low density, in cables for conduction, and in food containers for corrosion resistance; copper is used in wiring for conductivity and ductility.
@@ -438,6 +502,10 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Overhead cables require both manageable mass and electrical conduction; aircraft structures particularly benefit from low density.
 - Copper wiring needs mobile electrons for conduction and ductility so it can be shaped into wires.
 - If a question names a metal's use, explain the matching property instead of simply restating the use.
+- The low density of aluminium makes long suspended cables lighter and aircraft structures less massive.
+- Aluminium conducts electricity even while a thin protective oxide layer inhibits corrosion at the surface.
+- Copper's ability to be drawn into long wires is its ductility; its conductivity is a separate reason for electrical use.
+- Match corrosion resistance to food-container use, not to an unsupported claim that aluminium is completely unreactive.
 
 9.4 Reactivity series
 - Learn the order potassium > sodium > calcium > magnesium > aluminium > carbon > zinc > iron > hydrogen > copper > silver > gold.
@@ -457,6 +525,14 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - A metal below hydrogen does not displace hydrogen from dilute hydrochloric acid in the ordinary reactivity-series comparison.
 - Cryolite's role is to lower aluminium extraction's operating temperature; it is not the metal being extracted.
 - Carbon anodes lose mass as they react with the oxygen made from discharged oxide ions; replacement is a consequence of this chemical consumption.
+- Use the order of reactivity to predict displacement only if the metal is above the metal ion's element in the series.
+- Water reactions and dilute-acid reactions must be compared under their stated conditions; a low rate does not always mean no possible reaction.
+- Zinc and iron can react with dilute hydrochloric acid to release hydrogen, whereas copper and silver do not under ordinary conditions.
+- Potassium, sodium and calcium react with cold water to produce alkaline hydroxides and hydrogen; relative vigour follows the series.
+- Magnesium reacts with steam producing magnesium oxide and hydrogen; specify steam rather than cold water when the question does.
+- Aluminium's oxide skin can delay an observable acid reaction; removing or penetrating it exposes reactive metal.
+- For the extraction cell, molten aluminium oxide supplies Al³⁺ and O²⁻; the cathode reduction is Al³⁺ + 3e⁻ → Al.
+- The oxide-ion anode half-equation is 2O²⁻ → O₂ + 4e⁻; subsequent oxygen reaction consumes carbon anodes.
 
 12 EXPERIMENTAL TECHNIQUES AND CHEMICAL ANALYSIS
 
@@ -475,6 +551,11 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Check that collection apparatus does not allow gas to escape before measurements start; identify likely systematic errors as well as random variation.
 - A solute may be a solid, liquid or gas; the solvent is the material in which it dissolves.
 - Saturation depends on temperature; a solution saturated at one temperature need not be saturated at another.
+- Determine whether a balance measurement includes the whole vessel or only a reactant before interpreting a mass-time record.
+- For gas measurements, consider whether the gas dissolves in water before choosing collection over water rather than a gas syringe.
+- If a gas is denser than air, collection by upward displacement of air in an upright container may be suitable when it is soluble in water.
+- Rinsing a volumetric apparatus with the solution it will measure can avoid dilution by residual water; safety and method details depend on the task.
+- A fair comparison changes one experimental factor while keeping other relevant quantities and apparatus comparable.
 
 12.2 Acid–base titrations
 - Use a volumetric pipette to measure a fixed aliquot, a burette for the titre and a suitable indicator to identify the endpoint.
@@ -486,6 +567,10 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - An indicator endpoint is recognised from its appropriate colour change; identify it for the acid–alkali system used.
 - A pipette measures the fixed aliquot, while the burette determines the variable volume needed to reach the endpoint.
 - Use repeat measurements and concordant titres where possible before calculating an unknown concentration.
+- Initial and final burette scales must be read in the correct direction and with consistent precision.
+- Choose an indicator whose colour transition identifies the neutralisation endpoint for the specified reagents.
+- The concordant titres represent repeat measurements, not volumes that should all be added together to calculate concentration.
+- A clean salt solution for crystallisation should be made using the determined volumes without added indicator where the method requires purity.
 
 12.3 Chromatography
 - In paper chromatography, put a small spot above the solvent level, mark the solvent front and calculate Rf as distance travelled by solute divided by distance travelled by solvent front. Compare unknowns with standards under the same conditions; use a locating agent for colourless substances.
@@ -498,6 +583,10 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - A solvent should dissolve the sample sufficiently to move its components; insoluble material can remain at the baseline.
 - An unknown matching a reference spot position under the same solvent conditions supports identification, but comparing unrelated solvents is not valid.
 - Measure Rf to the centre of a spot and the solvent front from the same baseline; Rf is a ratio, not a distance.
+- Each spot's Rf is calculated using the same solvent-front distance on that chromatogram.
+- If a spot stays at the baseline its Rf is zero; a spot at the front has Rf close to one.
+- Multiple spots can establish impurity if the locating method detects all relevant components; one spot alone does not guarantee absolute chemical purity.
+- Chromatography separates dissolved components because of differing movement with the solvent and attraction to the stationary paper.
 
 12.4 Separation and purification
 - Separate insoluble solids by filtration; recover dissolved solids by crystallisation; separate miscible liquids by fractional distillation where boiling points differ.
@@ -514,6 +603,11 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - The lower-boiling liquid generally reaches the top of a fractionating column more easily and is collected earlier.
 - Distillation water flows into a condenser jacket at the lower connection and leaves at the upper connection to maintain effective cooling.
 - Purity assessments using boiling point should state the reference boiling point and conditions rather than assuming an unexplained temperature difference always proves impurity.
+- A suitable separation method depends on whether the components are soluble, insoluble, volatile or have different boiling points.
+- Filter after dissolving only if at least one component remains insoluble; two dissolved substances cannot be separated by ordinary filtration alone.
+- Fractional distillation employs a column; simple distillation does not need repeated condensation in a fractionating column.
+- Collect vapour as liquid by cooling in a condenser; the material collected is the distillate.
+- Melting and boiling data identify a substance only when compared with reliable reference values under matching conditions.
 
 12.5 Identification of ions and gases
 - Identify aluminium(III), ammonium, calcium(II), chromium(III), copper(II), iron(II), iron(III) and zinc(II) with aqueous sodium hydroxide and aqueous ammonia, noting precipitate colour and behaviour in excess reagent.
@@ -536,3 +630,10 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - The flame-test colour is observed from the sample in the flame, not the colour of the unheated solid.
 - Sulfur dioxide and chlorine gas tests are not interchangeable: acidified manganate(VII) decolourisation and damp-litmus bleaching test different chemical properties.
 - A negative result with one reagent may be necessary to distinguish ions that share the same initial precipitate colour.
+- A white precipitate alone may fit several cations; test its dissolution in excess sodium hydroxide and/or ammonia to distinguish them.
+- When describing a gas test, include the reagent or apparatus AND the positive observation rather than naming the gas alone.
+- Chlorine first may turn damp blue litmus red and then bleach it white; bleaching is the distinctive final observation.
+- An ammonia test needs damp litmus because dissolved ammonia makes the surface alkaline; dry litmus may not show the expected result.
+- The carbon-dioxide test is limewater turning milky due to a white carbonate precipitate, not simply any liquid becoming cloudy.
+- Sulfite reduces acidified manganate(VII), changing purple to colourless; sulfate instead gives a white barium precipitate after appropriate acidification.
+- When both ammonium and nitrate could be present, check for ammonia on warming with alkali BEFORE adding aluminium, then repeat with aluminium for nitrate.
