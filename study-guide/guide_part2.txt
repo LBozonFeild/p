@@ -1,8 +1,8 @@
-# 9. Program development, testing and data checking
+# 8. Program development, testing and data checking
 
 (The bouncer and the proofreader — section 1.10.)
 
-## 9.1 The program development life cycle (PDLC)
+## 8.1 The program development life cycle (PDLC)
 
 Four stages — know what happens in **each** and which tasks belong where:
 
@@ -13,7 +13,7 @@ T:
 | Coding | Write the program code; test iteratively as you go |
 | Testing | Run the finished code against test data; find and fix remaining errors |
 
-## 9.2 Validation — is the data reasonable?
+## 8.2 Validation — is the data reasonable?
 
 Validation is the **bouncer** (section 1.10): checks run **automatically on input** to reject impossible or suspicious values before processing. The six check types in the syllabus:
 
@@ -38,14 +38,14 @@ if age < 13 or age > 19:
     print("Invalid age")
 ```
 
-## 9.3 Verification — was it entered accurately?
+## 8.3 Verification — was it entered accurately?
 
 Verification is the **proofreader** (section 1.10): it checks that data was **transferred/recorded correctly** (as opposed to being reasonable):
 
 - **Visual check** — a person re-reads the entered data against the source.
 - **Double entry check** — the same data is entered twice and the two entries compared; a mismatch is flagged.
 
-## 9.4 Test data — normal, abnormal, extreme, boundary
+## 8.4 Test data — normal, abnormal, extreme, boundary
 
 Testing needs data chosen to prove the program handles every case — like a crash-test dummy for each kind of impact:
 
@@ -54,7 +54,7 @@ Testing needs data chosen to prove the program handles every case — like a cra
 - **Extreme** — the **largest and smallest acceptable** values (13 and 19).
 - **Boundary** — the extreme values **plus** the corresponding values that must be rejected: just outside on each side (12 and 20).
 
-N: Boundary data is where programs most often fail (the fence-post errors of section 1.2 — __<__ instead of __<=__, or `range` stopping one step early; see section 8). A good test plan always includes boundary values for every range.
+N:(Watch out) **Boundary data catches fence posts.** Boundary values are where programs most often fail — the off-by-one errors of section 2.1 (__<__ instead of __<=__, `range` stopping one step early). A good test plan always includes boundary values for every range.
 
 Q:(3) A registration program requires a username that is **exactly 6 characters long** and contains **letters only**. Identify the validation checks needed and say what each one checks.
 
@@ -82,9 +82,9 @@ Q:(2) Define **validation** and **verification**, making the difference between 
 A: **Validation** checks that input data is **reasonable/acceptable** (within range, right type/format) before it is processed — the bouncer checking the ID looks real. **Verification** checks that data has been **transferred or entered accurately** — the proofreader checking the copy matches the original. One checks sense; the other checks accuracy of entry.
 Mark points: validation definition (1); verification definition (1).
 
-# 10. Flowcharts
+# 9. Flowcharts
 
-## 10.1 The six standard symbols
+## 9.1 The six standard symbols
 
 You must draw flowcharts with **exactly** these shapes — examiners penalise substitutes:
 
@@ -99,7 +99,7 @@ T:
 
 A flowchart is the algorithm drawn as a **road map**: boxes are places you visit, arrows are the roads, and a diamond is a fork in the road where the sign asks a yes/no question.
 
-## 10.2 Loop patterns
+## 9.2 Loop patterns
 
 There is no "loop box" — loops are a **road that circles back**. A WHILE-style loop has the decision before the body; a REPEAT-style loop has it after (its diamond usually sits at the bottom).
 
@@ -143,7 +143,7 @@ while True:
 print("Granted")
 ```
 
-## 10.3 Converting between pseudocode and flowcharts
+## 9.3 Converting between pseudocode and flowcharts
 
 - One box per action; keep assignments (__←__ / `=`) inside **Process** boxes.
 - Conditions go in **Decision** diamonds; label both exits (Yes/No or True/False).
@@ -182,11 +182,11 @@ Q:(2) Sam drew a flowchart in which the decision was drawn as a parallelogram, a
 A: (a) A decision must be drawn as a **diamond** — a parallelogram is the Input/Output shape. (b) Both exit lines of a decision must be labelled (Yes/No or True/False) so the reader knows which condition leads where.
 Mark points: one per error with the correction.
 
-# 11. Boolean logic and logic gates
+# 10. Boolean logic and logic gates
 
 (The tiny decision machines — section 1.11: AND is the two-key safe, OR is the two-door house, XOR is "one slice each, not both".)
 
-## 11.1 The seven gates
+## 10.1 The seven gates
 
 Logic values: TRUE = 1, FALSE = 0. The syllabus examines **NOT, AND, OR, NAND, NOR, XOR (also called EOR)**. NOT has a **single** input; all others have exactly **two**. Circuits are limited to **three inputs and one output**, drawn **exactly as the statement describes — never simplified**.
 
@@ -202,7 +202,7 @@ T:
 - **NOR** = NOT OR: the two-door house with the wiring reversed — the bulb is on only when both doors are shut.
 - **XOR** outputs 1 only when the inputs are **different**.
 
-## 11.2 The three conversions
+## 10.2 The three conversions
 
 You must convert freely in every direction between **problem statement**, **logic expression**, **truth table** and **logic circuit**. Worked example: *A greenhouse fan (X) runs when the temperature is high (A) AND the window is open (B), OR whenever the manual switch (C) is on.*
 
@@ -241,7 +241,7 @@ x = (a and b) or c
 print(int(x))
 ```
 
-N: Write expressions with explicit parentheses: __(A AND NOT B) OR C__. Pseudocode has no operator precedence rule for mixed logical operators, and examiners want the logic to be unambiguous. A 3-input truth table always has **8 rows** (000 to 111).
+N:(Watch out) **Parentheses and precedence.** Write expressions with explicit parentheses: __(A AND NOT B) OR C__. Pseudocode has no operator precedence rule for mixed logical operators, and examiners want the logic to be unambiguous. And count the rows: a 3-input truth table always has **8 rows** (000 to 111) — a table with 6 rows is missing combinations.
 
 Q:(3) Complete the truth table for __X = (A OR B) AND NOT C__.
 
@@ -290,17 +290,17 @@ Q:(2) Compare the behaviour of the OR and XOR gates.
 A: **OR** outputs 1 when **one or both** inputs are 1 (1 OR 1 = 1) — either of two doors lets you in, even both. **XOR** outputs 1 only when the inputs are **different** (1 XOR 1 = 0) — one slice each, not both. They differ only in the case where both inputs are 1.
 Mark points: OR behaviour (1); XOR behaviour including the both-1 case (1).
 
-# 12. Databases
+# 11. Databases
 
 (The spreadsheet with rules — section 1.12: records are rows, fields are columns, the primary key is the candidate number.)
 
-## 12.1 Key concepts
+## 11.1 Key concepts
 
 - A **table** holds **records** (rows) and **fields** (columns).
 - Field data types: **text/alphanumeric**, **character**, **Boolean**, **integer**, **real**, **date/time**.
 - A **primary key** is a field (or combination) that **uniquely identifies each record** — the candidate number on every exam script: no duplicates, no empty values, never changes (e.g. __StudentID__).
 
-## 12.2 SQL — the examinable keywords
+## 11.2 SQL — the examinable keywords
 
 SELECT · FROM · WHERE · ORDER BY ASCENDING · ORDER BY DESCENDING · SUM · COUNT · AND · OR
 
@@ -329,7 +329,9 @@ SELECT SUM(Mark) FROM Students WHERE Class = "9B"
 ```
 Output: 137 (72 + 65).
 
-## 12.3 The same query without SQL
+N:(Watch out) **Every row, both conditions.** When predicting SQL output, check each record against **all** the WHERE conditions (AND means both must hold). Missing one row — or letting a record pass on only one condition — is the classic COUNT mistake.
+
+## 11.3 The same query without SQL
 
 A query is just selection and processing — the same logic in pseudocode and Python (using parallel arrays of the table's columns):
 
@@ -371,180 +373,13 @@ Q:(2) A school table has the fields __Name__, __DateOfBirth__, __Class__ and __S
 A: __StudentID__ — it is unique to every student (unlike Name or Class), always has a value, and never changes.
 Mark points: correct field (1); justification in terms of uniqueness/stability (1).
 
-# 13. Python shortcuts
+# 12. The scenario question — pseudocode and Python as equals
 
-You now know the fundamentals — the long forms. Python offers tidy shortcuts that say the same thing with less typing. **Learn the long form first (that's what the exam's pseudocode expects), then use these to write cleaner Python**, especially in the scenario question. Every shortcut below is real Python, and every one has a plain equivalent you already know.
+## 12.1 The rules
 
-## 13.1 elif — the ladder instead of the spiral
+The **last question of Paper 2** is a 15-mark unseen scenario (~30 minutes of your exam). You may answer in **pseudocode, Python, Visual Basic or Java** — every other question on the paper must be pseudocode. Whichever language you choose, the **logic** earns the marks (structure, correctness, completeness), not language-specific cleverness. Write comments and meaningful variable names — the marking rewards **maintainable** code. In Python answers, the shortcuts from sections 2 to 4 (elif, +=, for-each, f-strings) make your code shorter and cleaner without changing the logic.
 
-Section 2.3 built multi-way choice by nesting IF inside ELSE. When there are three or more branches, that nesting gets deep and repetitive. Python's __elif__ (short for "else if") flattens the ladder — the computer treats it **exactly** like the nested version:
-
-**Nested IF (the fundamental form):**
-```
-if score >= 80:
-    print("Grade A")
-else:
-    if score >= 60:
-        print("Grade B")
-    else:
-        if score >= 50:
-            print("Grade C")
-        else:
-            print("Grade U")
-```
-**elif (the shortcut — same logic, one level flatter):**
-```
-if score >= 80:
-    print("Grade A")
-elif score >= 60:
-    print("Grade B")
-elif score >= 50:
-    print("Grade C")
-else:
-    print("Grade U")
-```
-Read __elif__ as "otherwise, if...". The conditions are tested **top to bottom**, exactly like the nested spiral: the first true branch wins and the rest are skipped. Cambridge **pseudocode has no elif** — it uses IF ... ELSE ... ENDIF (or CASE OF) — so in exams write the nested form; in Python, prefer elif.
-
-## 13.2 += and friends — update the box in place
-
-__x += 1__ is shorthand for __x = x + 1__ ("add 1 to the box, store it back in the same box"). The whole family:
-
-T:
-| Long form | Shortcut |
-| x = x + 1 | x += 1 |
-| x = x - 1 | x -= 1 |
-| x = x * 2 | x *= 2 |
-| x = x / 4 | x /= 4 |
-| total = total + price | total += price |
-| count = count + 1 | count += 1 |
-
-The long form is what Cambridge pseudocode expects (__Total ← Total + Value__); in Python, __+=__ is the house style. (Watch out: Python also has `x //= 2` and `x %= 3` for integer division and remainder updates.)
-
-## 13.3 for-each — when you don't need the index
-
-Walking a list by index works, but if you never use the index, let Python hand you each value directly — like walking the corridor taking things out of every locker without reading the numbers:
-
-**Long form:**
-```
-total = 0
-for i in range(0, len(meals)):
-    total = total + meals[i]
-```
-**Shortcut:**
-```
-total = 0
-for value in meals:
-    total += value
-```
-
-## 13.4 The in operator — retire the OR chains
-
-Checking membership replaces long __or__ chains (and matches the "which set is this in?" question):
-
-```
-# long form
-if ch == "A" or ch == "E" or ch == "I" or ch == "O" or ch == "U":
-# shortcut
-if ch in "AEIOU":
-```
-It works on lists too: `if 90 in marks:` asks "is there a 90 in the corridor of lockers?"
-
-## 13.5 Built-in helpers — sum, max, min, len
-
-Python hands you the standard results directly:
-
-```
-total = sum(meals)       # the till, instantly (section 1.3)
-biggest = max(meals)     # the tallest kid in the line
-smallest = min(meals)
-how_many = len(meals)    # LENGTH
-```
-These are legitimate, readable Python for the scenario question. But be careful: if an exam question asks you to **write** the standard method (find the maximum, total the values), write the loop — the method itself is what's being tested.
-
-## 13.6 String tricks
-
-- **Repetition:** `print("-" * 30)` prints 30 dashes — a neat way to draw a line in outputs.
-- **Reverse slicing:** `print(s[::-1])` reverses a string (the short form of the downward loop in section 3.2).
-- **f-strings:** `print(f"Total: {total}")` drops values inside the text — tidier than `"Total: " + str(total)`.
-
-## 13.7 Shortcut cheat sheet
-
-T:
-| Long form (fundamental) | Shortcut |
-| x = x + 1 | x += 1 |
-| nested if inside else | elif |
-| for i in range(0, len(a)): ... a[i] | for value in a: |
-| ch == "A" or ch == "E" or ... | ch in "AEIOU" |
-| manual totalling loop | sum(a) |
-| manual max/min loop | max(a) / min(a) |
-| "-" + "-" + "-" + ... | "-" * 20 |
-| "Total: " + str(t) | f"Total: {t}" |
-| downward loop to reverse | s[::-1] |
-
-Q:(3) Rewrite this Python program using the shortcuts from section 13 (there are three to apply).
-```
-count = 0
-for i in range(0, len(marks)):
-    mark = marks[i]
-    if mark >= 80:
-        count = count + 1
-        print("Distinction")
-    else:
-        if mark >= 50:
-            count = count + 1
-            print("Pass")
-        else:
-            print("Fail")
-print(count)
-```
-
-A:
-```
-count = 0
-for mark in marks:
-    if mark >= 80:
-        count += 1
-        print("Distinction")
-    elif mark >= 50:
-        count += 1
-        print("Pass")
-    else:
-        print("Fail")
-print(count)
-```
-The three shortcuts: **for-each** (`for mark in marks`), **elif** (flattening the nested IF), and **+=** (`count += 1`). The logic is identical — only the typing is shorter.
-Mark points: one per shortcut applied correctly.
-
-Q:(2) State exactly what this Python code prints.
-```
-n = 5
-total = 0
-while n > 0:
-    total += n
-    n -= 1
-print(total, n)
-```
-
-A: __15 0__. The loop adds 5 + 4 + 3 + 2 + 1 = 15 and counts n down to 0. __total += n__ is __total = total + n__ and __n -= 1__ is __n = n - 1__ — the hamster stops because __n > 0__ finally fails.
-Mark points: 15 (1); 0 (1).
-
-Q:(3) Write one line of Python for each task, using a shortcut:
-(a) print a line of 30 dashes;
-(b) test whether the character __ch__ is a vowel, using __in__;
-(c) output the string __s__ reversed, without a loop.
-
-A: (a) `print("-" * 30)`
-(b) `if ch.upper() in "AEIOU":`  (accept `ch in "AEIOUaeiou"`)
-(c) `print(s[::-1])`
-Mark points: one per task.
-
-# 14. The scenario question — pseudocode and Python as equals
-
-## 14.1 The rules
-
-The **last question of Paper 2** is a 15-mark unseen scenario (~30 minutes of your exam). You may answer in **pseudocode, Python, Visual Basic or Java** — every other question on the paper must be pseudocode. Whichever language you choose, the **logic** earns the marks (structure, correctness, completeness), not language-specific cleverness. Write comments and meaningful variable names — the marking rewards **maintainable** code. In Python answers, the section 13 shortcuts (elif, +=, for-each) make your code shorter and cleaner without changing the logic.
-
-## 14.2 Strategy for a strong 15-mark answer
+## 12.2 Strategy for a strong 15-mark answer
 
 - **Read the scenario twice.** Underline the inputs, outputs, processing and any validation rules — this is the analysis stage and it prevents losing easy marks.
 - **Plan on the question paper**: name your variables/arrays, sketch the main loop, decide whether to use a function or two (e.g. a validation function, a __FindHighest__ function).
@@ -553,7 +388,7 @@ The **last question of Paper 2** is a 15-mark unseen scenario (~30 minutes of yo
 - **Use meaningful identifiers and comments** (the syllabus explicitly assesses maintainability).
 - **Sanity-check with test data** mentally (a normal value, a boundary value) before moving on.
 
-## 14.3 Worked mini-scenario
+## 12.3 Worked mini-scenario
 
 *Ask the user for 5 daily temperatures. Store them. Output the average and the number of days above 25 degrees.*
 
@@ -578,7 +413,7 @@ FOR I ← 1 TO 5
 NEXT I
 OUTPUT "Days above 25 degrees: ", HotDays
 ```
-**Python (with the shortcuts):**
+**Python (with the shortcuts of sections 2 to 4):**
 ```
 # Store 5 daily temperatures and report the average and hot days
 temps = []
@@ -706,15 +541,21 @@ T:
 | CONSTANT Rate ← 5 | RATE = 5 |
 | X ← expr | x = expr |
 | INPUT X | x = int(input("...")) |
-| OUTPUT A, "is", B | print(A, "is", B) |
+| OUTPUT A, "is", B | print(A, "is", B) or f-string |
 | IF c THEN ... ELSE ... ENDIF | if c: ... else: ... |
-| nested IF inside ELSE | nested if inside else (one indent deeper) |
+| nested IF inside ELSE | nested if inside else (or elif ladder) |
 | CASE OF X ... ENDCASE | nested if statements (or elif ladder) |
 | FOR I ← 1 TO N ... NEXT I | for i in range(1, N + 1): |
 | FOR I ← A TO B STEP S | for i in range(A, B + 1, S): |
+| loop over elements with index | for value in a: (for-each) |
 | WHILE c DO ... ENDWHILE | while c: |
 | REPEAT ... UNTIL c | while True: ... if c: break |
-| Total ← Total + Value | total += value |
+| Total ← Total + Value | total += value (also -=, *=, /=) |
+| IF Ch = "A" OR Ch = "E" OR ... | if ch in "AEIOU": |
+| manual total / max / min | sum(a) / max(a) / min(a) |
+| OUTPUT "---" repeated | print("-" * 20) |
+| OUTPUT "Total: ", T | print(f"Total: {T}") |
+| reverse loop with STEP -1 | s[::-1] |
 | DIV(A, B) | A // B |
 | MOD(A, B) | A % B |
 | A ^ B | A ** B |

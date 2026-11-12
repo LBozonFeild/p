@@ -1,16 +1,18 @@
 # How this guide works
 
-This guide covers everything **after** the basics — you already know variables, input/output, operators and decisions, so those are skipped. What remains is the heart of Paper 2: iteration, strings, arrays, subroutines, files, standard algorithms, common errors, testing, flowcharts, Boolean logic, databases and the scenario question.
+This guide covers everything **after** the basics — you already know variables, input/output, operators and decisions, so those are skipped. What remains is the heart of Paper 2: iteration, strings, arrays, subroutines, files, standard algorithms, testing, flowcharts, Boolean logic, databases and the scenario question.
 
 **Section 1 is different from the rest:** it is a fundamentals tour that explains **how and why** every idea works, using analogies (lockers, pizza, bouncers, two-key safes...). If a later section ever feels confusing, go back to section 1 — the analogies are the mental models everything else is built on.
 
-**Pseudocode and Python are treated as equals here.** Every concept is explained with a pseudocode example **and** a Python example, and every coding question has a model answer in **both** languages. Section 13 collects Python's shortcuts (elif, += and friends) — learn the fundamentals first, then use the shortcuts to write cleaner code.
+**Pseudocode and Python are treated as equals here.** Every concept is explained with a pseudocode example **and** a Python example, and every coding question has a model answer in **both** languages.
+
+**Common errors and Python shortcuts are woven into each topic**, right where they belong: whenever a trap exists, a **Watch out** box sits at the exact point where students fall in; whenever Python offers a tidier form (elif, += and friends), a **Python shortcut** box appears next to the fundamental form it replaces. Learn the long form first — the exam's pseudocode expects it — then use the shortcuts to write cleaner Python.
 
 Each section gives you explanations and worked examples, then practice questions with model answers and mark allocations. Try the questions **before** looking at the answers.
 
 N: **The golden exam rule.** In the real Paper 2 exam, every coding answer must be written in **Cambridge pseudocode** — answers in Python (or any real language) score zero, **except** in the final 15-mark scenario question, where pseudocode **or** Python/Visual Basic/Java is allowed. Syntax is never marked: the **logic** is what earns marks. But operators must be precise: write __x > y__, never "x is greater than y".
 
-In this guide, selection is built from **nested IF statements** throughout (in both languages), matching the syllabus requirement for nested selection and iteration. Where multi-way choice is needed, the Python examples nest IF statements inside ELSE blocks. Section 13 then shows Python's __elif__ shortcut for exactly that pattern.
+In this guide, selection is built from **nested IF statements** throughout (in both languages), matching the syllabus requirement for nested selection and iteration. The Python __elif__ ladder is introduced as a shortcut inside section 2.3, once the nested form is solid.
 
 # 1. The fundamentals — how it all works
 
@@ -80,11 +82,11 @@ FOR I ← 1 TO 5                         for i in range(1, 6):
 NEXT I
 ```
 
-Mixing the two up is a classic error (section 8): adding prices into the counter, or clicking the counter once per pound.
+Mixing the two up is a classic error (section 2): adding prices into the counter, or clicking the counter once per pound.
 
 ## 1.4 Arrays are corridors of lockers
 
-An **array** is a corridor of identical lockers with numbers on them. Every locker holds the same kind of thing, and the number (**index**) is how you find a locker fast. Cambridge corridors are usually numbered **1 to N**; Python's are **0 to N−1**. Reading __A[7]__ is walking straight to locker 7. Asking for __A[31]__ in a corridor of 30 is asking for a locker that doesn't exist — **index out of range** (section 8).
+An **array** is a corridor of identical lockers with numbers on them. Every locker holds the same kind of thing, and the number (**index**) is how you find a locker fast. Cambridge corridors are usually numbered **1 to N**; Python's are **0 to N−1**. Reading __A[7]__ is walking straight to locker 7. Asking for __A[31]__ in a corridor of 30 is asking for a locker that doesn't exist — **index out of range** (section 4).
 
 ```
 // pseudocode                          # Python
@@ -170,7 +172,7 @@ Mark points: one per action with the correct name of the check.
 
 # 2. Iteration and nested constructs
 
-(The analogies for these are in section 1.2 and 1.3: FOR = laps, WHILE = pizza, REPEAT = tea, accumulators = the till.)
+(The analogies for these are in sections 1.2 and 1.3: FOR = laps, WHILE = pizza, REPEAT = tea, accumulators = the till.)
 
 ## 2.1 The three loop types
 
@@ -205,6 +207,8 @@ for i in range(1, 10, 2):           # 1, 3, 5, 7, 9
 for countdown in range(10, 0, -1):  # 10, 9, ..., 1
 ```
 
+N:(Watch out) **Fence posts.** __FOR I ← 1 TO 5__ runs **5** times (1, 2, 3, 4, 5) — not 4. In Python, `range(1, 5)` gives only 1 to 4; to include 5 you need `range(1, 6)`. Whenever a loop "prints one too few", check the fence posts first.
+
 **WHILE — pre-condition.** The pizza loop: the test happens **before** each run, so the body can run zero times.
 
 **Pseudocode:**
@@ -219,7 +223,17 @@ while password != "Secret":
     password = input("Password: ")
 ```
 
-**REPEAT ... UNTIL — post-condition.** The tea loop: the body runs **at least once**, and the loop **stops when the condition becomes TRUE** — the opposite of Python's `while`, a classic trap (see section 8).
+N:(Watch out) **The hamster wheel.** A WHILE loop whose counter is never incremented never ends:
+```
+I ← 1                              i = 1
+WHILE I <= 5 DO                    while i <= 5:
+    OUTPUT I                           print(i)
+    // forgot I ← I + 1               # forgot i = i + 1
+ENDWHILE
+```
+FOR/NEXT increments for you; in a WHILE loop, **you** must write the increment.
+
+**REPEAT ... UNTIL — post-condition.** The tea loop: the body runs **at least once**, and the loop **stops when the condition becomes TRUE** — the opposite of Python's `while`.
 
 **Pseudocode:**
 ```
@@ -234,6 +248,14 @@ while True:
     if password == "Secret":
         break                   # stops when TRUE
 ```
+
+N:(Watch out) **UNTIL polarity.** __UNTIL__ stops when the condition is **TRUE** — the sugar must be dissolved. Writing the wrong side of the condition inverts the loop:
+```
+REPEAT
+    INPUT Password
+UNTIL Password <> "Secret"     // WRONG: stops when password is NOT "Secret"
+```
+The condition must describe the state you want to **stop** on: __UNTIL Password = "Secret"__. In Python the twin mistake is forgetting the `if condition: break` entirely.
 
 ## 2.2 Totalling and counting
 
@@ -277,7 +299,17 @@ for i in range(1, 6):
         count = count + 1
 ```
 
-Always initialise the accumulator (__Total ← 0__ / `total = 0`) or counter **before** the loop — start the till receipt at zero.
+N:(Watch out) **The till must start at zero.** __Total ← Total + Value__ needs __Total ← 0__ (and __Count ← 0__) **before** the loop, or the first total is garbage. Also keep the two apart: prices go into the __Total__, clicks go into the __Count__ — writing __Count ← Count + Value__ runs perfectly and is perfectly wrong.
+
+N:(Python shortcut) **+= and friends — update the box in place.** __x += 1__ is shorthand for __x = x + 1__ ("add 1 to the box, store it back in the same box"). The whole family:
+T:
+| Long form | Shortcut |
+| x = x + 1 | x += 1 |
+| x = x - 1 | x -= 1 |
+| x = x * 2 | x *= 2 |
+| x = x / 4 | x /= 4 |
+| total = total + price | total += price |
+Cambridge pseudocode has no __+=__ — it always uses the long form (__Total ← Total + Value__) — so write that in exams; in Python, __+=__ is the house style. (There are also `x //= 2` and `x %= 3` for integer division and remainder updates.)
 
 ## 2.3 Nested IF and nested loops
 
@@ -312,7 +344,9 @@ else:
 
 - Each nested IF has its **own** __ENDIF__ in pseudocode — count them carefully in error-finding questions.
 - In Python the nested IF simply lives **inside the else block** and is indented one level further. Indentation is the structure.
-- Three-way choice = one level of nesting; keep it at three levels or fewer. (Section 13 shows Python's __elif__ shortcut for this exact pattern.)
+- Three-way choice = one level of nesting; keep it at three levels or fewer.
+
+N:(Watch out) **Unmatched ENDIF and broken indentation.** In pseudocode, every __IF__ needs its own __ENDIF__ (two IFs above means two ENDIFs below). In Python, a nested IF left at the wrong indent level silently belongs to the wrong branch — the structure *is* the indentation.
 
 **Nested loops — one total per row** (the cinema: every seat in every row):
 
@@ -336,7 +370,37 @@ for row in range(1, 4):
 ```
 (If the Python grid is 0-based, subtract 1 from the indices — or build the grid 1-based style and keep the indices.)
 
-## 2.4 Loops at a glance
+## 2.4 Python shortcut — the elif ladder
+
+When there are three or more branches, nesting IF inside ELSE gets deep and repetitive. Python's __elif__ (short for "else if") flattens the ladder — the computer treats it **exactly** like the nested version above.
+
+**Nested IF (the fundamental form):**
+```
+if score >= 80:
+    print("Grade A")
+else:
+    if score >= 60:
+        print("Grade B")
+    else:
+        if score >= 50:
+            print("Grade C")
+        else:
+            print("Grade U")
+```
+**elif (the shortcut — same logic, one level flatter):**
+```
+if score >= 80:
+    print("Grade A")
+elif score >= 60:
+    print("Grade B")
+elif score >= 50:
+    print("Grade C")
+else:
+    print("Grade U")
+```
+Read __elif__ as "otherwise, if...". The conditions are tested **top to bottom**, exactly like the nested spiral: the first true branch wins and the rest are skipped. Cambridge **pseudocode has no elif** — it uses IF ... ELSE ... ENDIF (or CASE OF) — so in exams write the nested form; in Python, prefer elif.
+
+## 2.5 Loops at a glance
 
 T:
 | Task | Pseudocode | Python |
@@ -344,8 +408,9 @@ T:
 | Count with step S | FOR I ← A TO B STEP S ... NEXT I | for i in range(A, B + 1, S): |
 | While condition is true | WHILE c DO ... ENDWHILE | while c: |
 | Repeat at least once, until c is true | REPEAT ... UNTIL c | while True: ... if c: break |
+| Multi-way choice | nested IF / CASE OF | elif ladder |
 
-## 2.5 Worked example — trace of a REPEAT loop
+## 2.6 Worked example — trace of a REPEAT loop
 
 Trace tables (the flight recorder, section 1.9) track every variable and output at each step. For inputs 5, −3, 2, 0:
 
@@ -430,7 +495,7 @@ T:
 | 2 | -3 | 5 | 1 |
 | 3 | 2 | 7 | 2 |
 | 4 | 0 | 7 | 2 |
-Output: __7, 2__. The Python twin (see section 2.5) produces exactly the same table and output.
+Output: __7, 2__. The Python twin (see section 2.6) produces exactly the same table and output.
 Mark points: __Total__ column correct after each input (2); __Count__ column correct (1); correct final output (1). Note that −3 is ignored (not > 0) and that 0 is processed before the loop stops, because __UNTIL__ is tested after the body.
 
 Q:(3) Rewrite this FOR loop using a WHILE loop, in pseudocode **and** Python. It must produce exactly the same output.
@@ -487,6 +552,87 @@ print(total)
 ```
 Both versions print __25__ (1 + 3 + 5 + 7 + 9). Mark points: correct loop with __range(1, 10, 2)__ (1); accumulation and output (1). Remember `range` stops before its end value: to include 9 the end must be 10.
 
+Q:(3) This pseudocode is supposed to keep asking until the user enters a valid mark between 0 and 100 inclusive. It does the opposite. Identify the error and fix it.
+```
+REPEAT
+    INPUT Mark
+UNTIL Mark < 0 OR Mark > 100
+```
+
+A: __UNTIL__ stops when the condition is **TRUE**, so this loop stops when the mark is **invalid** — it keeps asking while the mark is valid (the UNTIL polarity trap of section 2.1). The condition must describe the state you want to stop on:
+```
+REPEAT
+    INPUT Mark
+UNTIL Mark >= 0 AND Mark <= 100
+```
+Mark points: explaining the UNTIL polarity (1); corrected condition with both bounds and __AND__ (1); correct final code (1). This is the pseudocode twin of the Python "while True / if: break" trap.
+
+Q:(3) This pseudocode should output the sum 1 + 2 + 3 + 4 + 5 (= 15). Identify the **two** errors and write the corrected code.
+```
+FOR I ← 1 TO 4
+    Total ← Total + I
+NEXT I
+OUTPUT Total
+```
+
+A: **Error 1 — uninitialised accumulator:** __Total__ is never set to 0 — the till starts at garbage (section 2.2).
+**Error 2 — off-by-one bound:** __TO 4__ stops at 4 (fence-post error); the question asks for 1 to 5.
+```
+Total ← 0
+FOR I ← 1 TO 5
+    Total ← Total + I
+NEXT I
+OUTPUT Total
+```
+Mark points: spotting the missing initialisation (1); spotting the wrong upper bound (1); corrected code outputting 15 (1).
+
+Q:(3) Rewrite this Python program using the shortcuts from section 2 (there are three to apply).
+```
+count = 0
+for i in range(0, len(marks)):
+    mark = marks[i]
+    if mark >= 80:
+        count = count + 1
+        print("Distinction")
+    else:
+        if mark >= 50:
+            count = count + 1
+            print("Pass")
+        else:
+            print("Fail")
+print(count)
+```
+
+A:
+```
+count = 0
+for mark in marks:
+    if mark >= 80:
+        count += 1
+        print("Distinction")
+    elif mark >= 50:
+        count += 1
+        print("Pass")
+    else:
+        print("Fail")
+print(count)
+```
+The three shortcuts: **for-each** (`for mark in marks` — see section 4.3), **elif** (section 2.4), and **+=** (section 2.2). The logic is identical — only the typing is shorter.
+Mark points: one per shortcut applied correctly.
+
+Q:(2) State exactly what this Python code prints.
+```
+n = 5
+total = 0
+while n > 0:
+    total += n
+    n -= 1
+print(total, n)
+```
+
+A: __15 0__. The loop adds 5 + 4 + 3 + 2 + 1 = 15 and counts n down to 0. __total += n__ is __total = total + n__ and __n -= 1__ is __n = n - 1__ — the hamster stops because __n > 0__ finally fails.
+Mark points: 15 (1); 0 (1).
+
 # 3. String handling
 
 (Strings are bead necklaces — section 1.5. LENGTH counts the beads; SUBSTRING snips a run; UCASE/LCASE repaint them.)
@@ -513,6 +659,8 @@ T:
 
 Strings join with __+__ in both languages: __FullName ← FirstName + " " + LastName__ / `full_name = first_name + " " + last_name`. Cambridge normally uses 1-based positions — questions will make this clear.
 
+N:(Watch out) **The offset trap.** Cambridge bead 3 is Python bead 2: __SUBSTRING(S, 3, 3)__ = `s[2:5]`. The slicing formula is `s[p-1 : p-1+l]` — subtract 1 from the start **and** add the length to that. When a substring question returns "the wrong letters", check the offset before anything else.
+
 ## 3.2 Processing strings character by character
 
 The standard pattern is a loop over the necklace, bead by bead — count the vowels in __S__:
@@ -538,7 +686,8 @@ for i in range(0, len(s)):
         count = count + 1
 print(count)
 ```
-(Python shortcut: the whole IF collapses to `if ch in "AEIOU":` — section 13.)
+
+N:(Watch out) **Case-sensitive comparisons.** Input "secret" fails against __= "Secret"__. Decide what the question wants: for case-insensitive matching, normalise with __UCASE__ / `.upper()` (as above) or compare against both cases.
 
 Reversing a string — loop downwards along the necklace:
 
@@ -556,8 +705,15 @@ reversed_text = ""
 for i in range(len(s) - 1, -1, -1):
     reversed_text = reversed_text + s[i]
 print(reversed_text)
-# shortcut: print(s[::-1])
 ```
+
+N:(Python shortcut) **String tricks.** The loop above is the fundamental form; Python has neat one-liners built from the same ideas:
+- **Membership:** the vowel IF collapses to `if ch in "AEIOU":` — "is this bead in the vowel set?" It works on lists too: `if 90 in marks:`.
+- **Reverse slicing:** `print(s[::-1])` reverses the necklace without a loop.
+- **Repetition:** `print("-" * 30)` prints 30 dashes — a tidy way to draw a line in outputs.
+- **f-strings:** `print(f"Total: {total}")` drops values inside the text — tidier than `"Total: " + str(total)`.
+
+N:(Watch out) **Text + number in print.** `print("Total: " + total)` is a TypeError — Python refuses to join text to a number. Use `print("Total:", total)`, or `str(total)`, or an f-string.
 
 Other common string tasks: counting occurrences of a character, checking a password against a rule, extracting parts of a formatted code.
 
@@ -631,6 +787,16 @@ OUTPUT LENGTH(S), SUBSTRING(S, 3, 3), UCASE(S)
 ```
 Mark points: __8__ and __mpu__ (1) — remember Python slices are 0-based, so `s[2:5]` is characters at indexes 2, 3, 4; __COMPUTER__ and a correct pseudocode translation (1).
 
+Q:(3) Write one line of Python for each task, using a shortcut from section 3:
+(a) print a line of 30 dashes;
+(b) test whether the character __ch__ is a vowel, using __in__;
+(c) output the string __s__ reversed, without a loop.
+
+A: (a) `print("-" * 30)`
+(b) `if ch.upper() in "AEIOU":`  (accept `ch in "AEIOUaeiou"`)
+(c) `print(s[::-1])`
+Mark points: one per task.
+
 # 4. Arrays
 
 (Lockers and cinema seats — section 1.4. Cambridge lockers are numbered 1 to N; Python's 0 to N−1.)
@@ -659,6 +825,8 @@ In Python a list can also grow: `marks.append(value)`.
 
 Arrays are nearly always used **with loops** — to fill them, print them, search them, or sort them.
 
+N:(Watch out) **Lockers that don't exist.** For __ARRAY[1:30]__ the lockers are __A[1]__ to __A[30]__: a loop starting at 0, or ending at 31, walks past the corridor's end (**index out of range**). And the corridors are numbered differently: Cambridge __Marks[5]__ is Python __marks[4]__ — the same trap as the string offset (section 3.1).
+
 ## 4.2 Two-dimensional arrays
 
 **Pseudocode:**
@@ -674,6 +842,24 @@ grid[1][2] = 7                          # row 2, column 3 in 1-based terms
 print(grid[1][2])
 ```
 Typical operations need **nested loops**: every seat in every row.
+
+## 4.3 Python shortcut — for-each
+
+Walking a list by index works, but if you never use the index, let Python hand you each value directly — like walking the corridor taking something out of every locker without reading the numbers:
+
+**Long form:**
+```
+total = 0
+for i in range(0, len(meals)):
+    total = total + meals[i]
+```
+**Shortcut:**
+```
+total = 0
+for value in meals:
+    total += value
+```
+Use the indexed loop when you **need** the position (searching, swapping, parallel arrays); use for-each when you just need the values.
 
 Q:(3) Write an algorithm to declare an array capable of holding 20 integer exam marks, then fill it with values typed by the user. Write it in pseudocode **and** Python.
 
@@ -754,6 +940,26 @@ for i in range(1, 6):
 ```
 Mark points: correct storage (array declaration / empty list with append) (1); loop producing 1 to 5 and squaring the counter (1). Accept `squares = [i * i for i in range(1, 6)]`.
 
+Q:(4) The Python program below is meant to total the three scores 50, 70, 90 and print the total. It crashes. Identify the **two** errors and write the corrected program.
+```
+scores = [50, 70, 90]
+total = 0
+for i in range(1, 4):
+    total = total + scores[i]
+print("Total: " + total)
+```
+
+A: **Error 1 — 0-based index out of range:** `range(1, 4)` visits 1, 2, 3 but valid indexes are 0, 1, 2, so `scores[3]` asks for a locker that doesn't exist (IndexError). Fix: `range(0, 3)` (or `range(len(scores))`).
+**Error 2 — text plus number:** `"Total: " + total` tries to join text to an int (TypeError — the section 3 watch-out). Fix: `print("Total:", total)`.
+```
+scores = [50, 70, 90]
+total = 0
+for i in range(0, 3):
+    total = total + scores[i]
+print("Total:", total)
+```
+Mark points: each error identified (2 — one per error); each fix shown (2).
+
 # 5. Procedures, functions and modularity
 
 (Recipe cards, blenders and notepads vs whiteboards — section 1.6.)
@@ -819,11 +1025,15 @@ def max_of(value1, value2):
 
 print("The winner is", max_of(score1, score2))
 ```
-The pseudocode definition states the return type (__RETURNS INTEGER__); in Python the returned value's type follows from what __RETURN__ sends back. A Python function without `return` hands back `None` — an empty blender cup (section 8).
+The pseudocode definition states the return type (__RETURNS INTEGER__); in Python the returned value's type follows from what __RETURN__ sends back.
+
+N:(Watch out) **The empty blender.** A Python function without a `return` statement hands back `None` — silently, with no error. The program runs and produces garbage far away from the actual bug. And note the difference: __CALL__ is only for pseudocode procedures; a **function** call is an expression — using __CALL__ on a function (or `return` in a procedure that should return nothing) is a syntax slip examiners see constantly.
 
 ## 5.4 Local and global variables
 
 A variable declared **inside** a procedure/function is written in a **personal notepad** (local) — it exists only there, and shadows any global of the same name written on the **whiteboard**. Python behaves the same way: assigning to a name inside a function creates a **local**, unless you say `global` (best avoided — return values instead).
+
+N:(Watch out) **The shadowing trap.** If a subroutine declares a name that already exists globally, it gets a **fresh local** — changes inside the subroutine do not travel back out. If the subroutine is supposed to change the global value, that change must happen through the **return value** (or pseudocode by not re-declaring the variable inside).
 
 Q:(3) Write a procedure __PrintLine__ with parameters __Symbol : CHAR__ and __Times : INTEGER__ that outputs a single line consisting of __Times__ copies of __Symbol__. Then call it to print 10 stars. Provide the Python version too.
 
@@ -922,7 +1132,7 @@ CALL AddUp
 OUTPUT Total
 ```
 
-A: It outputs __5__. The __Total__ declared inside the procedure is written in the **local notepad**, shadowing the global whiteboard variable; changing it to 10 leaves the global __Total__ untouched.
+A: It outputs __5__. The __Total__ declared inside the procedure is written in the **local notepad**, shadowing the global whiteboard variable; changing it to 10 leaves the global __Total__ untouched (the shadowing trap).
 **Python equivalent:**
 ```
 total = 5
@@ -965,6 +1175,8 @@ f.close()                      # CLOSEFILE
 - __FOR READ__ is taking the folder out to copy pages; __FOR WRITE__ (Python __"w"__) puts in a **brand-new empty folder** — anything the file contained is destroyed.
 - __READFILE__ / __WRITEFILE__ (or `readline()` / `write()`) move one item at a time into/out of a variable.
 - Always __CLOSEFILE__ / `f.close()` — shut the drawer.
+
+N:(Watch out) **The folder that gets emptied and the drawer left open.** Two file errors cause nearly all lost marks: (1) opening __FOR WRITE__ on a file whose contents you wanted to **keep** — write mode **erases** first (it does not append); (2) forgetting __CLOSEFILE__ / `f.close()`, so later reads find stale or missing data. Also never __WRITEFILE__ to a file opened __FOR READ__ (or write with `"r"` in Python) — the modes must match the operations.
 
 ## 6.3 Typical pattern: process a file of values
 
@@ -1099,6 +1311,8 @@ for i in range(1, 12):
         max_value = a[i]
 ```
 
+N:(Python shortcut) **sum, max, min, len.** Python hands you these results directly: `total = sum(meals)`, `biggest = max(meals)`, `smallest = min(meals)`, `how_many = len(meals)`. They are legitimate, readable Python for the scenario question. But be careful: if an exam question asks you to **write** the standard method (find the maximum, total the values), write the loop above — the method itself is what's being tested.
+
 ## 7.2 Linear search
 
 Run your finger down the register, comparing each name to the search key; stop when found:
@@ -1167,6 +1381,8 @@ for outer in range(0, n - 1):
             a[inner + 1] = temp
 ```
 
+N:(Watch out) **The neighbour beyond the end.** The inner loop compares __A[Inner]__ with __A[Inner + 1]__, so it must stop **one locker early**: going __TO N__ reads __A[N + 1]__ (index out of range — Python raises IndexError). The bound is __N - Outer__ (or at least __N - 1__); in Python, `range(0, n)` is wrong for the same reason.
+
 Worked trace sorting 5, 3, 4 (ascending):
 
 T:
@@ -1188,9 +1404,7 @@ A trace table is the flight recorder (section 1.9). Give **one column per variab
 - Keep types consistent (don't put "TRUE" in a number column).
 - A trace table works identically for the pseudocode and Python versions of a program — the logic is the same.
 
-## 7.5 Debugging — quick recap
-
-Section 8 lists the common syntax and logic errors in detail with corrections. For error-finding questions, remember the big five: missing increment (hamster wheel), wrong comparison (fence-post error), uninitialised accumulator (till starting at garbage), array index out of range (locker that doesn't exist), wrong operator (__=__ where __←__ is needed, or words instead of symbols).
+The **Watch out** boxes in sections 2 to 6 are the debugging checklist: hamster wheel (missing increment), fence posts (off-by-one), UNTIL polarity, uninitialised till, offset traps, lockers that don't exist, empty blender, mode mismatch. When a program misbehaves, run down that list before anything else.
 
 Q:(4) The array __A__ holds 7, 2, 9, 4 in positions 1 to 4 and __SearchKey__ is 9. Complete a trace table for the linear search below (columns __I__, __A[I]__, __Found__, __Position__) and state the output.
 ```
@@ -1297,154 +1511,3 @@ Q:(2) Explain why programmers use dry-runs and trace tables before running a pro
 
 A: They verify the **logic** of an algorithm step by step without executing it — the flight recorder shows every variable's value at every step, which reveals errors (wrong conditions, uninitialised variables, bad arithmetic) early, before coding or when no computer is available. The same dry-run works for pseudocode and Python, because the logic — not the syntax — is what is being checked.
 Mark points: checking logic / finding errors before running (1); detail about tracking values at each step (1).
-
-# 8. Common errors in pseudocode and Python
-
-Most lost marks are not clever mistakes — they are the same dozen errors appearing again and again. Learn this section as a checklist.
-
-## 8.1 Same idea, different syntax
-
-T:
-| Idea | Pseudocode | Python |
-| assign | X ← X + 1 | x = x + 1 |
-| compare equal | IF X = 5 | if x == 5: |
-| not equal | IF X <> 5 | if x != 5: |
-| integer division | DIV(10, 3) gives 3 | 10 // 3 gives 3 |
-| remainder | MOD(10, 3) gives 1 | 10 % 3 gives 1 |
-| power | X ^ 2 | x ** 2 |
-| first element | A[1] (usually) | a[0] |
-| loop 1 to N inclusive | FOR I ← 1 TO N | for i in range(1, N + 1): |
-| repeat until true | REPEAT ... UNTIL c | while True: ... if c: break |
-
-## 8.2 Pseudocode errors
-
-**1. Assigning with = instead of ←**
-```
-Total = Total + 1          // WRONG: this compares
-Total ← Total + 1          // RIGHT: this assigns
-```
-
-**2. Words instead of operator symbols**
-```
-IF X is greater than 5     // WRONG
-IF X > 5                   // RIGHT
-```
-
-**3. Missing terminators.** Every construct closes: __ENDIF__, __ENDWHILE__, __NEXT I__, __ENDCASE__, __ENDPROCEDURE__, __ENDFUNCTION__. Count them in pairs.
-
-**4. REPEAT ... UNTIL polarity.** The loop stops when the condition is **TRUE** — the sugar must be dissolved (section 1.2):
-```
-REPEAT
-    INPUT Password
-UNTIL Password <> "Secret"     // WRONG: stops when password is NOT "Secret"
-```
-```
-REPEAT
-    INPUT Password
-UNTIL Password = "Secret"      // RIGHT: stops when password IS "Secret"
-```
-
-**5. Uninitialised accumulator.** __Total ← Total + Value__ needs __Total ← 0__ before the loop — the till must start at 0.00 (section 1.3).
-
-**6. Missing increment → hamster wheel.** FOR/NEXT increments for you; in a WHILE loop you must write __I ← I + 1__ yourself.
-
-**7. Array bounds.** For __ARRAY[1:30]__ the first locker is __A[1]__ and the last is __A[30]__ — a loop from 0, or to 31, asks for lockers that don't exist (section 1.4).
-
-## 8.3 Python errors
-
-**1. = is assignment, == is comparison**
-```
-if score = 100:            # WRONG: assigns (and is a syntax error here)
-if score == 100:           # RIGHT
-```
-
-**2. Colons and indentation.** Every `def`, `if`, `else`, `while`, `for` line ends with __:__ . A nested IF sits **inside** the else block, indented further:
-```
-if score >= 80:                # WRONG shape for nested choice
-print("A")
-else:
-print("B")                 # WRONG: not indented
-```
-```
-if score >= 80:                # RIGHT
-    print("A")
-else:
-    if score >= 60:
-        print("B")
-    else:
-        print("C")
-```
-
-**3. range is exclusive at the end.** `range(1, N)` gives 1 to N−1. To include N: `range(1, N + 1)` — the fence-post rule (section 1.2).
-
-**4. input() returns text.** `value = input("Age: ")` then `value + 1` fails. Use `value = int(input("Age: "))`.
-
-**5. Text + number in print.** `print("Total: " + total)` is a TypeError. Use `print("Total:", total)` or `print("Total: " + str(total))` (or an f-string — section 13).
-
-**6. Lists are 0-based.** `a[0]` is the first locker and `a[len(a) - 1]` the last; habitually writing `a[i]` for i = 1..n reads one past the end (IndexError).
-
-**7. while True without break.** A REPEAT translation must contain its `if condition: break` or the hamster never gets off the wheel.
-
-**8. A function without return.** Python hands back `None` — an empty blender cup (section 1.6) — silently producing wrong results far down the line.
-
-## 8.4 Logic errors that appear in both languages
-
-- **Off-by-one conditions:** __<__ instead of __<=__ (fence-post error) prints/counts one item too few.
-- **Wrong update direction:** in a smallest-value search, writing __IF Value > Smallest__ finds the biggest instead.
-- **Totalling into the wrong variable:** __Count ← Count + Value__ (should be __Total ← Total + Value__) is silent — the program runs, the answer is wrong (prices scanned into the clicker, section 1.3).
-- **Wrong loop variable in a nested loop:** using __Row__ where __Column__ belongs (e.g. __Grid[Row, Row]__) — looking up the wrong seat.
-- **Case-sensitive comparison:** input "secret" fails against __= "Secret"__ — decide whether the question wants case-insensitive matching (__UCASE__ / `.upper()`).
-
-Q:(4) The Python program below is meant to total the three scores 50, 70, 90 and print the total. It crashes. Identify the **two** errors and write the corrected program.
-```
-scores = [50, 70, 90]
-total = 0
-for i in range(1, 4):
-    total = total + scores[i]
-print("Total: " + total)
-```
-
-A: **Error 1 — 0-based index out of range:** `range(1, 4)` visits 1, 2, 3 but valid indexes are 0, 1, 2, so `scores[3]` asks for a locker that doesn't exist (IndexError). Fix: `range(0, 3)` (or `range(len(scores))`).
-**Error 2 — text plus number:** `"Total: " + total` tries to join text to an int (TypeError). Fix: `print("Total:", total)`.
-```
-scores = [50, 70, 90]
-total = 0
-for i in range(0, 3):
-    total = total + scores[i]
-print("Total:", total)
-```
-Mark points: each error identified (2 — one per error); each fix shown (2).
-
-Q:(3) This pseudocode is supposed to keep asking until the user enters a valid mark between 0 and 100 inclusive. It does the opposite. Identify the error and fix it.
-```
-REPEAT
-    INPUT Mark
-UNTIL Mark < 0 OR Mark > 100
-```
-
-A: __UNTIL__ stops when the condition is **TRUE**, so this loop stops when the mark is **invalid** — it keeps asking while the mark is valid. The condition must describe the state you want to stop on:
-```
-REPEAT
-    INPUT Mark
-UNTIL Mark >= 0 AND Mark <= 100
-```
-Mark points: explaining the UNTIL polarity (1); corrected condition with both bounds and __AND__ (1); correct final code (1). This is the pseudocode twin of the Python "while True / if: break" trap.
-
-Q:(3) This pseudocode should output the sum 1 + 2 + 3 + 4 + 5 (= 15). Identify the **two** errors and write the corrected code.
-```
-FOR I ← 1 TO 4
-    Total ← Total + I
-NEXT I
-OUTPUT Total
-```
-
-A: **Error 1 — uninitialised accumulator:** __Total__ is never set to 0 — the till starts at garbage.
-**Error 2 — off-by-one bound:** __TO 4__ stops at 4 (fence-post error); the question asks for 1 to 5.
-```
-Total ← 0
-FOR I ← 1 TO 5
-    Total ← Total + I
-NEXT I
-OUTPUT Total
-```
-Mark points: spotting the missing initialisation (1); spotting the wrong upper bound (1); corrected code outputting 15 (1).

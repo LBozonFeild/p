@@ -294,9 +294,12 @@ def build_story():
                 story.append(boxed([head] + flows, "#1e1e1e", "#6a6a6a"))
                 story.append(Spacer(1, 7))
             elif first.startswith("N:"):
-                body_lines = [first[2:].strip()] + block[1:]
+                rest = first[2:].strip()
+                m = re.match(r"^\(([^)]+)\)\s*(.*)$", rest, re.S)
+                label = m.group(1) if m else "Note"
+                body_lines = ([m.group(2)] if m else [rest]) + block[1:]
                 flows = chunk_flowables(body_lines, st_note)
-                story.append(boxed([Paragraph("<b>Note</b>", st_note)] + flows,
+                story.append(boxed([Paragraph(f"<b>{esc(label)}</b>", st_note)] + flows,
                                    "#212121", "#7a7a7a"))
                 story.append(Spacer(1, 7))
             elif first.startswith("- "):
