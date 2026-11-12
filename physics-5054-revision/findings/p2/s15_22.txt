@@ -1,0 +1,50 @@
+# P2 s15_22 | figs viewed: 1.1, 1.2 (straight line from 40 cm at 0 N to 80 cm at 10 N), 2.1 (wall 2.0 m × 15 m × 0.25 m), 5.1, 9.1 (five wavefronts spanning 6.0 cm), 9.2 (vertical wavefronts meeting a slanting boundary), 11.1, 11.2 (velocity rises linearly to 14 m/s at 1.4 s, peaks at about 18.5 m/s, zero at 4.0 s, then negative), 11.3, 10.2 | not viewed: 3.1, 3.2, 4.1, 6.1–6.3, 7.1, 8.1, 10.1
+1a | 1.3 | a mass hung on a spring exerts a force because of its weight – the pull of gravity on the mass (it is in a gravitational field) [B1]
+1b | 1.1 | a vector quantity has a direction (as well as a size) [B1]
+1ci | 1.5.3 | {F} stretched length = unstretched length + extension (e = l − l₀) [B1] ;; extension at a given force = length read from the length-force graph − length at zero force = 76 − 40 = 36 cm [B1]
+1cii | 1.5.3 | {F} length-force graph for a spring that becomes easier to stretch beyond the limit of proportionality: the line curves upwards [B1]
+2a | 1.1 | instrument to measure a length of several metres in one measurement: tape (measure) [B1]
+2bi | 1.4 | density = mass ÷ volume (mass per unit volume) [B1]
+2bii | 1.4 | {F} V = length × height × thickness = 15 × 2.0 × 0.25 = 7.5 m³ [C1] ;; density = 18 000 ÷ 7.5 = 2400 kg/m³ [A1]
+2biii | X1.8 | P = F/A
+2biv | X1.8 | pressure and area
+3ai | 1.7.4 | efficiency = useful energy output ÷ energy input = 95 000 ÷ 120 000 [C1] ;; 0.79 or 79% [A1]
+3aii | 1.7.5 | useful power = useful energy ÷ time = 90 000 ÷ 60 [C1] ;; 1500 W [A1]
+3b | 1.7.5 | the appliance that supplies more useful energy per minute to the water (greater useful power output) heats it to boiling first – transfers energy at a faster rate [B1]
+3c | X2.1 | steam vs water molecules
+4a | X2.2 | mcΔT
+4b | X2.2 | latent heat of melting ice
+4c | X2.3 | conductor
+5a | 4.2.1 | rubbing makes the balloon negative: negative charge moves from the hair to the balloon [C1] ;; it is electrons that move from the hair to the balloon [A1]
+5b | 4.2.1 | the hair is left positively charged [B1] ;; opposite charges (positive and negative) attract [B1]
+5c | 4.2.1 | the charged object must be an insulator so that the charges / electrons do not flow away (are not conducted to earth through the person) – they stay on it [B1]
+5d | 4.2.1 | useful static electricity, e.g. photocopier, electrostatic precipitator (removing fly ash), spray painting, printing, crop spraying [B1]
+6ai | X4.5 | generator
+6aii | X4.5 | alternating e.m.f.
+6b | X4.5 | generator changes
+7a | X4.4 | neutral wire
+7b | X4.4 | earth and fuse
+7c | X4.4 | double insulation
+7d | X4.4 | circuit breaker
+8a | X5 | isotopes
+8b | X5 | neutral atom
+9a | 3.1 | frequency of a wave: number of waves (oscillations) that pass a point [M1] ;; in one second / per unit time [A1]
+9bi | 3.1 | {F} wavelength = distance spanned ÷ number of wavelengths (spaces between wavefronts) = 6.0 ÷ 4 = 1.5 cm [B1]
+9bii | 3.1 | v = fλ = 5.0 × 1.5 [C1] ;; 7.5 cm/s [A1]
+9ci | 3.1 | water wave slowing down in shallower water: wavelength decreases [B1] ;; because it travels a shorter distance in the same time – the frequency stays the same and v = fλ [B1]
+9cii | 3.1 | {F} refraction into shallow water at an angle: wavefronts in the shallow water drawn with a smaller wavelength [B1] ;; turned so that they make a smaller angle with the boundary [B1] ;; and joined to the wavefronts in the deep water at the boundary [B1]
+9di | 3.1+3.4 | difference between a sound wave and a water wave – sound: particles vibrate backwards and forwards along the direction of travel (compressions and rarefactions; about 300–330 m/s in air) [B1] ;; water wave: particles move up and down at 90° to the direction of travel (crests and troughs; much slower) [B1]
+9dii | 3.4 | experiment to show refraction of sound: a source of sound, e.g. loudspeaker (and signal generator) [B1] ;; something in which sound travels at a different speed and is shaped so that refraction can occur, e.g. a balloon filled with carbon dioxide [B1] ;; a detector, e.g. a microphone, moved to show that the sound has changed direction / is concentrated at one place [B1]
+10ai | X4.1 | induced poles
+10aii | X4.1 | reversed poles
+10aiii | X4.1 | iron vs steel
+10bi | X4.3 | thermistor
+10bii | X4.5 | relay circuit
+10biii | 4.2.4+X4.3 | {F} p.d. across a component = IR with the current in amperes = 0.0015 × 2000 [C1] ;; 3.0 V [A1] ;; p.d. across the component in series with it = supply p.d. − 3.0 = 9.0 V [B1] ;; current in a branch connected directly across the supply = V/R = 12 ÷ 200 = 0.060 A [C1] ;; battery current = sum of the branch currents = 0.060 + 0.0015 = 0.0615 A (61–62 mA) [A1]
+10biv | X4.3 | LDR
+11ai | 1.2 | velocity: distance travelled per second (speed) [C1] ;; in a given direction – displacement per unit time / rate of change of displacement [A1]
+11aii | 1.2 | a negative velocity is in the opposite direction to a positive velocity [B1]
+11aiii | 1.2 | {F} acceleration from a velocity-time graph: a velocity and its corresponding time read from the straight section [C1] ;; a = (v − u) ÷ t [C1] ;; 14 ÷ 1.4 = 10 m/s² [A1] ;; comment: this is the acceleration of free fall (g) – the only force acting is the weight [A1]
+11aiv | 1.5.1+1.2 | {F} the lowest point of the motion is where the velocity is zero (changing from positive to negative): t = 4.0 s [B1] ;; forces at the lowest point: the weight (force of gravity) acts downwards [B1] ;; the stretched cord exerts an upward (tension / elastic) force [B1] ;; the upward force is greater than the weight, so the resultant force and the acceleration are upwards [B1]
+11bi | 1.7.1 | {F} conservation of energy with no air resistance: kinetic energy at C = loss of g.p.e. = 20 000 − 15 000 = 5000 J [B1] ;; at the lowest point all the energy is elastic potential energy = 20 000 J [B1]
+11bii | 1.7.1 | height fallen = loss of g.p.e. ÷ (mg): 5000 = 50 × 10 × h [C1] ;; 10 m [A1]

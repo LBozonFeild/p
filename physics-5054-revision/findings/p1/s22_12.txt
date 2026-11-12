@@ -1,0 +1,41 @@
+# P1 s22_12 | main sheets 1-3 and rest sheet viewed
+1 C 1.1 the largest possible resultant of two forces is their sum (when they act in the same direction): 3.0 + 4.0 = 7.0 N
+2 B 1.1 a metre rule measures a length of about half a metre; a micrometer measures a diameter of a fraction of a millimetre
+3 B 1.5.2 {F} on a parachutist's speed–time graph the parachute opens at the point where the speed starts to fall sharply from the first terminal velocity
+4 D 1.5.1 resultant force = ma: F − mg = ma, so the upward force from the floor = m(g + a) = 60 × (10 + 2.0) = 720 N
+5 A 1.5.4+X6 {F} the resultant force on an orbiting body acts towards the centre of the orbit (towards the Earth), at right angles to its motion
+6 C 1.4 {F} mass of the stone = difference in balance readings = 92.5 − 55.0 = 37.5 g; volume = rise in water level = 35 − 20 = 15 cm³; density = 37.5 ÷ 15 = 2.5 g/cm³
+7 B 1.5.5 {F} block about to tip about a corner: moment of F = moment of the weight, F × 40 = 50 × 4.0 (the weight acts through the centre, half the base width from the pivot), so F = 5.0 N
+8 B 1.5.6 {F} the centre of mass is lowest when the block rests on its largest face; adding a weight on top raises the centre of mass
+9 C 1.5.3 {F} limit of proportionality: the point where the force–extension graph stops being a straight line through the origin
+10 C 1.5.3 extension = 66 − 30 = 36 cm for 6.0 N (6.0 cm per newton); 2.0 N gives 12 cm, so the new length = 30 + 12 = 42 cm
+11 D X1.8 {F} barometer
+12 C X1.8 {F} manometer
+13 A 1.7.3 a nuclear reactor gives a continuous, steady output for the longest time; solar and wind outputs vary and a cell runs down
+14 A 1.7.5+1.7.2 {F} power = work done ÷ time = force × distance ÷ time; for the same distance and time the largest force gives the greatest power
+15 B 1.7.4 useful energy = 600 − 45 − 15 = 540 kJ; efficiency = 540 ÷ 600 = 0.90
+16 C X2.3 radiation through a vacuum
+17 A X2.3 {F} dull black emitter
+18 C XOLD {F} thermometer scale
+19 B XOLD {F} sensitivity and range
+20 B X2.2 condensation
+21 D X2.2 expansion of states
+22 B X2.2 boiling and evaporation
+23 C X2.2 evaporation rate
+24 D 3.2.1 {F} a mirror at 45° to a ray reflects it through 90°: the angles of incidence and reflection (from the normal) are both 45°; two parallel mirrors at 45° send the ray out parallel to its original direction
+25 B 3.2.3 {F} magnifying glass (object inside the focal length): the rays diverge after the lens and appear to come from a larger, upright, virtual image on the same side as the object
+26 B 3.2.4 visible spectrum in order of increasing wavelength: violet, indigo, blue, green, yellow, orange, red
+27 A 3.4 {F} sound is a longitudinal wave; a region where the particles are crowded together is a compression (spread out = rarefaction)
+28 B 3.4 {F} echoes from two walls: speed = difference in the there-and-back distances ÷ time difference = (2 × 200 − 2 × 50) ÷ 1.0 = 300 m/s
+29 A 3.4 a use of ultrasound: cleaning jewellery
+30 C 4.2.1 {F} charging by induction: a positive rod attracts electrons to the near side of the metal sphere, leaving the far side positive
+31 A 4.2.1 {F} a metal rod (conductor) joining a charged and an uncharged metal sphere lets the charge be shared, so both end up with charge of the same sign
+32 B 4.2.2 {F} electrons are negatively charged and flow round the circuit from the negative terminal to the positive terminal, opposite to the conventional current
+33 C 4.2.3+4.2.2 charge passing in 2.0 s = 0.40 × 2.0 = 0.80 C; p.d. = energy ÷ charge = 20 ÷ 0.80 = 25 V
+34 D 4.2.2 {F} an ammeter measures the current in the component it is in series with (in the same branch)
+35 D 4.2.3+1.7.5 energy = charge × voltage = 1.5 × 3600 = 5400 J; power = energy ÷ time = 5400 ÷ 0.0030 = 1.8 × 10⁶ W
+36 C X4.3 {F} switches and lamps
+37 C X4.4 {F} double insulation
+38 D X4.5 {F} left-hand rule
+39 C X4.5 {F} induced current
+40 D X4.5 high-voltage transmission

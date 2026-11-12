@@ -1,0 +1,38 @@
+# P1 w06_1 | main sheet and rest sheets 1-2 viewed; zoom viewed for Q1, 5, 10, 11; Q3 is identical to s09_1 Q5; Q7 to s10_12 Q10; Q34 to s09_1 Q35
+1 A 1.1 {F} diameter measured between two blocks under a ruler = difference between the readings at the inner faces of the blocks = 8.0 − 3.5 = 4.5 cm (not the outer faces and not the reading itself)
+2 D 1.1 force, acceleration, velocity and displacement are vectors (4); power, work, time and mass are scalars
+4 C 1.5.1+1.5.2 resultant force = push − friction = 10 − 4 = 6 N; a = F ÷ m = 6 ÷ 2 = 3 m/s² (a constant resultant force gives a constant acceleration, not a constant speed)
+5 C 1.2 {F} ticker tape: 11 dots mark 10 intervals, each 1/50 s, so time = 0.20 s; speed = 20 ÷ 0.20 = 100 cm/s (count the spaces, not the dots)
+6 D 1.4 {F} objects made of the same material have the same density whatever their shape or mass
+8 C 1.7.1 {F} a dropped ball that bounces: gravitational potential energy → kinetic energy → elastic potential energy (while squashed against the ground) → kinetic energy
+9 D XOLD mass–energy equivalence
+10 B X1.8 {F} mercury barometer height
+11 C X1.8 {F} manometer with a denser liquid
+12 B X1.8 {F} hydraulic pistons
+13 C X2.1 liquids and gases flow
+14 A X2.2 evaporation
+15 C XOLD thermometer sensitivity
+16 A X2.2 latent heat of vaporisation
+17 D X2.2 specific latent heat from power and time
+18 B X2.3 conduction and convection
+19 C 3.1 a wavefront is a line joining points along the peak (crest) of a wave
+20 B 3.1 {F} period read from a displacement–time graph = 2.0 s (time for one complete cycle); f = 1 ÷ T = 0.50 Hz
+21 D 3.2.1 {F} for people the same distance from a plane mirror, the reflection point is midway between the observer and the person seen: 1 m or 2 m from an end student, 1 m either side of the middle student – all inside a 3 m mirror centred on the middle student, so all three see the images of the other two
+22 B 3.2.3 the eye's converging lens forms a real, inverted, diminished image of a distant object
+23 A 3.4+X4.6 {F} loud means large amplitude and low-pitched means low frequency (few cycles on the screen): choose the trace with the tallest waves and the fewest cycles
+24 C X4.5 {F} solenoid field
+25 C X4.1 {F} magnetic screening
+26 D 4.2.1 {F} charging by induction with two touching metal spheres: the rod only separates charge, so after the spheres are moved apart the far sphere has a charge equal in size and opposite in sign to that on the near sphere (positive here)
+27 B 4.2.4 resistance is proportional to length and inversely proportional to cross-sectional area: half the length and twice the area gives 8 × ½ × ½ = 2 Ω
+28 B 4.2.4+X4.3 {F} p.d. across the parallel pair = IR = 4 × 6 = 24 V; current in the 12 Ω = 24 ÷ 12 = 2 A; ammeter in the main circuit reads 4 + 2 = 6 A
+29 A 1.7.5+X4.4 energy = power × time: 5000 W for 60 s = 300 000 J is the least of the four, so it costs the least (cost step outside the selected sections)
+30 D X4.4 fuse rating
+31 B X4.5 {F} force on a current-carrying wire
+32 D X4.5 {F} split-ring commutator
+33 A X4.5 {F} step-up transformer output
+35 C X4.5+X4.6 {F} generator trace period
+36 C XOLD {F} capacitor charging
+37 C X5 nuclide notation
+38 D X5 half-life
+39 C X5 penetrating and ionising power
+40 B X5 {F} decay chain

@@ -1,0 +1,97 @@
+ORDER A B E C G D F Z
+== A | Positive and negative charge; forces between charges | attract|repel|charge | 6
+- Like charges repel; unlike (opposite) charges attract.
+- An uncharged object has equal numbers of positive and negative charges.
+- Two spheres repel when both have charge of the same sign.
+- Positively charged particles are attracted to a negative plate and repelled by a positive plate.
+- Electrons move on to the object that becomes negative and off the object that becomes positive.
+- A positively charged sphere touched by an uncharged metal sphere: the positive sphere becomes less positive (B1); the other sphere becomes positively charged (B1); because electrons flow from the uncharged sphere to the positive one (B1). The two then repel.
+- Experiment to show that a rod is charged – apparatus: small pieces of paper, a thin stream of water, a (gold-leaf) electroscope, or a suspended / pivoted charged rod (B1); observation: the paper is attracted / the water stream bends / the leaf rises / the suspended rod is repelled or attracted (B1).
+* A conductor joining a charged and an uncharged metal sphere lets the charge be shared, so both end with charge of the same sign.
+* Only repulsion proves the sign of a charge: a rod that attracts a positive strip and repels a negative strip is negative; a rod that repels neither strip is uncharged.
+* On two charged conducting spheres the charges move to the sides furthest from each other when the charges are alike, and gather on the facing sides when they are opposite.
+== B | Charging by friction: transfer of electrons | rubb|friction|cloth|hair | 3
+- Charging by friction (rubbing): electrons – negative charge – move (B1, C1 or M1), from one object to the other in the stated direction (B1 or A1). The first mark is for naming electrons / negative charge as what moves; positive charges do not move.
+- The object that gains electrons becomes negative; the object that loses electrons is left positively charged (B1).
+- A rod rubbed with a cloth that becomes negative: electrons move from the cloth on to the rod (B1); the cloth is left positive (B1). A rod that becomes positive: electrons are transferred from the rod on to the cloth, and the cloth becomes negative.
+- Hair rubbed on a balloon: the balloon becomes negative and the hair is left positively charged (B1); opposite charges attract (B1).
+- A liquid rubbing against a pipe becomes negatively charged: electrons move (M1) from the pipe to the liquid (A1).
+- A person becomes positively charged by friction when he loses negative charge (C1): electrons are transferred from him to the surface (A1), which gains the electrons and becomes negatively charged (B1).
+* Rubbing transfers electrons only: the two objects gain equal and opposite charges, which then attract. Protons do not move and there are no positive electrons.
+* An aircraft becomes charged by friction with the air.
+== E | Conductors and insulators | conductor from an insulator|insulat|free electrons|free to move|are (good )?electrical conductors|is a conductor|made of metal | 2
+- In a conductor the electrons are free to move; in an insulator they are not (B1). Two-mark version: free / mobile / delocalised electrons mentioned (B1); they are present in a metal and not present in a plastic (B1).
+- Plastic is an insulator because it has no free electrons – all its electrons are bound.
+- Insulators credited: plastic, perspex, polythene, nylon, glass, rubber, polystyrene. Conductors credited: any metal, carbon (graphite).
+- An earthing cable is made of metal because metal is a conductor: it allows charges / electrons to flow through it.
+- A charged object must be an insulator (or be held by one) so that the charges do not flow away to earth through the person – they stay on it.
+- Charge stays on a rubbed balloon because the balloon / rubber / air is an insulator (C1): electrons cannot move through the rubber or the air (A1).
+- Experiment to distinguish a conductor from an insulator: a circuit with a cell, a lamp (or ammeter) and the material under test connected in a gap – or a charged electroscope touched with the material (M1); the lamp lights / the ammeter reads with a conductor but not with an insulator (A1); a named conductor (B1); a named insulator (B1).
+* Metals are good conductors because they have free electrons that can move.
+* An insulator such as polythene held in the hand gains a large charge when rubbed with wool; the charge on a hand-held metal rod flows away through the hand.
+== C | Induced charges on a conductor; attraction of uncharged objects (earlier syllabuses) | induc|uncharged|conducting sphere near|far side|side nearest|nearest the|cloud|conductor near | 5
+- A charged rod brought near an uncharged conductor: like charges repel (B1); the electrons in the conductor move away from a negative rod to the far side (B1); the positive charges do not move, so the side nearer the rod is left positively charged (B1).
+- Drawing the induced charges: signs of the opposite kind to the rod on the side nearest the rod and of the same kind on the far side (M1 or B1); equal numbers of positive and negative signs, no more than the number shown on the rod (A1 or B1).
+- Two touching conductors near a positive rod: negative charge on the side nearest the rod and positive on the far side of the further sphere (M1); equal numbers of each, with none on the touching sides (A1).
+- The uncharged sphere is attracted to the rod: the unlike charges on its near side are attracted (B1); this attraction is greater than the repulsion of the like charges on its far side, because the unlike charges are closer to the rod (B1).
+- A negatively charged rod near a stream of water attracts the positive particles (B1) and repels the negative particles (B1), so the side of the stream nearest the rod carries a net positive charge (B1).
+- The ground beneath a negatively charged cloud becomes positive: electrons in the ground are repelled by the cloud, leaving the surface positive (B1), because like charges repel (B1).
+- An object on the ground below a positively charged cloud becomes negatively charged: electrons are attracted by the cloud (B1) and come up from the ground (B1).
+- Conducting grains between charged plates: electrons move towards the positive plate, leaving the layer nearest the negative plate positively charged.
+* A positive rod attracts electrons to the near side of an isolated metal sphere and leaves the far side equally positive; there is no overall charge. Only electrons move.
+* With two touching spheres the rod only separates charge: after the spheres are moved apart they carry charges equal in size and opposite in sign.
+* A negatively charged object brought near a wall repels electrons in the wall, leaving the near surface positive, so the object is attracted.
+== G | Earthing; charging by induction (earlier syllabuses) | earth | 4
+- Earthing: connecting the object to the earth / ground (0 V).
+- Sphere earthed while a negative rod is near: electrons flow from the sphere to earth (B1), because they are repelled by the negative charge on the rod (B1); the sphere is left positively charged (B1), with the charge only on the side nearest the rod and the far side neutral.
+- Metal earthed while a positive rod is near: it gains a net negative charge, on the side near the rod.
+- Earth connection removed first and then the rod: like charges repel each other (B1), so the charge spreads uniformly over the whole surface of the sphere (B1).
+- Rod removed while the earth wire is still connected: the charge flows to or from earth and the metal becomes neutral (B1).
+- Earthing a charged sphere: its charge disappears – it becomes neutral, with equal numbers of positive and negative charges.
+* Charging by induction, in order: bring the charged rod close; earth the sphere (touch it); remove the earth connection; then remove the rod. The sphere is left with a charge opposite to that of the rod.
+* A positive rod attracts electrons from earth on to an earthed sphere; a negative object repels electrons to earth. Protons do not move.
+* Bringing an earthed plate closer to a positively charged plate attracts more electrons on to it from earth.
+* A charged rod attracts a stream of water from an earthed tap: the rod induces the opposite charge on the water, charge flowing to or from earth through the tap.
+== D | Electric fields | field|droplet|deflected towards | 0
+- Electric field: a region (of space) in which an electric charge experiences a force.
+- Field between two oppositely charged parallel plates: at least three (four in one scheme) straight lines perpendicular to the plates (B1); equally spaced, curving outwards only at the edges (B1); arrows from the positive plate to the negative plate (B1).
+- Field between a positive and a negative sphere: at least three lines running from one sphere to the other, spreading out as they leave one sphere and coming together at the other (C1 or B1); arrows from the positive sphere to the negative sphere (A1 or B1).
+- Field around a negatively charged sphere: at least five straight radial lines outside the sphere, perpendicular to its surface, none curved (B1); arrowheads pointing inwards towards the sphere, none wrong (B1); lines uniformly spaced at the surface, never crossing or touching (B1).
+- Force on an electron between plates: connect a battery / p.d. across the metal plates (B1); the electrons are deflected towards the positive plate, away from the negative plate (B1).
+- Positively charged particles are repelled by the positive plate and attracted by the negative plate (B1), so they are deflected towards the negative plate (B1).
+- A charged droplet accelerating upwards towards the negative plate: the droplet is positively charged (B1); there is a force on it in the direction of the field (B1); this force is greater than its weight, so there is a resultant upward force (B1). On touching the negative plate the droplet becomes negatively charged (C1) because it gains electrons from the plate (A1).
+* The direction of an electric field is the direction of the force on a positive charge; the force on a negative charge is opposite to the field.
+* Field lines point away from a positive charge (radial for a point charge) and run from a positive charge to a negative charge; the field is strongest on the line joining two opposite charges.
+* In a conductor placed in an electric field the free electrons move against the field direction.
+* A stationary charge produces, and feels a force in, an electric field and a gravitational field; a magnetic field needs a moving charge.
+== F | Static electricity in practice: sparks, aircraft, spraying, precipitators (earlier syllabuses) | aircraft|paint|spray|photocopier|precipitator|dust|refuel | 1
+- Charged spray drops spread out because the drops repel each other (B1): they all have the same charge (B1). The paint reaches the back of the object because the drops are attracted by the oppositely charged object (B1).
+- Useful static electricity: photocopier, electrostatic precipitator (removing fly ash), spray painting, inkjet printing, crop spraying.
+- Describing a use: a sensible example (M1); a simple diagram showing the effect (A1); a correctly charged object identified (A1); what the charge does, for example charged paint droplets repel each other and are attracted to the earthed / oppositely charged object (A1).
+- Danger of a charged aircraft during refuelling: a spark may jump from it (B1), which can ignite the fuel / cause an explosion (B1). Alternative: a current to or from the ground through a person (B1) gives a shock (B1).
+- An aircraft is earthed during refuelling so that charge is conducted away along the cable to the ground and cannot build up (B1), avoiding sparks that could ignite the fuel (B1).
+- When a positively charged aircraft lands on conducting tyres its charge is neutralised (B1), because electrons move up to it from the ground through the tyres (B1).
+- A shock after walking on a carpet: friction between shoes and carpet causes charging – electrons move between foot and carpet (B1); the charge then flows between the person and the metal handle, discharging the person (B1).
+* In an electrostatic precipitator the dust particles gain electrons at a negatively charged grid, become negative and are attracted to the positive plates.
+== Z | Other points
+MOVE s12_11|MCQ27|B
+MOVE w23_11|MCQ23|B
+MOVE w09_2|3aii|B
+MOVE w24_12|MCQ27|B
+MOVE s23_12|MCQ26|B
+MOVE s10_22|6ai|B
+MOVE s08_1|MCQ28|B
+MOVE s07_2|11d|F
+MOVE w09_2|3bi|F
+MOVE s18_21|7a|F
+MOVE s06_2|5a|A
+MOVE s14_21|5bi|A
+MOVE s22_12|MCQ31|A
+MOVE s05_1|MCQ26|A
+MOVE s17_22|8a|A
+MOVE w16_12|MCQ32|C
+MOVE s07_2|11bi|C
+MOVE w25_21|7biii|C
+MOVE w11_21|5bii|C
+MOVE s13_22|5ci|C
+MOVE s09_1|MCQ25|C

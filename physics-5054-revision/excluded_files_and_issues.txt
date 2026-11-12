@@ -1,0 +1,62 @@
+EXCLUDED FILES AND ISSUES — Physics 5054 Papers 1 and 2
+updated: 2026-11-12 15:41 UTC
+
+A. QUESTION PAPERS EXCLUDED (no usable mark scheme / not a distinct paper)
+  5054_w02_qp_1.pdf: no corresponding mark scheme file in repository
+  5054_w02_qp_2.pdf: no corresponding mark scheme file in repository
+  5054_s03_qp_1.pdf: no corresponding mark scheme file in repository
+  5054_s03_qp_2.pdf: no corresponding mark scheme file in repository
+  5054_w03_qp_1.pdf: no corresponding mark scheme file in repository
+  5054_w03_qp_2.pdf: no corresponding mark scheme file in repository
+  5054_s10_qp_13.pdf: no corresponding mark scheme file in repository
+  5054_s10_qp_23.pdf: no corresponding mark scheme file in repository
+  5054_w10_qp_13.pdf: no corresponding mark scheme file in repository
+  5054_w10_qp_23.pdf: no corresponding mark scheme file in repository
+  5054_s20_qp_11-solved.pdf: non-standard duplicate/annotated copy of a question paper (scanned "solved" copy); not a distinct paper
+  5054_s21_qp_12-1-solved.pdf: non-standard duplicate/annotated copy of a question paper (scanned "solved" copy); not a distinct paper
+
+B. FILES OUTSIDE THE REQUESTED SCOPE (not Paper 1 or Paper 2) — not examined
+  11 file(s): answer booklets/other
+  40 file(s): examiner reports
+  79 file(s): confidential instructions
+  166 file(s): question papers for components 3/4 (practical / alternative to practical)
+  151 file(s): mark schemes for components 3/4 (practical / alternative to practical)
+  24 file(s): grade thresholds
+
+C. PAIRING NOTES
+  5054_s04_ms.pdf is a combined mark scheme for all components of May/June 2004; Paper 1 key is on its p3 and Paper 2 scheme on pp5-8; it is paired with 5054_s04_qp_1.pdf and 5054_s04_qp_2.pdf.
+  Every paired QP and MS was checked to carry the same component number and session in its own header text (header check); no mismatch was found.
+
+D. OPEN ISSUES FROM VERIFICATION
+  none: no pair has an unresolved check issue (missing sub-question, answer differing from the key, mark tags not adding up without a recorded reason)
+
+E. MANUALLY RECORDED OBSERVATIONS (mark-scheme anomalies, extraction problems, judgement calls)
+  s26_21 (Paper 2): the published mark scheme prints only a single "1" in the Marks column for every part, even multi-mark parts; the marks per marking point were taken from the question-paper allocations and the separately listed mark-scheme lines.
+  w25_21 (Paper 2): mark scheme labels the answer to part 8(b) as "8(b)(i)"; matched to QP part 8(b).
+  s24_21 (Paper 2): mark scheme for 1(d) reads "arrow upwards at D" although the question asks for the resultant force on the ball at point B (bottom of the circular part of the track); recorded as an upward arrow (towards the centre of the circular path) at B – apparent misprint in the mark scheme.
+  s24_22 (Paper 2): mark scheme prints the label "4(a)(ii)" twice; the second entry (conditions for no refraction at Q) is the answer to 4(a)(iii) and was matched to it.
+  w21_21 (Paper 2): Question 7 is an EITHER/OR question (EITHER electromagnetic induction 5 marks, OR logic gates 5 marks), so 95 marks are printed for a 75-mark paper; both alternatives were checked and both are outside the selected sections. Mark scheme labels part 8(a) as "8(a)(i)" and prints "(λ =) c / v" for the wavelength formula in 8(b)(v) where v/f is meant (the numbers 340 / 200 are correct).
+  w21_22 (Paper 2): Question 5 is an EITHER/OR question (EITHER charge/current with an LDR circuit, OR transistor and relay), so 95 marks are printed for a 75-mark paper; both alternatives were checked. Mark scheme for 8(a) refers to "Fig. 7.1" where Fig. 8.1 is meant.
+  s21_22 (Paper 2): Question 8(b) is an EITHER/OR part (EITHER LDR/thermistor potential divider, OR NOR-gate bistable), so 93 marks are printed for a 75-mark paper; both alternatives were checked and both are outside the selected sections.
+  s21_21 (Paper 2): mark scheme for 8(b)(i) reads "cross at centre of right-hand fence and lower than for right-hand fence"; the second "right-hand" is taken to mean the left-hand fence (the wider-based fence has the lower centre of mass). Parts 9(d)(i) and 9(d)(ii) share one 3-mark allocation.
+  w20_22 (Paper 2): mark scheme repeats several part labels – "2(a)(ii)", "8(a)(ii)", "8(b)(ii)" and "9(c)(ii)" are each printed twice; in every case the second entry is the answer to the following part ((a)(iii), (a)(iii), (b)(iii), (c)(iii)) and was matched to it. 7(d)(ii) refers to "Fig. 1.1" where Fig. 7.1 is meant.
+  w19_22 (Paper 2): mark scheme prints the label "10(d)" twice; the second entry (strongly ionising; mutations/cancers) is the answer to 10(e).
+  s19_21 (Paper 2): mark scheme for 8(a)(i) says "split 12 V in ratio 200:1200"; 2000:1200 is meant (answer 7.5 V is correct). Question 8(b) is an EITHER/OR part inside a single 2-mark allocation (relay or transistor); both alternatives are outside the selected sections.
+  w18_21 (Paper 2): mark scheme for 3(a) gives the end of the plotted line as "(7.0, 0.19)"; on the graph it is (7.0 N, 19 cm).
+  w17_21 (Paper 2): Question 6 is an EITHER/OR question (EITHER cathode-ray oscilloscope 4 marks, OR NAND gate 4 marks), so 94 marks are printed for a 75-mark paper; both alternatives were checked and both are outside the selected sections. Mark scheme for 8(b)(i) quotes atom numbers "4.8 × 10^7 / 1.5 × 10^6" where the question gives 4.8 × 10^4 and 1.5 × 10^3 (same ratio, same answer).
+  s16_21 (Paper 2): Question 9 is an EITHER/OR question (EITHER oscilloscope 4 marks, OR transistor/LDR circuit 4 marks), so 94 marks are printed for a 75-mark paper; both alternatives were checked and both are outside the selected sections.
+  s16_21 (Paper 2): mark scheme for 7(a) (2 marks, outside the selected sections) prints a single C1 line only; the second mark is not shown (MS page 3 viewed).
+  w15_21 (Paper 2): mark scheme numbers 10(b)(ii)2 as "(iii)" and 11(c)(ii)1–3 as "(ii)", "(iii)", "(iv)"; matched by content.
+  s16_22 (Paper 2): mark scheme prints only one B1 for each of 5(a)(ii) and 5(b)(i), although the question paper allocates 2 marks to each (MS page 3 viewed); the second marking point for each is not published. The printed points are recorded as they stand.
+  s14_21 (Paper 2): mark scheme for 11(a)(iii)3 offers "4.2 kWh" as an alternative to 15 120 J; 15 120 J is 4.2 W h (0.0042 kW h), so the joule value is the one recorded. In 7(b)(ii) the codes are printed in the order A1 then C1 (method line marked A1, answer marked C1).
+  s14_22 (Paper 2): mark scheme labels the answer to 8(b)(ii) as "(c)(i)"; matched by content.
+  s13_22 (Paper 2): Question 8 is an EITHER/OR question (EITHER a.c. generator 4 marks, OR astable circuit with NOT gates 4 marks), so 94 marks are printed for a 75-mark paper; both alternatives were checked and both are outside the selected sections.
+  s12_21 (Paper 2): mark scheme for 11(b)(ii) reads "deflected down/towards positive (plate)"; in Fig. 11.1 the lower plate is the negative one, so "down / towards the negative plate" is what is meant and is what was recorded.
+  s10_21 (Paper 2): Question 7(b) is an EITHER/OR part (EITHER capacitor 2 marks, OR transistor 2 marks), so 92 marks are printed for a 75-mark paper; both alternatives were checked and both are outside the selected sections.
+  w09_2 (Paper 2): Question 11(c) is an EITHER/OR part (EITHER resistance thermometer 6 marks, OR NAND gate 6 marks), so 96 marks are printed for a 75-mark paper; both alternatives were checked and both are outside the selected sections. They have their own lines in the tracker (11ci-11ciii and 11Oci-11Ociii).
+  w07_2 (Paper 2): Question 8 is an EITHER/OR question (EITHER oscilloscope trace 4 marks, OR transistor moisture detector 4 marks), so 94 marks are printed for a 75-mark paper; both alternatives were checked and both are outside the selected sections.
+  s06_2 (Paper 2): MS 2(c) prints the method mark as "speed/time"; the calculation credited is distance ÷ time (36 m ÷ 12 s = 3 m/s). MS also labels 7(b)(ii) as "(c)". Matched by content.
+  s05_2 (Paper 2): MS 4(b)(i) accepts 0.47 (47%) as well as 0.9 (90%) for the efficiency, i.e. it also credits reading the 5.0 × 10⁹ J as energy wasted in addition to the 4.5 × 10⁹ J output. Recorded as a question-specific allowance, not a general rule.
+  w04_2 (Paper 2): the question paper prints marks only at the end of groups of sub-parts, so tracker leaves such as 3(b)(ii), 4(a)(ii), 9(b)(iv) hold several sub-parts; every sub-part was matched to the scheme inside the leaf. MS 4(c)(ii) accepts 0.75 as well as 1.33 for the refractive index of water (inverted ratio) – question-specific allowance only.
+  s04_2 (Paper 2): combined mark scheme 5054_s04_ms.pdf (pages 5–8). MS 6(a)(ii) prints no mark code (1 mark by the question total); in Q11 the first B1 of (b)(i) is printed above the "(b)(i)" label. The question paper prints marks only at the end of groups of sub-parts, so several tracker leaves hold more than one sub-part. Matched by content. MS 10(b)(iv) prints "12 000/0.3" and "40 000 J/kg" although the mass given is 0.030 kg (12 000 ÷ 0.030 = 400 000 J/kg); this part is outside the selected sections, so no number from it is used in the notes.
+  w18_22 (Paper 2): MS 8(b)(ii)2 prints "3.7 s ⩽ distance ⩽ 4.1 m" (unit slip: metres intended throughout).

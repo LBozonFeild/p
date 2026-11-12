@@ -1,0 +1,49 @@
+# P2 s10_22 | figs viewed: 2.1, 5.1 and 5.2 (rays inside a semicircular block meeting the mid-point M of the flat face), 9.1, 10.1 (pulses S six divisions apart, each reflection R four divisions after its S; one division = 1.0 × 10⁻⁶ s), 11.2 (thermistor and 2000 Ω in series across 6.0 V, voltmeter across the 2000 Ω) | not viewed: 3.1, 4.1, 7.1–7.4, 9.2 and 11.1 (blank axes)
+1a | 1.1 | resultant of two perpendicular displacements by scale drawing: both displacements drawn head-to-tail with the correct resultant and a scale given [B1] ;; size 540 ± 10 m [B1] ;; direction 22° ± 3° east of north [B1]
+1b | 1.1 | a journey of non-zero distance has no resultant displacement if it ends where it started (e.g. returns along the same path) [B1]
+2a | 1.7.5 | the watt: a rate of transfer of energy (energy ÷ time) [C1] ;; of 1 joule in one second [A1]
+2bi | 1.5.1+1.3 | tension in a cable lifting a load at constant speed = weight = mg = 580 × 10 = 5800 N [B1]
+2bii | 1.7.1 | increase in potential energy = mgh = 580 × 10 × 12 [C1] ;; 69 600 J [A1]
+2biii | 1.7.4 | efficiency = useful output power ÷ input power, with output power = 69 600 ÷ 15 = 4640 W [C1] ;; 4640 ÷ 6200 = 0.75 (75%) [A1]
+3a | 3.3+X2.3 | energy from the Sun reaches the Earth by radiation – infrared / electromagnetic waves [B1] ;; which can travel through a vacuum; conduction and convection need a medium [B1]
+3b | X2.3 | conduction
+3c | X2.2 | mcΔT
+4a | X2.2 | evaporation rate
+4b | X2.2 | evaporation
+5ai | 3.2.2 | critical angle: the smallest angle of incidence for total internal reflection – the angle of incidence for which the refracted ray travels along the surface (angle of refraction 90°) [B1]
+5aii | 3.2.2 | {F} critical angle marked between the incident ray and the normal at the point of incidence [B1]
+5aiii | 3.2.2 | at the critical angle the ray continues along the surface (with a reflected ray inside the glass) [B1]
+5b | 3.2.2 | {F} a ray meeting the surface at less than the critical angle is refracted out into the air, bending away from the normal [B1]
+5c | 3.2.2 | n = sin i ÷ sin r so sin r = sin 50° ÷ 1.5 [C1] ;; r = 31° (unit needed) [A1]
+6ai | 4.2.1 | an object becomes positively charged by losing electrons [B1]
+6aii | 4.2.1 | when a positively charged aircraft lands on conducting tyres its charge is neutralised (becomes zero) [B1] ;; because electrons move up to it from the ground through the tyres [B1]
+6b | 4.2.1 | an aircraft is earthed during refuelling so that charge is conducted away and cannot build up [B1] ;; avoiding sparks that could ignite the fuel (fire / explosion) [B1]
+7a | X4.1 | compass directions
+7b | X4.5 | relay
+7ci | X4.3 | LDR
+7cii | X4.3 | relay circuit
+8ai | X5 | detector
+8aii | X5 | safety
+8aiii | X5 | random emission
+8b | X5 | gamma
+9ai | 1.5.2 | thinking distance: distance travelled during the driver's reaction time – before braking starts [B1]
+9aii | 1.5.2 | braking distance: distance travelled while the brakes are applied (while the car decelerates) [B1]
+9bi | 1.5.2 | fair test of the effect of load on braking distance: keep the speed the same (and the braking force, tyres and brake condition) [B1]
+9bii | 1.5.2+1.5.1 | a fully loaded car has a greater braking distance because it has greater mass (inertia, kinetic energy, momentum) – smaller deceleration for the same force [B1]
+9c | 1.5.2 | road condition and braking distance: e.g. a wet / icy / slippery surface increases it [B1] ;; because there is less friction between tyres and road [B1]
+9d | X1.8 | pressure and area
+9ei | 1.2 | deceleration a = change in speed ÷ braking time = 20 ÷ 4.0 [C1] ;; 5.0 m/s² [A1]
+9eii | 1.5.1 | braking force F = ma = 900 × 5.0 [C1] ;; 4500 N [A1]
+9eiii | 1.2 | speed-time graph for stopping: axes labelled with quantity and unit [B1] ;; horizontal line at the initial speed (20 m/s) during the reaction time (0 to 0.60 s) [B1] ;; then a straight line down to zero at 4.6 s [B1]
+9eiv | 1.2 | total distance travelled = area under the graph (area of the trapezium) [B1]
+10a | 3.4 | measuring the speed of sound in air: how the sound is made, e.g. starting pistol, clap, hammer on metal [B1] ;; time measured correctly, e.g. from seeing the flash to hearing the sound, or between clap and echo [B1] ;; distance measured correctly, e.g. from gun to observer, or observer to wall [B1] ;; calculation: speed = distance ÷ time (2 × distance ÷ time for an echo) [B1] ;; precaution: use a large distance (over 200 m); repeat and average; clap in time with the echo and time many claps; repeat in the opposite direction / no wind [B1]
+10bi | 3.4 | ultrasound: sound of high frequency that cannot be heard [C1] ;; frequency above 20 kHz (15–20 kHz accepted) [A1]
+10bii | 3.1 | {F} number of pulses per second = 1 ÷ time between pulses; time between pulses read from the trace = 6 × 10⁻⁶ s [C1] ;; 1.7 × 10⁵ per second [A1]
+10biii | 3.4 | a reflected ultrasound pulse has a smaller amplitude than the pulse sent out, any 2: not all the sound is reflected (some passes through the far surface); some energy is absorbed by the material; the sound spreads out / is scattered as it travels [B2]
+10biv | 3.4 | {F} a crack halfway through the metal gives an extra pulse halfway (in time) between the transmitted pulse and the reflection from the back surface [B1] ;; smaller than the transmitted pulse, and repeated after each transmitted pulse [B1]
+10bv | 3.1+3.4 | λ = v/f = 4000 ÷ 8.0 × 10⁶ [C1] ;; 5.0 × 10⁻⁴ m [A1]
+11a | 4.2.4 | experiment on resistance and temperature of a wire: circuit with cell and ammeter in series with the wire and a voltmeter across the wire [B1] ;; resistance calculated from R = V/I [B1] ;; temperature measured with a thermometer [B1] ;; temperature changed with a water bath / oven and the readings repeated [B1]
+11bi | 4.2.4 | resistance of a metal filament increases with temperature [M1] ;; approximately linearly [A1]
+11bii | 4.2.4 | current-p.d. sketch for a filament: curved line starting at the origin [C1] ;; with decreasing gradient (never negative) [A1]
+11ci | X4.3 | thermistor circuit
+11cii | 4.2.4+X4.3 | {F} p.d. across the thermistor = 6.0 − 3.8 = 2.2 V [C1] ;; series current = p.d. across the fixed resistor ÷ its resistance = 3.8 ÷ 2000 = 1.9 × 10⁻³ A [C1] ;; R = 2.2 ÷ 1.9 × 10⁻³ = 1160 Ω (1200 Ω) [A1]

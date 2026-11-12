@@ -1,0 +1,39 @@
+# P1 s08_1 | main sheets 1-3 and rest sheets 1-2 viewed; Q1 micrometer scale enlarged and viewed; zoom viewed for Q8, 31; Q3 is identical to w23_11 Q3; Q15 to s14_12 Q19
+1 B 1.1 {F} micrometer reading = sleeve reading (last mark visible, including the half-millimetre mark: 6.5 mm) + thimble reading (13 divisions × 0.01 mm = 0.13 mm) = 6.63 mm
+2 D 1.1 {F} the resultant of two forces at an angle lies between them (found with a parallelogram or tip-to-tail drawing): a force up to the right plus a larger force downwards gives a resultant down to the right
+4 C 1.2 {F} acceleration is the gradient of a speed–time graph: a steeper straight line (4 m/s², 0 to 20 m/s in 5 s) followed by a less steep line that still rises (2 m/s², 20 to 30 m/s in the next 5 s)
+5 D 1.5.4+4.2.1 an electron is kept moving in a circle round the nucleus by an electrostatic force directed towards the nucleus
+6 C 1.4 {F} volume of the solid by displacement = 140 − 35 = 105 cm³; density = mass ÷ volume = 210 ÷ 105 = 2.0 g/cm³
+7 C 1.5.3 {F} the limit of proportionality is read at the end of the straight-line section of the extension–load graph (60 N here)
+8 A 1.5.5+1.5.6 {F} moment of the weight about the point of suspension = weight × perpendicular (horizontal) distance from the pivot to the vertical line through the centre of mass = 2.0 × 0.30 = 0.60 N m, turning the lamina back towards the position with the centre of mass below the pivot
+9 D 1.7.1 {F} a ball rolling down a track and stopping lower on the other side: potential energy → kinetic energy + heat → potential energy + heat (heat is produced on the way down as well as on the way up)
+10 B 1.7.2 {F} work done against gravity = weight × vertical height = 2000 × 0.80 = 1600 J (not the length of the slope)
+11 A 1.7.4 {F} overall efficiency = final useful energy output ÷ original energy input = 100 ÷ 400 = 25 %
+12 C X1.8 liquid pressure
+13 A X2.1 Boyle's law
+14 C X2.3 vacuum flask
+16 A X2.2 {F} expansion gap
+17 C X2.2 melting and warming
+18 B X2.1 heated gas
+19 C X2.2 {F} evaporation
+20 A 3.1 {F} wavelength is the distance from one crest to the next; a wavefront is a line along a crest (seen from above); the height of a crest above the undisturbed level is the amplitude
+21 A 3.1 {F} the frequency is unchanged by refraction: f = v ÷ λ = 9.6 ÷ 1.2 = 8.0 Hz; in the shallow water v = fλ = 8.0 × 0.8 = 6.4 cm/s
+22 D 3.2.2 {F} partial reflection at a glass–air boundary: the reflected ray leaves at an angle equal to the angle of incidence and the refracted ray bends away from the normal as it enters the air
+23 B 3.2.3 {F} for a magnifying glass the ray that arrives parallel to the principal axis is refracted through the principal focus and, traced back, passes through the top of the virtual image: it falls 10 cm in 6.0 cm, so it falls the 5.0 cm from the lens to the axis in 3.0 cm, giving f = 3.0 cm
+24 C 3.2.3 {F} short sight: rays from a distant object are brought to a focus in front of the retina
+25 B 3.2.4+3.3 blue light has the higher frequency; red light has the longer wavelength
+26 C 3.4+X4.6 {F} the same note played on two instruments has the same frequency but a differently shaped waveform, so the sounds differ in quality (timbre)
+27 C X4.1 {F} demagnetising
+28 C 4.2.1 an object becomes positively charged by losing electrons (protons do not move)
+29 B 4.2.1 {F} electric field lines between two opposite point charges run from the positive charge to the negative charge
+30 B X4.3 {F} series and parallel resistance
+31 A X4.3 {F} circuit diagram
+32 A X4.4 {F} fuse position
+33 B X4.5 {F} commutator
+34 B X4.5 {F} induced e.m.f.
+35 D X4.5 {F} a.c. generators
+36 B X4.5 {F} step-up transformer
+37 A X4.3 {F} thermistor potential divider
+38 C X5 deflection in a magnetic field
+39 A X5 choice of source
+40 A X5 nucleus composition

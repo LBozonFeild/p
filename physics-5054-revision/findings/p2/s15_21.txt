@@ -1,0 +1,53 @@
+# P2 s15_21 | figs viewed: 1.1 (A reaches 500 m at 38 s, B at 50 s), 2.1 (hands 0.40 m and toes 0.80 m from the centre of mass), 4.1 (crests at 0.05 m and 0.45 m, troughs at 0.25 m and 0.65 m), 5.1 (50° in air, 30° in glass, then reflection at A), 6.1 (60 Ω and lamp in parallel across 6.0 V), 9.1–9.4 | not viewed: 3.1, 3.2, 7.1, 8.1, 10.1, 10.2, 11.1, 11.2
+1ai | 1.2 | {F} distance apart at a given time = difference between the two distance readings on the distance-time graph at that time: 60 m [B1]
+1aii | 1.2 | {F} difference in finishing times = difference between the times at which each line reaches the finishing distance: 50 − 38 = 12 s [B1]
+1bi | 1.2 | distance-time graph: constant speed of 5.0 m/s for 200 m is a straight line from the origin to (40 s, 200 m) [B1] ;; then any line, straight or curved, from that point to (60 s, 500 m) [B1]
+1bii | 1.2 | average speed = total distance ÷ total time = 500 ÷ 60 [C1] ;; 8.3 m/s [A1]
+2ai | 1.7.2 | work is done because a force moves through a distance (in the direction of the force) [B1]
+2aii | 1.7.1 | energy used by a person to do work: chemical (potential) energy [B1]
+2bi | 1.5.5 | {F} moment of the weight about the toes = weight × distance from the toes to the centre of mass = 600 × 0.80 = 480 N m [B1]
+2bii | 1.5.5 | {F} moments about the toes: F × (0.40 + 0.80) = 480 [C1] ;; F = 400 N [A1]
+3a | X1.8 | pressure unit
+3bi | X2.1 | Boyle's law points
+3bii | X2.1 | Boyle's law curve
+3c | X2.1 | gas pressure
+4a | 3.1 | particles of a string carrying a wave oscillate / vibrate [B1] ;; in a transverse direction – up and down, at right angles to the direction of travel of the wave [B1]
+4b | 3.1 | {F} wavelength = distance between adjacent crests = 0.45 − 0.05 = 0.40 m [B1]
+4ci | 3.1 | f = v/λ = 2.0 ÷ 0.40 [C1] ;; 5.0 Hz [A1]
+4cii | 3.1 | wave drawn a time t later is the same shape moved along by distance v × t = 2.0 × 0.10 = 0.20 m in the direction of travel (half a wavelength: crests and troughs exchanged) [B1]
+5a | 3.2.2 | {F} n = sin i ÷ sin r = sin 50° ÷ sin 30° [C1] ;; 1.5 [A1]
+5b | 3.2.2 | total internal reflection occurs because the light is travelling from a more dense to a less dense medium (lower refractive index) [B1] ;; and the angle of incidence is greater than the critical angle [B1]
+5c | 3.2.2 | further advantage of optical fibre over copper wire: less heat loss (more efficient); more secure / less interference; less reduction in signal, so less boosting needed and longer distances possible; thinner / less bulky [B1]
+6ai | 4.2.4 | {F} I = V/R = 6.0 ÷ 60 [C1] ;; 0.10 A [A1]
+6aii | X4.4 | I = P/V and total current
+6bi | X4.3 | circuit drawing
+6bii | X4.3 | shared voltage
+7a | X4.5 | induction
+7b | X4.5 | induction and LED
+7c | X4.5 | faster cutting
+8a | XOLD | thermionic emission
+8b | XOLD | anode
+8c | XOLD | deflection plates
+9ai | 1.1 | from acceleration, force, mass, speed, velocity: the scalars are mass and speed [B2]
+9aii | 1.2+1.5.4 | velocity: speed in a stated direction (distance ÷ time with direction, or displacement ÷ time) [B1] ;; velocity changes at constant speed because the direction changes [B1]
+9aiii | 1.5.4+X6 | satellite moves in a circle because of the force of gravity towards the Earth [B1] ;; this force is centripetal – at right angles to the motion (velocity) [B1]
+9bi | 1.5.1 | {F} thrust = weight + resultant upward force = 400 000 + 50 000 = 450 000 N [B1]
+9bii | 1.5.1 | a = F/m using the resultant force = 50 000 ÷ 40 000 [C1] ;; 1.25 m/s² [A1]
+9ci | 1.2 | uniform acceleration: the same change in velocity / speed [M1] ;; in the same time period [A1]
+9cii | 1.2 | {F} speed-time sketch: uniform acceleration is a straight line from the origin (first 4 min) [B1] ;; increasing acceleration is a curve of increasing gradient, then decreasing acceleration a curve of decreasing gradient [B1] ;; constant speed is a horizontal line (10 to 12 min) [B1]
+9ciii | 1.2 | distance travelled = area under the speed-time graph [B1]
+10a | X2.1 | liquid molecules
+10bi | X2.2 | evaporation
+10bii | X2.2 | evaporation cooling
+10ci | X2.3 | convection
+10cii | X2.2 | condensation
+10ciii | 1.7.5+X2.2 | E = Pt = 200 × 120 [C1] ;; 24 000 J [A1] ;; (thermal parts, outside the selected sections) E = mcΔT = 100 × 4.2 × 20 [C1] ;; 8400 J [A1] ;; E = mL = 5 × 2250 [C1] ;; 11 250 J [A1] ;; energy not transferred to the water = energy supplied − energy used = 24 000 − (8400 + 11 250) = 4350 J [B1]
+11ai | X5 | nucleon number
+11aii | X5 | ion
+11aiii | X5 | isotope
+11bi | X5 | neutrons
+11bii | X5 | alpha decay
+11ci | X5 | alpha range
+11cii | X5 | random emission
+11ciii | X5 | scattering
+11civ | X5 | nuclear atom

@@ -1,0 +1,90 @@
+ORDER A B P V C Z
+== A | Friction: direction and effects | friction|rough|smooth|lubric|grip | 4
+- Friction: a force (B1) that acts when surfaces slide over (rub against) one another and opposes the motion (B1).
+- Friction produces heating only when the object moves / slides.
+- Pressing harder increases the friction (resistive) force, so more work is done and more heat is produced.
+* Friction acts along the surface in the direction opposite to the motion (down the slope on a box that is moving up it; backwards on a skidding tyre).
+* An object that is pushed but stays at rest, or moves at constant speed, has a frictional force equal in size and opposite in direction to the push.
+* Friction can act in the direction of motion: a driven wheel pushes backwards on the road and the road pushes the wheel forwards (the force that accelerates the car); a conveyor belt accelerates a suitcase forwards.
+* Friction in brakes transfers energy from the kinetic store to the thermal store.
+* Frictional effects in air increase with speed; smoother or oily surfaces reduce friction.
+== B | Falling through air or a liquid: air resistance and terminal velocity | terminal|air resistance|drag|falling|falls|skydiv|diver|resistive force|water|liquid|oil|dropped|released | 3
+- The forces on a falling object: weight (force of gravity) downwards; air resistance (drag) upwards.
+- Air resistance acts upwards because it opposes the motion.
+- Air resistance is zero at the instant of release (speed zero) and increases as the speed increases; the weight stays constant.
+- Reaching terminal velocity, full explanation (one mark for each step, up to 5): both forces, weight and air resistance, mentioned; at first the weight is larger than the air resistance (resultant force downwards), so the object accelerates; as the speed increases the air resistance increases; so the resultant force / the acceleration decreases; eventually the air resistance equals the weight / the resultant force is zero; then the acceleration is zero / the speed is constant (terminal velocity).
+- The initial acceleration of a body falling from rest is g, 9.8 m/s² (10 m/s² in older papers), given with its unit.
+- Part credit where the scheme gives two marks for "the acceleration decreases because the air resistance increases as the speed increases": the resultant force gets smaller, or the gradient of the speed–time graph decreases (C1).
+- Falling at constant speed: the forces balance – weight equals air resistance, no resultant (net) force; where two marks are given the two forces must be named.
+- Terminal velocity is the speed at which the air resistance equals the weight; it can be read from an air resistance–speed graph at the value of the weight.
+- Force arrows on falling objects: at constant speed the air resistance equals the weight, so there is no resultant force; while accelerating the weight is larger than the air resistance, so there is a resultant force downwards.
+- Approaching terminal velocity (two of): the weight stays the same; the air resistance increases; the forces become equal and opposite.
+- Air resistance is a maximum when the speed is a maximum (the steepest part of a distance–time graph).
+- Air resistance changes during a flight because the speed changes (the density of the air or the cross-sectional area of the object may also change); in a diagram it is drawn opposite to the direction of travel, and the gravitational force is drawn towards the Earth's surface.
+- With air resistance, the air-resistance force is a smaller proportion of the weight for a heavier object (B1), so the heavier object has the greater acceleration / is less affected (B1).
+- Velocity–time graph of a throw when air resistance matters (any two): the line is not straight / the gradient is not constant; the initial downward gradient is steeper; less time to reach zero velocity; a smaller area under the first part (less height gained); a smaller final speed.
+- Falling in a vacuum compared with air (any two): the objects fall faster / reach the bottom sooner; both accelerate at g; a coin and a piece of paper fall together and reach the bottom at the same time.
+- Falling through a liquid: the same explanation with the drag / friction / resistive / viscous force of the liquid: the weight causes the acceleration at first (B1); the drag increases as the speed increases, or the resultant force decreases (B1); the acceleration decreases to zero, or the drag eventually equals the weight (B1).
+- Falling at constant speed through a liquid: the weight acts down and a force from the liquid acts up (B1); the forces are balanced (B1).
+- An object released under water that accelerates upwards and then reaches a constant speed: at first there is a net upward force (B1); the drag (downward) force increases as it speeds up (B1); until the downward and upward forces balance (B1).
+* At terminal velocity the object is still moving but no longer accelerating; two forces still act, weight and air resistance, equal and opposite.
+* Before terminal velocity the velocity increases while the acceleration decreases; the weight is constant; the kinetic energy increases.
+* Terminal velocity is the horizontal section of a speed–time graph: the speed rises from zero with decreasing gradient and then levels off.
+* Over a short fall the weight of a heavy object always exceeds the air resistance, so it keeps accelerating and never reaches terminal velocity.
+* A light ball dropped in air, or a ball released in thick oil: the resistive force grows as the speed rises, so the acceleration decreases from the start.
+* Falling at a steady speed: the upward force equals the weight, mg.
+== P | Parachutes | parachut | 1
+- Opening a parachute increases the air resistance (B1) because of the larger area (B1).
+- When the parachute opens: the air resistance (upward force) increases (B1), so the upward force is larger than the weight – the resultant force is upwards (B1).
+- The skydiver decelerates (slows down – does not move upwards) (B1) because there is a net upward force (B1).
+- After the parachute opens, full explanation: air resistance acts upwards (B1); at first the upward force is larger than the weight, so the resultant force is upwards and the parachutist decelerates (B1); the air resistance decreases as the speed falls (B1); until the air resistance equals the weight – the forces balance and the speed is steady (B1).
+- With the parachute open the air resistance equals the weight at a lower speed.
+- Forces on a falling parachutist: downward force weight (gravitational force) (B1); upward force air resistance (drag) (B1).
+* On a parachutist's speed–time graph the parachute opens where the speed starts to fall sharply from the first terminal velocity.
+* Just after the parachute opens the resultant force and the acceleration are both upwards while the parachutist is still moving down.
+* A parachutist falls more slowly than a person in free fall because the open parachute experiences much greater air resistance.
+== V | Vehicles, cyclists and swimmers: driving force against resistance | driving force|forward force|engine|cyclist|swimmer|runner|coasting|vehicle|journey|thrust|accelerating force | 2
+- The backward force on a moving vehicle is caused by air resistance (drag) or friction.
+- A car slowing with the engine off and no brakes is slowed by friction with the road and air resistance (both needed for the mark).
+- While accelerating, the driving (forward) force is larger than the air resistance.
+- Constant driving force but decreasing acceleration: the backward force (air resistance / friction / drag) increases (M1 or B1) as the speed increases (A1 or B1); so the resultant force decreases (B1); finally the resistance equals the driving force and the resultant force is zero (B1).
+- A constant (maximum) speed is reached when the resistive force has grown to equal the constant forward force: the forces balance, no resultant (net) force.
+- Swimmer or cyclist with a constant forward force: a resistance (water resistance, air resistance, friction) acts (B1); the resistive force increases with speed (B1); at constant speed the forward force equals the resistive force (B1).
+- To keep the acceleration constant the driving force must increase: friction / air resistance acts (M1) and increases as the speed increases (A1), so the driving force must increase to keep the resultant force constant (B1).
+- Rolling down a slope until the speed levels off: acceleration with gravity / weight mentioned (B1); air resistance / friction increases with speed (B1); terminal (constant) velocity is reached when the resistance equals the accelerating force (B1).
+- Constant engine power and a speed that levels off: drag acts (B1); the drag increases with speed, so the resultant force and the acceleration decrease (B1); until the resultant force is zero – drag equals thrust (B1).
+- Air resistance changes during a journey because the speed changes.
+- The speed–time graph is a curve while coasting, because the resistive forces decrease as the speed decreases, so the deceleration is not constant.
+- In a circular turn at constant speed the direction of motion is changing (B1); velocity is a vector (B1); so the velocity is changing, which is an acceleration, and the resultant force is towards the centre of the circle (B1).
+== C | Stopping distance: thinking distance and braking distance | thinking|braking|stopping distance|reaction time|wet road|skid|tyres | 0
+- Thinking distance: the distance travelled during the driver's reaction time – between seeing the hazard and (starting to) apply the brakes.
+- Braking distance: the distance travelled while the brakes are applied (while the car decelerates).
+- Stopping distance = thinking distance + braking distance.
+- Thinking distance = speed × reaction time (the area under the horizontal part of the speed–time graph) (C1, A1).
+- Braking distance = area under the sloping part of the graph = average speed × time (C1, A1).
+- Reaction time = duration of the constant-speed (horizontal) section before braking begins.
+- A constant reaction time is shown by the thinking distance being proportional to the speed (C1), supported by at least two calculated values of thinking distance ÷ speed, or "doubling the speed doubles the thinking distance" (A1).
+- At a higher speed the thinking distance increases (B1), because the reaction time is unchanged but the speed is greater (B1).
+- A tired driver: the thinking distance increases (B1); the braking distance does not change (B1).
+- The thinking distance is unchanged by the road conditions and by the tyres, because the time taken to react (and the speed) is the same.
+- Factors that increase the braking distance (usually any two): higher speed; a wet, icy or oily road (less friction); worn tyres; a larger mass of car and load; a smaller braking force; the slope of the road; wind / air resistance.
+- A factor that affects the braking distance only (three linked marks): the factor – mass of load or car, condition or wear of the tyres, state of the road, brakes, friction (B1); the matching change – heavier load, worn tyres, slippery or smooth road, reduced friction (B1); the effect – reduced deceleration, or increased time taken to stop (B1).
+- Wet (icy, slippery) road: less friction between tyres and road / the tyres do not grip / the car skids (B1); so there is a smaller backward force and less deceleration – the graph is less steep (B1); so a longer time to stop / a larger area under the speed–time graph / a longer braking distance (B1).
+- Heavier load: the larger mass gives less deceleration for the same braking force (B1); longer braking distance (B1). Greater inertia, kinetic energy or momentum is also credited.
+- New tyres instead of badly worn ones: more friction (grip), so greater deceleration (B1); shorter braking distance (B1).
+- The same stopping distance with a larger thinking distance means that the braking distance has decreased.
+- Fair test of the effect of load on braking distance: keep the speed the same (and the braking force, tyres and brake condition).
+* During the thinking distance the car continues at uniform velocity; during the braking distance it decelerates.
+* Thinking distance = stopping distance − braking distance; it depends on the speed and the driver's reaction time, not on the load.
+* Pressing the brake pedal harder changes the braking force, the braking distance and the stopping distance, but not the thinking distance.
+* On a wet road the braking distance, and therefore the stopping distance, is greater; the thinking distance is unchanged.
+* Stopping distance is shortest on a dry road with new tyres and longest on a wet road with worn tyres.
+* On a speed–time graph of an emergency stop, the area under the constant-speed section is the thinking distance, the area under the sloping section is the braking distance, and the two together are the stopping distance.
+== Z | Other points
+MOVE s23_22|1bi|V
+MOVE w08_2|4bii|V
+MOVE s13_22|1d|V
+MOVE w15_11|MCQ5|A
+MOVE w20_12|MCQ4|A
+MOVE w22_11|MCQ6|A
+MOVE s09_2|10aii|V

@@ -1,0 +1,37 @@
+# P1 s18_12 | main sheets 1-3 and rest sheet viewed; Q5 is identical to w25_11 Q38; Q13 and Q22 to w22_12 Q13 and Q20; Q27 to s23_11 Q19
+1 C 1.1 weight is a force and therefore a vector; mass, temperature and speed are scalars
+2 B 1.1 {F} the resultant of two forces depends on the angle between them: 4.0 N and 2.0 N give 4.0 N only when the angle is obtuse (about 105°), found from a scale parallelogram; at 90° the resultant is 4.5 N and for smaller angles it is larger
+3 C 1.1 mW means milliwatt = 10⁻³ W (MW is megawatt = 10⁶ W)
+4 A 1.1 a micrometer is suitable for lengths of a fraction of a millimetre; a rule or tape for tens of centimetres or more
+6 A 1.5.2 a skydiver at terminal velocity still has two forces acting – weight and air resistance – which are equal and opposite
+7 D 1.5.5 {F} even when the forces on a rod add up to zero (10 N up; 2.0 + 3.0 + 5.0 N down), unequal moments about its centre (2.0 N and 3.0 N at opposite ends) give a resultant moment, so the rod starts to rotate
+8 B 1.3 {F} a balance reads mass (g or kg); weight is a force measured in newtons
+9 B 1.3+1.2 gravitational field strength (N/kg) is numerically equal to the acceleration of free fall (m/s²): 1.6 N/kg
+10 B 1.5.5 {F} principle of moments: W_X × 10 = W_Y × 25, so the weight (and mass) of X is 2.5 times that of Y
+11 D 1.5.1+1.2 a = F ÷ m = 1600 ÷ 800 = 2.0 m/s²; v = at = 2.0 × 4.0 = 8.0 m/s
+12 D 1.5.3 {F} the fibre that is most difficult to stretch has the smallest extension for a given load (lowest line on an extension–load graph)
+14 A 1.7.3 a gas-fired power station burns fossil fuel and produces carbon dioxide; geothermal, nuclear and wind stations do not
+15 A 1.7.2+1.7.1 {F} gain in GPE = weight × vertical height = 500 × 3.0 = 1500 J; total work done = force × distance along the ramp = 400 × 5.0 = 2000 J; work done against friction = 2000 − 1500 = 500 J
+16 D X1.8 {F} pressure against area
+17 C X1.8 {F} barometer height
+18 C X2.1 gas expands when outside pressure falls
+19 D X2.1 gas pressure
+20 C X2.2 specific heat capacity
+21 A XOLD {F} thermometer
+23 B XOLD resistance thermometer
+24 C X2.3 conduction
+25 A X2.3 {F} radiation and lids
+26 C 3.1+3.3 f = v ÷ λ = 3.0 × 10⁸ ÷ 0.15 = 2.0 × 10⁹ Hz
+28 D 3.2.4 blue light is refracted more by a glass prism than red light; it has a higher frequency and shorter wavelength and travels more slowly in glass
+29 B 3.2.2 an optical fibre uses total internal reflection
+30 D 3.3 infrared is a transverse electromagnetic wave that travels at the speed of light; it is not ionising and has a lower frequency than ultraviolet
+31 A 3.4 {F} in a sound wave each air molecule oscillates to and fro along the direction in which the wave travels (longitudinal), returning to its starting position after one period
+32 C 3.4 12 kHz lies within the audible range of 20 Hz to 20 kHz
+33 A 3.4 a use of ultrasound: cleaning jewellery
+34 A X4.5 {F} electromagnet alarm
+35 C X4.4 E = VIt
+36 D X4.5 transformer with d.c.
+37 D X4.3 {F} LDR symbol
+38 B X4.3 {F} potential divider
+39 C X4.6 {F} d.c. trace
+40 C X5 nucleon number

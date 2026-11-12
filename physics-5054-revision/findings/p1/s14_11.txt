@@ -1,0 +1,28 @@
+# P1 s14_11 | main sheets 1-2 and rest sheet viewed; Q2 dial enlarged and viewed; Q9, 11, 12, 13, 14, 16, 19, 20, 24, 35 are identical to s14_12 questions; Q15 to w19_12 Q15; Q25 to w25_12 Q30; Q26 to s26_11 Q28
+1 D 1.1 vernier calipers measure an internal diameter of about 2 cm; a tape measures a length of about 600 cm
+2 C 1.1 {F} reading an analogue stopwatch: one small division is 1 s, with longer marks every 5 s; the hand is one division past the 35 s mark, so the reading is 36.0 s
+3 A 1.2 {F} on a speed–time graph the largest acceleration is the steepest upward section
+4 A 1.5.2 while an object falls towards terminal velocity its acceleration decreases (air resistance increases, so the resultant force falls); speed and kinetic energy increase and weight is constant
+5 B 1.5.1 {F} Newton's third law: a man pushing a box forwards is pushed backwards on his hands by the box, and the floor pushes forwards on his feet (friction) because his feet push backwards on the floor
+6 C 1.5.1 the resultant force is zero only for constant speed in a straight line; turning a corner, free fall and accelerating all need a resultant force
+7 D 1.5.4+X6 the force that keeps a satellite in a circular orbit acts towards the centre of the Earth
+8 C 1.3 W = mg for each object: 4.0 × 10.2 = 40.8 N is the greatest
+10 D 1.5.6 for good stability the centre of mass is as low as possible
+17 C 1.7.1 KE = ½mv², so v = √(2 × 250 ÷ 0.80) = 25 m/s
+18 A X2.1 {F} gas compressed at constant temperature
+21 B X2.1 {F} volume against temperature in °C
+22 A 3.4+3.1 {F} period = 1 ÷ f = 1 ÷ 50 = 0.020 s; a rarefaction follows a compression half a period later, 0.010 s
+23 C 3.1 when water waves are refracted between deep and shallow water the frequency stays the same; the wavelength and speed change
+27 D 3.2.3 short sight: the image of a distant object forms in front of the retina; corrected with a diverging lens
+28 D 3.4 sound travels fastest in solids and cannot travel in a vacuum
+29 B X4.1 magnetic screening
+30 B 4.2.4 R ∝ length ÷ area: 16 × 4 ÷ 2 = 32 Ω
+31 A X4.3 {F} currents and p.d.s in a network
+32 D 1.7.5+X4.4 energy = power × time = 2 kW × 3 h = 6 kW h; cost = 6 × $0.24 = $1.44 (cost step outside the selected sections)
+33 D X4.3 {F} thermistor
+34 B X4.5 {F} force on a beam of charged particles
+36 C X4.5 {F} transformer
+37 C XOLD {F} resistor colour code
+38 A XOLD {F} cathode-ray oscilloscope
+39 B X5 alpha-particles
+40 D X5 nuclides

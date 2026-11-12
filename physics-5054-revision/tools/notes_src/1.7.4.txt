@@ -1,0 +1,37 @@
+ORDER A B Z
+== A | Efficiency: definition and calculation | efficiency\s*=|÷|useful (energy|power|work)? ?output|× 100|= .*% | 0
+- Efficiency = useful energy output ÷ total energy input (or the same ratio of powers), as a fraction or a percentage. Definition marks: output ÷ input (C1); useful work (energy) obtained ÷ total work (energy) put in (A1).
+- To find an efficiency the input energy or power is needed as well as the output.
+- Calculation: efficiency = (useful) power output ÷ power input, or energy output ÷ energy input, in any form (C1); answer (A1), as a decimal or a percentage.
+- Input = output ÷ efficiency; useful output = input × efficiency.
+- A correct number with a wrong unit prefix (2.6 × 10⁶ written with the unit MW) scores 1 mark only.
+- Total energy input = wasted energy + useful output (C1); efficiency = useful output ÷ total input (A1).
+- Wasted fraction = 1 − efficiency (C1); rate of energy wasted = input power × wasted fraction (A1).
+- Energy wasted = wasted power × time in seconds (C1, A1).
+- Two devices with the same useful output: useful output = input × efficiency for the first (C1); efficiency of the second = that output ÷ its input (A1).
+- Hydroelectric scheme: efficiency = electrical energy output in a given time ÷ gravitational potential energy input in the same time (C1, A1).
+- Useful (light) energy = efficiency × energy supplied; the fraction of the energy supplied that becomes useful output = output ÷ input.
+* When a load is lifted at constant speed, efficiency = gravitational potential energy gained per second ÷ power supplied (no kinetic energy is being gained).
+* Efficiency = (input energy − wasted energy) ÷ input energy; for a machine that is 50 % efficient the wasted energy equals the useful output.
+* Overall efficiency of a chain of transfers = final useful energy output ÷ original energy input.
+* Find the useful output first where necessary: useful work = weight × height; useful power = work ÷ time; time = useful work ÷ useful power.
+* Put both powers (or both energies) in the same unit before dividing.
+* Area of solar panel needed = total energy received ÷ energy received per m².
+== B | Why efficiency is below 100 %; wasted energy; improving efficiency | wasted|lost|less than 100|friction|heat|thermal|why|because|improv|lubric|efficien | 1
+- Efficiency is below 100 % because the useful output energy is less than the input energy.
+- Reasons the efficiency of a lifting motor is below 100 % (any two): work is done lifting the cage, cable, rope or board as well as the load; energy is transferred thermally in the motor (coils, wires); work is done overcoming friction (at the axle or bearings) / air resistance.
+- A motor is less than 100 % efficient because of friction in the bearings, electrical resistance in the motor or air resistance: thermal energy (heat) is produced / lost.
+- A lifting method is inefficient when the wheelbarrow or the worker's own body has to be lifted as well as the load (in that question friction and air resistance were not credited).
+- A filament lamp has a low efficiency because heat / thermal energy is produced (energy is wasted).
+- More efficient: converts more of the input energy / power into useful energy / power – less energy is wasted for the same input. Very efficient: most of the energy output is useful and little is wasted.
+- An equally bright but more efficient lamp on the same battery: the same light, less heat, so less electrical / chemical energy is used (2 marks).
+- Energy lost between the pedals and the wheel of a bicycle: friction in the chain / axles (B1); it produces heat (B1).
+- Water turbine: not all the kinetic energy of the water is transferred, because the water is still moving after hitting the turbine / some water misses the turbine / energy is lost as heat due to friction.
+- Ways a water-driven generator wastes energy (any two): friction in the bearings of the wheel or generator, or of the water with the pipes (heat); the water leaving still has kinetic energy; heat in the resistance of the generator windings / wires.
+- A calculated efficiency is too large when some thermal energy is lost to the surroundings, so that the measured temperature rise is smaller than it should be (B1): the true wasted energy and the true energy input are larger than calculated (B1).
+* For the same power input a more efficient lamp transfers more energy usefully (light) and wastes less as thermal energy; a more efficient solar cell gives the same useful output from a smaller energy input.
+* An electric motor wastes energy as thermal energy and sound.
+* Efficiency is increased by reducing the energy losses (for example friction) in the motor.
+== Z | Other points
+MOVE w17_22|4aii|A
+MOVE w12_21|3b|B

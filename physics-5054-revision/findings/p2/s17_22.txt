@@ -1,0 +1,49 @@
+# P2 s17_22 | figs viewed: 1.1 (blank speed-time grid), 2.1 (swing from A through B to C), 3.1 (pedal: 80 N acts 4.0 cm from the pivot, F acts a further 18 cm along), 8.1, 9.1 (room from above with a mirror on one wall and a man), 10.1 (straight line through origin, 0.40 A at 5.0 V), 10.2 (24 Ω in series with 20 Ω and 80 Ω in parallel) | not viewed: 4.1, 5.1, 7.1, 11.1
+1ai | 1.2 | a = (v − u) ÷ t = 25 ÷ 14 [C1] ;; 1.8 m/s² [A1]
+1aii | 1.2 | {F} speed-time graph: uniform acceleration is a straight line from (0, 0) to (14 s, 25 m/s) [B1] ;; the gradient then decreases (decreasing acceleration) and the line is flat at 55 m/s from 70 s to 80 s [B1]
+1b | 1.5.1 | braking car – driver slows but a loose bag slides forwards, any 3: a backward force acts on the driver / car; it is provided by the seat belt (or friction with the seat; friction between tyres and road for the car); there is no / little backward force (friction) on the bag; the bag resists a change in its motion – it carries on in a straight line at constant velocity (inertia) [B3]
+2a | 1.1 | accurate time for one swing: use a stopwatch / electronic timer [B1] ;; time at least 5 swings and divide by the number of swings (use a fixed reference mark; one complete swing is there and back, e.g. A to C and back to A) [B1]
+2bi | 1.7.1 | m = g.p.e. ÷ (g × h) = 240 ÷ (10 × 0.60) [C1] ;; 40 kg [A1]
+2bii | 1.7.1 | kinetic energy at the bottom is less than the g.p.e. lost: air resistance / friction (with the air, or between rope and branch) [B1] ;; heat produced / work done against friction or air resistance (or effect of wind; work done by arms and legs) [B1]
+3a | 1.5.5 | moment = force × distance [C1] ;; force × perpendicular distance from the line of action of the force to the pivot [A1]
+3b | 1.5.5 | {F} principle of moments with both distances measured from the pivot: F × (4.0 + 18) = 80 × 4.0 [C1] ;; 15 N [A1]
+3c | X1.8 | P = F/A
+4a | X2.2 | specific heat capacity
+4b | X2.2 | heat capacity
+4c | X2.3 | conduction
+5a | X2.1 | liquid arrangement
+5b | X2.1 | molecular motion
+5c | X2.1 | gas fills container
+6a | 3.1 | longitudinal wave: vibration (oscillation) to and fro in the direction of the wave – has compressions and rarefactions [B1] ;; transverse wave: vibration at right angles to the direction of the wave – has crests and troughs [B1]
+6bi | 3.1+3.4 | λ = v/f with f in Hz = 330 ÷ 3800 [B1] ;; 0.087 m (8.7 cm) [B1]
+6bii | 3.4 | a 3.8 Hz sound is not heard because it is below the range of audible frequencies (20 Hz to 20 000 Hz) – too low a frequency / pitch [B1]
+7ai | X4.5 | force on coil
+7aii | X4.5 | commutator
+7bi | X4.4 | E = VIt
+7bii | 1.7.4 | efficiency = useful work done ÷ energy supplied = 140 ÷ 192 = 0.73 (73%) [B1]
+8a | 4.2.1 | {F} uncharged object: equal numbers of positive and negative charges [B1]
+8bi | 4.2.1 | charging by rubbing so the rod becomes negative: negative charge moves from the cloth to the rod [C1] ;; it is electrons that move from the cloth to the rod (positive charges do not move) [A1]
+8bii | 4.2.1 | experiment to show a rod is charged – apparatus: small pieces of paper, a thin stream of water, a (gold-leaf) electroscope, or a suspended / pivoted charged rod [B1] ;; correct observation: paper is attracted / water stream bends / leaf rises / suspended rod is repelled or attracted [B1]
+9ai | 3.2.1 | {F} limit of what can be seen in a plane mirror: ray drawn from the edge of the mirror to the eye [B1] ;; incident ray from the wall to that edge drawn so that angle of incidence equals angle of reflection [B1]
+9aii | 3.2.1 | normal drawn at the point where the incident and reflected rays meet the mirror [C1] ;; i marked between the incident ray and the normal, r between the reflected ray and the normal [A1]
+9aiii | 3.2.1 | virtual image: cannot be formed on a screen / there is nothing at the image position [B1] ;; the rays do not come from the image – they only appear to come from it [B1] ;; other characteristic of a plane-mirror image: same distance behind the mirror as the object is in front / same size / upright / laterally inverted [B1]
+9bi | 3.2.2 | total internal reflection compared with reflection in a mirror, any 2: mirror reflection occurs at any angle, but total internal reflection only when the angle of incidence is greater than the critical angle; total internal reflection occurs in the denser medium, for light travelling from dense to less dense (e.g. glass to air); mirror reflection is not total – not all the light is reflected [B2]
+9bii | 3.2.2 | n = 1 ÷ sin c = 1 ÷ sin 44° [C1] ;; 1.4 [A1]
+9biii | 3.2.2 | sin r = sin i ÷ n = sin 50° ÷ 1.4 [C1] ;; 32°–33° [A1]
+9biv | 3.2.2 | advantages of optical fibres over metal wires for data, any 2: more data per second; less loss of signal strength (attenuation); less heat / power wasted; fewer repeater (amplification) stations; less interference / noise; more secure (no cross-talk); lighter [B2]
+10ai | 4.2.4 | {F} straight-line graph through the origin: current is directly proportional to p.d. [B1]
+10aii | 4.2.4 | constant temperature shown by the graph being a straight line / not curving / constant gradient [B1]
+10aiii | 4.2.4 | wire of the same material and length with half the cross-sectional area has a greater resistance – twice as large [B1] ;; its current-p.d. graph is a straight line through the origin with half the gradient [B1]
+10bi | 4.2.4+X4.3 | {F} resistance of the parallel pair: 1/R = 1/20 + 1/80, R = 16 Ω [C1] ;; total = 24 + 16 = 40 Ω [A1] ;; I = V/R = 6.0 ÷ 40 [C1] ;; 0.15 A [A1] ;; p.d. across the parallel pair = current × its combined resistance = 0.15 × 16 (or 6.0 − 0.15 × 24) [C1] ;; 2.4 V [A1]
+10bii | 4.2.3 | e.m.f. of a cell: work done ÷ charge (work done per unit charge in driving charge round the complete circuit) [B1] ;; battery diagram: correct cell symbol with the positive terminal (long line) marked [B1] ;; four 1.5 V cells in series, all the same way round, give 6.0 V [B1] ;; eight cells giving 6.0 V: four in series connected in parallel with another four in series [B1]
+10c | 4.2.3 | advantage of cells in parallel over a single cell: lasts longer / contains more energy / still works if one cell fails [B1]
+11ai | X5 | background sources
+11aii | X5 | background effect
+11aiii | X5 | alpha
+11aiv | X5 | absorption
+11av | X5 | deflection
+11bi | X5 | half-life
+11bii | X5 | carbon dating
+11biii | X5 | carbon dating
+11ci | X5 | isotopes
+11cii | X5 | isotopes

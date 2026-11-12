@@ -1,0 +1,28 @@
+# P1 w22_11 | sheets 1-2 viewed; Q31 cell and diode symbols enlarged and viewed; Q1, 3, 10, 11, 12, 13, 15, 19, 24, 26, 32, 33, 36 are identical to w22_12 questions and are worked there; rest sheet viewed later for Q14, 34, 37
+2 C 1.1 velocity and displacement are vectors; time is a scalar – two vector quantities in the definition of velocity
+4 C 1.2 {F} on a distance–time graph the fastest constant speed is the steepest straight section; a horizontal section is rest
+5 A 1.2 {F} uniform acceleration: a straight-line speed–time graph with constant positive gradient
+6 B 1.5.2 frictional effects (air resistance) increase with speed; smoother or oily surfaces reduce friction
+7 A 1.5.2 {F} stopping distance = thinking distance + braking distance
+8 D 1.5.4+X6 {F} a planet moving in a circle at constant speed is accelerating because its direction changes; the resultant force acts towards the centre of the circle (towards the Sun)
+9 A 1.3 mass = weight ÷ gravitational field strength (W = mg)
+14 A X2.1 {F} Boyle's law graphs
+16 D 1.7.4 for the same power input a more efficient lamp transfers more energy usefully (light) and wastes less as thermal energy
+17 B X2.3 convection
+18 D X2.3 radiation
+20 A X2.2 E = mcΔθ
+21 D X2.2 melting
+22 A X2.2 evaporation rate
+23 D 3.1 both longitudinal waves (sound) and transverse waves (surface water waves, light) can travel in water; only electromagnetic (transverse) waves travel in a vacuum at the speed of light
+25 C 3.4 the quality (timbre) of a sound shows as the shape of the waveform; loudness is amplitude and pitch is frequency
+27 A 4.2.1 {F} charging by friction: the cloth becomes positive because it loses electrons to the rod, which becomes negative; protons do not move
+28 D 4.2.3 e.m.f. = work done ÷ charge
+29 C X4.3 {F} cells in series, lamps in parallel
+30 A 4.2.4+X4.3 {F} decreasing the resistance of a series variable resistor decreases the total resistance, so the current in the lamp (and everywhere in the series circuit) increases; the e.m.f. is unchanged
+31 D X4.3 {F} diode direction and lamps in parallel
+34 B X4.5 {F} a.c. generator output
+35 B 3.1+X4.6 {F} period from the trace = 4 divisions × 5 ms = 20 ms; f = 1 ÷ T = 1 ÷ 0.020 = 50 Hz (reading the time-base is outside the selected sections)
+37 D X5 {F} electrons in a magnetic field
+38 D X5 ionisation
+39 C X5 half-life
+40 C X5 lead shielding

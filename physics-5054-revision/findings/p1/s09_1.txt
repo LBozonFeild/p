@@ -1,0 +1,40 @@
+# P1 s09_1 | main sheets 1-3 and rest sheets 1-2 viewed; zoom viewed for Q11, 19, 30; Q12 is identical to s16_12 Q8
+1 D 1.1 vernier calipers (inside jaws) measure the internal diameter of a pipe
+2 B 1.1 a scalar has size (magnitude) but no direction; a vector has both
+3 B 1.2 {F} distance–time graph for two constant speeds: two straight lines, the second less steep (lower speed) – the distance keeps increasing
+4 C 1.2 {F} distance = area under the speed–time graph = ½ × 4 × 5 + 5 × 10 + ½ × (5 + 10) × 2 = 10 + 50 + 15 = 75 m
+5 A 1.5.1 {F} a mass that is just supported (at rest) is in equilibrium, so the resultant force on it is zero
+6 B 1.5.4 {F} an object moving in a circle at constant speed has a force of constant magnitude acting towards the centre (at right angles to its velocity)
+7 B 1.4 volume by displacement = 132 − 118 = 14 cm³; density = mass ÷ volume = 42 ÷ 14 g/cm³
+8 B 1.5.5+1.5.1 {F} a beam balanced at its centre with loads at equal distances has equal downward forces at the ends and an upward force at the pivot equal to their sum
+9 A 1.5.3 {F} extension–load graph for a wire: beyond the straight-line region the extension increases more for each extra load, so the wire becomes easier to extend
+10 C X1.8 {F} pressure and area
+11 D X1.8 {F} manometer
+13 C 1.7.4+1.7.5 useful power = work ÷ time = 1000 × 3.0 ÷ 10 = 300 W; efficiency = useful power output ÷ power input = 300 ÷ 500 = 0.60
+14 A X2.3 {F} cooling cans
+15 D XOLD thermometer sensitivity
+16 A X2.2 latent heat of vaporisation
+17 A X2.2 expansion of a metal
+18 D X2.1 gas compressed
+19 A 3.1 {F} water waves passing from deep to shallow water slow down: the wavelength gets shorter (wavefronts closer together) and the direction of travel bends towards the normal
+20 B 3.2.1 the image in a plane mirror is virtual and upright (and the same size as the object)
+21 B 3.2.2 {F} the critical angle is the angle of incidence in the water (between the ray and the normal) for which the refracted ray travels along the surface
+22 A 3.2.4 in a prism red light is slowed down less and refracted less than blue light
+23 C 3.4 echo distance needs the speed of the ultrasound and the time taken for the pulse to return: distance = speed × time ÷ 2
+24 B X4.1 {F} demagnetising
+25 C 4.2.1 a negatively charged object brought near a wall repels the negative charges (electrons) in the wall, leaving the near surface positive, so the object is attracted
+26 B 4.2.4 {F} after a filament lamp is switched on its temperature rises, so its resistance increases from an initial (non-zero) value to a steady value and the current falls from a high value to a steady value
+27 D 4.2.3 one volt is one joule per coulomb
+28 A X4.3 series circuit
+29 C X4.4 fuse rating
+30 B X4.4 {F} plug wiring fault
+31 C X4.5 {F} force on a wire with a.c.
+32 B X4.5 {F} reversing a motor
+33 C X4.5 {F} generator e.m.f.
+34 D X4.5 {F} generator speed doubled
+35 A X4.5 transmission
+36 A X4.3 {F} light-dependent resistor
+37 B X4.3 {F} potential divider
+38 D X5 {F} deflection of beta-particles
+39 B X5 half-life
+40 C X5 atom composition

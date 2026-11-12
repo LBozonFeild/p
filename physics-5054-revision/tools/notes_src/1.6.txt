@@ -1,0 +1,28 @@
+ORDER A B C Z
+== A | Momentum: definition, unit and calculation | momentum|p = mv|p² | 3
+- Momentum = mass × velocity (the product of mass and velocity), p = mv.
+- Unit of momentum: kg m/s or N s (kg/m/s is not accepted).
+- In a calculation the formula mv alone is ignored – the value must be worked out. Typical marks: p = mv with the substitution (C1), answer with unit (A1); or the value (1) and the unit (1).
+- Change in momentum = m × (v − u) (C1); answer with unit kg m/s or N s (A1).
+- A momentum may be read from a momentum–time graph (B1).
+- "Show that" p²/2m = Ek: substitute p = mv to give m²v²/2m (B1); simplify to ½mv² and state that this is the kinetic energy (B1).
+- Mass from momentum and kinetic energy: m = p² ÷ (2Ek) (C1); answer (A1).
+== B | Impulse and force: resultant force = rate of change of momentum | impulse|per unit time|rate of change|change in momentum ÷|force is|force = change|a force is needed|momentum arriving|why the force | 1
+- Resultant force = change in momentum per unit time / rate of change of momentum.
+- F = change in momentum ÷ time taken, in any form (C1); answer (A1). F = ma is accepted as an alternative route.
+- From a momentum–time graph: the change in momentum read from the graph (C1); force = change in momentum ÷ time taken (C1); answer (A1).
+- Impulse = change in momentum, so force = impulse ÷ time (C1 for the change in momentum or impulse, C1 for F = Δp/Δt, A1).
+- A force is needed to change momentum (C1); for a stream that is stopped, the momentum arriving in 1.0 s is the rate of change of momentum, which is the force (A1).
+- When the speed of the stream doubles, the mass arriving per second also doubles, so the momentum arriving per second (the force) increases by a factor of 4.
+- A particle hitting a wall: on collision there is a change of momentum / direction / velocity, or momentum is transferred to the wall (B1); the force is the change in momentum ÷ time, or equal-sized forces act on the wall and on the particle – Newton's third law (B1).
+- Why the force is larger in a collision without a cushioning material (any two of three): the contact surfaces are more rigid / less pliable; the time of contact decreases; the acceleration increases, or force = (mv − mu)/t, or force = impulse/t.
+* Impulse = force × time = change in momentum; unit N s.
+* Change the time to seconds (for example ms to s) before dividing.
+== C | Conservation of momentum: collisions, explosions and rockets | conserv|move together|explosion|rocket | 0
+- Rocket propulsion in terms of momentum: the expelled water or gas gains (downward) momentum (B1); momentum is conserved (B1); so the rocket gains an equal upward momentum and accelerates upwards (B1).
+- Vehicles that move together after a collision: m1 × u1 = (m1 + m2) × v (C1); answer (A1).
+- "Show that momentum is conserved": p = mv, the initial momentum worked out (B1); the final momentum of the objects together worked out and seen to be the same value (B1).
+- Explosion or separation into two parts: momentum is conserved, mv = m1v1 + m2v2 (C1); rearranged with the values (C1); answer (A1).
+* Opposite directions have opposite signs: 2.0 × 2.0 − 1.0 × 1.0 = (2.0 + 1.0)v gives v = 1.0 m/s.
+== Z | Other points
+MOVE w25_21|1a|B

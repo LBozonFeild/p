@@ -1,0 +1,71 @@
+ORDER A N B C D E Z
+== A | Refraction: direction, speed, wavelength and frequency | refract|normal|bend|slow|speed|frequency|wavelength | 5
+- Refraction: the change of direction of light as it passes from one medium into another.
+- Why light refracts on entering glass (any two): it travels more slowly / at a different speed in glass; it enters an optically denser medium / a medium of different refractive index; its wavelength changes while the frequency stays the same; the angle of incidence is greater than 0.
+- Light entering glass (a denser medium) from air: the speed decreases; the wavelength decreases; the frequency does not change. Schemes give one mark each, or 2 marks only when all three are stated.
+- Light entering a denser medium deviates towards the normal as its speed decreases; on returning to the air the speed returns to its original value (3.0 × 10⁸ m/s).
+- A lens or prism: the light bends towards the normal on entering the glass (B1) and away from the normal on leaving it (B1).
+- Evidence that light slows on entering a block: the ray bends towards the normal / the angle of incidence is greater than the angle of refraction (B1); the change of direction shows a change of speed at the boundary (B1).
+- Light meeting a surface along the normal, angle of incidence 0° (B1), is not refracted – angle of refraction 0° – because the whole wavefront slows down together (B1).
+- Wavefronts changing direction on entering glass: light travels more slowly in glass (B1); one side of each wavefront reaches the glass and slows down first (B1); so the wavelength decreases / that part of the wavefront travels a shorter distance in the same time (B1).
+- Time for light to travel through glass = distance ÷ speed in the glass (C1, A1).
+* Light passing from glass into air bends away from the normal (the angle of refraction is greater than the angle of incidence); its speed and wavelength increase and its frequency is unchanged.
+* At an air–glass surface some light is reflected back into the air (angle of reflection = angle of incidence) and some is refracted into the glass, bending towards the normal; at a glass–air boundary the partially reflected ray obeys the same law and the refracted ray bends away from the normal.
+== N | Normals, angles and ray paths through blocks and prisms | normal drawn|marked|parallel-sided|path through|semicircular|circular surface|measured from the normal|measured between|second parallel ray|meeting the second face|reflected ray drawn|angle of refraction is the angle|angle of refraction: | 4
+- The normal is drawn at the point of incidence, perpendicular to the surface, correct by eye (B1).
+- The angle of incidence is marked between the incident ray and the normal (B1); the angle of refraction is marked between the refracted ray and the normal, inside the glass (B1).
+- Angle of refraction: an angle measured from the normal (C1) – the angle between the refracted ray and the normal (A1).
+- When the angle between the ray and the surface is given, the angle of incidence = 90° − that angle.
+- The normal to a circular surface is the line through the point of incidence and the centre of the circle (M1); the angle of incidence is marked between the ray and this normal (A1).
+- A ray that enters a semicircular block along a radius does not change direction: its angle of incidence is 0° – it travels along the normal. A reflected ray that leaves along a radius is not refracted either.
+- Parallel-sided block: the ray continues straight inside the block and refracts away from the normal on leaving (B1); the emergent ray is parallel to the original incident ray (B1).
+- Path through a prism: in the glass the ray bends towards the normal – it is drawn between the normal and the continuation of the incident ray (B1); on leaving it bends away from the normal (B1).
+- A second parallel ray entering the same face is refracted along a path parallel to the first ray inside the glass (B1), and is then reflected and refracted correctly at the faces it meets (B1).
+- A ray that meets the second face at the same angle to the normal as its angle of refraction at the first face emerges at the original angle of incidence; the angle between the ray and the face is 90° − the angle to the normal.
+- Partial reflection at a boundary: the reflected ray is drawn back into the block with the angle of reflection equal to the angle of incidence.
+* The angles of incidence and refraction are both measured between the ray and the normal, not between the ray and the surface; the angle of refraction is on the far side of the boundary.
+* A ray that meets a boundary along the normal passes straight on without changing direction.
+== B | Refractive index: n = sin i ÷ sin r | sin i|sin r|refractive index|n = |sin \d | 3
+- n = sin i ÷ sin r, with both angles measured from the normal and the angle in air (the larger angle) on top (C1, M1 or B1); the substitution (C1); the answer (A1).
+- Refractive index is also the speed of light in air (vacuum) ÷ the speed of light in the medium.
+- Refractive index has no unit; give more than 1 significant figure.
+- Identify the angles from the normal first (C1 in some schemes): i = 90° − the angle between the ray and the surface.
+- Finding the angle of refraction: sin r = sin i ÷ n (C1); r, with its unit (A1). Finding the angle of incidence: sin i = n × sin r (C1, A1).
+- If the angle between the ray and the surface is asked for, subtract the angle of refraction from 90° (the third mark).
+- The angle of refraction in glass can never exceed the critical angle, because the angle of incidence can never be bigger than 90° (B1): the largest r is sin⁻¹(1 ÷ n) (B1).
+* For light leaving the medium, sin(angle in air) = n × sin(angle in the medium).
+* The deviation of a ray from its original direction on entering the glass is i − r.
+* A graph of sin i against sin r is a straight line through the origin with gradient n.
+== C | Critical angle and total internal reflection | critical|total internal|totally|sin c|1 ÷ n|1/n|1 ÷ sin|1/sin | 2
+- Critical angle: an angle of incidence, in the (optically) denser medium (B1); the smallest angle of incidence for total internal reflection / the angle of incidence for which the refracted ray travels along the surface, angle of refraction 90° (B1).
+- One scheme also gave both marks for "the angle of refraction when the angle of incidence is 90°" (light entering the denser medium along the surface).
+- On a diagram the critical angle is marked between the ray in the denser medium and the normal – not the angle to the surface – for the ray whose refracted ray runs along the boundary.
+- At the critical angle the ray continues along the surface, with a reflected ray inside the glass.
+- Total internal reflection: all of the light is reflected back into the denser medium – reflection with no refraction out into the air.
+- Conditions for total internal reflection: the angle of incidence is greater than the critical angle (B1); the light is travelling from a more dense to a less dense medium / from a higher to a lower refractive index (B1).
+- Explaining why no light emerges at a face: the angle of incidence there (give its value, measured from the normal) is greater than the critical angle (B1), so total internal reflection occurs (B1).
+- Angle of incidence less than the critical angle: the light is refracted out into the air, bending away from the normal (B1). Greater than the critical angle: total internal reflection with angle of reflection = angle of incidence and no refracted ray (B1). Along the normal: the ray passes straight on undeviated (B1).
+- Total internal reflection compared with reflection in a mirror (any two): mirror reflection occurs at any angle, total internal reflection only when the angle of incidence is greater than the critical angle; total internal reflection occurs in the denser medium, for light travelling from dense to less dense; mirror reflection is not total – not all of the light is reflected.
+- sin c = 1/n in any form (C1 or B1); answer (A1 or B1). n = 1 ÷ sin c is the same relation (it is sin i ÷ sin r with r = 90°).
+- 45° prism, critical angle about 42°: the ray meets the sloping face at 45°, greater than the critical angle, so the reflected ray is drawn with i = r and no refracted ray (B1 or M1); it strikes the next face perpendicularly and passes into the air undeviated (B1). In a long block a second correct reflection is drawn at the opposite surface before the ray leaves through the end face (A1).
+- After total internal reflection the ray is drawn with the angle of reflection equal to the angle of incidence, travelling to the next face where it leaves the block.
+- Light that meets a water surface along the surface (angle of incidence 90°) (B1) is refracted at the critical angle, the largest possible angle of refraction (B1). For light from a source at water level reaching an observer under water, the ray runs along the surface and then down through the water to the eye (B1), with the critical angle marked between the ray in the water and the normal (B1).
+- As the angle of incidence is reduced below the critical angle, light eventually emerges into the air (B1); the emerging white light is separated into colours (B1).
+* A larger refractive index gives a smaller critical angle.
+* The critical angle lies between the largest angle of incidence that still gives a refracted ray and the smallest that gives total internal reflection.
+* Total internal reflection at 70° shows that the critical angle is less than 70° and that the refractive index of the material is greater than that of its surroundings.
+* Light entering a 45° prism along a normal meets the next face at 45°, greater than the critical angle of 42°, so it is totally internally reflected whichever face it enters by.
+* For light leaving a medium along its surface, n = sin 90° ÷ sin c, with the angle measured from the normal.
+== D | Optical fibres | optical fibre|optical-fibre|glass fibres | 1
+- Light in an optical fibre meets the side at a large angle of incidence and is totally internally reflected (B1), because the angle of incidence exceeds the critical angle (B1).
+- The ray is drawn with repeated reflections along the fibre, the angle of reflection equal to the angle of incidence each time.
+- Advantages of optical fibres over copper (metal) wires (one or two as asked): more calls or data per second – greater bandwidth, faster; less attenuation (loss of signal), so longer distances and fewer repeater (boosting) stations; more secure – harder to tap or hack, no cross-talk; less noise / interference; less heat or power wasted; thinner / lighter.
+- Read the question: where it says "other than cheaper and lighter", those two are not credited.
+- Advantage of an optical-fibre link over a satellite link: less likely to be hacked or intercepted (more secure); more channels / greater bandwidth / more data; transmission less likely to be interrupted; no expensive satellites needed.
+* The ray stays inside the fibre on a regular zig-zag path: at each wall it is reflected back into the fibre with angle of reflection equal to angle of incidence, measured from the normal to the wall – it does not pass out through the wall.
+== E | Experiments: measuring the critical angle; tracing a ray | experiment to measure|tracing a ray through | 0
+- Measuring the critical angle: a suitable glass or perspex block, for example semicircular (B1); a source of rays – a ray box or laser (or pins), labelled (B1); a diagram showing the ray inside the block meeting the flat face and refracting out into the air (B1); adjust the angle of incidence until the refracted ray travels along the surface / just no longer emerges (B1); measure the angle between the incident ray in the block and the normal – this is the critical angle (B1).
+- Tracing a ray through a block or prism on paper: mark the points where the ray enters and leaves the glass, by marking the rays outside and tracing them to the faces (B1); remove the block and join the entry and exit points with a straight line (B1).
+== Z | Other points
+MOVE w25_21|4a|A
+MOVE w21_22|3ai|A

@@ -1,0 +1,40 @@
+# P1 s20_12 | main sheets 1-2 and rest sheet viewed; Q3 is identical to s24_12 Q1
+1 A 1.1 acceleration is a vector; distance, speed and time are scalars
+2 A 1.1 {F} the resultant of two forces is largest when they are parallel (3.0 + 4.0 = 7.0 N) and, for angles up to 90°, smallest at 90° (√(3.0² + 4.0²) = 5.0 N), so a resultant of 4.0 N is impossible
+4 B 1.1 {F} stop-watch displays read minutes : seconds : hundredths of a second; 1 min 03.84 s − 57.76 s = 63.84 − 57.76 = 6.08 s
+5 B 1.2 average speed = known distance between the two points ÷ time taken to travel between them
+6 A 1.5.1 constant velocity means no resultant force: the force opposing the motion equals the driving force (5000 N); the weight is not involved horizontally
+7 C 1.5.1 Newton's third-law pair: the force of the parachute on the man and the force of the man on the parachute (same type, equal, opposite, on different bodies)
+8 A 1.5.4+1.5.2 {F} the force that makes a vehicle turn a corner is the sideways friction of the road on the tyres, directed towards the centre of the turn
+9 B 1.3 mass = W ÷ g = 40 ÷ 10 = 4.0 kg everywhere; weight on the planet = 4.0 × 4.0 = 16 N
+10 A 1.4 {F} density of a liquid = (mass of beaker and liquid − mass of empty beaker) ÷ volume of liquid
+11 D 1.5.6 the centre of mass of an irregular lamina can be found with a pin (hang or balance the lamina on it)
+12 C 1.5.6 {F} a balancing toy is stable because the added weights lower its centre of mass to below the point of support
+13 D 1.5.3 extension ∝ load: 3.0 N gives 2.0 cm; total length = 15.0 + 2.0 = 17.0 cm
+14 D X1.8 pressure in liquids
+15 A X2.1 {F} Boyle's law with total volume
+16 C 1.7.1 KE = ½mv²: for the rocket itself (mass M unchanged) doubling the speed multiplies the kinetic energy by four
+17 C 1.7.1 {F} gain in GPE = mgh using the vertical height: 1000 × 10 × 50 = 500 000 J
+18 D X5 energy is released by the fusion of hydrogen nuclei into helium in the centre of the Sun
+19 A 1.7.3 coal-fired power station: burning coal → water heated in the boiler → steam produced → steam turns a turbine → turbine turns a generator → electromagnetic induction produces electrical energy
+20 D 1.7.1+1.7.2 a spacecraft in a circular orbit at constant height keeps the same kinetic and gravitational potential energy, so no energy is transferred; a car at constant speed still transfers energy from fuel to thermal energy
+21 B X4.4 E = VIt with efficiency
+22 C 1.7.5 measuring power output when a known load is lifted needs a metre rule (height) and a stop-watch (time): P = weight × height ÷ time
+23 A X2.3 {F} black surface, large area
+24 C X2.2 boiling
+25 D X2.2 specific latent heat
+26 A X2.2 expansion
+27 A X2.1 liquids
+28 A X2.1 gas pressure
+29 B 3.1 {F} amplitude = half the difference between the maximum and minimum displacement = (74 − 6) ÷ 2 = 34 cm (the maximum displacement from the mean position, not the height of the peak)
+30 C 3.1 f = 12 ÷ 10 = 1.2 Hz; first crest to third crest is two wavelengths, so λ = 30 cm; v = fλ = 1.2 × 30 = 36 cm/s
+31 C 3.2.2 {F} refraction along the boundary happens when light in the medium of greater refractive index meets the boundary at the critical angle; the critical angle is measured between the ray and the normal (equal to the angle of reflection), not between the ray and the surface
+32 A 3.2.2 {F} sin i against sin r is a straight line through the origin with gradient n, greater than 1 for light entering glass
+33 D 3.2.3 {F} a converging lens gives a virtual, magnified image when the object is inside the focal length: the refracted rays diverge and appear to come from a point on the same side as the object
+34 B 4.2.1 {F} only electrons move in a conductor; a negative cloud base repels electrons down the conductor to earth, leaving its top positive
+35 D 4.2.1 {F} charging two touching spheres by induction: the charges separated are equal and opposite, so the far sphere is positive with the same size of charge as the negative near sphere
+36 A 4.2.1 {F} the electric field direction is the direction of the force on a positive charge, so it is opposite to the force on a negative charge
+37 C 4.2.4 R ∝ length ÷ cross-sectional area: doubling the length and making the area four times larger gives 2 ÷ 4 = half the resistance
+38 C X4.3 {F} short-circuiting a branch
+39 C X4.5 turning effect on a coil
+40 B X4.5 {F} no relative motion

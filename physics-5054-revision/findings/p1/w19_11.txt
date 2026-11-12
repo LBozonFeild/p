@@ -1,0 +1,23 @@
+# P1 w19_11 | main sheet 1 and rest sheet viewed; Q2, 3, 4, 5, 8, 9, 12, 13, 16, 18, 20, 34, 35 are identical to w19_12 questions; Q17 to s26_12 Q12; Q21 to s26_11 Q16; Q28 to w24_11 Q29; Q30 to w25_12 Q32; Q32 to w23_11 Q23
+1 C 1.1 mass is a scalar; acceleration, force and velocity are vectors
+6 B 1.5.1 {F} for a car accelerating along a level road the vertical forces balance (contact forces = weight) while the horizontal forces do not (driving force greater than air resistance)
+7 B 1.5.1 a force can change the speed, direction or position of a body but cannot change its mass
+10 D 1.2 without air resistance all bodies fall with the same acceleration, so two spheres of different mass released together from the same height land together
+11 C 1.5.5 moment of a force = force × perpendicular distance of the force from the pivot
+14 A X1.8 {F} pressure and area
+15 A X1.8 total pressure in a lake
+19 C XOLD thermometer range
+22 B X2.2 expansion of a solid
+23 D X2.2 {F} expansion of liquid and container
+24 B X2.2 evaporation
+25 B 3.3 radio waves have a lower frequency than microwaves; all electromagnetic waves travel at the same speed in air (3.0 × 10⁸ m/s)
+26 D 3.2.2 {F} when the refracted ray travels along the boundary the angle of refraction is 90° (the incident angle is then the critical angle)
+27 A 3.2.2 {F} light entering a 45° prism along a normal meets the next face at 45°, which is greater than the critical angle of 42°, so total internal reflection occurs (whichever face it enters by)
+29 A 3.4 the speed of sound in air is about 330 m/s = 3.3 × 10⁴ cm/s
+31 C 4.2.1 {F} a negatively charged cloud base repels electrons down a metal mast, leaving the top of the mast positively charged (protons do not move)
+33 A X4.3 {F} half-wave rectification
+36 A X4.4 switch and fuse in the live wire
+37 B X4.5 transformer turns
+38 C XOLD thermionic emission
+39 C X4.6 {F} oscilloscope settings
+40 D X5 {F} deflection in a magnetic field

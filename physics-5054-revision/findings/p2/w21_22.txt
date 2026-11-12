@@ -1,0 +1,53 @@
+# P2 w21_22 | figs viewed: 1.1 (empty measuring cylinder on balance reading 34.9 g), 2.1, 3.1 (ray enters the vertical side: θ to the horizontal normal, φ between the refracted ray and the vertical side, i at the bottom face), 8.1, 8.2 (shoulder pivot; bucket 1.3 m on one side; L 0.54 m and centre of mass 0.90 m on the other side)
+# Q5 is EITHER/OR: leaves 5a, 5bi, 5bii = EITHER; 5Oa, 5Obi, 5Obii = OR alternative
+!marks 5bii=2 5Oa=1 5Obi=1 5Obii=3
+1a | 1.3 | ways weight differs from mass (other than units), any two: weight is a vector / has a direction; weight is a force; weight depends on location / gravitational field strength; weight is measured with a spring balance / newton meter (not a beam balance) [B2]
+1b | 1.4 | {F} density of a liquid: pour the liquid into the measuring cylinder and read the volume [B1] ;; take the reading on the balance / find the mass of the cylinder with the liquid [B1] ;; subtract the original reading (mass of the empty cylinder) to get the mass of liquid – or zero the balance with the empty cylinder on it first [B1] ;; density = mass of liquid ÷ volume [B1]
+1c | 1.4 | V = m/ρ = 0.65 ÷ 780 [C1] ;; 8.3 × 10⁻⁴ m³ (830 cm³) [A1]
+2a | 1.1 | a vector quantity has magnitude and direction [B1]
+2bi | 1.5.1 | Newton's third law, pushing off a wall: the wall exerts a force on the swimmer [B1] ;; opposite in direction to the force of the swimmer on the wall [B1] ;; equal in size to it (this force on the swimmer causes the acceleration) [B1]
+2bii | 1.5.2 | reaching a constant speed with a constant forward force: (water) resistance / friction acts on the swimmer [B1] ;; the resistive (backward) force increases with speed [B1] ;; at constant speed the forward force equals the resistive force / forces balance / no resultant force [B1]
+3ai | 3.2.2 | {F} evidence that light slows on entering a block: the ray bends towards the normal / angle of incidence is greater than angle of refraction [B1] ;; the change of direction (refraction) shows a change of speed at the boundary (sin i ÷ sin r is the ratio of the speeds) [B1]
+3aii | 3.2.2 | light entering a medium where it is slower: wavelength decreases [B1] ;; frequency does not change [B1]
+3bi | 3.2.2 | {F} sin r = sin i ÷ n = sin 45° ÷ 1.6 = 0.44 [C1] ;; r = 26° (measured from the normal) [C1] ;; angle between the ray and the surface itself = 90° − 26° = 64° [A1]
+3bii | 3.2.2 | angle of incidence (64°) is greater than the critical angle (39°) [B1] ;; so the light undergoes total internal reflection [B1]
+4ai | X4.4 | neutral current
+4aii | X4.4 | earth current
+4bi | X4.4 | earthing and fuse
+4bii | X4.4 | fuse in live
+5a | 4.2.2 | t = Q/I = 7.2 ÷ 0.0016 (mA converted to A) [C1] ;; 4500 s [A1]
+5bi | X4.3 | parallel branch unchanged
+5bii | 4.2.2 | smaller current (the resistance of an LDR increases when the light is dimmer) [B1] ;; so the time taken for the same charge to pass increases (t = Q/I) [B1]
+5Oa | XOLD | transistor
+5Obi | XOLD | LDR resistance decreases
+5Obii | XOLD | transistor switches relay
+6a | X5 | alpha decay
+6bi | X5 | background
+6bii | X5 | alpha range in air
+6ci | 1.5.4 | force on a particle moving in a circular path: arrow through the particle pointing towards the centre of the circle (perpendicular to the motion) [B1]
+6cii | X4.5 | field direction
+6ciii | 1.7.2 | work done = force × distance moved in the direction of the force; a force perpendicular to the direction of motion has no distance moved along its line of action [M1] ;; so no work is done (by the force keeping an object in a circular path) [A1]
+7ai | X1.8 | incompressible
+7aii | X2.1 | molecules close
+7b | X1.8 | oil
+7ci | X1.8 | P = F/A
+7cii | X1.8 | total pressure
+7ciii | X1.8 | F = PA
+7di | X1.8 | pressure with depth
+7dii | X1.8 | hρg
+7e | X2.1 | compressing gas
+8a | 1.5.5 | {F} moment of a force = F × distance [M1] ;; the distance is the perpendicular distance from the axis (pivot) to the line of action of the force, shown on the diagram [A1]
+8bi | 1.5.5 | principle of moments: for an object in equilibrium [B1] ;; (sum of) clockwise moments = (sum of) anticlockwise moments about the same pivot / no resultant moment [B1]
+8bii | 1.5.5 | experiment to verify the principle of moments: diagram of the equipment (e.g. metre rule, two loads, pivot) [B1] ;; how balance is achieved (rule balanced on the pivot with one load on each side, positions adjusted) [B1] ;; how the principle is verified (calculate the two opposing moments, force × distance from pivot, and find they are equal) [B1]
+8ci | 1.3 | W = mg = 8.0 × 10 = 80 N [B1]
+8cii | 1.5.6 | centre of mass: the point where the (whole) weight of an object acts / seems to act (the point where the object balances) [B1]
+8ciii | 1.5.6 | centre of mass not halfway along: the mass is not uniformly distributed along the length / there is more mass at one end [B1]
+8civ | 1.5.5 | moment = weight × horizontal distance from the pivot = 80 × 0.90 [C1] ;; 72 N m [A1]
+8cv | 1.5.5 | {F} moments about the pivot: resultant of the two known moments = 87 × 1.3 − 72 = 41.1 N m, force = 41.1 ÷ 0.54 [C1] ;; 76 N [A1] ;; direction downwards (so that its moment opposes the larger moment) [B1]
+9a | 4.2.2 | a.c. compared with d.c.: sinusoidal voltage-time graph drawn and labelled a.c. [B1] ;; d.c. graph is a horizontal, non-zero line [B1] ;; a.c. varies with time / changes direction (polarity) at regular intervals, whereas d.c. is constant / never negative [B1]
+9bi | X4.4 | I = P/V
+9bii | 4.2.4 | R = V/I = 240 ÷ 0.25 [C1] ;; 960 Ω [A1]
+9biii | X4.3 | lamps in parallel
+9biv | X4.4 | cost of electricity
+9ci | 4.2.4 | circuit to determine the resistance of a lamp: cell, lamp and ammeter in series and no other components [B1] ;; voltmeter in parallel with the lamp [B1]
+9cii | 4.2.4 | resistance of a filament lamp at a low voltage is (very much) smaller than at its normal working voltage [B1] ;; because the (metal) filament is cooler [B1]

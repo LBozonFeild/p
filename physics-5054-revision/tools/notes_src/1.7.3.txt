@@ -1,0 +1,45 @@
+ORDER A B C D Z
+== D | Resources that depend on energy from the Sun | caused by energy from the Sun | 0
+- Wind and hydroelectric energy are renewable and are caused by energy from the Sun (B1); geothermal energy is renewable and is not caused by energy from the Sun (B1).
+== C | Advantages, disadvantages and environmental effects | advantage|disadvantage|pollut|reliab|carbon dioxide|greenhouse|global warming|acid rain|cost|always available|weather|environment|noise|visual|flood|habitat|expensive|cheap | 1
+- Burning a fossil fuel (coal, oil, natural gas) to generate electricity causes much global warming (B1), because it produces carbon dioxide / greenhouse gases (B1).
+- Environmental consequence of coal- or oil-fired power stations, as one cause with its effect: carbon dioxide / greenhouse gases emitted (B1), leading to global warming / an increased greenhouse effect / melting ice caps / a rise in sea level (B1).
+- Alternative cause and effect: sulfur dioxide / nitrogen oxides emitted, giving acid rain (B1), which causes breathing difficulty, damage to buildings, acidified lakes and harm to plants and animals (B1).
+- Alternative cause and effect: oil spills (B1) that damage or kill plants, sea-life and animals (B1).
+- Also credited as an environmental problem of burning oil or coal: pollution by smoke and toxic gases such as carbon monoxide; warming of lakes, rivers or the sea. Damage to the ozone layer is not accepted.
+- Reducing the carbon dioxide produced reduces global warming.
+- Nuclear compared with oil, advantage: no CO₂, SO₂, nitrogen oxides or greenhouse gases are emitted, so it does not contribute to global warming or acid rain (no toxic gases or oil spills).
+- Nuclear compared with oil, disadvantage: radioactive (nuclear) waste causes storage problems, or an explosion / meltdown / leak emits radioactivity.
+- Nuclear or coal compared with wind, advantage (any one): reliable / not intermittent – the wind is not always blowing and is not available in some places; a smaller land area for the same power; less harm to birds; less visual effect; no interference with TV or radar signals.
+- Hydroelectric compared with coal, advantage: no fuel cost; less pollution (no smoke, dust, harmful gases or CO₂); no coal to transport; renewable; responds quickly to demand.
+- Harmful effect of a hydroelectric scheme: flooding of land / destroys habitats; fish cannot pass or are killed by the turbines; uses a large area of land; spoils the scenery; the lake or river silts up.
+- A hydroelectric station does not run at full capacity all year: there is not enough water / the rainfall varies / there are periods of low demand.
+- A solar charger on a cloudy day: less (or no) light reaches the charger, so less (or no) current is produced.
+* Nuclear fuel: advantage – no carbon dioxide and not dependent on the weather; disadvantage – radioactive waste; it is not renewable.
+* A gas-fired power station burns a fossil fuel and produces carbon dioxide, a greenhouse gas; geothermal, nuclear and wind stations do not.
+* A fossil fuel such as natural gas is available constantly; solar, tidal and wind sources are not available all the time. A nuclear reactor gives a continuous, steady output for the longest time.
+== A | Renewable and non-renewable resources | renewable|run out|replac|finite|replenish | 2
+- Renewable energy source: will not run out / is being replaced. "Can be reused" and "can be used again" are not accepted.
+- Non-renewable energy source: is not being replaced or renewed (it takes very many years to form) / will run out / is finite / gets used up. "Cannot be reused" is not accepted.
+- Renewable sources credited: solar (sunlight, solar panels or cells), wind (wind turbines), tidal, wave, geothermal, hydroelectric, biomass (biofuel, biogas). Nuclear is not accepted.
+- Wood: older schemes accepted "wood" as biomass; the most recent scheme accepts "wood from a managed source" and ignores "wood" on its own.
+- Non-renewable sources credited: coal, oil, gas, peat, nuclear (uranium).
+- The sources likely to run out first: coal and oil.
+* Non-renewable means the resource is being used up faster than it is replaced.
+* A nuclear power station uses a non-renewable source; a battery is also a non-renewable source.
+* Biofuels are renewable and available at all times; solar and wind are renewable but intermittent.
+== B | Generating electricity: power stations | turbine|generator|boiler|steam|dam\b|hydroelectric|wind|tidal|geothermal|solar|coal|nuclear|fuel|wave | 3
+- Oil-fired power station, in order: burner, boiler, turbine, generator, then transformer (one placed correctly C1; all correct A1).
+- Geothermal power: the energy comes from hot rocks underground (B1); the hot rocks heat water so that it boils / turns to steam (B1); the pressure (force) of the steam turns the turbine (B1).
+- Places where energy is lost as heat between the fuel and the user (any two): furnace / boiler; turbines; generator; cooling water / cooling towers; chimney (waste gases); transformer; transmission cables.
+* Coal-fired power station: burning coal heats water in the boiler; the steam turns a turbine; the turbine turns a generator; electromagnetic induction produces electrical energy (chemical → heat → kinetic → electrical).
+* A nuclear power station has no furnace in which fuel is burned, but it still heats water to steam that turns a turbine and generator; an oil-fired station burns fuel and emits waste gases into the atmosphere.
+* Solar cells (panels) produce electricity directly, without a turbine or an a.c. generator; hydroelectric, nuclear and wind generation all turn a turbine.
+* Flowing river water turning a turbine is a hydroelectric source.
+* A geothermal power station transfers thermal energy from hot rocks (through hot water and steam) into electrical energy.
+== Z | Other points
+MOVE s26_22|3b|A
+MOVE s17_21|9aiv|C
+MOVE s22_12|MCQ13|C
+MOVE s24_12|MCQ15|C
+MOVE s24_22|3aii|C

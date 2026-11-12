@@ -1,0 +1,53 @@
+# P2 s21_22 | figs viewed: 8.1 (R1 above R2, output across R2), 1.1 (P long arrow up to the right, Q shorter arrow to the left), 2.1 (20 m/s until 1.4 s, straight to 8 m/s at 4.0 s, straight to zero at 7.0 s), 3.1–3.3 (meter hooked 20 cm from pivot, brick 10 cm further out), 4.1, 5.1–5.3, 10.1 (5 wavefronts span 12 cm in the shallow region), 10.2, 10.3 (vertical wavefronts meeting a diagonal boundary), 10.4
+# Q8(b) is EITHER/OR: leaves 8bi, 8bii = EITHER (b)(i),(ii); leaf 8biii = EITHER (b)(iii) [1] plus OR (b)(i) [1] and OR (b)(ii) [2]
+1ai | 1.1 | a vector quantity has direction; a scalar quantity does not [B1]
+1aii | 1.1 | two scalar quantities, e.g. mass, distance / length, time, speed [B1] ;; two vector quantities, e.g. velocity, acceleration, displacement, force / weight [B1]
+1b | 1.1 | {F} adding two vectors by drawing: both vectors drawn with the correct directions and sizes so that they meet at a point (head-to-tail, or from a common point) [B1] ;; triangle or parallelogram completed with all three vectors in the correct directions and the resultant clearly shown and labelled [B1]
+2a | 1.2 | {F} time before the speed starts to fall, read from the speed-time graph (the driver's reaction time) = 1.4 s [B1]
+2bi | 1.2 | uniform acceleration: the same change in speed / velocity in the same time [B1]
+2bii | 1.2 | non-uniform deceleration shown by the slope / gradient of the speed-time graph changing [B1]
+2c | 1.2 | distance = area under the speed-time graph (or average speed × time) [C1] ;; area of one section between 1.4 s and 7.0 s calculated correctly, e.g. ½ × (20 + 8) × 2.6 = 36.4 m or ½ × 8 × 3 = 12 m [C1] ;; total 48 m [A1]
+3a | 1.3 | mass = newton-meter reading (weight) ÷ g (gravitational field strength) [B1]
+3bi | 1.5.5 | principle of moments for a body in equilibrium: (sum of) clockwise moments = (sum of) anticlockwise moments (about any point) [B1]
+3bii | 1.5.5 | {F} moments about the pivot with distances measured from the pivot: 3.0 × 30 = F × 20 [C1] ;; 4.5 N [A1]
+3c | 1.5.5 | {F} load partly submerged in water: the water exerts an upward force on the load, so the force the load exerts on the rule (tension in the string) is reduced [B1] ;; so its moment about the pivot is reduced (upward force is caused by the pressure of the water) [B1]
+4ai | 3.4 | {F} reflection of sound from a smooth surface: listening tube placed on the other side of the barrier pointing at the point of reflection, at the same angle to the surface as the first tube [B1]
+4aii | 3.4+3.2.1 | sound waves are reflected (by the surface) [B1] ;; angle of incidence = angle of reflection (angle between tube A and the surface = angle between tube B and the surface) [B1]
+4b | 3.4 | typical speed of sound in a solid: any value between 1000 m/s and 10 000 m/s [B1]
+5a | 4.2.1 | {F} electric field between two oppositely charged parallel plates: at least three straight lines perpendicular to the plates [B1] ;; arrow(s) pointing from the positive plate to the negative plate [B1]
+5bi | 4.2.1 | conducting grains between charged plates: electrons / negative charge move towards the positive plate, leaving the layer nearest the negative plate positively charged [B1]
+5bii | 4.2.1 | positively charged grains are attracted to / by the negative plate (unlike charges attract) [B1]
+5c | 4.2.3 | energy transferred E = QV [C1] ;; 4.0 × 10⁻⁴ × 2000 = 0.80 J [A1]
+6a | 1.7.5 | power: work done / energy transferred per unit time [B1]
+6bi | X4.4 | I = P/V
+6bii | 4.2.4 | R = V/I = 12 ÷ 1.67 = 6.9–7.2 Ω [B1]
+6c | 4.2.4 | thinner wire of the same length and material has a larger resistance [B1] ;; so the power is less, because the current is smaller at the same voltage (P = V²/R, or P = VI with V = IR) [B1]
+7a | X4.5 | motor effect
+7bi | X4.5 | soft-iron core
+7bii | X4.5 | increasing turning effect
+8a | 4.2.4+X4.3 | {F} two resistors in series across a supply: equal resistances share the p.d. equally – 3.0 V of 6.0 V [B1] ;; unequal resistances: current = 6.0 ÷ (800 + 1200), or share the p.d. in the ratio of the resistances, 1200 ÷ 2000 × 6.0 [C1] ;; p.d. across the 1200 Ω resistor = 3.6 V [A1]
+8bi | X4.3 | LDR symbol
+8bii | X4.3 | LDR in daylight
+8biii | XOLD | EITHER thermistor; OR NOR gate and bistable
+9ai | 1.7.1 | energy stored in a battery: chemical [B1]
+9aii | 1.7.1 | useful energy output from a battery: electrical [B1]
+9aiii | 1.7.1 | useful energy outputs from a mobile phone, any 2: light; sound; radio / microwave / electromagnetic waves [B2]
+9b | 4.2.2 | Q = It [C1] ;; 0.0013 × 120 = 0.16 C (mA to A, minutes to seconds) [A1]
+9ci | X2.2 | mcΔT
+9cii | 1.7.4 | efficiency = energy output ÷ energy input [C1] ;; useful energy output ÷ total energy input [A1]
+9ciii | 1.7.4 | total energy input = wasted thermal energy + useful output = 460 + 5200 = 5660 J [C1] ;; efficiency = 5200 ÷ 5660 = 0.92 or 92% [A1]
+9civ | 1.7.4 | calculated efficiency too large: some thermal energy is lost from the battery to the surroundings (measured temperature rise is smaller than it should be) [B1] ;; so the true wasted energy and the true energy input are larger than calculated [B1]
+10ai | 3.1 | {F} wavelength from a diagram = distance spanned ÷ number of wavelengths (gaps between wavefronts): 12 ÷ 4 = 3.0 cm [B1]
+10aii | 3.1 | frequency = number of waves per second (or f = 1/T) [C1] ;; 10 ÷ 5.0 = 2.0 Hz [A1]
+10aiii | 3.1 | v = fλ [C1] ;; 2.0 × 3.0 = 6.0 cm/s [A1]
+10aiv | 3.1 | water wave passing from shallow into deep water: wavelength increases, frequency stays the same and speed increases [B1]
+10av | 3.1 | {F} refraction of water waves entering deep water at an angle: at least three refracted wavefronts drawn straight and joined to the incident wavefronts at the boundary (no extra wavefronts in between) [B1] ;; constant (larger) wavelength between all refracted wavefronts [B1] ;; all wavefronts turned in the correct direction – between the original wavefront direction and the normal, i.e. the direction of travel bends away from the normal as the wave speeds up [B1]
+10bi | 3.2.4 | four colours of the visible spectrum named from violet, indigo, blue, green, yellow, orange, red [B1] ;; in the correct order – smallest wavelength is violet, largest is red [B1]
+10bii | 3.2.4 | {F} producing a spectrum from a lamp: prism [B1] ;; slit to produce a narrow beam [B1] ;; dispersion shown at the first or second face (one ray becoming at least two) [B1] ;; correct refraction at both faces for all rays shown [B1]
+11a | X5 | electron
+11b | X5 | shielding
+11ci | X5 | beta range
+11cii | X5 | beta absorbed by air
+11d | X5 | decay equation
+11ei | X5 | fusion vs fission
+11eii | X5 | fusion conditions

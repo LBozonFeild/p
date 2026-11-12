@@ -1,0 +1,49 @@
+# P2 s05_2 | figs viewed: 2.1 (object, lens and film of a camera on one axis), 2.2 (white ray meeting one face of a prism), 4.1 (lake behind a dam, pipe down to the turbine house, outflow to the river), 7.1 (cell with its positive terminal uppermost, fixed resistor and LDR X in series, A on the top wire), 8.1 (three cells in series with a resistor), 8.2 (three cells in parallel), 10.1 | not viewed: 1.1, 3.1, 5.1
+1a | 1.5.4+X6 | force on an orbiting planet: arrow from the planet directly towards the Sun (centre of the orbit) [B1]
+1bi | 1.2 | orbital speed = circumference of orbit ÷ time for one orbit [C1] ;; both speeds worked out and compared: 679 ÷ 0.7 = 970 against 942 ÷ 1.0 = 942 million km per year [A1]
+1bii | X6 | orbit geometry
+2a | 3.2.3 | {F} image formed by a camera lens: a straight ray from the top of the object through the optical centre of the lens to the film [M1] ;; a second ray from the same point refracted by the lens to meet the first at the film [A1]
+2b | 3.2.3 | when the object moves closer, the lens is moved away from the film (towards the object) to keep the image in focus [B1]
+2c | 3.2.4 | {F} dispersion by a prism: refraction in the correct direction at both faces for every ray drawn [B1] ;; the white ray splits into at least two rays at the first face (not only at the second) [B1] ;; colours labelled on the diverging rays leaving the prism (red deviated least, violet most) [B1]
+3ai | X2.1 | gas pressure
+3aii | X2.1 | gas pressure
+3b | X2.1 | Boyle's law
+4a | 1.7.1 | {F} water has least gravitational potential energy at its lowest point – in the river / leaving the turbine house [B1]
+4bi | 1.7.4 | efficiency = useful energy output ÷ energy input = 4.5 × 10⁹ ÷ 5.0 × 10⁹ = 0.90 (90%); no unit [B1]
+4bii | 1.7.5 | P = E ÷ t [C1] ;; time in seconds: 30 × 60 = 1800 s [C1] ;; 4.5 × 10⁹ ÷ 1800 = 2.5 × 10⁶ W [A1]
+4c | 1.7.3 | advantage of hydroelectric over coal-fired power stations: no fuel cost; less pollution (no smoke, dust, harmful gases or CO₂); no coal to transport; renewable; responds quickly to demand [B1]
+4d | 1.7.3 | harmful effect of a hydroelectric scheme: flooding of land / destroys habitats; fish cannot pass (or are killed by the turbines); uses a large area of land; spoils the scenery; the lake or river silts up [B1]
+5a | X4.5 | field of a solenoid
+5bi | X4.1 | induced poles
+5bii | X4.1 | attraction
+5ci | X4.5 | reversing current
+5cii | X4.5 | field strength
+6a | 1.7.5+X4.4 | (outside the selected sections) power = VI = 240 × 12.6 = 3024 W [B1] ;; power in kW = power in W ÷ 1000 = 3.024 kW [B1] ;; energy in kW h = power in kW × time in hours = 3.024 × 0.50 = 1.512 kW h [B1]
+6b | X4.4 | power and current
+6c | X4.4 | fuse rating
+7a | 4.2.2 | {F} electrons flow from the negative terminal of the cell round the circuit to the positive terminal – opposite to the conventional current [B1]
+7b | X4.3 | LDR
+7c | X4.3 | LDR divider
+8a | 4.2.3 | {F} e.m.f. of cells in series is the sum of their e.m.f.s: 3 × 1.5 = 4.5 V [B1]
+8b | 4.2.4 | equation I = V/R [B1] ;; 4.5 ÷ 15 [C1] ;; 0.30 A [A1]
+8c | 4.2.3 | {F} advantage of connecting cells in parallel: the battery lasts longer; if one cell fails the others still work; smaller internal resistance (less lost voltage) [B1]
+9ai | 1.2 | speed-time sketch: y-axis labelled speed (m/s) and x-axis labelled time (s) [B1] ;; straight line from the origin to the top speed at the end of the acceleration (25 m/s at 20 s) [B1] ;; horizontal line at constant speed (to 50 s), then a straight line down to zero (at 60 s) [B1]
+9aii | 1.2 | acceleration = change in velocity ÷ time taken (written in words) [B1]
+9aiii | 1.2 | uniform acceleration: the velocity increases by the same amount in each second (equal time intervals) – constant rate of change of velocity [B1]
+9aiv | 1.2 | deceleration from the graph = change in speed ÷ time = 25 ÷ 10 [C1] ;; 2.5 m/s² [A1]
+9bi | 1.5.1 | forces on a moving train, any four with directions: weight (gravitational force) downwards; normal reaction (contact force from the track) upwards; air resistance (drag) backwards; friction / braking (resistive) force backwards; driving force (thrust of the engine) forwards [B4]
+9bii | 1.5.1 | accelerating: unbalanced – forward force greater than backward force (resultant forwards) [B1] ;; constant speed: balanced – forward force equals backward force (zero resultant) [B1] ;; decelerating: unbalanced – backward force greater than forward force (resultant backwards) [B1]
+9c | 1.2 | non-uniform acceleration: speed-time sketch with labelled axes and a curved (non-straight) line [B1]
+10ai | X2.3 | energy loss percentages
+10aii | X2.3 | conduction, convection, radiation
+10aiii | X2.3 | insulation
+10bi | X2.3 | payback
+10bii | X2.3 | payback
+10biii | X2.3 | reducing heat loss
+11ai | X5 | atomic structure
+11aii | X5 | decay
+11aiii | X5 | background
+11aiv | X5 | half-life
+11bi | X5 | beta decay
+11bii | X5 | alpha decay
+11biii | X5 | isotopes

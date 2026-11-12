@@ -1,0 +1,47 @@
+# P2 s08_2 | figs viewed: 1.1 (oil, boiler, three empty boxes, electrical energy output), 2.1 (arm pivoted at one end; rod 1.0 cm from the pivot, force F a further 8.0 cm along), 6.1 (resistance rising from a non-zero starting value to a constant value), 9.1 (30 m/s until 1.0 s, straight to zero at 5.0 s), 10.1 (6.0 m log spanning four waves) | not viewed: 3.1, 3.2, 4.1, 7.1, 7.2, 8.1, 11.1, 11.2
+1a | 1.7.3 | {F} oil-fired power station in order: boiler, turbine, generator, transformer – one placed correctly [C1] ;; all three correct [A1]
+1b | 1.7.3 | environmental problem of burning oil for electricity: pollution (smoke, toxic gases such as CO, SO₂), global warming / greenhouse effect, acid rain (not damage to the ozone layer) [B1]
+1ci | 1.7.3 | non-renewable: cannot be replaced / is not being renewed (takes very many years to form) / will run out (not "cannot be reused") [B1]
+1cii | 1.7.3 | a renewable energy source: solar, wind, tidal, geothermal, biomass, hydroelectric, wave [B1]
+2a | 1.5.5 | {F} moments about the pivot with both distances measured from the pivot: F × (1.0 + 8.0) = 7.2 × 1.0 [C1] ;; F = 0.80 N [A1]
+2b | X1.8 | P = F/A
+2c | 1.5.1 | Newton's third law: action and reaction are equal and opposite – the force of body A on body B is equal and opposite to the force of B on A [B1]
+3ai | X2.2 | evaporation
+3aii | X2.3 | convection
+3b | X2.3 | foil blanket
+4a | X2.2 | boiling points
+4b | X2.2 | mcΔT
+5a | 3.3 | a remote control for a television emits infrared [B1] ;; a radioactive source emits gamma rays [B1]
+5bi | 3.3 | X-rays are detected with a photographic plate (film), a fluorescent screen or an electronic (CCD) detector [B1]
+5bii | 3.3 | X-ray image of a bone: X-rays are absorbed (stopped) by bone – not reflected [B1] ;; they pass through flesh, travel in straight lines and affect the detector (blacken the film) [B1]
+6a | 4.2.4 | R = V/I = 240 ÷ 0.20 [C1] ;; 1200 Ω [A1]
+6b | 4.2.4 | {F} as the resistance of a filament rises after switching on, the current decreases [M1] ;; to a constant value (0.20 A) [A1]
+6c | 4.2.4 | a filament has a higher resistance if it is, two of: longer; thinner; hotter; made of a poorer conductor [B2]
+7ai | X4.5 | field direction
+7aii | X4.5 | force on wire
+7bi | X4.5 | field of two wires
+7bii | X4.5 | force between wires
+8a | XOLD | thermionic emission
+8bi | XOLD | anode
+8bii | XOLD | vacuum
+8c | 4.2.2 | current = charge passing per second = number of electrons per second × charge on each = 8.0 × 10¹⁴ × 1.6 × 10⁻¹⁹ [C1] ;; 1.3 × 10⁻⁴ A [A1]
+9a | 1.7.1 | energy change as a car brakes: kinetic energy [B1] ;; to heat (and sound) [B1]
+9bi | 1.5.2+1.2 | {F} thinking distance = speed × reaction time (area under the horizontal part of the graph) = 30 × 1.0 = 30 m [B1]
+9bii | 1.5.2+1.2 | braking distance = area under the sloping part of the graph = average speed × time = ½ × 30 × 4.0 [C1] ;; 60 m [A1]
+9biii | 1.2 | deceleration = gradient = (v − u) ÷ t = 30 ÷ 4.0 [C1] ;; 7.5 m/s² [A1]
+9biv | 1.5.1 | braking force F = ma = 800 × 7.5 [C1] ;; 6000 N [A1]
+9ci | 1.5.2 | new tyres instead of badly worn ones: more friction (grip), so greater deceleration [B1] ;; shorter braking distance [B1]
+9cii | 1.5.2 | skidding on a wet road: less friction, so less deceleration [B1] ;; longer braking distance [B1]
+9ciii | 1.5.2 | heavier load: larger mass gives less deceleration for the same braking force [B1] ;; longer braking distance [B1]
+10ai | 3.1 | transverse waves have crests and troughs; longitudinal waves have compressions and rarefactions [C1] ;; transverse: vibration at right angles to the direction of the wave; longitudinal: vibration along the direction of the wave [A1] ;; diagram of a transverse wave showing at least one wavelength [B1] ;; diagram of a longitudinal wave (e.g. layers on a slinky spring) showing at least one wavelength [B1]
+10aii | 3.1+3.4 | compression: region of higher pressure where the particles are closer together [B1] ;; rarefaction: region of lower pressure where the particles are further apart [B1]
+10bi | 3.1 | ripple tank: a tank of water with a labelled dipper / vibrator [B1] ;; a light source with a screen for the projected image (or a stroboscope to view the waves) [B1]
+10bii | 3.1 | reflection at a plane barrier: barrier and incident wavefronts drawn [B1] ;; reflected wavefronts at the correct angle with the same wavelength [B1]
+10ci | 3.1 | {F} wavelength = length spanned ÷ number of waves in that length = 6.0 ÷ 4 = 1.5 m [B1]
+10cii | 3.1 | frequency = number of waves per second = 5 ÷ 10 [C1] ;; 0.50 Hz [A1]
+10ciii | 3.1 | v = fλ = 0.50 × 1.5 [C1] ;; 0.75 m/s [A1]
+11ai | X5 | penetrating powers
+11aii | X5 | safety
+11aiii | X5 | half-life
+11b | X5 | deflection
+11c | X5 | isotopes

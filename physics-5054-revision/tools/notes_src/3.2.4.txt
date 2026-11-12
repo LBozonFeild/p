@@ -1,0 +1,33 @@
+ORDER A C B Z
+== A | Dispersion by a prism: ray diagrams | prism|dispers|spectrum|same path as blue | 2
+- White light through a prism: refraction in the correct direction at both faces for every ray drawn – towards the normal on entering and away from the normal on leaving, with no incorrect rays (B1).
+- The white ray splits into at least two rays at the first face, not only at the second – the colours separate inside the glass (B1).
+- Red is deviated least and violet (blue) most; the colours are labelled on the diverging rays leaving the prism (B1). For a prism with its apex up, red is at the top of the screen and violet at the bottom.
+- Producing a spectrum from a lamp: a prism (B1); a slit to produce a narrow beam (B1); dispersion shown at the first or second face – one ray becoming at least two (B1); correct refraction at both faces for all the rays shown (B1).
+- A single colour sent through the prism: two correct refractions (M1) with no dispersion (A1); red light arrives at the red end of where the spectrum was.
+- Blue light through a prism is refracted in the correct direction at both faces (B1) and deviated more than red, so the blue and red rays diverge (B1).
+- Red light sent along the same path as blue: refracted in the same direction at both faces (M1), but deviated less than the blue at each face (A1) – refracted less at the first face, and away from the normal at the second face so that the two rays diverge.
+* Dispersion begins where the white light enters the prism and the colours spread further on leaving; each colour bends towards the base of the prism at both faces.
+* The ray that lands nearer the top of the screen (deviated less towards the base of the prism) is red.
+== C | The colours of the visible spectrum in order | colours of the (visible )?spectrum|visible spectrum in order|four colours|any four of the five|colours between|order of the visible spectrum|band of colours|least-deviated end | 0
+- The colours of the visible spectrum in order: red, orange, yellow, green, blue, indigo, violet (B1). Partial credit when two marks are given: all the colours named, or all but one in order (C1); the correct order (A1 or B1).
+- On the screen a spectrum – a band of colours, the colours of the rainbow – is seen (B1), in the order red, orange, yellow, green, blue, indigo, violet (B1).
+- The least-deviated end of the spectrum from a prism is red.
+- In order of increasing wavelength: violet, indigo, blue, green, yellow, orange, red – violet has the smallest wavelength and red the largest.
+- The colours between red and blue: orange, yellow, green.
+* Red to violet is also the order of increasing frequency and of increasing deviation by a prism.
+* Infrared and ultraviolet are not visible colours.
+== B | Why the colours separate: speed, refractive index, frequency and wavelength | refractive ind|speed|slow|frequency|wavelength|travel|refracted (less|more)|no spectrum | 1
+- Dispersion: different colours have different speeds in glass / different refractive indices (B1), so they refract through different angles (B1).
+- Blue (violet) light deviates more than red (B1); blue slows down more than red on entering the glass (B1); so the refractive index is greater for blue than for red (B1).
+- The refractive index is smaller for red light than for violet light (B1), so for the same angle of incidence red has the larger angle of refraction – it bends less towards the normal (B1).
+- Both red and violet light travel more slowly in glass than in air (B1); red light travels more quickly than violet light in glass (B1).
+- From red to violet the frequency increases and the wavelength decreases (both needed for the mark).
+- No spectrum is produced by reflection, because all colours are reflected at the same angle (i = r for every colour).
+* Red light has a lower frequency and a longer wavelength than violet (or blue) light; yellow has a lower frequency and longer wavelength than blue.
+* All colours travel at the same speed in a vacuum and in air; in glass red is slowed down less and refracted less than blue.
+* The deviation by a prism increases with frequency: green is deviated more than yellow.
+== Z | Other points
+MOVE s13_22|10d|A
+MOVE s22_21|4aiii|A
+MOVE w08_2|6c|A

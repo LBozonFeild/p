@@ -1,0 +1,60 @@
+ORDER A K C D W Z
+== A | Load–extension graphs and the limit of proportionality | limit of proportionality|proportional|graph|straight line|spring|stretch | 4
+- Extension directly proportional to load is shown by a straight-line graph (B1) that passes through the origin (B1).
+- Limit of proportionality: the point beyond which the extension is no longer directly proportional to the load / force (where two marks are given: the idea that proportionality stops C1, "the point at which" it stops A1).
+- On a graph the limit of proportionality is the point where the line stops being straight and begins to curve (the end of the straight section, where the gradient starts to change) – not the breaking point.
+- Beyond the limit of proportionality the spring extends by a different amount for the same extra load: the load is no longer proportional to the extension; the spring may become easier to pull.
+- Extension–load graph beyond the limit: the line continues from the end of the straight section (B1) and curves upwards – a larger extension for each extra newton (B1).
+- Sketch of an extension–load graph taken well beyond the limit: a straight line of positive gradient from the origin, for at least half the line (B1); then a curve of increasing gradient starting at the end of the straight line, never becoming vertical, with the limit of proportionality labelled where the curve begins (B1).
+- Length–load graph: a straight line up to the limit of proportionality (B1), starting from a non-zero length on the length axis, not from the origin (B1); beyond the limit a curve of changed gradient – it curves upwards when the spring becomes easier to stretch, and is less steep if it becomes harder to stretch (B1).
+- The limit of proportionality has not been reached if the graph is a straight line throughout (constant gradient); it has been reached where a graph is no longer straight.
+- To show where the limit of proportionality is: add loads above that value (B1); the increase in length for the same increase in load is then different / the graph does not continue as a straight line (B1).
+- From a table: the spring that has passed its limit is the one whose extensions for equal increases in load are not equal (M1); quote the data that show it stretches more for the later loads (A1).
+- "Easier to stretch": a smaller force for the same extension, or a larger extension for the same force – shown with a pair of values from the graph.
+- Plotting an extension–load graph: axes labelled with quantity and unit (B1); linear scales (B1); a straight line from (0, 0) to the given point when the limit of proportionality is not exceeded (B1).
+- A stiffer (stronger) spring compresses or stretches less for the same force.
+- When a mass on a spring is pulled down, the upward force (tension) increases (B1) because the spring is stretched more (B1).
+* The limit of proportionality is the end of the straight-line section through the origin – the last point on the straight line before the graph curves; it is before the maximum load.
+* From a table: equal steps of load give equal steps of extension up to the limit; the first larger step of extension contains the limit of proportionality.
+* The spring constant is the gradient of the straight section of a load–extension graph (load ÷ extension).
+* A spring balance has a linear scale only over the straight-line (proportional) part of the graph.
+* The fibre, thread or spring that is hardest to stretch has the smallest extension for a given load (the lowest, least steep line on an extension–load graph).
+* Extension is proportional to the load (weight = mg): if the same mass stretches a spring three times as far on another planet, g there is three times as large.
+== K | Extension, length and spring-constant calculations | \d\s*[×÷]\s*[\d(]|=\s*\(?\d[\d ,.]*\s*[×÷+−/]|unstretched length =|extension = |read from the | 2
+- Extension = stretched length − original (unstretched) length (e = l − l₀); stretched length = unstretched length + extension.
+- The unstretched length is the length at zero load, read where the line meets the length axis; or the length at a known load − the extension for that load.
+- Use the extension, not the total length, in calculations.
+- Spring constant = load ÷ extension (for example 7.0 N ÷ 0.17 m = 41 N/m); F = kx (C1), answer (A1).
+- Below the limit of proportionality the extension is directly proportional to the load: use proportion, or "load ÷ extension is constant" (C1); answer with its unit (A1).
+- New length = original length + new extension.
+- Reading a graph: find the extension (new length − original length) (C1), then read the load, weight or mass from the graph at that extension (A1).
+- A force read from a spring graph can then be used in a = F ÷ m (C1, A1) or m = W ÷ g.
+- Comparing two springs on the same axes: compare the two lines at the same force.
+* Spring constant k = force ÷ extension, with extension = length − unstretched length: 8 N ÷ (30 − 10) cm = 0.40 N/cm.
+* Use the total load on the spring, and add the extension to the original length.
+* Doubling the load doubles the extension (not the length).
+== C | Experiment: measuring the extension of a spring | procedure for|readings for|calibrated spring|finding extension with a scale | 0
+- Procedure for an extension–load graph: measure the unstretched length of the spring with a rule, or attach a marker / pointer and read its position (B1); attach a load, measure the new length and calculate extension = new length − original length, or read the extension directly against a zeroed rule (B1); repeat for different loads to obtain further results (B1).
+- Readings: hang different weights on the spring and read the pointer position (length) each time (B1); extension = reading with the load − reading with no load (B1).
+- Using a calibrated spring to find a mass: hang the object from the spring, measure the length / extension and find the weight from the table or graph, or by proportion (B1); mass = weight ÷ g (B1).
+== D | Springs side by side and end to end | in series|in parallel|side by side|two identical springs|identical springs | 1
+- Two identical springs side by side supporting the same load: half the extension (B1), because the springs share the load – each carries half the weight (B1).
+- The limit of proportionality of the pair is not reached at a load that would exceed it for one spring, because the load is shared equally: the tension in each spring is half the load (the limit for the pair is doubled).
+- Two identical springs in series: the upper spring also supports the weight of the lower spring, so its extension is larger.
+* Identical springs side by side share the load equally (three springs carry one third each); work out the load on one spring and use proportion for its extension.
+* Two identical springs in series each carry the full load, so each extends as much as one spring alone and the total extension is doubled; in parallel each carries half the load and extends half as much.
+== W | Wires, rubber and permanent deformation | wire|rubber|elastic solid|fibre|thread|permanent|returns to its original | 3
+- A stretched rubber band becomes longer (B1) and thinner / smaller in cross-sectional area (B1).
+- When the load is removed after stretching far beyond the limit, the spring has a permanent extension: it is longer than it was originally.
+- Beyond the limit of proportionality the extra extension is more than the proportional amount; some of the extension may be permanent.
+* Beyond the limit of proportionality a wire continues to extend, but the extension is no longer directly proportional to the force; where the extension–load graph curves upwards the wire has become easier to extend.
+* Removing the load from a stretched wire changes its length (extension); its mass does not change.
+* An elastic solid returns to its original shape after being deformed (a football when it is kicked); bullets, damaged cars and sawn metal are permanently deformed.
+== Z | Other points
+MOVE w16_22|8ai|K
+MOVE w12_22|2b|K
+MOVE s12_22|1biii|K
+MOVE w22_12|MCQ10|K
+MOVE s18_12|MCQ12|A
+MOVE s13_12|MCQ10|A
+MOVE s24_12|MCQ10|A

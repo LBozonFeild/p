@@ -1,0 +1,41 @@
+# P1 w24_12 | sheets 1-2 viewed; rest sheets viewed later for Q24, 26, 31, 33, 34 (Q34 enlarged)
+1 C 1.1 {F} a small length of about a centimetre is measured accurately with a micrometer (a rule or tape is not precise enough)
+2 A 1.1 acceleration, displacement and velocity are all vectors; energy, mass, power and work are scalars
+3 A 1.2 {F} average speed = total distance ÷ total time = 28 ÷ 14 = 2.0 m/s (including the time spent at rest)
+4 B 1.2 {F} the magnitude of the velocity is decreasing wherever the velocity–time graph is moving towards the time axis, whether from positive values or from negative values
+5 A 1.3 {F} a force can change the shape and size of an object (and the spacing of its atoms) but not its mass
+6 D 1.3 mass does not depend on position; weight = mg decreases where the gravitational field strength is smaller
+7 D 1.4 1 g/cm³ = 1000 kg/m³, so 2.4 g/cm³ = 2400 kg/m³
+8 A 1.5.2 {F} falling object: the force from the Earth (weight) acts downwards and the force of the air (air resistance) acts upwards, opposite to the direction of motion
+9 C 1.5.5 {F} moment = force × perpendicular distance from the pivot to the line of action of the force (F × d), not the distance along the lever
+10 A 1.7.2+1.5.1 {F} work done increasing the speed (kinetic energy) = resultant force × distance = (3.5 − 1.9 − 0.10) MN × 100 m = 150 MJ
+11 A 1.7.4 efficiency = useful energy output ÷ total energy input
+12 C 1.7.5 {F} power = work done ÷ time = mgh ÷ t; compare m × h ÷ t (2.0 × 2.0 ÷ 1.5 is the largest)
+13 C X2.1 Boyle's law
+14 C X2.1 pressure and temperature
+15 D X2.1 kelvin scale
+16 C X2.2 states
+17 C X2.2 evaporation
+18 B X2.3 absorber
+19 C 3.4+3.1 ultrasound has a frequency above 20 000 Hz; f = v ÷ λ with λ in metres: 1500 ÷ 0.060 = 25 000 Hz
+20 B 3.2.1 {F} angle of reflection = angle of incidence, measured from the normal: a ray at 30° to the mirror has i = r = 60°
+21 A 3.2.1 {F} image in a plane mirror: same size, upright, as far behind the mirror as the object is in front
+22 C 3.2.2 {F} angles must be measured from the normal: i = 90° − 42.0° = 48.0°, r = 90° − 49.5° = 40.5°; n = sin i ÷ sin r = 1.144; sin c = 1 ÷ n, so c = 60.9°
+23 D 3.3 X-rays and microwaves are electromagnetic waves; sound, ultrasound and water waves are not
+24 A X4.1 {F} induced magnetism
+25 C X4.1 magnetic materials
+26 B X4.1 {F} magnet in a uniform field
+27 D 4.2.1 a rod that loses electrons becomes positively charged (one that gains electrons becomes negative); protons are not transferred
+28 A 4.2.4+X4.3 current is the same in every resistor in a series circuit: I = E ÷ total resistance = E ÷ 4R
+29 D 4.2.3 one volt = one joule per coulomb (V = W ÷ Q)
+30 C 4.2.4+X4.3 resistance is proportional to length and inversely proportional to cross-sectional area: a wire of 4 × the length and 4 × the area has the same resistance R; two equal resistances in parallel give half the resistance (parallel combination outside the selected sections)
+31 D X4.3 {F} circuit symbols
+32 B 1.7.1 an electric heater transfers energy by electrical work done to the thermal store
+33 A X4.5 {F} induced poles
+34 D X4.5 {F} field of a wire
+35 D X4.5 commutator
+36 A X5 nuclide notation
+37 D X5 absorption
+38 C X5 tracer
+39 C X6 Solar System
+40 C X6 supernova

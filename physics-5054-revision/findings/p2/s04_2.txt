@@ -1,0 +1,31 @@
+# P2 s04_2 | figs viewed: 4.1 (student clapping 80 m from a wall), 6.1 (18 Ω and 12 Ω in series across the supply between B and A; voltmeter across the 12 Ω), 7.1, 9.1, 11.1 (track falling from A, rising to C, falling to D), 11.2 (curved track from D to E seen from above) | not viewed: 1.1, 1.2, 2.1, 2.2, 3.1, 5.1, 8.1, 10.1, 10.2
+# merged leaves: 1aii = 1(a)(i),(ii); 1biii = 1(b)(i)–(iii); 2aii = 2(a)(i),(ii); 5aiii = 5(a)(i)–(iii); 5bii = 5(b)(i),(ii); 6aii = 6(a)(i),(ii); 6bii = 6(b)(i),(ii); 7aiii = 7(a)(i)–(iii); 9aii = 9(a)(i),(ii); 9ciii = 9(c)(i)–(iii); 10aiii = 10(a)(i)–(iii); 10biv = 10(b)(i)–(iv); 11aiii = 11(a)(i)–(iii); 11bii = 11(b)(i),(ii)
+1aii | 1.5.2 | downward force on a falling parachutist: weight (gravitational force) [B1] ;; upward force: air resistance (drag) [B1]
+1biii | 1.5.2+1.2 | initial acceleration of a body falling from rest: 10 m/s² (9.8 m/s²), with the unit [B1] ;; the acceleration then decreases because the air resistance increases as the speed increases [B2] (part credit (C1) for: the resultant force gets smaller; the gradient of the speed-time graph decreases) ;; constant speed is reached when air resistance equals weight – no resultant force [B1]
+2aii | X2.3 | radiation through a vacuum
+2b | X2.3 | convection
+2c | X2.3 | insulation
+3a | X2.2 | expansion gaps
+3b | X2.2 | expansion problems
+4a | 1.2 | speed: distance travelled per unit time (distance ÷ time) [B1]
+4b | 3.4 | {F} echo timing: speed = distance ÷ time [C1] ;; the sound travels to the wall and back, so the distance is doubled: 2 × 80 = 160 m [C1] ;; t = 160 ÷ 330 = 0.48 s [A1]
+4c | 3.4 | number of claps in one minute = 60 ÷ time between claps = 60 ÷ 0.48 [C1] ;; about 124 [A1]
+5aiii | X4.5 | tape recording
+5bii | X4.1 | permanent magnetic material
+6aii | 4.2.3 | {F} choosing a voltmeter range: a range whose maximum is below the p.d. to be measured is unsuitable – the reading would be off the scale [B1] ;; a range far larger than the p.d. is unsuitable – the deflection is small, so the reading is less accurate (less sensitive) [B1]
+6bii | 4.2.4+X4.3 | {F} formula V = IR [B1] ;; I = 4.0 ÷ 12 [C1] ;; 0.33 A [A1] ;; p.d. across the whole series combination = current × total resistance = 0.33 × (18 + 12) (or 0.33 × 18 + 4.0) [C1] ;; 10 V [A1]
+7aiii | XOLD | electron beam tube
+7b | XOLD | deflection
+8a | X5 | background sources
+8b | X5 | effect of radiation
+8c | X5 | cosmic rays
+8d | X5 | nucleon number
+8e | X5 | alpha decay
+9aii | 3.3+X2.3 | electromagnetic spectrum diagram: three parts other than visible and infrared, from radio waves, microwaves, ultraviolet, X-rays, gamma rays [M3] ;; all the parts shown in the correct order of wavelength, including visible light and infrared (gamma, X-rays, ultraviolet, visible, infrared, microwaves, radio in order of increasing wavelength) [A1] ;; (outside the selected sections) a shiny surface reflects infrared radiation [B1] ;; (outside the selected sections) any two: more energy is reflected towards the food; food cooks faster; less energy wasted / more efficient; outer case does not get hot [B2]
+9b | X4.4 | earthing
+9ciii | X4.4 | P = VI
+10aiii | 1.4 | density of a regular bar: measure its mass [M1] ;; using a (top-pan) balance [A1] ;; measure its length, breadth and height (or find its volume by displacement of water) [M1] ;; volume = length × breadth × height (or subtract the two measuring-cylinder readings) [A1] ;; using a ruler / calipers / micrometer (or a measuring cylinder) [A1] ;; density = mass ÷ volume [B1]
+10biv | 1.7.5+X2.2 | (outside the selected sections) flat part of a heating curve: the solid melts [B1] ;; (outside the selected sections) energy first increases the vibration (kinetic energy) of the molecules [B1] ;; (outside the selected sections) then breaks the bonds between them during melting [B1] ;; (outside the selected sections) E = mcΔT [C1] ;; (outside the selected sections) temperature rise read from the graph, about 650 °C [C1] ;; (outside the selected sections) 0.030 × 880 × 650 = 17 160 J [A1] ;; energy supplied = power × time = 30 × 400 = 12 000 J [C1] ;; (outside the selected sections) E = mL [C1] ;; (outside the selected sections) specific latent heat of fusion with its unit, J/kg [A1]
+11aiii | 1.7.1 | {F} roller-coaster energy changes: going downhill the gravitational potential energy decreases [B1] ;; and kinetic energy is gained [B1] ;; going uphill kinetic energy changes back to potential energy [B1] ;; maximum potential energy = mgh [C1] ;; 500 × 10 × 30 [C1] ;; 150 000 J [A1] ;; with no friction, conservation of energy: the loss in potential energy equals the gain in kinetic energy [C1] ;; K.E. at the lower point = mg × height fallen = 500 × 10 × (30 − 10) [C1] ;; 100 000 J [A1]
+11bii | 1.5.4+1.1 | {F} velocity is a vector – it includes direction; speed does not [B1] ;; on a bend the direction of motion changes, so the velocity changes even at constant speed [B1] ;; the force making the carriage move round the curve acts towards the centre of the curve (inwards) [B1]
+11c | 1.5.1 | F = ma [C1] ;; a = 3000 ÷ 500 [C1] ;; 6.0 m/s² [A1]

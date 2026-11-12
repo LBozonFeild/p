@@ -1,0 +1,97 @@
+ORDER A M B S C D E Z
+== A | How sound is produced and travels: vibrations, longitudinal waves, compressions and rarefactions | vibrat|oscillat|longitudinal|compression|rarefaction|loudspeaker|cone | 8
+- Motion of the air particles (molecules) in a sound wave: they oscillate / vibrate – backwards and forwards, to and fro (B1 or M1); parallel to the direction of travel of the wave (the direction of propagation or of energy travel) – longitudinal – or forming compressions and rarefactions (B1 or A1). Any clear oscillation earns the first mark; for the second mark "left and right" and "up and down" are ignored – the motion must be related to the direction of travel of the wave.
+- Sound is a longitudinal wave.
+- Compression: where the particles are close together / the pressure or density is high. Rarefaction: where the particles are further apart than average / the pressure or density is lower than average (B1).
+- On a diagram a compression is marked at the centre of a region where the particles are closest together and a rarefaction at the centre of a region where they are furthest apart.
+- A molecule at the centre of a compression and one at the centre of a rarefaction move in opposite directions at any instant.
+- Loudspeaker: the cone (coil) vibrates – moves to and fro (B1); moving forwards it compresses the air (a compression) and moving backwards it produces a rarefaction (B1); the air molecules next to the cone are made to vibrate, and the vibration / pressure changes are passed on from molecule to molecule – a longitudinal wave of compressions and rarefactions travels outwards (B1).
+* Each air molecule oscillates to and fro along the direction in which the wave travels and returns to its starting position after one period; it does not travel along with the wave.
+* The pressure is greatest in a compression and lowest (below atmospheric) in a rarefaction. On a pressure–distance graph the wavelength is the distance between two adjacent peaks, not the height of a peak.
+* The wavelength of a sound wave is the distance from the centre of one compression to the centre of the next; a compression to the next rarefaction is half a wavelength, and half a period later in time.
+* On a spring, sound is modelled by compressions (coils close together) and rarefactions (coils spread out) travelling along the spring.
+* Sound is not an electromagnetic wave.
+== M | Sound needs a medium | vacuum|medium|removing the air|needs a medium | 4
+- Sound is transmitted by vibrating matter / particles (B1); in a vacuum there are no particles – no medium (B1).
+- Space is a vacuum – there is no medium (C1); sound cannot travel in a vacuum / without a medium (A1).
+- Experiment showing that sound needs a medium: a sound source such as an electric bell inside a container (bell jar) that can be evacuated (B1), with a vacuum pump connected (B1); with the bell ringing the sound is heard, then the air is pumped out (B1 or M1); the sound decreases to nothing although the source can still be seen working (B1 or A1).
+- Removing the air makes the sound quieter: there are fewer (or no) molecules, so less (or no) vibration is transferred.
+* Sound cannot travel through the vacuum of space; infrared, light and radio waves can.
+== B | The speed of sound in gases, liquids and solids | speed of sound|fastest|slowest|faster in|greater in water|sound passing from air | 6
+- Approximate speed of sound in gases: 150–1000 m/s (B1). In solids: 2000–8000 m/s in one scheme, any value from 1000 to 10 000 m/s in others (B1).
+- Typical speeds in a liquid and in a solid both lie between 1000 and 10 000 m/s (B1), with the speed in the solid greater than in the liquid (B1).
+- The speed of sound is greater in water than in air (B1), so the sound takes less time to travel the same distance through water (B1). The speed decreases on passing from a liquid into air.
+- Sound passing from air into glass: the frequency does not change and the speed increases.
+- Time for sound to travel a distance: t = distance ÷ speed (C1, A1).
+* Sound is slowest in gases, faster in liquids and fastest in solids: about 330 m/s in air, 1500 m/s in water and 6000 m/s in steel.
+* Sound arrives through a solid (a metal fence) in less time than through the air.
+* When sound passes into another medium its frequency stays constant, so a larger wavelength means a larger speed (v = fλ).
+== S | Measuring the speed of sound in air | measuring the speed of sound|apparatus to measure|start the timer|speed of sound from lightning|flash|thunder|lightning | 3
+- Apparatus for measuring the speed of sound in air over a long distance: a tape measure / trundle wheel (B1); a stopwatch / timer (B1).
+- Method: start the timer on seeing the smoke or flash from the pistol (B1); stop it on hearing the sound (B1); measure the large distance between the two people and use speed = distance ÷ time (B1).
+- Five-mark description: how the sound is made – starting pistol, clap, hammer on metal (B1); the time measured correctly – from seeing the flash to hearing the sound, or between clap and echo (B1); the distance measured correctly – from gun to observer, or observer to wall (B1); the calculation – speed = distance ÷ time, or 2 × distance ÷ time for an echo (B1); a precaution – use a large distance (over 200 m), repeat and average, clap in time with the echo and time many claps, or repeat in the opposite direction / when there is no wind (B1).
+- Lightning: thunder is heard after the lightning is seen because the speed of sound is much less than the speed of light (B1). The speed of sound is found by measuring the delay between seeing the flash and hearing the thunder (B1) and dividing the known distance by it (B1).
+* The light arrives almost instantly, so distance = speed of sound × time delay, and speed of sound = distance ÷ time delay.
+== C | Echoes; reflection and refraction of sound | echo|reflect|claps|pulses sent | 5
+- Echo: a reflection of sound – sound that returns after a reflection.
+- Distance to a reflector = speed × time ÷ 2, because the sound travels there and back: d = vt in any form earns the first mark (even the unhalved value), the halved answer the second.
+- Speed from an echo = total distance there and back ÷ time (C1, A1).
+- Time for an echo: speed = distance ÷ time (C1); the distance is doubled (C1); answer (A1).
+- Clapping in time with echoes: number of claps in one minute = 60 ÷ time between claps (C1, A1).
+- An echo drawn on a trace appears later on the time axis with waves of the same period (B1) and a smaller amplitude (B1).
+- Reflection of sound from a smooth surface: the sound waves are reflected (B1) with angle of incidence = angle of reflection (B1); the listening tube is placed on the other side of the barrier, pointing at the point of reflection at the same angle to the surface as the first tube (B1).
+- Experiment showing that sound obeys the law of reflection: tubes to give a narrow beam of sound from the source and/or to the detector (B1); a named detector (microphone, ear) or named reflector (hard flat surface) (B1); move the detector to find the position of maximum loudness, then measure the angles of incidence and reflection – they are equal (B1).
+- Experiment to show the refraction of sound: a source of sound such as a loudspeaker and signal generator (B1); something in which sound travels at a different speed, shaped so that refraction can occur, such as a balloon filled with carbon dioxide (B1); a detector such as a microphone, moved to show that the sound has changed direction / is concentrated at one place (B1).
+* The time between a sound and its echo is the time for the journey there and back: distance = speed × time ÷ 2; depth of the sea = speed × echo time ÷ 2.
+* Clapping in time with the echo: the time between claps equals the time for sound to travel to the wall and back; N claps mark N − 1 intervals; average repeated times before calculating.
+* An echo that arrives a time t after the direct sound has travelled an extra distance of twice the distance to the wall; for echoes from two walls, speed = difference in the there-and-back distances ÷ time difference.
+* The interval between sonar pulses = echo time + the waiting time before the next pulse is sent.
+* If each pulse is sent as the echo of the one before returns, the there-and-back time = total time ÷ number of pulses.
+== D | Loudness, pitch and quality; the range of audible frequencies | loud|pitch|quiet|amplitude|quality|timbre|audible|hearing|heard|trace | 7
+- Louder means a larger amplitude (B1); higher pitch means a higher frequency – more waves on the screen for the same settings, because the time for one wave is less (B1).
+- A quieter sound: the amplitude of the sound wave (or of the trace) has decreased. A smaller maximum voltage gives a quieter sound (B1) because the amplitude of the vibration decreases (B1). Larger vibrations of the cone give a louder note of the same frequency.
+- Pitch depends on frequency (M1); low-pitched means low frequency (A1). The pitch stays the same when the frequency / period is unchanged.
+- A sound of constant pitch becoming louder: the amplitude increases (B1); the frequency remains constant (B1).
+- Comparing two notes from their traces (three points): the same pitch – same frequency / period; the one with the larger amplitude is louder; different quality (timbre) – a different wave shape, more overtones.
+- Half the frequency on the same oscilloscope settings: a trace with half as many waves (twice the period), with at least one complete oscillation shown.
+- Frequency from a trace: count the waves, or find the time for one wave and use f = 1/T, or number of waves ÷ time (C1); answer (A1).
+- Range of audible frequencies for a healthy human ear: about 20 Hz to 20 000 Hz (20 kHz). Tolerances allowed: lowest 15–25 Hz; highest 15–25 kHz in most schemes (18–22 kHz or up to 30 kHz in single schemes).
+- A sound is audible if its frequency is within this range; a 3.8 Hz sound is not heard because its frequency is too low – below the audible range.
+- Smallest audible wavelength = v ÷ highest audible frequency; longest audible wavelength = v ÷ lowest audible frequency (C1, A1).
+* Loudness goes with amplitude, pitch with frequency, and quality (timbre) with the shape of the waveform: the same note played on two instruments has the same frequency but a differently shaped waveform.
+* A loud, low-pitched note is the trace with the tallest waves and the fewest cycles; a sound getting louder with falling pitch has an increasing amplitude and more widely spaced waves.
+* The ratio of the longest to the shortest audible wavelength equals the ratio of the highest to the lowest audible frequency (1000 : 1).
+== E | Ultrasound and its uses | ultraso|ultrasonic|pre-natal|prenatal|sonar|1 250 000 | 2
+- Ultrasound: a sound (longitudinal pressure) wave – compressions and rarefactions (B1 or C1) – with a frequency above the limit of human hearing, above 20 kHz, so it cannot be heard (B1 or A1). Limits from 15 kHz to 25 kHz have been accepted.
+- Audible sound has a smaller frequency than ultrasound (below 20 000 Hz), and so a larger wavelength in the same medium, where the speed is the same.
+- Uses of ultrasound: cleaning; pre-natal and other medical scanning; sonar – calculating depth or distance, detecting shoals of fish; quality control / detecting cracks; breaking kidney stones.
+- A use with its basic idea: pre-natal scanning (B1) – the ultrasound reflects off the fetus (B1).
+- Pre-natal scanning: ultrasound is transmitted into the body (B1); it is reflected (an echo) from the baby (B1); the reflections are used to produce an image (B1).
+- Ultrasound meeting a boundary between two materials: some is reflected (B1); some passes into the new material (is transmitted) or is absorbed (B1).
+- A reflected ultrasound pulse has a smaller amplitude than the pulse sent out (any two): not all the sound is reflected – some passes through the far surface; some energy is absorbed by the material; the sound spreads out / is scattered as it travels.
+- Detecting a crack in metal: a crack halfway through gives an extra pulse halfway in time between the transmitted pulse and the reflection from the back surface (B1); it is smaller than the transmitted pulse and is repeated after each transmitted pulse (B1).
+- Ultrasonic cleaning: the object is immersed in a liquid / solvent (B1); the liquid and object are made to vibrate by the ultrasound (B1); the dirt is shaken off / dislodged (B1).
+- To find the distance of an obstacle from the echo time, the speed of ultrasound in the water must be known (B1); distance = speed × time ÷ 2 (B1).
+- Transmission of ultrasound through water: the water molecules vibrate (B1); they collide with neighbouring molecules (B1), passing on the vibration (energy) as a longitudinal wave of compressions and rarefactions (B1).
+- Gas bubbles expand and contract as ultrasound passes because the pressure alternately decreases and increases (rarefactions and compressions).
+- Frequency of ultrasound from its wavelength: f = v/λ (C1, A1).
+- Statements to judge correctly: a higher pitch means a larger frequency, not a larger amplitude; ultrasound, not X-rays, is used for pre-natal scanning; gamma rays, not microwaves, have the highest frequency in the electromagnetic spectrum.
+* A sound is ultrasound only if f = v ÷ λ (wavelength in metres) comes to more than 20 000 Hz.
+* An ultrasound scanner forms its image from ultrasound reflected at boundaries inside the body. Ultrasound is not used for sterilising.
+* Pulse-echo: the extra time for a deeper reflection covers the extra distance there and back, so extra depth = speed × extra time ÷ 2.
+== Z | Other points
+MOVE w17_11|MCQ25|B
+MOVE s19_21|10biii|B
+MOVE w13_12|MCQ25|S
+MOVE w23_22|6c|A
+MOVE w21_21|8bii|A
+MOVE w16_21|5ci|A
+MOVE w08_2|9ai|A
+MOVE w07_2|6a|A
+MOVE s15_22|9dii|C
+MOVE s11_21|6a|C
+MOVE s20_21|9aiii|C
+MOVE s14_21|10dii|C
+MOVE w24_21|5a|M
+MOVE s18_11|MCQ25|D
+MOVE w08_2|9aiii|B

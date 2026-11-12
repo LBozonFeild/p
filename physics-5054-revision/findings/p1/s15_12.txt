@@ -1,0 +1,37 @@
+# P1 s15_12 | main sheets 1-2 and rest sheet viewed; Q4 is identical to w20_12 Q2; Q16 to s26_11 Q20; Q20 to w18_12 Q18; Q25 to s25_12 Q22
+1 C 1.1 temperature is a scalar; acceleration, force and velocity are vectors
+2 A 1.1 the diameter of a thin wire is measured with a micrometer and a length of about 50 cm with a rule
+3 A 1.2 {F} average speed for the whole ride = total distance ÷ total time (including the rest) = 150 ÷ 25 = 6.0 m/s
+5 B 1.5.1 {F} resultant force = weight − upward force = 3.0 − 0.30 = 2.7 N; a = F ÷ m = 2.7 ÷ 0.30 = 9.0 m/s²
+6 C 1.5.2 a light ball dropped in air: its velocity increases while its acceleration decreases (air resistance grows with speed)
+7 D 1.5.4+X6 {F} in a circular orbit the acceleration points towards the centre (the Sun) and the velocity is along the tangent to the orbit
+8 B 1.3 {F} a pan balance compares masses and reads the same on the Moon; a newton meter measures weight, which is smaller where g is smaller
+9 B 1.5.5 {F} moments about the pivot: 60 × 30 = 30 × 40 + F × 50, so F = 12 N
+10 B X1.8 {F} liquid pressure
+11 D X2.1 {F} Boyle's law from a graph
+12 A 1.7.1 KE = ½mv²: halving the mass and doubling the speed gives ½ × 2² = 2 times the kinetic energy
+13 A 1.7.5+1.7.2 useful work = total weight × height = 8 × 200 × 1.5 = 2400 J; power = 2400 ÷ 48 = 50 W
+14 D X2.3 conduction
+15 B X2.3 {F} convection
+17 C XOLD {F} thermometer scale
+18 B X2.2 liquid range
+19 A X2.1 {F} melting
+21 D X2.2 evaporation
+22 B X2.2 latent heat of ice
+23 A X2.2 heat capacity
+24 C 3.1 {F} a wave transfers energy in the direction of travel without transferring the water itself: a floating ball only moves up and down
+26 C 3.2.2 {F} sin r = sin 45° ÷ 1.5, r = 28°; the angle through which the ray is turned (its deviation from the original direction) = i − r = 45° − 28° = 17°
+27 C 3.2.3 magnifying glass: the image is virtual and erect (upright)
+28 A 3.3 microwaves are used for television transmission from satellites
+29 A 3.4 sound needs a medium and cannot travel through the vacuum of space
+30 B 3.4 the wave with the greater amplitude is louder; the wave with the lower frequency has the lower pitch
+31 C X4.1 {F} magnetic screening
+32 D 4.2.1 {F} a positive rod attracts electrons to the near side of an isolated conducting sphere (negative), leaving the far side positive
+33 C X4.3 {F} the smallest current is in the parallel branch with the larger resistance; the current in the main circuit is the largest
+34 B 4.2.4+X4.3 {F} V = IR = 0.60 × 30 = 18 V; components in parallel have the same p.d., so the 60 Ω resistor also has 18 V across it
+35 A X4.3 {F} the p.d.s across components in series add up to the battery voltage: 40 − 10 − 18 = 12 V
+36 C X4.5 {F} induced voltage
+37 A X4.5 transformer
+38 B X5 decay
+39 A X5 beta decay
+40 B X5 half-life

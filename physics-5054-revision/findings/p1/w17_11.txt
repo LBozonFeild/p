@@ -1,0 +1,28 @@
+# P1 w17_11 | main sheet 1 and rest sheet viewed; Q1, 2, 3, 6, 8, 13, 20, 24, 31, 32, 35, 37, 38 are identical to w17_12 questions
+4 B 1.2 {F} distance = area under the speed–time graph: rectangle 10 × 20 = 200 m plus trapezium ½ × (10 + 20) × 10 = 150 m, total 350 m
+5 D 1.5.2+1.5.1 immediately after a parachute opens, air resistance exceeds the weight, so the resultant force and the acceleration are both upwards
+7 C 1.5.3 limit of proportionality from a table: the extension increases by equal amounts (0.35 mm per 2.0 kg) up to 6.0 kg; the first larger increase shows the limit lies between 6.0 kg and 8.0 kg
+9 D 1.7.1 KE = ½mv², so v = √(2 × 0.96 ÷ 3.0) = 0.80 m/s
+10 D 1.7.5+1.7.2 power = work done ÷ time = force × distance ÷ time = 1000 × 200 ÷ 20 = 10 000 W
+11 C X2.1 heating a gas
+12 D X2.2 evaporation rate
+14 D X2.2 boiling and melting take in energy
+15 D X2.2 E = mcΔθ
+16 C X2.3 conduction in metals
+17 B X2.3 absorbers and reflectors
+18 B 3.1 {F} amplitude = height of a crest above the undisturbed level (4.0 cm); a marked 5.0 cm from one zero crossing to the next is half a wavelength, so λ = 10 cm
+19 D 3.1 a wave in which the vibration is at right angles to the direction of travel is transverse
+21 C 3.2.3 {F} short sight is corrected with a diverging lens (thinner in the middle than at the edges)
+22 A 3.2.3 a magnified image formed on a screen is real and inverted, so the object is further from the converging lens than the focal length (between f and 2f); a magnifying glass gives a virtual image
+23 A 3.3 gamma rays are ionising, have a frequency far higher than microwaves and cannot be seen
+25 D 3.4+3.1 when sound passes into another medium its frequency stays constant, so an increase in wavelength means an increase in speed (v = fλ)
+26 C X4.1 {F} field direction between poles
+27 A X4.1 {F} magnetic shielding
+28 A 4.2.1 {F} the cloth becomes positive because electrons move from the cloth to the polythene rod (which becomes negative)
+29 C 4.2.3 e.m.f. = work done ÷ charge
+30 B 4.2.2+4.2.3 {F} the ammeter is connected in series with the lamp and the voltmeter in parallel across it
+33 B X4.4 earthing
+34 A X4.5 {F} cutting field lines
+36 B X4.3 {F} LED conducts one way
+39 C X5 isotopes
+40 A X5 radioactive emissions

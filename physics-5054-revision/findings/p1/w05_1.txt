@@ -1,0 +1,40 @@
+# P1 w05_1 | main sheets 1-3 and rest sheets 1-2 viewed; Q1 vernier enlarged and viewed (tick positions also measured from the drawing: the 3rd vernier mark lines up); zoom viewed for Q8, 11, 21; Q35 is identical to w14_12 Q37
+1 C 1.1 {F} vernier reading = main-scale reading just before the vernier zero (2.3) + the vernier mark that lines up with a main-scale mark (3rd = 0.03) = 2.33
+2 C 1.5.1 {F} an aircraft at constant height that is gaining speed has no vertical resultant (lift = weight) but a forward resultant (thrust greater than air resistance)
+3 D 1.2 when a body accelerates its velocity must change (the speed need not change if only the direction changes)
+4 C 1.2 {F} distance travelled = area under the speed–time graph; the distance at constant speed is the area under the horizontal section only
+5 D 1.5.4 {F} if the force towards the centre disappears, a body moving in a circle goes off in a straight line (along the tangent)
+6 A 1.3 mass is unchanged on the Moon (15 kg); weight = mg = 15 × 1.6 = 24 N
+7 B 1.4 {F} density of an irregular stone: find its mass on a balance first (while dry); put liquid into a measuring cylinder and read the level; put the stone in; remove air bubbles; read the new level; subtract the original volume to get the volume of the stone; divide mass by volume
+8 D 1.5.6 {F} a vehicle on a slope is safest (most stable) with its centre of mass as low as possible and between the wheels
+9 A 1.5.5+1.5.6 {F} moment of the weight about the point of suspension = weight × perpendicular (horizontal) distance from the pivot to the vertical line through the centre of mass = 2.0 × 0.30 = 0.60 N m, in the sense that brings the centre of mass back below the pivot
+10 A 1.1 {F} resultant of two forces at right angles = √(9² + 12²) = 15 N, directed along the diagonal of the rectangle drawn from the point where the forces act
+11 C 1.7.1 {F} a pendulum has most kinetic energy at the lowest point of its swing, and most of all the first time it passes through it (energy is lost to the surroundings on every later swing)
+12 C 1.7.5+1.7.2 power = work done ÷ time = weight × vertical height ÷ time = 500 × 5 ÷ 10 = 250 W
+13 C X1.8 {F} pressure of a brick
+14 A X1.8 {F} manometer
+15 A X2.2 evaporation
+16 D XOLD thermometer sensitivity
+17 D X2.2 {F} cooling curve
+18 B X2.3 {F} convection losses
+19 D X2.3 {F} water as a poor conductor
+20 D 3.1 {F} in a transverse wave on a string each point only moves up and down (not along with the wave); as the wave moves on, a point takes the displacement of the part of the wave just behind it, so a point at zero displacement with a crest approaching it moves up
+21 C 3.1 {F} count the wavelengths between the two marked crests: 5 wavelengths in 20 cm gives λ = 4.0 cm; v = fλ = 4.0 × 4.0 = 16 cm/s
+22 B 3.2.1 the image in a plane mirror is virtual and upright
+23 C 3.2.3 {F} an object closer to a converging lens than its focal length gives a virtual, erect (upright) and magnified image
+24 C 3.4+X4.6 {F} the same note played on two instruments has the same frequency but a differently shaped waveform, so the sounds differ in quality (timbre)
+25 B X4.1 test for a magnet
+26 C 4.2.1 {F} charging a metal sphere by induction: bring the charged rod close; earth the sphere by touching it; remove the earth connection; then remove the rod
+27 D 4.2.3 a bird on a high-voltage line is not connected to earth, so there is no potential difference across it and no current through it
+28 B 4.2.4+X4.3 {F} with only the 10 Ω in circuit V = IR = 0.6 × 10 = 6 V; with 10 Ω + 20 Ω in series I = 6 ÷ 30 = 0.2 A
+29 B X4.3 {F} series–parallel lamps
+30 D 1.7.5 time = energy ÷ power = 1 kW h ÷ 0.1 kW = 10 h; heater energy = power × time = 2 kW × 10 h = 20 kW h
+31 C X4.4 earth fault
+32 D X4.5 {F} turning effect on a coil
+33 A X4.5 {F} Lenz's law
+34 D X4.5 {F} ideal transformer
+36 C X4.3 {F} potential divider
+37 B X5 {F} absorption of alpha-particles
+38 C X5 alpha then beta decay
+39 B X5 neutron number
+40 D X5 isotopes

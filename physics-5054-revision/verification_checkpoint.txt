@@ -1,0 +1,183 @@
+VERIFICATION CHECKPOINT — persistent execution state
+updated: 2026-11-12 15:41 UTC
+eligible pairs: 156 | verified: 156 | remaining: 0
+Paper 2: 78/78 verified | Paper 1: 78/78 verified
+
+PROCESS ORDER: Paper 2 newest→oldest, then Paper 1 newest→oldest, then consolidation of notes, then independent audit.
+NEXT Paper 2 pairs to verify: none
+NEXT Paper 1 pairs to verify: none
+
+ALL PAIRS AND STATUS
+  s26_22   P2 COMPLETE
+  s26_21   P2 COMPLETE
+  s26_12   P1 COMPLETE
+  s26_11   P1 COMPLETE
+  w25_22   P2 COMPLETE
+  w25_21   P2 COMPLETE
+  w25_12   P1 COMPLETE
+  w25_11   P1 COMPLETE
+  s25_22   P2 COMPLETE
+  s25_21   P2 COMPLETE
+  s25_12   P1 COMPLETE
+  s25_11   P1 COMPLETE
+  w24_22   P2 COMPLETE
+  w24_21   P2 COMPLETE
+  w24_12   P1 COMPLETE
+  w24_11   P1 COMPLETE
+  s24_22   P2 COMPLETE
+  s24_21   P2 COMPLETE
+  s24_12   P1 COMPLETE
+  s24_11   P1 COMPLETE
+  w23_22   P2 COMPLETE
+  w23_21   P2 COMPLETE
+  w23_12   P1 COMPLETE
+  w23_11   P1 COMPLETE
+  s23_22   P2 COMPLETE
+  s23_21   P2 COMPLETE
+  s23_12   P1 COMPLETE
+  s23_11   P1 COMPLETE
+  w22_22   P2 COMPLETE
+  w22_21   P2 COMPLETE
+  w22_12   P1 COMPLETE
+  w22_11   P1 COMPLETE
+  s22_22   P2 COMPLETE
+  s22_21   P2 COMPLETE
+  s22_12   P1 COMPLETE
+  s22_11   P1 COMPLETE
+  w21_22   P2 COMPLETE
+  w21_21   P2 COMPLETE
+  w21_12   P1 COMPLETE
+  w21_11   P1 COMPLETE
+  s21_22   P2 COMPLETE
+  s21_21   P2 COMPLETE
+  s21_12   P1 COMPLETE
+  s21_11   P1 COMPLETE
+  w20_22   P2 COMPLETE
+  w20_21   P2 COMPLETE
+  w20_12   P1 COMPLETE
+  w20_11   P1 COMPLETE
+  s20_22   P2 COMPLETE
+  s20_21   P2 COMPLETE
+  s20_12   P1 COMPLETE
+  s20_11   P1 COMPLETE
+  w19_22   P2 COMPLETE
+  w19_21   P2 COMPLETE
+  w19_12   P1 COMPLETE
+  w19_11   P1 COMPLETE
+  s19_22   P2 COMPLETE
+  s19_21   P2 COMPLETE
+  s19_12   P1 COMPLETE
+  s19_11   P1 COMPLETE
+  w18_22   P2 COMPLETE
+  w18_21   P2 COMPLETE
+  w18_12   P1 COMPLETE
+  w18_11   P1 COMPLETE
+  s18_22   P2 COMPLETE
+  s18_21   P2 COMPLETE
+  s18_12   P1 COMPLETE
+  s18_11   P1 COMPLETE
+  w17_22   P2 COMPLETE
+  w17_21   P2 COMPLETE
+  w17_12   P1 COMPLETE
+  w17_11   P1 COMPLETE
+  s17_22   P2 COMPLETE
+  s17_21   P2 COMPLETE
+  s17_12   P1 COMPLETE
+  s17_11   P1 COMPLETE
+  w16_22   P2 COMPLETE
+  w16_21   P2 COMPLETE
+  w16_12   P1 COMPLETE
+  w16_11   P1 COMPLETE
+  s16_22   P2 COMPLETE
+  s16_21   P2 COMPLETE
+  s16_12   P1 COMPLETE
+  s16_11   P1 COMPLETE
+  w15_22   P2 COMPLETE
+  w15_21   P2 COMPLETE
+  w15_12   P1 COMPLETE
+  w15_11   P1 COMPLETE
+  s15_22   P2 COMPLETE
+  s15_21   P2 COMPLETE
+  s15_12   P1 COMPLETE
+  s15_11   P1 COMPLETE
+  w14_22   P2 COMPLETE
+  w14_21   P2 COMPLETE
+  w14_12   P1 COMPLETE
+  w14_11   P1 COMPLETE
+  s14_22   P2 COMPLETE
+  s14_21   P2 COMPLETE
+  s14_12   P1 COMPLETE
+  s14_11   P1 COMPLETE
+  w13_22   P2 COMPLETE
+  w13_21   P2 COMPLETE
+  w13_12   P1 COMPLETE
+  w13_11   P1 COMPLETE
+  s13_22   P2 COMPLETE
+  s13_21   P2 COMPLETE
+  s13_12   P1 COMPLETE
+  s13_11   P1 COMPLETE
+  w12_22   P2 COMPLETE
+  w12_21   P2 COMPLETE
+  w12_12   P1 COMPLETE
+  w12_11   P1 COMPLETE
+  s12_22   P2 COMPLETE
+  s12_21   P2 COMPLETE
+  s12_12   P1 COMPLETE
+  s12_11   P1 COMPLETE
+  w11_22   P2 COMPLETE
+  w11_21   P2 COMPLETE
+  w11_12   P1 COMPLETE
+  w11_11   P1 COMPLETE
+  s11_22   P2 COMPLETE
+  s11_21   P2 COMPLETE
+  s11_12   P1 COMPLETE
+  s11_11   P1 COMPLETE
+  w10_22   P2 COMPLETE
+  w10_21   P2 COMPLETE
+  w10_12   P1 COMPLETE
+  w10_11   P1 COMPLETE
+  s10_22   P2 COMPLETE
+  s10_21   P2 COMPLETE
+  s10_12   P1 COMPLETE
+  s10_11   P1 COMPLETE
+  w09_2    P2 COMPLETE
+  w09_1    P1 COMPLETE
+  s09_2    P2 COMPLETE
+  s09_1    P1 COMPLETE
+  w08_2    P2 COMPLETE
+  w08_1    P1 COMPLETE
+  s08_2    P2 COMPLETE
+  s08_1    P1 COMPLETE
+  w07_2    P2 COMPLETE
+  w07_1    P1 COMPLETE
+  s07_2    P2 COMPLETE
+  s07_1    P1 COMPLETE
+  w06_2    P2 COMPLETE
+  w06_1    P1 COMPLETE
+  s06_2    P2 COMPLETE
+  s06_1    P1 COMPLETE
+  w05_2    P2 COMPLETE
+  w05_1    P1 COMPLETE
+  s05_2    P2 COMPLETE
+  s05_1    P1 COMPLETE
+  w04_2    P2 COMPLETE
+  w04_1    P1 COMPLETE
+  s04_2    P2 COMPLETE
+  s04_1    P1 COMPLETE
+
+STAGES
+ 1. pair verification: 156/156 complete
+ 2. consolidated notes (physics_papers_1_2_notes.txt): built; every in-scope findings line is filed in a sub-topic with a checklist
+ 3. independent audit (final_verification_report.txt): written
+
+HOW TO RESUME (for any later run)
+ 0. Only /home/user/p persists between runs. If /home/user/work or the Python environment is missing, run: bash physics-5054-revision/tools/restore.sh
+    (recreates the environment with PyMuPDF and Pillow and rebuilds all working data: keys, question texts, digests, figure crops, contact sheets).
+ 1. tools/ holds the mechanical pipeline: lib.py, parse_ms1.py, parse_p1.py, header_check.py, parse_p2.py, build_p2.py, build_p1.py, build_p1_rest.py, build_dupmap.py, render.py, check.py, report.py;
+    reading aids: show.py, next.py, figs.py, p1zoom.py, p1crop.py, p1fix.py. Persistent copies of the derived data are in tools/data/.
+ 2. For each unverified pair: read the digest (question text interleaved with the mark scheme), inspect figure crops where the text is insufficient,
+    then write findings/p2/<pair>.txt (label | section | marking points with [mark tags]) or findings/p1/<pair>.txt (n answer section concept).
+ 3. Run check.py (validates labels, mark sums, MCQ keys) and report.py (regenerates tracker, checkpoint, exclusions and the by-section data).
+ 4. Notes: tools/notes_src/<section>.txt holds the sub-topics and checklist lines (format in tools/notes_src/_README.txt). Reading and editing aids: dump_sec.py, hidden.py, mv.py, setb.py, edl.py.
+    build_notes.py writes physics_papers_1_2_notes.txt; audit_notes.py checks it against the findings (structure, coverage, support, scope, references).
+ 5. final_audit.py re-derives the pair list, the Paper 1 keys and the Paper 2 counts independently of check.py and writes final_verification_report.txt.

@@ -1,0 +1,28 @@
+# P1 w20_11 | main sheets 1-2 and rest sheet viewed; zoom viewed for Q27 and Q29 options; Q1, 2, 3, 6, 7, 12, 15, 18, 24, 31, 37, 38 are identical to w20_12 questions and Q11 to w25_12 Q8
+4 D 1.5.2+1.5.1 just after a parachute opens the air resistance is greater than the weight, so the resultant force and the acceleration are both upwards (the parachutist decelerates while still moving down)
+5 B X2.1 compressing a gas
+8 D 1.3 weight is the force of gravity on a mass (a vector, in newtons); mass is a scalar
+9 B 1.4 density = mass ÷ volume
+10 C 1.5.5 {F} moment = force × perpendicular distance from the pivot to the line of action of the force (here the distance at right angles to the thread), not the straight-line distance from the pivot to the point of attachment
+13 A X1.8 {F} manometer
+14 B 1.7.1 a current in a resistor transfers energy electrically to internal (thermal) energy
+16 D 1.7.3 nuclear fuel is not renewable; solar, hydroelectric and wind sources are
+17 B 1.7.1 height gained = increase in gravitational potential energy ÷ weight (1610 ÷ 700 = 2.3 m is the greatest)
+19 C 1.7.4 {F} efficiency = (input energy − wasted energy) ÷ input energy: oil 200/500 = 40%, nuclear 40/200 = 20%, hydroelectric 9/10 = 90%
+20 B XOLD calibrating a thermometer
+21 C X2.2 unit of heat capacity
+22 A X2.2 heating a solid
+23 C X2.2 latent heat
+25 C X2.1 {F} Brownian motion
+26 D 3.1+3.3 f = v ÷ λ = 3.0 × 10⁸ ÷ 0.10 = 3.0 × 10⁹ Hz (wavelength converted from cm to m)
+27 B 3.2.1 {F} each image is as far behind the mirror as the object is in front; an image can be seen only if the straight line from the eye to the image passes through the mirror surface (objects whose line of sight falls beyond the edge of the mirror are not seen)
+28 C 3.2.2 {F} light in water meeting the surface at less than the critical angle is refracted into the air, away from the normal (angle of refraction greater than the angle of incidence)
+29 C 3.2.3 {F} a parallel beam at an angle to the principal axis is brought to a focus in the focal plane (off the axis, level with the principal focus); the ray through the centre of the lens is undeviated and the other rays meet it in that plane, not at F and not beyond the focal plane [reworked after viewing the enlarged options: first reading picked the diagram whose rays meet beyond the focal plane]
+30 C 3.4+3.1 sound: particles oscillate parallel to the direction of travel of the wave energy (longitudinal); it is not electromagnetic
+32 D X4.1 {F} magnetic induction
+33 A 4.2.1 {F} a charged rod attracts a stream of conducting water from an earthed tap: the rod induces a charge of the opposite sign on the water (charge flows to or from earth through the tap), so the rod and the water are both charged and unlike charges attract [reworked: first answer treated the earthed water as uncharged]
+34 B 4.2.1 the force on a negative charge acts in the direction opposite to the electric field (field direction = direction of the force on a positive charge)
+35 C X4.3 {F} series resistors share the supply p.d. in proportion to their resistances: V_X + V_Y = 10 V with V_Y = 4V_X, so V_X = 2.0 V, V_Y = 8.0 V and the difference is 6.0 V
+36 D X4.3 parallel and series resistance
+39 D 1.7.5+X4.4 energy in kW h = power in kW × time in hours = I × V × t(hours) ÷ 1000 (P = IV outside the selected sections)
+40 C X5 half-life

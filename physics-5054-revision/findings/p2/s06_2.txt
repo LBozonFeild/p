@@ -1,0 +1,47 @@
+# P2 s06_2 | figs viewed: 1.1, 2.1 (front wheel at 0 m, 8 m, 22 m and 36 m at 0, 4, 8 and 12 s), 2.2 (blank grid), QP p5 (Figs 4.1, 4.2: semicircular block; ray at 46° to the normal emerging along the flat face; ray at 40° to the normal emerging at 63° to the normal), 5.1 (positively and negatively charged spheres side by side), 7.1, 7.2, 11.1 (switch D and fuse C in series with lamps A and B in parallel) | not viewed: 3.1, 6.1, 9.1, 10.1–10.4
+1ai | 1.7.5 | {F} measuring the power of a person running upstairs – readings: mass (or weight) of the person [B1] ;; time taken to run up the stairs [B1] ;; vertical height of the stairs (or the number of steps and the height of each) [B1]
+1aii | 1.7.5+1.1 | precaution for one reading: balance reads zero before the person steps on; time with two timers / repeat and average; rule held vertical (tape taut) when measuring height [B1]
+1b | 1.7.5+1.7.2 | work = force × distance and power = work ÷ time [C1] ;; power = mass × g × height ÷ time (weight × height ÷ time) [A1]
+2a | 1.2 | {F} a cyclist slowing down covers less distance in the next equal time interval than in the previous one (less than 14 m: position before 50 m) [B1]
+2b | 1.2 | {F} distance-time graph from position data: points plotted correctly to within half a small square [B1] ;; a curve from the origin while accelerating [B1] ;; a straight line of positive gradient at constant speed [B1] ;; gradient decreasing (but never negative) while slowing down [B1]
+2c | 1.2 | average speed = total distance ÷ total time [C1] ;; 36 ÷ 12 = 3 m/s [A1]
+3a | X4.5 | generator
+3b | X4.5 | slip rings
+3c | X4.5 | Lenz's law
+3d | X4.5 | increasing e.m.f.
+4a | 3.2.2 | {F} critical angle read from a diagram: the angle between the ray in the denser medium and the normal when the emerging ray runs along the surface – 46° (not the angle to the surface) [B1]
+4b | 3.2.2 | critical angle: the angle of incidence (in the denser medium) [B1] ;; for which the refracted ray travels along the surface – the minimum angle of incidence for total internal reflection [B1]
+4c | 3.2.2 | {F} formula n = sin i ÷ sin r (angles measured from the normal, larger angle in air) or n = 1 ÷ sin c [B1] ;; sin 63° ÷ sin 40° or 1 ÷ sin 46° [C1] ;; 1.39 [A1]
+4d | 3.2.2+3.2.1 | partial reflection at the boundary: reflected ray drawn back into the block with angle of reflection equal to angle of incidence [B1]
+5a | 4.2.1 | electrons move onto the sphere that becomes negative and off the sphere that becomes positive [B1]
+5b | 4.2.1 | {F} electric field between a positive and a negative sphere: three or more lines running from one sphere to the other [C1] ;; arrows pointing from the positive to the negative sphere [A1]
+5c | 4.2.2 | I = Q/t = 1.8 × 10⁻¹³ ÷ 2.0 × 10⁻³ [C1] ;; 9.0 × 10⁻¹¹ A [A1]
+6ai | X4.4 | live
+6aii | X4.4 | neutral
+6aiii | X4.4 | earth
+6bi | X4.4 | overloading
+6bii | X4.4 | wrong fuse
+6c | X4.4 | damp hands
+7a | X4.6 | oscilloscope connection
+7bi | X4.6 | reading p.d.
+7bii | X4.6 | Y-gain
+8a | X5 | decay
+8bi | X5 | background
+8bii | X5 | irradiation
+9a | X2.2 | evaporation factors
+9bi | 1.4 | volume of water lost = cross-sectional area × fall in level = 3.0 × 0.005 = 0.015 m³ [B1]
+9bii | 1.4 | mass = density × volume [C1] ;; 1000 × 0.015 = 15 kg [A1]
+9biii | X2.2 | mL
+9biv | 1.7.5 | average rate of using energy (power) = energy ÷ time = 3.3 × 10⁷ ÷ 40 000 [C1] ;; 825 W (J/s) [A1]
+10ai | X1.8 | pascal
+10aii | 1.3+X1.8 | weight = mg = 60 × 10 = 600 N [C1] ;; (outside the selected sections) pressure = force ÷ area [C1] ;; (outside the selected sections) 2.5 × 10⁵ Pa [A1]
+10aiii | X1.8 | pressure and area
+10bi | X2.1 | Boyle's law
+10bii | X2.1 | pressure and temperature
+11a | X4.4 | fuse and switch
+11bi | X4.4 | I = P/V
+11bii | X4.3 | junction rule
+11biii | 4.2.4 | R = V/I = 240 ÷ 0.25 [C1] ;; 960 Ω [A1] ;; correct units on current and resistance answers (A, Ω) [B1]
+11ci | X4.3 | series circuit
+11cii | 4.2.4+X4.3 | lamps connected in series instead of parallel: the current is smaller [B1] ;; because the total resistance in series is higher (each lamp has less than the full supply p.d. across it) [B1]
+11d | 4.2.4 | a filament of the same material and length with half the cross-sectional area has twice the resistance: 2 × 960 = 1920 Ω [B1]

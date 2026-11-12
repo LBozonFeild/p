@@ -1,0 +1,47 @@
+# P2 w18_22 | figs viewed: 1.1, 2.1, 2.2, 5.1 (positive rod to the left of touching spheres K and L), 8.1, 8.2 (velocity falls linearly from 8.7 m/s, zero at about 0.89 s, −9 m/s at 1.80 s, then almost vertical to zero at 1.84 s), 9.2, QP p14 (Fig. 9.1 full-scale longitudinal-wave diagram viewed; the scheme accepts a measured wavelength of 4.7–4.9 cm), 10.1 (1.3 Ω in series with 1.5 Ω and Z in parallel; electrons leave the negative terminal towards Y), 10.2 | not viewed: 3.1, 6.1–6.4, 7.1
+1a | 1.2+1.1 | speed does not have a direction / is a scalar quantity (velocity is a vector) [B1]
+1bi | 1.5.4+1.2 | object in a circular orbit at constant speed is accelerating because the direction of its velocity changes [B1] ;; so its velocity changes with time, which is an acceleration [B1]
+1bii | 1.5.4 | {F} acceleration of an object in circular motion: arrow from the object towards the centre of the circle (centre of the Earth) [B1]
+1c | 1.7.2 | force perpendicular to the motion does no work – there is no movement in the direction of the force [B1] ;; so the (kinetic and gravitational potential) energy of the satellite remains constant [B1]
+2a | 1.5.6 | centre of mass: the place where the entire mass (seems) to be located [B1]
+2b | 1.5.6 | features that make an object stable: wide base / large base area [B1] ;; low centre of mass [B1]
+2c | 1.5.6 | {F} centre of mass of an irregular card: suspend the lamina (freely) next to a plumb line / mass on a string [B1] ;; mark a vertical line on the lamina along the string [B1] ;; repeat from another point – the centre of mass is at the intersection of the lines [B1]
+3a | X2.3 | convection
+3bi | X2.2 | expansion
+3bii | X2.2 | expansion
+4ai | 3.3 | energy from the Sun travels through space as (electromagnetic) radiation – infrared / light [B1]
+4aii | X2.3 | black absorber
+4bi | X4.4 | E = VIt
+4bii | X2.2 | mcΔT
+5a | 4.2.1 | in an insulator charges / electrons are not free to move (in a conductor they are) [B1] ;; example of an insulator: plastic / nylon / glass / rubber [B1]
+5bi | 4.2.1 | {F} two touching conductors near a positive rod: negative charge drawn on the side nearest the rod and positive charge on the far side of the further sphere [M1] ;; equal numbers of each sign, with none on the touching sides [A1]
+5bii | 4.2.1 | spheres separated, then rod removed: the (negative) charge spreads over the whole surface of the sphere [B1] ;; earthing the positively charged sphere: its charge disappears / it becomes neutral (equal numbers of positive and negative charges) [B1]
+6a | X5 | background
+6bi | X5 | radiation types
+6bii | X5 | decay product
+6ci | X5 | half-life
+6cii | X5 | random
+7a | X4.5 | iron core
+7bi | 4.2.2 | alternating current changes direction / polarity continually, direct current does not [B1] ;; alternating current varies in size (sinusoidal), direct current is steady [B1]
+7bii | X4.5 | no induction with d.c.
+8ai | 1.3 | mass: the quantity of matter in a body [B1] ;; measured with a balance / scales [B1]
+8aii | 1.7.1 | K.E. = ½mv² [C1] ;; ½ × 0.16 × 8.7² [C1] ;; 6.1 J [A1]
+8bi | 1.2 | negative acceleration is called deceleration / retardation [B1] ;; shown by a negative gradient – the velocity-time line slopes downwards [B1]
+8bii | 1.2 | {F} object thrown upwards stops rising when its velocity is zero – read where the line crosses the time axis: 0.88–0.90 s [B1] ;; distance = area between the line and the time axis up to that time (½ × base × height) [C1] ;; ½ × 0.89 × 8.7 = 3.7–4.1 m [A1]
+8biii | 1.2 | {F} almost vertical section of a velocity-time graph: the ball hits the ground – very short time for the deceleration / large force [B1]
+8biv | 1.7.1 | ball stopping on the ground: internal / thermal energy (of ball and ground) increases [B1] ;; transferred from kinetic energy [B1]
+8c | 1.5.2+1.2 | velocity-time graph when air resistance matters (much smaller mass, same launch speed), any two: line not straight / gradient not constant; initial downward gradient steeper; less time to reach zero velocity; smaller area under the first part (less height gained); smaller final speed [B2]
+9a | 3.4 | sound has a smaller frequency than ultrasound – below 20 000 Hz [B1]
+9bi | 3.1 | a wave is a transmission of energy [B1] ;; with no net movement of the medium / by vibrating particles [B1] ;; in a longitudinal wave the vibrations are parallel to the direction of wave (energy) travel, in a transverse wave perpendicular [B1]
+9bii | 3.1+3.4 | {F} rarefactions are the centres of the regions where the lines (particles) are furthest apart – two marked [B1] ;; one wavelength = distance from one point to the next identical point, e.g. centre of one compression to the centre of the next [B1] ;; v = fλ with the measured wavelength in metres: 25 000 × 0.048 [C1] ;; 1200 m/s [A1]
+9ci | 3.4 | speed of sound decreases on passing from a liquid into air [B1]
+9cii | 3.1+3.4 | {F} refraction of wavefronts into a medium where the wave is slower: lines in the second medium join the ends of the lines at the boundary, with no extra lines [B1] ;; refracted wavefronts are straight and parallel to each other [B1] ;; they make a smaller angle with the boundary (closer together – shorter wavelength) [B1]
+9d | 3.4 | ultrasonic cleaning: the object is immersed in a liquid / solvent [B1] ;; the liquid and object are vibrated by the ultrasound [B1] ;; dirt is shaken off / dislodged [B1]
+10a | 4.2.2 | {F} particles that flow in a metal wire are electrons [M1] ;; they flow away from the negative terminal and towards the positive terminal (opposite to conventional current) [A1]
+10bi | X4.3 | thermistor
+10bii | X4.3 | parallel resistance
+10biii | 4.2.4 | I = V/R with the total circuit resistance = 12 ÷ 2.5 [C1] ;; 4.8 A [A1]
+10biv | X4.3 | junction rule
+10c | X4.3 | thermistor circuit
+10di | 4.2.3 | number of cells in series = battery e.m.f. ÷ e.m.f. of one cell = 12 ÷ 1.5 = 8 [B1]
+10dii | 4.2.3 | identical cells all connected in parallel give the e.m.f. of one cell: 1.5 V [B1]

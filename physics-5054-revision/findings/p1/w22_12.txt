@@ -1,0 +1,41 @@
+# P1 w22_12 | sheets 1-2 viewed; zoom viewed for Q10, 25, 29, 30; rest sheet viewed later for Q35
+1 B 1.1+1.5.1 {F} resultant of forces along a line: 11 − 3 − 2 = 6 N to the right; to change this to 3 N to the left an extra 9 N to the left is needed
+2 D 1.1 a tape is the appropriate instrument for a length of several metres
+3 D 1.1 one-thousandth of a metre = 1 mm = 0.1 cm
+4 C 1.7.2+1.7.1 work done by the stopping force = kinetic energy lost: F × d = ½mv², so d = ½ × 1000 × 10² ÷ 2500 = 20 m
+5 D 1.2 {F} accelerating down a slope from rest then slowing gradually on rough level ground: the speed–time graph rises from zero and then falls steadily (it neither stays constant nor drops at once to zero)
+6 A 1.5.5 an object stays at rest (in equilibrium) only if there is no resultant force and no resultant moment on it
+7 A 1.5.2 a wet road reduces friction, so the braking distance and hence the stopping distance increase; the thinking distance (speed × reaction time) is unchanged
+8 C 1.5.4 a car rounding a bend at constant speed has a resultant force towards the centre of the bend
+9 A 1.3 mass is the property of a body that resists a change in its state of rest or motion (and is the amount of matter in it); weight is the gravitational force on it
+10 D 1.5.3+1.3 {F} extension is proportional to the load (weight = mg): for the same mass the spring extends three times as far on planet X (30 cm against 10 cm for 2 kg), so g there is three times as large
+11 D 1.4 density of an irregular object: balance for the mass and measuring cylinder for the volume by displacement
+12 B 1.5.5 {F} principle of moments about the pivot: 60 × 30 = 30 × 40 + F × 50 (the upward force at the end 50 cm from the pivot helps the smaller moment), so F = 12 N
+13 B 1.5.6 {F} the least stable object has a high centre of mass above a narrow base (it topples after only a small tilt)
+14 C X1.8 pressure = force ÷ area
+15 C X2.1 Boyle's law
+16 B 1.7.2 {F} work done by a force = force × distance moved in the direction of the force: F × l along the slope
+17 A 1.7.4+1.7.5 energy input = Pt = 12 × 60 = 720 J; useful output = 720 − 590 = 130 J; efficiency = 130 ÷ 720 = 18%
+18 D 1.7.4 an electric motor wastes energy as thermal energy and sound
+19 B 1.7.5 unit of power: J/s (the watt)
+20 C XOLD thermometer sensitivity and range
+21 A X2.1 cooling at constant pressure
+22 C 3.2.1 {F} reflection at 40° to the normal turns the ray through 180° − (40° + 40°) = 100° from its original direction
+23 A 3.2.2 {F} angle of incidence and angle of refraction are both measured between the ray and the normal, not between the ray and the surface
+24 B 3.2.3 {F} a ray parallel to the principal axis is refracted through the principal focus; the focal length is the distance from the centre of the lens to that point
+25 D 3.2.3 {F} a diverging lens spreads rays out: it makes a converging beam less convergent (parallel) and a parallel or diverging beam more divergent
+26 B 3.3 ultraviolet (sunbed) has a higher frequency than infrared (remote controller, toaster) or microwaves/radio (mobile phone)
+27 B 3.4 audible range is about 20 Hz to 20 kHz, so 2.0 Hz and 25 kHz are both outside it
+28 C 3.4 {F} quieter means smaller amplitude; higher pitch means higher frequency (more waves in the same time)
+29 A X4.1 {F} attraction by a magnet
+30 C X4.1 {F} compass near a bar magnet
+31 C 4.2.1 {F} opposite charges attract, so the rods move towards each other
+32 B 4.2.2 an ammeter measures current (rate of flow of charge) and is connected in series with the component
+33 D 1.7.1 a motor transfers energy electrically to a kinetic store
+34 B X4.4 fuse
+35 C X4.5 {F} a.c. generator output
+36 A X4.5 transformer
+37 A X5 radiations
+38 D X4.5 relay
+39 A X5 alpha
+40 C X5 carbon dating

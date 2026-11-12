@@ -1,0 +1,25 @@
+# P1 w14_11 | main sheets 1-2 and rest sheet viewed; zoom viewed for Q22; Q7, 10, 11, 17, 24, 26, 27, 31, 34, 35, 36 are identical to w14_12 questions; Q12 to w18_12 Q15; Q15 to s21_12 Q17; Q16 to s21_12 Q20; Q20 to s25_11 Q20; Q40 to s18_12 Q40
+1 B 1.1 {F} the resultant of two forces lies between their two directions (the diagonal of the parallelogram), closer to the larger force
+2 B 1.1 a micrometer measures the thickness of a single sheet of paper
+3 A 1.1 {F} units: frequency in Hz, acceleration in m/s², latent heat (an energy) in J, power in W
+4 A 1.2 {F} uniform acceleration from rest (straight-line speed–time graph through the origin) gives a distance–time graph that curves upwards with increasing gradient
+5 D 1.5.4 {F} an object moving in a circle at constant speed has a resultant force directed towards the centre of the circle
+6 B 1.3 {F} a spring balance measures weight, which is greater where g is greater; a beam balance compares masses, so the same masses are needed everywhere
+8 D 1.5.3 an elastic solid returns to its original shape after being deformed (a football when it is kicked); bullets, damaged cars and sawn metal are permanently deformed
+9 B 1.5.3 {F} identical springs side by side share the load equally: 90 ÷ 3 = 30 N each; extension is proportional to load: 6.0 × 30 ÷ 15 = 12 cm
+13 D 1.7.2 force × distance moved in the direction of the force = work done
+14 B 1.7.5+1.7.2 power = work done ÷ time = (6 × 25 × 4.0) ÷ 8.0 = 75 W
+18 B X2.2 evaporation rate
+19 A 3.1 v = distance ÷ time = 1300 ÷ 4.0 = 325 m/s; λ = v ÷ f = 325 ÷ 13 000 = 0.025 m
+21 C 3.2.2 {F} light leaving a medium along the surface is at the critical angle; the angle of incidence is measured from the normal (90° − 60° = 30°), so n = sin 90° ÷ sin 30°
+22 D 3.2.3 {F} an object between F and 2F of a converging lens forms its image beyond 2F on the other side of the lens (here the object is 7 squares from the lens, f = 4 squares, so the image is 28 ÷ 3 ≈ 9.3 squares away, past the 2F point at 8 squares)
+23 A 3.2.3 a camera uses a converging lens to form a real, inverted, diminished image on the sensor
+25 D 3.4+3.3 sound cannot travel through the vacuum of space; infrared, light and radio waves (electromagnetic) can
+28 D X4.3 {F} variable resistor
+29 C 4.2.2+4.2.3 {F} ammeter in series with the resistor, voltmeter in parallel across that resistor alone
+30 B X4.5 {F} force on a current in a field
+32 D X4.5 {F} a.c. generator output
+33 A XOLD thermionic emission
+37 C X5 radiations
+38 C X5 fusion in the Sun
+39 B X5 half-life

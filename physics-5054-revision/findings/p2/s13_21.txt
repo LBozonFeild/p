@@ -1,0 +1,50 @@
+# P2 s13_21 | figs viewed: 1.1 (force against length: straight line from 11 cm at zero force to 30 cm at 1.7 N), 1.2, 2.1 (newton meter 20 cm and 4.0 N weight 40 cm from the pivot, same side), 5.1 (semicircular block: ray along a radius meets the centre of the flat face at 41°, refracted ray along the surface), 6.1 (straight line through origin, 0.25 A at 5 V), 7.1, 9.1 (belt 9.0 m long rising 6.0 m) | not viewed: 3.1, 4.1, 4.2, 5.2a, 5.2b, 8.1, 11.1
+# leaf 5bii holds 5(b)(i) and (ii)
+1a | 1.5.3 | {F} unstretched length = length at zero force, read where the force-length line meets the length axis: 11 cm [B1]
+1b | 1.5.3 | limit of proportionality not reached: the graph is a straight line throughout (constant gradient, not curved) [B1]
+1ci | 1.2 | uniform acceleration: a change in speed / velocity [M1] ;; that is the same in every equal time interval (each second) [A1]
+1cii | 1.5.3+1.5.1 | {F} force read from the spring graph at length = unstretched length + extension (11 + 9.0 = 20 cm): 0.8 N [B1] ;; a = F/m = 0.8 ÷ 0.20 [C1] ;; 4.0 m/s² [A1]
+2a | 1.5.5 | principle of moments for a body in equilibrium: (sum of) clockwise moments = (sum of) anticlockwise moments – resultant moment is zero [B1]
+2b | 1.5.5 | {F} F₁d₁ = F₂d₂ about the pivot: F × 20 = 4.0 × 40 [C1] ;; 8.0 N [A1]
+2c | 1.5.5+1.5.1 | in equilibrium the forces also balance: total downward force = 4.0 + 1.2 = 5.2 N [C1] ;; force from the pivot = upward force − total downward force = 8.0 − 5.2 = 2.8 N [A1]
+3a | X1.8 | atmospheric pressure
+3b | X1.8 | hρg
+3c | X1.8 | water barometer
+4ai | XOLD | range
+4aii | XOLD | linear scale
+4aiii | XOLD | sensitivity
+4b | XOLD | thermometric property
+5a | 3.2.2 | {F} the angle of incidence for which the refracted ray travels along the surface is the critical angle [B1]
+5bii | 3.2.2 | angle of incidence less than the critical angle: light is refracted out into the air, bending away from the normal [B1] ;; angle of incidence greater than the critical angle: (total) internal reflection with angle of reflection equal to angle of incidence and no refracted ray [B1]
+5c | 3.2.2+1.2 | {F} t = distance ÷ speed, where the distance from the curved edge to the centre of the flat face is the radius (half the diameter): 0.050 ÷ 2.0 × 10⁸ [C1] ;; 2.5 × 10⁻¹⁰ s [A1]
+6a | 4.2.4 | Ohm's law: current is directly proportional to voltage (voltage ÷ current is constant) [B1] ;; provided the temperature / physical conditions are constant [B1]
+6b | 4.2.4 | {F} R = V/I using any pair of values from the straight-line graph, e.g. 5.0 ÷ 0.25 [C1] ;; 20 Ω [A1]
+6ci | 4.2.4 | wire of the same material and length with half the cross-sectional area has twice the resistance: 40 Ω [B1]
+6cii | 4.2.4 | {F} its current-p.d. graph is a straight line through the origin below the original line [M1] ;; passing through 0.1 A at 4 V (half the gradient) [A1]
+7a | X4.3 | thermistor circuit
+7bi | X4.3 | series rules
+7bii | X4.4 | P = VI
+7biii | X4.4 | power rating
+8a | X4.5 | core
+8b | X4.5 | transformer
+8c | X4.5 | high-voltage transmission
+9ai | 1.3 | mass: the amount of matter in a body / its resistance to a change in motion (inertia) [B1] ;; weight: the pull (force) of gravity on the body [B1]
+9aii | 1.7.1 | {F} increase in g.p.e. = mgh using the vertical height = 20 × 10 × 6.0 [C1] ;; 1200 J [A1]
+9aiii | 1.7.1 | K.E. = ½mv² [C1] ;; speed = distance ÷ time = 9.0 ÷ 12 = 0.75 m/s [A1] ;; ½ × 20 × 0.75² = 5.6 J [A1]
+9aiv | X4.4 | E = VIt
+9av | 1.7.1 | principle of conservation of energy: energy can neither be created nor destroyed [B1] ;; but it may change form / be transferred [B1] ;; applied to a motor lifting a load: electrical energy changes to potential energy (and kinetic energy and heat) [B1]
+9bi | 1.7.3 | renewable energy source: will not run out / is being replaced (not "can be reused") [B1]
+9bii | 1.7.3 | two renewable sources from: wind, tidal, solar, geothermal, hydroelectric, biomass (biofuel, wood), waves (not nuclear) [B2]
+10ai | X4.4 | kW h
+10aii | X4.4 | cost of electricity
+10bi | X2.2 | mcΔT
+10bii | X2.2 | latent heat
+10biii | X2.1 | molecular arrangement
+10biv | X2.2 | melting energy
+11ai | X5 | atom
+11aii | X5 | isotopes
+11bi | X5 | half-life
+11bii | X5 | carbon dating
+11ci | X5 | beta absorption
+11cii | X5 | shielding
+11ciii | X5 | gamma

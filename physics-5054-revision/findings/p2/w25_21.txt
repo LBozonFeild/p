@@ -1,0 +1,41 @@
+# P2 w25_21 | figs viewed: 1.1 (momentum-time graph: 18 000 at 1.5 s, flat at 39 000 from 5 s), 4.2 (full-scale lens grid, F1/F2 3.5 cm from lens), 6.1 (series circuit) | MS labels part 8(b) as "8(b)(i)"; MS marks column misread by text extraction on some pages, marks taken from the printed C1/A1/B1 codes
+1a | 1.6 | {F} change in momentum read from momentum-time graph = 18 000 kg m/s [C1] ;; force = change in momentum ÷ time taken = 18 000 ÷ 1.5 [C1] ;; 12 000 N [A1]
+1bi | 1.6+1.7.1 | "show that" p²/2m = Ek: substitute p = mv to give m²v²/2m [B1] ;; simplified to ½mv² and Ek = ½mv² stated (so equal to kinetic energy) [B1]
+1bii | 1.6 | {F} momentum read from graph = 39 000 kg m/s [B1] ;; m = p²/(2Ek) = 39 000² ÷ (2 × 5.4 × 10⁵) [C1] ;; 1400 kg [A1]
+2ai | 1.3 | weight = mg = 37 × 9.8 = 360 N [B1]
+2aii | 1.7.2 | work done = force × distance moved (Fx) = 360 × 13 [C1] ;; 4700 J [A1]
+2bi | X4.4 | energy = VIt = 1.4 × 10⁴ J
+2bii | 1.7.4 | efficiency = useful work done ÷ total energy supplied = 0.33 or 33% [B1]
+2c | 1.7.4 | reasons efficiency of a lifting motor is below 100%, any two: work done (GPE gained) lifting the cage / cable as well as the load; energy transferred thermally in the motor (coils); work done overcoming friction / air resistance [2]
+3a | X2.3 | conduction: molecule collisions
+3bi | X2.2 | mcΔθ
+3bii | X2.1 | liquid vs solid structure
+3biii | X2.3 | plastic poor conductor
+4a | 3.2.2 | why light refracts on entering glass, any two: light travels more slowly / at a different speed in glass; it enters an optically denser medium / medium of different refractive index; wavelength changes (frequency stays the same); angle of incidence is greater than 0 [2]
+4bi | 3.2.3 | principal focus: point where parallel rays meet after refraction [C1] ;; full statement: point where rays parallel to the principal axis (paraxial rays) meet after refraction by the lens [A1]
+4bii | 3.2.3 | focal length = distance between the principal focus (focal point) and the (centre of the) lens [B1]
+4ci | 3.2.3 | {F} object drawn to scale as an arrow of correct height at the correct distance on the correct side, starting on the principal axis [B1]
+4cii | 3.2.3 | {F} construction rays from tip of object, any two: ray parallel to principal axis to the lens then through the far principal focus; straight ray through the centre of the lens; ray that appears to come from the near principal focus, emerging parallel to the axis [M2] ;; object inside focal length: the two refracted rays are traced back (extended backwards) to where they meet to locate the image, image arrow labelled I [A1]
+4ciii | 3.2.3 | virtual, because the rays only seem to come from the image / do not actually pass through the image / object distance is less than the focal length / the image is upright [B1]
+5a | X2.2 | evaporation cooling
+5bi | X4.5 | electromagnetic induction
+5bii | X2.2 | thermal expansion and density
+5biii | X2.3 | convection
+6a | 4.2.4 | Ohm's law: p.d. across a component is directly proportional to the current in it [B1] ;; at constant temperature / constant physical conditions [B1]
+6bi | 4.2.4+X4.3 | I = V/R using e.m.f. ÷ total (series) resistance = 9.0 ÷ (8.0 + 4.0) [C1] ;; 0.75 A [A1]
+6bii | X4.4 | P = IV = 4.5 W
+6ci | 4.2.4 | same volume with length halved means cross-sectional area doubles [C1] ;; resistance ∝ length and ∝ 1/area: new R = 8.0 × 0.50 ÷ 2.0 = 2.0 Ω (a quarter) [A1]
+6cii | 4.2.4+X4.3 | p.d. across the 4.0 Ω resistor = E × R ÷ (total resistance) = 9.0 × 4.0 ÷ (2.0 + 4.0), or current I = 9.0 ÷ 6.0 = 1.5 A then V = IR [C1] ;; 6.0 V [A1]
+7a | 4.2.1 | charging by friction: electrons / movement of negative charge mentioned [B1] ;; electrons move from the cloth to the rod (rod gains electrons, becomes negative) [B1]
+7bi | 4.2.1 | in conductors electrons are free to move (in insulators they are not) [B1]
+7bii | 4.2.1 | charged rod near uncharged conductor: like charges repel [B1] ;; negative charges / electrons move away from the (negative) rod to the far side [B1] ;; positive charges / protons do not move, or the side nearer the rod becomes positively charged [B1]
+7biii | 4.2.1 | unlike / opposite charges attract [B1] ;; the attractive force is stronger than the repulsive force on the negative charges because the positive charges are closer to the rod [B1]
+8a | X5 | isotopes neutrons
+8b | X5 | alpha decay equation
+8ci | X5 | alpha scattering observations
+8cii | X5 | nuclear atom
+9a | 1.5.1 | Newton's first law with no external (resultant) force: speed is constant [B1] ;; motion is in a straight line [B1]
+9bi | 1.5.4 | a force is needed to change the direction of the motion / velocity; otherwise the object would move in a straight line [B1]
+9bii | 1.5.4 | force for a planet's circular orbit: caused by gravitational field / gravitational attraction / gravity [B1] ;; of the Sun [B1] ;; direction towards the centre of the circle / towards the Sun / inwards [B1]
+9biii | X6 | orbital speed = 2πr/T = 3.6 × 10⁴ m/s
+9biv | X6 | Mercury; faster

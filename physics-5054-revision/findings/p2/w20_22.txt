@@ -1,0 +1,45 @@
+# P2 w20_22 | figs viewed: 1.1 (rule's centre of mass at 50 cm, pivot at 80 cm, beaker spanning 84–92 cm), 2.1 (290 N along a 2.0 m plank rising 0.60 m), 7.1 (distance-time: curve to 10 s, straight to about 35 s, levelling at 390 m by 40 s, then flat), 8.1 (full-scale grid, 3.0 cm object 9.0 cm from the lens) | MS repeats labels 2(a)(ii), 8(a)(ii), 8(b)(ii), 9(c)(ii) for the following parts
+1a | 1.4 | mass of liquid m = ρV = 1.8 × 200 = 360 g [C1] ;; add the mass of the container: 360 + 50 [C1] ;; 410 g (0.41 kg) [A1]
+1bi | 1.5.6 | centre of mass: the place where the mass appears to be concentrated / the point where the object balances [B1]
+1bii | 1.5.5 | {F} distances from the pivot: load acts at its centre (84 + 92) ÷ 2 = 88 cm mark, 8.0 cm from the pivot; rule's weight acts at the 50 cm mark, 30 cm from the pivot [C1] ;; moments balance: m₁x₁ = m₂x₂ (g cancels), m = 410 × 8.0 ÷ 30 [C1] ;; 110 g (0.11 kg) [A1]
+2ai | 1.7.1 | g.p.e. = mgh using the vertical height: 90 × 10 × 0.60 [C1] ;; 540 J [A1]
+2aii | 1.7.2 | {F} work done = force × distance moved along the slope (in the direction of the force) = 290 × 2.0 [C1] ;; 580 J [A1]
+2aiii | 1.7.2 | work done is greater than the g.p.e. gained because of (work done against) friction, e.g. between wheel and axle or between tyre and plank [B1]
+2bi | 1.7.4 | efficiency = useful energy output ÷ total energy input (× 100%), or useful power output ÷ total power input (× 100%) [B1]
+2bii | 1.7.4 | reason a lifting method is inefficient: the wheelbarrow / the worker's own body has to be lifted as well as the load (friction and air resistance not credited here) [B1]
+3ai | X2.3 | convection
+3aii | X2.3 | water poor conductor
+3b | X2.3 | insulation
+4a | X2.1 | structure of solid
+4bi | X2.2 | mcΔT
+4bii | X2.2 | heat capacity
+5a | X4.4 | earth wire and fuse
+5bi | X4.4 | live wire
+5bii | X4.4 | fuse in live
+5ci | X4.4 | live and neutral
+5cii | X4.4 | double insulation
+6ai | X5 | atom structure
+6aii | X5 | isotopes
+6bi | X5 | beta decay
+6bii | X5 | growth curve
+6c | X5 | safety
+7a | 1.2 | {F} distance-time graph with increasing gradient: accelerating / speed increasing [B1] ;; with decreasing gradient: decelerating / speed decreasing [B1] ;; comparison: magnitude of the acceleration is less than that of the deceleration (longer time for the same speed change), or one starts from rest and the other finishes at rest [B1]
+7bi | 1.2 | {F} maximum speed = gradient of the steepest (straight) section of the distance-time graph: two pairs of coordinates from the straight section [C1] ;; change in distance ÷ change in time [C1] ;; 11.7–12.0 m/s [A1]
+7bii | 1.2 | {F} average speed = total distance ÷ total time, with the time taken up to arrival (390 m in 39–40 s), not including the time spent stationary afterwards [C1] ;; 9.7–10.0 m/s [A1]
+7ci | 1.2 | velocity has a direction / is a vector / depends on displacement rather than distance [B1]
+7cii | 1.5.1+1.5.4 | resultant force acts whenever velocity changes: while speeding up the force is forwards (in the direction of movement) [B1] ;; while travelling round a curve at constant speed (identified time period) [B1] ;; the force is perpendicular to the motion (towards the centre of the curve) [B1] ;; while slowing down the force is backwards (opposite to the direction of movement) [B1]
+7di | 1.5.2 | air resistance changes during a journey because the speed changes [B1]
+7dii | 1.5.2 | {F} air resistance is a maximum when the speed is a maximum (the steepest part of the distance-time graph) [B1]
+8ai | 3.2.2 | n = sin i ÷ sin r so r = sin⁻¹(sin 55° ÷ 1.4) [C1] ;; 36° [A1]
+8aii | 3.2.2 | light entering a denser medium deviates towards the normal and its speed decreases [B1]
+8aiii | 3.2.2 | frequency stays constant [B1]
+8bi | 3.2.3 | focal length: distance between the principal focus (focal point) and the centre of the lens [B1]
+8bii | 3.2.3 | {F} converging-lens ray diagram: at least one principal focus marked at the correct distance and used [B1] ;; any two rays from the tip of the object: parallel to the axis then refracted through the far principal focus; through the optical centre undeviated; through the near principal focus then refracted parallel to the axis [B2] ;; image marked at the intersection of the correct rays [B1]
+8biii | 3.2.3 | image distance measured from the diagram: 3.4–3.5 cm [B1] ;; magnification = image distance ÷ object distance (or image height ÷ object height) [C1] ;; 0.37–0.40 [A1]
+8c | 3.2.3 | converging lens in a camera, any three: light from the object is focused / refracted by the lens; focusing is done by moving / adjusting the lens; a real image is formed; on a digital light detector / film [B3]
+9a | X4.1 | steel
+9b | X4.1 | plotting compass
+9ci | 4.2.2 | current in a wire: (free) electrons are attracted to the positive terminal / repelled by the negative terminal [B1] ;; conventional current is from positive to negative (opposite to the electron flow) [B1]
+9cii | X4.5 | left-hand rule
+9ciii | X4.5 | magnetic screening
+9d | X4.5 | turning effect on coil

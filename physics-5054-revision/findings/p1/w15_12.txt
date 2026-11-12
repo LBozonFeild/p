@@ -1,0 +1,36 @@
+# P1 w15_12 | main sheets 1-2 and rest sheet viewed; Q3 scale enlarged and viewed; Q8 is identical to s22_12 Q5; Q10 to w18_12 Q7; Q12 to w23_12 Q19; Q17 to w22_12 Q20; Q20 to s26_12 Q26
+1 A 1.1 mass is a scalar; force, velocity and weight are vectors
+2 B 1.4 {F} the difference between the measuring-cylinder readings with and without the stone gives the volume of the stone
+3 D 1.1 {F} micrometer: sleeve reading to the last visible mark (7.5 mm, the half-millimetre mark after 7 is showing) + thimble reading (14 × 0.01 mm) = 7.64 mm
+4 D 1.2 {F} average speed = total distance along the path ÷ time = (8.0 + 3.0 + 5.0) km ÷ 0.25 h = 64 km/h
+5 B 1.5.1 resultant force = weight − air resistance = 1.5 − 0.60 = 0.90 N; a = F ÷ m = 0.90 ÷ 0.15 = 6.0 m/s²
+6 B 1.5.2+1.2 a dropped stone starts with the acceleration of free fall (10 m/s²); at terminal velocity its acceleration is zero
+7 B 1.5.1 Newton's third-law pair: the force on the Moon due to the Earth and the force on the Earth due to the Moon
+9 D 1.3 a gravitational field is a region in which a mass experiences a gravitational force; g is measured in N/kg; mass is the amount of matter and equals weight ÷ g (not weight × g)
+11 A 1.5.5 {F} moments about the wheel (pivot): F × (70 + 50) = 600 × 70, so F = 350 N
+13 C X1.8 {F} p = hρg
+14 B 1.7.1 {F} gravitational potential energy is greatest at the highest point of the path
+15 C 1.7.2+X1.8 {F} force = pressure × area = 10 × 10 = 100 N (pressure step outside the selected sections); work done = force × distance = 100 × 0.10 = 10 J
+16 C X2.1 gas pressure
+18 A X2.2 {F} evaporation
+19 B X2.2 mixing water
+21 A 3.1+3.4 λ = v ÷ f = 1500 ÷ 24 000 = 0.063 m (km/s and kHz converted to m/s and Hz)
+22 B 3.2.3 {F} magnifying glass: the image is larger than the object and upright (virtual)
+23 D 3.1 {F} reflection does not change the speed, wavelength or frequency of a wave
+24 B 3.2.4 red light has a longer wavelength (lower frequency) than blue; it travels faster in glass and is refracted less by a prism
+25 B 3.4 increasing the amplitude gives a louder sound of the same pitch
+26 C 3.4 an ultrasound scanner forms an image from ultrasound reflected by the baby
+27 C 3.4 echo: distance = speed × time ÷ 2 = 320 × 4.0 ÷ 2 = 640 m
+28 C X4.1 magnetic materials
+29 B 4.2.1 metals such as iron are electrical conductors; rubber and plastic are insulators
+30 B 4.2.1 {F} a positively charged sphere brought near an uncharged metal sphere attracts electrons to the near side of that sphere (negative) and leaves its far side positive
+31 A X4.5 {F} field direction
+32 D X4.5 {F} force between parallel currents
+33 C 4.2.4+X4.3 {F} two 8.0 Ω resistors in parallel give 4.0 Ω; total resistance = 2.0 + 4.0 = 6.0 Ω; I = 18 ÷ 6.0 = 3.0 A; p.d. across the 2.0 Ω resistor = IR = 3.0 × 2.0 = 6.0 V (parallel combination outside the selected sections)
+34 B X4.4 P = VI
+35 D X4.5 transmission
+36 A XOLD cathode-ray oscilloscope
+37 D X4.5 {F} step-up transformer
+38 B X4.5 {F} relay circuit
+39 C X5 half-life
+40 D X5 alpha scattering

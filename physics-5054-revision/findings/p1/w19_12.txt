@@ -1,0 +1,40 @@
+# P1 w19_12 | main sheets 1-2 and rest sheet viewed; Q26 is identical to w23_11 Q21
+1 B 1.1 displacement is a vector; density, energy and speed are scalars
+2 C 1.1 {F} resultant of two perpendicular forces: √(3.0² + 4.0²) = 5.0 N
+3 B 1.1 units: latent heat (an energy) is measured in J; e.m.f. in V, pressure in Pa (N/m²), weight in N
+4 D 1.1 {F} a length of several metres is measured with a tape; the external and internal diameters of a pipe about 2 cm across are measured with calipers
+5 C 1.2 {F} horizontal lines on a speed–time graph are constant speeds; the higher line is the faster runner (neither is accelerating, and the gap between them grows)
+6 D 1.2 {F} where a speed–time graph is horizontal the speed is constant and the acceleration is zero
+7 B 1.2 an object falling in a vacuum (no air resistance) has the acceleration of free fall g at all times
+8 C 1.5.1 {F} the force from a surface on an object (normal contact force) acts at right angles to the surface
+9 D 1.5.4+X6 {F} for circular motion at constant speed the velocity is along the tangent to the orbit and the acceleration (and resultant force) points towards the centre (the Sun)
+10 D 1.5.5+1.5.6 {F} balanced object: the moment of the object's weight (acting at its centre of mass) must oppose the moment of the hanging weight, so the centre of mass lies on the other side of the pivot
+11 D 1.5.3 {F} two identical springs in parallel share the load (each carries half and extends x); in series each spring carries the full load and extends 2x, so the total extension is 4x
+12 A X1.8 {F} trapped air above equal water columns
+13 C X2.1 {F} Boyle's law graph
+14 D 1.7.1 KE = ½mv²: doubling the mass and doubling the speed gives 2 × 2² = 8 times the kinetic energy
+15 D X5 energy is released by the fusion of hydrogen nuclei into helium in the core of the Sun
+16 C 1.7.5 (F × d) ÷ t = work done ÷ time = power
+17 B XOLD thermometer zero error
+18 C X2.2 evaporation and boiling
+19 A X2.2 specific latent heat
+20 A X2.1 {F} heated gas at constant pressure
+21 C X2.2 hot metal in water
+22 A 3.1 amplitude of a water wave: half the vertical distance between a trough and a peak (the maximum displacement from the undisturbed level)
+23 D 3.1 wavefronts from a point source are circular, and wavefronts are perpendicular to the direction in which the wave energy travels
+24 D 3.2.1 {F} a ray from the top of an object reflects from a plane mirror as though it came from the top of the (virtual) image behind the mirror
+25 A 3.2.2 {F} for light passing from glass into air, the angle in the glass between the ray and the normal is the angle of incidence
+27 C 3.4 {F} speed of sound: slowest in air (gases), faster in liquids, fastest in solids
+28 D 3.4 echo heard half-way between bangs made once a second: sound travels to the cliff and back (2 × 80 = 160 m) in 0.50 s, so v = 160 ÷ 0.50 = 320 m/s
+29 B X4.1 {F} poles from field directions
+30 B 4.2.1 {F} induced charge on an earthed plate: bringing it closer to a positively charged plate attracts more electrons onto it from earth (only electrons move)
+31 C 4.2.4 {F} a lightning conductor is made of copper so that it has a low electrical resistance (a good conductor carries the charge to earth)
+32 B X4.3 {F} circuit symbols
+33 B X4.3 series and parallel rules
+34 A X4.3 {F} smallest combined resistance
+35 B X4.4 heater settings
+36 B X4.4 circuit breaker
+37 B X4.5 {F} step-up transformer
+38 A X4.3 {F} thermistor characteristic
+39 C X5 medical tracer
+40 B X5 decay sequence

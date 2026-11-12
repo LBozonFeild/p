@@ -1,0 +1,52 @@
+# P2 s19_22 | figs viewed: 1.1, 3.1 (three rays from S in water: 25° in water refracting to 34° in air; middle ray refracted along the boundary; third ray totally internally reflected), 4.1 (brightness peak at about 1.2 × 10⁻⁶ m), 5.1, 5.2, 6.1 (lamps P and Q in parallel, ammeter in the battery line), 8.1, 9.1 (map grid, 5 km squares: B is about 10 squares east and 3 squares north of A) | not viewed: 2.1, 7.1, 10.1, 10.2, 11.1
+1a | 1.4 | {F} volume of an irregular object: read the volume of water alone in the measuring cylinder [B1] ;; subtract it from the reading with the object submerged (or use a displacement can filled to the spout and measure the overflow with the measuring cylinder) [B1]
+1b | 1.4 | density = mass ÷ volume = 400 ÷ 51 [C1] ;; 7.8 g/cm³ [A1]
+1c | 1.4 | mass of the same material with a different volume: density = 350 ÷ 39 = 9.0 g/cm³, mass = 9.0 × 51 (= 350 × 51 ÷ 39) [C1] ;; 460 g [A1]
+1d | 1.4 | heating a solid: density decreases because the volume increases (it expands) while the mass is unchanged [B1]
+2a | X1.8 | pressure
+2b | X1.8 | manometer
+2ci | X1.8 | manometer level
+2cii | X2.1 | gas pressure
+3a | 3.2.2 | {F} critical angle marked: the angle of incidence (between the ray and the normal, in the denser medium) of the ray that is refracted along the boundary [B1]
+3b | 3.2.2 | a ray is totally internally reflected only if its angle of incidence is greater than the critical angle [B1]
+3ci | 3.2.2 | {F} n = sin i ÷ sin r using the angle in air over the angle in water: sin 34° ÷ sin 25° [C1] ;; 1.3 [A1]
+3cii | 3.2.2 | sin c = 1/n [C1] ;; c = 49° to 50.3° [A1]
+4a | 3.3 | {F} wavelength of maximum brightness read from the peak of the graph: 1.15–1.25 × 10⁻⁶ m [B1]
+4b | 3.3 | radiation with a wavelength just longer than visible light (red end, 7.0 × 10⁻⁷ m) is infrared [B1]
+4c | 3.3+3.1 | f = v/λ [C1] ;; 3.0 × 10⁸ ÷ 1.2 × 10⁻⁶ [C1] ;; 2.5 × 10¹⁴ Hz [A1]
+5a | 4.2.1 | {F} earthed conductor near a negatively charged dome: negative charge / electrons in the conductor are repelled by the dome [B1] ;; the electrons move to earth, leaving the conductor positively charged [B1]
+5b | XOLD | photocopier
+6a | 4.2.4 | {F} I = V/R = 6.0 ÷ 15 (lamp connected directly across the battery) [C1] ;; 0.40 A [A1]
+6b | 4.2.4+X4.3 | {F} current in the other parallel branch = total current − current in the first = 0.65 − 0.40 = 0.25 A [C1] ;; R = V/I = 6.0 ÷ 0.25 = 24 Ω [A1]
+6ci | X4.3 | series circuit
+6cii | X4.3 | series resistance
+7a | X4.5 | current direction
+7b | X4.5 | motor effect
+7c | X4.5 | motor effect devices
+8a | XOLD | thermionic emission
+8b | 4.2.1 | {F} force on an electron in an electric field: connect a battery / p.d. across the metal plates [B1] ;; the electrons are deflected towards the positive plate / away from the negative plate – the field direction is from positive to negative, so the force on a negative charge is opposite to the field [B1]
+9ai | 1.1 | {F} displacement from a scale map: measure the straight line from start to finish (or find the east and north components, 50 km and 15 km) [C1] ;; size 51–53 km [A1] ;; direction 072°–074° (N 72–74° E) [B1]
+9aii | 1.1 | distance has no direction / is a scalar (displacement is a vector) [B1]
+9aiii | 1.2+1.5.4 | constant speed but accelerating: the car changes direction / goes round a corner [B1] ;; so its velocity changes, because velocity depends on direction (acceleration is towards the centre of the circle) [B1]
+9bi | 1.5.2 | thinking distance: distance travelled before the brakes are applied, after seeing the emergency [B1]
+9bii | 1.5.2 | factors (other than worn brakes) that increase braking distance, any 2: poor tyre surface; poor road conditions (rain, ice); higher speed; larger mass / weight of the car; less braking force applied [B2]
+9ci | 1.7.1 | K.E. = ½mv² [C1] ;; ½ × 1200 × 30² [C1] ;; 540 000 J [A1]
+9cii | 1.5.1 | a = F/m = 1800 ÷ 1200 [C1] ;; 1.5 m/s² [A1]
+9ciii | 1.7.1 | brakes heat up: friction produces thermal energy / kinetic energy is changed to heat / work is done against friction [B1]
+10a | X2.2 | melting points
+10bi | X4.4 | E = VIt
+10bii | X2.2 | mcΔT
+10ci | X2.3 | conduction
+10cii | X2.3 | convection
+10di | XOLD | thermocouple
+10dii | XOLD | thermocouple
+11ai | X6 | gravity
+11aii | X5 | fusion conditions
+11bi | X5 | nucleus
+11bii | X5 | isotopes
+11biii | X5 | fission
+11biv | X5 | fusion vs fission
+11bv | X5 | alpha decay
+11ci | X5 | alpha scattering
+11cii | X5 | alpha scattering
+11ciii | X5 | nuclear atom

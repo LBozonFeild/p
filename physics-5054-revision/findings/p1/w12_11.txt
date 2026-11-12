@@ -1,0 +1,37 @@
+# P1 w12_11 | main sheets 1-3 and rest sheet viewed; Q26 figure enlarged and viewed; Q2 is identical to w22_11 Q2; Q27 to s15_12 Q32; Q34 to s24_12 Q35; Q38 to w21_12 Q39
+1 B 1.1 vernier calipers read to 0.1 mm = 0.01 cm, so a reading is quoted to two decimal places in centimetres (3.31 cm)
+3 D 1.2 {F} speed–time graph for a ball rolling down a slope and then along rough level ground: the speed rises steadily on the slope and then falls gradually because of friction
+4 A 1.2 a car that speeds up from rest and then travels at a constant speed has a changing velocity and a changing acceleration (the acceleration falls to zero)
+5 D 1.5.1+1.3 {F} compare forces using F = ma and W = mg: the thrust is m × 2 while the weight is m × 10, and the lift and the force from the ground together only equal the weight, so the weight is the largest force
+6 C 1.5.2+1.5.1 {F} a driven wheel pushes backwards on the road, so friction on the road is backwards and (by Newton's third law) the friction on the wheel is forwards – this is the force that accelerates the car
+7 C 1.5.5 {F} principle of moments: mass × distance must be equal on both sides of the pivot; 400 × 12 = 300 × 16 = 4800
+8 D 1.5.5+1.5.6 {F} if a weight has to be hung on one side of the pivot to balance an object, the centre of mass of the object lies on the other side of the pivot
+9 B 1.5.3 {F} original length = loaded length − extension = 9 − 2 = 7 cm (extension for 200 g read from the graph); with 100 g the extension is 1 cm, so the length is 8 cm
+10 C 1.4+1.3 for the same material weight is proportional to volume: doubling each side of a cube gives 2³ = 8 times the volume and 8 times the weight
+11 D X1.8 force from pressure × area
+12 B X2.1 Boyle's law
+13 A 1.7.3 a battery is a non-renewable energy source; hydroelectric, solar and wind sources are renewable
+14 A 1.7.5+1.7.2 useful power = work done ÷ time = (8 × 20 × 1.5) ÷ 48 = 5 W
+15 B X2.1 gas compressed
+16 D X2.2 {F} cooling by evaporation
+17 D X2.3 {F} radiation from surfaces
+18 D XOLD clinical thermometer
+19 B X2.2 specific heat capacity
+20 D X2.2 {F} thermal expansion
+21 A 3.1 {F} plane waves meeting a barrier at an angle and crossing the incoming waves on the same side of the barrier are being reflected
+22 A 3.2.1 {F} the image in a plane mirror is upright, the same size as the object and as far behind the mirror as the object is in front
+23 C 3.2.2 {F} at the critical angle the refracted ray travels along the boundary (angle of refraction 90°), with some light reflected back into the glass
+24 A 3.2.3 {F} linear magnification = image height ÷ object height = 3.0 cm ÷ 1.5 cm = 2.0 (heights read from the full-scale ray diagram)
+25 C 3.2.4+3.3 violet light has the higher frequency; red light has the longer wavelength
+26 C X4.5 {F} field of a straight wire
+28 C 4.2.3 identical cells in parallel give the same e.m.f. as one cell, but each cell takes longer to run down
+29 B X4.3 {F} three resistors in parallel
+30 D X4.3 {F} fuse and diode symbols
+31 D 1.7.5 energy = power × time = 36 × 10 = 360 J
+32 B X4.4 P = VI
+33 C X4.5 {F} field and forces of antiparallel currents
+35 B X4.5 {F} Lenz's law
+36 D X4.5 {F} generator speed doubled
+37 C X4.5 reed relay
+39 C X5 fusion
+40 A X5 alpha decay

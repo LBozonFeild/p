@@ -1,0 +1,49 @@
+# P2 w20_21 | figs viewed: 1.1 (distance-time curve, straight from about 10 s; 250 m at 10 s to about 2225 m at 50 s), 2.1, 3.1 (door from above: P perpendicular to door 0.72 m from hinge; F acts close to the hinge), 4.1 (45°-45°-90° prism, ray enters along the normal and meets the sloping face at Z), 10.1–10.4
+1ai | 1.2 | {F} motion shown by a distance-time curve of increasing gradient that becomes straight: accelerating / increasing speed [B1] ;; with decreasing acceleration, until a constant speed is reached [B1]
+1aii | 1.5.2 | at first the acceleration is due to the force of gravity / weight (weight larger than air resistance) [B1] ;; air resistance increases with speed [B1] ;; resultant force decreases to zero / forces balance / air resistance equals weight [B1]
+1b | 1.2 | {F} terminal velocity = gradient of the straight-line section of the distance-time graph: two different pairs of coordinates taken from the straight section (shown on the graph) [C1] ;; change in distance ÷ change in time [C1] ;; 48–52 m/s [A1]
+2a | 1.1 | a scalar does not have a direction (a vector does) [B1]
+2b | 1.1 | from distance, displacement, force, length, mass, time: the vectors are displacement and force only [B1]
+2ci | 1.5.4 | object moving in a circle at constant speed: its direction of motion is changing [B1] ;; so its velocity is changing / it is accelerating, which requires a resultant force [B1]
+2cii | X6 | gravitational attraction of the Earth
+3ai | 1.5.5 | {F} moment = force × perpendicular distance from the pivot = 25 × 0.72 [C1] ;; 18 N m [A1]
+3aii | 1.7.2 | work done = force × distance moved in the direction of the force; distance for a quarter turn = 4.5 ÷ 4 = 1.13 m, so 25 × 1.13 [B1] ;; 28 J [B1]
+3b | 1.5.5 | {F} a smaller force can turn a door against a larger force when its moment is greater [B1] ;; because its distance from the hinge is greater than the distance from the hinge to where the larger force acts [B1]
+4ai | 3.2.2 | light entering glass (slower): wavelength decreases [B1]
+4aii | 3.2.2 | frequency does not change [B1]
+4bi | 3.2.2 | c = sin⁻¹(1/n) = sin⁻¹(1 ÷ 1.6) [C1] ;; 39° [A1]
+4bii | 3.2.2 | {F} ray meets the sloping face at 45°, greater than the critical angle: reflected ray drawn with i = r and no refracted ray [B1] ;; reflected ray strikes the next face perpendicularly and passes into the air undeviated [B1]
+5a | XOLD | thermocouple
+5bi | XOLD | thermocouple
+5bii | XOLD | linearity
+5c | XOLD | thermocouple advantages
+6a | X4.5 | transformer structure
+6b | X4.5 | transformer principle
+6c | X4.5 | high-voltage transmission
+7a | X5 | fusion
+7b | X5 | hydrogen to helium
+7ci | 1.7.1 | collapsing gas cloud: gravitational potential energy transferred to kinetic energy / internal energy [C1] ;; full chain: gravitational potential energy to kinetic energy to internal energy (and light) [A1]
+7cii | X6 | stable star
+8a | X1.8 | pressure
+8bi | X1.8 | hρg
+8bii | X1.8 | atmospheric pressure
+8ci | X1.8 | pressure with depth
+8cii | X2.1 | gas pressure
+8ciii | X2.1 | volume-depth graph
+8civ | X1.8 | atmospheric variation
+8cv | X2.1 | liquid incompressible
+9a | X2.3 | rate of cooling
+9b | X2.2 | contraction
+9ci | X2.2 | melting point
+9cii | X2.2 | latent heat
+9di | X2.2 | ml
+9dii | 1.7.5 | rate of energy transfer (power) = energy ÷ time = 2600 ÷ (10 800 − 3600) = 0.36 J/s (0.36 W) [B1]
+9e | X2.2 | specific heat capacity
+10ai | 4.2.4 | resistance of a wire is directly proportional to its length [B1]
+10aii | 4.2.4 | resistance of a wire is inversely proportional to its cross-sectional area [B1]
+10b | 4.2.4 | {F} scaling resistance with R ∝ length ÷ area: R = 6.4 × (1.0 cm ÷ 100 cm) × (7.5 × 10⁻⁴ cm² ÷ 1.0 cm²) – figures 4.8 with any power of ten [C1] ;; 4.8 × 10⁻⁵ Ω [A1]
+10ci | 4.2.3 | electromotive force: energy / work done in driving charge round a (complete) circuit, or energy transferred to electrical energy [B1] ;; energy / work done per unit charge [B1]
+10cii | 4.2.4+X4.3 | {F} total series resistance = 6.4 + 9.6 = 16 Ω [C1] ;; current = 1.2 ÷ 16 = 0.075 A (or V = 1.2 × 6.4 ÷ 16) [C1] ;; p.d. = 0.075 × 6.4 = 0.48 V [A1]
+10ciii | X4.6 | oscilloscope trace
+10di | 4.2.3 | two identical cells in parallel rather than one cell: the battery lasts twice as long [B1]
+10dii | 4.2.3 | adding an identical cell in parallel has no effect on the p.d.s in the circuit [B1] ;; because the e.m.f. of identical cells in parallel equals the e.m.f. of a single cell [B1]

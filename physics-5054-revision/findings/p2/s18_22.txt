@@ -1,0 +1,53 @@
+# P2 s18_22 | figs viewed: 1.1 (positions 0, 0.5, 1.6, 3.0, 5.0, 7.0 cm at 1.0 s intervals), 1.2 (blank grid), 2.1, 2.2 (table: lengths 200, 235, 270, 305, 350, 420 mm), 2.3, 3.1, 6.1 (grid: 2.0 cm object 5.0 cm from a converging lens), 9.1, 9.2, 10.1 (10 Ω and 40 Ω in series), 10.2 (R added in parallel with the 40 Ω), 10.3 | not viewed: 4.1, 5.1 (table only), 7.1, 8.1
+1a | 1.2 | {F} distance-time graph from recorded positions: points plotted correctly at (1, 0.5), (2, 1.6), (3, 3.0), (4, 5.0), (5, 7.0) [B1] ;; smooth curve drawn from the origin through the points [B1]
+1bi | 1.2 | constant speed on a distance-time graph: straight line / constant gradient (slope) [B1] ;; because equal distances are travelled in equal times / the gradient equals the speed [B1]
+1bii | 1.5.2 | falling at constant speed through a liquid: the weight acts down and a force from the liquid acts up [B1] ;; the forces are balanced (equal and opposite) / no resultant force [B1]
+2a | 1.5.3 | {F} extension = length − unloaded length: 350 − 200 = 150 mm and 420 − 200 = 220 mm [B1]
+2b | 1.5.3 | {F} within the proportional region, load ÷ extension is constant (1.0 N per 35 mm) – any use of proportionality [C1] ;; 49 ÷ 35 = 1.4 N [A1]
+2ci | 1.7.1 | {F} load pulled down on a spring and held: energy stored in the spring is larger at the lower position, gravitational potential energy of the load is larger at the higher position [B1]
+2cii | 1.7.1 | conservation of energy: the student loses (chemical) energy / the g.p.e. of the load decreases while the energy stored in the spring increases [B1] ;; the increase in spring energy is greater than the decrease in g.p.e., and the difference is the work done by the student [B1]
+3a | X2.2 | expansion of gas
+3b | X2.2 | expansion of hole
+3ci | 1.4 | density = mass ÷ volume (mass per unit volume) [B1]
+3cii | 1.4 | V = m ÷ density = 5.0 ÷ 7.5 × 10³ [C1] ;; 6.7 × 10⁻⁴ m³ (2 or 3 significant figures, to match the data) [A1]
+4a | X2.2 | specific latent heat
+4bi | X2.2 | mL
+4bii | X2.3 | conduction
+5a | 3.3+1.2 | distance = speed × time using half the there-and-back time: 3.0 × 10⁸ × 0.12 [C1] ;; 3.6 × 10⁷ m [A1]
+5bi | 3.1+3.3 | sound is longitudinal and microwaves are transverse [B1] ;; microwaves are electromagnetic (sound is not) [B1]
+5bii | 3.1+3.4 | compression: a region where the layers / molecules / particles are close together – higher pressure (than normal) [B1]
+6a | 3.2.3 | {F} converging-lens ray diagram, any two rays from the top of the object: ray through the middle of the lens undeviated; ray parallel to the axis refracted through the principal focus (3.0 cm from the lens); ray through the principal focus on the object's side emerging parallel to the axis [B2]
+6b | 3.2.3 | image of an object between f and 2f from a converging lens (magnified): inverted / real [B1]
+6c | 3.2.3 | linear magnification = image size ÷ object size or image distance ÷ object distance [C1] ;; taken from the intersection of the rays on the diagram: 1.3–1.7 (calculated value 7.5 ÷ 5.0 = 1.5) [A1]
+6d | 3.2.3 | optical device that gives a magnified real image: projector / photographic enlarger [B1]
+7a | X4.1 | magnetic material test
+7bi | X4.1 | like poles repel
+7bii | X4.1 | field direction
+7biii | X4.5 | induction
+8a | X4.4 | protection
+8bi | X4.4 | live wire
+8bii | X4.4 | switch position
+8biii | X4.4 | fuse rating
+9ai | 1.7.3 | renewable energy source: will not run out / is being replaced (as it is used) [B1]
+9aii | 1.7.3 | renewable sources other than wind: solar, tidal, geothermal, biomass, hydroelectric, water waves [B1]
+9aiii | 1.7.3 | method of generating electricity that causes much global warming: burning a fossil fuel (coal, oil, natural gas) [B1] ;; because it produces carbon dioxide / greenhouse gases (which absorb infrared radiation from the Earth) [B1]
+9bi | 1.7.1 | E = ½mv² = ½ × 4.2 × 10⁷ × 15² [C1] ;; 4.7 × 10⁹ J [A1]
+9bii | 1.7.5 | E = Pt with the time in seconds: 8.4 × 10⁵ × 1800 [C1] ;; 1.5 × 10⁹ J [A1]
+9biii | 1.7.4 | efficiency = energy output ÷ energy input = 1.5 × 10⁹ ÷ 4.7 × 10⁹ [C1] ;; 0.32 or 32% [A1]
+9ci | X4.5 | generator output graph
+9cii | X4.5 | transmission
+10a | 4.2.3 | potential difference across a resistor: work done / energy transferred [B1] ;; in taking unit charge through the resistor (per unit charge) [B1]
+10bi | 4.2.4 | {F} I = V/R = 9.6 ÷ 40 [C1] ;; 0.24 A [A1]
+10bii | 4.2.4+4.2.3+X4.3 | {F} series circuit: total resistance = 10 + 40 = 50 Ω, or p.d. across the other resistor = 0.24 × 10 = 2.4 V [C1] ;; e.m.f. = 0.24 × 50 = 9.6 + 2.4 = 12 V [A1]
+10c | 4.2.3 | choosing a voltmeter range for 9.6 V: the 0–20 V meter [B1] ;; because on 0–200 V the deflection is too small to read precisely, or because 0–2 V would be off the scale / damaged [B1]
+10di | X4.4 | P = VI
+10dii | X4.4 | power rating
+10e | 4.2.4+X4.3 | {F} resistor added in parallel with one of two series resistors: current in the other resistor increases because the resistance of the parallel combination (and so the total resistance) decreases [B1] ;; p.d. across that other resistor increases [M1] ;; because p.d. is proportional to current for a fixed resistance (V = IR) [A1] ;; p.d. across the parallel pair decreases because the sum of the p.d.s is constant (equal to the e.m.f.) [B1]
+11ai | X5 | detecting alpha
+11aii | X5 | detecting alpha
+11aiii | X5 | detecting alpha
+11b | X5 | ionising and penetrating
+11ci | X5 | half-life choice
+11cii | X5 | half-life
+11di | X5 | hazard
+11dii | X5 | safety

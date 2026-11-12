@@ -1,0 +1,48 @@
+# P2 w19_21 | figs viewed: 4.1 (gamma, X-rays, A, visible, B, C, radio), 5.1, 5.2 (straight line from 1.20 N at 0 cm³ to about 2.05 N at 95 cm³), 6.1, 10.1 (grid: object 3.0 cm tall, 4.0 cm from a diverging lens, F1 and F2 each 6.0 cm from the lens), 10.2 | not viewed: 1.1, 1.2, 8.2, 9.1
+1ai | X1.8 | barometer
+1aii | X1.8 | vacuum
+1b | X1.8 | hρg
+2a | 1.7.1 | gravitational potential energy = mgh and kinetic energy = ½mv² (both needed) [B1]
+2b | 1.7.1 | falling without air resistance: k.e. gained = g.p.e. lost, ½mv² = mgh so v² = 2gh = 2 × 10 × 380 = 7600 [C1] ;; v = √(2gh) [C1] ;; 87 m/s [A1]
+2ci | 1.7.1 | objects of different mass dropped from the same height land at the same speed (no air resistance) because both g.p.e. and k.e. are proportional to mass / the mass cancels / they have the same acceleration g [B1]
+2cii | 1.5.2 | with air resistance: the air-resistance force is a smaller proportion of the weight for the heavier object [B1] ;; so the heavier object has the greater acceleration / is less affected by air resistance [B1]
+3a | X2.1 | gas vs liquid
+3b | X2.2 | latent heat
+4a | 3.3 | {F} order of the electromagnetic spectrum: gamma rays, X-rays, ultraviolet, visible light, infrared, microwaves, radio waves – any two of the three unknown regions named correctly [C1] ;; all three correct [A1]
+4b | 3.3 | gamma rays have both the greatest frequency and the smallest wavelength [B1]
+4c | 3.3 | X-ray image of a broken bone: X-rays pass through flesh but not (to the same extent) through bone [B1] ;; they are detected photographically / by a (digital) detector placed behind the limb [B1] ;; no or less exposure shows where the bone is, exposure shows the break [B1]
+5 | 1.4+1.3 | {F} density from a weight-volume graph: two pairs of readings taken from the line, separated by at least half its length (50 cm³ or more) [B1] ;; use the gradient – change in weight ÷ change in volume (not a single reading, because the line does not start at zero: the container has weight) [C1] ;; convert weight to mass with W = mg, i.e. density = gradient ÷ g; gradient is about 0.0088–0.0090 N/cm³ [C1] ;; density 0.88–0.90 g/cm³ [A1]
+6ai | X4.4 | I = P/V
+6aii | 4.2.4 | R = V/I = 240 ÷ 0.25 [C1] ;; 960 Ω [A1]
+6bi | 4.2.3 | {F} voltmeter across the only component connected to two 1.5 V cells in series reads 1.5 + 1.5 = 3.0 V [B1]
+6bii | 4.2.4 | at a much lower voltage the resistance of a filament lamp is smaller [B1] ;; because the filament is at a lower temperature [B1]
+6biii | 4.2.4 | a filament lamp often fails just after switch-on because of the current surge – the resistance is lower when the filament is cold [B1]
+7ai | X5 | ion
+7aii | X5 | ion charge
+7b | X5 | isotopes
+7ci | X5 | decay
+7cii | X5 | decay product
+7ciii | X5 | beta
+7civ | X5 | half-life
+8a | X4.1 | magnetic screening
+8bi | X4.5 | electromagnet
+8bii | X4.5 | electromagnet use
+8ci | X4.5 | induction
+8cii | X4.5 | induction
+8ciii | X4.5 | induction
+9a | X2.3 | density of warm water
+9bi | X2.3 | conductor
+9bii | X2.3 | free electrons
+9biii | X2.3 | convection
+9c | X2.2 | mcΔT
+9di | X2.1 | liquid molecules
+9dii | X2.1 | cooling
+10a | 3.3 | speed of light in a vacuum = 3.0 × 10⁸ m/s [B1]
+10b | 3.2.4 | colours of the visible spectrum: red, orange, yellow, green, blue, indigo, violet [B1]
+10ci | 3.2.3 | {F} focal length = distance from the principal focus to the centre of the lens, read from the scale: 6.0 cm (may be given as negative for a diverging lens) [B1]
+10cii | 3.2.3 | {F} ray diagram for a diverging lens, any two rays from the tip of the object: ray parallel to the axis that refracts so that it seems to come from the principal focus on the object's side; ray through the optical centre undeviated; ray aimed at the far principal focus that emerges parallel to the axis [B2] ;; refracted rays traced back to the point where they meet [B1] ;; that point labelled as the image, with the image drawn down to the principal axis [B1]
+10ciii | 3.2.3 | image height measured from the diagram: 1.7–1.9 cm (smaller than the object, upright, between object and lens) [B1]
+10civ | 3.2.3 | magnification = image height ÷ object height = 1.8 ÷ 3.0 = 0.60 [B1]
+10cv | 3.2.3 | virtual image compared with real image, any two: a real image can be projected on to a screen (a virtual image cannot); light actually passes through a real image; a virtual image formed by a lens is on the same side as the object [B2]
+10cvi | 3.2.3 | use of a diverging lens: correction of short sight (myopia) [B1]
+10d | 3.2.2+3.1 | {F} wavefronts change direction on entering glass: light travels more slowly in glass / changes speed [B1] ;; one side of each wavefront reaches the glass and slows down first [B1] ;; so the wavelength decreases / that part of the wavefront travels a shorter distance in the same time [B1]

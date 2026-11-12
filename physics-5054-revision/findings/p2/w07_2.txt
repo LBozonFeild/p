@@ -1,0 +1,53 @@
+# P2 w07_2 | figs viewed: 1.1 (speed rises to 50 m/s, falls sharply at 20 s to 5 m/s, level until 55 s, then zero), 2.1 (table of masses and volumes), 3.1, 6.1, 10.1 (current-p.d. curve of decreasing gradient), 10.2 (20 Ω with ammeter 2 and component P with ammeter 3 in parallel; ammeters 1 and 4 in the supply lines), 11.1 (ray entering the edge of a lens: 40° in air, 25° in glass) | not viewed: 4.1, 5.1, 7.1, 7.2, 8.1, 9.1
+# Q8 is EITHER/OR: leaf 8 = EITHER (whole question, 4 marks); leaves 8a, 8b = OR (a), (b)
+1a | 1.2 | {F} sudden fall in the speed of a parachutist: the parachute opens; speed dropping to zero at the end: lands [B1]
+1b | 1.2 | {F} curve rising with decreasing gradient: accelerates (speed increases) [B1] ;; with decreasing acceleration until the speed becomes constant [B1]
+1c | 1.5.2 | constant speed: the forces balance – no resultant force (equal and opposite) [B1] ;; the two forces are the weight (gravity) and air resistance (drag) [B1]
+1d | 1.2 | distance = speed × time (area under the graph) = 5 × 30 [C1] ;; 150 m [A1]
+2ai | 1.4 | volume of a rock with a measuring cylinder: read the level of the water before the rock is put in [B1] ;; read the level with the rock immersed and subtract (or use a displacement can filled to the spout and measure the overflow) [B1]
+2aii | 1.4 | a large rock cannot be measured this way because it will not fit into an ordinary measuring cylinder (its volume is too large) [B1]
+2b | 1.4 | density = m ÷ V = 101 ÷ 22 [C1] ;; 4.59 g/cm³ [A1]
+2c | 1.4 | {F} the sample made of a different material is the one whose mass ÷ volume differs from the others (448 ÷ 80 = 5.6 g/cm³) [B1] ;; because density is the same for samples of the same material – mass proportional to volume [B1]
+3ai | 1.7.3 | {F} energy from hot rocks underground: geothermal [B1]
+3aii | 1.7.3 | renewable energy source: will not run out / is being replaced (not "can be used again") [B1]
+3bi | X2.2 | mcΔT
+3bii | X2.2 | mL
+4a | X2.3 | black absorber
+4b | X2.3 | convection
+4ci | X2.3 | insulation
+4cii | X2.3 | lagging
+5ai | X2.3 | conduction
+5aii | X2.2 | expansion
+5b | X2.1 | melting
+6a | 3.4 | loudspeaker producing sound: the cone vibrates [B1] ;; making the air molecules vibrate back and forth in the direction of the sound – compressions and rarefactions (longitudinal wave) [B1]
+6bi | 3.4 | highest frequency audible to a human with normal hearing: about 20 000 Hz (18 000–22 000 Hz) [B1]
+6bii | 3.4+3.1 | longest audible wavelength λ = v/f using the lowest frequency = 340 ÷ 20 [C1] ;; 17 m [A1]
+7ai | X4.1 | steel
+7aii | X4.1 | magnetising
+7bi | X4.1 | screening material
+7bii | X4.1 | screening field lines
+8 | X4.6 | EITHER oscilloscope trace
+8a | XOLD | OR transistor switch
+8b | XOLD | OR moisture detector use
+9ai | 1.2 | average deceleration = (v − u) ÷ t [C1] ;; 14 ÷ 3.0 [C1] ;; 4.7 m/s² [A1]
+9aii | 1.5.1 | average force F = ma = 5.0 × 4.7 [C1] ;; 23 N [A1]
+9aiii | 1.5.1 | an air-bag reduces the force by increasing the time taken to stop (stops the object more gradually) [B1] ;; so the deceleration is smaller (F = ma) [B1]
+9bi | X1.8 | pressure
+9bii | X1.8 | pressure reduction
+9ci | X2.1 | Boyle's law
+9cii | X2.1 | gas pressure
+10a | 4.2.1 | experiment to distinguish a conductor from an insulator: circuit with a cell, a lamp (or ammeter) and the material under test connected in a gap (or a charged electroscope touched with the material) [M1] ;; observation: the lamp lights / ammeter reads with a conductor but not with an insulator [A1] ;; named conductor, e.g. any metal, carbon (graphite) [B1] ;; named insulator, e.g. plastic [B1]
+10bi | 4.2.4 | resistance = voltage ÷ current (V/I) [B1]
+10bii | 4.2.4 | {F} current-p.d. graph curving towards the p.d. axis: the resistance increases at higher p.d. [B1]
+10biii | 4.2.4 | a component with this graph is a filament lamp [B1]
+10biv | 4.2.4 | its resistance varies because its temperature changes [C1] ;; a higher current / voltage produces a higher temperature (and so a higher resistance) [A1]
+10ci | X4.3 | junction rule
+10cii | 4.2.4 | {F} V = IR = 0.40 × 20 [C1] ;; 8.0 V [A1]
+10ciii | X4.3 | parallel p.d.
+10civ | 4.2.4+X4.3 | resistance of a component in parallel = the same p.d. ÷ its own current = 8.0 ÷ 0.60 [C1] ;; 13 Ω [A1]
+11ai | 3.2.2 | {F} light entering a lens bends towards the normal [B1] ;; on leaving it bends away from the normal [B1]
+11aii | 3.2.2 | on entering glass the speed and the wavelength change [C1] ;; both decrease [A1] ;; the frequency is unaltered [B1]
+11aiii | 3.2.2 | n = sin i ÷ sin r [C1] ;; sin 40° ÷ sin 25° [C1] ;; 1.52 (no unit) [A1]
+11bi | 3.2.3 | focal length: the distance between the principal focus (focal point) and the lens [M1] ;; measured from the centre of the lens [A1]
+11bii | 3.2.3 | scale ray diagram for a converging lens (object beyond 2f): object, lens and one correct ray [M1] ;; a second correct ray [M1] ;; image drawn where the rays cross – between half and the full height of the object [A1]
+11biii | 3.2.3 | image of an object beyond 2f (besides real): smaller than the object (diminished) [B1] ;; inverted [B1]

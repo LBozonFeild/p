@@ -1,0 +1,28 @@
+# P1 s21_11 | main sheet 1 and rest sheet viewed; Q2, 4, 9, 13, 15, 16, 22, 25, 26, 28, 30, 36, 39 are identical to s21_12 questions and are worked there
+1 C 1.1 vectors: acceleration, displacement, force, velocity; length and mass are scalars
+3 D 1.2 {F} on a graph of distance from the start against time, a falling line means moving back towards the start, and an increasing steepness means the speed is increasing
+5 D 1.5.4+X6 {F} the force on a satellite in a circular orbit acts towards the centre of the Earth, perpendicular to its motion
+6 D 1.3 W = mg = 5 × 10 = 50 N
+7 A 1.4 mass = density × volume for each liquid: paraffin 0.80 × 100 = 80 g; water added = 150 − 100 = 50 cm³, 1.0 × 50 = 50 g; total 130 g
+8 C 1.5.5+1.5.6 {F} the weight of the beam acts at its centre of mass (10 cm from the pivot here); moments about the pivot: 200 × 20 = M × 10, so M = 400 g
+10 A X2.1 {F} Boyle's law
+11 B X1.8 pressure = force ÷ area
+12 C X1.8 total pressure under water
+14 A 1.7.4+1.7.5 power received = 12 × 0.85 = 10.2 kW; useful power output = efficiency × input = 0.16 × 10.2 = 1.6 kW
+17 D XOLD thermocouple
+18 B X2.2 heat capacity
+19 A X2.2 boiling
+20 A 3.1 {F} water waves entering shallower water slow down (wavefronts closer together and direction changed); the frequency stays constant
+21 B 3.2.2 {F} the angle given is between the ray and the surface, so the angle in air is 90° − 32° = 58°; n = sin(angle in air) ÷ sin(angle in liquid), so sin i = sin 58° ÷ 1.4 and i = 37°
+23 D 3.2.3 short sight is corrected with a diverging lens (long sight with a converging lens); the image on the retina of a normal eye is real, inverted and diminished
+24 C 3.2.4 {F} dispersion starts where the white light enters the prism, the colours spreading further on leaving; red is deviated least and violet most
+27 A 4.2.1 {F} electric field lines near a positive point charge are radial, with arrows pointing away from the charge
+29 A 4.2.1 {F} dust particles passing a negatively charged grid gain electrons, become negatively charged and are then attracted to the positive plates
+31 C X4.4 fuse rating
+32 A X4.5 {F} forces on a coil
+33 B 1.7.1 an electric kettle transfers energy electrically to a thermal (heat) store
+34 D X4.5 {F} reversing current and field
+35 D X4.5 {F} generator slowing down
+37 C X5 fusion
+38 B X5 {F} alpha decay
+40 D X5 nucleus

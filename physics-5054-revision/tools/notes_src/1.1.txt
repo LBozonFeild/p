@@ -1,0 +1,76 @@
+ORDER B D C E A R Z
+== A | Scalars and vectors: meaning and examples | scalar|vector|magnitude | 1
+- A vector quantity has magnitude (size) and direction.
+- A scalar quantity has magnitude only; it has no direction.
+- Stating the difference (1 mark): a vector has a direction; a scalar does not.
+- Vectors credited: displacement, velocity, acceleration, force, weight, momentum.
+- Scalars credited: distance, length, speed, time, mass, energy, temperature, current, resistance.
+- Displacement involves direction (it is a vector); distance has size only (it is a scalar).
+- Speed is a scalar because it has no direction (magnitude only).
+- A journey that ends where it started (for example, one that returns along the same path) has no resultant displacement, although the distance travelled is not zero.
+* Further vectors: gravitational field strength. Further scalars: volume, area, density, work, power.
+* A value given with a direction ("15 m/s due north", "600 km due East") is a vector; an average speed round a track or a distance travelled is a scalar.
+* Speed is the magnitude of velocity.
+* Weight is a force, so it is a vector; mass is a scalar.
+* Displacement is the straight-line distance, with its direction, from the starting point: 3.0 m north then 4.0 m east is a displacement of √(3.0² + 4.0²) = 5.0 m.
+* The total distance travelled is the sum of the path lengths, even when the total displacement is zero.
+* The definition velocity = displacement ÷ time contains two vectors (velocity and displacement) and one scalar (time).
+== R | Adding vectors: resultants and vector diagrams | resultant|parallelogram|head.to.tail|tip.to.tail|scale drawing|scale diagram|vector diagram|vector addition|adding two vectors|closed triangle|Pythagoras|√\( | 0
+- Adding two vectors by drawing: draw both vectors with the correct directions and sizes so that they meet at a point (head-to-tail, or from a common point) (B1); complete the triangle or parallelogram with all three vectors in the correct directions and the resultant clearly shown and labelled (B1).
+- Scale drawing, first mark: a scale is stated, with units (for example cm to N). Schemes have required a scale of at least 1.0 cm to 10 kN, or at least 1 cm to 1 m/s.
+- Scale drawing, second mark: the two vectors are drawn at the correct angle with lengths in proportion, and the correct triangle or parallelogram (rectangle) is completed with its diagonal as the resultant.
+- Scale drawing, third mark: the size of the resultant is inside the tolerance of the scheme (typically within a few per cent).
+- Scale drawing, fourth mark (when a direction is asked for): the direction is given as an angle inside the tolerance, usually ±3°, measured from a stated reference direction (from north, from the horizontal, from the vertical or from one of the forces).
+- Arrows are needed on all three vectors when the scheme asks for the directions to be shown.
+- For two perpendicular vectors, Pythagoras (for example v² = 6.8² + 2.4²) is accepted in place of the scale drawing for the size, and tan θ for the angle.
+- Size of a displacement from a scale diagram or map: measure the straight line from start to finish and multiply by the scale, or use Pythagoras with the two perpendicular components (C1 or B1); answer (A1 or B1).
+- Direction of a displacement: measure the angle from North with a protractor, or use tan θ; an angle measured clockwise from North (a bearing) is accepted.
+- Find the scale of a diagram from a line of known length (for example 1 cm represents 5 m).
+- Force arrows: weight is drawn as a vertical arrow downwards from the object; a tension is drawn along the chain or rope, pointing away from the object; a push up a slope is drawn along the line of the slope.
+* Vectors along one line: add those in the same direction and subtract those in the opposite direction (11 − 3 − 2 = 6 N).
+* The resultant of two forces lies between their difference and their sum (30 N and 50 N give between 20 N and 80 N); it is largest when the forces act in the same direction.
+* For angles from 0° to 90° the resultant of 3.0 N and 4.0 N lies between 7.0 N and 5.0 N; a smaller resultant needs an obtuse angle between the forces.
+* Two perpendicular forces: resultant = √(3.0² + 4.0²) = 5.0 N.
+* Two equal forces at right angles have a resultant at 45° to each of them.
+* Parallelogram (rectangle) rule: draw both vectors from the same point; the resultant is the diagonal that starts at that point, with its arrow pointing away from the point. It is not the line joining the two arrow tips.
+* Head-to-tail rule: the resultant runs from the start of the first vector to the end of the second, with its arrow pointing towards the end of the second.
+* The resultant lies between the directions of the two forces, nearer to the larger force.
+* A wind "from the west" blows towards the east: draw each velocity in the direction of movement.
+* Three forces in equilibrium form a closed triangle with the arrows following one another head to tail; each side is parallel to its force.
+* The force that keeps an object stationary, or moving at constant velocity, is equal in size and opposite in direction to the resultant of the other forces.
+== C | Measuring time: stopwatches and the period of a pendulum | stopwatch|stop-watch|pendulum|oscillation|\bperiod\b|timer|\bclock\b|swing | 2
+- Accurate time for one swing of a pendulum: use a stopwatch or electronic timer (B1); time at least 5 swings and divide by the number of swings (B1).
+- One complete swing is there and back (from one end to the other and back again); use a fixed reference mark.
+* The most accurate method times a larger number of complete oscillations (for example 10) with a digital timer and divides by that number.
+* Reading an analogue stopwatch: work out the value of one small division first.
+* A digital stopwatch reads minutes : seconds : hundredths of a second; convert to seconds before subtracting two readings.
+== B | Measuring length: rule, tape, calipers and micrometer | micrometer|vernier|calipers|metre rule|ruler|\brule\b|tape|thickness|diameter|length|zero error | 3
+- A length of several metres measured in one measurement: tape (measure).
+- A very small thickness measured accurately: micrometer (screw gauge) or calipers.
+* Choose the instrument to suit the size: a tape for many metres and for curved lengths such as a circumference; a (metre) rule for tens of centimetres up to about a metre; vernier calipers for a few centimetres, including the internal diameter of a pipe (inside jaws); a micrometer for a few millimetres or less (the diameter of a thin wire, the thickness of one sheet of paper).
+* Vernier reading = main-scale reading just before the vernier zero + the vernier division that lines up with a main-scale mark.
+* Vernier calipers read to 0.1 mm = 0.01 cm, so a reading in centimetres is quoted to two decimal places.
+* The zero error of vernier calipers is read in the same way with the jaws closed.
+* Micrometer reading = sleeve reading to the last visible mark (including the half-millimetre mark) + thimble reading (number of divisions × 0.01 mm).
+* For an accurate micrometer measurement, add or subtract the zero error.
+* A ruler whose zero mark is not at its end: true length = scale reading + distance from the end to the zero mark.
+* A length found from two scale readings is the difference between them; for a diameter held between two blocks, use the inner faces of the blocks.
+* Measure the distance for several revolutions and divide by the number of revolutions to find one circumference.
+== D | Measuring volume and mass | measuring cylinder|meniscus|weighing | 4
+- Weighing a heavy container is not an accurate way of finding the mass of light contents: the contents are a small fraction of the total mass.
+* Measuring cylinder: find the value of one small division, then read the level of the bottom of the meniscus.
+== E | Units, prefixes and estimates | prefix|milli|micro|kilo|mega|\bunits?\b|estimate|one-thousandth | 5
+* Prefixes: mega (M) = 10⁶; kilo (k) = 10³; milli (m) = 10⁻³.
+* Capital letters matter: MW is megawatt, mW is milliwatt; ms means millisecond.
+* 1 mm = 0.1 cm = one-thousandth of a metre; one tenth of a millimetre = 0.01 cm.
+* Units: frequency Hz; acceleration m/s²; energy J; power W; e.m.f. V; weight N.
+* A sensible estimate of the mass of an adult is about 75 kg.
+== Z | Other points
+MOVE w18_12|MCQ9|A
+MOVE s19_22|9ai|R
+MOVE s22_21|7biv|R
+MOVE w10_22|10aii|R
+MOVE w13_22|1aii|R
+MOVE w13_22|1ai|R
+MOVE s22_21|7biii|R
+MOVE s22_21|7bii|R

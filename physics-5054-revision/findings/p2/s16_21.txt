@@ -1,0 +1,50 @@
+# P2 s16_21 | figs viewed: 1.1, 1.2 (air resistance-speed curve: 600 N at 5.0 m/s, about 720 N at 5.5 m/s), 2.1 (spring 10 cm unloaded, 30 cm with X), 2.2 (straight to P at about 310 g, 24.5 cm; 20 cm at 250 g), 2.3 (two springs side by side), 3.1, 5.2 (height-time: mean 1.00 m, first peak 1.29 m, one cycle per second, amplitude decaying), 6.1 (rays meeting cut-diamond faces at 70° and 45° to the surface), 7.1, 8.1 (1000 Ω and variable R in series), 12.1, 12.2 (7.0 m/s until 0.4 s, then straight to zero at 2.4 s), 12.3 | not viewed: 4.1, 9.1, 9.2, 10.1
+# Q9 is EITHER/OR: leaf 9a = EITHER (a) [2]; leaf 9b = EITHER (b) [2] plus OR (a) [1] and OR (b) [3]
+1a | 1.5.1+1.5.2 | at the instant of jumping there is no air resistance (weight is the only force / much larger than air resistance) [B1] ;; so a = F/m = weight ÷ mass = 600 ÷ 60 = 10 m/s² [B1]
+1b | 1.5.2 | parachute opens: upward acceleration because the air resistance (upward force) is larger than the weight (downward force) [B1]
+1ci | 1.5.2 | {F} terminal velocity is the speed at which air resistance equals the weight – read from the air resistance-speed graph at 600 N: 5.0 m/s [B1]
+1cii | 1.5.1 | {F} resultant force = air resistance at that speed (read from the graph, 720 N) − weight = 720 − 600 = 120 N [B1]
+2ai | 1.5.3 | the point where an extension-load line begins to curve is the limit of proportionality [B1]
+2aii | 1.5.3 | {F} extension = stretched length − original length = 30 − 10 = 20 cm; mass read from the graph at that extension: 250 g [B1]
+2aiii | 1.3 | W = mg = 0.250 × 10 = 2.5 N [B1]
+2b | 1.5.3 | {F} two identical springs side by side supporting the same load: half the extension (10 cm) [B1] ;; because the springs share the load – each carries half the weight [B1]
+3ai | 1.3 | mass: the amount of matter (substance) in an object, or its ability to resist a change in its state of motion [B1]
+3aii | 1.4 | V = m ÷ density = 0.12 ÷ 0.91 [C1] ;; 0.13 cm³ [A1]
+3aiii | 1.4+1.1 | thickness of a thin sheet = volume ÷ (length × width) = 0.132 ÷ (3.0 × 2.0) [C1] ;; 0.022 cm [A1]
+3b | 1.1 | instrument for measuring a very small thickness accurately: micrometer (screw gauge) or calipers [B1]
+4a | X2.2 | expansion
+4bi | XOLD | range and sensitivity
+4bii | XOLD | sensitivity
+5a | 3.1 | sound: vibration is along / parallel to the direction of energy transfer – longitudinal [B1] ;; water surface wave: vibration is perpendicular to the direction of energy transfer – transverse [B1]
+5bi | 3.1 | {F} amplitude = maximum height − mean (rest) height, not peak to trough: 1.29 − 1.00 = 0.28–0.29 m [B1]
+5bii | 3.1 | {F} constant frequency is shown by the time for one complete cycle (the period) being constant – each oscillation takes the same time (1.0 s) even though the amplitude falls [B1]
+6a | 3.2.2 | critical angle: an angle of incidence (in the denser medium) [B1] ;; the smallest for which light is totally internally reflected – the angle of incidence at which the angle of refraction is 90° and the light emerges along the surface [B1]
+6bi | 3.2.2 | n = 1 ÷ sin c = 1 ÷ sin 24° [C1] ;; 2.5 (2.46) [A1]
+6bii | 3.2.2 | {F} ray meeting a face with angle of incidence less than the critical angle (70° to the surface is 20° to the normal): refracts away from the normal and emerges into the air [B1] ;; ray with angle of incidence greater than the critical angle (45°): totally internally reflected with i = r, giving a ray at right angles to the first [B1] ;; it is reflected again at the next face and leaves through the top face along the normal, without deviation [B1]
+7a | X4.5 | force on coil
+7b | X4.5 | alternating force
+7c | 3.1+3.4 | λ = v/f = 320 ÷ 500 [C1] ;; 0.64 m [A1]
+8ai | X4.3 | series current
+8aii | X4.3 | series p.d.
+8b | 4.2.4+X4.3 | {F} I = V/R with the total series resistance = 9.0 ÷ (1000 + 500) [C1] ;; 0.0060 A [A1]
+9a | X4.6 | EITHER (a) oscilloscope voltage
+9b | XOLD | EITHER (b) time-base; OR (a) transistor, OR (b) LDR switching
+10ai | X2.2 | melting point
+10aii | X2.2 | evaporation
+10bi | X2.2 | evaporation at surface
+10bii | X2.3 | vacuum flask
+10ci | X2.2 | bubbles
+10cii | X2.2 | mcΔT and latent heat
+11ai | X4.5 | induction
+11aii | X4.5 | induction
+11aiii | X4.5 | Lenz's law
+11bi | 1.7.5+X4.4 | I = P/V = 500 000 ÷ 33 000 (outside the selected sections) [C1] ;; 15 A [A1] ;; E = Pt with consistent units: 500 000 × 60 × 60 [C1] ;; 1.8 × 10⁹ J (or 500 kW h) [A1]
+11bii | X4.5 | high-voltage transmission
+12a | 1.7.1 | energy change during braking: from kinetic energy [B1] ;; to thermal (heat / internal) energy [B1]
+12bi | 1.5.2 | {F} reaction time = duration of the constant-speed (horizontal) section before braking begins: 0.40 s [B1]
+12bii | 1.5.2+1.2 | thinking distance = speed × reaction time = 7.0 × 0.40 [C1] ;; 2.8 m [A1]
+12biii | 1.2 | braking distance = area under the speed-time graph during braking (between 0.4 s and 2.4 s) = ½ × time × initial speed [B1]
+12biv | 1.2 | {F} lower initial speed, same reaction time and same deceleration: horizontal line at the new speed for the same reaction time [B1] ;; then a braking line with the same gradient as (parallel to) the original, reaching zero sooner [B1]
+12bv | 1.5.2 | longer braking distance on a wet road: less friction [B1] ;; so less deceleration / smaller backward force (graph less steep) [B1] ;; so a longer time to stop / larger area under the speed-time graph [B1]
+12ci | X1.8 | F = PA
+12cii | X1.8 | hydraulic force

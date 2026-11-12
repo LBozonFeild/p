@@ -1,0 +1,38 @@
+# P1 s14_12 | main sheet 1 and rest sheet viewed; Q2 is identical to w19_12 Q2; Q17 to w19_12 Q15; Q40 to s24_12 Q37
+1 C 1.1 speed is the size (magnitude) of velocity: velocity is the vector, speed the scalar
+3 D 1.1 vernier calipers (inside jaws) measure an internal diameter of about 2 cm; a ruler measures a length of about 25 cm
+4 B 1.5.2 as a falling object speeds up, air resistance increases until it equals the weight (terminal velocity); the resultant force and acceleration decrease and the weight is constant
+5 C 1.5.2+1.5.1 {F} an object at rest has no resultant force: friction acts in the opposite direction to the applied force and is equal in size to it
+6 C 1.2+1.7.1 {F} distance increasing uniformly with time means constant speed, so kinetic energy is constant (not zero) while acceleration and resultant force are zero; going uphill the gravitational potential energy increases
+7 B 1.3 g = W ÷ m for each planet: 20 ÷ 2.5 = 8.0 N/kg is the greatest
+8 A 1.4 volume = mass ÷ density = 390 ÷ 2.7 = 144 cm³; mass of the same volume of oil = 0.90 × 144 = 130 g
+9 C 1.5.5 {F} moments about the pivot: U × 40 = 2.0 × 10 + 4.0 × 20, so U = 2.5 N
+10 A 1.5.6 stability depends on the area of the base and the height of the centre of gravity
+11 A 1.5.1 a force can change the shape, size and velocity of a body but not its mass
+12 A 1.5.3 {F} beyond the limit of proportionality the extension–load graph curves upwards: the wire becomes easier to extend (larger extension for each extra unit of load)
+13 A X1.8 {F} mercury barometer
+14 B X1.8 {F} pressure and depth
+15 D X2.1 Boyle's law
+16 A 1.7.3 burning fossil fuels to generate electricity releases carbon dioxide, a greenhouse gas
+18 C 1.7.5+1.7.2 power = work done ÷ time = 6000 × 15 ÷ 30 = 3000 W
+19 D XOLD {F} thermometer scale
+20 B XOLD {F} sensitivity
+21 A X2.1 {F} heated gas
+22 A X2.2 change of state
+23 C X2.2 latent heat
+24 D X2.2 {F} cooling curve
+25 A 3.1 frequency is the number of waves passing a fixed point per second
+26 B 3.2.1 {F} the image in a plane mirror is as far behind the mirror as the object is in front, on the line through the object at right angles to the mirror
+27 A 3.3 all electromagnetic waves are transverse and can travel in a vacuum
+28 D 3.4 ultrasound has a frequency above the upper limit of human hearing (above 20 000 Hz)
+29 C 3.4 echo method: average time = (1.44 + 1.70 + 1.58 + 1.76) ÷ 4 = 1.62 s; speed = total distance there and back ÷ time = 2 × 200 ÷ 1.62 = 247 m/s
+30 D X4.1 making a permanent magnet
+31 A 4.2.1 metals (aluminium, copper) are electrical conductors; rubber and plastic are insulators
+32 A 4.2.1 {F} a positive rod brought near an earthed metal sphere attracts negative charge (electrons) from earth onto the sphere, leaving the sphere negatively charged
+33 B X4.4 fuse
+34 C X4.5 loudspeaker
+35 C X4.5 {F} relay
+36 C X4.5 {F} induced current
+37 C XOLD thermionic emission
+38 B XOLD {F} resistor colour code
+39 D X5 beta-particles

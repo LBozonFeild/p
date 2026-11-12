@@ -1,0 +1,39 @@
+# P1 s12_11 | main sheets 1-2 and rest sheet viewed; zoom viewed for Q26, 30; Q8 is identical to w22_12 Q13; Q31 to w12_11 Q31
+1 A 1.1 {F} choose the instrument to suit the size: a metre rule for 0.4 m, vernier calipers for 0.08 m (8 cm) and a micrometer for 0.005 m (5 mm)
+2 C 1.1 temperature is a scalar and velocity is a vector (mass and time are scalars; weight is a vector)
+3 C 1.2 {F} on a speed–time graph a curved section shows non-uniform acceleration; straight sloping sections show uniform acceleration and a horizontal section constant speed
+4 C 1.5.2 a ball released in thick oil: the resistive force grows as the speed rises, so the acceleration decreases from the start
+5 B 1.5.1 an object brought to rest almost instantly pushes downwards on the ground with a force larger than its weight (the ground must supply the large decelerating force as well as support the weight)
+6 D 1.5.1 F = ma applied to the total mass being accelerated: (1500 + 1100) × 1.30 = 3380 N
+7 A 1.5.5 {F} moments about the pivot: 5.0 × 2.0 = W × (2.0 + 3.0), so W = 2.0 N
+9 C 1.5.3 {F} extension is proportional to load: 500 g extra stretches the spring 89.7 − 27.2 = 62.5 cm, i.e. 12.5 cm per 100 g; with 200 g the length is 27.2 + 12.5 = 39.7 cm
+10 D 1.3 weight changes when an object is taken to the Moon; mass, volume and density do not
+11 C X1.8 {F} manometer, p = hρg
+12 B X2.1 {F} balloon in a bell jar
+13 D 1.7.1 {F} a ball rolling down a track and stopping lower on the other side: potential energy → kinetic energy + heat → potential energy + heat (energy is wasted as heat throughout the motion)
+14 B 1.7.4+X4.4 {F} efficiency = useful output power ÷ input power = 24 ÷ (240 × 0.11) = 0.91 (P = VI step outside the selected sections)
+15 B X2.1 heated gas
+16 D X2.2 {F} evaporation rate
+17 C X2.3 conduction in metals
+18 C XOLD thermocouple
+19 B X2.2 {F} cooling curve
+20 A X2.2 expansion of solids, liquids and gases
+21 A 3.1 v = fλ, so frequency = speed ÷ wavelength = c ÷ λ
+22 D 3.2.1 {F} the reflected ray and the continuation of the incident ray make equal angles with the mirror, so an 80° angle between them means each ray is 40° from the mirror; i = r = 90° − 40° = 50°
+23 A 3.2.2 sin r = sin i ÷ n = sin 40° ÷ 1.46, r = 26°
+24 D 3.2.3 short sight: light from distant objects is focused in front of the retina; corrected with a diverging lens
+25 B 3.3 gamma rays are used in medical treatment and microwaves in satellite television; sunbeds use ultraviolet (not infrared) and intruder alarms use infrared (not X-rays)
+26 C X4.5 {F} field of two wires
+27 A 4.2.1 rubbing transfers electrons, so the rod and the duster both become charged (equal and opposite charges)
+28 D 4.2.4 {F} as the voltage across a filament lamp increases its temperature rises and its resistance increases (the voltage–current graph gets steeper)
+29 D 4.2.4+X4.3 {F} each resistor in parallel has the full battery p.d.: I = 12 ÷ 6 + 12 ÷ 3 = 2.0 + 4.0 = 6.0 A through an ammeter in the main circuit
+30 B X4.3 {F} switch short-circuiting a lamp
+32 C X4.4 fuse
+33 A X4.5 {F} left-hand rule
+34 D X4.5 motor materials
+35 B X4.5 {F} generator effect
+36 C X4.5 transmission
+37 A XOLD capacitor
+38 B X5 proton number
+39 A X5 hazards
+40 C X5 half-life

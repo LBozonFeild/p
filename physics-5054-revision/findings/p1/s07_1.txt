@@ -1,0 +1,39 @@
+# P1 s07_1 | main sheets 1-3 and rest sheets 1-2 viewed; Q1 vernier scale enlarged and viewed; zoom viewed for Q26, 33, 37 and the Q37 time-base dial enlarged (set to 2 ms/cm); Q3 is identical to s12_12 Q4; Q36 to w12_11 Q36
+1 A 1.1 {F} vernier calipers reading = main-scale reading just before the vernier zero (3 mm) + the vernier division that lines up with a main-scale mark (5th division = 0.5 mm) = 3.5 mm
+2 B 1.1 energy is a scalar and force is a vector (displacement, velocity and acceleration are vectors; work and mass are scalars)
+4 B 1.2 deceleration = change in speed ÷ time = 10 ÷ 5 = 2 m/s²
+5 B 1.5.1 {F} Newton's third law: if the propeller pushes the water backwards with 2000 N, the water pushes the propeller forwards with an equal force of 2000 N (the resistive force is not part of this pair)
+6 A 1.4 the density of an irregular stone needs a balance (mass) and a measuring cylinder containing water (volume by displacement)
+7 D 1.5.5 {F} a pivoted beam is balanced when the clockwise moment equals the anticlockwise moment: 5 × 0.4 = 10 × 0.2 (both forces downwards on opposite sides of the pivot; an upward force on one side turns the beam the same way as a downward force on the other)
+8 D 1.5.3 {F} extension–load graph for a spring: a straight line through the origin up to the limit of proportionality L, then the graph curves so that the extension increases more for each extra load
+9 A 1.7.1 {F} a battery-driven motor lifting a load at constant speed: overall energy change chemical → gravitational potential (the kinetic energy does not change)
+10 C 1.7.5+1.7.2 work done = power × time; the largest product (200 W × 200 s = 40 000 J) is the most work
+11 C 1.7.4 efficiency = useful energy output ÷ total energy input
+12 D X2.1 {F} Boyle's law
+13 A X2.1 molecules do not expand
+14 B X2.1 liquid structure
+15 B XOLD {F} thermocouple fixed points
+16 A X2.2 heat capacity
+17 B X2.2 expansion of fillings
+18 B X2.3 {F} double glazing
+19 B 3.1 {F} the frequency is the same on both sides of the boundary: f = v ÷ λ = 12 ÷ 3.0 = 4.0 Hz, so the new speed = 4.0 × 1.5 = 6.0 cm/s (speed is proportional to wavelength)
+20 C 3.2.1 {F} periscope: the ray from the object travels horizontally to the top mirror at 45°, is turned through 90° down the tube, and is turned through 90° again by the lower 45° mirror to travel horizontally to the eye; the arrows point from the object to the eye
+21 D 3.2.2 when light passes from glass into air its speed increases, so its wavelength increases (the frequency does not change)
+22 C 3.3 microwaves are used to send telephone signals to and from a satellite
+23 A 3.4 {F} the echo travels further than the direct sound by twice the distance from the source to the wall: 2 × 150 = 300 m extra in 1 s, so speed = 300 m/s
+24 B X4.1 {F} magnetic and non-magnetic rods
+25 C X4.1 {F} soft magnetic core
+26 A 4.2.1 {F} a positively charged rod near two separate uncharged metal spheres: each sphere has negative charge induced on the side nearer the rod and positive on the far side, and both spheres are attracted towards the rod
+27 D 4.2.4 the resistance of a wire increases if it is longer or thinner and if its temperature is higher
+28 B 4.2.4 {F} if the resistance increases as the current increases, the I–V graph is a curve through the origin whose gradient decreases (it bends towards the V axis)
+29 D X4.3 {F} currents in a series–parallel circuit
+30 C 4.2.4+X4.3 {F} total resistance = V ÷ I = 3 ÷ 0.5 = 6 Ω; R = 6 − 1 = 5 Ω (series resistances add)
+31 D 1.7.5+X4.4 {F} power in use = fan 0.1 kW + one heater 0.4 kW = 0.5 kW; energy = 0.5 × 2 = 1.0 kW h; cost = 8.0 cents (cost step outside the selected sections)
+32 C X4.4 {F} fuse and switch in the live wire
+33 B X4.5 {F} forces between parallel currents
+34 A X4.5 soft-iron core in a motor
+35 D X4.5 {F} induced current
+37 C 3.1+X4.6 {F} period from an oscilloscope trace = length of one cycle × time-base setting = (6 cm ÷ 3) × 2 ms/cm = 4 ms (trace reading outside the selected sections)
+38 D X5 all three emissions ionise gases
+39 B X5 {F} deflection of beta-particles
+40 A X5 isotopes

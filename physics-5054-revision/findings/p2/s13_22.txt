@@ -1,0 +1,58 @@
+# P2 s13_22 | figs viewed: 1.1 (ball at about 10, 20, 50 and 100 cm at 1.0 s intervals), 2.1 (weight 2000 N acts 2.0 m horizontally from pivot A; horizontal rope 8.0 m above A), 3.1, 3.2 (table: 60 N per 10 cm), 4.1, 5.1 (negative rod beside a stream of water), 6.1 (lamp curve: straight to about 2 V, 0.35 A at 6.0 V), 6.2 (lamp and 20 Ω in parallel, ammeter in the battery line), 10.1, 10.2 (ray along a radius of a semicircular block to the centre Q of the flat face) | not viewed: 7.1, 8.1–8.3, 9.1, 11.1
+# Q8 is EITHER/OR: leaves 8a, 8bi = EITHER (a), (b)(i); leaf 8bii = EITHER (b)(ii) [1] plus OR (a) [1] and OR (b) [1]; leaves 8ci, 8cii = OR (c)(i), (c)(ii)
+1a | 1.2 | {F} positions recorded at equal time intervals show acceleration when the object travels further in each successive second [B1]
+1b | 1.2 | {F} average speed = distance travelled ÷ time taken [C1] ;; (100 − 20) ÷ 2.0 = 40 cm/s (0.40 m/s) [A1]
+1c | 1.5.2+1.3 | as an object accelerates the air resistance on it increases [B1] ;; its weight stays constant [B1]
+1d | 1.5.2 | a constant speed is eventually reached when the forces balance – no resultant force [B1]
+2a | 1.5.5 | moment of a force = force × distance [M1] ;; the perpendicular distance (from the pivot to the line of action of the force) [A1]
+2bi | 1.5.5 | {F} moments about the pivot using perpendicular distances: T × 8.0 = 2000 × 2.0 [C1] ;; T = 500 N [A1]
+2bii | 1.5.1 | Newton's third law pair of forces: equal in magnitude [B1] ;; opposite in direction (and acting on different bodies) [B1]
+3ai | 1.7.2 | work done stretching a spring = average force × distance in metres = 90 × 0.30 [C1] ;; 27 J [A1]
+3aii | 1.7.5 | power = total work ÷ time = 27 × 20 ÷ 60 [C1] ;; 9.0 W [A1]
+3bi | 1.5.3 | {F} extension by proportion (up to the limit of proportionality): 800 × 30 ÷ 180 [C1] ;; 133 cm [A1]
+3bii | 1.5.3 | beyond the limit of proportionality the extra extension is more than the proportional amount (more than 10 cm for the next 60 N) – some of the extension may be permanent [B1]
+4a | 3.3 | in order of increasing wavelength: gamma rays, visible light, infrared [B1]
+4bi | 3.3 | television signals are sent to a satellite using microwaves [B1]
+4bii | 3.3 | the satellite receives the signal and re-transmits (boosts / amplifies) it back to Earth [B1]
+4biii | 3.3 | advantage of satellite transmission: covers a large area (beyond the horizon) with only one transmitter / not obstructed by hills or tall buildings [B1]
+5a | 4.2.1 | rod rubbed with a cloth becomes negative: electrons move on to the rod [B1] ;; from the cloth, which is left positive [B1]
+5b | 4.2.1 | electric field: a region (of space) where a force is exerted on a charge [B1]
+5ci | 4.2.1 | {F} negatively charged rod near water: it attracts the positive particles (unlike charges attract) [B1] ;; and repels the negative particles (like charges repel) [B1]
+5cii | 4.2.1 | so the side of the water stream nearest the rod carries a (net) positive charge [B1]
+6ai | 4.2.4 | {F} resistance of a filament lamp increases over the range where the current-voltage graph curves (is no longer a straight line through the origin): from about 2 V upwards [B1]
+6aii | 4.2.4 | the resistance increases because the temperature of the filament increases [B1]
+6bi | 4.2.2 | electric current: (rate of) flow of charge [B1]
+6bii | 4.2.4 | {F} current in a lamp connected directly across the supply is read from its graph at the supply voltage: 0.35 A at 6.0 V [B1]
+6biii | 4.2.4+X4.3 | {F} current in the parallel resistor I = V/R [C1] ;; 6.0 ÷ 20 = 0.30 A [C1] ;; ammeter in the battery line reads the sum of the branch currents: 0.30 + 0.35 = 0.65 A [A1]
+7a | X4.5 | field of a wire
+7b | X4.5 | cancelling fields
+7ci | X4.5 | force between wires
+7cii | X4.5 | force between wires
+8a | X4.1 | EITHER (a) permanent magnet material
+8bi | X4.5 | EITHER (b)(i) generator
+8bii | XOLD | EITHER (b)(ii) coil position; OR (a) NOT gate, OR (b) truth table
+8ci | XOLD | astable circuit
+8cii | XOLD | astable circuit
+9a | X2.1 | gas pressure
+9bi | XOLD | fixed points
+9bii | XOLD | sensitivity
+9biii | XOLD | non-linear scale
+9ci | 1.4 | mass = density × volume, with volume = cross-sectional area × length = 1200 × 5.0 × 10⁻⁵ × 0.15 [C1] ;; 9.0 × 10⁻³ kg [A1]
+9cii | 1.3 | W = mg = 0.0090 × 10 = 0.090 N [B1]
+9ciii | X1.8 | hρg
+9d | X2.2 | liquid expansion
+10a | 3.2.2 | {F} normal drawn at the point of incidence, perpendicular to the surface [B1] ;; angle of incidence marked between the normal and the incident ray [B1] ;; angle of refraction marked between the normal and the refracted ray inside the glass [B1]
+10b | 3.2.2 | light refracts on entering glass because its speed (and wavelength) decreases [B1]
+10c | 3.2.2 | n = sin i ÷ sin r [C1] ;; sin r = sin 45° ÷ 1.5 = 0.471 [C1] ;; r = 28° [C1]
+10d | 3.2.4 | red light along the same path as blue: refracted less at the first face (on the correct side of the normal) [B1] ;; refracted away from the normal at the second face, so that the red and blue rays diverge [B1]
+10ei | 3.2.2 | {F} no change of direction on entering a semicircular block along a radius: the angle of incidence is 0° – the ray travels along the normal [B1]
+10eii | 3.2.2 | no light leaves at the flat face because the angle of incidence is larger than the critical angle [B1] ;; so total internal reflection occurs [B1]
+10eiii | 3.2.2 | reflected ray drawn with i = r, leaving through the curved surface without refraction (again along a radius) [B1]
+10eiv | 3.2.2+3.2.4 | as the angle of incidence is reduced below the critical angle, light eventually emerges (is refracted out) into the air [B1] ;; the emerging white light is coloured – separated into colours [B1]
+11a | 4.2.2+4.2.3 | circuit to find the power of a heater: power supply, ammeter and heater in series [B1] ;; voltmeter in parallel with the heater (or supply) [B1]
+11bi | X4.4 | P = VI
+11bii | 1.7.5 | E = Pt [C1] ;; in kW h: power in kW (÷ 1000) and time in hours (8.0 ÷ 60 = 0.133 h) [C1] ;; 0.0504 × 0.133 = 0.0067 kW h [A1]
+11ci | X2.2 | evaporation
+11cii | X2.2 | evaporation rate
+11ciii | X2.2 | evaporation vs boiling
+11d | X2.3 | convection

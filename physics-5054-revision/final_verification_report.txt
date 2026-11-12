@@ -1,0 +1,110 @@
+FINAL VERIFICATION REPORT — Cambridge O Level Physics 5054, Papers 1 and 2
+generated 2026-11-12 15:41 UTC by tools/final_audit.py (does not use tools/check.py or the pipeline parsers)
+
+RESULT
+   eligible question paper / mark scheme pairs: 156 | verified: 156 | unverified: 0
+   excluded files: 12 | manually recorded observations: 29 | problems found by this audit: 0
+   no problem found
+
+FILES
+   physics_papers_1_2_notes.txt          consolidated checklist notes (sections 1.1–1.7, 3.1–3.4, 4.2)
+   full_paper_verification_tracker.txt   one summary row and the question-level records for each of the pairs
+   verification_checkpoint.txt           state of the work and how to resume it
+   excluded_files_and_issues.txt         excluded files, pairing notes, open issues, manually recorded observations
+   final_verification_report.txt         this report
+   findings/                             the per-paper verification records (evidence); tools/ the scripts and their data
+
+NOTES FOR THE READER
+   Paper 1 answers reworked after a first-pass disagreement with the key (the key was right in every case; marked "[reworked" in the findings): 6 — s23_11 Q22, s23_11 Q25, w20_11 Q29, w20_11 Q33, w25_11 Q23, w25_12 Q16
+   No Paper 1 question was found to be discounted or to have a disputed key.
+   The 29 manual observations (on 28 papers, all Paper 2) concern: EITHER/OR questions (10 papers); label slips and misprints in the published mark schemes; the 2026 scheme that prints "1" in its Marks column for every part; mark allocations printed for groups of sub-parts in the two 2004 papers; two question-specific allowances;
+   and three 2-mark sub-questions for which the published scheme prints a single marking point: s16_22 5(a)(ii) and 5(b)(i) (in the selected sections; the printed point is recorded as it stands, the second point is not published) and s16_21 7(a) (outside the selected sections).
+   None of them leaves a pair unverified.
+
+LIMITS AND JUDGEMENT CALLS (read these before relying on the figures)
+   1. "Verified" means: every question and sub-question of the paper was read against its mark-scheme entry by the reviewing agent (an AI model), with the figures viewed where the text was not enough,
+      and the mechanical checks of sections 1-4 pass. It is not a check by a teacher or an examiner.
+   2. Paper 1: a multiple-choice mark scheme gives only the answer letter. The Paper 1 points in the notes are explanations written for the notes, not official marking points;
+      what was checked is that every worked answer equals the official key (section 2).
+   3. Notes audit (section 5): the notes are compared with the findings by word matching. Of the 4992 findings points, 406 (254 + 152) fell below the threshold in their own sub-topic and were accepted
+      because their words are found elsewhere in the same section family; these were not read one by one. 59 points, 48 checklist lines and 1 number were read and accepted (tools/notes_src/_audit_ok.txt).
+   4. Spot-checks against the mark-scheme text (section 6) cover 36 of the 1005 Paper 2 checklist lines.
+   5. Scope of the notes. The section numbers and their content are those of the syllabus for 2026-2028 (the syllabus text was read from published copies; it is not in the repository).
+      a. Series and parallel circuits (4.3.2) and the potential divider (4.3.3) are outside the selected sections. On 2026-11-12 the questions on resistance were re-classified:
+         steps that need those rules are left out of the notes, 4.2.4 keeps R = V/I for one component or for the whole circuit. 82 findings lines were re-coded for this and for b and c below
+         (list in tools/data/scope_recode_2026-11-12.py; notes wording of the mixed questions in tools/notes_src/_overrides.txt).
+      b. Nuclear fusion in the Sun is not in 1.7.3 of this syllabus (it is in chapters 5 and 6): seven Paper 1 questions were re-coded as nuclear physics and their two lines removed from the notes.
+      c. Diode: 4.2.4 names the current-voltage graph of a diode. No verified paper asks for a sketch of that graph. Three Paper 2 marking points on the action of a diode
+         (s16_22 8(d), s20_22 10(d)(i), s21_21 7(b)(iv)) are filed under 4.2.4; Paper 1 questions on diode symbols and diodes in circuits stay under 4.3.
+      d. The kilowatt-hour belongs to 4.4.1. It is kept under 1.7.5 only as a unit of energy used with E = Pt; the cost of electricity and P = IV are left out.
+      e. LDR, thermistor, lamp, heater and motor appear only as the component in a V = IR, Q = It or energy question; "potential divider" appears once, as an accepted way to vary the p.d. in the
+         resistance experiment; generator and transformer appear in the descriptions of power stations (1.7.3).
+      f. Content of earlier syllabuses that sits under a selected heading was kept; the main items are named in the header of the notes: vernier calipers, vector diagrams for vectors not at right angles (1.1),
+         ticker-tape timers (1.2), camera, projector and enlarger (3.2.3), induced charges, earthing, charging by induction and static electricity in practice (4.2.1). The notes were not compared line by line
+         with the syllabus list, so other points of older papers that the present syllabus no longer names may remain under the selected headings.
+   6. Marks: for papers before 2023 marks(QP) is 90 or more against a paper maximum of 75 because Section B offers a choice; EITHER/OR alternatives are both counted (see section 3).
+
+1. PAIR LIST REBUILT FROM THE FILE NAMES
+   PDF files in physics-5054/: 794
+   Paper 1 and Paper 2 question papers with a mark scheme of the same session and component: 156 (Paper 1: 78, Paper 2: 78)
+   pairs recorded in the tracker: 156 | same pair ids and same file names: yes
+   Paper 1/2 question papers without a mark scheme: 10 | non-standard duplicate copies: 2 | total excluded: 12
+   exclusions listed in excluded_files_and_issues.txt (section A): 12 | identical lists: yes
+   every file accounted for: 311 in pairs (156 question papers + 155 mark-scheme files; the combined May/June 2004 scheme serves two pairs) + 12 excluded + 471 not Paper 1 or Paper 2 = 794 of 794
+   files outside the requested scope listed in section B of the exclusions file: 471 | same number: yes
+   Paper 1 or Paper 2 question papers or mark schemes left in neither list: 0
+
+2. PAPER 1: ANSWER KEYS RE-READ FROM THE MARK-SCHEME PDFs (independent method) AND COMPARED WITH THE FINDINGS
+   mark schemes read: 78 | keys read: 3120 of 3120 | mark schemes with a key not found by this method: 0 
+   agreement with the keys used during verification (tools/data/keys_p1.json): 78 of 78 papers identical
+   questions: 3120 | worked directly (findings line): 2585 | covered as a recorded repeat of a worked question: 535 | neither: 0 | both: 0
+   worked answer equal to the re-read official key: 2585 of 2585 | repeats whose key equals the key and worked answer of the question repeated: 535 of 535
+   findings lines with an in-scope section code: 1421
+
+3. PAPER 2: MARK ALLOCATIONS RE-COUNTED FROM THE QUESTION-PAPER TEXT AND COMPARED WITH THE FINDINGS AND THE TRACKER
+   Paper 2 question papers read: 78 | "[n]" mark allocations printed in them: 3791 | findings lines (leaf sub-questions): 3673
+   papers in which the printed allocations, taken in page order, fall exactly into the leaf sub-questions and add up to each leaf's marks: 78 of 78
+   (a leaf holds more than one printed allocation in 99 cases: numbered sub-parts 1. and 2., two answer lines, or the merged parts of an EITHER/OR question)
+   papers in which the findings file has one line for every leaf, in the same order: 78 of 78
+      EITHER/OR leaf split into its own lines by a "!marks" line, paper total unchanged: w09_2 (6 extra lines: 11ci, 11cii, 11ciii, 11Oci, 11Ocii, 11Ociii)
+      EITHER/OR leaf split into its own lines by a "!marks" line, paper total unchanged: w21_22 (3 extra lines: 5Oa, 5Obi, 5Obii)
+   papers where the sum of the printed allocations equals marks(QP) in the tracker: 78 of 78
+   papers whose text prints an EITHER / OR choice: 10 | each alternative has its own allocations and both are counted in marks(QP): 9 (s10_21 92, s13_22 94, s16_21 94, s21_22 93, w07_2 94, w09_2 96, w17_21 94, w21_21 95, w21_22 95) | the two alternatives share one allocation: 1 (s19_21 90)
+   Paper 2 rows with marks(QP) other than 90 (to 2022) or 80 (from 2023) that are not EITHER/OR papers: 0
+   in-scope sub-questions: 1985 | outside the selected sections: 1688 | mark tags written for the in-scope ones: 3617 | tracker rows agree with these counts for every paper: yes
+   in-scope sub-questions whose mark tags add up to the marks printed for the leaf: 1983 of 1985 | differing and marked "{~}" with the reason in the findings line: 2 | differing without a reason: 0
+      s16_22 5aii: tags 1, printed 2 (reason recorded)
+      s16_22 5bi: tags 1, printed 2 (reason recorded)
+
+4. TRACKER SUMMARY ROWS
+   rows: 156 | status: {'COMPLETE': 156} | notes updated: {'yes': 156}
+   in-scope Paper 1 questions in the tracker rows (repeats counted in each paper): 1723 | in-scope Paper 1 findings lines (each repeated question once): 1421
+   manually recorded observations (excluded_files_and_issues.txt, section E): 29
+   open issues recorded by the checks (section D): none: no pair has an unresolved check issue (missing sub-question, answer differing from the key, mark tags not adding up without a recorded reason)
+
+5. NOTES AUDIT (tools/audit_notes.py)
+   findings lines: 3406 | filed in a sub-topic with a checklist: 3406 | marking points / MCQ lines checked: 4992
+   checklist lines: Paper 2 1005, Paper 1 439 | tick-box lines in the notes file: 1444
+   coverage of findings points by the best single checklist line: best<0.6 536, best>=0.6 1050, best>=0.8 2769, no words 637
+   A structure problems: 0
+   B findings points below the threshold in their own sub-topic: matched by one checklist line elsewhere in the section (or its sister sections): 254 | content words found across several lines of the section: 152 | accepted after reading (listed in _audit_ok.txt): 59
+   B findings points still to be read by hand: 0
+   C checklist lines whose content words are not all found in the findings of the section: accepted after reading 48, still to be read 0 | lines with numbers not found in the section findings: accepted after reading 1, still to be read 0
+   D reference-like strings (paper ids, sessions, years, question or figure numbers): 0 | words from other syllabus sections: 213 occurrences, of which outside the reviewed contexts: 0
+   notes file: 4102 lines, 271405 characters, 1444 tick-box lines (lines that start with "  [ ] ")
+
+6. SPOT-CHECKS OF NOTES STATEMENTS AGAINST THE MARK-SCHEME TEXT
+   36 Paper 2 checklist lines were taken at fixed intervals through the notes (every 42nd line from the 20th, and every 84th line
+   from the 47th; all three chapters are represented) and traced back, through the findings line that supports them, to the
+   mark-scheme text of the paper concerned.
+   Result: 36 of 36 agree with the published mark-scheme wording (statement, accepted alternatives and mark split).
+   For lines that merge several papers, the second supporting mark scheme was also opened (5 cases); all agreed.
+   One neighbouring line (3.4, movement of the air particles in a sound wave) was reworded after the check, to say exactly which
+   of its two marks ignores "left and right" / "up and down".
+   After the scope revision of section 4.2.4 (series and parallel circuit rules removed, diode points added) the same positions
+   were sampled again: 33 of the 36 hold the lines already checked; the three positions that now fall on other lines of 4.2.4
+   (Ohm's law; non-linear change of resistance with temperature; reading currents from current-voltage graphs at a stated
+   p.d.) were traced to the mark-scheme text and agree. The three mark-scheme entries behind the two new diode lines and the
+   entries behind eight of the reworded resistance points were also opened again; all agree.
+   Paper 1 checklist lines are explanations written for the notes; their check is the agreement of every worked answer with the
+   official key (section 2).

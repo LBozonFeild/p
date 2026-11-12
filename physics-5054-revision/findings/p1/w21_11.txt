@@ -1,0 +1,28 @@
+# P1 w21_11 | main sheets 1-2 and rest sheet viewed; Q4, 9, 12, 14, 19, 22, 23, 26, 30, 34, 35, 39, 40 are identical to w21_12 questions and are worked there
+1 B 1.1 force is a vector; speed, mass and distance are scalars
+2 A 1.1 {F} the resultant of two forces is found by adding the vectors head to tail (or by the parallelogram rule); its direction lies between the two forces, nearer the larger one
+3 A 1.2+1.5.2 falling in air: air resistance grows as the speed rises, so the acceleration decreases; with no atmosphere the only force is the constant weight, so the acceleration is constant
+5 C 4.2.1+1.3 a stationary electron (a charged particle with mass) experiences a force in an electric field and in a gravitational field; a magnetic field exerts a force only on a moving charge
+6 C 1.4 {F} volume of the stone = 75 − 15 = 60 cm³; density = 90 ÷ 60 = 1.5 g/cm³
+7 B 1.5.3 {F} below the limit of proportionality the extension–load graph is a straight line through the origin
+8 C X1.8 {F} pressure in liquids
+10 B X1.8 {F} barometer
+11 A 1.7.2 work done = force × distance moved in the direction of the force, so F and d are needed
+13 B X2.2 specific heat capacity
+15 A X2.1 {F} cooling a gas at constant volume
+16 C X2.2 {F} reducing evaporation
+17 A 3.1 {F} when a wave slows down at constant frequency its wavelength decreases (v = fλ), and it returns to the original wavelength when the speed returns to the original value
+18 B 3.1 amplitude: the maximum distance a particle moves from its equilibrium (rest) position
+20 D 3.2.2 {F} the angle of refraction is the angle between the refracted ray and the normal (not the surface), on the far side of the boundary
+21 D 3.2.3 {F} a diverging lens bends a ray that is parallel to the axis away from the axis; the image it forms is virtual
+24 B 3.3 infrared is used for television remote controls
+25 D 3.4 clapping in time with the echo: the time between claps equals the time for sound to travel to the wall and back (2x); N intervals take time t, so speed = 2Nx ÷ t
+27 B X4.1 {F} repulsion between magnets
+28 B X4.1 demagnetising
+29 D 4.2.3 {F} electromotive force: the work done (in joules) on unit charge (per coulomb) as it moves around the complete circuit
+31 D 4.2.4+X4.3 {F} series circuit: I = V ÷ total resistance = 5.0 ÷ (2.0 + 5.0 + 3.0) = 0.50 A; p.d. across each resistor = IR, so 1.5 V appears across the 3.0 Ω resistor
+32 C 1.7.5 {F} total power = 2 × 100 W = 0.20 kW; energy = power × time = 0.20 × 36/60 = 0.12 kW h
+33 C 1.7.5+X4.4 energy = cost ÷ price per kW h = 1.2 ÷ 9.0 = 0.133 kW h; power = energy ÷ time = 0.133 ÷ 0.060 = 2.2 kW (cost step outside the selected sections)
+36 C 3.1+X4.6 {F} two complete waves cross the screen in 1.2 ms, so the period is 0.60 ms and f = 1 ÷ T = 1700 Hz (reading the time-base is outside the selected sections)
+37 D X4.3 {F} LDR and thermistor divider
+38 D X5 medical tracer

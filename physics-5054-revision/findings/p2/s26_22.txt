@@ -1,0 +1,46 @@
+# P2 s26_22 | figs viewed: 2.1, 5.1, 5.3
+1a | 1.2 | speed-time graph drawing: steady speed = horizontal line from (0,8) to (6,8) [B1] ;; uniform acceleration from rest = straight line from (0,0) to (6,18) [B1] (points within ±½ small square; labels not needed)
+1b | 1.2 | a = (v − u)/t in any form, algebraic or numerical [C1] ;; 3.0 (2 s.f. rounding applied, e.g. A 2.95 not 2.9; accept −3; ecf from incorrect graph) [A1] ;; unit m/s² (I N/kg as unit) [B1]
+1c | 1.2 | "show by calculation": working must be shown and final value calculated; steady speed distance = speed × time = 8 × 5 = 40 m [B1] ;; accelerating distance = area under speed-time graph = ½ × 15 × 5 = 37.5 or 38 m (ecf from graph) [B1] (max 1 if no working shown or wrong distance units such as m² or m/s)
+1d | 1.5.1 | Newton's first law, simple statement: an object remains at rest / in uniform (constant) motion / keeps moving unless a force acts (must mention the word "force"; A a force causes motion/speed/velocity to change; I just "remains at rest", F = ma) [C1] ;; complete statement applied: moves at constant velocity / constant speed in a straight line / zero acceleration unless acted on by a net / resultant / unbalanced force; OR constant velocity means no resultant force on the athlete (I "constant motion", "external force" for this mark) [A1]
+2a | 1.5.5 | principle of moments: (total) clockwise moment = (total) anticlockwise moment (A "CW = ACW" as long as moment is mentioned) [M1] ;; when the object is in equilibrium / balanced / stationary / not turning [A1]
+2b | 1.5.5 | moment = force × (perpendicular) distance in any form (A F1d1 = F2d2 algebraic; any listed force × any listed distance) [C1] ;; 200 × 0.40 = 80 N m [A1]
+2c | 1.5.5 | weight of student = mg = 40 × 9.8 = 392 N (allow g = 10) [C1] ;; moment equation F1d1 = F2d2 including the moment of the plank's weight: 650 × 0.8 = 392 × d + 80 (A = or > in the moment equation) [C1] ;; 1.1(2) m [A1]
+3ai | X1.8 | factors affecting liquid pressure
+3aii | X1.8 | direction of force due to pressure
+3b | 1.7.3 | any one other renewable source: geothermal, tidal, solar (A sunlight, solar panels/cells/power), wind (A wind turbines), biomass (A biogas, wood from a managed source; I just "wood"), wave; not nuclear [B1]
+3ci | 1.7.5 | E = P × t in any form (A P = W/t; 2.5×30×60; 4.5 × 10ⁿ) [C1] ;; 2.5 × 10⁶ × 30 × 60 = 4.5 × 10⁹ J (convert MW to W and minutes to s) [A1]
+3cii | 1.7.4 | efficiency = (useful) power output / power input (or energy output / energy input) in any form [C1] ;; input = 2.5/0.95 = 2.6(3) MW (2.6 × 10⁶ written with unit MW scores 1 only) [A1]
+4a | X2.2 | define specific heat capacity
+4b | X2.2 | E = mcΔT
+4ci | X2.3 | vacuum: no particles; no conduction/convection
+4cii | X2.3 | white/silver shiny surface; poor emitter/absorber
+4d | X2.3 | convection/evaporation without lid
+5ai | 3.2.2 | {F} normal drawn at point P perpendicular to the prism surface (by eye; either side of boundary) [B1]
+5aii | 3.2.3 | {F} three correct refractions on entering and leaving the prisms (rays bend towards the base of each prism so the outer rays converge; allow one wrong refraction at one boundary; I dispersion, con if ray splits) [B1] ;; central ray passes straight (horizontally) through and out of the glass block [B1]
+5aiii | 3.2.3 | {F} diverging-lens model: prisms inverted vertically (apex of each prism towards the central block) [B1] ;; rays diverge after the prisms: top ray diverges up, bottom ray diverges down (not if rays split; no prisms shown = 0) [B1]
+5b | 3.2.3 | {F} converging lens ray diagram: one correct ray – ray parallel to the principal axis refracts through F on the far side, or ray through the near F emerges parallel to the axis [C1] ;; both rays correct and image drawn at the point of intersection (labelled I / image; A arrow either way up at image position without label) [A1]
+5c | 3.3 | any 2 changes across the electromagnetic spectrum (radio → gamma): wavelength decreases; frequency increases; energy / ionisation / damage increases [B2] (A "radio has largest λ", "gamma has highest frequency"; SC 1 mark for "wavelength increases and frequency decreases" with direction reversed; con "speed changes")
+6a | 4.2.3 | e.m.f. = work done per unit charge (voltage) round the complete circuit / by the source / battery [B1] ;; p.d. = work done per unit charge across / in a component / conductor / resistor / between two points [B1]
+6bi | 4.2.4 | resistance = voltage / current (R = V/I) [B1]
+6bii | X4.3 | series: current same in both components
+6ci | X4.3 | series p.d.s add: 6.0 − 2.4 = 3.6 V
+6cii | 4.2.4+X4.3 | current = V/R for the fixed resistor = 3.6/200 = 0.018 A (ecf) [C1] ;; R of LDR = V/I = 2.4/0.018 = 130 Ω [A1]
+6d | X4.3 | LDR in potential divider: brighter → R down, current up, p.d. changes
+7ai | X4.5 | field pattern of solenoid
+7aii | X4.5 | stronger field: lines closer
+7bi | X4.5 | changing field induces e.m.f.
+7bii | X4.5 | increase induced current
+7biii | X4.5 | Lenz's law; like poles repel
+8a | X5 | beta vs gamma for treatment
+8bi | X5 | GM tube
+8bii | X5 | random emission
+8biii | X5 | average background 10
+8biv | X5 | half-life with background
+8c | X5 | short half-life preferred
+8d | X5 | beta decay nucleus change
+9a | X6 | comet orbit
+9b | X6 | Mercury orbit period reasons
+9ci | X6 | fusion
+9cii | X6 | stable star forces
+9ciii | X6 | red giant → white dwarf

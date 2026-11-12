@@ -1,0 +1,35 @@
+# P1 w16_12 | main sheets 1-2 and rest sheet viewed; Q6 is identical to w21_12 Q5; Q14 to w20_12 Q15; Q20 to s26_12 Q19; Q27 to w23_12 Q29; Q28 to w21_12 Q25; Q34 to w19_12 Q33
+1 D 1.1 a tape measures a length of 30 m; a micrometer measures a diameter of 0.50 mm
+2 D 1.5.2+1.2 a skydiver falling from rest starts with the acceleration of free fall (10 m/s²), which decreases to zero as air resistance grows and terminal velocity is reached
+3 C 1.5.1+1.3 all masses fall with the same acceleration because the weight is proportional to the mass: twice the mass has twice the force, so a = F ÷ m is the same
+4 C 1.2 {F} on a distance–time graph deceleration is the section where the gradient is decreasing
+5 A 1.5.1 resultant force = ma = 5.0 × 3.0 = 15 N forwards; the second force = 15 − 20 = −5.0 N, i.e. 5.0 N backwards
+7 A 1.3 {F} the reading of a spring balance can be used to find the mass of the block in kg (mass is not measured in N, nor weight in kg)
+8 B 1.4 {F} volume = area × thickness = 4.5 × 0.20 = 0.90 cm³ (2.0 mm = 0.20 cm); mass = density × volume = 19 × 0.90 = 17 g
+9 C 1.5.1 Newton's third-law pair: the force of the parachute on the man and the force of the man on the parachute
+10 C 1.1+1.5.1 {F} the force that keeps an object stationary is equal in size and opposite in direction to the resultant of the other forces (the diagonal of the parallelogram, reversed)
+11 D 1.7.1 KE = ½mv²: 4.5 J (1.0 kg at 3.0 m/s), 4.0 J (2.0 kg at 2.0 m/s), 2.5 J (5.0 kg at 1.0 m/s) – the speed matters more than the mass because it is squared
+12 B 1.7.3 hydroelectric, solar and wind power stations all use renewable sources; oil is non-renewable
+13 C 1.7.2 a force at right angles to the motion does no work: the force keeping a satellite in a circular orbit does no work
+15 C 1.7.5 P = work done ÷ time = 140 000 ÷ 70 = 2000 W = 2.0 kW
+16 A 1.7.4 efficiency = useful (electrical) energy output ÷ total energy input
+17 D X1.8 {F} manometer
+18 C X2.1 expansion at constant temperature
+19 C X2.2 {F} evaporation
+21 B X2.2 specific heat capacity
+22 D X2.2 latent heat
+23 B XOLD clinical thermometer
+24 B X2.3 convection
+25 A 3.1+3.3 all electromagnetic waves are transverse; not all transverse waves travel at the speed of light; water waves are transverse and longitudinal waves can be refracted
+26 A 3.1 {F} amplitude = height of a crest above the undisturbed level (not crest to trough); wavelength = length of one complete wave (not half a wave)
+29 A 3.4 speed of sound increases from gas to liquid to solid
+30 B 3.4 {F} two echoes: speed = difference in there-and-back distances ÷ time difference = (400 − 100) ÷ 1.0 = 300 m/s
+31 D X4.1 magnetic screening
+32 B 4.2.1 {F} induced charges: the end of an insulated metal rod nearest a positive sphere becomes negative and its far end positive; an earthed rod gains electrons from earth and carries only negative charge at the end nearest the sphere
+33 C 4.2.2+4.2.3 {F} an ammeter is connected in series with the component and a voltmeter in parallel with it
+35 C X4.4 fuse
+36 B X4.5 {F} force on a wire
+37 B X4.5 {F} induced e.m.f. zero at the turning points
+38 C X4.3 {F} thermistor divider
+39 B X5 half-life
+40 A X5 alpha decay

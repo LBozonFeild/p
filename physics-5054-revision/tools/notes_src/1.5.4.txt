@@ -1,0 +1,25 @@
+ORDER A B Z
+== A | Motion in a circle: force and acceleration towards the centre | centre|centripetal|perpendicular|direction|tangent|accelerat|velocity|straight line | 1
+- A force is needed to change the direction of the motion (velocity); without it the object would move in a straight line.
+- The force is perpendicular to the motion (velocity) and directed towards the centre of the circle; it keeps the object in the circular path and accelerates it towards the centre.
+- An object moving in a circle at constant speed is accelerating: the direction of its motion is changing (B1), so its velocity is changing, which is an acceleration and requires a resultant force (B1).
+- Stating that the velocity changes (M1) because its direction changes, even though the speed is constant (A1).
+- Velocity is a vector – it includes direction; speed does not (B1); on a bend the direction of motion changes, so the velocity changes even at constant speed (B1); the force acts towards the centre of the curve, inwards (B1).
+- The acceleration is towards the centre of the circle.
+- In diagrams the force (or acceleration) arrow is drawn from the object towards the centre of the circle or orbit (towards the Sun for a planet, towards the centre of the Earth for a satellite), perpendicular to the motion.
+- At the lowest point of a vertical circular path the resultant force is upwards, towards the centre of the circle; so the weight is less than the upward (contact) force.
+- In a circular orbit at constant speed the kinetic energy remains constant, because the speed is constant (kinetic energy is a scalar).
+* The force has a constant size and always points towards the centre, at right angles to the velocity.
+* The velocity is along the tangent to the circle; the acceleration and the resultant force point towards the centre.
+* The acceleration is constant in size but continually changes direction, so the velocity is not constant.
+* If the force towards the centre disappears, the body moves off in a straight line along the tangent.
+* A car rounding a bend at constant speed has unbalanced forces, with a resultant towards the centre of the bend; constant velocity (or rest) means no resultant force.
+* On a curved path the resultant force points towards the concave side of the path.
+== B | What provides the force towards the centre | caused by|gravitational force of the Sun keeps|force of gravity towards|friction|electrostatic | 0
+- Planet or satellite: the force is caused by gravitational attraction / the gravitational field (B1) of the Sun, or of the Earth for a satellite (B1); its direction is towards the centre of the circle (B1).
+- The force of gravity on a satellite is centripetal: at right angles to its motion (B1).
+- A vehicle turning a corner: the force is friction with the ground (B1), acting on the tyres towards the centre of the turn; on a banked track, the reaction force (B1).
+* An object carried round on a turntable is kept in its circle by friction acting towards the centre.
+* An electron is kept moving in a circle round the nucleus by an electrostatic force directed towards the nucleus.
+== Z | Other points
+MOVE w16_22|2bii|A

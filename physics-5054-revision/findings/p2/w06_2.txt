@@ -1,0 +1,47 @@
+# P2 w06_2 | figs viewed: 1.1 (speed 28 m/s, falling to 12 m/s at 12 s, constant until 28 s, rising to 28 m/s at 34 s), QP p3 (Figs 2.1, 2.2: paper with equal weight and air-resistance arrows; coin with a long weight arrow and a short air-resistance arrow), 4.1 (ray at 50° to the mirror surface), 6.1, 8.1 (16 V, ammeter, 6 Ω, switch S and 2 Ω in series), 9.1 and QP p10 (full-scale lamina hung at A with weight line through B; Figs 9.2–9.4 block on a corner with B to the right, to the left, and on a flat base) | not viewed: 3.1, 3.2, 5.1, 7.1, 10.1, 10.2, 11.1
+# leaf 2bii holds 2(b)(i) and (ii)
+1ai | 1.2 | {F} constant speed read from the horizontal section of a speed-time graph: 12 m/s [B1]
+1aii | 1.2 | {F} time at constant speed = difference between the two time readings: 28 − 12 = 16 s [B1]
+1aiii | 1.2 | distance at constant speed = speed × time = 12 × 16 = 192 m [B1]
+1b | 1.2 | {F} acceleration = (v − u) ÷ t = gradient of the speed-time graph = (28 − 12) ÷ 6 [C1] ;; 2.7 [A1] ;; unit m/s² [B1]
+2a | 1.2 | initial acceleration of an object falling from rest = 10 m/s² (9.8 m/s²) [B1]
+2bii | 1.5.2 | {F} force arrows on falling objects, any three: (constant speed) air resistance equals / balances the weight; so there is no resultant force; (accelerating) weight is larger than air resistance; so there is a resultant force downwards [B3]
+2c | 1.5.2+1.2 | falling in a vacuum compared with air, any two: both objects fall faster / reach the bottom sooner; both accelerate at g; a coin and a piece of paper fall together with the same acceleration and reach the bottom at the same time [B2]
+3a | X2.3 | conduction experiment
+3b | X2.3 | radiation
+4ai | 3.2.1 | {F} reflection at a plane mirror: normal drawn at right angles to the mirror at the point of incidence, and the reflected ray at an equal angle on the other side of it [B1]
+4aii | 3.2.1 | angle of incidence is measured from the normal: 90° − 50° = 40° [B1] ;; angle of reflection = angle of incidence = 40° [B1]
+4b | 3.2.1 | finding the image position in a plane mirror: diagram with object, mirror and image in roughly the correct position [B1] ;; at least one ray from the object (or ray-box) reflected correctly at the mirror [B1] ;; at least two reflected rays traced back behind the mirror to where they meet (or: a search pin moved behind the mirror until there is no parallax between it and the image) [B1]
+5a | X4.1 | compass directions
+5b | X4.1 | induced poles
+5c | X4.1 | demagnetising
+6a | 1.7.1 | {F} energy changes in a water wheel driving a generator, any two: potential energy of the water to kinetic energy (of water or wheel); kinetic energy of the wheel to electrical energy [B2]
+6b | 1.7.4 | efficiency = energy output ÷ energy input = 1200 ÷ 2000 [C1] ;; 0.60 (60%) [A1]
+6c | 1.7.4 | ways the device wastes energy, any two: friction in the wheel / generator bearings (heat); water leaving still has kinetic energy; heat in the resistance of the generator windings [B2]
+7a | X4.5 | induction
+7b | X4.5 | induction
+7c | X4.5 | induction
+8a | 4.2.4 | {F} with the switch open there is no current, so the p.d. across a resistor is 0 V [B1]
+8bi | X4.3 | total resistance of resistors in series = 6 + 2 = 8 Ω [B1]
+8bii | 4.2.4 | formula R = V/I (I = V/R) stated [B1] ;; I = 16 ÷ 8 = 2 A [B1]
+8biii | 4.2.4 | p.d. across one resistor = current × its resistance = 2 × 6 [C1] ;; 12 V [A1]
+9a | 1.5.6 | finding the centre of mass of a thin sheet, any six: hang the sheet freely from a hole (pivot / pin); let it come to rest; hang a plumb line from the same hole; mark the line of the plumb line on the sheet; hang it from a second hole and repeat; the centre of mass is where the lines intersect; repeat from a third hole as a check (alternative: balance it on a sharp edge, mark the line of the edge, repeat in a new position – intersection; or balance on a sharp point) [B6]
+9bi | 1.5.5 | moment of a force = force × distance [M1] ;; the perpendicular distance from the pivot to the line of action of the force [A1]
+9bii | 1.5.5 | {F} distance used is the perpendicular (horizontal) distance from the pivot to the vertical line of the weight: 2.9–3.1 cm measured [B1] ;; moment = 0.10 × 3.0 = 0.30 [B1] ;; unit N cm (N m only if the distance is converted to metres) [B1]
+9ci | 1.5.6+1.5.5 | {F} an object resting on a corner falls over because its weight has a moment (turning effect) about the corner [C1] ;; clockwise when the centre of mass is to the right of the corner and anticlockwise when it is to the left [A1]
+9cii | 1.5.6 | an object does not fall over when the line of its weight passes inside its base (the moments balance) [B1]
+9ciii | 1.5.6 | a thicker piece (wider base) is more stable; a thinner one is less stable [B1]
+10a | X4.4 | wiring a plug
+10bi | X4.4 | earth wire
+10bii | X4.4 | double insulation
+10biii | 1.7.5 | a power rating of 100 W means 100 J [B1] ;; of energy is transferred (converted) every second [B1]
+10biv | X4.4 | fuse rating
+10bv | 1.7.5+X4.4 | E = Pt [C1] ;; time in seconds: 30 × 60 = 1800 s [C1] ;; 100 × 1800 = 180 000 J [A1]
+11ai | 3.3 | time = distance ÷ speed [C1] ;; 600 ÷ 300 000 with consistent units [C1] ;; 0.002 s [A1]
+11aii | 3.3 | similarities between infrared and microwaves besides being electromagnetic, any two: same speed in a vacuum; can travel in a vacuum; travel in straight lines; can be reflected / refracted / diffracted; carry energy; transverse [B2] ;; a difference: wavelength or frequency (infrared has the shorter wavelength / higher frequency) [B1]
+11bi | X6 | gravity
+11bii | 1.7.1+X6 | matter falling together under gravity: potential energy to kinetic energy [B1] ;; kinetic energy to heat (thermal energy) [B1]
+11biii | X5 | fusion conditions
+11biv | X5 | nucleus
+11bv | X5 | fusion product
+11bvi | X6 | fusion in a star

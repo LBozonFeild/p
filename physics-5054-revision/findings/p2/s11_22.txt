@@ -1,0 +1,48 @@
+# P2 s11_22 | figs viewed: 1.1 (measuring cylinder, spring balance in newtons, stone on a thread), 2.1 (hill between A and B at the same level), 4.1 (circular wavefronts 8.0 cm apart; corks A and B half a wavelength apart), 4.2 (displacement-time for A: amplitude 2 mm, period 0.50 s), 5.1, 9.1, 9.2 (blank grid), 10.1 (scale drawing of a camera: lens to film is about 0.4 of object to lens) | not viewed: 7.1, 8.1, 11.1
+1a | 1.3 | {F} finding mass with a spring balance marked in newtons: hang the object from the balance and read its weight [B1] ;; divide the weight by g (10 N/kg): m = W ÷ g [B1]
+1b | 1.4 | volume of a stone with a measuring cylinder: read the volume of water alone [C1] ;; lower the stone in until totally immersed and find the increase in the reading [A1]
+1c | 1.4 | density = mass ÷ volume = 150 ÷ 70 = 2.1 g/cm³ [B1]
+1d | 1.3 | where the gravitational field strength is less, the mass is unchanged and the weight is less [B1]
+2a | 1.7.1 | cyclist pedalling uphill at constant speed: chemical (potential) energy decreases [B1] ;; gravitational potential energy increases [B1] ;; thermal (internal) energy is produced [B1]
+2b | 1.7.1 | conservation of energy over a journey that starts and ends at rest at the same height: energy is not created or destroyed, only changed in form – the total stays constant and all the chemical energy used ends up as heat [B1]
+2c | 1.7.1 | h = g.p.e. ÷ (mg) = 5400 ÷ (60 × 10) [C1] ;; 9.0 m [A1]
+3ai | X2.1 | gas expansion
+3aii | X2.1 | liquid expansion
+3bi | X2.1 | Boyle's law
+3bii | X2.1 | assumption
+4a | 3.1 | {F} amplitude = maximum displacement from the mean position: 2.0 mm [B1]
+4b | 3.1 | {F} displacement-time graph for a point half a wavelength away: same period (and amplitude) [B1] ;; but opposite phase – inverted [B1]
+4ci | 3.1 | {F} f = 1/T with the period read from the graph (one wave in 0.50 s) [C1] ;; 2.0 Hz [A1]
+4cii | 3.1 | v = fλ = 2.0 × 8.0 = 16 cm/s, then t = distance ÷ speed [C1] ;; 40 ÷ 16 = 2.5 s [A1]
+5a | X4.3 | circuit design
+5bi | 4.2.4 | R = V/I with current in amperes = 8.0 ÷ 0.050 [C1] ;; 160 Ω [A1]
+5bii | X4.3 | series current
+6a | X4.4 | earthing
+6b | 1.7.5 | energy in kW h = power in kW × time in hours: 0.50 kW and 45 ÷ 60 = 0.75 h [C1] ;; 0.375 kW h [A1]
+7a | XOLD | filament heating
+7b | XOLD | anode polarity
+8a | X5 | fission
+8b | X5 | fission
+8ci | X5 | radioactive
+8cii | X5 | half-life
+9ai | 1.2 | {F} speed-time graph for a sky-diver: curve of decreasing gradient from the origin to the terminal speed (50 m/s at 10 s) [B1] ;; horizontal line at that speed (10 s to 20 s) [B1] ;; decrease to the lower speed when the parachute opens (5 m/s at 25 s) [B1] ;; horizontal line at the lower speed afterwards [B1]
+9aii | 1.2 | non-uniform acceleration is shown by a gradient that is not constant – the graph is a curve [B1]
+9b | 1.5.2 | after the parachute opens: air resistance (drag) acts upwards [B1] ;; at first the upward force is larger than the weight – resultant force upwards, so he decelerates [B1] ;; air resistance decreases as the speed falls [B1] ;; until air resistance equals the weight – forces balance, steady speed [B1]
+9c | 1.2 | distance at steady speed = speed × time = 50 × 10 = 500 m [B1]
+9di | 1.2 | average deceleration = (v − u) ÷ t = (50 − 5) ÷ 5 [C1] ;; 9.0 m/s² [A1]
+9dii | 1.5.1 | average resultant force F = ma = 60 × 9.0 [C1] ;; 540 N [A1]
+9diii | 1.2 | distance fallen = area under the speed-time graph [B1]
+10a | 3.2.2 | experiment to measure the critical angle: a suitable glass / perspex block, e.g. semicircular [B1] ;; a source of rays – ray box or laser (or pins), labelled [B1] ;; diagram showing the ray inside the block meeting the flat face and refracting out into the air [B1] ;; adjust the angle of incidence until the refracted ray travels along the surface / just no longer emerges [B1] ;; measure the angle between the incident ray in the block and the normal – this is the critical angle [B1]
+10bi | 3.2.3 | lens in a camera: converging (convex) [B1]
+10bii | 3.2.3 | {F} ray from the top of the object through the middle of the lens undeviated to the film [B1] ;; a second ray from the top of the object refracted to the same point on the film [M1] ;; image marked on the film (inverted) [A1]
+10biii | 3.2.3 | linear magnification: ratio of image height (size / distance) to object height (size / distance) [B1]
+10biv | 3.2.3 | magnification from the scale diagram: 0.40 ± 0.05 [B1]
+10bv | 3.2.3 | image in a camera (apart from size): inverted / real / on the other side of the lens from the object [B1]
+10bvi | 3.2.3 | moving a camera lens towards the film: to focus – to produce a sharp image [B1] ;; so that the rays converge on the film when the object is at a different distance [C1] ;; for a more distant object the image would otherwise form in front of the film [A1]
+11ai | X2.2 | graph reading
+11aii | X2.3 | heat loss
+11aiii | X2.2 | boiling
+11bi | X2.2 | specific heat capacity
+11bii | 1.7.1 | K.E. = ½mv² [C1] ;; mass in kg: ½ × 0.072 × 450² [C1] ;; 7300 J [A1]
+11biii | X2.1 | random vs ordered motion
+11c | XOLD | thermocouple

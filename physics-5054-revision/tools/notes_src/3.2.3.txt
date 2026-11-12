@@ -1,0 +1,84 @@
+ORDER A B R C E D F Z
+== A | Lens terms: principal axis, principal focus, focal length; action on a beam | principal focus|focal length|focal point|parallel beam|prisms|principal foci|beam|refracts \(towards | 6
+- Principal focus (focal point): the point where parallel rays meet after refraction (C1); full statement – the point where rays parallel to the principal axis meet after refraction by the lens (A1).
+- Focal length: the distance between the principal focus (focal point) and the lens (M1), measured from the (optical) centre of the lens (A1).
+- Both principal foci are marked on the principal axis, one focal length either side of the lens.
+- The focal length is read from a diagram as the distance from the centre of the lens to the principal focus – the point where a refracted ray that was parallel to the axis crosses the axis; on a scale diagram multiply by the scale and give 2 significant figures (C1, A1).
+- A ray entering a lens refracts towards the normal / changes speed (B1); on leaving it bends away from the normal / speeds up / its wavelength increases (B1).
+- Rays that pass through the principal focus before reaching a converging lens emerge parallel to the principal axis (one ray correct C1; all rays parallel A1).
+- A parallel beam through a converging lens narrows to a point at the principal focus and then spreads out again: its width is less than the original at any distance between 0 and twice the focal length, and wider than the original beyond twice the focal length.
+- Model of a converging lens made from two prisms and a central glass block: the rays bend towards the base of each prism so that the outer rays converge – three correct refractions on entering and leaving the prisms, with one wrong refraction at one boundary allowed (B1); the central ray passes straight through the block (B1). Dispersion is ignored, but no credit if the ray is drawn splitting.
+* A converging lens bends rays towards the principal axis: a parallel beam is brought to a focus at the principal focus, and a diverging beam leaves less divergent or parallel.
+* The focal length is not the object distance or the image distance: it is the distance from the lens to where a ray that was parallel to the principal axis crosses the axis.
+== B | Ray diagrams for a converging lens | ray diagram|construction rays|any two|ray parallel|ray through|scale diagram|object drawn|locating|one correct ray|two further rays|straight ray|object distance measured|image height from the diagram|ray from the top | 5
+- The object is drawn to scale as a vertical arrow of the stated height, at the stated distance from the lens on the correct side, standing on the principal axis (B1).
+- At least one principal focus is marked at the correct distance and used (B1).
+- Any two construction rays from the tip of the object (B2 or M2): a ray parallel to the principal axis, refracted through the principal focus on the far side; a ray straight through the optical centre, undeviated; a ray through (or appearing to come from) the principal focus on the object's side, emerging parallel to the axis.
+- The image arrow is drawn from the intersection of the refracted rays to the principal axis and labelled (B1 or A1). An unlabelled arrow at the image position, either way up, has been accepted.
+- Where one mark is given per ray: one correct ray (C1 or M1); a second correct ray meeting the first at the image (A1 or M1).
+- Object inside the focal length: the two refracted rays are extended backwards to where they meet to locate the image (A1).
+- Finding the focal length from a diagram that shows the object and the image: continue the ray parallel to the principal axis from the lens to the tip of the image (B1 or M1); the principal focus is where it crosses the axis and the focal length is its distance from the lens (B1 or A1); other rays from the top of the object, such as the ray straight through the centre, also go to the top of the image (B1).
+- Locating the lens from the object and its image: draw a straight ray from the top of the object to the top of the image (B1); the lens is where that ray crosses the principal axis, because it passes through the optical centre undeviated (B1).
+- Locating the object from the image: two of the three construction rays used in reverse (M2); the object tip is marked where they cross (A1).
+- Values measured from a ray diagram (object distance, image distance, image height) are accepted within a tolerance of the calculated value.
+* A parallel beam at an angle to the principal axis is brought to a focus in the focal plane, off the axis and level with the principal focus: the ray through the centre of the lens is undeviated and the other rays meet it in that plane.
+== R | Real images; the camera and the projector | \breal\b|camera|projector|film|inverted|enlarger|screen|2F | 4
+- Real image: the rays actually meet at (converge to) the image, so it can be formed on a screen.
+- Object beyond 2f: the image is real, inverted (B1) and smaller than the object – diminished (B1); on a scale diagram it is between half and the full height of the object.
+- Object between f and 2f: the image is inverted, magnified and real.
+- Object just outside the principal focus: the two refracted rays are almost parallel and meet a long way from the lens.
+- Image in a camera, apart from its size: inverted / real / on the other side of the lens from the object. The lens in a camera is converging (convex).
+- Converging lens in a camera (any three): light from the object is focused / refracted by the lens; focusing is done by moving / adjusting the lens; a real image is formed; on the film / digital light detector.
+- Ray diagram for a camera: a straight ray from the top of the object through the centre of the lens to the film (B1 or M1); a second ray from the same point refracted to meet the first at the film (M1 or A1); the image marked on the film, inverted (A1).
+- Focusing a camera: the lens is moved to produce a sharp image (B1), so that the rays converge on the film when the object is at a different distance (C1); for a more distant object the image would otherwise form in front of the film, so the lens is moved towards the film (A1). When the object moves closer the lens is moved away from the film.
+- Image formed by a projector lens on a wall, besides inverted and magnified (any two): real; less bright; further from the lens than the object (beyond 2f).
+- An optical device that gives a magnified real image: a projector / photographic enlarger.
+* An object at twice the focal length gives a real, inverted image of the same size on the other side of the lens; an object between F and 2F forms its image beyond 2F.
+* A camera forms a real, inverted, diminished image on the sensor.
+* If the rays cross before reaching the screen the image is in front of the screen; a lens of longer focal length (less converging) in the same position forms the image further from the lens.
+== C | The magnifying glass: virtual image of an object inside the focal length | magnifying|virtual|inside the focal length|within the focal length|closer to a converging lens|opposite side of the lens from the object | 3
+- Magnifying glass: a converging (convex) lens with the object within the focal length – closer to the lens than the principal focus. The image is upright and virtual.
+- Virtual image: the rays only seem to come from the image / do not actually pass through it. Also credited as reasons: the object distance is less than the focal length; the image is upright; the rays leaving the lens diverge and, traced back, meet at the image; the rays do not meet on a screen.
+- Real and virtual images compared (any two): a real image can be projected on to a screen and a virtual image cannot; light actually passes through a real image; a virtual image formed by a lens is on the same side as the object.
+- To obtain a virtual image with a converging lens: place the object within the focal length (B1) and look through the lens from the other side – the image is on the same side as the object (B1).
+- Ray diagram for the virtual image: a ray from the top of the object through the optical centre, undeviated (B1); a ray from the top of the object parallel to the axis, refracted through the principal focus (B1); both emergent rays extended back as construction lines to the top of the image, where the image is marked (B1).
+* The refracted rays diverge and never meet; traced back they appear to come from a virtual, upright, enlarged image on the same side as the object and further from the lens than the object.
+* A magnified image formed on a screen is real and inverted, so the object must be between f and 2f; a photographic enlarger or projector needs a real image, a magnifying glass gives a virtual one.
+* The focal length can be found from a magnifying-glass diagram: the ray that arrives parallel to the axis passes through the principal focus and, traced back, through the top of the virtual image.
+== E | Linear magnification | magnification | 2
+- Linear magnification = image height (size) ÷ object height (size); image distance ÷ object distance is also accepted (C1 or B1).
+- The value is taken from the heights or distances on the candidate's own ray diagram and is accepted within a range around the calculated value (A1). It has no unit; a diminished image gives a value below 1.
+* Magnification = image length ÷ object length = image distance ÷ object distance, for a virtual image as well as a real one.
+* Magnifying glass with the object at 2.0 cm and f = 3.0 cm: the virtual image is 6.0 cm from the lens on the same side, so the magnification is 3.0.
+== D | Diverging lenses | diverging lens|diverging-lens|biconcave|parallel rays passing through it diverge | 1
+- A diverging lens is drawn thinner in the middle than at the edges (a vertical biconcave shape) (B1).
+- A parallel beam through a diverging lens: the middle ray through the centre continues in a straight line (B1); the other rays diverge away from it (B1).
+- Ray diagram for a diverging lens: the principal focus marked on the axis at the focal length from the centre of the lens (B1); any two rays from the tip of the object (B2) – a ray parallel to the axis that after refraction seems to come from the principal focus on the object's side; a ray through the optical centre, undeviated; a ray aimed at the principal focus on the far side that emerges parallel to the axis; the refracted rays traced back to where they meet (B1); that point labelled as the image, drawn down to the principal axis (B1).
+- The image is virtual because the light only seems to come from it / does not pass through it; it is smaller than the object, upright, and between the object and the lens.
+- To see the image the eye must be on the opposite side of the lens from the object, so that light passes through the lens to the eye.
+- Focal length = distance from the principal focus to the centre of the lens; it may be given as negative for a diverging lens.
+- Model of a diverging lens made from prisms: each prism is inverted, with its apex towards the central block (B1); the rays diverge after the prisms – the top ray upwards and the bottom ray downwards (B1). No marks if no prisms are shown or if the rays are drawn splitting.
+- A use of a diverging lens: the correction of short sight.
+* A diverging lens spreads rays out: it makes a parallel or diverging beam more divergent and a converging beam less convergent or parallel.
+* A parallel beam leaves as if from a point in the focal plane on the incident side; for an oblique beam that point is where the undeviated central ray crosses the focal plane.
+* The image formed by a diverging lens is always upright, diminished and virtual, on the same side as the object and between the principal focus and the lens.
+== F | Long sight and short sight | short sight|long sight|short-sighted|long-sighted|retina|normal eye|myopia|the eye's converging lens | 0
+- In a normal eye the image of a distant object is sharp (focused) on the retina.
+- Short-sighted eye and parallel rays from a distant object: the central ray passes through undeviated (M1); the outer rays meet it at a point inside the eye in front of the retina and carry on, diverging, to strike the retina at different places (A1).
+- Short sight is corrected by a diverging lens, drawn thinner at the centre than at the edges (B1): the light diverges before entering the eye, so the meeting point is moved back on to the retina (B1).
+- An eye that focuses distant objects but not near ones has long sight.
+- Long sight: a near object is blurred because the rays do not converge on the retina – the image would be formed behind the retina (B1); on a diagram the rays reach the retina before they meet (B1).
+- Long sight is corrected with a converging (convex) lens (B1), drawn in front of the eye so that the rays meet on the retina (B1).
+- An image is blurred when the rays do not meet at a point on the retina: light from a single point is spread over an area of the retina.
+* Normal eye: parallel rays from a distant object are focused on the retina; in front of the retina is short sight, behind it is long sight.
+* The eye's converging lens forms a real, inverted, diminished image on the retina.
+== Z | Other points
+MOVE w22_21|8ciii|C
+MOVE s23_21|6aii|C
+MOVE w19_21|10ciii|D
+MOVE s24_11|MCQ25|A
+MOVE s14_22|6aii|A
+MOVE w22_21|8cii|D
+MOVE w22_21|8ciii|D
+MOVE s14_22|6bii|R
+MOVE w24_22|5bi|A

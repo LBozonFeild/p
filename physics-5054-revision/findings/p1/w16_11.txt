@@ -1,0 +1,27 @@
+# P1 w16_11 | main sheets 1-2 and rest sheet viewed; Q1, 2, 9, 19, 22, 30, 31, 32, 34, 39 are identical to w16_12 questions; Q3 to w21_12 Q5; Q8 to w20_12 Q15; Q16 to s25_11 Q16; Q26 to w23_12 Q29
+4 C 1.2 {F} constant acceleration from rest gives a distance–time graph that curves upwards with increasing gradient (time on the x-axis, distance on the y-axis)
+5 A 1.3 a mass experiences a force (its weight) because it is in a gravitational field; mass (kg) and weight (N) are different kinds of quantity with different units
+6 C 1.5.1 {F} a Newton's third-law pair: two forces of the same type acting on two different bodies (A attracts B, B attracts A); the weight and the normal contact force on one object are not such a pair
+7 C 1.1 {F} the resultant of two forces at right angles is the diagonal of the rectangle starting from the point where both forces start, with the arrow pointing away from that point
+10 B 1.7.1 m = ΔGPE ÷ (g × h) = 4500 ÷ (10 × 1.8) = 250 kg
+11 C 1.7.5 power = work done ÷ time taken
+12 D X1.8 force = pressure × area
+13 D X1.8 p = hρg
+14 C X2.1 {F} compressing a gas
+15 B X2.1 gas pressure
+17 B X2.2 {F} changes of state
+18 C X2.2 latent heat of vaporisation
+20 A X2.3 radiation needs no medium
+21 C 3.1 light is a transverse wave; sound is a longitudinal wave
+23 C 3.2.1 {F} rotating a mirror through 10° rotates its normal through 10°, so the angle of incidence (measured from the normal) changes by 10°: here from 40° to 50°
+24 C 3.2.2 {F} sin r = sin 36° ÷ 1.5, r = 23°; the deviation from the original straight-line path is d = i − r = 36° − 23° = 13°
+25 B 3.2.3 {F} a ray parallel to the principal axis is refracted through the principal focus, so the focal length is the distance from the lens to where that ray crosses the axis (20 cm), not the image distance
+27 D 3.2.4+3.3 yellow light has a lower frequency and a longer wavelength than blue light
+28 B 3.3 gamma rays and X-rays are both used to kill cancerous cells and to detect cracks in metals
+29 A 3.4 a louder sound has a larger amplitude
+33 D X4.5 {F} coil resistance and turning effect
+35 A X4.5 transformer materials
+36 A XOLD {F} cathode-ray tube
+37 D XOLD {F} resistor colour code
+38 A X5 nuclear radiations
+40 A X5 neutral atom

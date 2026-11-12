@@ -1,0 +1,46 @@
+# P2 s22_22 | figs viewed: 4.1 (white ray dispersed: red at top near P, violet below near Q), 5.1, 5.2 (thermistor X in series with Y and 6.0 V), 7.1 (0 → 16 m/s in 10 s, constant to 20 s, zero at 24 s), 8.1–8.4
+1a | 1.3 | W = mg = 60 × 10 = 600 N [B1]
+1b | 1.3 | differences between mass and weight, any 2: weight is a vector (has direction), mass is a scalar; mass is the amount of matter / substance; weight is a force (= mass × gravitational field strength); weight varies with position / gravitational field strength, mass does not; mass resists change of motion (inertia) [B2]
+1ci | 1.5.1 | constant speed while being pulled: friction with the water / drag / air or water resistance mentioned [B1] ;; the forces balance / cancel, so there is no resultant force [B1]
+1cii | 1.5.1 | resultant force = 70 − 50 = 20 N [C1] ;; a = F/m [C1] ;; 20 ÷ 60 = 0.33 m/s² [A1]
+2a | 1.7.1 | gravitational potential energy of falling pieces is transferred to, any 2: kinetic energy; heat / thermal / internal energy; sound [B2]
+2bi | 1.7.1 | PE = mgh [C1] ;; 0.150 × 10 × 1.2 = 1.8 J (mass in kg) [A1]
+2bii | X2.2 | specific heat capacity
+2biii | X2.2 | energy losses
+3a | X1.8 | pressure definition
+3b | X2.1 | molecular pressure
+3ci | X1.8 | P = F/A added
+3cii | X2.1 | P1V1 = P2V2
+4a | 3.2.2 | angle of refraction: an angle measured to / from the normal [C1] ;; the angle between the refracted ray and the normal [A1]
+4b | 3.2.2 | n = sin i ÷ sin r [M1] ;; sin 40° ÷ sin 25° = 1.5 [A1]
+4c | 3.2.4 | {F} refractive index is smaller for red light than for violet light [B1] ;; red has the larger angle of refraction / bends (refracts) less towards the normal, for the same angle of incidence [B1]
+4d | 3.3 | {F} invisible radiation just beyond the red end of the spectrum is infrared and just beyond the violet end is ultraviolet (both needed) [B1]
+5a | X4.3 | parallel circuit p.d. and current
+5bi | X4.4 | P = VI
+5bii | 4.2.4+X4.3 | {F} V = IR in any form (or potential divider formula) [C1] ;; p.d. across thermistor = 0.0020 × 600 = 1.2 V so p.d. across the series resistor = 6.0 − 1.2 = 4.8 V (or total resistance 6.0 ÷ 0.0020 = 3000 Ω, minus 600 Ω) [C1] ;; 4.8 ÷ 0.0020 = 2400 Ω [A1]
+5biii | X4.3 | thermistor divider
+6ai | X4.1 | like poles repel
+6aii | X4.1 | induced magnetism
+6b | X4.5 | field round wire
+7ai | 1.2 | {F} constant acceleration (1.6 m/s²) for 10 s / speeds up until it reaches 16 m/s [B1] ;; constant speed of 16 m/s (zero acceleration) from 10 s to 20 s [B1] ;; constant deceleration (4 m/s²) from 20 s to 24 s [B1]
+7aii | 1.2 | distance = area under the speed-time graph (triangle / trapezium formula used) [B1] ;; one section correct: 80 m accelerating, or 160 m at constant speed, or 32 m decelerating [C1] ;; total 272 m (270 m) [A1]
+7aiii | 1.2 | average speed = total distance ÷ total time [C1] ;; 272 ÷ 24 = 11 m/s [A1]
+7aiv | 1.2 | steady speed covering the same distance in the same time: a horizontal line on the speed-time graph (from 0 to 24 s at any level, or at the average speed for at least 16 s) [B1] ;; horizontal line from 0 to 24 s at the average speed (11 m/s) [B1]
+7bi | 1.5.2 | thinking distance is proportional to speed: 27 m at 60 km/h (9 m for every 20 km/h) [B1]
+7bii | 1.5.2 | constant reaction time is shown by thinking distance being proportional to speed / increasing uniformly with speed / time = thinking distance ÷ speed being the same [C1] ;; supported by at least two calculated values of thinking distance ÷ speed (all 0.45), or doubling the speed doubles the thinking distance, or each extra 20 km/h adds 9 m [A1]
+7biii | 1.5.2 | tired driver: thinking distance increases [B1] ;; braking distance does not change [B1]
+8ai | 3.1 | number of crests produced = frequency × time = 2.0 × 1.5 = 3 [B1]
+8aii | 3.1 | {F} height-time graph for one point on a wave: approximately sinusoidal with amplitude 3 mm (measured from the undisturbed level) [B1] ;; one complete wave takes 0.5 s (period = 1/f), i.e. three waves in 1.5 s [B1]
+8bi | 3.1 | to increase the frequency in a ripple tank: move the bar up and down more often per second / faster (stronger, shorter, tighter or more rubber bands; lighter bar) [B1]
+8bii | 3.1 | frequency increased in the same depth of water: speed remains the same [B1] ;; wavelength decreases [B1]
+8ci | 3.1 | to show refraction in a ripple tank: a piece of plastic / glass plate (block) put in the tank to make a shallower region [B1]
+8cii | 3.1 | {F} drawing refraction of water waves: crests parallel to the bar reaching a labelled boundary [B1] ;; correct change of direction of the plane crests at the boundary (no direction change if the crests are parallel to the boundary, but the wavelength still changes) [B1] ;; different wavelength before and after the boundary, constant within each region [B1]
+8di | 3.3 | t = distance ÷ speed [C1] ;; distance = 2 × 560 km (up to the satellite and down again), in metres [C1] ;; 1.12 × 10⁶ ÷ 3.0 × 10⁸ = 0.0037 s [A1]
+8dii | 3.3 | property common to infrared and microwaves, one of: can be reflected / refracted; same speed in a vacuum; travel in a vacuum (need no medium); electromagnetic; transverse; carry energy / cause heating; longer wavelength (lower frequency) than visible light [B1]
+8diii | 3.2.2 | advantage of an optical-fibre link over a satellite link: less likely to be hacked / intercepted (more secure); more channels / greater bandwidth / more data; transmission less likely to be interrupted; no expensive satellites needed [B1]
+9ai | X5 | helium atom vs ion
+9aii | X5 | alpha vs ion
+9aiii | X5 | decay numbers
+9b | X5 | detecting alpha and beta
+9ci | X5 | half-life definition
+9cii | X5 | half-life calc

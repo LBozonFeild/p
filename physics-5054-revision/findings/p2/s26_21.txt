@@ -1,0 +1,44 @@
+# P2 s26_21 | figs viewed: 1.1 (blank speed-time grid), 2.1, 3.1, 4.1 | MS marks column prints only "1" per part in this file; marks per point inferred from QP [n] and separate MS lines
+1ai | 1.2 | uniform acceleration = same change in speed/velocity in the same time / in unit time / in 1 s [1] (A any named time period; same increase in speed over time; straight line on speed-time graph; rate of change of velocity is constant; speed increasing at a constant rate. I formula alone; "speed increases steadily"; "accelerates at a constant rate")
+1aii | 1.2 | a = Δv ÷ t in any form [1] ;; 0.8 m/s² (16/20) [1]
+1b | 1.2 | {F} plotting speed-time graph from described motion: straight line from (0,0) to (20,16) [1] ;; horizontal line from (20,16) to (100,16) (zero acceleration = horizontal line) [1] ;; straight line from (100,16) falling by 6 m/s over 20 s (Δv = a×t = 0.30×20; ends at (120,10)) [1] (points within ½ square; penalise a wrongly plotted value once only, ecf from a misplotted point)
+1c | 1.5.1 | accelerating: forwards (driving/thrust) force larger than backwards force (A mention of resultant force forwards) [1] ;; decelerating: resistive force acts alone OR backwards force > forwards force (A resistive force / force from brakes / air resistance / resistance with road as backwards force) [1] (I "forces are unbalanced", "resultant force acts", just "backwards force increases")
+2ai | 1.7.1 | gravitational (potential) energy to kinetic energy (a change is needed, A GPE to KE) [1] ;; kinetic energy to internal energy (A heat/thermal energy) when speed is unchanged at bottom [1] (I energy to sound; back to GPE in splashes)
+2aii | X2.1 | temperature and average random speed of particles both lower at top than bottom [1]
+2bi | 1.7.1 | KE = ½mv² algebraic [1] ;; ½ × 2.5 × 8² numerical substitution (earns the formula mark too) [1] ;; 80 J [1]
+2bii | 1.7.1 | GPE (= KE) = mgh, numerical or algebraic (A use of distance = v²/2g) [1] ;; 3.3 m (3.265; accept 3.2 if g = 10 N/kg used) [1]
+3ai | X1.8 | F = PA; 12 N
+3aii | X1.8 | plunger stationary: pressure/force outside = inside; atmospheric pressure gives zero resultant force
+3aiii | 1.6 | momentum = mv: 2.4 × 10⁻²³ (A 2.35, 2.3 × 10⁻²³; I formula mv alone) [1] ;; unit kg m/s or N s (not kg/m/s) [1]
+3aiv | X2.1 | gas pressure: many particles; frequent collisions with wall
+3b | X2.1 | p1V1 = p2V2; 1.8 × 10⁵ Pa
+4a | 3.3 | any 2 properties common to all electromagnetic waves: can reflect/diffract/refract; travel through a vacuum / need no medium; transverse; oscillating electric and magnetic fields; travel at the speed of light / same speed in vacuum (or air) [2] (I no mass, no charge)
+4b | 3.3 | any 2: X-rays pass through the spaces / make the image darker (black); most/all X-rays absorbed by / cannot penetrate teeth (white); X-rays partially absorbed by tissue / some pass through tissue (grey) [2] (answers in terms of X-rays reflected: max 1)
+4ci | 3.4 | particles oscillate / vibrate (A backwards and forwards / to and fro / any clear oscillation) [1] ;; longitudinal: backwards and forwards in the direction of the sound / parallel to direction of travel of the wave, or formation of compressions and rarefactions (I left and right, up and down) [1]
+4cii | 3.4 | d = vt algebraic or numerical (A ½vt; ½ × 8.0×10⁻⁵ × 1500; 0.12 m; 12 cm for this mark) [1] ;; echo: distance = ½ × v × t = 0.060 m [1]
+4ciii | 3.1 | wavelength decreases (when wave slows on entering air) [1] ;; v = fλ and frequency stays the same (A frequency same and v ∝ λ), or each complete wave travels less distance before the next arrives [1]
+5ai | 3.1 | ripple tank: move/vibrate the bar up and down continuously to make the wave (A shake bar; bar hits/disturbs water. I put bar in water; move support; "stretch and release bands") [1]
+5aii | 3.1 | diffraction demo: use a barrier with a slit / two obstacles with a gap / the edge of a barrier in the water; waves bend round obstacle (must mention edge or gap or slit; I just "create a hole", "have a gap", original bar as obstacle) [1]
+5aiii | 3.1 | count number of oscillations/crests passing a point in a measured time, or measure time for a given number of waves, or find the time for one wave (period) [1] ;; divide number of waves by the time in seconds, or count crests/wavefronts passing in one second, or f = 1/period [1] (I v = fλ unless wavelength and speed measurements described; just "find period"; "f is number of waves per second" with no measurement = 1 mark)
+5bi | 3.1 | amplitude marked from top (or bottom) of wave to the middle (undisturbed surface), not crest-to-trough [1]
+5bii | 3.1 | T = 1/f or 0.50 s seen [1] ;; top to bottom of wave is half a period = 0.25 s [1]
+5biii | 3.1 | speed of oscillating particle increases as it moves down to the middle [1] ;; fastest in the middle, or decelerates after the middle / near the bottom, or stops at the bottom [1]
+6ai | X4.4 | I = P/V; 3.3 A each lamp; battery current twice = 6.7 A (parallel)
+6aii | 4.2.4 | R = V/I in any form (A R = P/I², R = V²/P) [1] ;; 1.8 Ω using battery current (ecf; current in one lamp accepted for 1st mark only) [1]
+6aiii | 4.2.4 | temperature of filament rises / lamp heats up (A lamp releases heat; I heat lost, wires get hot) [1] ;; resistance of filament increases (must be an increase; I "resistance is high") so current falls [1]
+6b | X2.3 | convection: hot gas rises / less dense
+7a | X4.5 | relay: current in coil; core magnetised; attracts armature
+7b | X4.5 | magnetism stops; springy metal pushes contacts apart
+7c | X4.1 | steel permanent magnet; relay would stay on
+7d | X4.4 | relay keeps low voltage/current at switch
+8ai | X5 | harm of ionising radiation
+8aii | X5 | alpha attracts electron; atom loses electron
+8aiii | X5 | safety precautions
+8bi | X5 | 4/2 He
+8bii | X5 | beta decay: proton number +1, neutron number −1
+8c | X5 | penetration table
+9ai | X6 | planets orbit at different speeds/periods
+9aii | X6 | 4.0 × 10⁷ km
+9b | X6 | mass vs orbital period data
+9c | 1.4 | V = M/d (density equation rearranged) in any form [1] ;; 1.1 × 10²¹ m³ [1]
+9d | X6 | orbital speed = 2πR/T

@@ -1,0 +1,111 @@
+# Audit exceptions accepted after reading (key <tab> reason).  Used by tools/audit_notes.py.
+# B = findings point whose wording is not matched word-for-word by the checklist; C = checklist line whose words are not all in the findings;
+# N = number in a checklist line not found literally in the findings.
+B|1.7.1|w16_11|MCQ10|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.1|s23_21|7cii|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.1|w04_2|5b|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.4|s26_21|4cii|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.3|w21_21|2a|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.5.1|s23_21|1b|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.5.3|w22_21|1c|1	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.1|w13_22|5bii|1	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.2.2|s10_22|5c|1	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.2.2|s12_22|5c|1	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.1|s13_12|MCQ23|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.4|s18_11|MCQ25|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.2|s26_22|1b|1	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.1|s20_12|MCQ4|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.1|s21_12|MCQ1|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.4|s21_12|MCQ29|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.4|w22_22|4a|2	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.1|s16_12|MCQ1|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.1|w19_12|MCQ3|0	units of quantities outside the selected sections (latent heat, pressure) left out; the remaining units are in the checklist
+B|1.3|s14_11|MCQ8|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.3|s14_12|MCQ7|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.3|s15_11|MCQ5|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.3|s19_12|MCQ9|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.3|s20_11|MCQ9|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.5.5|w13_22|9bi|2	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.7.5|w10_21|5aii|0	the form E = VIt (outside the selected sections) left out; E = Pt is in the checklist
+B|3.1|s24_21|4c|1	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.2.2|w07_2|11aii|2	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.2.4|w24_21|4ci|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|4.2.1|w11_21|5bi|1	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|4.2.2|s14_21|11aiii|3	the form E = VIt (outside the selected sections) left out; E = QV is in the checklist
+B|4.2.2|s17_11|MCQ36|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|4.2.2|w10_21|7b|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.1|s14_11|MCQ2|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.1|s18_11|MCQ2|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.3|s21_12|MCQ6|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.3|s16_22|6ai|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.2|s05_2|1bi|1	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.1|w17_22|1a|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.1|w07_1|MCQ1|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.1|w10_22|5a|0	step outside the selected sections (reading an oscilloscope time-base) deliberately left out; f = 1/T is in the checklist
+B|1.1|s15_11|MCQ6|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.3|w24_12|MCQ5|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.1|s10_12|MCQ2|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.2|w16_22|1bii|2	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.4|w19_12|MCQ28|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|3.4|w23_11|MCQ22|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|4.2.2|w22_21|6bii|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.5.5|w04_2|9biv|6	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.4|s22_11|MCQ5|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.1|w24_12|MCQ1|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.5.5|w12_22|1a|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.5.5|w21_22|8bii|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.1|w22_12|MCQ1|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.1|s20_12|MCQ2|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.1|s23_11|MCQ1|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|4.2.4|s16_22|9c|1	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.1|s23_12|MCQ1|0	read: answer-only, formula-only or question-specific wording; the method or statement is in the checklist of the section
+B|1.5.5|s25_22|7dii|0	motor-specific alternatives (magnetic field, outside the selected sections) left out; the perpendicular-distance point is in the checklist
+C|1.3|B|Use g = 9.8 N/kg, the value in the current syllabus; older p	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.7.5|C|E = P × t in any form (C1); answer (A1). P = W/t is accepted	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.1|R|Scale drawing, third mark: the size of the resultant is insi	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.2|B|Final answer: 2 significant figures, correctly rounded (2.95	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.3|B|Use the mass in kilograms.	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.7.4|A|Put both powers (or both energies) in the same unit before d	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|3.2.2|C|sin c = 1/n in any form (C1 or B1); answer (A1 or B1). n = 1	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|4.2.4|A|A current of a few milliamperes is best read on the range th	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|4.2.4|A|Put the current in amperes (mA to A) and the resistance in o	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.2|A|Change minutes to hours (or to seconds) so that the units of	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.2|D|Plotted points must be within half a small square; a wrongly	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.5.5|K|The ratio of two balancing weights is the inverse of the rat	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.6|B|A force is needed to change momentum (C1); for a stream that	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.6|B|Change the time to seconds (for example ms to s) before divi	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.6|C|"Show that momentum is conserved": p = mv, the initial momen	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.7.1|B|Speed from kinetic energy: v² = 2Ek ÷ m (C1), then the squar	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.7.4|A|A correct number with a wrong unit prefix (2.6 × 10⁶ written	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|3.2.2|B|If the angle between the ray and the surface is asked for, s	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|3.2.2|D|Read the question: where it says "other than cheaper and lig	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|4.2.3|A|Charge delivered = energy ÷ e.m.f. (C1, A1).	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.2|C|Comparing an accelerating part with a decelerating part: com	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.1|C|One complete swing is there and back (from one end to the ot	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.1|E|Capital letters matter: MW is megawatt, mW is milliwatt; ms 	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.4|A|On a plot of mass against volume, the point with the smalles	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.4|B|For several identical objects measured together, use the tot	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.1|A|Stating the difference (1 mark): a vector has a direction; a	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.2|G|Typical marks: area idea or formula (C1 or B1); one section 	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.4|B|If the weight is given, find the mass from m = W ÷ g before 	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.4|K|Change the units first so that they agree (2.0 mm = 0.20 cm;	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.4|K|Volume of a column or pipe = cross-sectional area × length (	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.5.5|K|When the result has to be compared with a limit, state the c	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.6|A|"Show that" p²/2m = Ek: substitute p = mv to give m²v²/2m (B	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.6|C|Explosion or separation into two parts: momentum is conserve	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|3.2.4|C|Infrared and ultraviolet are not visible colours.	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|3.3|S|Inside a medium use the speed in that medium: λ = v/f with t	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|3.4|C|Distance to a reflector = speed × time ÷ 2, because the soun	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|4.2.4|A|Where the current has to be found first from other data, tha	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.1|R|Scale drawing, fourth mark (when a direction is asked for): 	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.4|A|A cube with sides twice as long has 2³ = 8 times the volume:	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.1|C|The most accurate method times a larger number of complete o	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|1.7.1|B|Use the total mass that is moving (the combined mass and com	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|3.2.2|C|Total internal reflection at 70° shows that the critical ang	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|3.3|C|A container for microwave cooking must let microwaves pass t	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|3.3|A|Changes across the spectrum from radio waves to gamma rays (	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|3.3|X|A shadow image of the bones is formed: the X-rays travel in 	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|3.3|X|Dental X-ray image (any two): X-rays pass through the spaces	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|3.2.3|D|Model of a diverging lens made from prisms: each prism is in	read: generalised wording or exam-technique remark drawn from the findings of the section
+C|3.1|C|A wave of smaller frequency at the same speed is drawn with 	read: generalised wording or exam-technique remark drawn from the findings of the section
+N|3.4|D|Range of audible frequencies for a healthy human ear: about 	read: the findings give the tolerance as 18 000–22 000 Hz

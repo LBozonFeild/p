@@ -1,0 +1,27 @@
+# P1 s13_11 | main sheets 1-2 and rest sheet viewed; zoom viewed for Q20; Q1, 3, 4, 7, 9, 12, 14, 15, 18, 19, 25, 29, 34 are identical to s13_12 questions; Q21 to w18_12 Q23
+2 A 1.1 for an accurate micrometer measurement take the reading and then add or subtract the zero error
+5 C 1.5.1 {F} the contact (reaction) force from a frictionless surface acts at right angles to the surface, not vertically and not along the slope
+6 C 1.4 density = mass ÷ volume; volume of the sheet = area × thickness = 10 000 × 0.011 = 110 cm³ (0.11 mm = 0.011 cm); density = 80 ÷ 110 = 0.73 g/cm³
+8 D X1.8 {F} pressure = force ÷ area
+10 B X5 energy is released by nuclear fission in a power station and by nuclear fusion in the Sun
+11 B 1.7.2 {F} work done on a lifted object = weight × vertical height gained = 50 × (1.8 − 0.6) = 60 J
+13 C X2.3 {F} convection
+16 D X2.1 gas pressure
+17 C 3.1 {F} when a water wave moves into shallower water its frequency remains the same and its speed decreases
+20 C 3.2.2 {F} the angle of incidence is measured from the normal: 90° − 30° = 60° when the 30° is between the ray and the surface; sin r = sin 60° ÷ 1.5, r = 35°
+22 C 3.3 all electromagnetic waves, including all X-rays, travel at the same speed in air (or a vacuum)
+23 C 3.4 the range of audible frequencies for a human is about 20 Hz to 20 000 Hz
+24 D 3.4 sound travels fastest in solids, slower in liquids and slowest in air
+26 B X4.1 {F} magnetic screening
+27 C X4.1 {F} compass near a magnet
+28 D 4.2.1 {F} a positively charged rod near an isolated metal sphere induces negative charge on the side nearest the rod and positive charge on the far side
+30 B 4.2.3 1 V = 1 J/C (energy transferred per unit charge)
+31 A 4.2.4 {F} the resistance of a metal wire increases with temperature; on a straight-line graph equal temperature rises give equal increases in resistance: 1.00 Ω, 1.40 Ω, 1.80 Ω at 0, 100, 200 °C
+32 D 4.2.3+X4.3 {F} identical cells in parallel give the same e.m.f. as one cell and cells in series add; two identical lamps in parallel across one cell each carry the same current as a single lamp, so the current from the cell doubles (2 A)
+33 B X4.4 {F} kettle wiring
+35 D X4.5 {F} commutator
+36 A X4.5 {F} induction in a coil
+37 C XOLD cathode-ray oscilloscope
+38 A XOLD capacitor in a time-delay circuit
+39 B X5 background radiation
+40 C X5 neutron numbers

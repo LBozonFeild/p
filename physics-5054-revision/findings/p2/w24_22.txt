@@ -1,0 +1,41 @@
+# P2 w24_22 | figs viewed: 5.1 (full-scale lens grid, F1 and F2 1.8 cm from lens centre), MS p7 (Q5 scheme, marks B1 B1 B1 B2 B1 C1 A1 B1), 1.1, 9.1
+1ai | 1.6 | resultant force = change (increase) in momentum per unit time / rate of change of momentum [B1]
+1aii | 1.6 | F = change in momentum ÷ time = 180 × 30 ÷ 2.0 [C1] ;; 2700 N [A1]
+1bi | 1.5.1 | Newton's third law applied: the pump / engine exerts a (backward) force on the water [B1] ;; the water exerts an opposite (forward) force on the pump / jet ski [B1]
+1bii | 1.5.1 | a = F/m using the total mass: 2700 ÷ (70 + 280) [C1] ;; 7.7 m/s² [A1]
+1c | 1.7.1 | KE = ½mv² [C1] ;; ½ × (70 + 280) × 20² – total mass substituted [C1] ;; 70 000 J [A1]
+2a | X1.8 | pressure = mg/πr²
+2b | X1.8 | pressure-time sketch
+3a | X2.3 | convection
+3bi | X2.3 | conduction in non-metal
+3bii | X2.3 | trapped air
+4ai | X1.8 | F = pA
+4aii | X1.8 | atmospheric pressure balances
+4bi | X2.1 | gas pressure and volume
+4bii | X2.1 | p1V1 = p2V2
+5a | 3.2.3 | diverging lens cross-section: lens drawn thinner in the middle than at the edges [B1]
+5bi | 3.2.3 | {F} focal length read from full-scale diagram as distance from lens centre to principal focus = 1.8 cm [B1]
+5bii | 3.2.3 | object drawn as a vertical arrow of the stated height at the stated distance from the lens, standing on the principal axis [B1]
+5biii | 3.2.3 | {F}{M} any two construction rays from the tip of the object: ray parallel to the principal axis refracted through the far principal focus F₂; ray straight through the optical centre undeviated; ray through the near principal focus F₁ emerging parallel to the axis [B2] ;; image arrow drawn from the (sensible) intersection of the rays to the principal axis [B1]
+5biv | 3.2.3 | linear magnification = image height ÷ object height (measured from the drawn image) [C1] ;; value in range 1.2 to 1.8 (1.5 expected for object at 3.0 cm, f = 1.8 cm) [A1]
+5bv | 3.2.3 | image is real because it is formed by converging light rays (rays actually meet) [B1]
+6a | X4.5 | relay coil magnetic field
+6b | X4.5 | relay switching
+6ci | 1.7.5 | E = Pt with time in seconds: 40 × 2.0 × 60 [C1] ;; 4800 J [A1]
+6cii | 4.2.4 | I = P/V = 40 ÷ 12 = 3.3 A [C1] ;; R = V/I = 12 ÷ 3.3 [C1] ;; 3.6 Ω [A1]
+7a | X4.5 | a.c. voltage-time graph
+7bi | X4.5 | soft iron core
+7bii | X4.5 | transformer induction
+7biii | X4.5 | turns ratio
+8ai | X5 | alpha composition
+8aii | X5 | helium nucleus
+8bi | X5 | neutron number
+8bii | X5 | electron number
+8c | X5 | half-life calc
+8di | X5 | gamma undeflected
+8dii | X5 | gamma undeflected
+9ai | 1.2 | speed = distance ÷ time (any relevant distance ÷ any relevant time) [C1] ;; circular path: v = 2πr ÷ T = 2π × 6.4 × 10⁶ ÷ (24 × 3600) with time in seconds [C1] ;; 470 m/s [A1]
+9aii | 1.2 | circumference of the circular path is smaller (further from the equator) [B1] ;; time for one rotation / rotation period stays the same (so speed is less) [B1]
+9bi | X6 | gravitational attraction of Sun
+9bii | X6 | force varies with distance
+9biii | X6 | GPE greatest so KE smallest

@@ -1,0 +1,48 @@
+# P2 w15_22 | figs viewed: 1.1, 2.1, 2.2 (blank extension-load axes), 3.1, 7.1 (ray entering a vertical side at 35° to the side, 33° refraction, then meeting the bottom edge at B), 9.1, 9.2 (speed rises with decreasing gradient to 40 m/s at about 6.5 s, level to 11.0 s, then drops to zero) | not viewed: 4.1, 6.1, 6.2, 10.1, 11.1, 11.2
+1a | 1.4 | mass of water = full mass − empty mass = 6500 − 4100 = 2400 kg; V = m ÷ density [C1] ;; 2400 ÷ 1000 = 2.4 m³ [A1]
+1bi | 1.7.1 | vehicle accelerating: the energy store that decreases is fuel / chemical (potential) energy [B1]
+1bii | 1.7.1 | some of it is transferred to heat / thermal energy [B1] ;; some to kinetic energy (of the vehicle) [B1]
+1c | 1.7.1 | g.p.e. gained = mgh using the mass of the water only = 2400 × 10 × 850 [C1] ;; 2.0 × 10⁷ J [A1]
+2a | 1.5.1+1.5.3 | effects of a large force on a solid surface, any two of different kinds: it distorts / changes shape (stretches, bends, deforms); it is compressed / changes size, volume or density; its temperature rises [B2]
+2bi | 1.5.3 | {F} extension-load sketch taken well beyond the limit of proportionality: straight line from the origin [B1] ;; then an upward curve, with the point where the curve begins labelled as the limit of proportionality [B1]
+2bii | 1.5.3 | load removed after stretching far beyond the limit: the spring has a permanent extension – it is longer than it was originally [B1]
+3a | X1.8 | hρg
+3bi | X1.8 | atmospheric pressure
+3bii | X1.8 | F = pA
+3c | 1.1 | a vector has a direction; a scalar does not [B1]
+4a | X2.3 | insulator
+4bi | X2.3 | conduction
+4bii | X2.3 | convection
+5ai | XOLD | thermometric property
+5aii | XOLD | thermometric properties
+5bi | XOLD | ice point
+5bii | XOLD | calibration
+6a | X2.1 | gas pressure
+6b | X2.1 | gas pressure
+7a | 3.2.2 | {F} angle of incidence is measured from the normal: 90° − 35° = 55°; n = sin i ÷ sin r = sin 55° ÷ sin 33° [M1] ;; 1.5 [A1]
+7bi | 3.2.2 | condition for total internal reflection: angle of incidence greater than the critical angle (light travelling from a denser to a less dense medium) [B1]
+7bii | 3.2.2 | {F} after total internal reflection the ray is drawn with angle of reflection equal to angle of incidence, travelling to the next face where it leaves the block (no second total internal reflection) [B1]
+8a | X4.4 | P = VI
+8bi | 1.7.5 | E = Pt with time in seconds = 6210 × 30 × 60 = 1.1 × 10⁷ J [B1]
+8bii | X4.4 | cost of electricity
+9a | 1.3 | W = mg = 1.2 × 10 = 12 N [B1]
+9bi | 1.5.2 | falling object: air resistance is zero at the instant of release (speed zero) [B1] ;; at terminal velocity air resistance equals the weight (12 N) [B1] ;; air resistance increases as the speed increases [B1]
+9bii | 1.7.1 | falling at terminal velocity: gravitational potential energy is transferred to thermal energy (kinetic energy of the air) – the object's kinetic energy does not change [B1]
+9biii | 1.7.1 | {F} K.E. = ½mv² [C1] ;; with the terminal speed read from the graph: ½ × 1.2 × 40² [C1] ;; 960 J [A1]
+9ci | X2.2 | latent heat
+9cii | X2.2 | energy losses
+9d | X2.1 | ice vs water
+10ai | 4.2.1 | plastic is an electrical insulator because it has no free electrons (all its electrons are bound) [B1]
+10aii | X4.1 | magnetic materials
+10bi | X4.5 | induction
+10bii | 4.2.4+4.2.2 | V = IR with current in amperes = 0.000045 × 1.2 [C1] ;; 5.4 × 10⁻⁵ V [A1] ;; Q = It = 0.000045 × 0.14 [C1] ;; 6.3 × 10⁻⁶ C [A1]
+10ci | X4.5 | faster cutting
+10cii | 4.2.2 | same charge passes when the current is doubled for half the time – the product I × t is the same [B1]
+10d | X4.5 | reversed current
+11a | X5 | atom
+11bi | X5 | beta decay
+11bii | X5 | ionising effects
+11biii | X5 | deflection
+11ci | X5 | background
+11cii | X5 | background sources
+11ciii | X5 | half-life

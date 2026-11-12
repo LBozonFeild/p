@@ -1,0 +1,37 @@
+# P1 s05_1 | main sheets 1-2 and rest sheets 1-2 viewed; zoom viewed for Q7, 25, 32; Q3 is identical to w08_1 Q2; Q14 to w08_1 Q21; Q19 to s10_12 Q19; Q22 to w25_11 Q22
+1 D 1.1 vernier calipers (inside jaws) measure the internal diameter of a pipe in a single measurement
+2 B 1.5.2+1.2 {F} speed–time graph for a body falling to terminal velocity: the speed rises from zero with a decreasing gradient and levels off at a constant value
+4 C 1.3 weight = mass × gravitational field strength = 10 × 9.8 = 98 N
+5 B 1.4 {F} for samples of one material, mass is proportional to volume: a straight line through the origin (its gradient is the density)
+6 A 1.5.5 {F} moments about the wheel: F × (0.75 + 0.75) = 150 × 0.75, so F = 75 N (the distance of each force is measured from the pivot)
+7 B 1.5.6 {F} a full glass is least stable when its centre of gravity is highest above a narrow base: a wide bowl on top of a tall stem
+8 C 1.5.3 extension is proportional to load while equal load steps give equal extension steps (3 cm per 2 N up to 10 N); the first step that is larger (10 N to 12 N gives 5 cm) contains the limit of proportionality
+9 B 1.1 force and velocity are both vectors
+10 C 1.7.1 {F} a ball rolling on a curved track has maximum kinetic energy at the lowest point, where its gravitational potential energy is least
+11 D XOLD mass–energy equivalence
+12 A X1.8 liquid pressure
+13 C X1.8 pressure of a table
+15 C XOLD {F} thermometer sensitivity
+16 A X2.2 specific heat capacity
+17 D X2.2 {F} expansion of a lid
+18 B X2.3 {F} black and shiny radiators
+20 C 3.1 {F} v = fλ = 2.5 × 0.60 = 1.5 m/s; time = distance ÷ speed = 3.0 ÷ 1.5 = 2.0 s
+21 D 3.2.1 {F} the image in a plane mirror is as far behind the mirror as the object is in front: the chart is 2 + 3 = 5 m from the mirror, so its image is 5 m behind the mirror and 5 + 2 = 7 m from the patient
+23 D 3.3 all electromagnetic waves travel at the same speed in a vacuum (they are transverse, differ in frequency and most cannot be seen)
+24 C 3.4 {F} on a pressure–distance graph for a sound wave a rarefaction is a point of minimum pressure (below atmospheric) and the wavelength is the distance between two neighbouring pressure peaks (compressions), not the height of a peak
+25 C X4.1 {F} field direction near a bar magnet
+26 B 4.2.1 {F} a rod that attracts a positive strip and repels a negative strip is negative (only repulsion proves the sign of a charge); a rod that repels neither strip is uncharged
+27 C 4.2.3 the e.m.f. of a cell is the work done in the circuit for each unit of charge that passes
+28 D X4.3 {F} two identical lamps in parallel across one cell each carry 1 A, so an ammeter in the main circuit reads 2 A (cells in parallel give the same e.m.f.; two cells with two lamps in series still give 1 A)
+29 A X4.3 {F} circuit symbols
+30 A X4.4 {F} fuse position
+31 C X4.5 {F} force on a wire with a.c.
+32 A X4.5 {F} fields of two currents
+33 A X4.5 {F} generator output
+34 A X4.5 transformer action
+35 A X4.5 transmission
+36 D XOLD {F} cathode-ray tube deflection
+37 C X4.3 {F} thermistor potential divider
+38 B X5 {F} absorption of radiation
+39 D X5 fission equation
+40 D X5 alpha scattering

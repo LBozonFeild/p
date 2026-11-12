@@ -1,0 +1,41 @@
+# P1 s26_12 | sheets 1-4 viewed; zoom viewed later for Q19, 34, 35
+1 D 1.1 most accurate way to find the period of a pendulum: time a number of complete oscillations (e.g. 10) with a digital timer and divide by that number
+2 B 1.2 total distance travelled = area under a speed–time graph
+3 D 1.3 mass is a measure of the resistance of an object to a change in its motion (mass = density × volume; mass = weight ÷ g)
+4 C 1.3 weight is a force, so its unit is the newton
+5 D 1.4 {F} density = mass ÷ volume
+6 D 1.4 volume of an irregular solid by displacement = rise in water level (500 − 300 = 200 cm³); density = 400 ÷ 200 = 2.0 g/cm³
+7 C 1.5.1 {F} naming forces: tension acts along a string, a magnet exerts a magnetic force on steel, weight acts vertically downwards
+8 C 1.5.2 terminal velocity: air resistance increases with speed until it balances the weight, so the resultant force and the acceleration are zero
+9 B 1.5.6 {F} the centre of gravity of a container and its contents moves when mass is added: with the centre of gravity inside the sand layer near its top, sand added on top of the layer (and the water lifted above it) moves it upwards
+10 D 1.6 impulse = force × time, unit N s
+11 B 1.7.2 {F} work done by a force = energy transferred to the object it acts on
+12 A 1.7.2 {F} work done by a weight = weight × vertical height moved (not the distance along the slope)
+13 A 1.7.3 a nuclear power station has no furnace in which fuel is burned; it still heats water to steam that turns a turbine, which turns a generator
+14 D X1.8 {F} pressure and area
+15 A X1.8 pressure in a liquid
+16 A X2.2 changes of state
+17 B X2.1 particle model
+18 C X2.1 gas pressure and volume
+19 C X2.2 {F} cooling curve
+20 A 3.1 frequency = number of waves per second, so the number of waves in one minute = 2.0 × 60
+21 D 3.1 v = fλ with SI units: 0.60 × 10⁶ Hz × 500 m = 3.0 × 10⁸ m/s
+22 A 3.1 transverse waves: electromagnetic waves, seismic S-waves, waves on the surface of water; sound and seismic P-waves are longitudinal
+23 C 3.1 {F} water waves refract because their speed changes when the depth changes (frequency unchanged)
+24 D 3.2.1 {F} image in a plane mirror is as far behind the mirror as the object is in front, so moving 1.0 m further away increases the object–image distance by 2.0 m
+25 D 3.2.2 sin c = 1 ÷ n = 1 ÷ 1.5, so the critical angle c = 42°
+26 D 3.3 infrared (like all electromagnetic waves) can travel in a vacuum and also through gases
+27 D 3.3 ultraviolet is ionising radiation (damages surface cells and eyes: skin cancer, cataracts); radio waves are not ionising
+28 A 3.4 echo-sounding: distance = speed × time ÷ 2 = 1500 × 0.32 ÷ 2 = 240 m
+29 B X4.1 magnetic materials
+30 A X4.1 field lines
+31 A 4.2.1 metals are good electrical conductors because they have free electrons that can move
+32 A 4.2.4+X4.3 {F} a lamp is brightest when the current is largest, i.e. when the total resistance in series with it is smallest: a closed switch across a resistor short-circuits it, and two resistors in parallel have a smaller combined resistance than either alone
+33 B X4.4 P = VI
+34 B X4.5 {F} force on a conductor
+35 A X4.5 {F} transformer core
+36 C X5 ions
+37 B X5 alpha scattering
+38 B X6 orbits
+39 B X6 Sun's radiation
+40 C X6 Big Bang

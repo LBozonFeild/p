@@ -1,0 +1,40 @@
+# P1 w14_12 | main sheets 1-2 and rest sheets 1-2 viewed; zoom viewed for Q23; Q13 is identical to s21_12 Q20
+1 D 1.5.2 over a short fall the weight of a heavy object always exceeds the air resistance, so it keeps accelerating and never reaches terminal velocity
+2 C 1.5.2 on a wet road the braking distance and therefore the stopping distance are greater; the thinking distance is unchanged
+3 B 1.5.4 a particle moving in a circular orbit at constant speed has an acceleration (and resultant force) directed towards the centre; its speed is constant but its velocity keeps changing direction
+4 B 1.3 bathroom scales give the mass (50 kg); weight = mg = 50 × 10 = 500 N
+5 C 1.4 {F} density = mass ÷ volume: equal masses in identical beakers, so the liquid filling one third of the depth has one third of the volume and three times the density (3ρ)
+6 A 1.5.6 the stability of an object depends on its base area and the position of its centre of mass
+7 C X1.8 pressure = force ÷ area
+8 C X1.8 {F} manometer measures a pressure difference
+9 C 1.7.1 KE = ½mv² = ½ × 30 × 4.0² = 240 J
+10 B 1.7.2 {F} work done by the pulling force = force × distance moved along the slope in the direction of the force = F × l
+11 D X2.3 free electrons
+12 D X2.3 {F} heat transfer downwards from air to ice
+14 B XOLD {F} thermometer calibration
+15 C X2.1 liquids
+16 C 3.2.2 {F} total internal reflection at 70° means the critical angle is less than 70° and the refractive index of the plastic is greater than that of the surrounding liquid (1.4)
+17 D 3.3 microwaves are used for satellite television
+18 A 3.4 average the repeated echo times: (0.72 + 0.80 + 0.71 + 0.81 + 0.71) ÷ 5 = 0.75 s; d = speed × time ÷ 2 = 320 × 0.75 ÷ 2 = 120 m
+19 B 3.4 ultrasound is used for pre-natal scanning
+20 A X4.1 magnet and unmagnetised bar
+21 D X4.1 {F} permanent magnet from steel
+22 A 4.2.1 {F} an earthed metal sphere near a positive rod becomes negatively charged: electrons are attracted from earth towards the rod (protons do not move)
+23 B 4.2.1 {F} like charges repel: two positively charged metal spheres are pushed apart and the charge on each moves to the side furthest from the other (unlike charges would attract and gather on the near sides)
+24 A 4.2.1 glass, plastic and rubber are electrical insulators; steel is a conductor
+25 B 4.2.4+X4.3 {F} the current leaving the cell equals the current returning; in parallel branches (same p.d.) the smaller resistance carries the larger current
+26 A 4.2.4+X4.3 {F} I = V ÷ total series resistance = 12 ÷ (2.0 + 3.0) = 2.4 A
+27 D X4.3 {F} smallest combined resistance
+28 B X4.4 P = IV
+29 B 1.7.5 the kilowatt-hour is a unit of energy
+30 B X4.4 fuse rating
+31 A X4.5 force between currents
+32 B X4.5 {F} commutator
+33 B X4.5 {F} induced current
+34 D X4.5 {F} generator speed doubled
+35 D X4.3 {F} LDR circuit
+36 C X4.3 {F} potential divider
+37 C X4.5 reed relay
+38 C X5 film badge
+39 D X5 alpha emission
+40 A X5 atoms compared

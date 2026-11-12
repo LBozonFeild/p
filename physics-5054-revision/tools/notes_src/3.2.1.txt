@@ -1,0 +1,42 @@
+ORDER A B R C Z
+== A | Law of reflection; angles measured from the normal | angle|normal|reflect|mirror | 3
+- Angle of incidence: the angle between the incident ray and the normal, at the point where the ray meets the mirror. Angle of reflection: the angle between the reflected ray and the normal.
+- On a diagram: the normal is drawn at right angles to the mirror at the point where the rays meet it (C1); i is marked between the incident ray and the normal and r between the reflected ray and the normal (A1); the reflected ray is drawn at an equal angle on the other side of the normal.
+- Angle of reflection = angle of incidence. When the angle between the ray and the mirror is given: angle of incidence = 90° − that angle (B1); angle of reflection = angle of incidence (B1).
+- A ray that strikes a mirror along the normal (angle of incidence 0°) is reflected back along its initial path.
+- Seeing an object in a mirror: a ray drawn from the object to the mirror and from the mirror to the eye (M1), with the angles of incidence and reflection equal (A1).
+- A mirror at 45° lets a viewer see something overhead while looking horizontally.
+- A mirror behind a lamp reflects light back into the room, so less light is wasted and the room is brighter.
+* The angles of incidence and reflection are measured from the normal, not from the mirror surface.
+* The angle between the incident and reflected rays is 2 × the angle of incidence; the ray is turned through 180° − 2i from its original direction.
+* Rotating a mirror through 10° rotates its normal through 10°, so the angle of incidence changes by 10°.
+* A plane mirror reflects a parallel beam as a parallel beam; the reflected ray stays on the same side of the mirror.
+* A mirror at 45° to a ray turns it through 90°. In a periscope the ray from the object is turned through 90° by the top mirror and through 90° again by the lower mirror, leaving parallel to its original direction; the arrows point from the object to the eye.
+* Light is reflected back along its own path only when it meets the mirror along the normal.
+== B | The image in a plane mirror: characteristics and position | image|virtual|behind|laterally|upright|same size | 2
+- Characteristics of the image in a plane mirror (any two): virtual; the same size as the object (magnification 1); the same distance from the mirror as the object; laterally inverted; upright.
+- The image is behind the mirror, on the opposite side to the object (B1), the same distance from the mirror as the object (B1); it is marked on the line through the object perpendicular to the mirror.
+- Virtual image: it cannot be formed on a screen / there is nothing at the image position (B1); the rays do not come from the image – they only appear to come from it (B1).
+- Distance from the object to its image = twice the distance of the object from the mirror.
+* The image lies on the line through the object at right angles to the mirror (extended if necessary), as far behind the mirror as the object is in front – wherever the observer stands, and even when the object is beyond the end of the mirror.
+* Moving an object 1.0 m further from the mirror increases the object–image distance by 2.0 m.
+* To find how far an image is from an observer, add the distance of the image behind the mirror to the distance of the observer from the mirror.
+* The image is laterally inverted (left and right reversed) but upright.
+== R | Ray diagrams: locating the image and what can be seen | locating an image|traced back|ray drawn|ray diagram|whole image|limit of what|can be seen|reflection point|line of sight|reflects from a plane mirror as though|both reflected rays drawn|to see your feet | 1
+- Locating the image with rays: at least one ray drawn from the object to the mirror (M1 or C1); two rays with correct reflections, i = r (A1); the reflected rays traced back behind the mirror to where they meet (B1); the image marked where the traced-back rays intersect (B1).
+- The image found this way is as far behind the mirror as the object is in front, on the perpendicular from the object to the mirror.
+- The limit of what can be seen in a plane mirror: a ray drawn from the edge of the mirror to the eye (B1); the incident ray to that edge drawn so that the angle of incidence equals the angle of reflection (B1).
+- The smallest mirror in which a person sees their whole image: a ray from the top of the head to the mirror, reflected to the eye (B1); the mirror must reach from where that ray meets it to where the ray from the toes meets it – half the person's height (B1).
+* A ray from the top of an object reflects from the mirror as though it came from the top of the virtual image behind the mirror.
+* Two rays that spread out from a point on the object are still spreading out after reflection, as if from the image; reflected rays drawn parallel, or converging to a point at the eye, are wrong.
+* An image can be seen only if the straight line from the eye to the image passes through the mirror surface.
+* To see your feet the reflecting point is halfway between eye level and the floor; for people the same distance from a mirror, the reflection point is midway between the observer and the person seen.
+== C | Experiments: the law of reflection and finding an image | experiment to verify|finding the image position|search pin | 0
+- Verifying the law of reflection: a ray box (or laser) and a plane mirror – or pins and a mirror (B1); shine a ray at the mirror, or place two pins in front of it (B1); mark the incident and reflected rays, or line up two more pins with the images of the first two (B1); draw the normal and measure the angles of incidence and reflection – they are equal (B1); repeat for other angles (B1).
+- Finding the position of the image: a diagram with the object, mirror and image in roughly the correct positions (B1); at least one ray from the object (or ray box) reflected correctly at the mirror (B1); at least two reflected rays traced back behind the mirror to where they meet – or a search pin moved behind the mirror until there is no parallax between it and the image (B1).
+== Z | Other points
+MOVE w12_22|10diii|A
+MOVE s07_1|MCQ20|A
+MOVE s09_2|5ai|R
+MOVE w09_2|4ai|R
+MOVE w09_2|4aii|R

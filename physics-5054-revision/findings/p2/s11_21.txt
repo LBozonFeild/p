@@ -1,0 +1,52 @@
+# P2 s11_21 | figs viewed: 1.1 (11.5 m/s until 15 s, straight to zero at 20 s), 2.1 (Y up, X down), 3.1, 5.1, 6.1, 6.2 (burst of three pressure cycles), 8.1, 8.2 (20 N up on AB and 20 N down on CD, coil sides 4.0 cm), 10.1, 10.2, 10.3 (variable resistor R in series with terminals X and Y across 9.0 V) | not viewed: 7.1, 9.1, 11.1
+1ai | 1.2 | {F} speed just before braking read from the horizontal part of the speed-time graph: 11.5 m/s [B1]
+1aii | 1.2 | uniform deceleration: a decrease in speed [C1] ;; by equal amounts in equal times (constant negative gradient on a speed-time graph) [A1]
+1bi | 1.2 | {F} speed-time graph for a second vehicle: horizontal line at its constant speed (18 m/s) up to the time of braking [B1] ;; then a straight line sloping down parallel to the first vehicle's line (same deceleration) [B1]
+1bii | 1.2 | it travels further while braking because the area under its graph is greater (higher initial / average speed) [B1]
+2ai | 1.5.2 | {F} forces on a falling sky-diver: downward force is the weight (force of gravity); upward force is air resistance (drag) [B1]
+2aii | 1.5.2 | air resistance acts upwards because it opposes the motion (the diver is moving down) [B1]
+2bi | 1.5.2 | unbalanced forces at the start: the diver accelerates (speeds up) [B1] ;; because the weight is larger than the air resistance – resultant force downwards [B1]
+2bii | 1.5.2 | approaching terminal velocity, two of: the weight stays the same; the air resistance increases; the forces become equal (and opposite) [B2]
+3ai | 1.7.5 | energy passed on = half of 14 000 J = 7000 J [C1] ;; P = E ÷ t with time in seconds = 7000 ÷ 60 [C1] ;; 120 W [A1]
+3aii | 1.7.4 | not all the kinetic energy of the water is transferred: the water is still moving (has kinetic energy) after hitting the turbine / some water misses the turbine / energy is lost as heat due to friction [B1]
+3bi | 1.7.3 | renewable energy: can be replaced / will not run out [B1]
+3bii | 1.7.3 | source of non-renewable energy: coal, oil, gas, peat, nuclear (uranium) [B1]
+4a | X2.2 | mcΔT and mL
+4bi | X2.2 | latent heat
+4bii | X2.2 | fusion vs vaporisation
+5a | 3.3 | {F} fluorescent coating gives out visible light (glows) [B1] ;; when ultraviolet radiation falls on it [B1]
+5b | 3.3 | regions with wavelengths shorter than ultraviolet: X-rays or gamma rays [B1]
+5c | 3.3+3.1 | f = v/λ = 3.0 × 10⁸ ÷ 3.6 × 10⁻⁷ [C1] ;; 8.3 × 10¹⁴ Hz [A1]
+6a | 3.4 | echo: a reflection of sound (ultrasound) [B1]
+6b | 3.4 | {F} echo of a burst drawn later on the time axis with waves of the same period (frequency) [B1] ;; and a smaller amplitude [B1]
+6ci | 3.4 | range of frequencies audible to humans: about 20 Hz to 20 000 Hz [B1]
+6cii | 3.4 | ultrasound has a frequency higher than this range [B1]
+7a | X4.5 | circuit breaker
+7b | X4.5 | circuit breaker
+7c | X4.5 | circuit breaker
+7d | X4.5 | circuit breaker
+8a | X4.5 | left-hand rule
+8bi | 1.5.5 | {F} moment of a pair of equal and opposite forces on a coil = one force × perpendicular distance between them (or 2 × force × distance of each from the axis) = 20 × 0.040 [C1] ;; 0.80 N m (80 N cm) [A1]
+8bii | X4.5 | increasing turning effect
+9ai | 4.2.2 | direct current flows in one direction only; alternating current flows in one direction then the other (repeatedly reverses) [B1]
+9aii | X4.5 | generator
+9aiii | X4.5 | generator
+9bi | X4.5 | transmission
+9bii | X4.5 | turns ratio
+9biii | X4.5 | thicker wires
+9biv | X4.4 | fuse choice
+10ai | XOLD | resistor colour code
+10aii | XOLD | resistor colour code
+10aiii | X4.4 | power rating
+10bi | 4.2.3 | e.m.f. and p.d. – similarity: both are energy per unit charge, measured in volts (J/C) with a voltmeter [B1] ;; difference: e.m.f. is energy changed from other forms (e.g. chemical) to electrical in the source [B1] ;; p.d. is energy changed from electrical to other forms (heat, light) in part of the circuit [B1]
+10bii | X4.3 | LED symbol
+10biii | X4.3 | LED circuit
+10biv | 4.2.4+X4.3 | {F} series resistor needed to protect a component: R = V/I [C1] ;; current in amperes, 25 mA = 0.025 A [C1] ;; p.d. across the resistor = supply − component p.d. = 9.0 − 1.7 = 7.3 V (or total resistance 9.0 ÷ 0.025 = 360 Ω minus the component's 68 Ω) [C1] ;; R = 7.3 ÷ 0.025 = 292 Ω [A1]
+11ai | X5 | nucleon number
+11aii | X5 | neutral atom
+11bi | X5 | decay energy
+11bii | X5 | beta decay
+11ci | X5 | decay curve
+11cii | X5 | random
+11ciii | X5 | half-life
+11civ | X5 | detector

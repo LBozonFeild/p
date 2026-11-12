@@ -1,0 +1,45 @@
+# P2 w08_2 | figs viewed: 1.1 (microphone hung from sloping wire X and held by horizontal wire Y), 2.1 (stick balanced on a pencil 0.50 m from its foot), 4.1, 6.1 (spectrum on a screen from P at the top to Q), 6.2, 7.1 (lamp F across the battery; lamp G in parallel through switch D), 9.1, 11.1, 11.2 | not viewed: 10.1, 10.2
+1a | 1.1 | {F} resultant of two perpendicular forces by vector diagram: both forces and the resultant drawn [B1] ;; forces labelled with their sizes / scale given [B1] ;; magnitude 10.0 ± 0.2 N [B1] ;; direction 35°–39° from the horizontal force (51°–55° from the vertical) [B1]
+1b | 1.5.1 | object at rest under three forces: the third force (tension in the supporting wire) is equal in size to the resultant of the other two – 10 N [B1]
+2a | 1.5.6 | {F} an object balances at its centre of mass: 0.50 m from the end [B1]
+2b | 1.5.5+1.5.6 | pivot moved away from the centre of mass: the object rotates / tilts [C1] ;; turning so that the side containing the centre of mass goes down (anticlockwise here – head down) [A1] ;; because the weight acting at the centre of mass now has a moment about the pivot [B1]
+3a | 1.7.1 | change in g.p.e. per kilogram = mgh = 1 × 10 × 700 [C1] ;; 7000 J [A1]
+3b | X2.2 | mcΔT
+4ai | 1.2 | a = v ÷ t = 84 ÷ 35 [C1] ;; 2.4 m/s² [A1]
+4aii | 1.2 | speed-time sketch for uniform acceleration from rest: speed and time axes labelled the correct way round [B1] ;; straight line of positive gradient through the origin [B1] ;; final values marked (84 m/s at 35 s) [B1]
+4bi | 1.5.1 | {F} horizontal forces on an accelerating aircraft: forward arrow drawn longer than backward arrow [B1]
+4bii | 1.5.2 | the smaller (backward) force is caused by air resistance / friction / drag [B1]
+5a | X2.1 | liquids vs gases
+5b | X2.2 | evaporation cooling
+6a | 3.2.4 | {F} the least-deviated end of the spectrum from a prism is red [B1]
+6bi | 3.3 | blue and red light have equal speeds in a vacuum [B1]
+6bii | 3.3+3.2.4 | blue light has a smaller wavelength than red light [B1]
+6c | 3.2.4 | {F} light of a single colour (red) through a prism: two correct refractions [M1] ;; with no dispersion – it arrives at the red end of where the spectrum was [A1]
+7a | 4.2.3 | e.m.f. of six 2.0 V cells in series = 12 V [B1]
+7b | X4.3 | parallel lamps
+7c | 4.2.3 | energy supplied E = QV = 200 × 12 [C1] ;; 2400 J [A1]
+8a | X5 | fusion
+8bi | X5 | mass defect
+8bii | X5 | E = mc²
+9ai | 3.4 | how a loudspeaker makes sound travel through air, any three: the cone vibrates; this makes the air particles next to it vibrate; the particles pass the vibration (energy) on to their neighbours; a longitudinal wave of compressions and rarefactions [B3]
+9aii | 3.4 | loud: large amplitude [B1] ;; pitch depends on frequency [M1] ;; low-pitched: low frequency [A1]
+9aiii | 3.4 | t = distance ÷ speed = 0.57 ÷ 330 [C1] ;; 0.0017 s [A1]
+9aiv | 3.4 | the speed of sound is greater in water than in air [B1] ;; so the sound takes less time to travel the same distance through water [B1]
+9bi | 3.1+3.4 | v = fλ with f in Hz (0.20 kHz = 200 Hz) [C1] ;; λ = v/f = 330 ÷ 200 [C1] ;; 1.65 m [A1]
+9bii | 3.1+3.4 | wavelength of a longitudinal wave: diagram showing compressions and rarefactions [M1] ;; wavelength marked from the centre of one compression to the centre of the next [A1]
+10ai | X4.5 | field of a wire
+10aii | X4.5 | field strength
+10bi | 4.2.4 | R = V/I = 6.0 ÷ 8.0 [C1] ;; 0.75 Ω [A1]
+10bii | 4.2.2 | Q = It with time in seconds = 8.0 × 120 [C1] ;; 960 C [A1]
+10ci | X4.5 | field direction
+10cii | X4.5 | force on wire
+10ciii | X4.5 | reversed current
+10civ | X4.5 | d.c. motor
+11a | X4.4 | P = VI
+11bi | XOLD | thermionic emission
+11bii | XOLD | vacuum
+11biii | XOLD | deflection
+11biv | XOLD | reversed supply
+11ci | X4.6 | time base
+11cii | X4.6 | trace deflection
+11ciii | X4.6 | off screen

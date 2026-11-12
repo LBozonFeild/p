@@ -1,0 +1,49 @@
+# P2 s14_21 | figs viewed: 1.1 (boat 4.0 m/s due north; water 2.0 m/s at 45° east of north), 3.1 (full-scale grid: stamp 2.0 cm from the lens, upright image 6.0 cm from the lens on the same side, one ray drawn parallel to the axis), 5.1 (positive sphere C to the left of U), 5.2, 9.1, 10.1, 11.1 (lamp curve: straight to 200 mA at 1 V, then flattening to 350 mA at 6 V) | not viewed: 2.1, 4.1, 4.2, 6.1, 7.1, 7.2, 8.1
+1a | 1.2 | velocity: speed in a stated direction – (change in) displacement per unit time [B1]
+1b | 1.1 | {F} resultant velocity by vector diagram: the two velocities drawn at the correct angle (45°) with lengths in proportion (one twice the other) [B1] ;; correct resultant drawn for the two vectors, with directions shown [B1] ;; size 5.6 ± 0.2 m/s [B1] ;; direction 015° (N 15° E) [B1]
+2a | 4.2.2+4.2.3 | meter connected in series measures current; meter connected across the heater measures voltage (p.d.) [B1]
+2b | X2.2 | specific heat capacity
+2ci | X2.3 | convection
+2cii | X2.3 | lagging
+3a | 3.2.3 | lens that gives a magnified upright image of a close object (magnifying glass): converging / convex [B1]
+3b | 3.2.3 | linear magnification = image height ÷ object height [B1]
+3ci | 3.2.3 | {F} magnifying-glass ray diagram: the refracted ray, when extended back, passes through the top of the (virtual) image [B1]
+3cii | 3.2.3 | focal length = distance from the lens to where the refracted ray (from a ray parallel to the axis) crosses the principal axis: 3.0 ± 0.1 cm [B1]
+3ciii | 3.2.3 | two further rays from the top of the object which, after the lens, appear to come from the top of the image [B1]
+4a | X4.1 | field direction
+4b | X4.1 | magnetic screening
+4c | X4.1 | screening
+5a | 4.2.1 | {F} uncharged sphere near a positive sphere: equal numbers of negative charges on the side facing the positive sphere and positive charges on the far side [B1]
+5bi | 4.2.1 | when the spheres touch, the positive sphere becomes less positive (less charged) [B1] ;; the other sphere becomes positively charged [B1] ;; because electrons / negative charge flow from the uncharged sphere to the positive one [B1]
+5bii | 4.2.1 | the spheres then repel because both have the same (positive) charge – like charges repel [B1]
+6a | X4.5 | forces on coil
+6b | X4.5 | zero turning effect
+6c | X4.5 | commutator
+7a | X4.3 | potentiometer
+7bi | X4.3 | thermistor potential divider
+7bii | 4.2.4+X4.3 | I = V/R with the total series resistance = 6.0 ÷ (2000 + 1000) [C1] ;; 0.0020 A (2.0 mA) [A1]
+8ai | X5 | nucleus
+8aii | X5 | decay
+8bi | X5 | random
+8bii | X5 | half-life
+9ai | X1.8 | pressure
+9aii | X1.8 | pressure and depth
+9aiii | X1.8 | unit
+9b | 1.7.1 | energy changes in an electric pump: electrical energy supplied [B1] ;; kinetic energy of the water (and moving parts) produced [B1] ;; some thermal (internal) energy produced [B1]
+9ci | 1.4 | mass = density × volume = 1000 × 0.78 [C1] ;; 780 kg [A1]
+9cii | 1.7.2+1.7.1 | useful work done raising water = mgh (force × distance) = 780 × 10 × 1.5 [C1] ;; 11 700 J [A1]
+9ciii | 1.7.5 | P = W ÷ t with time in seconds = 11 700 ÷ 3600 [C1] ;; 3.25 W [A1]
+9d | 1.4 | experiment to check the density of water: find the mass of water as the difference between the mass of a container with and without the water (balance) [B1] ;; measure its volume with a measuring cylinder and calculate density = mass ÷ volume (a calibrated hydrometer is an alternative) [B1]
+10a | 3.1 | wavelength: the (shortest) distance between two points in phase, e.g. the centres of adjacent compressions [B1]
+10bi | 3.4 | a molecule of air in a sound wave oscillates / vibrates [B1] ;; backwards and forwards along the direction of travel of the wave (longitudinal) [B1]
+10bii | 3.4 | {F} a molecule at the centre of a compression and one at the centre of a rarefaction move in opposite directions at any instant [B1]
+10c | 3.4 | showing that sound needs a medium: labelled diagram of a sound source (e.g. electric bell) inside a container (bell jar) [B1] ;; with a vacuum pump connected to the container [B1] ;; the air is pumped out [M1] ;; and the sound heard decreases (to nothing), although the source can still be seen working [A1]
+10di | 3.4 | echo: sound that returns after a reflection [B1]
+10dii | 3.4 | speed = total distance there and back ÷ time = 40 ÷ 0.12 [C1] ;; 330 m/s [A1]
+10diii | 3.1+3.4 | f = v/λ [C1] ;; with the wavelength converted to metres, 30 mm = 0.030 m [C1] ;; 330 ÷ 0.030 = 11 000 Hz [A1]
+10div | 3.1+3.4 | distance between a compression and the nearest rarefaction = half a wavelength = 15 mm [B1]
+11ai | 4.2.3 | potential difference across a lamp: work done / energy transferred [M1] ;; per unit charge (per coulomb) passing through the lamp [A1]
+11aii | 4.2.4 | {F} current not proportional to p.d. is shown by the graph not being a straight line (it curves / the gradient changes) [B1] ;; because the filament gets hotter and its resistance increases [B1]
+11aiii | 4.2.2+4.2.3 | {F} current read from the graph at 6.0 V: 0.35 A (350 mA) [B1] ;; Q = It with time in seconds, 2.0 × 60 × 60 = 7200 s [C1] ;; 0.35 × 7200 = 2520 C [A1] ;; energy E = QV (= VIt) = 2520 × 6.0 [C1] ;; 15 100 J [A1] ;; only an estimate because the current / voltage falls as the battery runs down, some energy remains in the cells, and some is wasted as heat inside the cells [B1]
+11b | 4.2.3 | two cells in parallel rather than one: they last longer [M1] ;; because more energy is stored / there is a smaller current in each cell [A1] ;; alternative: the circuit keeps working if one cell fails (M1) because the other cell takes over (A1)
+11c | 4.2.3 | battery of four 1.5 V cells giving 3.0 V: LED symbol drawn the correct way round for the cells (to conduct) [B1] ;; four cells (not all in series, not all in parallel), a switch and the LED in a circuit that switches on and off properly [B1] ;; cells arranged to give 3.0 V, e.g. two parallel pairs connected in series [B1]

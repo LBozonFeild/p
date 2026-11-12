@@ -1,0 +1,41 @@
+# P1 w23_12 | sheets 1-2 viewed; Q1 scale enlarged and viewed; rest sheet viewed later for Q17 (enlarged), 37, 38
+1 B 1.1 {F} measuring cylinder: find the value of one small division (1 cm³) and read the level of the bottom (flat part) of the meniscus – one division below the 25 mark = 24.0 cm³
+2 D 1.2+1.7.1 {F} a straight-line distance–time graph means constant speed, so the kinetic energy is constant and greater than zero (acceleration is zero; displacement and gravitational potential energy keep increasing up a hill)
+3 D 1.2 speed = gradient of a distance–time graph; acceleration = gradient of a speed–time graph
+4 D 1.4 volume by displacement = 55 − 30 = 25 cm³; density = 65 ÷ 25 = 2.6 g/cm³
+5 A 1.5.1 {F} constant speed in a straight line means the resultant force is zero
+6 C 1.5.2 falling through air from rest: velocity increases while air resistance grows, so the resultant force and the acceleration decrease
+7 B 1.5.2 {F} stopping distance is shortest on a dry road with new tyres and longest on a wet road with worn tyres (less friction); a dry road with worn tyres gives an intermediate value
+8 B 1.5.3 {F} unstretched length = loaded length − extension read from the graph (9.0 − 2.0 = 7.0 cm); new length = 7.0 + extension for the new load (1.0 cm) = 8.0 cm
+9 A 1.5.4+X6 {F} an object in a circular orbit has a force on it directed towards the centre of the orbit (towards the Earth)
+10 B 1.6 impulse = force × time = change in momentum
+11 D 1.7.2+1.7.1 work done by the resultant force = gain in kinetic energy: (F − 1.0) × 1.0 = ½ × 4.0 × 1.5² = 4.5 J, so F = 5.5 N
+12 A 1.7.1 {F} gravitational potential energy is greatest at the highest point (the release position)
+13 A 1.7.3 an oil-fired power station burns fuel and emits waste gases into the atmosphere; both types boil water to steam that turns a turbine driving a generator
+14 B 1.7.4 {F} efficiency = useful power output ÷ power supplied = GPE gained per second ÷ power supplied (at constant speed no kinetic energy is being gained)
+15 D 1.7.5 t = E ÷ P = 3000 ÷ 2.0 = 1500 s = 25 minutes
+16 A X1.8 pressure and area
+17 D X2.2 {F} changes of state
+18 C X2.1 gas pressure
+19 A X2.1 Boyle's law
+20 B X2.2 {F} cooling and boiling
+21 B X2.3 conduction in metals
+22 D X2.3 {F} trapped air
+23 C X2.3 conduction and convection
+24 A 3.1 {F} wavelength of a longitudinal wave: the distance between the centres of two adjacent compressions (or rarefactions), measured along the direction of travel
+25 A 3.1 {F} diffraction: waves spread out after passing through a gap (an open doorway), so sound reaches places that are not in a straight line from the source
+26 A 3.2.1 {F} image in a plane mirror lies on the perpendicular from the object to the mirror, as far behind the mirror as the object is in front, wherever the observer stands
+27 D 3.2.2 n = sin i ÷ sin r, so sin i = 1.3 × sin 40° and i = 57°
+28 D 3.2.2 {F} critical angle: the angle of incidence inside the glass (between the ray and the normal) for which the refracted ray travels along the surface (angle of refraction 90°)
+29 B 3.2.3 {F} linear magnification = image height ÷ object height from the scale diagram = 3.0
+30 C 3.3 ultraviolet is used to sterilise water (Bluetooth uses radio/microwaves, thermal imaging infrared, prenatal scanning ultrasound)
+31 B 4.2.1 an insulator (polythene) rubbed with another insulator (wool) gains a large charge; a hand-held metal rod conducts the charge away
+32 C X4.1 like poles repel
+33 A 4.2.4 {F} resistor of constant resistance: current is directly proportional to voltage – a straight line through the origin
+34 A X4.3 series and parallel currents
+35 A X4.5 a.c. generator
+36 C X4.5 magnetic effect of a current
+37 B X5 {F} forces on particle beams
+38 C X4.6 {F} time-base
+39 B X5 half-life
+40 B X6 redshift

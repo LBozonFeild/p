@@ -1,0 +1,37 @@
+ORDER A B C Z
+== A | Centre of gravity (centre of mass): meaning and position | centre of (gravity|mass) | 3
+- Centre of gravity (centre of mass): the point where the whole weight of the object acts, or can be taken to act (B1).
+- Also accepted: the place where the entire mass seems to be located / appears to be concentrated; the point where the object balances.
+- The centre of mass of a uniform block, slab or rectangle is at its centre (half the height; half-way between the edges).
+- For a shape that is wider at the base, the centre of mass is on the centre line but lower than half the height.
+- The centre of mass of a symmetrical object is in the middle.
+- The centre of mass is not half-way along when the mass is not uniformly distributed along the length (there is more mass at one end).
+- An object balances at its centre of mass; for an object balanced on a pivot the centre of mass is marked immediately above the tip of the pivot.
+- The weight arrow is drawn vertically downwards through the centre of mass.
+* The centre of mass of a balanced or suspended object is vertically below (or above) the point of support; it need not lie within the material of the object.
+* The centre of mass is nearest the base in the shape that has most of its area (mass) close to the base; it is lowest when a block rests on its largest face.
+* Adding mass above the centre of gravity raises it (a weight placed on top of a block; sand added on top of a layer of sand in a container).
+== B | Finding the centre of gravity of a lamina by experiment | lamina|plumb|suspend|\bpin\b|card\b|\bholes?\b|thin sheet | 1
+- Hang the lamina (card, thin sheet) freely from a pin / nail through a hole and wait until it is stationary (B1).
+- Hang a plumb line (a mass on a string) from the same pin and mark its line on the lamina (B1).
+- Repeat using another hole; the centre of mass is where the lines cross (B1).
+- Repeat from a third hole as a check (credited in the six-mark version, one mark for each step).
+- Accepted alternative: balance the sheet on a sharp edge, mark the line of the edge and repeat in a new position – the centre of mass is at the intersection; or balance it on a sharp point.
+- A lamina released with its centre of gravity to one side of the pivot: it rotates about the pivot (B1); it speeds up then slows down / overshoots / oscillates with decreasing amplitude (B1); it stops with the centre of gravity vertically below the pivot (B1).
+* A freely suspended lamina hangs with its centre of gravity vertically below the pin: it lies on that vertical line, inside the card, nearer the part where most of the area (mass) is – not at the pin and not at the edge.
+* The centre of mass of an irregular lamina can be found with a pin (to hang or balance the lamina).
+== C | Stability and toppling | stab|toppl|tilt|falls over|fall over|tip over|overturn|balancing toy|resting on a corner|thicker piece | 0
+- Features that make an object stable: a wide base / large base area (B1); a low centre of mass (B1).
+- More stable: a lower centre of gravity or a wider / longer base; a thicker piece (wider base) is more stable than a thinner one.
+- A wider base is more stable: when tilted the object does not topple / falls back, or it must be tilted through a larger angle before toppling (B1), because the centre of mass is still above (inside) the base, so the weight turns it back (B1).
+- An object does not fall over while the line of its weight passes inside its base.
+- Toppling: when the object is tilted far enough (or stands on a steep slope) the centre of mass falls outside the base – the line of action of the weight passes beyond the pivoting corner or edge (B1); the weight then causes a moment (turning effect) about that point which turns the object over (B1).
+- An object resting on a corner falls over because its weight has a moment about the corner (C1): clockwise when the centre of mass is to the right of the corner, anticlockwise when it is to the left (A1).
+- An object is stable when its centre of mass lies within the base (in the middle horizontally).
+* Stability depends on the area (width) of the base and the height of the centre of mass.
+* For the same height of centre of gravity a wider base is more stable; for equal bases the object with the highest centre of gravity (most of its mass near the top) is the least stable.
+* The least stable object has a high centre of mass above a narrow base and topples after only a small tilt (a wide bowl on a tall stem); the most stable has a wide base and a low centre of gravity (a conical flask).
+* An object is just about to topple when its centre of mass is vertically above the edge of its base (the pivot).
+* A vehicle is most stable with a low centre of mass and a wide wheel base; on a slope the centre of mass should be as low as possible and between the wheels.
+* A balancing toy is stable because the added hanging weights lower its centre of mass to below the point of support.
+== Z | Other points

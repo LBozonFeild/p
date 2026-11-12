@@ -1,0 +1,95 @@
+ORDER D A I B K C Z
+== A | Newton's first law: balanced forces, rest and constant velocity | first law|balanced|equilibrium|constant (speed|velocity)|steady speed|no resultant|resultant (force )?(is |of all the forces acting is )?zero|at rest|stationary | 3
+- Newton's first law, simple statement: an object remains at rest or keeps moving (in uniform motion) unless a force acts on it (C1). The word "force" is needed; "a force causes the motion / speed / velocity to change" is accepted; "remains at rest" alone and F = ma are ignored.
+- Newton's first law, full statement: the object moves at constant velocity (constant speed in a straight line, zero acceleration) unless acted on by a resultant / net / unbalanced force; or, applied, constant velocity means there is no resultant force (A1). "Constant motion" and "external force" are ignored for this mark.
+- With no resultant force: the speed is constant (B1) and the motion is in a straight line (B1).
+- Balanced forces: equal and opposite forces / no resultant force.
+- With balanced forces an object is either stationary or moving with constant velocity (constant speed and direction).
+- Travelling at constant speed in a straight line: the resultant force is zero / the forces balance (B1); the forward (driving or pulling) force is cancelled by a backward force – friction, drag, air resistance or water resistance, which must be named (B1).
+- Constant speed on a straight road: the forward and backward forces are equal in size and opposite in direction.
+- Falling at constant velocity: the resistive (drag) force equals the weight (B1) and acts upwards (B1).
+- Moving up at constant speed: the upward force (tension in the cable) equals the weight, mg.
+- An object moving at constant speed has no resultant force and is not accelerating, so the force needed to move it does not change.
+- A mass hanging at rest from a spring: the weight acts downwards along the vertical line through the mass (B1); the tension in the spring acts upwards along the same line (B1).
+- An object at rest under three forces: the third force is equal in size to the resultant of the other two.
+- An object at rest hanging from a spring and partly supported by water: weight = upward force from the spring + upward force from the water. As more of it is immersed (any three): the upward force from the water increases; the pressure at its base increases; the force from the spring decreases; the two upward forces always add up to the weight.
+* The resultant force is zero only for rest or for constant speed in a straight line; turning a corner, falling freely and speeding up all need a resultant force.
+* Constant velocity means no resultant force in any direction: the force opposing the motion equals the driving force, and at constant height the vertical forces are equal too. The weight is not involved in the horizontal balance.
+* Balanced forces on a moving body: neither its speed nor its direction changes.
+* Free-body diagram of an object at rest: weight downwards and contact force upwards, with arrows of equal length.
+* A stationary object: the upward forces equal the downward forces (for example F + T = W).
+* A train at constant speed whose coupling breaks: the engine now has a forward resultant force and speeds up; the truck has only the resistive force and slows down gradually.
+== I | Inertia | inertia|resists a change|resistance to a change | 1
+- A passenger jerks forwards when the brakes are applied: mass is mentioned (B1); mass resists a change in its state of motion – inertia – so the passenger tends to continue moving (B1).
+- A loaded vehicle is harder to stop: greater mass (greater momentum) (B1); more inertia, so a larger force is needed for the same deceleration, or there is a smaller deceleration for the same force (B1). Accepted alternative: greater kinetic energy (B1), so more work must be done to stop it in the same distance (B1).
+- Braking car, driver slows but a loose bag slides forwards (any three): a backward force acts on the driver / car; it is provided by the seat belt or friction with the seat (friction between the tyres and the road for the car); there is little or no backward force (friction) on the bag; the bag resists a change in its motion – it carries on in a straight line at constant velocity.
+* Inertia: the property of an object that resists a change in its state of rest or motion; it is determined by the mass.
+== B | Resultant force and acceleration: the ideas | F = ma|= ma|resultant|accelerat|deceler|F ÷ m|F/m|second law | 4
+- Accelerating: the forward (driving / thrust) force is larger than the backward force; a resultant force forwards is accepted.
+- Decelerating: the backward force is larger than the forward force, or the resistive force acts alone; the backward force may be named as resistive force, force from the brakes, air resistance or resistance with the road.
+- Recent mark schemes ignore "the forces are unbalanced", "a resultant force acts" and "the backward force increases" on their own.
+- Three states: accelerating – unbalanced, forward force greater (B1); constant speed – balanced, forward force equals backward force (B1); decelerating – unbalanced, backward force greater (B1).
+- On a force diagram of an accelerating object the forward arrow is drawn longer than the backward arrow.
+- The forward force from the engine is greater than the resultant force because friction / air resistance acts on the car (B1) and opposes the force due to the engine (B1).
+- A resultant force acts whenever the velocity changes: forwards (in the direction of movement) while speeding up (B1); backwards while slowing down (B1); while travelling round a curve at constant speed (B1), perpendicular to the motion, towards the centre of the curve (B1).
+- At the lowest point of a bounce on an elastic cord the velocity is zero (changing direction) (B1); the weight acts downwards (B1); the stretched cord exerts an upward tension (B1); the upward force is greater than the weight, so the resultant force and the acceleration are upwards (B1).
+- An air bag reduces the force by increasing the time taken to stop (B1), so the deceleration is smaller, F = ma (B1).
+- Why the acceleration of a water rocket changes (any two): the mass of water and rocket decreases; the air pressure decreases, so there is less thrust; air resistance acts; the gravitational field strength decreases with height; less water is expelled per second, or at a slower speed.
+* The acceleration of a body is always in the direction of the resultant force on it.
+* A resultant force that falls steadily to zero gives a decreasing acceleration: the speed–time graph rises with decreasing gradient and is then horizontal.
+* Forces can balance in one direction but not in another: a car accelerating on a level road has balanced vertical forces while the driving force exceeds the air resistance; an aircraft gaining speed at constant height has lift = weight and thrust greater than air resistance.
+* A falling apple has unbalanced forces (weight greater than air resistance), so it accelerates.
+* All masses fall with the same acceleration because weight is proportional to mass: twice the mass has twice the force, so a = F ÷ m is the same.
+* An object brought to rest almost instantly pushes down on the ground with a force larger than its weight: the ground must supply the decelerating force as well as support the weight.
+* Balanced forces leave the velocity constant; unbalanced forces change the velocity.
+* A constant resultant force gives a constant acceleration, not a constant speed.
+ALSO B | ^F = ma:|decreasing acceleration|accelerating:|accelerates|unbalanced | 2.5
+== K | Resultant force and F = ma: calculations | \d\s*[×÷]\s*[\d(]|=\s*\(?\d[\d ,.]*\s*[×÷+−/] | 2
+- F = ma with the resultant force (C1); answer (A1). Where three marks are given: equation (C1), substitution or rearrangement (C1), answer (A1).
+- Find the resultant force first when two forces act along a line: resultant = larger force − smaller force (C1), then a = F ÷ m (C1), answer (A1).
+- Resultant force = driving force − resistive force; the vertical forces cancel.
+- To find one of the forces: resultant force = ma (C1 with the value); backward force = forward force − resultant force (A1).
+- Use the total mass being accelerated (for example person + vehicle, or engine + trucks).
+- Falling object: resultant force = weight − air resistance, then a = F ÷ m. At the instant of release there is no air resistance, so the weight is the only force (B1) and a = weight ÷ mass = g (B1).
+- A resultant force read from a graph: resultant = air resistance at that speed − weight.
+- Accelerating upwards: upward force (thrust, or the force from the floor) = weight + resultant force.
+- Change kN to N before substituting.
+- If the acceleration is not given: a = (v − u) ÷ t (C1); then m = F ÷ a, or F = ma (C1); answer (A1).
+* Forces along a line: resultant = sum of the forces one way − sum of the forces the other way.
+* For an upward acceleration F − mg = ma, so the upward force = m(g + a).
+* Change the time to seconds before finding the acceleration.
+* From a known resultant force and acceleration, m = F ÷ a.
+* Use a = F ÷ m and then v = at to find the speed reached from rest.
+== C | Newton's third law: pairs of forces | third.law|to every action|exerts an equal and opposite | 0
+- Newton's third law: when object A exerts a force on object B, B exerts an equal and opposite force on A; forces occur in pairs (to every action there is an equal and opposite reaction).
+- A third-law pair of forces: equal in magnitude (B1); opposite in direction, acting on different bodies (B1).
+- Applied answers name both forces and what each acts on: the rocket exerts a downward force on the hot gas (B1) and the gas exerts an equal and opposite, upward force on the rocket (B1); the pump or engine pushes the water backwards and the water pushes it forwards.
+- Pushing off a wall: the wall exerts a force on the swimmer (B1), opposite in direction to the force of the swimmer on the wall (B1) and equal in size to it (B1); this force on the swimmer causes the acceleration.
+- The partner force acts on the other object (for example the rider pushes down on the horse and the horse pushes up on the rider).
+* A third-law pair is two forces of the same type, equal in size and opposite in direction, acting on two different bodies and between the same two bodies (the force on the Moon due to the Earth and the force on the Earth due to the Moon).
+* The weight of an object and the normal contact force on it are not a third-law pair: both act on the same object.
+* The partner of a person's weight (the Earth pulls the person down) is the gravitational pull of the person on the Earth.
+* The forces of a third-law pair are equal even at constant speed: a tractor pulling a trailer forwards with 1600 N is pulled backwards by the trailer with 1600 N.
+* If a propeller pushes water backwards with 2000 N, the water pushes the propeller forwards with 2000 N; the resistive force is not part of this pair.
+* A man pushing a box forwards is pushed backwards on his hands by the box, and the floor pushes forwards on his feet because his feet push backwards on the floor.
+* A stretched spring pulls two trolleys with equal and opposite forces; a = F ÷ m, so the trolley with half the mass has twice the acceleration.
+== D | Naming and drawing forces; what a force can change | tension|upthrust|normal|contact|arrow|weight|shape|force | 5
+- Forces on a moving train or car, with directions: weight (gravitational force) downwards; normal reaction (contact force from the track or road) upwards; driving force (thrust of the engine) forwards; air resistance (drag) and friction / braking force backwards.
+- Besides changing its velocity, a force applied to a solid can change its shape (B1) and its size / volume / density (B1).
+- Effects of a large force on a solid surface (any two of different kinds): it distorts / changes shape (stretches, bends, deforms); it is compressed / changes size, volume or density; its temperature rises.
+- Force diagram of a standing animal carrying a rider: weight drawn downwards from the middle of the body and labelled (B1); upward contact forces from the ground on at least two legs, labelled (B1); downward force from the rider on the saddle area (B1).
+* A force can change the shape, size (volume) and velocity (speed or direction) of a body, but not its mass.
+* The normal contact force from a surface acts at right angles to the surface (not vertically on a slope, and not along it).
+* Tension acts along a string; weight acts vertically downwards; a magnet exerts a magnetic force on steel.
+* Rocket in flight: thrust acts forwards along the direction of travel, air resistance backwards along that line, weight vertically downwards.
+== Z | Other points
+MOVE w12_12|MCQ2|K
+MOVE w15_11|MCQ4|K
+MOVE s17_12|MCQ6|A
+MOVE w16_22|8biii|A
+MOVE s10_22|2bi|A
+MOVE w16_22|8d|A
+MOVE w20_22|7cii|B
+MOVE s26_22|1d|A
+MOVE w22_21|7cii|K
+MOVE s12_11|MCQ6|K
