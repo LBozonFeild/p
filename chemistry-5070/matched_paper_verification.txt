@@ -1,0 +1,6 @@
+Mechanical completeness check for matched question papers and mark schemes. Not a semantic mark-point certification.
+Matched papers checked: 156; excluded without schemes: 10; MCQ keys detected: 3117; theory scheme text chars: 943761
+Cases requiring manual inspection:
+5070_s17_qp_11.pdf | MCQ keys detected 39 / 40; missing [25]
+5070_w13_qp_11.pdf | MCQ keys detected 39 / 40; missing [31]
+5070_w13_qp_12.pdf | MCQ keys detected 39 / 40; missing [22]

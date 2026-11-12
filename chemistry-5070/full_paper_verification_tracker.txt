@@ -1,0 +1,160 @@
+CHEMISTRY 5070 — FULL-PAPER VERIFICATION TRACKER
+Latest requirement: complete question paper, all questions/subquestions, all separate marking points and applicable diagrams; compare chapter notes.
+[ ] means NOT certified under this stricter standard; [x] means complete full-paper verification.
+Legacy topic-review status lives separately in paper_1_2_review_list.txt. Do not transfer ticks without rechecking.
+
+[x] 5070_s04_qp_1.pdf | 5070_s04_ms.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s04_qp_2.pdf | 5070_s04_ms.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10; old scheme anomalies flagged
+[x] 5070_s05_qp_1.pdf | 5070_s05_ms_1.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s05_qp_2.pdf | 5070_s05_ms_2.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_s06_qp_1.pdf | 5070_s06_ms_1.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s06_qp_2.pdf | 5070_s06_ms_2.pdf | evidence: full_paper_question_evidence.txt A1–A7,B8–B11
+[x] 5070_s07_qp_1.pdf | 5070_s07_ms_1.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s07_qp_2.pdf | 5070_s07_ms_2.pdf | evidence: full_paper_question_evidence.txt A1–A8,B9–B12
+[x] 5070_s08_qp_1.pdf | 5070_s08_ms_1.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s08_qp_2.pdf | 5070_s08_ms_2.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_s09_qp_1.pdf | 5070_s09_ms_1.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s09_qp_2.pdf | 5070_s09_ms_2.pdf | evidence: full_paper_question_evidence.txt A1–A7,B8–B11
+[x] 5070_s10_qp_11.pdf | 5070_s10_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s10_qp_12.pdf | 5070_s10_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40 crosswalk
+[x] 5070_s10_qp_21.pdf | 5070_s10_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9; B9(g) scheme-mark discrepancy
+[x] 5070_s10_qp_22.pdf | 5070_s10_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_s11_qp_11.pdf | 5070_s11_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s11_qp_12.pdf | 5070_s11_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40 crosswalk
+[x] 5070_s11_qp_21.pdf | 5070_s11_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9; source typos flagged
+[x] 5070_s11_qp_22.pdf | 5070_s11_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_s12_qp_11.pdf | 5070_s12_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40; Q37 inconsistency
+[x] 5070_s12_qp_12.pdf | 5070_s12_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40; Q38 inconsistency
+[x] 5070_s12_qp_21.pdf | 5070_s12_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9; B7(a) allocation anomaly
+[x] 5070_s12_qp_22.pdf | 5070_s12_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9
+[x] 5070_s13_qp_11.pdf | 5070_s13_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s13_qp_12.pdf | 5070_s13_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s13_qp_21.pdf | 5070_s13_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_s13_qp_22.pdf | 5070_s13_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10; B8(g) ambiguity
+[x] 5070_s14_qp_11.pdf | 5070_s14_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s14_qp_12.pdf | 5070_s14_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s14_qp_21.pdf | 5070_s14_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_s14_qp_22.pdf | 5070_s14_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_s15_qp_11.pdf | 5070_s15_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s15_qp_12.pdf | 5070_s15_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s15_qp_21.pdf | 5070_s15_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9; A1(c) allocation anomaly
+[x] 5070_s15_qp_22.pdf | 5070_s15_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9
+[x] 5070_s16_qp_11.pdf | 5070_s16_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s16_qp_12.pdf | 5070_s16_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40; Q01 ambiguous
+[x] 5070_s16_qp_21.pdf | 5070_s16_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_s16_qp_22.pdf | 5070_s16_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10; CaF2 state flagged
+[x] 5070_s17_qp_12.pdf | 5070_s17_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s17_qp_21.pdf | 5070_s17_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_s17_qp_22.pdf | 5070_s17_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_s18_qp_11.pdf | 5070_s18_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s18_qp_12.pdf | 5070_s18_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s18_qp_21.pdf | 5070_s18_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B9
+[x] 5070_s18_qp_22.pdf | 5070_s18_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A6/B7–B10
+[x] 5070_s19_qp_11.pdf | 5070_s19_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s19_qp_12.pdf | 5070_s19_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s19_qp_21.pdf | 5070_s19_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A6/B7–B10
+[x] 5070_s19_qp_22.pdf | 5070_s19_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A6/B7–B10
+[x] 5070_s20_qp_11.pdf | 5070_s20_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s20_qp_12.pdf | 5070_s20_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40; scheme cover mislabels PHYSICS
+[x] 5070_s20_qp_21.pdf | 5070_s20_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A6/B7–B10
+[x] 5070_s20_qp_22.pdf | 5070_s20_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A6/B7–B10
+[x] 5070_s21_qp_11.pdf | 5070_s21_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s21_qp_12.pdf | 5070_s21_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s21_qp_21.pdf | 5070_s21_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B9
+[x] 5070_s21_qp_22.pdf | 5070_s21_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B9
+[x] 5070_s22_qp_11.pdf | 5070_s22_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s22_qp_12.pdf | 5070_s22_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s22_qp_21.pdf | 5070_s22_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B9
+[x] 5070_s22_qp_22.pdf | 5070_s22_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A6/B7–B10
+[x] 5070_s23_qp_11.pdf | 5070_s23_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s23_qp_12.pdf | 5070_s23_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s23_qp_21.pdf | 5070_s23_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B10
+[x] 5070_s23_qp_22.pdf | 5070_s23_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B10
+[x] 5070_s24_qp_11.pdf | 5070_s24_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s24_qp_12.pdf | 5070_s24_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s24_qp_21.pdf | 5070_s24_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B9
+[x] 5070_s24_qp_22.pdf | 5070_s24_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B9
+[x] 5070_s25_qp_11.pdf | 5070_s25_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s25_qp_12.pdf | 5070_s25_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s25_qp_21.pdf | 5070_s25_ms_21.pdf | evidence: full_paper_question_evidence.txt Q1–Q8
+[x] 5070_s25_qp_22.pdf | 5070_s25_ms_22.pdf | evidence: full_paper_question_evidence.txt Q1–Q8
+[x] 5070_s26_qp_11.pdf | 5070_s26_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s26_qp_12.pdf | 5070_s26_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_s26_qp_21.pdf | 5070_s26_ms_21.pdf | evidence: full_paper_question_evidence.txt Q1–Q8
+[x] 5070_s26_qp_22.pdf | 5070_s26_ms_22.pdf | evidence: full_paper_question_evidence.txt Q1–Q8
+[x] 5070_w04_qp_1.pdf | 5070_w04_ms_1.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w04_qp_2.pdf | 5070_w04_ms_2.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_w05_qp_1.pdf | 5070_w05_ms_1.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w05_qp_2.pdf | 5070_w05_ms_2.pdf | evidence: full_paper_question_evidence.txt A1–A7,B8–B11
+[x] 5070_w06_qp_1.pdf | 5070_w06_ms_1.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w06_qp_2.pdf | 5070_w06_ms_2.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_w07_qp_1.pdf | 5070_w07_ms_1.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w07_qp_2.pdf | 5070_w07_ms_2.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_w08_qp_1.pdf | 5070_w08_ms_1.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w08_qp_2.pdf | 5070_w08_ms_2.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_w09_qp_1.pdf | 5070_w09_ms_1.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w09_qp_2.pdf | 5070_w09_ms_2.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_w10_qp_11.pdf | 5070_w10_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w10_qp_12.pdf | 5070_w10_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w10_qp_21.pdf | 5070_w10_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9
+[x] 5070_w10_qp_22.pdf | 5070_w10_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9
+[x] 5070_w11_qp_11.pdf | 5070_w11_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w11_qp_12.pdf | 5070_w11_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w11_qp_21.pdf | 5070_w11_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9
+[x] 5070_w11_qp_22.pdf | 5070_w11_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9
+[x] 5070_w12_qp_11.pdf | 5070_w12_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w12_qp_12.pdf | 5070_w12_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w12_qp_21.pdf | 5070_w12_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_w12_qp_22.pdf | 5070_w12_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9
+[x] 5070_w13_qp_21.pdf | 5070_w13_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9
+[x] 5070_w13_qp_22.pdf | 5070_w13_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9
+[x] 5070_w14_qp_11.pdf | 5070_w14_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w14_qp_12.pdf | 5070_w14_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w14_qp_21.pdf | 5070_w14_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9
+[x] 5070_w14_qp_22.pdf | 5070_w14_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9
+[x] 5070_w15_qp_11.pdf | 5070_w15_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w15_qp_12.pdf | 5070_w15_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w15_qp_21.pdf | 5070_w15_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_w15_qp_22.pdf | 5070_w15_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_w16_qp_11.pdf | 5070_w16_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w16_qp_12.pdf | 5070_w16_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w16_qp_21.pdf | 5070_w16_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_w16_qp_22.pdf | 5070_w16_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A6,B7–B10
+[x] 5070_w17_qp_11.pdf | 5070_w17_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w17_qp_12.pdf | 5070_w17_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w17_qp_21.pdf | 5070_w17_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9
+[x] 5070_w17_qp_22.pdf | 5070_w17_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A5,B6–B9
+[x] 5070_w18_qp_11.pdf | 5070_w18_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w18_qp_12.pdf | 5070_w18_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w18_qp_21.pdf | 5070_w18_ms_21.pdf | evidence: full_paper_question_evidence.txt Q1–Q9
+[x] 5070_w18_qp_22.pdf | 5070_w18_ms_22.pdf | evidence: full_paper_question_evidence.txt Q1–Q9
+[x] 5070_w19_qp_11.pdf | 5070_w19_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w19_qp_12.pdf | 5070_w19_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w19_qp_21.pdf | 5070_w19_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B9
+[x] 5070_w19_qp_22.pdf | 5070_w19_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B9
+[x] 5070_w20_qp_11.pdf | 5070_w20_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w20_qp_12.pdf | 5070_w20_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w20_qp_21.pdf | 5070_w20_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B9
+[x] 5070_w20_qp_22.pdf | 5070_w20_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B9
+[x] 5070_w21_qp_11.pdf | 5070_w21_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w21_qp_12.pdf | 5070_w21_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w21_qp_21.pdf | 5070_w21_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A6/B7–B10
+[x] 5070_w21_qp_22.pdf | 5070_w21_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A6/B7–B10
+[x] 5070_w22_qp_11.pdf | 5070_w22_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w22_qp_12.pdf | 5070_w22_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w22_qp_21.pdf | 5070_w22_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B9
+[x] 5070_w22_qp_22.pdf | 5070_w22_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B9
+[x] 5070_w23_qp_11.pdf | 5070_w23_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w23_qp_12.pdf | 5070_w23_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w23_qp_21.pdf | 5070_w23_ms_21.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B9
+[x] 5070_w23_qp_22.pdf | 5070_w23_ms_22.pdf | evidence: full_paper_question_evidence.txt A1–A5/B6–B9
+[x] 5070_w24_qp_11.pdf | 5070_w24_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w24_qp_12.pdf | 5070_w24_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w24_qp_21.pdf | 5070_w24_ms_21.pdf | evidence: full_paper_question_evidence.txt Q1–Q7
+[x] 5070_w24_qp_22.pdf | 5070_w24_ms_22.pdf | evidence: full_paper_question_evidence.txt Q1–Q7
+[x] 5070_w25_qp_11.pdf | 5070_w25_ms_11.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w25_qp_12.pdf | 5070_w25_ms_12.pdf | evidence: full_paper_question_evidence.txt Q01–Q40
+[x] 5070_w25_qp_21.pdf | 5070_w25_ms_21.pdf | evidence: full_paper_question_evidence.txt Q1–Q10
+[x] 5070_w25_qp_22.pdf | 5070_w25_ms_22.pdf | evidence: full_paper_question_evidence.txt Q1–Q10
+
+TOTAL: 153 eligible pairs; 153 full-paper verifications certified; 0 remaining.
