@@ -1,0 +1,759 @@
+# How this guide works
+
+This guide covers everything **after** the basics — you already know variables, input/output, operators and decisions (IF/CASE), so those are skipped. What remains is the heart of Paper 2: iteration, strings, arrays, subroutines, files, standard algorithms, testing, flowcharts, Boolean logic, databases, and Python for the scenario question.
+
+Each section gives you tight explanations and worked examples, then practice questions with model answers and mark allocations. Try the questions **before** looking at the answers.
+
+N: **The golden exam rule.** In Paper 2, every coding answer must be written in **Cambridge pseudocode** — answers in Python (or any real language) score zero, **except** in the final 15-mark scenario question, where pseudocode **or** Python/Visual Basic/Java is allowed. Syntax is never marked: the **logic** is what earns marks. But operators must be precise: write __x > y__, never "x is greater than y".
+
+The guide mirrors the syllabus pseudocode exactly (assignment arrow __←__, keywords in upper case, __DECLARE / INPUT / OUTPUT / IF...ENDIF / WHILE...DO...ENDWHILE / REPEAT...UNTIL / FOR...NEXT / PROCEDURE / FUNCTION__). Python translations are shown in grey boxes where useful.
+
+# 1. Iteration and nested constructs
+
+## 1.1 The three loop types
+
+Cambridge pseudocode has exactly three loop forms. Choosing the right one (and knowing when each runs **zero**, **one**, or **many** times) is a favourite exam target.
+
+**FOR — count-controlled.** Use when you know in advance how many times to repeat.
+
+```
+FOR I ← 1 TO 10
+    OUTPUT I
+NEXT I
+```
+
+- The counter (__I__ here) is assigned every integer value from the start to the end value **inclusive**.
+- If start > end, the loop body never runs.
+- A step size can be given — including negative steps:
+
+```
+FOR I ← 1 TO 9 STEP 2      // I takes 1, 3, 5, 7, 9
+    OUTPUT I
+NEXT I
+
+FOR Countdown ← 10 TO 1 STEP -1
+    OUTPUT Countdown
+NEXT Countdown
+```
+
+**WHILE — pre-condition.** Use when you repeat **while** something stays true and it might never be true at all. The test happens **before** each run, so the body can run zero times.
+
+```
+WHILE Password <> "Secret" DO
+    INPUT Password
+ENDWHILE
+```
+
+**REPEAT ... UNTIL — post-condition.** Use when the body must run **at least once**. The test happens **after** each run, and the loop **stops when the condition becomes TRUE** (this is the opposite of Python's `while`, a classic trap).
+
+```
+REPEAT
+    INPUT Password
+UNTIL Password = "Secret"       // stops when TRUE
+```
+
+## 1.2 Totalling and counting
+
+Two patterns you will use constantly:
+
+```
+Total ← 0                       Count ← 0
+FOR I ← 1 TO 5                  FOR I ← 1 TO 5
+    INPUT Value                     INPUT Value
+    Total ← Total + Value           IF Value > 10
+NEXT I                              THEN
+                                        Count ← Count + 1
+                                    ENDIF
+                                NEXT I
+```
+
+Always initialise the accumulator (__Total ← 0__) or counter (__Count ← 0__) **before** the loop.
+
+## 1.3 Nested statements
+
+Loops and IF statements can be placed inside each other. The syllabus never requires more than **three levels of nesting**, and indentation must make the structure obvious (four spaces per level; THEN/ELSE two extra spaces). Worked nested example — one total per row of a 2D structure:
+
+```
+FOR Row ← 1 TO 3
+    RowTotal ← 0
+    FOR Column ← 1 TO 4
+        RowTotal ← RowTotal + Grid[Row, Column]
+    NEXT Column
+    OUTPUT "Total for row ", Row, " is ", RowTotal
+NEXT Row
+```
+
+## 1.4 Python translation
+
+N: In Python: __FOR I ← 1 TO 10__ becomes `for i in range(1, 11):` (range stops **before** the end value). __REPEAT ... UNTIL cond__ becomes `while True:` with `if cond: break` at the **end** of the body. __WHILE cond DO__ becomes `while cond:`. Remember: pseudocode loops are 1-based and inclusive; Python `range` is 0-based and exclusive.
+
+## 1.5 Worked example — trace of a REPEAT loop
+
+Trace tables track every variable and output at each step. For inputs 5, −3, 2, 0:
+
+```
+Total ← 0
+Count ← 0
+REPEAT
+    INPUT Value
+    IF Value > 0
+        THEN
+            Total ← Total + Value
+            Count ← Count + 1
+    ENDIF
+UNTIL Value = 0
+OUTPUT Total, Count
+```
+
+T:
+| Step | Value | Total | Count |
+| before loop | - | 0 | 0 |
+| 1 | 5 | 5 | 1 |
+| 2 | -3 | 5 | 1 |
+| 3 | 2 | 7 | 2 |
+| 4 | 0 | 7 | 2 |
+
+The loop stops after the input 0 (condition __Value = 0__ now TRUE). Final output: __7, 2__.
+
+Q:(3) Write pseudocode for an algorithm that calculates the sum of the squares of the numbers 1 to 10 (that is 1 + 4 + 9 + ... + 100) and outputs the total. The value 385 should not appear as a literal in your code.
+
+A: The total must be built up with an accumulator using the square of the loop counter.
+```
+Total ← 0
+FOR I ← 1 TO 10
+    Total ← Total + I ^ 2
+NEXT I
+OUTPUT Total
+```
+Mark points: initialising __Total__ (1); correct loop 1 to 10 and accumulating __I ^ 2__ (1); OUTPUT of the calculated total (1). Accept __I * I__ instead of __I ^ 2__.
+
+Q:(4) The following program is run with inputs 5, −3, 2, 0 in that order. Complete a trace table showing __Value__, __Total__ and __Count__ at each step, and state what is output.
+```
+Total ← 0
+Count ← 0
+REPEAT
+    INPUT Value
+    IF Value > 0
+        THEN
+            Total ← Total + Value
+            Count ← Count + 1
+    ENDIF
+UNTIL Value = 0
+OUTPUT Total, Count
+```
+
+A:
+T:
+| Step | Value | Total | Count |
+| before loop | - | 0 | 0 |
+| 1 | 5 | 5 | 1 |
+| 2 | -3 | 5 | 1 |
+| 3 | 2 | 7 | 2 |
+| 4 | 0 | 7 | 2 |
+Output: __7, 2__.
+Mark points: __Total__ column correct after each input (2); __Count__ column correct (1); correct final output (1). Note that −3 is ignored (not > 0) and that 0 is processed before the loop stops, because __UNTIL__ is tested after the body.
+
+Q:(3) Rewrite this FOR loop using a WHILE loop. It should produce exactly the same output.
+```
+FOR I ← 1 TO 10
+    OUTPUT I * 2
+NEXT I
+```
+
+A:
+```
+I ← 1
+WHILE I <= 10 DO
+    OUTPUT I * 2
+    I ← I + 1
+ENDWHILE
+```
+Mark points: initialise __I ← 1__ (1); correct condition __I <= 10__ (1); increment __I ← I + 1__ and correct WHILE structure (1). Common mistake: using __<__ instead of __<=__, which prints only 8 values (2 to 16).
+
+Q:(2) This loop is supposed to output the numbers 1 to 5, but it only outputs 1 to 4. Identify the error and write the corrected line.
+```
+I ← 1
+WHILE I < 5 DO
+    OUTPUT I
+    I ← I + 1
+ENDWHILE
+```
+
+A: The condition __I < 5__ should be __I <= 5__. Mark points: identifying the wrong condition (1); correcting it (1).
+
+Q:(2) Translate this pseudocode into Python. Your code should print one number.
+```
+Total ← 0
+FOR I ← 1 TO 9 STEP 2
+    Total ← Total + I
+NEXT I
+OUTPUT Total
+```
+
+A:
+```
+total = 0
+for i in range(1, 10, 2):
+    total = total + i
+print(total)
+```
+It prints 25 (1 + 3 + 5 + 7 + 9). Mark points: correct loop with __range(1, 10, 2)__ (1); accumulation and print (1). Remember __range__ stops before its end value.
+
+# 2. String handling
+
+## 2.1 The four string operations
+
+Strings are examined heavily because they combine naturally with loops and selection.
+
+T:
+| Operation | Meaning | Example | Result |
+| LENGTH(s) | number of characters | LENGTH("Happy Days") | 10 |
+| SUBSTRING(s, start, length) | substring of given length from position start (normally 1 = first character) | SUBSTRING("Happy Days", 1, 5) | "Happy" |
+| UCASE(s) | all characters upper case | UCASE("Happy") | "HAPPY" |
+| LCASE(s) | all characters lower case | LCASE('W') | 'w' |
+
+Strings join with the __+__ operator: __FullName ← FirstName + " " + LastName__. Positions count from 1 (Cambridge normally uses 1-based positions — questions will make this clear).
+
+## 2.2 Processing strings character by character
+
+The standard pattern is a FOR loop from 1 to __LENGTH(s)__, extracting one character at a time with __SUBSTRING(s, I, 1)__:
+
+```
+// count how many vowels are in S
+Count ← 0
+FOR I ← 1 TO LENGTH(S)
+    Ch ← UCASE(SUBSTRING(S, I, 1))
+    IF Ch = "A" OR Ch = "E" OR Ch = "I" OR Ch = "O" OR Ch = "U"
+        THEN
+            Count ← Count + 1
+    ENDIF
+NEXT I
+OUTPUT Count
+```
+
+Common string tasks you should be able to write: counting occurrences of a character, reversing a string (loop downwards with __STEP -1__), checking a password against a rule, extracting parts of a formatted code.
+
+## 2.3 Python translation
+
+N: Python equivalents: __LENGTH(s)__ → `len(s)`; __UCASE(s)__ → `s.upper()`; __LCASE(s)__ → `s.lower()`; __SUBSTRING(s, start, length)__ → `s[start-1 : start-1+length]`. Watch the offset: __SUBSTRING(S, 4, 3)__ is `s[3:6]`. Python strings are 0-based; Cambridge pseudocode is normally 1-based.
+
+Q:(3) The variable __Text__ contains "Computer". Evaluate:
+(a) __LENGTH(Text)__  (b) __SUBSTRING(Text, 3, 3)__  (c) __UCASE(SUBSTRING(Text, 2, 1))__
+
+A: (a) 8  (b) "mpu"  (c) "O".
+Mark points: one per part. Positions: C=1, o=2, m=3, p=4, u=5, t=6, e=7, r=8. __SUBSTRING(Text, 3, 3)__ starts at "m" and takes 3 characters; __SUBSTRING(Text, 2, 1)__ is "o", which __UCASE__ turns into "O".
+
+Q:(4) Write pseudocode that inputs a string __S__ and counts how many times the letter "e" appears, in either upper or lower case. Output the count.
+
+A:
+```
+INPUT S
+Count ← 0
+FOR I ← 1 TO LENGTH(S)
+    Ch ← UCASE(SUBSTRING(S, I, 1))
+    IF Ch = "E"
+        THEN
+            Count ← Count + 1
+    ENDIF
+NEXT I
+OUTPUT Count
+```
+Mark points: loop over the whole string using __LENGTH__ (1); extracting the character with __SUBSTRING__ (1); case-insensitive comparison using __UCASE__ or __LCASE__ (1); counting and outputting (1). Accept comparison against both "e" and "E" instead of converting case.
+
+Q:(3) Write pseudocode that inputs a string __S__ and outputs it reversed. For input "ABC" the output must be "CBA".
+
+A:
+```
+INPUT S
+Reversed ← ""
+FOR I ← LENGTH(S) TO 1 STEP -1
+    Reversed ← Reversed + SUBSTRING(S, I, 1)
+NEXT I
+OUTPUT Reversed
+```
+Mark points: loop downwards from __LENGTH(S)__ to 1 (1); __STEP -1__ and character extraction (1); concatenation into __Reversed__ and output (1).
+
+Q:(2) This Python code is run. Write down the exact output.
+```
+s = "Computer"
+print(len(s), s[2:5], s.upper())
+```
+
+A: __8 mpu COMPUTER__ (on one line). Mark points: __8__ and __mpu__ (1) — remember Python slices are 0-based, so `s[2:5]` is characters at indexes 2, 3, 4; __COMPUTER__ (1).
+
+# 3. Arrays
+
+## 3.1 One-dimensional arrays
+
+An array is a fixed-length block of elements of the **same** data type, accessed by index. Declare with explicit bounds (the lower bound is normally 1):
+
+```
+DECLARE StudentNames : ARRAY[1:30] OF STRING
+DECLARE Marks : ARRAY[1:30] OF INTEGER
+```
+
+Read and write single elements with square brackets: __Marks[5] ← 72__, __OUTPUT StudentNames[3]__. An index may be a variable or expression: __Marks[I]__, __Marks[I + 1]__.
+
+Arrays are nearly always used **with loops** — to fill them, print them, search them, or sort them:
+
+```
+FOR I ← 1 TO 30
+    INPUT Marks[I]
+NEXT I
+```
+
+## 3.2 Two-dimensional arrays
+
+A 2D array is declared with two bounds and accessed with two indices separated by a comma:
+
+```
+DECLARE NoughtsAndCrosses : ARRAY[1:3, 1:3] OF CHAR
+NoughtsAndCrosses[2, 3] ← 'X'
+```
+
+Typical operations need **nested loops**: every row × every column. To walk down a column instead, swap the loop order.
+
+## 3.3 Python translation
+
+N: A Cambridge array of size 30 maps to a Python **list**. Python lists are dynamic and 0-based: `names = [""] * 30` then `names[i]` with `i` from 0. The pseudocode __Grid[2, 3]__ corresponds to `grid[2][3]` (a list of lists). In the scenario question either style is fine — just stay consistent.
+
+Q:(3) Write pseudocode to declare an array capable of holding 20 integer exam marks, then fill it with values typed by the user.
+
+A:
+```
+DECLARE Marks : ARRAY[1:20] OF INTEGER
+FOR I ← 1 TO 20
+    INPUT Marks[I]
+NEXT I
+```
+Mark points: declaration with type and bounds (1); loop from 1 to 20 (1); INPUT into the array element using the loop counter as index (1).
+
+Q:(4) The array __A__ contains the values 2, 7, 4, 9 in positions 1 to 4. Trace the algorithm below, showing __I__, __A[I]__ and __Max__ at each step of the loop, and state what is output.
+```
+Max ← A[1]
+FOR I ← 2 TO 4
+    IF A[I] > Max
+        THEN
+            Max ← A[I]
+    ENDIF
+NEXT I
+OUTPUT Max
+```
+
+A:
+T:
+| Step | I | A[I] | Max |
+| before loop | - | - | 2 |
+| 1 | 2 | 7 | 7 |
+| 2 | 3 | 4 | 7 |
+| 3 | 4 | 9 | 9 |
+Output: __9__.
+Mark points: __Max__ starts at 2 (1); each correct row of the trace (3). Award the rows mark by mark: 7 replaces 2, 4 is ignored, 9 replaces 7.
+
+Q:(4) A 2D array __Grid__ has 2 rows and 3 columns. Row 1 contains 3, 1, 4 and row 2 contains 2, 5, 6. Write pseudocode to output the total of each row (your program must work for any values stored in the array).
+
+A:
+```
+FOR Row ← 1 TO 2
+    Sum ← 0
+    FOR Col ← 1 TO 3
+        Sum ← Sum + Grid[Row, Col]
+    NEXT Col
+    OUTPUT "Row ", Row, " total is ", Sum
+NEXT Row
+```
+This outputs __Row 1 total is 8__ then __Row 2 total is 13__.
+Mark points: nested loop covering rows and columns (2); accumulation with both indices (1); correct totals output inside the outer loop (1).
+
+Q:(2) Translate the pattern below into Python: build a list called __squares__ holding the squares of the numbers 1 to 5 (1, 4, 9, 16, 25) by looping and appending.
+
+A:
+```
+squares = []
+for i in range(1, 6):
+    squares.append(i * i)
+```
+Mark points: empty list plus `.append(...)` (1); loop with `range(1, 6)` producing 1 to 5 (1). Accept `squares = [i * i for i in range(1, 6)]`.
+
+# 4. Procedures, functions and modularity
+
+## 4.1 Why split up code?
+
+Topic 7 expects you to understand **decomposition** (breaking a problem into sub-systems) and Topic 8 expects **maintainable programs**: meaningful identifiers, comments (__//__), and subroutines. A program built from small procedures and functions is easier to write, test, read and reuse.
+
+## 4.2 Procedures
+
+A procedure performs a task and returns nothing. It is defined at the start of the code and called with __CALL__:
+
+```
+PROCEDURE PrintLine(Symbol : CHAR, Times : INTEGER)
+    DECLARE I : INTEGER
+    DECLARE LineText : STRING
+    LineText ← ""
+    FOR I ← 1 TO Times
+        LineText ← LineText + Symbol
+    NEXT I
+    OUTPUT LineText
+ENDPROCEDURE
+
+CALL PrintLine('*', 10)
+```
+
+- Parameters are typed (__Symbol : CHAR__); up to **three** parameters are allowed.
+- The call __CALL PrintLine('*', 10)__ is a complete statement.
+
+## 4.3 Functions
+
+A function performs a task and **returns one value**, so it is used inside expressions — never with __CALL__:
+
+```
+FUNCTION Max(Value1 : INTEGER, Value2 : INTEGER) RETURNS INTEGER
+    IF Value1 > Value2
+        THEN
+            RETURN Value1
+        ELSE
+            RETURN Value2
+    ENDIF
+ENDFUNCTION
+
+OUTPUT "The winner is ", Max(Score1, Score2)
+```
+
+The definition states the return type (__RETURNS INTEGER__) and __RETURN__ sends the value back to the point of call.
+
+## 4.4 Local and global variables
+
+A variable declared **inside** a procedure or function is **local** — it exists only there, and shadows any global of the same name. A variable declared at the top of the program is **global** — visible everywhere. Parameters behave like locals.
+
+Q:(3) Write a procedure __PrintLine__ with parameters __Symbol : CHAR__ and __Times : INTEGER__ that outputs a single line consisting of __Times__ copies of __Symbol__. Then call it to print 10 stars.
+
+A:
+```
+PROCEDURE PrintLine(Symbol : CHAR, Times : INTEGER)
+    DECLARE I : INTEGER
+    DECLARE LineText : STRING
+    LineText ← ""
+    FOR I ← 1 TO Times
+        LineText ← LineText + Symbol
+    NEXT I
+    OUTPUT LineText
+ENDPROCEDURE
+
+CALL PrintLine('*', 10)
+```
+Mark points: correct procedure header with both typed parameters (1); loop from 1 to __Times__ building the string (1); a single OUTPUT of the built line and a correct __CALL__ (1).
+
+Q:(4) Write a function __IsEven(Number : INTEGER) RETURNS BOOLEAN__ that returns TRUE when __Number__ is even. Then use it in a program that inputs 10 integers and outputs how many of them are even.
+
+A:
+```
+FUNCTION IsEven(Number : INTEGER) RETURNS BOOLEAN
+    RETURN MOD(Number, 2) = 0
+ENDFUNCTION
+
+DECLARE I : INTEGER
+DECLARE Value : INTEGER
+DECLARE Count : INTEGER
+Count ← 0
+FOR I ← 1 TO 10
+    INPUT Value
+    IF IsEven(Value)
+        THEN
+            Count ← Count + 1
+    ENDIF
+NEXT I
+OUTPUT Count
+```
+Mark points: function header with __RETURNS BOOLEAN__ (1); __MOD(Number, 2) = 0__ test (1); loop taking 10 inputs (1); counting and output (1). A number is even exactly when the remainder on division by 2 is zero.
+
+Q:(3) This program uses a function. State exactly what it outputs, and show your working.
+```
+FUNCTION Square(X : INTEGER) RETURNS INTEGER
+    RETURN X * X
+ENDFUNCTION
+
+DECLARE N : INTEGER
+N ← 3
+OUTPUT Square(N) + Square(N + 1)
+```
+
+A: __25__. Working: __Square(3)__ = 3 × 3 = 9; __Square(4)__ = 4 × 4 = 16; 9 + 16 = 25.
+Mark points: 9 (1); 16 (1); 25 (1). Function calls are expressions — the arguments are evaluated, the returned values replace the calls, then the addition happens.
+
+Q:(2) What does this program output? Explain why.
+```
+DECLARE Total : INTEGER
+Total ← 5
+PROCEDURE AddUp
+    DECLARE Total : INTEGER
+    Total ← 10
+ENDPROCEDURE
+CALL AddUp
+OUTPUT Total
+```
+
+A: It outputs __5__. The __Total__ declared inside the procedure is a **local** variable that shadows the global one; changing it to 10 leaves the global __Total__ (5) untouched.
+Mark points: correct output (1); explanation in terms of local vs global variables (1).
+
+# 5. File handling
+
+## 5.1 Why files?
+
+Variables and arrays vanish when the program ends. A **file** on backing storage keeps data between program runs — for long-term storage, large data sets, or moving data between programs.
+
+## 5.2 The four file operations
+
+```
+OPENFILE "Marks.txt" FOR READ      // or FOR WRITE
+READFILE "Marks.txt", Mark
+WRITEFILE "Marks.txt", Mark
+CLOSEFILE "Marks.txt"
+```
+
+- Open a file in **one mode at a time**.
+- __FOR READ__ reads existing data; __FOR WRITE__ creates a new file and **destroys anything the file already contained**.
+- __READFILE__ / __WRITEFILE__ move one item (or one line of text) at a time, into/out of a variable.
+- Always __CLOSEFILE__ when finished.
+
+## 5.3 Typical pattern: process a file of values
+
+```
+OPENFILE "Scores.txt" FOR READ
+Total ← 0
+FOR I ← 1 TO 10
+    READFILE "Scores.txt", Mark
+    Total ← Total + Mark
+NEXT I
+CLOSEFILE "Scores.txt"
+OUTPUT "Average is ", Total / 10
+```
+
+N: The syllabus does not define an "end of file" test, so exam questions say how many items the file holds, or end the data with a sentinel value such as −1. Check the question for which pattern to use.
+
+Q:(5) The text file "Scores.txt" contains exactly 10 integer exam marks, one per line. Write pseudocode to output the average (mean) of these marks.
+
+A:
+```
+OPENFILE "Scores.txt" FOR READ
+Total ← 0
+FOR I ← 1 TO 10
+    READFILE "Scores.txt", Mark
+    Total ← Total + Mark
+NEXT I
+CLOSEFILE "Scores.txt"
+OUTPUT "Average is ", Total / 10
+```
+Mark points: __OPENFILE ... FOR READ__ (1); loop 10 times (1); __READFILE__ into a variable and accumulate (1); divide by 10 and output (1); __CLOSEFILE__ (1).
+
+Q:(2) State what happens to the existing contents of "Notes.txt" when this statement runs, and why.
+```
+OPENFILE "Notes.txt" FOR WRITE
+```
+
+A: The existing contents are **erased/lost** — opening __FOR WRITE__ creates a new empty file (it does not append). Anything previously stored in "Notes.txt" is overwritten.
+Mark points: data is lost/overwritten (1); because __WRITE__ mode creates a new file (does not add to existing data) (1).
+
+Q:(3) A student wants to copy the contents of "Old.txt" into "New.txt". Their code opens "Old.txt" and then writes to it with __WRITEFILE__. Explain what is wrong and give the corrected opening lines.
+
+A: A file opened __FOR READ__ cannot be written to with __WRITEFILE__; also, writing must go to the **destination** file. "Old.txt" must be opened __FOR READ__ and "New.txt" __FOR WRITE__ (two files open at once, one per mode):
+```
+OPENFILE "Old.txt" FOR READ
+OPENFILE "New.txt" FOR WRITE
+```
+Mark points: mode mismatch — cannot __WRITEFILE__ to a file opened for reading (2); correct separate opens (1).
+
+Q:(2) Write the Python equivalent of the pseudocode in Question 1 (read 10 marks from "Scores.txt" and print their average).
+
+A:
+```
+total = 0
+f = open("Scores.txt", "r")
+for i in range(10):
+    mark = int(f.readline())
+    total = total + mark
+f.close()
+print(total / 10)
+```
+Mark points: opening and reading inside a loop of 10 (1); closing the file and printing the average (1). Accept `lines = f.readlines()` then a loop, or `map(int, ...)`, provided exactly 10 values are used.
+
+# 6. Standard algorithms, trace tables and debugging
+
+## 6.1 The seven standard methods
+
+The syllabus limits "standard methods of solution" to exactly these — you must be able to **write**, **trace** and **apply** each one:
+
+- **Linear search** — find a value in an array
+- **Bubble sort** — sort an array into order
+- **Totalling** — add up values (Section 1)
+- **Counting** — count values matching a condition (Section 1)
+- **Finding the maximum** — largest value
+- **Finding the minimum** — smallest value
+- **Finding the average** — total ÷ count
+
+Maximum (and similarly minimum):
+
+```
+Max ← A[1]
+FOR I ← 2 TO 12
+    IF A[I] > Max
+        THEN
+            Max ← A[I]
+    ENDIF
+NEXT I
+```
+
+## 6.2 Linear search
+
+Walk through the array comparing each element to the search key; stop when found:
+
+```
+Found ← FALSE
+Position ← 0
+I ← 1
+WHILE Found = FALSE AND I <= 4 DO
+    IF A[I] = SearchKey
+        THEN
+            Found ← TRUE
+            Position ← I
+    ENDIF
+    I ← I + 1
+ENDWHILE
+IF Found = TRUE
+    THEN
+        OUTPUT "Found at position ", Position
+    ELSE
+        OUTPUT "Not found"
+ENDIF
+```
+
+## 6.3 Bubble sort
+
+Repeatedly sweep through the array, swapping neighbouring pairs that are out of order. Each sweep "bubbles" the next largest value to its correct place:
+
+```
+FOR Outer ← 1 TO N - 1
+    FOR Inner ← 1 TO N - Outer
+        IF A[Inner] > A[Inner + 1]
+            THEN
+                Temp ← A[Inner]
+                A[Inner] ← A[Inner + 1]
+                A[Inner + 1] ← Temp
+        ENDIF
+    NEXT Inner
+NEXT Outer
+```
+
+Worked trace sorting 5, 3, 4 (ascending):
+
+T:
+| Pass | Comparison | Swap? | Array after step |
+| 1 | 5 vs 3 | yes | 3, 5, 4 |
+| 1 | 5 vs 4 | yes | 3, 4, 5 |
+| 2 | 3 vs 4 | no | 3, 4, 5 |
+| 2 | 4 vs 5 | no | 3, 4, 5 |
+
+Two "no swap" comparisons in a row mean the array is sorted.
+
+## 6.4 Trace tables and dry-runs
+
+A trace table documents a dry-run of an algorithm. Give **one column per variable** (plus one for outputs/prompts) and **one row per step** — usually one row per loop iteration. Exam tips:
+
+- Write down the initial values row first.
+- Show the row **after** each iteration's changes.
+- If asked for outputs, add an OUTPUT column and write each output when it happens.
+- Keep units/types consistent (e.g. don't put "TRUE" in a number column).
+
+## 6.5 Common logic errors to spot in error-finding questions
+
+- **Missing increment** → infinite loop (the loop counter never changes).
+- **Wrong comparison** → __<__ instead of __<=__ (off-by-one: one value too few).
+- **Uninitialised accumulator/counter** → garbage starting total.
+- **Array index out of range** → reading __A[N + 1]__ in a bubble sort whose inner loop goes to __N__.
+- **Wrong operator** → __=__ used for assignment (should be __←__), words used instead of operator symbols.
+
+Q:(4) The array __A__ holds 7, 2, 9, 4 in positions 1 to 4 and __SearchKey__ is 9. Complete a trace table for the linear search below (columns __I__, __A[I]__, __Found__, __Position__) and state the output.
+```
+Found ← FALSE
+Position ← 0
+I ← 1
+WHILE Found = FALSE AND I <= 4 DO
+    IF A[I] = SearchKey
+        THEN
+            Found ← TRUE
+            Position ← I
+    ENDIF
+    I ← I + 1
+ENDWHILE
+OUTPUT Position
+```
+
+A:
+T:
+| Iteration | I | A[I] | Found | Position |
+| before loop | 1 | - | FALSE | 0 |
+| 1 | 1 | 7 | FALSE | 0 |
+| 2 | 2 | 2 | FALSE | 0 |
+| 3 | 3 | 9 | TRUE | 3 |
+Output: __3__. The loop stops once __Found__ becomes TRUE (search key 9 is at position 3), so iteration 4 never runs.
+Mark points: three correct iterations (3); correct output 3 (1).
+
+Q:(5) Trace one complete bubble sort of the array __5, 3, 4__ (ascending order). Show the array after every comparison and swap, and say how you know the sort is finished.
+
+A:
+T:
+| Pass | Comparison | Action | Array after step |
+| 1 | 5 vs 3 | swap | 3, 5, 4 |
+| 1 | 5 vs 4 | swap | 3, 4, 5 |
+| 2 | 3 vs 4 | no swap | 3, 4, 5 |
+| 2 | 4 vs 5 | no swap | 3, 4, 5 |
+The sort is finished because pass 2 performs no swaps at all — every pair is already in order. Final array: __3, 4, 5__.
+Mark points: first swap correct (2); second swap correct (1); pass 2 with no swaps (1); final array / reasoning (1).
+
+Q:(5) Write pseudocode for an algorithm that inputs 12 integers and outputs the **largest** and the **smallest** of them.
+
+A:
+```
+INPUT Value
+Largest ← Value
+Smallest ← Value
+FOR I ← 2 TO 12
+    INPUT Value
+    IF Value > Largest
+        THEN
+            Largest ← Value
+    ENDIF
+    IF Value < Smallest
+        THEN
+            Smallest ← Value
+    ENDIF
+NEXT I
+OUTPUT "Largest is ", Largest
+OUTPUT "Smallest is ", Smallest
+```
+Mark points: initialising both with the first value (1); loop covering the remaining 11 values (1); update largest when bigger (1); update smallest when smaller (1); both outputs (1). Accept any clear alternative (e.g. an array filled first).
+
+Q:(3) This bubble sort should sort __A[1]__ to __A[N]__, but it sometimes crashes. Identify the error and write the corrected inner loop line.
+```
+FOR Outer ← 1 TO N - 1
+    FOR Inner ← 1 TO N
+        IF A[Inner] > A[Inner + 1]
+            THEN
+                Temp ← A[Inner]
+                A[Inner] ← A[Inner + 1]
+                A[Inner + 1] ← Temp
+        ENDIF
+    NEXT Inner
+NEXT Outer
+```
+
+A: When __Inner = N__ the code reads __A[N + 1]__, which is **outside the array** (index out of range). The inner loop must stop one element early:
+```
+    FOR Inner ← 1 TO N - Outer
+```
+(__TO N - 1__ is also acceptable.)
+Mark points: identifying the out-of-range read of __A[N + 1]__ (2); correcting the loop bound (1).
+
+Q:(2) Explain why programmers use dry-runs and trace tables before running a program.
+
+A: They verify the **logic** of an algorithm step by step without executing it — variable values and outputs can be checked at each stage, which reveals errors (wrong conditions, uninitialised variables, bad arithmetic) early, before coding or when no computer is available.
+Mark points: checking logic / finding errors before running (1); detail about tracking values at each step (1). Any two sensible benefits score the marks.

@@ -1,0 +1,435 @@
+# 7. Program development, testing and data checking
+
+## 7.1 The program development life cycle (PDLC)
+
+Four stages — know what happens in **each** and which tasks belong where:
+
+T:
+| Stage | What happens |
+| Analysis | Identify the problem and requirements; abstraction (focus on essentials); decomposition into parts |
+| Design | Decomposition into sub-systems; structure diagrams; flowcharts; pseudocode |
+| Coding | Write the program code; test iteratively as you go |
+| Testing | Run the finished code against test data; find and fix remaining errors |
+
+## 7.2 Validation — is the data reasonable?
+
+Validation checks run **automatically on input** to reject impossible or suspicious values before processing. The six check types in the syllabus:
+
+- **Range check** — is a numeric value within limits? (e.g. age between 13 and 19)
+- **Length check** — does a value have the right number of characters? (e.g. 6-character username)
+- **Type check** — is it the right kind of data? (e.g. a number where a number is expected)
+- **Presence check** — has anything been entered at all?
+- **Format check** — does it match the expected pattern? (e.g. letters only, or digits in the right places)
+- **Check digit** — an extra digit calculated from the others (e.g. barcodes, ISBNs); recalculated on receipt and compared to detect mistyping
+
+## 7.3 Verification — was it entered accurately?
+
+Verification checks that data was **transferred/recorded correctly** (as opposed to being reasonable):
+
+- **Visual check** — a person re-reads the entered data against the source.
+- **Double entry check** — the same data is entered twice and the two entries compared; a mismatch is flagged.
+
+## 7.4 Test data — normal, abnormal, extreme, boundary
+
+Testing needs data chosen to prove the program handles every case:
+
+- **Normal** — typical valid value that should be accepted (e.g. 15).
+- **Abnormal** — invalid data that must be rejected (e.g. "abc" typed for a number, or −5 for an age).
+- **Extreme** — the **largest and smallest acceptable** values (13 and 19).
+- **Boundary** — the extreme values **plus** the corresponding values that must be rejected: just outside on each side (12 and 20).
+
+N: Boundary data is where programs most often fail (off-by-one errors — __<__ instead of __<=__). A good test plan always includes boundary values for every range.
+
+Q:(3) A registration program requires a username that is **exactly 6 characters long** and contains **letters only**. Identify the validation checks needed and say what each one checks.
+
+A: - **Presence check** — that a username has been entered at all.
+- **Length check** — that the username is exactly 6 characters.
+- **Format check** — that it contains letters only (no digits or symbols).
+Mark points: one per check, with a correct description of what it checks.
+
+Q:(4) An online competition form accepts only ages between **13 and 19 inclusive**. Suggest suitable test data of each type: (a) normal (b) abnormal (c) extreme (d) boundary.
+
+A: (a) Normal: 15 (any valid age such as 13–19).
+(b) Abnormal: "abc" (a word where a number is expected). Accept any clearly invalid value, e.g. −5 or 25.
+(c) Extreme: 13 and 19 — the smallest and largest **acceptable** values.
+(d) Boundary: 12, 13, 19, 20 — the extreme values plus the smallest and largest **rejected** values.
+Mark points: one per category, with extreme and boundary giving values on **both** sides of the range.
+
+Q:(3) Classify each task by PDLC stage (analysis, design, coding or testing):
+(a) Identifying what data the program must store (b) Drawing a structure diagram (c) Running the program with sample data to find errors
+
+A: (a) Analysis  (b) Design  (c) Testing.
+Mark points: one per task.
+
+Q:(2) Define **validation** and **verification**, making the difference between them clear.
+
+A: **Validation** checks that input data is **reasonable/acceptable** (within range, right type/format) before it is processed. **Verification** checks that data has been **transferred or entered accurately** (e.g. by visual check or double entry). One checks sense; the other checks accuracy of entry.
+Mark points: validation definition (1); verification definition (1).
+
+# 8. Flowcharts
+
+## 8.1 The six standard symbols
+
+You must draw flowcharts with **exactly** these shapes — examiners penalise substitutes:
+
+T:
+| Symbol | Shape | Meaning |
+| Terminator | Rounded box (stadium) | Start and Stop of the process |
+| Process | Rectangle | Something done, e.g. Total ← Total + Value |
+| Decision | Diamond | A Yes/No (True/False) question with exactly two exit lines |
+| Input/Output | Parallelogram | INPUT or OUTPUT of data |
+| Subroutine | Rectangle with double side bars | Call to a separate, non-linked flowchart |
+| Flow line | Arrow | Control passing between shapes |
+
+## 8.2 Loop patterns
+
+There is no "loop box" — loops are drawn with a **decision** and a **flow line looping back** to an earlier point. A WHILE-style loop tests before the body; a REPEAT-style loop tests after (its decision usually sits at the bottom).
+
+Worked example — the password loop as an ASCII sketch (real answers are drawn with the shapes above):
+
+```
+      ( Start )
+          |
+          v
+  / INPUT Password \
+          |
+          v
+  +-----------------+   No
+  | Password =      |--------+
+  | "Secret" ?      |        |
+  +-----------------+        |
+          | Yes              |
+          v                  |
+  / OUTPUT "Granted" \       |
+          |                  |
+          v                  |
+      ( Stop )               |
+          ^                  |
+          |__________________+  (loops back to INPUT)
+```
+
+## 8.3 Converting between pseudocode and flowcharts
+
+- One box per action; keep assignments (__←__) inside **Process** boxes.
+- Conditions (__=__, __<__, __>__, ...) go in **Decision** diamonds; label both exits (Yes/No or True/False).
+- Initialise counters/accumulators **before** the loop in their own Process box.
+- A FOR loop becomes: initialiser → decision (counter within range?) → body → increment → flow line back to the decision.
+
+Q:(4) Draw a flowchart for this process: *Start. Repeatedly ask for a password until the user enters "Secret". Then output "Access granted" and stop.* (Describe each box, its shape, and where every flow line goes.)
+
+A: - **Terminator** (rounded): "Start".
+- **Input/Output** (parallelogram): "INPUT Password".
+- **Decision** (diamond): "Password = 'Secret'?" — exit lines labelled **No** and **Yes**.
+- The **No** line loops back to the flow line above the Input/Output box.
+- The **Yes** line goes to an **Input/Output** (parallelogram): "OUTPUT 'Access granted'".
+- **Terminator** (rounded): "Stop".
+Mark points: correct shapes for terminator, input/output and decision (2); No branch looping back to the input (1); Yes branch with output and stop, labels present (1).
+
+Q:(4) Describe the flowchart for this pseudocode, naming each box's shape and its contents, and saying where the loop line goes.
+```
+Total ← 0
+FOR I ← 1 TO 3
+    INPUT Value
+    Total ← Total + Value
+NEXT I
+OUTPUT Total
+```
+
+A: - **Terminator**: "Start".
+- **Process** box: "Total ← 0", "I ← 1".
+- **Decision** diamond: "I <= 3?" with a **Yes** exit going down and a **No** exit going to the right/down towards the output.
+- Yes path: **Input/Output** "INPUT Value" → **Process** "Total ← Total + Value" → **Process** "I ← I + 1" → flow line back up to the **Decision**.
+- No path: **Input/Output** "OUTPUT Total" → **Terminator** "Stop".
+Mark points: initialisation in a process box (1); decision with __I <= 3__ and a loop-back line (1); body boxes in the correct order (1); No path with output and stop (1).
+
+Q:(2) Sam drew a flowchart in which the decision was drawn as a parallelogram, and one exit of the decision had no label. State what is wrong in each case and how to fix it.
+
+A: (a) A decision must be drawn as a **diamond** — a parallelogram is the Input/Output shape. (b) Both exit lines of a decision must be labelled (Yes/No or True/False) so the reader knows which condition leads where.
+Mark points: one per error with the correction.
+
+# 9. Boolean logic and logic gates
+
+## 9.1 The seven gates
+
+Logic values: TRUE = 1, FALSE = 0. The syllabus examines **NOT, AND, OR, NAND, NOR, XOR (also called EOR)**. NOT has a **single** input; all others have exactly **two**. Circuits are limited to **three inputs and one output**, drawn **exactly as the statement describes — never simplified**.
+
+T:
+| A | B | AND | OR | NAND | NOR | XOR |
+| 0 | 0 | 0 | 0 | 1 | 1 | 0 |
+| 0 | 1 | 0 | 1 | 1 | 0 | 1 |
+| 1 | 0 | 0 | 1 | 1 | 0 | 1 |
+| 1 | 1 | 1 | 1 | 0 | 0 | 0 |
+
+- **NOT** inverts its input: 0 → 1, 1 → 0.
+- **NAND** = NOT AND: output 0 only when both inputs are 1.
+- **NOR** = NOT OR: output 1 only when both inputs are 0.
+- **XOR** outputs 1 only when the inputs are **different**.
+
+## 9.2 The three conversions
+
+You must convert freely in every direction between **problem statement**, **logic expression**, **truth table** and **logic circuit**. Worked example: *A greenhouse fan (X) runs when the temperature is high (A) AND the window is open (B), OR whenever the manual switch (C) is on.*
+
+Expression: __X = (A AND B) OR C__
+
+Circuit: an **AND** gate with inputs A and B; its output and input C feed an **OR** gate; the OR output is X.
+
+T:
+| A | B | C | A AND B | X = (A AND B) OR C |
+| 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 0 | 1 |
+| 0 | 1 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 0 | 1 |
+| 1 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 0 | 1 |
+| 1 | 1 | 0 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 1 |
+
+N: Write expressions with explicit parentheses: __(A AND NOT B) OR C__. Pseudocode has no operator precedence rule for mixed logical operators, and examiners want the logic to be unambiguous. A 3-input truth table always has **8 rows** (000 to 111).
+
+Q:(3) Complete the truth table for __X = (A OR B) AND NOT C__.
+
+A:
+T:
+| A | B | C | A OR B | NOT C | X |
+| 0 | 0 | 0 | 0 | 1 | 0 |
+| 0 | 0 | 1 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 1 | 1 | 1 |
+| 0 | 1 | 1 | 1 | 0 | 0 |
+| 1 | 0 | 0 | 1 | 1 | 1 |
+| 1 | 0 | 1 | 1 | 0 | 0 |
+| 1 | 1 | 0 | 1 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 0 | 0 |
+Output column: __0, 0, 1, 0, 1, 0, 1, 0__.
+Mark points: correct intermediate columns (1); correct X column (2). Accept X column alone for 3 marks.
+
+Q:(3) Write a logic expression (and name the gate) for: *X is TRUE only when exactly one of the inputs A and B is TRUE.*
+
+A: __X = (A AND NOT B) OR (B AND NOT A)__. This is the **XOR** gate, so __X = A XOR B__ is also correct.
+Mark points: correct expanded expression with AND, NOT and OR (2); correct parentheses (1). Full marks for __X = A XOR B__ (or __A EOR B__).
+
+Q:(3) Draw the logic circuit for __X = A AND NOT B__. (Describe the gates and connections.)
+
+A: A **NOT** gate with input __B__. An **AND** gate whose two inputs are __A__ (direct) and the output of the NOT gate. The AND gate's output is __X__.
+Mark points: identifying the AND gate (1); identifying the NOT gate on B (1); correct connections (1).
+
+Q:(4) Complete the truth table for __X = (A AND B) OR (NOT C)__.
+
+A:
+T:
+| A | B | C | A AND B | NOT C | X |
+| 0 | 0 | 0 | 0 | 1 | 1 |
+| 0 | 0 | 1 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 0 | 1 | 1 |
+| 0 | 1 | 1 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 0 | 1 | 1 |
+| 1 | 0 | 1 | 0 | 0 | 0 |
+| 1 | 1 | 0 | 1 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 0 | 1 |
+Output column: __1, 0, 1, 0, 1, 0, 1, 1__.
+Mark points: one mark per pair of correct rows (4).
+
+Q:(2) Compare the behaviour of the OR and XOR gates.
+
+A: **OR** outputs 1 when **one or both** inputs are 1 (so 1 OR 1 = 1). **XOR** outputs 1 only when the inputs are **different** (so 1 XOR 1 = 0). They differ only in the case where both inputs are 1.
+Mark points: OR behaviour (1); XOR behaviour including the both-1 case (1).
+
+# 10. Databases
+
+## 10.1 Key concepts
+
+- A **table** holds **records** (rows) and **fields** (columns).
+- Field data types: **text/alphanumeric**, **character**, **Boolean**, **integer**, **real**, **date/time**.
+- A **primary key** is a field (or combination) that **uniquely identifies each record** — no duplicates, no empty values, never changes (e.g. __StudentID__).
+
+## 10.2 SQL — the examinable keywords
+
+SELECT · FROM · WHERE · ORDER BY ASCENDING · ORDER BY DESCENDING · SUM · COUNT · AND · OR
+
+All questions use a **single table**. Worked example — table __Students__:
+
+T:
+| StudentID | Name | Class | Mark |
+| 101 | Aisha | 9A | 84 |
+| 102 | Ben | 9B | 72 |
+| 103 | Chen | 9A | 91 |
+| 104 | Dina | 9B | 65 |
+| 105 | Elias | 9A | 78 |
+
+```
+SELECT Name FROM Students WHERE Class = "9A" ORDER BY Mark DESCENDING
+```
+Output: Chen (91), Aisha (84), Elias (78) — only 9A rows, highest mark first.
+
+```
+SELECT COUNT(StudentID) FROM Students WHERE Mark >= 80 AND Class = "9A"
+```
+Output: 2 (Aisha and Chen).
+
+```
+SELECT SUM(Mark) FROM Students WHERE Class = "9B"
+```
+Output: 137 (72 + 65).
+
+Q:(3) Write an SQL query to list the __Name__ of every student in class "9A" with a __Mark__ of 80 or more, showing the highest mark first.
+
+A:
+```
+SELECT Name FROM Students WHERE Class = "9A" AND Mark >= 80 ORDER BY Mark DESCENDING
+```
+Mark points: __SELECT Name FROM Students__ (1); __WHERE__ combining both conditions with __AND__ (1); __ORDER BY Mark DESCENDING__ (1).
+
+Q:(3) Using the __Students__ table above, state the exact output of:
+```
+SELECT COUNT(StudentID) FROM Students WHERE Mark >= 70 AND Class = "9A"
+```
+
+A: __3__. The records matching **both** conditions are Aisha (84), Chen (91) and Elias (78) — each is in 9A **and** has a mark of at least 70. Ben has 72 but is in 9B, and Dina's 65 is below 70.
+Mark points: correct output 3 (2); correctly identifying the matching records (1).
+
+Q:(2) A school table has the fields __Name__, __DateOfBirth__, __Class__ and __StudentID__. Suggest a suitable primary key and justify your choice.
+
+A: __StudentID__ — it is unique to every student (unlike Name or Class), always has a value, and never changes.
+Mark points: correct field (1); justification in terms of uniqueness/stability (1).
+
+# 11. Python for the scenario question
+
+## 11.1 The rules
+
+The **last question of Paper 2** is a 15-mark unseen scenario (~30 minutes of your exam). You may answer in **pseudocode, Python, Visual Basic or Java** — every other question on the paper must be pseudocode. If you choose Python, the logic still earns the marks (good structure, correctness, completeness), not Python-specific cleverness. Write comments and meaningful variable names — the marking rewards **maintainable** code.
+
+## 11.2 Pseudocode → Python cheat table
+
+T:
+| Cambridge pseudocode | Python |
+| DECLARE X : INTEGER | x = 0 (just name it; add a comment with the type) |
+| CONSTANT Rate ← 5 | RATE = 5 |
+| X ← X + 1 | x = x + 1 |
+| INPUT X | x = int(input("...")) |
+| OUTPUT A, "is", B | print(A, "is", B) |
+| DIV(A, B) | A // B |
+| MOD(A, B) | A % B |
+| A ^ B | A ** B |
+| X <> Y | X != Y |
+| IF c THEN ... ELSE ... ENDIF | if c: ... else: ... |
+| CASE OF X ... ENDCASE | if / elif / else |
+| FOR I ← 1 TO N ... NEXT I | for i in range(1, N + 1): |
+| FOR I ← A TO B STEP S | for i in range(A, B + 1, S): |
+| WHILE c DO ... ENDWHILE | while c: |
+| REPEAT ... UNTIL c | while True: ... if c: break |
+| ARRAY[1:N] OF INTEGER | a = [0] * N (or just use append) |
+| Grid[2, 3] | grid[2][3] |
+| LENGTH(s) | len(s) |
+| SUBSTRING(s, p, l) | s[p-1 : p-1+l] |
+| UCASE(s) / LCASE(s) | s.upper() / s.lower() |
+| ROUND(x, n) / RANDOM() | round(x, n) / random.random() |
+| PROCEDURE P(x : INTEGER) ... CALL P(5) | def p(x): ... p(5) |
+| FUNCTION F(x) RETURNS INTEGER ... | def f(x): return ... |
+| OPENFILE "F" FOR READ | f = open("F", "r") |
+| READFILE "F", v | v = f.readline() |
+| WRITEFILE "F", v | f.write(str(v)) |
+| CLOSEFILE "F" | f.close() |
+
+## 11.3 Strategy for a strong 15-mark answer
+
+- **Read the scenario twice.** Underline the inputs, outputs, processing and any validation rules — this is the analysis stage and it prevents losing easy marks.
+- **Plan on the question paper**: name your variables/arrays, sketch the main loop, decide whether to use a function or two (e.g. a __validate__ function, a __find_highest__ function).
+- **Cover every requirement**: each bullet of the question maps to marks. A missing feature is missing marks.
+- **Validate inputs** where the scenario implies limits, and handle the "not found"/empty case where relevant.
+- **Use meaningful identifiers and comments** (the syllabus explicitly assesses maintainability).
+- **Sanity-check with test data** mentally (a normal value, a boundary value) before moving on.
+
+## 11.4 Worked mini-scenario
+
+*Ask the user for 5 daily temperatures. Store them. Output the average and the number of days above 25 degrees.*
+
+```
+# Store 5 daily temperatures and report the average and hot days
+temps = []
+
+for day in range(1, 6):                      # 5 days
+    value = float(input("Temperature for day " + str(day) + ": "))
+    temps.append(value)
+
+total = 0
+for value in temps:
+    total = total + value
+average = total / 5
+print("Average temperature:", average)
+
+hot_days = 0
+for value in temps:
+    if value > 25:
+        hot_days = hot_days + 1
+print("Days above 25 degrees:", hot_days)
+```
+
+Q:(10) **Scenario practice.** The school canteen records how many meals were sold each day for 10 days. Write a complete Python program that:
+
+- asks the user to enter the number of meals sold for each of the 10 days, rejecting and re-asking on any **negative** value;
+- stores the 10 values;
+- outputs the **total** and the **average** number of meals sold;
+- outputs the **highest** number of meals sold;
+- outputs **how many days** were above the average.
+
+A: Model answer (other clear structures are equally acceptable):
+```
+def get_meals(day):
+    """Ask for one day's sales, rejecting negative values."""
+    while True:
+        value = int(input("Meals sold on day " + str(day) + ": "))
+        if value >= 0:
+            return value
+        print("Invalid: the number must not be negative")
+
+def find_highest(values):
+    """Return the largest value in the list."""
+    highest = values[0]
+    for v in values:
+        if v > highest:
+            highest = v
+    return highest
+
+# 1 - collect 10 valid values
+meals = []
+for day in range(1, 11):
+    meals.append(get_meals(day))
+
+# 2 - total and average
+total = 0
+for v in meals:
+    total = total + v
+average = total / 10
+print("Total meals sold:", total)
+print("Average per day:", average)
+
+# 3 - highest value
+print("Highest day:", find_highest(meals))
+
+# 4 - count days above average
+above = 0
+for v in meals:
+    if v > average:
+        above = above + 1
+print("Days above average:", above)
+```
+Mark points (10 total): loop asking for exactly 10 values and storing them (2); validation rejecting negative values and re-asking (2); correct total (1); correct average (1); correct highest value (2); correct count of days above average (2). Also credit comments and meaningful names where evident. A single monolithic script earns the same marks if the logic is complete and correct.
+
+# Appendix — command words
+
+Knowing what each command word demands is free marks:
+
+T:
+| Command word | What it means |
+| Calculate | work out from given facts, figures or information |
+| Compare | identify similarities and/or differences |
+| Define | give a precise meaning |
+| Demonstrate | show how, or give an example |
+| Describe | state the points / give characteristics and main features |
+| Evaluate | judge quality, importance, amount or value |
+| Explain | give purposes or reasons; make relationships clear; say why/how |
+| Give | produce an answer from a source or from memory |
+| Identify | name, select or recognise |
+| Outline | set out the main points |
+| Show (that) | provide structured evidence leading to a given result |
+| State | express in clear terms |
+| Suggest | apply knowledge to a situation with a range of valid responses |
