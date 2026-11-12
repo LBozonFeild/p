@@ -1,13 +1,13 @@
 CHEMISTRY 5070 — PAPERS 1 AND 2
-CHAPTER-WISE MARK-POINT REVISION CHECKLIST
+SELECTED-CHAPTER MARK-POINT REVISION CHECKLIST
 
-Scope: This general-purpose revision checklist was consolidated from 153 eligible matched question-paper/mark-scheme pairs, May/June 2004–2026 and October/November 2004–2025. It excludes ten unmatched papers and three papers with incomplete or unverified keys. All question-specific workings, numerical examples, diagram answers, historical scheme conflicts and source anomalies remain in full_paper_question_evidence.txt and independent_second_pass_audit.txt. Paper 3 and Paper 4 are outside scope. The dash-led points below are study guidance, not audit-status indicators.
+Scope: Only the syllabus sections explicitly listed by the user (1, 2, 3, 4, 6.4, 7, 8, 9 and 12). This general-purpose revision checklist was consolidated from 153 eligible matched question-paper/mark-scheme pairs, May/June 2004–2026 and October/November 2004–2025. It excludes ten unmatched papers and three papers with incomplete or unverified keys. All question-specific workings, numerical examples, diagram answers, historical scheme conflicts and source anomalies remain in full_paper_question_evidence.txt and independent_second_pass_audit.txt. Paper 3 and Paper 4 are outside scope. The dash-led points below are study guidance, not audit-status indicators.
 
 MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking restrictions may apply only to the question in which they occur. Answer the actual question and include separately requested explanations, observations, equations, working and units.
 
 1 STATES OF MATTER
 
-1.1 Particle model and changes of state
+1.1 Solids, liquids and gases
 - Solid: fixed shape and volume; particles closely packed in regular positions and vibrate about fixed positions.
 - Liquid: fixed volume, variable shape; particles close together, irregularly arranged and able to slide past one another.
 - Gas: no fixed shape or volume; particles far apart, randomly arranged and moving rapidly in random directions.
@@ -28,74 +28,80 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - An element consists of one type of atom; a compound contains two or more elements chemically bonded in fixed proportions; a mixture has variable proportions and can be separated by physical means.
 - In particle diagrams, represent each molecule or monatomic particle with the correct number and types of atoms; a mixture does not introduce bonds between its unrelated components.
 
-2.2 Atomic structure, ions and isotopes
+2.2 Atomic structure and the Periodic Table
+- An atom consists of a central nucleus of protons and neutrons surrounded by electrons in shells.
 - Atomic number is the number of protons; mass number is protons plus neutrons. A neutral atom has equal proton and electron counts.
 - Proton: charge +1, relative mass 1; neutron: charge 0, relative mass 1; electron: charge −1, negligible relative mass.
 - Ion formation changes the number of electrons, not protons or neutrons. A cation has lost electrons and an anion has gained them; electron count equals proton count minus the signed ion charge.
 - Shell arrangements for the first twenty elements follow the occupied shells and available electrons; period identifies the number of occupied shells and main-group number identifies outer-shell electrons. Noble gases have full outer shells.
+
+2.3 Isotopes
+- Read nuclide symbols using the upper mass number, lower proton number and any ion charge; derive neutrons and electrons separately.
 - Isotopes have the same proton number and different neutron numbers; their electron configurations and chemical properties are the same when comparing neutral atoms of the same element.
 - Relative atomic mass is a weighted mean relative to one-twelfth of a carbon-12 atom. Multiply each isotopic mass by its fractional or percentage abundance and divide by the total abundance; do not assume graph frequencies sum to 100.
 
-2.3 Bonding and structure
-- Ionic bonding is electrostatic attraction between oppositely charged ions. Balance ion charges to obtain a neutral formula, using brackets around repeated polyatomic ions.
+2.4 Ions and ionic bonds
+- Metals lose electrons to form cations; non-metals gain electrons to form anions. An ionic crystal is a regular giant lattice of alternating oppositely charged ions.
+- In dot-and-cross ionic diagrams, show transferred electrons, charges and complete outer shells in the resulting ions.
+- Ionic bonding is strong electrostatic attraction between oppositely charged ions. Balance ion charges to obtain a neutral formula, using brackets around repeated polyatomic ions.
 - Ionic compounds typically have high melting points and conduct only when molten or dissolved because their ions must be mobile.
+
+2.5 Simple molecules and covalent bonds
+- A covalent bond is one shared electron pair that lets bonded atoms reach a stable outer-shell configuration (two electrons for hydrogen). Practise dot-and-cross diagrams for the syllabus-listed simple molecules and their analogues.
 - Covalent bonds are shared electron pairs. Dot-and-cross diagrams must show the correct bonding pairs and lone pairs; a single, double or triple bond contains one, two or three shared pairs.
 - Simple molecular substances generally melt or boil at relatively low temperatures because intermolecular forces are weak; covalent bonds within molecules are not broken during melting or boiling. They usually lack mobile charged particles and do not conduct.
-- Diamond and silicon(IV) oxide have giant covalent structures with strong bonds throughout, making them hard and high-melting. Diamond lacks mobile electrons.
+
+2.6 Giant covalent structures
+- Diamond has four bonds per carbon; silicon(IV) oxide has a continuous three-dimensional network of silicon–oxygen bonds. Both have giant covalent structures with strong bonds throughout, making them hard and high-melting. Diamond lacks mobile electrons.
 - Graphite has covalently bonded layers that can slide over one another and delocalised electrons that can move and conduct electricity; its structure supports use as a lubricant and electrode.
+
+2.7 Metallic bonding
 - Metallic bonding is attraction between positive metal ions and mobile delocalised electrons. Mobile electrons enable conduction; layers sliding while bonding remains enable malleability and ductility.
 - Alloys are harder when differently sized atoms disrupt regular layers and make sliding more difficult.
 
 3 STOICHIOMETRY
 
-3.1 Formulae and equations
+3.1 Formulae
+- Know the correct formulae of the elements and compounds named in the syllabus and deduce formulae from particle diagrams or balanced ionic charges.
 - A molecular formula gives the actual atom counts in a molecule; an empirical formula gives the simplest whole-number ratio. Obtain empirical formulae by converting masses or percentages to moles and dividing by the smallest amount.
 - Balance equations using coefficients rather than changing formula subscripts. Show (s), (l), (g) and (aq) when state symbols are requested.
 - A net ionic equation removes unchanged spectator ions but retains reacting solids, aqueous charges, correct states, atom balance and charge balance.
+
+3.2 Relative masses of atoms and molecules
+- Relative atomic mass is the weighted mean mass of an atom of an element relative to one-twelfth of a carbon-12 atom.
 - Relative formula mass is the sum of relative atomic masses for every atom in the formula, including atoms inside brackets and waters of crystallisation.
 
-3.2 Amount of substance and calculations
+3.3 The mole and the Avogadro constant
+- One mole contains 6.02 × 10²³ specified particles (Avogadro constant).
 - Amount in moles equals mass divided by molar mass; number of particles equals moles times the Avogadro constant. Count atoms per molecule separately from molecule count.
+- Concentration may be expressed in g dm⁻³ or mol dm⁻³; convert by using the solute molar mass.
 - Concentration in mol dm⁻³ equals moles divided by volume in dm³; convert cm³ to dm³ by dividing by 1000. Gas molar volume at room temperature and pressure is 24 dm³ mol⁻¹ when the paper specifies this convention.
 - Use the balanced equation's mole ratios before converting to mass, concentration, gas volume or particle count.
 - For limiting reagents, compare available moles with equation coefficients. An excess reagent does not change the theoretical amount determined by the limiting reagent.
 - Percentage yield = actual yield / theoretical yield × 100; percentage purity = mass of desired substance / mass of sample × 100; percentage composition = mass of component / total mass × 100.
+- Use the experimental endpoint and balanced stoichiometry to calculate unknown concentration in titration.
+- Determine molecular formula from empirical formula and relative molecular mass where given.
 - For hydrated salts, determine moles of lost water and moles of dry salt independently, then form their simplest ratio.
 - In multi-step calculations show the separately creditable intermediate moles, ratio, final value, appropriate significant figures and units.
 
 4 ELECTROCHEMISTRY
 
 4.1 Electrolysis
-- Electrolysis is decomposition of a molten or aqueous ionic compound by an electric current; mobile ions carry charge in the electrolyte.
+- Electrolysis is decomposition of a molten or aqueous ionic compound by an electric current; that substance is the electrolyte. Mobile ions carry charge in it, while electrons move through the external circuit.
 - The cathode is negative and attracts cations, which gain electrons (reduction). The anode is positive and attracts anions, which lose electrons (oxidation).
 - Balance electrode half-equations for atoms and charge; electrons appear on the reactant side at the cathode and product side at the anode.
+- Know products and visible observations at both electrodes for molten lead(II) bromide, concentrated aqueous sodium chloride, dilute sulfuric acid and aqueous copper(II) sulfate with inert or copper electrodes.
 - Molten salts usually form a metal at the cathode and non-metal at the anode. In aqueous solutions, account for competing water/hydrogen and hydroxide/oxygen discharge and solution concentration.
 - Concentrated aqueous halides may release halogen at the anode, whereas dilute solutions may release oxygen. Hydrogen often forms at the cathode when the dissolved metal is more reactive than hydrogen.
 - With inert electrodes in aqueous copper(II) salt, copper deposits at the cathode and oxygen may form at the anode. With a copper anode, copper dissolves as copper deposits at the cathode.
 - Graphite conducts electricity and is chemically unreactive in many electrolysis settings; platinum is another inert electrode material.
+- Electroplating improves appearance and resistance to corrosion.
 - In electroplating, the object is the cathode and the electrolyte contains ions of the plating metal; a soluble anode can replenish those ions.
 
-4.2 Cells
-- In a simple cell, electrons travel through the external circuit from the more reactive metal to the less reactive metal.
+4.2 Hydrogen–oxygen fuel cells
 - A hydrogen–oxygen fuel cell generates electrical energy and water; its point-of-use products differ from those of burning carbon-containing fuels. Compare practical storage and supply limitations only when asked.
 
-5 CHEMICAL ENERGETICS
-- Exothermic reactions release energy to the surroundings and have products at a lower energy level; endothermic reactions absorb energy and have products at a higher level.
-- On a reaction pathway, activation energy is the rise from reactants to the peak; enthalpy change is the difference between reactant and product levels. Arrows and labels must match the direction of change.
-- Bond breaking absorbs energy and bond formation releases energy. Estimate enthalpy change by total bond energies broken minus total bond energies formed, counting every bond and retaining the sign and units.
-- A catalyst reduces activation energy but does not change reaction enthalpy or the final equilibrium position.
-
-6 CHEMICAL REACTIONS
-
-6.1 Rates and reversible reactions
-- Rate is change in reactant amount or product amount per unit time. A graph's gradient gives rate; a steeper gradient means faster reaction, and a plateau indicates no further measured change.
-- Increased temperature raises particle speed and the fraction of collisions meeting activation energy. Increased solution concentration or gas pressure raises collision frequency; smaller solid pieces expose more surface area.
-- A catalyst increases the rate by providing a pathway with lower activation energy. Explain a rate change using both its physical cause and its effect on successful collisions where separate marks are available.
-- For a given limiting amount, changing rate conditions may change initial gradient without changing final product amount. Changing limiting-reactant amount can change both gradient and plateau.
-- Dynamic equilibrium requires a closed system: forward and reverse reactions continue at equal rates, so concentrations remain constant but need not be equal.
-- Increasing pressure favours the side with fewer gaseous moles; equal gaseous moles mean no pressure shift. Increasing temperature favours the endothermic direction. A catalyst changes time to equilibrium, not equilibrium composition.
-
-6.2 Redox
+6.4 REDOX
 - Oxidation is electron loss, oxygen gain or increase in oxidation number; reduction is electron gain, oxygen loss or decrease in oxidation number. Both occur together in a redox reaction.
 - An oxidising agent is reduced; a reducing agent is oxidised. Identify the actual reacting species and the electron or oxidation-number change rather than merely naming oxidation or reduction.
 - Free elements have oxidation number zero; a monatomic ion's oxidation number equals its charge; oxidation numbers sum to a compound's or ion's overall charge.
@@ -103,65 +109,88 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 
 7 ACIDS, BASES AND SALTS
 
-7.1 Acids, bases and oxides
+7.1 The characteristic properties of acids and bases
+- Bases accept protons; metal oxides and hydroxides can act as bases, and an alkali is a soluble base.
 - Acids produce H⁺ in water and transfer protons to bases; alkalis produce OH⁻. Strong and weak acids differ in extent of ionisation, not necessarily concentration or total neutralisation possible.
+- Know acid/base indicator colour changes for litmus, thymolphthalein, methyl orange and universal indicator across acidic, neutral and alkaline pH.
+- Strong acids dissociate completely in water; weak acids dissociate partially. Represent complete dissociation by a forward arrow and partial dissociation by a reversible arrow.
 - Neutralisation forms salt and water; net ionic equation H⁺ + OH⁻ → H₂O. Acid with a carbonate yields salt, water and carbon dioxide; with a reactive metal yields salt and hydrogen.
-- Metal oxides are generally basic, non-metal oxides generally acidic, and amphoteric oxides react with both acids and alkalis. Check solubility and oxide identity rather than relying solely on the periodic-table category.
-- Oxide removal of impurities and formation of slag in a blast furnace require identification of both reacting oxide species when an explanation is asked.
 
-7.2 Salt preparation and titration
+7.2 Oxides
+- Amphoteric oxides react with both acids and bases to make salt and water; classify sulfur dioxide/carbon dioxide as acidic, copper(II)/calcium oxides as basic and aluminium/zinc oxides as amphoteric.
+- Metal oxides are generally basic, non-metal oxides generally acidic, and amphoteric oxides react with both acids and alkalis. Check solubility and oxide identity rather than relying solely on the periodic-table category.
+
+7.3 Preparation of salts
 - For an insoluble base, metal or carbonate with acid, add excess solid, filter the unreacted solid, evaporate the filtrate to saturation, then cool, filter and dry crystals.
 - For a soluble acid and alkali, use titration to find exact volumes; repeat without indicator to obtain uncontaminated salt solution before crystallisation.
+- Solubility rules: all sodium, potassium, ammonium and nitrate salts dissolve; most chlorides dissolve except silver and lead; most sulfates dissolve except barium, calcium and lead; carbonates are insoluble except sodium, potassium and ammonium; hydroxides are generally insoluble except sodium, potassium, ammonium and partly calcium.
+- Hydrated crystals contain chemically combined water of crystallisation; anhydrous means containing no water.
 - Prepare insoluble salts by mixing suitable soluble solutions, then filter, wash and dry the precipitate. Check solubility rules before choosing reagents.
 - In titration, use a pipette for a fixed measured portion and a burette for a variable titre; use the indicator endpoint and balanced mole ratio to calculate concentration.
 
 8 THE PERIODIC TABLE
+
+8.1 Arrangement of elements
+- Elements are ordered by increasing proton number in groups and periods; metallic character generally falls across a period. Group position and electron configuration help predict ion charge and chemical behaviour.
 - Elements are arranged by increasing proton number. Elements in the same group have similar chemical properties because of the same number of outer-shell electrons.
+
+8.2 Group I properties
+- Group I metals are relatively soft; density generally increases down the group.
 - Group I metals form +1 ions; reactivity generally increases and melting point decreases down the group. Their reactions with water form hydroxide and hydrogen.
+
+8.3 Group VII properties
 - Group VII halogens form −1 ions; reactivity decreases down the group. A more reactive halogen displaces a less reactive halogen from its aqueous halide.
+- At room temperature chlorine is a pale yellow-green gas, bromine a red-brown liquid and iodine a grey-black solid; density generally increases down the group.
 - Halogens exist as diatomic molecules; their melting and boiling points increase down the group because intermolecular forces strengthen.
+
+8.4 Transition elements
 - Transition elements typically have high density and melting point, coloured compounds, variable oxidation states and catalytic activity; distinguish requested physical properties from chemical ones.
+
+8.5 Noble gases
 - Noble gases have full outer electron shells and are generally unreactive and monatomic; helium has two outer electrons, not eight.
 
 9 METALS
+
+9.1 Properties of metals
+- Compare metals with non-metals in conductivity, malleability/ductility and melting/boiling points.
 - Metals conduct heat and electricity, are generally malleable and ductile, and form positive ions. Pure metals and alloys may differ in hardness and corrosion resistance.
+
+9.2 Uses of metals
+- Aluminium is useful in aircraft and overhead cables for low density, in cables for conduction, and in food containers for corrosion resistance; copper is used in wiring for conductivity and ductility.
+
+9.4 Reactivity series
+- Learn the order potassium > sodium > calcium > magnesium > aluminium > carbon > zinc > iron > hydrogen > copper > silver > gold.
+- Predict metals’ reactions with cold water, steam, oxygen and dilute acid using the reactivity series.
 - A more reactive metal can displace a less reactive metal from solution. Reactivity order also predicts whether a metal reacts with acid and the extraction method required.
-- Very reactive metals require electrolysis for extraction; less reactive metals can be reduced with carbon or carbon monoxide. In iron extraction, limestone decomposes, and its oxide reacts with silica impurity to make slag.
-- A zinc coating prevents oxygen and water contacting iron; zinc also gives sacrificial protection by corroding preferentially. Distinguish a barrier from sacrificial protection.
-- Aluminium resists corrosion because of its oxide layer; carbon electrodes are used in aluminium extraction, and cryolite reduces the working temperature.
-
-10 CHEMISTRY OF THE ENVIRONMENT
-- Dry air contains mostly nitrogen and oxygen, with argon prominent among the remaining gases. Carbon dioxide and methane contribute to the greenhouse effect.
-- Complete combustion of carbon-containing fuel forms carbon dioxide and water; incomplete combustion can form poisonous carbon monoxide and soot.
-- Sulfur dioxide and oxides of nitrogen contribute to acid rain. Reduce sulfur dioxide emissions using low-sulfur fuel, less fossil fuel or flue-gas desulfurisation.
-- Domestic water treatment uses sedimentation and/or filtration for insoluble solids, carbon for unwanted taste or odour, and chlorination to kill microbes.
-- Dissolved oxygen supports aquatic life; microbes, toxic metals, microplastics and excess nutrients can harm water quality.
-
-11 ORGANIC CHEMISTRY
-- A homologous series shares a functional group and general formula; adjacent members differ by CH₂, have similar chemical properties and show trends in physical properties.
-- Alkanes are saturated hydrocarbons with single carbon–carbon bonds; alkenes contain C=C and undergo addition, often decolourising bromine water. Distinguish substitution in alkanes from addition in alkenes.
-- Cracking breaks longer hydrocarbons into shorter molecules using heat and a catalyst; fractional distillation separates petroleum fractions by boiling point after heating and vaporisation.
-- Draw structural or displayed formulae with the requested bond detail; distinguish positional, branched and cyclic structural isomers where their molecular formulae match.
-- Ethanol can be made by fermentation of glucose or hydration of ethene. Primary alcohols can be oxidised to carboxylic acids; choose the oxidant or biological method appropriate to the question.
-- Carboxylic acids are weak acids and form esters with alcohols in an acid-catalysed reaction; identify the acid-derived and alcohol-derived parts of an ester name and formula.
-- Addition polymerisation joins unsaturated monomers without eliminating a small molecule. Show repeat units, correct side groups and continuation bonds.
-- Condensation polymerisation joins bifunctional monomers and eliminates a small molecule. Polyesters contain ester linkages and polyamides contain amide linkages; show correct linkage orientation and alternating monomer units.
-- Plastic disposal can fill landfill, accumulate in oceans or generate toxic gases when burnt. Chemical recycling may break polymers into monomers and repolymerise them.
+- Aluminium appears less reactive in air because a protective oxide layer limits further reaction.
+- Aluminium extraction uses electrolysis of purified aluminium oxide dissolved in molten cryolite; cryolite lowers operating temperature, and oxygen produced at the carbon anode reacts with carbon, so anodes need replacement.
 
 12 EXPERIMENTAL TECHNIQUES AND CHEMICAL ANALYSIS
 
-12.1 Methods and measurements
+12.1 Experimental design
+- Select suitable stopwatch, thermometer, balance, burette, pipette, measuring cylinder or gas syringe for the measured quantity; assess precision and practical advantages of the method.
+- A solvent dissolves a solute to make a solution; a saturated solution holds the maximum solute at a given temperature. Distinguish residue remaining after separation from filtrate passing through a filter.
 - In an investigation, identify the independent variable, controlled variables and measured dependent variable; use suitable apparatus, repeat measurements and account for gas loss or leaks.
-- Separate insoluble solids by filtration; recover dissolved solids by crystallisation; separate miscible liquids by fractional distillation where boiling points differ.
+
+12.2 Acid–base titrations
+- Use a volumetric pipette to measure a fixed aliquot, a burette for the titre and a suitable indicator to identify the endpoint.
+
+12.3 Chromatography
 - In paper chromatography, put a small spot above the solvent level, mark the solvent front and calculate Rf as distance travelled by solute divided by distance travelled by solvent front. Compare unknowns with standards under the same conditions; use a locating agent for colourless substances.
 - Interpret chromatograms by spot position, not only spot colour; an insoluble component remaining on the baseline has Rf zero.
+
+12.4 Separation and purification
+- Separate insoluble solids by filtration; recover dissolved solids by crystallisation; separate miscible liquids by fractional distillation where boiling points differ.
+
 - Pure substances have characteristic melting and boiling points; impurities commonly broaden melting range and alter these temperatures.
 - Collect gas by a method appropriate to its solubility and density; choose a drying agent that does not react with the gas being dried.
 
-12.2 Qualitative analysis
+12.5 Identification of ions and gases
+- For carbonate, add dilute acid and test the evolved carbon dioxide with limewater.
 - For chloride, bromide or iodide, acidify with dilute nitric acid then add silver nitrate: white, cream and yellow precipitates respectively.
 - For sulfate, acidify then add a soluble barium salt to obtain a white precipitate; acidified manganate(VII) can test for sulfite by decolourisation.
 - Test ammonium by warming with aqueous sodium hydroxide: evolved ammonia turns damp red litmus blue. For nitrate, add aluminium and warm with alkali to produce ammonia; test ammonium first if both are possible.
+- Identify aluminium(III), ammonium, calcium(II), chromium(III), copper(II), iron(II), iron(III) and zinc(II) using aqueous sodium hydroxide and ammonia, noting colour and solubility in excess.
 - With aqueous sodium hydroxide, copper(II) gives a light-blue precipitate, iron(II) green, iron(III) red-brown, and aluminium(III), zinc(II) and calcium(II) white; check whether the precipitate dissolves in excess.
 - With aqueous ammonia, copper(II) gives a light-blue precipitate that dissolves in excess to form a deep-blue solution; zinc(II) gives a white precipitate dissolving to a colourless solution. Aluminium(III) precipitate remains insoluble in excess.
 - Gas tests: hydrogen gives a squeaky pop with a lighted splint; oxygen relights a glowing splint; carbon dioxide turns limewater milky; chlorine bleaches damp litmus; ammonia turns damp red litmus blue; sulfur dioxide decolourises acidified manganate(VII).
