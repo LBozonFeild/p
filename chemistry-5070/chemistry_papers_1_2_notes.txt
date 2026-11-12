@@ -16,17 +16,33 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Boiling occurs throughout a liquid at its boiling point; evaporation occurs at the surface and can occur below the boiling point. Evaporation cools the remaining liquid as higher-energy particles escape.
 - A sloping heating or cooling curve indicates changing temperature; a plateau indicates a change of state at constant temperature.
 - Heating a gas increases average kinetic energy and particle speed. At fixed volume pressure rises; at constant pressure the gas expands. Compressing a gas at constant temperature decreases volume and increases collision frequency with the container walls.
+- Particle models explain why solids resist compression, liquids flow yet are difficult to compress, and gases are readily compressed and fill their containers.
+- Melting: absorbed energy allows particles to leave their fixed positions and move past one another; they remain relatively close.
+- Freezing: particles lose energy, stop sliding and become fixed in an ordered arrangement, while continuing to vibrate.
+- Boiling: energy is absorbed as particles throughout the liquid separate into a gas; the boiling point depends on pressure.
+- Evaporation: only sufficiently energetic particles escape from the surface; it is not necessary to reach the boiling point.
+- Condensation: cooling reduces particle energy and gaseous particles become close enough for attractions to keep them in the liquid.
+- On a heating curve, identify the solid, liquid and gas regions as well as the melting and boiling plateaus; on cooling, identify condensation and freezing.
+- During a plateau, energy changes potential energy/attractions rather than average kinetic energy; a sloping segment changes temperature and average kinetic energy.
+- Gas pressure comes from collisions of particles with container walls; at constant temperature a smaller volume increases collision frequency, and at constant pressure a hotter gas expands.
+- State which variable is held constant when predicting a gas-volume change: temperature and pressure effects cannot be inferred without conditions.
 
 1.2 Diffusion
 - Diffusion is net movement from higher to lower concentration due to random particle motion; particles continue moving after concentrations become uniform, but net movement stops.
 - Compare gaseous diffusion at the same temperature using molecular mass: lighter molecules generally diffuse faster. Higher temperature increases particle speed and diffusion rate.
 - Check physical states at the specified temperature before comparing gas diffusion; a lighter substance that is not gaseous cannot be chosen as the faster-diffusing gas.
+- Diffusion occurs in both liquids and gases because particles move randomly; the observed spreading is the net effect of many particle movements.
+- At the same temperature a gas with a lower relative molecular mass generally diffuses more rapidly than a heavier gas; compare the actual molecular, not atomic, masses.
 
 2 ATOMS, ELEMENTS AND COMPOUNDS
 
 2.1 Elements, compounds and mixtures
 - An element consists of one type of atom; a compound contains two or more elements chemically bonded in fixed proportions; a mixture has variable proportions and can be separated by physical means.
 - In particle diagrams, represent each molecule or monatomic particle with the correct number and types of atoms; a mixture does not introduce bonds between its unrelated components.
+- Elements may consist of individual atoms or molecules containing just one element; being a molecule does not by itself make a substance a compound.
+- A compound's elements are joined by chemical bonds in a fixed ratio; its properties may differ from those of its constituent elements.
+- A mixture retains the identities of its substances; it may contain elements, compounds or both, and physical separation does not chemically change them.
+- In a particle diagram, identify whether unlike atoms are bonded together or merely mixed; count the different element symbols, not the total particles.
 
 2.2 Atomic structure and the Periodic Table
 - An atom consists of a central nucleus of protons and neutrons surrounded by electrons in shells.
@@ -34,30 +50,66 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Proton: charge +1, relative mass 1; neutron: charge 0, relative mass 1; electron: charge −1, negligible relative mass.
 - Ion formation changes the number of electrons, not protons or neutrons. A cation has lost electrons and an anion has gained them; electron count equals proton count minus the signed ion charge.
 - Shell arrangements for the first twenty elements follow the occupied shells and available electrons; period identifies the number of occupied shells and main-group number identifies outer-shell electrons. Noble gases have full outer shells.
+- The nucleus contains almost all the atom's mass; electrons occupy shells outside it and account for little mass.
+- Relative charges and masses are distinct: proton (+1, 1), neutron (0, 1), electron (−1, approximately 1/1836).
+- An element's proton number uniquely identifies it. Work out neutrons by subtracting proton number from nucleon number.
+- Count electrons in a neutral atom from its proton number; for a positive ion subtract the magnitude of its charge, and for a negative ion add it.
+- For proton numbers 1–20, fill successive shells using capacities 2, 8, 8 and then the fourth shell as required by the syllabus convention.
+- Group I–VII elements have an outer electron count equal to their group number; the occupied shell count equals the period number.
+- Noble gases have filled outer shells; helium's first shell holds two electrons, while the other familiar noble gases have eight outer electrons.
+- Distinguish proton number, number of occupied shells, and number of electrons in the outer shell when reading a Periodic Table position.
 
 2.3 Isotopes
 - Read nuclide symbols using the upper mass number, lower proton number and any ion charge; derive neutrons and electrons separately.
 - Isotopes have the same proton number and different neutron numbers; their electron configurations and chemical properties are the same when comparing neutral atoms of the same element.
 - Relative atomic mass is a weighted mean relative to one-twelfth of a carbon-12 atom. Multiply each isotopic mass by its fractional or percentage abundance and divide by the total abundance; do not assume graph frequencies sum to 100.
+- In isotope notation, place mass number above proton number; an ionic charge written separately describes electrons lost or gained, not a different nucleus.
+- Isotopes of the same element have identical proton numbers and, as neutral atoms, identical electron numbers and arrangements.
+- Isotopic mass differences result from neutron counts. Chemical behaviour is controlled mainly by the electron arrangement; do not say different neutrons produce different electronic configurations.
+- Use weighted averages: Ar = Σ(isotopic mass × abundance) / Σ(abundance), whether the abundances are percentages or relative intensities.
+- If a percentage abundance is missing, subtract the supplied percentages from 100 before using the weighted average.
+- If a mass or abundance is unknown, form an equation from the weighted mean and solve it, keeping the denominator consistent with the stated abundance scale.
 
 2.4 Ions and ionic bonds
 - Metals lose electrons to form cations; non-metals gain electrons to form anions. An ionic crystal is a regular giant lattice of alternating oppositely charged ions.
 - In dot-and-cross ionic diagrams, show transferred electrons, charges and complete outer shells in the resulting ions.
 - Ionic bonding is strong electrostatic attraction between oppositely charged ions. Balance ion charges to obtain a neutral formula, using brackets around repeated polyatomic ions.
 - Ionic compounds typically have high melting points and conduct only when molten or dissolved because their ions must be mobile.
+- Metals typically achieve stable outer shells by losing electrons; non-metals gain the electrons. The total charge of the ions produced from an electrically neutral reaction must balance.
+- Oppositely charged ions attract in every direction in a repeating three-dimensional giant ionic lattice, rather than existing as isolated covalent molecules.
+- Draw each ion in brackets with its charge in dot-and-cross diagrams; distinguish electrons originally belonging to the different atoms.
+- A high melting or boiling point follows from the large energy needed to overcome strong electrostatic attractions throughout the giant lattice.
+- Solid ionic substances do not conduct because ions are held in fixed positions; melting or dissolving frees ions to carry charge.
+- An aqueous ionic solution conducts by ion movement, not by free electrons within the solution.
 
 2.5 Simple molecules and covalent bonds
 - A covalent bond is one shared electron pair that lets bonded atoms reach a stable outer-shell configuration (two electrons for hydrogen). Practise dot-and-cross diagrams for the syllabus-listed simple molecules and their analogues.
-- Covalent bonds are shared electron pairs. Dot-and-cross diagrams must show the correct bonding pairs and lone pairs; a single, double or triple bond contains one, two or three shared pairs.
+- Dot-and-cross diagrams must show all bonding and lone pairs; a single, double or triple covalent bond contains one, two or three shared pairs.
 - Simple molecular substances generally melt or boil at relatively low temperatures because intermolecular forces are weak; covalent bonds within molecules are not broken during melting or boiling. They usually lack mobile charged particles and do not conduct.
+- Draw the syllabus molecules H₂, Cl₂, H₂O, CH₄, NH₃, HCl, CH₃OH, C₂H₄, O₂, CO₂ and N₂, showing every shared pair and every required lone pair.
+- Hydrogen needs two electrons in its outer shell; other common non-metal atoms in these molecules normally complete an octet.
+- Oxygen in water has two bonds and two lone pairs; nitrogen in ammonia has three bonds and one lone pair; a halogen in a single bond has three lone pairs.
+- O₂ has a double bond and N₂ a triple bond; carbon dioxide contains two carbon–oxygen double bonds, while ethene has a carbon–carbon double bond.
+- Distinguish strong covalent bonds within each molecule from weak attractions between separate molecules when explaining physical properties.
+- On melting a molecular substance, intermolecular attractions are overcome but the atoms within each molecule stay bonded.
+- A molecular liquid may contain electrons, but it lacks the freely moving ions or delocalised electrons needed for electrical conduction.
 
 2.6 Giant covalent structures
 - Diamond has four bonds per carbon; silicon(IV) oxide has a continuous three-dimensional network of silicon–oxygen bonds. Both have giant covalent structures with strong bonds throughout, making them hard and high-melting. Diamond lacks mobile electrons.
 - Graphite has covalently bonded layers that can slide over one another and delocalised electrons that can move and conduct electricity; its structure supports use as a lubricant and electrode.
+- Diamond forms a three-dimensional network: each carbon has four strong bonds to other carbons. This explains hardness, high melting point and use in cutting tools.
+- Graphite forms flat layers: each carbon has three covalent bonds within a layer and a delocalised electron able to move along the layer.
+- Weak attractions between graphite layers allow them to slide, explaining lubrication; mobile electrons explain use as an electrical electrode.
+- Silicon(IV) oxide is a giant covalent network with silicon and oxygen atoms linked throughout; strong bonds explain similarity to diamond in hardness and high melting point.
+- Do not attribute giant-covalent high melting point to weak intermolecular forces: energy must overcome strong covalent bonds.
 
 2.7 Metallic bonding
 - Metallic bonding is attraction between positive metal ions and mobile delocalised electrons. Mobile electrons enable conduction; layers sliding while bonding remains enable malleability and ductility.
 - Alloys are harder when differently sized atoms disrupt regular layers and make sliding more difficult.
+- Positive metal ions occupy a giant lattice surrounded by a sea of delocalised electrons; electrostatic attraction between them constitutes metallic bonding.
+- Explain electrical conduction by saying delocalised electrons are mobile and carry charge through the structure.
+- Explain malleability and ductility by sliding layers of positive ions while their attraction to the delocalised electron sea persists.
+- Do not replace positive metal ions with neutral atoms in the definition of metallic bonding.
 
 3 STOICHIOMETRY
 
@@ -66,10 +118,20 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - A molecular formula gives the actual atom counts in a molecule; an empirical formula gives the simplest whole-number ratio. Obtain empirical formulae by converting masses or percentages to moles and dividing by the smallest amount.
 - Balance equations using coefficients rather than changing formula subscripts. Show (s), (l), (g) and (aq) when state symbols are requested.
 - A net ionic equation removes unchanged spectator ions but retains reacting solids, aqueous charges, correct states, atom balance and charge balance.
+- Write elemental formulas correctly, distinguishing monatomic metals and noble gases from diatomic elemental molecules where appropriate.
+- In molecular formulas, subscripts give the actual numbers of atoms; in empirical formulas, subscripts give the smallest whole-number ratio.
+- Read particle drawings by counting each atom type before reducing the ratio; do not confuse a displayed structural formula with an empirical formula.
+- Determine a salt's formula by finding the smallest ion ratio that balances total positive and negative charge; use parentheses for more than one polyatomic ion.
+- Word equations name all reactants and products. Symbol equations preserve correct formulas while coefficients balance each element.
+- In ionic equations, separate aqueous strong electrolytes into ions, omit only genuine spectators, and preserve solids, liquids and gases as undissociated species.
+- Include state symbols when requested and check atom counts, net charge, physical states and any precipitation or gas formation independently.
 
 3.2 Relative masses of atoms and molecules
 - Relative atomic mass is the weighted mean mass of an atom of an element relative to one-twelfth of a carbon-12 atom.
 - Relative formula mass is the sum of relative atomic masses for every atom in the formula, including atoms inside brackets and waters of crystallisation.
+- Relative atomic mass is an isotope-abundance-weighted mean relative to one-twelfth of the mass of a carbon-12 atom; it is not generally the mass of one particular atom.
+- For a molecule sum the Ar of every atom to obtain relative molecular mass; for ionic substances use relative formula mass because they do not consist of discrete molecules.
+- Expand subscripts, brackets and waters of crystallisation when calculating Mr; an isotope-specific mass and a natural relative atomic mass need not coincide.
 
 3.3 The mole and the Avogadro constant
 - One mole contains 6.02 × 10²³ specified particles (Avogadro constant).
@@ -83,6 +145,18 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Determine molecular formula from empirical formula and relative molecular mass where given.
 - For hydrated salts, determine moles of lost water and moles of dry salt independently, then form their simplest ratio.
 - In multi-step calculations show the separately creditable intermediate moles, ratio, final value, appropriate significant figures and units.
+- Rearrange n = m/M to find mass m = nM or molar mass M = m/n, taking care with units.
+- Use N = nNA for atoms, molecules or ions, and multiply by the number of requested particles per formula unit if necessary.
+- Convert gas volume to moles using n = V/24 with V in dm³ at r.t.p.; use 24 000 cm³ mol⁻¹ when the volume is supplied in cm³.
+- For solutions, n = cV with V in dm³; convert between mass concentration and molar concentration through molar mass.
+- Titration method: calculate moles in the known solution, use equation coefficients, then divide unknown moles by its measured volume in dm³.
+- For a limiting-reactant comparison, divide each reactant's available moles by its coefficient; the smaller value limits reaction extent.
+- Distinguish amount left unreacted from amount consumed; a reagent being in excess does not mean it makes more product after the other runs out.
+- Obtain an empirical formula from mass or percentage composition by dividing each element's mass by Ar and converting the mole ratio to the smallest whole numbers.
+- Obtain a molecular formula by multiplying every empirical-formula subscript by Mr / empirical-formula mass.
+- Percentage composition is part mass divided by whole formula mass; percentage yield uses actual product divided by the theoretical amount; percentage purity uses desired component divided by the original impure sample.
+- For a multistep mass, gas, concentration or particle calculation, write the equation and record the intermediate amount before performing the final conversion.
+- When asked for a result to specified significant figures, round the final answer rather than prematurely rounding intermediate mole values.
 
 4 ELECTROCHEMISTRY
 
@@ -93,19 +167,36 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Know products and visible observations at both electrodes for molten lead(II) bromide, concentrated aqueous sodium chloride, dilute sulfuric acid and aqueous copper(II) sulfate with inert or copper electrodes.
 - Molten salts usually form a metal at the cathode and non-metal at the anode. In aqueous solutions, account for competing water/hydrogen and hydroxide/oxygen discharge and solution concentration.
 - Concentrated aqueous halides may release halogen at the anode, whereas dilute solutions may release oxygen. Hydrogen often forms at the cathode when the dissolved metal is more reactive than hydrogen.
-- With inert electrodes in aqueous copper(II) salt, copper deposits at the cathode and oxygen may form at the anode. With a copper anode, copper dissolves as copper deposits at the cathode.
 - Graphite conducts electricity and is chemically unreactive in many electrolysis settings; platinum is another inert electrode material.
 - Electroplating improves appearance and resistance to corrosion.
 - In electroplating, the object is the cathode and the electrolyte contains ions of the plating metal; a soluble anode can replenish those ions.
+- Locate the positive and negative terminals from the power supply rather than assuming the left or right electrode has a fixed polarity.
+- Cations migrate towards the negative cathode; anions migrate towards the positive anode. Electrons travel through the external conducting circuit, not through the electrolyte as electron current.
+- Reduction is gain of electrons at the cathode; oxidation is loss of electrons at the anode. Check electron positions when constructing half-equations.
+- In molten lead(II) bromide, molten ions are mobile: lead forms at the cathode and bromine at the anode; describe the observed metal and brown bromine where requested.
+- With concentrated aqueous sodium chloride and inert electrodes, hydrogen forms at the cathode and chlorine at the anode; the remaining solution becomes alkaline.
+- With dilute sulfuric acid and inert electrodes, hydrogen forms at the cathode and oxygen at the anode; hydrogen-to-oxygen gas volume ratio is approximately 2:1.
+- For aqueous copper(II) sulfate with inert carbon, copper deposits at the cathode and oxygen bubbles at the anode; the blue colour can fade as copper(II) ions are depleted.
+- With copper electrodes in copper(II) sulfate, copper dissolves from the anode and deposits at the cathode; the anode loses mass and the cathode gains mass.
+- In molten binary ionic compounds, predict cation reduction to the metal and anion oxidation to a non-metal; aqueous products require a separate water/ion discharge comparison.
+- In electroplating, attach the object to the negative terminal, immerse it in an electrolyte containing plating-metal ions, and use a suitable anode to maintain plating ions.
+- An inert electrode conducts but does not itself chemically participate in the intended electrode reaction.
 
 4.2 Hydrogen–oxygen fuel cells
 - A hydrogen–oxygen fuel cell generates electrical energy and water; its point-of-use products differ from those of burning carbon-containing fuels. Compare practical storage and supply limitations only when asked.
+- Advantages over a petrol engine can include no carbon dioxide or carbon monoxide at the vehicle's point of use; assess the source of hydrogen separately when comparing whole-system impacts.
+- Disadvantages can include storage and distribution difficulties and the availability of refuelling infrastructure; select an answer supported by the question's comparison and mark scheme.
 
 6.4 REDOX
 - Oxidation is electron loss, oxygen gain or increase in oxidation number; reduction is electron gain, oxygen loss or decrease in oxidation number. Both occur together in a redox reaction.
 - An oxidising agent is reduced; a reducing agent is oxidised. Identify the actual reacting species and the electron or oxidation-number change rather than merely naming oxidation or reduction.
 - Free elements have oxidation number zero; a monatomic ion's oxidation number equals its charge; oxidation numbers sum to a compound's or ion's overall charge.
 - Acidified aqueous manganate(VII) changes purple to colourless on reduction; oxidation of iodide produces brown iodine. A reagent's oxidising or reducing role depends on what it reacts with.
+- Use Roman numerals for oxidation numbers in names when needed, and do not confuse an oxidation number with the charge on a whole polyatomic ion.
+- Oxygen gain/electron loss/oxidation-number increase are alternative descriptions of oxidation; oxygen loss/electron gain/oxidation-number decrease describe reduction.
+- For a redox reaction, identify which species is oxidised and reduced and relate them to the corresponding reducing and oxidising agents.
+- In an elemental molecule the oxidation number is zero; in a simple ion it equals ionic charge, and the sum over a compound or polyatomic ion equals its total charge.
+- Colour change is evidence only in the stated chemical conditions; name the reacting species rather than relying solely on colour.
 
 7 ACIDS, BASES AND SALTS
 
@@ -115,10 +206,21 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Know acid/base indicator colour changes for litmus, thymolphthalein, methyl orange and universal indicator across acidic, neutral and alkaline pH.
 - Strong acids dissociate completely in water; weak acids dissociate partially. Represent complete dissociation by a forward arrow and partial dissociation by a reversible arrow.
 - Neutralisation forms salt and water; net ionic equation H⁺ + OH⁻ → H₂O. Acid with a carbonate yields salt, water and carbon dioxide; with a reactive metal yields salt and hydrogen.
+- Acid + reactive metal forms a salt and hydrogen; acid + base forms salt and water; acid + carbonate forms salt, water and carbon dioxide.
+- Base + ammonium salt on warming can release ammonia; distinguish a base from an alkali, which is a soluble base.
+- Complete dissociation is the definition of a strong acid; partial dissociation is the definition of a weak acid. A dilute strong acid remains strong and a concentrated weak acid remains weak.
+- Common strong acids are hydrochloric, nitric and sulfuric acids; carboxylic acids are weak. Show the appropriate one-way or reversible aqueous ionisation equation.
+- Acids turn blue litmus red; alkalis turn red litmus blue. Methyl orange is red in acid and yellow in alkali; thymolphthalein is colourless in acid and blue in alkali.
+- Universal indicator and pH compare acidity and alkalinity: below 7 acidic, 7 neutral and above 7 alkaline. A lower pH corresponds to greater hydrogen-ion concentration under comparable conditions.
+- For acid–alkali neutralisation, use H⁺(aq) + OH⁻(aq) → H₂O(l); it represents reaction of the ions, not loss of electrons.
 
 7.2 Oxides
 - Amphoteric oxides react with both acids and bases to make salt and water; classify sulfur dioxide/carbon dioxide as acidic, copper(II)/calcium oxides as basic and aluminium/zinc oxides as amphoteric.
 - Metal oxides are generally basic, non-metal oxides generally acidic, and amphoteric oxides react with both acids and alkalis. Check solubility and oxide identity rather than relying solely on the periodic-table category.
+- Acidic oxides react with bases and may produce an acidic aqueous solution; basic metal oxides react with acids; amphoteric oxides react with both.
+- Recognise carbon dioxide and sulfur dioxide as acidic, calcium oxide and copper(II) oxide as basic, and aluminium oxide and zinc oxide as amphoteric.
+- Name the salt and water produced in an acid/base oxide reaction, balancing the specific equation when requested.
+- A metal oxide being insoluble does not by itself show that it cannot react with acid or alkali.
 
 7.3 Preparation of salts
 - For an insoluble base, metal or carbonate with acid, add excess solid, filter the unreacted solid, evaporate the filtrate to saturation, then cool, filter and dry crystals.
@@ -127,36 +229,69 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Hydrated crystals contain chemically combined water of crystallisation; anhydrous means containing no water.
 - Prepare insoluble salts by mixing suitable soluble solutions, then filter, wash and dry the precipitate. Check solubility rules before choosing reagents.
 - In titration, use a pipette for a fixed measured portion and a burette for a variable titre; use the indicator endpoint and balanced mole ratio to calculate concentration.
+- Choose a soluble salt's preparation route according to the reactants: titration for soluble acid and alkali; excess insoluble metal, base or carbonate with acid followed by filtration for the other routes.
+- Add excess insoluble reactant until no more reaction, filter it off, heat filtrate to crystallisation point, cool, then filter and dry the crystals.
+- For an acid–alkali salt, find the titre with indicator, repeat using measured volumes without indicator, then concentrate and crystallise the pure salt.
+- For an insoluble salt, select two soluble source salts, combine aqueous solutions, filter the precipitate, wash away soluble impurities and dry it.
+- Sodium, potassium, ammonium and nitrate salts are soluble. Lead and silver chlorides, and barium, calcium and lead sulfates, are exceptions to the common chloride/sulfate solubility rules.
+- Carbonates are generally insoluble except sodium, potassium and ammonium; hydroxides are generally insoluble except sodium, potassium, ammonium and partially soluble calcium.
+- Hydrated salts contain water molecules chemically included in their crystals; anhydrous salts contain no water. Water of crystallisation is the defined number of such waters in a formula.
+- Do not call a wet sample 'hydrated' solely because it has liquid water on its surface; chemically combined water is different.
 
 8 THE PERIODIC TABLE
 
 8.1 Arrangement of elements
 - Elements are ordered by increasing proton number in groups and periods; metallic character generally falls across a period. Group position and electron configuration help predict ion charge and chemical behaviour.
-- Elements are arranged by increasing proton number. Elements in the same group have similar chemical properties because of the same number of outer-shell electrons.
+- In the Periodic Table, increasing proton number runs across periods and through successive rows; elements in a group share outer-electron number and often chemical behaviour.
+- Main-group ion charge can often be inferred from loss or gain of outer-shell electrons to a noble-gas-like configuration.
+- Across a period metallic character generally decreases and non-metallic character increases; use the supplied data to infer trends rather than assuming every property follows one direction.
+- Predict an unfamiliar element's properties from nearby group members and its electron arrangement, making the trend explicit.
 
 8.2 Group I properties
 - Group I metals are relatively soft; density generally increases down the group.
 - Group I metals form +1 ions; reactivity generally increases and melting point decreases down the group. Their reactions with water form hydroxide and hydrogen.
+- Lithium, sodium and potassium are soft alkali metals with one outer electron; they form ions with a +1 charge.
+- Down Group I, atoms lose that outer electron more readily and reactions generally become more vigorous; melting points decrease and density generally increases.
+- Reactions with cold water produce metal hydroxide and hydrogen; observe movement, fizzing or heat where relevant, distinguishing observations from explanations.
+- Extrapolate cautiously for another Group I element using established trends, not a particular paper's numerical data.
 
 8.3 Group VII properties
 - Group VII halogens form −1 ions; reactivity decreases down the group. A more reactive halogen displaces a less reactive halogen from its aqueous halide.
 - At room temperature chlorine is a pale yellow-green gas, bromine a red-brown liquid and iodine a grey-black solid; density generally increases down the group.
 - Halogens exist as diatomic molecules; their melting and boiling points increase down the group because intermolecular forces strengthen.
+- Chlorine is pale yellow-green gas, bromine red-brown liquid and iodine grey-black solid at room conditions; halogen molecules are diatomic.
+- Down the group, density, melting point and boiling point generally increase, while reactivity as oxidising agents decreases.
+- A more reactive halogen displaces a less reactive halide from solution; state both the halogen formed and the associated colour observation when asked.
+- Relate displacement to electron transfer: halide ions are oxidised and the more reactive halogen is reduced.
+- Predict unknown halogen properties from its position relative to known halogens, keeping physical and chemical trends separate.
 
 8.4 Transition elements
 - Transition elements typically have high density and melting point, coloured compounds, variable oxidation states and catalytic activity; distinguish requested physical properties from chemical ones.
+- Transition elements commonly have higher densities and melting points than Group I metals and often form coloured compounds.
+- Variable oxidation numbers refer to different possible oxidation states in their compounds, not simply different charges on unrelated ions.
+- Transition elements and some of their compounds can act as catalysts; choose an actual catalytic role if one is requested.
+- If the question asks for physical properties, do not replace them with chemical traits such as catalysis or oxidation-state variability.
 
 8.5 Noble gases
 - Noble gases have full outer electron shells and are generally unreactive and monatomic; helium has two outer electrons, not eight.
+- Group VIII noble gases exist as single atoms, are gases at room temperature and are relatively unreactive owing to filled outer electron shells.
+- Helium has a full first shell of two; the other familiar noble gases have eight outer electrons. A full shell is the shared feature, not always an octet.
 
 9 METALS
 
 9.1 Properties of metals
 - Compare metals with non-metals in conductivity, malleability/ductility and melting/boiling points.
 - Metals conduct heat and electricity, are generally malleable and ductile, and form positive ions. Pure metals and alloys may differ in hardness and corrosion resistance.
+- Metals usually conduct heat and electricity and are malleable and ductile; non-metals are commonly poorer conductors and brittle in the solid state, with structural exceptions.
+- When explaining metal conduction or deformability, connect the observation to mobile delocalised electrons or ion layers respectively.
+- The chemical reactions of a metal with oxygen, water/steam and dilute acids depend on its position in the reactivity series; absence of reaction may require an oxide-layer explanation.
 
 9.2 Uses of metals
 - Aluminium is useful in aircraft and overhead cables for low density, in cables for conduction, and in food containers for corrosion resistance; copper is used in wiring for conductivity and ductility.
+- Aluminium's low density suits aircraft structures and overhead electrical cables; good conduction also matters for cables.
+- A stable protective oxide coating helps aluminium resist corrosion in food containers; do not confuse this with being less reactive than copper.
+- Copper's good conductivity and ductility allow it to be drawn into electrical wiring.
+- In a use-and-property question, match the specific functional need to the correct physical property rather than naming unrelated metallic properties.
 
 9.4 Reactivity series
 - Learn the order potassium > sodium > calcium > magnesium > aluminium > carbon > zinc > iron > hydrogen > copper > silver > gold.
@@ -164,6 +299,12 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - A more reactive metal can displace a less reactive metal from solution. Reactivity order also predicts whether a metal reacts with acid and the extraction method required.
 - Aluminium appears less reactive in air because a protective oxide layer limits further reaction.
 - Aluminium extraction uses electrolysis of purified aluminium oxide dissolved in molten cryolite; cryolite lowers operating temperature, and oxygen produced at the carbon anode reacts with carbon, so anodes need replacement.
+- The specified reactivity sequence is potassium, sodium, calcium, magnesium, aluminium, carbon, zinc, iron, hydrogen, copper, silver, gold.
+- More reactive metals more readily form positive ions and may displace less reactive metal ions from aqueous solution; distinguish the metal atoms from the ions being displaced.
+- Potassium, sodium and calcium react with cold water; magnesium reacts with steam; metals above hydrogen can react with suitable dilute acid, while copper, silver and gold do not displace hydrogen from dilute hydrochloric acid.
+- Deduce a ranking from displacement, water or acid observations, allowing for the effect of an oxide coating on aluminium.
+- In aluminium extraction, cryolite helps by lowering the operating temperature of the molten mixture; carbon anodes need replacing because their carbon reacts with anode oxygen.
+- At the aluminium-extraction cathode, aluminium ions gain electrons; at the anode oxide ions lose electrons. Balance their ionic half-equations with appropriate electron numbers.
 
 12 EXPERIMENTAL TECHNIQUES AND CHEMICAL ANALYSIS
 
@@ -171,28 +312,47 @@ MARK-SCHEME PRIORITY: A newer scheme can refine accepted wording, but marking re
 - Select suitable stopwatch, thermometer, balance, burette, pipette, measuring cylinder or gas syringe for the measured quantity; assess precision and practical advantages of the method.
 - A solvent dissolves a solute to make a solution; a saturated solution holds the maximum solute at a given temperature. Distinguish residue remaining after separation from filtrate passing through a filter.
 - In an investigation, identify the independent variable, controlled variables and measured dependent variable; use suitable apparatus, repeat measurements and account for gas loss or leaks.
+- Use a stopwatch for time, thermometer for temperature, balance for mass, burette or volumetric pipette for precise liquid volumes, and measuring cylinder or gas syringe where suitable.
+- Select equipment according to required precision and the substance being measured; a gas syringe collects and measures gas directly, while a balance can measure escaping-gas mass loss.
+- Distinguish the independent variable changed, dependent variable measured and other conditions held constant; repeat readings where appropriate.
+- A solute dissolves in a solvent to form a solution; a saturated solution contains the maximum dissolved solute at a stated temperature.
+- Residue is material left after a separation step; filtrate is the liquid that passed through the filter. Name both when describing filtration.
 
 12.2 Acid–base titrations
 - Use a volumetric pipette to measure a fixed aliquot, a burette for the titre and a suitable indicator to identify the endpoint.
+- Rinse and fill the burette appropriately, record initial and final readings and determine the titre by subtraction.
+- Use a volumetric pipette for an accurately measured fixed aliquot, indicator for a visible endpoint and repeated titres to improve reliability.
+- The endpoint is the observed indicator change; use the balanced acid–base mole ratio rather than assuming every neutralisation is 1:1.
+- For preparing an uncontaminated soluble salt, repeat the titration with the measured volumes but without indicator before crystallising.
 
 12.3 Chromatography
 - In paper chromatography, put a small spot above the solvent level, mark the solvent front and calculate Rf as distance travelled by solute divided by distance travelled by solvent front. Compare unknowns with standards under the same conditions; use a locating agent for colourless substances.
 - Interpret chromatograms by spot position, not only spot colour; an insoluble component remaining on the baseline has Rf zero.
+- The solvent must travel up the chromatography paper while the sample starting line remains above the liquid surface.
+- A pure substance commonly gives one spot under a suitable method; a mixture may give multiple spots. Compare unknowns with standards run in the same solvent and conditions.
+- Locate otherwise invisible spots with a suitable locating agent before calculating travel distances.
+- Rf is a ratio with no units; measure both spot and solvent-front distances from the baseline, and keep Rf between zero and one for spots below the solvent front.
 
 12.4 Separation and purification
 - Separate insoluble solids by filtration; recover dissolved solids by crystallisation; separate miscible liquids by fractional distillation where boiling points differ.
 
-- Pure substances have characteristic melting and boiling points; impurities commonly broaden melting range and alter these temperatures.
 - Collect gas by a method appropriate to its solubility and density; choose a drying agent that does not react with the gas being dried.
+- Filtration separates an insoluble solid from a liquid; crystallisation obtains dissolved solid after concentrating and cooling its solution.
+- Simple distillation separates a volatile liquid or solvent from non-volatile dissolved material; the vapour condenses and is collected as distillate.
+- Fractional distillation separates miscible liquids with different boiling points by repeated evaporation and condensation in a fractionating column.
+- Choose a solvent based on which components dissolve; combine dissolution with filtration and crystallisation if a mixture requires several steps.
+- A pure substance has a characteristic sharp melting point and fixed boiling point at a specified pressure; impurities often broaden the melting range and change these temperatures.
 
 12.5 Identification of ions and gases
-- For carbonate, add dilute acid and test the evolved carbon dioxide with limewater.
-- For chloride, bromide or iodide, acidify with dilute nitric acid then add silver nitrate: white, cream and yellow precipitates respectively.
-- For sulfate, acidify then add a soluble barium salt to obtain a white precipitate; acidified manganate(VII) can test for sulfite by decolourisation.
-- Test ammonium by warming with aqueous sodium hydroxide: evolved ammonia turns damp red litmus blue. For nitrate, add aluminium and warm with alkali to produce ammonia; test ammonium first if both are possible.
-- Identify aluminium(III), ammonium, calcium(II), chromium(III), copper(II), iron(II), iron(III) and zinc(II) using aqueous sodium hydroxide and ammonia, noting colour and solubility in excess.
-- With aqueous sodium hydroxide, copper(II) gives a light-blue precipitate, iron(II) green, iron(III) red-brown, and aluminium(III), zinc(II) and calcium(II) white; check whether the precipitate dissolves in excess.
-- With aqueous ammonia, copper(II) gives a light-blue precipitate that dissolves in excess to form a deep-blue solution; zinc(II) gives a white precipitate dissolving to a colourless solution. Aluminium(III) precipitate remains insoluble in excess.
-- Gas tests: hydrogen gives a squeaky pop with a lighted splint; oxygen relights a glowing splint; carbon dioxide turns limewater milky; chlorine bleaches damp litmus; ammonia turns damp red litmus blue; sulfur dioxide decolourises acidified manganate(VII).
-- Anhydrous copper(II) sulfate changes white to blue with water; anhydrous cobalt(II) chloride changes blue to pink.
-- Flame colours include sodium yellow, potassium lilac, lithium crimson, calcium orange-red, barium green and copper blue-green.
+- Identify aluminium(III), ammonium, calcium(II), chromium(III), copper(II), iron(II), iron(III) and zinc(II) with aqueous sodium hydroxide and aqueous ammonia, noting precipitate colour and behaviour in excess reagent.
+- For carbonate, add dilute acid and identify carbon dioxide by its effect on limewater; do not infer carbonate from effervescence alone.
+- Halides are tested after acidification with nitric acid by adding silver nitrate; chloride gives white, bromide cream and iodide yellow silver-halide precipitates.
+- Nitrate is reduced using aluminium foil and warm aqueous sodium hydroxide, producing ammonia; test for ammonium before the aluminium addition if both are plausible.
+- Acidified barium nitrate gives a white precipitate for sulfate; acidified potassium manganate(VII) is decolourised by sulfite.
+- With aqueous sodium hydroxide, Al³⁺ gives a white precipitate soluble in excess, Ca²⁺ a white precipitate insoluble in excess, Cr³⁺ a grey-green precipitate soluble in excess and Zn²⁺ a white precipitate soluble in excess.
+- With aqueous ammonia, Al³⁺ gives a white precipitate insoluble in excess, Ca²⁺ usually no precipitate, Cr³⁺ a grey-green precipitate insoluble in excess and Zn²⁺ a white precipitate soluble in excess to a colourless solution.
+- Cu²⁺ gives a light-blue precipitate with either reagent, insoluble in excess sodium hydroxide but dissolving in excess ammonia to a deep-blue solution. Fe²⁺ gives green precipitate and Fe³⁺ red-brown precipitate with either reagent; these remain insoluble in excess.
+- Ammonium produces ammonia on warming with sodium hydroxide; identify the gas using damp red litmus.
+- Hydrogen gives a squeaky pop with a lighted splint; oxygen relights a glowing splint; carbon dioxide turns limewater milky; chlorine bleaches damp litmus; sulfur dioxide decolourises acidified manganate(VII).
+- Flame tests: lithium crimson, sodium yellow, potassium lilac, calcium orange-red, barium apple-green and copper(II) blue-green.
+- Tests for water include white anhydrous copper(II) sulfate turning blue and blue anhydrous cobalt(II) chloride turning pink.
