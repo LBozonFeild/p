@@ -1,0 +1,3874 @@
+BIOLOGY 5090 — QUESTION BANK EXCLUSIONS AND UNRESOLVED RECORDS
+Eligible questions below are NOT included in the main bank. No mark scheme has been invented or substituted.
+
+## Exclusion 1: October/November 2002 — Paper 1 — Variant 1 — Question 1
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 2
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+1   Which structures are found in animal cells and in plant cells?
+
+   A    cell membrane and chloroplasts
+
+   B    cell membrane and nucleus
+
+   C    cell wall and chloroplasts
+
+   D    cell wall and nucleus
+
+---
+
+## Exclusion 2: October/November 2002 — Paper 1 — Variant 1 — Question 2
+Syllabus subsection: 1.3 Measurement of biological specimens
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 2–3
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+2   The photomicrograph shows some human blood cells.
+
+                                                      magnification = × 900
+
+    What is the function of these cells?
+
+   A   transport of amino acids
+
+   B   transport of glucose
+
+   C   transport of oxygen
+
+   D   transport of water
+
+                                                                          5090/1O/N/02
+3
+
+---
+
+## Exclusion 3: October/November 2002 — Paper 1 — Variant 1 — Question 3
+Syllabus subsection: 3.3 Active transport
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 3
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+3   The diagram shows two plant cells, X and Y.
+
+     Cell X has a higher water potential than cell Y.
+
+                                              Y
+
+                     X
+
+     In which direction and by what process will water move between these two cells?
+
+               direction          process
+
+   A      X to Y         active transport
+
+   B      X to Y           osmosis
+
+   C      Y to X         active transport
+
+   D      Y to X           osmosis
+
+---
+
+## Exclusion 4: October/November 2002 — Paper 1 — Variant 1 — Question 4
+Syllabus subsection: 5.2 Effects of temperature and pH
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 3–4
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+4   Which statement about enzymes is correct?
+
+   A  They are all proteins.
+
+   B  They are changed by the chemical reactions they control.
+
+   C  They are destroyed by temperatures below 10 °C.
+
+   D  They are found only in the alimentary canal.
+4
+
+---
+
+## Exclusion 5: October/November 2002 — Paper 1 — Variant 1 — Question 5
+Syllabus subsection: 5.1 Enzyme action
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 4
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+5   Four test-tubes are set up as shown.
+
+              5 drops of hydrochloric acid added to tubes 1, 2 and 3
+
+      distilled                 boiled                 protease              protease
+     water                 protease
+
+                             2 cm3 cloudy suspension of egg-white
+
+      All four tubes are then placed in a water-bath at 37 °C for 20 minutes.
+
+    What is the result?
+
+                     tube number
+
+   A     clear      clear      clear      clear
+
+   B     clear    cloudy    cloudy     clear
+
+   C    cloudy    cloudy     clear    cloudy
+
+   D    cloudy     clear    cloudy     clear
+
+---
+
+## Exclusion 6: October/November 2002 — Paper 1 — Variant 1 — Question 7
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 5
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+7   For which processes do plants need either nitrate ions or magnesium ions?
+
+          synthesis of    synthesis of    synthesis of
+            cellulose       chlorophyll       proteins
+
+   A      ✓         ✓         ✓
+
+   B      ✓         ✓           ✗         key
+
+   C      ✓           ✗            ✗       ✓needed
+
+   D       ✗         ✓         ✓       ✗not needed
+
+---
+
+## Exclusion 7: October/November 2002 — Paper 1 — Variant 1 — Question 9
+Syllabus subsection: 5.1 Enzyme action
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 6
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+9   Where is lipase produced, and into which part of the intestine is it secreted?
+
+         produced in    secreted into
+
+   A          liver       duodenum
+
+   B          liver           ileum
+
+   C     pancreas     duodenum
+
+   D     pancreas        ileum
+
+---
+
+## Exclusion 8: October/November 2002 — Paper 1 — Variant 1 — Question 10
+Syllabus subsection: 11.1 Heart and circulatory system
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 6
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+10  Which dietary imbalance does not lead to the health problem stated?
+
+                    dietary imbalance                  health problem
+
+   A   lack of fresh fruit                         constipation and scurvy
+
+   B   lack of milk and cod liver oil                rickets and diarrhoea
+
+   C   too many sweets and cakes           anaemia and rickets
+
+   D   too much full-fat cheese and fried food   chronic heart disease
+
+---
+
+## Exclusion 9: October/November 2002 — Paper 1 — Variant 1 — Question 11
+Syllabus subsection: 5.1 Enzyme action
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 6–7
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+11  What are the functions of the colon?
+
+         water absorbed  enzymes secreted
+
+   A        no              no
+
+   B        no               yes
+
+   C        yes              no
+
+   D        yes              yes
+
+                                                                          5090/1O/N/02
+7
+
+---
+
+## Exclusion 10: October/November 2002 — Paper 1 — Variant 1 — Question 12
+Syllabus subsection: 3.3 Active transport
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 7
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+12  The table shows the results of an investigation into the absorption of products of digestion in the
+    presence and absence of oxygen.
+
+               product of       absorption in the presence    absorption in the absence
+                digestion          of oxygen / arbitrary units     of oxygen / arbitrary units
+
+    Which conclusion can be drawn from these results?
+
+   A    All products of digestion are absorbed by both active transport and diffusion.
+
+   B    All products of digestion are absorbed by diffusion only.
+
+   C  Amino acids and glucose are absorbed by active transport only.
+
+   D   Fatty acids and glycerol are absorbed mainly by diffusion.
+
+---
+
+## Exclusion 11: October/November 2002 — Paper 1 — Variant 1 — Question 13
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 7
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+13  The diagram shows cells in part of a green plant.
+
+    Which region contains cells that are responsible for the transport of water?
+
+                                          A
+
+                                          B
+
+                                          C
+
+                                          D
+
+---
+
+## Exclusion 12: October/November 2002 — Paper 1 — Variant 1 — Question 14
+Syllabus subsection: 7.2 Transpiration
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 7–8
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+14  Which conditions will increase the transpiration rate of a plant?
+
+         temperature     humidity
+
+   A       high           high
+
+   B       high           low
+
+   C       low           high
+
+   D       low           low
+8
+
+---
+
+## Exclusion 13: October/November 2002 — Paper 1 — Variant 1 — Question 15
+Syllabus subsection: 11.2 Blood vessels
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 8
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+15  The table shows features of some blood vessels.
+
+    Which is the pulmonary artery?
+
+                                       feature
+
+         muscle                    direction of blood
+
+   A       thick      narrow    away from the heart   deoxygenated
+
+   B       thick       wide     away from the heart    oxygenated
+
+   C       thin       narrow     towards the heart     oxygenated
+
+   D       thin       wide      towards the heart    deoxygenated
+
+---
+
+## Exclusion 14: October/November 2002 — Paper 1 — Variant 1 — Question 16
+Syllabus subsection: 11.2 Blood vessels
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 8–9
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+16  Blood samples from three veins in the body were tested for the concentration of oxygen, carbon
+     dioxide and urea. The results, in arbitrary units, are shown in the table.
+
+                            oxygen        carbon dioxide         urea
+                   vein
+                             concentration      concentration      concentration
+
+    The blood from which veins was sampled?
+
+           hepatic    pulmonary      renal
+             vein         vein         vein
+
+   A      1          2          3
+
+   B      2          3          1
+
+   C      3          1          2
+
+   D      3          2          1
+
+                                                                          5090/1O/N/02
+9
+
+---
+
+## Exclusion 15: October/November 2002 — Paper 1 — Variant 1 — Question 20
+Syllabus subsection: 13.2 Kidney and urine formation
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 9–10
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+20  What happens to blood as it passes through a kidney machine?
+
+   A  Carbon dioxide is removed.
+
+   B   Glucose is added.
+
+   C  Oxygen is added.
+
+   D  Urea is removed.
+10
+
+---
+
+## Exclusion 16: October/November 2002 — Paper 1 — Variant 1 — Question 21
+Syllabus subsection: 14.4 Homeostasis
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 10
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+21  What happens to the arterioles near the surface of the skin when the body temperature rises?
+
+   A  They absorb oxygen from the surrounding tissues.
+
+   B  They dilate and become wider.
+
+   C  They move nearer the skin surface.
+
+   D  They take in water from the surrounding tissues.
+
+---
+
+## Exclusion 17: October/November 2002 — Paper 1 — Variant 1 — Question 23
+Syllabus subsection: 11.3 Blood
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 10–11
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+23  In what way is carbon monoxide in tobacco smoke harmful?
+
+   A     It causes emphysema.
+
+   B     It causes lung cancer.
+
+   C     It combines with haemoglobin.
+
+   D     It kills the cells lining the trachea.
+
+                                                                          5090/1O/N/02
+11
+
+---
+
+## Exclusion 18: October/November 2002 — Paper 1 — Variant 1 — Question 24
+Syllabus subsection: 14.1 Nervous coordination
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 11
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+24  The diagram shows part of the nervous system, including a reflex arc. It has been cut at X.
+
+                                              X
+
+             bee
+
+   A bee stings a finger, as shown.
+
+    What are the effects of this sting?
+
+           pain felt    arm moved
+
+   A      no          no
+
+   B      no          yes
+
+   C       yes         no
+
+   D       yes          yes
+
+---
+
+## Exclusion 19: October/November 2002 — Paper 1 — Variant 1 — Question 25
+Syllabus subsection: 13.2 Kidney and urine formation
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 11–12
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+25  The urine of a person suffering from diabetes mellitus is likely to contain an abnormal amount of
+
+   A  amino acids.
+
+   B    fatty acids.
+
+   C   glucose.
+
+   D   urea.
+12
+
+---
+
+## Exclusion 20: October/November 2002 — Paper 1 — Variant 1 — Question 26
+Syllabus subsection: 14.1 Nervous coordination
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 12
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+26  In a nerve pathway, the following events take place.
+
+          1.   activation of muscle
+          2.   activation of receptor
+          3.  passage of impulses along a motor neurone
+          4.  passage of impulses along a sensory neurone
+
+    What is the correct order of these events?
+
+   A    2     3     4     1
+
+   B    2     4     3     1
+
+   C    4     1     3     2
+
+   D    4     2     1     3
+
+---
+
+## Exclusion 21: October/November 2002 — Paper 1 — Variant 1 — Question 37
+Syllabus subsection: 17.1 Genes, chromosomes and cell division
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 15–16
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+37  Which statement about sperm cells is correct?
+
+   A  They contain either one X or one Y chromosome.
+
+   B  They contain one X chromosome.
+
+   C  They contain one Y chromosome.
+
+   D  They contain two X chromosomes.                                                                          5090/1O/N/02                                [Turn over
+16
+
+---
+
+## Exclusion 22: October/November 2002 — Paper 1 — Variant 1 — Question 38
+Syllabus subsection: 17.3 Variation and inheritance
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 16
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+38  The bar charts show the percentages of a human population with each type of blood group and
+    the percentages of a cattle population with and without horns.
+
+                 A    group               20                group                       20                       B
+                           AB
+
+    Which type of variation is shown in each population?
+
+          human             cattle
+
+   A     continuous      continuous
+
+   B     continuous     discontinuous
+
+   C    discontinuous     continuous
+
+   D    discontinuous   discontinuous
+
+---
+
+## Exclusion 23: October/November 2002 — Paper 1 — Variant 1 — Question 39
+Syllabus subsection: 17.2 Monohybrid inheritance
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 16–17
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+39 A variety of snail has an inherited condition that affects the thickness of the shell.
+
+                                        St St have thick shells.
+                                        St Sn have thin shells.
+                                Sn Sn do not survive.
+
+    Two heterozygous snails are mated.
+
+    What is the probability that a surviving snail of the next generation is a heterozygote?
+
+   A   0.00
+
+   B   0.25
+
+   C   0.50
+
+   D   0.67
+
+                                                                          5090/1O/N/02
+17
+
+---
+
+## Exclusion 24: October/November 2002 — Paper 1 — Variant 1 — Question 40
+Syllabus subsection: 17.2 Monohybrid inheritance
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_1.pdf, page 17–20
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+40  Polydactyly is a rare condition that causes the development of extra fingers. This condition is
+    caused by a dominant allele.
+    The diagram shows the inheritance of polydactyly in a family.
+
+                                                                     male   female
+
+                                                                      polydactyly
+
+                                                             normal fingers
+
+person
+  X
+
+    What is the probability that children of person X will inherit polydactyly from him?
+
+   A   0.00
+
+   B   0.25
+
+   C   0.50
+
+   D   1.00
+
+                                                                          5090/1O/N/02
+18
+
+     5090/1O/N/02
+19
+
+     5090/1O/N/02
+20
+
+     5090/1O/N/02
+
+---
+
+## Exclusion 25: October/November 2002 — Paper 2 — Variant 1 — Question 2
+Syllabus subsection: 17.1 Genes, chromosomes and cell division
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_2.pdf, page 4–6
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+2
+Fig. 2.1 shows the chromosomes of a human body cell (with matching chromosomes placed
+side-by-side in pairs).
+Fig. 2.1
+(a)
+Name the part of the cell in which chromosomes are found.
+
+(b) State the sex of the person from whom this cell was taken. Give a reason for your
+answer.
+reason ..........................................................................................................................[2]
+(c)
+Explain how it is possible to tell that this person does not suffer from Down’s syndrome.
+
+(d) Describe how the chromosomes in a gamete from the same person would differ in
+appearance from Fig. 2.1.
+
+For
+Examiner’s
+Use
+5
+5090/2/O/N/02
+(e)
+Fig. 2.2 shows the chromosomes from a body cell of a species of insect.
+Fig. 2.2
+With reference to Figs. 2.1 and 2.2, suggest why gametes from a male and a female of
+different species usually cannot produce a zygote.
+
+[Total : 6]
+For
+Examiner’s
+Use
+6
+5090/2/O/N/02
+
+---
+
+## Exclusion 26: October/November 2002 — Paper 2 — Variant 1 — Question 3
+Syllabus subsection: 14.2 Sense organs and the eye
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_2.pdf, page 6–8
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+3
+Fig. 3.1 shows a section through the human eye.
+Fig. 3.1
+(a)
+Identify structures H, J, K and L.
+H
+J
+K
+L
+[4]
+(b) Using information in Fig. 3.1, state, with an explanation in each case, whether the eye
+(i)
+is looking at a near or distant object;
+(ii)
+is in bright or dim light.
+[2]
+lens
+transparent
+cornea
+pupil
+M
+L
+K
+J
+H
+For
+Examiner’s
+Use
+7
+5090/2/O/N/02
+(c)
+Explain what is occurring in structures K, L and M for the eye to appear as shown in
+Fig. 3.1.
+
+(d)
+(i)
+State which part of the eye contains light-sensitive cells.
+(ii)
+Explain why a person is not normally aware of a blind spot in their field of vision.
+[2]
+[Total : 14]
+For
+Examiner’s
+Use
+8
+5090/2/O/N/02
+
+---
+
+## Exclusion 27: October/November 2002 — Paper 2 — Variant 1 — Question 4
+Syllabus subsection: 7.2 Transpiration
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_2.pdf, page 8–10
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+4
+Fig. 4.1 shows the appearance of stomata of two plants over a 24-hour period. The plants
+are growing side-by-side, but are of different species.
+Fig. 4.1
+(a)
+Name P and Q.
+[2]
+(b)
+(i)
+Name a process that can occur in plant 1 between 1 a.m. and 5 a.m. that might not
+occur during this time in plant 2. Explain your answer.
+(ii)
+Name another process that can occur in plant 1 between 6 a.m. and 7 a.m. that
+might not occur during this time in plant 2. Explain your answer.
+[4]
+For
+Examiner’s
+Use
+midnight
+6 a.m.
+6 p.m.
+noon
+noon
+midnight
+key
+light period
+dark period
+plant 1
+plant 2
+plant 1
+plant 2
+P
+Q
+9
+5090/2/O/N/02
+(c)
+Suggest and explain what effect a shortage of soil water might have on the size of
+stomatal pores in plant 1.
+
+[Total : 8]
+For
+Examiner’s
+Use
+10
+5090/2/O/N/02
+
+---
+
+## Exclusion 28: October/November 2002 — Paper 2 — Variant 1 — Question 5
+Syllabus subsection: 5.1 Enzyme action
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_2.pdf, page 10–12
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+5
+Fig. 5.1 shows different types of human teeth.
+Fig. 5.1
+(a)
+Name the types of tooth shown.
+[4]
+Fig. 5.2 shows a view from above of teeth in a human lower jaw.
+Fig. 5.2
+(b) By matching each letter from Fig. 5.1 with a number from Fig. 5.2, complete Table 5.1 to
+show the position occupied by each type of tooth.
+Table 5.1
+[2]
+1
+2
+3
+4
+T
+U
+V
+W
+For
+Examiner’s
+Use
+type of tooth
+position number
+T
+U
+V
+W
+11
+5090/2/O/N/02
+(c)
+(i)
+State which type of tooth is used for grinding the walls of plant cells.
+(ii)
+Suggest why grinding is important in animals that are herbivores.
+[2]
+(d)
+(i)
+Name the enzyme that is found in the mouth cavity and state its substrate and
+product.
+(ii)
+Explain why the reaction that this enzyme catalyses does not occur in the
+stomach, but does occur in the duodenum.
+[5]
+[Total : 13]
+For
+Examiner’s
+Use
+12
+5090/2/O/N/02
+Section B
+Answer three questions.
+Question 8 is in the form of an Either/Or question. Only one part should be answered.
+Write your answers on the separate answer paper provided.
+
+---
+
+## Exclusion 29: October/November 2002 — Paper 2 — Variant 1 — Question 6
+Syllabus subsection: 17.3 Variation and inheritance
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_2.pdf, page 12
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+6
+(a)
+Describe, with examples, the difference between continuous variation and discontinuous
+variation.
+[6]
+(b) Explain how variation within one species may eventually lead to the development of two
+separate species.
+[4]
+[Total : 10]
+
+---
+
+## Exclusion 30: October/November 2002 — Paper 2 — Variant 1 — Question 8
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w02_qp_2.pdf, page 12
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+8
+Either
+(a)
+List the main characteristics of bacteria.
+[4]
+(b) Describe the role of bacteria in
+(i)
+decomposition;
+(ii)
+yoghurt production.
+[6]
+[Total : 10]
+Or
+(a)
+List the main characteristics of fungi.
+[4]
+(b) Describe the use of fermenters in the production of
+(i)
+antibiotics;
+(ii)
+single cell protein.
+[6]
+[Total : 10]
+
+---
+
+## Exclusion 31: May/June 2003 — Paper 1 — Variant 1 — Question 1
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 2–3
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+1   The diagram shows a cell.
+
+1
+
+2
+
+3
+
+4
+
+    Which numbers show the parts named?
+
+             cell membrane           cell wall          cytoplasm
+
+   A         1               2               3
+
+   B         1               2               4
+
+   C         2               1               3
+
+   D         2               1               4
+3
+
+---
+
+## Exclusion 32: May/June 2003 — Paper 1 — Variant 1 — Question 2
+Syllabus subsection: 3.3 Active transport
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 3
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+2   The arrows show the movement of salts into a cell.
+
+                                         low salt concentration in soil water
+
+                                          high salt concentration
+
+    Which describes the movement of the salts?
+
+   A   active transport against the concentration gradient
+
+   B   active transport down the concentration gradient
+
+   C   diffusion against the concentration gradient
+
+   D   diffusion down the concentration gradient
+
+---
+
+## Exclusion 33: May/June 2003 — Paper 1 — Variant 1 — Question 3
+Syllabus subsection: 3.2 Osmosis
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 3–4
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+3   Cylinders of potato tissue were placed in different concentrations of a sugar solution. The graph
+    shows the percentage change in length of the cylinders of potato tissue.
+
+10
+
+8
+
+6
+
+4
+      % change in
+0
+
+                     –2
+
+                     –4
+
+                     –6
+
+                                        concentration of sugar solution/mol
+
+    Which solution has the same water potential as the potato tissue?
+
+   A   0.0 mol
+
+   B   0.2 mol
+
+   C   0.3 mol
+
+   D   0.5 mol
+4
+
+---
+
+## Exclusion 34: May/June 2003 — Paper 1 — Variant 1 — Question 4
+Syllabus subsection: 7.2 Transpiration
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 4
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+4   As a seed begins to germinate, it uses enzymes to speed up the rate of
+
+   A   digestion.
+
+   B   osmosis.
+
+   C   photosynthesis.
+
+   D   transpiration.
+
+---
+
+## Exclusion 35: May/June 2003 — Paper 1 — Variant 1 — Question 6
+Syllabus subsection: 7.2 Transpiration
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 5–6
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+6   The graph shows the concentration of carbon dioxide in the air surrounding a plant measured over
+    24 hours.
+
+                    of carbon
+                  dioxide / %
+
+                           0.04
+
+0
+
+                                                                   time / hours
+
+    Which explains the carbon dioxide concentration at time X?
+
+                 light intensity             plant process
+
+   A        darkness                 respiration
+
+   B        darkness                transpiration
+
+   C           daylight              photosynthesis
+
+   D           daylight                  respiration
+6
+
+---
+
+## Exclusion 36: May/June 2003 — Paper 1 — Variant 1 — Question 11
+Syllabus subsection: 4.2 Food tests
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 7–8
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+11  Milk produces a red precipitate when heated with Benedict’s solution.
+
+   A purple colour develops when the biuret test is used on milk.
+
+    Using these results only, which nutrients does milk contain?
+
+   A    fat and protein
+
+   B    fat and starch
+
+   C   reducing sugar and protein
+
+   D   reducing sugar and starch
+8
+
+---
+
+## Exclusion 37: May/June 2003 — Paper 1 — Variant 1 — Question 12
+Syllabus subsection: 7.2 Transpiration
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 8
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+12  The diagrams show a plant in a flask of water. It is left for six hours on a warm and windy day in
+     bright sunshine.
+
+         cotton
+        wool
+
+          layer
+
+    water
+
+                                balance
+
+    Which process explains the result shown in diagram 2?
+
+   A   active transport of water into the root hairs
+
+   B   evaporation of water from the flask
+
+   C   photosynthesis in the leaves of the plant
+
+   D   transpiration from the leaves of the plant
+
+---
+
+## Exclusion 38: May/June 2003 — Paper 1 — Variant 1 — Question 13
+Syllabus subsection: 1.2 Levels of organisation and specialised cells
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 8–9
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+13  The diagram shows a section of a stem.
+
+    Which tissue transports sugars and amino acids from the leaves to other parts of the plant?
+
+                                        A
+                                        B
+                                        C
+                                        D
+9
+
+---
+
+## Exclusion 39: May/June 2003 — Paper 1 — Variant 1 — Question 14
+Syllabus subsection: 11.3 Blood
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 9
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+14 When the skin is cut the blood forms clots.
+
+     In which order would the components of the blood become involved?
+
+   A           fibrin               platelet         red blood cell        fibrinogen
+
+   B      fibrinogen       red blood cell          platelet                 fibrin
+
+   C        platelet                 fibrin            fibrinogen       red blood cell
+
+   D        platelet           fibrinogen               fibrin          red blood cell
+
+---
+
+## Exclusion 40: May/June 2003 — Paper 1 — Variant 1 — Question 15
+Syllabus subsection: 11.2 Blood vessels
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 9–10
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+15  The diagram shows the human circulatory system.
+
+    Which arrow is the hepatic portal vein?
+
+                                  head and arms
+
+                                      A
+                                              heart
+
+                     D
+
+                                C
+                                       B
+10
+
+---
+
+## Exclusion 41: May/June 2003 — Paper 1 — Variant 1 — Question 16
+Syllabus subsection: 11.2 Blood vessels
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 10
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+16  The diagram shows part of a tissue. The arrows show movement of fluids.
+
+    At which point is the pressure highest?
+
+                                         lymph vessel
+
+                            C
+
+                                                  D
+
+                            B
+            A
+                                                                                              capillary
+
+              capillary
+                                                                 tissue cells
+
+---
+
+## Exclusion 42: May/June 2003 — Paper 1 — Variant 1 — Question 19
+Syllabus subsection: 11.2 Blood vessels
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 11
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+19
+The diagram shows a section through an alveolus and an associated blood capillary.
+In which part is the concentration of carbon dioxide highest?
+
+A
+humerus
+B
+radius
+C
+scapula
+D
+
+---
+
+## Exclusion 43: May/June 2003 — Paper 1 — Variant 1 — Question 21
+Syllabus subsection: 13.2 Kidney and urine formation
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 12–13
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+21  The diagram shows the flow of blood and dialysis fluid through a kidney machine.
+
+                                                                                  dialysis
+                                 blood
+                       vein       X
+
+ artery
+
+                          blood
+              W
+
+                                                 dialysis
+                                       Z
+                                                      fluid out
+
+    Where would the concentration of urea be highest?
+
+   A W and X
+
+   B  X and Y
+
+   C  Y and Z
+
+   D  Z and W
+13
+
+---
+
+## Exclusion 44: May/June 2003 — Paper 1 — Variant 1 — Question 22
+Syllabus subsection: 14.1 Nervous coordination
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 13
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+22  The diagram shows some of the features of human skin.
+
+                                                                     hair
+
+                                                                                hair erector muscle
+
+      receptor
+
+                  information to brain                          information from brain
+
+    Which part of the brain co-ordinates the information labelled in the diagram?
+
+   A   cerebrum
+
+   B   cerebellum
+
+   C   hypothalamus
+
+   D   medulla
+
+---
+
+## Exclusion 45: May/June 2003 — Paper 1 — Variant 1 — Question 23
+Syllabus subsection: 14.3 Hormones
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 13
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+23  What effects would an increase in adrenaline have on the body?
+
+            concentration of              concentration of
+         glycogen in the liver         glucose in the blood
+
+   A        decrease                    increase
+
+   B         increase                    increase
+
+   C        no effect                  decrease
+
+   D         increase                 no effect
+
+---
+
+## Exclusion 46: May/June 2003 — Paper 1 — Variant 1 — Question 25
+Syllabus subsection: 11.2 Blood vessels
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 14
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+25  Which combination  of responses  in the skin shows  that temperature receptors are being
+     stimulated by cold conditions?
+
+               hair erector                     arterioles to
+             muscles                 surface capillaries
+
+   A         contract                           dilate
+
+   B           relax                          constrict
+
+   C         contract                        constrict
+
+   D           relax                             dilate
+
+---
+
+## Exclusion 47: May/June 2003 — Paper 1 — Variant 1 — Question 26
+Syllabus subsection: 14.2 Sense organs and the eye
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 14
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+26 A light of varying intensity was shone into a person’s eye for 50 seconds.
+
+    The graph shows changes in pupil size as the light intensity was changed.
+
+10
+
+8
+
+                          pupil / mm
+4
+
+2
+
+0
+
+                                                time / seconds
+
+    Which statement explains the change in pupil size?
+
+   A  The light slowly became brighter.
+
+   B  The light suddenly became brighter.
+
+   C  The light slowly became dimmer.
+
+   D  The light suddenly became dimmer.
+
+---
+
+## Exclusion 48: May/June 2003 — Paper 1 — Variant 1 — Question 38
+Syllabus subsection: 17.2 Monohybrid inheritance
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 19–20
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+38  Which blood group genotype is homozygous dominant?
+
+   A   IA   IO
+
+   B   IA   IB
+
+   C   IB   IB
+
+   D   IO   IO
+20
+
+---
+
+## Exclusion 49: May/June 2003 — Paper 1 — Variant 1 — Question 39
+Syllabus subsection: 17.2 Monohybrid inheritance
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 20
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+39  Two heterozygotes are crossed. Some of the offspring show the recessive characteristic.
+
+    What is the probability that the offspring that show the recessive characteristic are homozygous?
+
+   A   0.00
+
+   B   0.25
+
+   C   0.5
+
+   D   1.00
+
+---
+
+## Exclusion 50: May/June 2003 — Paper 1 — Variant 1 — Question 40
+Syllabus subsection: 17.2 Monohybrid inheritance
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_1.pdf, page 20
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+40  The chart shows the inheritance of coat colour in mice. The allele for brown coat, B, is dominant to
+    the allele for white coat, b.
+
+                                                                  key
+
+                                                                 brown male
+
+                                                                 brown female
+
+                                                                            white male
+
+                               Q
+
+    What are the most likely genotypes of the individuals P and Q?
+
+         P      Q
+
+   A    BB       BB
+
+   B    BB       Bb
+
+   C     Bb       BB
+
+   D     Bb       Bb
+
+---
+
+## Exclusion 51: May/June 2003 — Paper 2 — Variant 1 — Question 4
+Syllabus subsection: 5.2 Effects of temperature and pH
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_2.pdf, page 4–5
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+4
+For
+Examiner's
+Use
+2
+Fig. 2.1 shows, in order, four stages in which an enzyme-controlled chemical reaction may
+occur.
+Fig. 2.1
+(a)
+Identify M, N, O and P.
+[4]
+(b) By referring to Fig. 2.1, explain why only a small amount of enzyme is needed to
+catalyse a reaction involving many molecules.
+
+(c)
+(i)
+Explain how a rise in temperature may increase the rate of an enzyme-controlled
+reaction.
+(ii)
+At high temperatures, enzymes are denatured and can no longer act as catalysts.
+By using the letters M and N from Fig. 2.1, suggest what happens when an
+enzyme is denatured.
+[4]
+[Total : 9]
+P
+M
+N
+O
+1
+2
+3
+4
+
+---
+
+## Exclusion 52: May/June 2003 — Paper 2 — Variant 1 — Question 7
+Syllabus subsection: 11.1 Heart and circulatory system
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s03_qp_2.pdf, page 11
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+7
+(a)
+Describe the path taken by a molecule of oxygen as it passes from air in the lungs to a
+muscle cell in the body.
+[6]
+(b) Sometimes babies are born with a hole between the left and right sides of the heart, through
+which blood can pass. Explain the effect this has on the double circulation system of the
+baby’s body.
+[4]
+[Total : 10]
+
+---
+
+## Exclusion 53: October/November 2003 — Paper 1 — Variant 1 — Question 1
+Syllabus subsection: 1.2 Levels of organisation and specialised cells
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 2
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+1   Which shows the increasing level of complexity in plants?
+
+         simplest                          most complex
+
+   A        cell       chloroplast     organ        tissue
+
+   B        cell         tissue      chloroplast     organ
+
+   C   chloroplast        cell         tissue       organ
+
+   D   chloroplast     organ        tissue           cell
+
+---
+
+## Exclusion 54: October/November 2003 — Paper 1 — Variant 1 — Question 3
+Syllabus subsection: 3.3 Active transport
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 2
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+3   The table shows the concentration of a substance inside and outside four different cells.
+
+    Which cell would need the most energy to absorb the substance by active transport?
+
+           concentration    concentration
+     cell   (arbitrary units)  (arbitrary units)
+             inside cell       outside cell
+
+   A        3             6
+
+   B        3             9
+
+   C        6             3
+
+   D        9             3
+
+---
+
+## Exclusion 55: October/November 2003 — Paper 1 — Variant 1 — Question 4
+Syllabus subsection: 3.3 Active transport
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 2–3
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+4   Which processes can take place in a root hair cell when oxygen is not available?
+
+   A   active transport only
+
+   B   diffusion only
+
+   C   active transport and osmosis
+
+   D   diffusion and osmosis
+3
+
+---
+
+## Exclusion 56: October/November 2003 — Paper 1 — Variant 1 — Question 5
+Syllabus subsection: 5.2 Effects of temperature and pH
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 3
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+5   The graph shows the effect of temperature on a chemical reaction which is controlled by enzymes.
+
+    At which point are most product molecules being released?
+
+                                       C
+
+                                              D                    speed (rate)
+                           of reaction
+
+                                   B
+
+                           A
+
+                                         temperature/ºC
+
+---
+
+## Exclusion 57: October/November 2003 — Paper 1 — Variant 1 — Question 6
+Syllabus subsection: 5.1 Enzyme action
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 3–4
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+6   Starch is digested to maltose by the enzyme amylase.
+
+    According to the ‘lock and key’ hypothesis, which is the ‘key’ and which is the ‘lock’?
+
+            ‘key’       ‘lock’
+
+   A  amylase  maltose
+
+   B  amylase   starch
+
+   C    starch   amylase
+
+   D    starch   maltose
+4
+
+---
+
+## Exclusion 58: October/November 2003 — Paper 1 — Variant 1 — Question 7
+Syllabus subsection: 3.2 Osmosis
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 4
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+7   The diagram shows cells in fresh blood, after the blood is diluted with a liquid.
+
+    Which statement describes the liquid?
+
+   A  The water potential of the liquid is equal to that of pure water.
+
+   B  The water potential of the liquid is equal to that of the cytoplasm.
+
+   C  The water potential of the liquid is higher than that of the cytoplasm.
+
+   D  The water potential of the liquid is lower than that of the cytoplasm.
+
+---
+
+## Exclusion 59: October/November 2003 — Paper 1 — Variant 1 — Question 10
+Syllabus subsection: 5.1 Enzyme action
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 5
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+10  Sunflower seeds contain a nutrient which is broken down by lipase during germination.
+
+    Which test would detect this nutrient?
+
+   A   Benedict’s test
+
+   B   biuret test
+
+   C   ethanol emulsion test
+
+   D   iodine test
+
+---
+
+## Exclusion 60: October/November 2003 — Paper 1 — Variant 1 — Question 11
+Syllabus subsection: 13.1 Excretion
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 5–6
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+11 A person’s diet contains more protein than is needed for growth and repair.
+
+    This causes increased production of
+
+   A   carbon dioxide.
+
+   B   hormones.
+
+   C   sweat.
+
+   D   urea.
+6
+
+---
+
+## Exclusion 61: October/November 2003 — Paper 1 — Variant 1 — Question 13
+Syllabus subsection: 7.2 Transpiration
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 7
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+13 A plant is left in the hot sun for six hours.
+
+                                             hot sun
+
+                                                   for six hours
+
+    The diagram shows how the appearance of the plant changes during this time.
+
+    Which statement explains the change in appearance of the plant?
+
+   A  More water is lost by transpiration than is absorbed.
+
+   B   Stomata have closed.
+
+   C  The water potential of the cells has increased.
+
+   D   There is less support provided by the xylem.
+
+---
+
+## Exclusion 62: October/November 2003 — Paper 1 — Variant 1 — Question 14
+Syllabus subsection: 3.2 Osmosis
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 7
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+14  The cell sap of a root hair cell has a higher concentration of nitrates than the surrounding soil.
+
+    Which feature of the cell stops these nitrates moving back from the cell to the soil?
+
+   A    cell membrane
+
+   B    cell wall
+
+   C   large surface area
+
+   D   water potential gradient
+
+---
+
+## Exclusion 63: October/November 2003 — Paper 1 — Variant 1 — Question 15
+Syllabus subsection: 11.2 Blood vessels
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 7–8
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+15  The table shows the characteristics of the blood in one blood vessel in the body.
+
+                          oxygen     carbon dioxide
+                                                         pressure
+                           concentration   concentration
+
+    Which blood vessel contains blood with these characteristics?
+
+   A   aorta
+
+   B   pulmonary artery
+
+   C   pulmonary vein
+
+   D   vena cava
+8
+
+---
+
+## Exclusion 64: October/November 2003 — Paper 1 — Variant 1 — Question 16
+Syllabus subsection: 1.3 Measurement of biological specimens
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 8
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+16  The diagram shows the main components of human blood.
+
+    Which component cannot function effectively if a person’s diet lacks iron?
+
+                                 B
+
+                    A
+
+                                               C
+
+                                D
+
+                                                        magnification × 100
+
+---
+
+## Exclusion 65: October/November 2003 — Paper 1 — Variant 1 — Question 17
+Syllabus subsection: 11.2 Blood vessels
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 8–9
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+17  Which sequence of structures does an oxygen molecule pass through as it is taken into the body?
+
+   A   larynx  →   trachea →   bronchioles  →    capillaries
+
+   B   trachea →    larynx  →   bronchioles  →    capillaries
+
+   C   larynx  →   trachea →    capillaries  →   bronchioles
+
+   D   trachea →    larynx  →    capillaries  →   bronchioles
+9
+
+---
+
+## Exclusion 66: October/November 2003 — Paper 1 — Variant 1 — Question 21
+Syllabus subsection: 14.4 Homeostasis
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 10–11
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+21 When the external temperature drops, the following changes may take place in the human body.
+
+                      1   body temperature falls
+
+                      2   body temperature rises
+
+                      3   brain detects cooler blood
+
+                      4   shivering begins
+
+     In which order do they occur?
+
+   A    1     3     4     2
+
+   B    1     4     3     2
+
+   C    3     2     4     1
+
+   D    3     4     2     1
+11
+
+---
+
+## Exclusion 67: October/November 2003 — Paper 1 — Variant 1 — Question 22
+Syllabus subsection: 14.1 Nervous coordination
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 11
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+22 A child is frightened by a loud noise and shouts for help.
+
+     In which order are the different types of neurone involved in this response?
+
+         involved first                            involved last
+
+   A  motor neurone      relay neurone      sensory neurone
+
+   B  motor neurone     sensory neurone    relay neurone
+
+   C  sensory neurone   motor neurone      relay neurone
+
+   D  sensory neurone    relay neurone      motor neurone
+
+---
+
+## Exclusion 68: October/November 2003 — Paper 1 — Variant 1 — Question 23
+Syllabus subsection: 14.3 Hormones
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 11
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+23  The diagram shows a section of the brain.
+
+    Which part produces hormones?
+
+                                         A
+
+                                         B
+
+                      D   C
+
+---
+
+## Exclusion 69: October/November 2003 — Paper 1 — Variant 1 — Question 24
+Syllabus subsection: 14.2 Sense organs and the eye
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 11–12
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+24  Which changes take place in the iris of the eye when a person moves quickly from darkness into
+     bright light?
+
+          circular muscles   radial muscles
+                                         diameter of pupil
+             of the iris         of the iris
+
+   A       contract            relax           increases
+
+   B       contract            relax         decreases
+
+   C         relax            contract        decreases
+
+   D         relax            contract         increases
+12
+
+---
+
+## Exclusion 70: October/November 2003 — Paper 1 — Variant 1 — Question 31
+Syllabus subsection: 4.1 Biological molecules
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 15–16
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+31  Which is the most direct way that the carbon in starch stored in cereal grain can return to the
+    atmosphere as carbon dioxide?
+
+   A   Grain is destroyed by fire during storage.
+
+   B   Grain is eaten by birds.
+
+   C   Grain is made into bread and eaten by humans.
+
+   D   Grain stored in damp conditions goes mouldy and decay.
+16
+
+---
+
+## Exclusion 71: October/November 2003 — Paper 1 — Variant 1 — Question 37
+Syllabus subsection: 13.1 Excretion
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 19
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+37  The diagram shows the male reproductive system and part of the urinary system.
+
+    Which part is the prostate gland?
+
+                                 A
+
+                                         B
+
+                                         C
+
+                                         D
+
+---
+
+## Exclusion 72: October/November 2003 — Paper 1 — Variant 1 — Question 38
+Syllabus subsection: 17.1 Genes, chromosomes and cell division
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 19–20
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+38 How many chromosomes are there in a zygote which develops into a Down’s syndrome baby?
+
+   A  23
+
+   B  24
+
+   C  46
+
+   D  47
+20
+
+---
+
+## Exclusion 73: October/November 2003 — Paper 1 — Variant 1 — Question 39
+Syllabus subsection: 17.2 Monohybrid inheritance
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 20
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+39 A study was made of children whose mothers were blood group O (genotype IOIO) and whose
+     fathers were blood group AB (genotype IAIB).
+
+    Which statement about their children is correct?
+
+   A    All will have the same blood group.
+
+   B  50% will have the same blood group as their mother.
+
+   C  50% will have the same blood group as their father.
+
+   D  None will have the same blood group as either parent.
+
+---
+
+## Exclusion 74: October/November 2003 — Paper 1 — Variant 1 — Question 40
+Syllabus subsection: 17.2 Monohybrid inheritance
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_1.pdf, page 20
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+40  Two heterozygous plants are crossed.
+
+    What is the ratio of homozygous genotypes to heterozygous genotypes amongst the offspring?
+
+       homozygous         heterozygous
+         genotypes           genotypes
+
+   A       1                 :         1
+
+   B       1                 :         2
+
+   C       1                 :         3
+
+   D       3                 :         1
+
+---
+
+## Exclusion 75: October/November 2003 — Paper 2 — Variant 1 — Question 1
+Syllabus subsection: 3.2 Osmosis
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_2.pdf, page 2–4
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+1
+Fig. 1.1 shows a cell from an organism.
+Fig. 1.1
+(a)
+(i)
+In which type of living organism are cells similar to the one shown in Fig. 1.1
+normally found?
+
+(ii)
+State two reasons for your choice of living organism in (i).
+2. ...........................................................................................................................[2]
+Fig. 1.2(a) shows the same cell after it had been placed in solution A for ten minutes. The
+cell was then transferred to solution B and Fig. 1.2(b) shows how it appeared after a further
+ten minutes.
+Fig. 1.2(a)
+Fig. 1.2(b)
+(b) Explain what has occurred to cause the cell to appear as it does in Fig. 1.2(a).
+
+C
+For
+Examiner’s
+Use
+3
+(c)
+Compared with the water potential of the cell, what can be deduced about solutions A
+and B?
+solution B .....................................................................................................................[2]
+(d) What will be found in region C in Fig. 1.2(b) at the end of the experiment?
+Explain your answer.
+
+[Total : 10]
+For
+Examiner’s
+Use
+4
+
+---
+
+## Exclusion 76: October/November 2003 — Paper 2 — Variant 1 — Question 2
+Syllabus subsection: 17.2 Monohybrid inheritance
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_2.pdf, page 4–6
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+2
+Fig. 2.1 shows leaves from three plants, D, E and F, of the same species.
+Fig. 2.1
+In this species of plant, leaf shape is controlled by two alleles, S1 and S2. Plants D and E are
+both homozygous for leaf shape and plant F is heterozygous.
+(a)
+State the phenotype of the heterozygous plant. ...........................................................[1]
+(b) (i)
+In the space below, construct a genetic diagram to show how a particular cross will
+always result in all offspring having a different phenotype from both parents.
+[5]
+(ii)
+Suggest an explanation for the offspring in your answer to (b)(i) always having
+leaves of a different shape from either of the parent plants.
+
+For
+Examiner’s
+Use
+plant F
+(oval)
+plant E
+(round)
+plant D
+(spear-shaped)
+5
+(c)
+In some cases when two plants shown in Fig. 2.1 are crossed, the offspring produced
+have two different leaf shapes in a ratio of 1:1.
+In the space below, construct a genetic diagram to show how this happens.
+[3]
+[Total : 11]
+For
+Examiner’s
+Use
+6
+
+---
+
+## Exclusion 77: October/November 2003 — Paper 2 — Variant 1 — Question 3
+Syllabus subsection: 5.1 Enzyme action
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_2.pdf, page 6–7
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+3
+Fig. 3.1 represents part of a starch molecule.
+Fig. 3.1
+(a)
+(i)
+Name the enzyme in the human alimentary canal that digests this molecule.
+
+(ii)
+In the space below, draw a diagram to show the result of this enzyme’s action on
+the starch molecule.
+[1]
+(iii) List the regions in the alimentary canal where this enzyme is active.
+
+(b) Olestra is a synthetic, edible fat similar to naturally-occurring saturated (animal) fats.
+The human alimentary canal and associated organs cannot produce an appropriate
+enzyme to act on it.
+(i)
+State a process that all fats, including olestra, undergo in the alimentary canal.
+
+(ii)
+State two processes that all fats, other than olestra, undergo in the alimentary
+canal.
+2 ............................................................................................................................[2]
+(c)
+Suggest two health-related advantages of using olestra in food preparation.
+2. ..................................................................................................................................[2]
+(d) Suggest a possible disadvantage of using olestra.
+
+[Total : 10]
+For
+Examiner’s
+Use
+7
+
+---
+
+## Exclusion 78: October/November 2003 — Paper 2 — Variant 1 — Question 4
+Syllabus subsection: 4.1 Biological molecules
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_2.pdf, page 7–8
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+4
+Fig. 4.1 shows apparatus used in the manufacture of an antibiotic.
+Fig. 4.1
+(a)
+(i)
+Name the type of organism used in the manufacture of antibiotics.
+
+(ii)
+Name an antibiotic that is manufactured in this way. ............................................[1]
+(b) The manufacturing process involves the presence of a solution containing both amino
+acids and glucose.
+Explain the value of these to the organism.
+
+(c)
+Explain why
+(i)
+air is introduced into the apparatus;
+
+(ii)
+the air enters through very many small holes, rather than one large one.
+
+(d) Suggest the importance of the water circulating in the jacket around the container.
+
+[Total : 10]
+organisms in a
+solution of amino
+acids and glucose
+revolving
+paddles
+air out
+water out
+jacket through which
+water is circulated
+for removing contents of
+container
+air in
+water in
+For
+Examiner’s
+Use
+8
+
+---
+
+## Exclusion 79: October/November 2003 — Paper 2 — Variant 1 — Question 5
+Syllabus subsection: 13.2 Kidney and urine formation
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_2.pdf, page 8–10
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+5
+Fig. 5.1 shows an outline of the upper part of a human body and the positions of some of the
+internal organs.
+Fig. 5.1
+(a)
+Some glands (endocrine glands) produce chemical substances that alter the activity of
+target organs.
+Name the group of chemical substances produced by endocrine glands.
+
+(b)
+(i)
+On Fig. 5.1, use the letters G and H and label lines to indicate the positions of two
+different endocrine glands.
+[2]
+(ii)
+Complete Table 5.1 for glands G and H.
+Table 5.1
+[4]
+stomach
+kidney
+For
+Examiner’s
+Use
+name of
+chemical
+effect on
+gland
+produced
+the body
+G
+H
+9
+(c)
+Suggest an explanation for the fact that the chemicals produced by endocrine glands
+are usually in the form of small molecules.
+
+[Total : 9]
+For
+Examiner’s
+Use
+10
+Section B
+Answer all the questions including questions 6, 7 and 8 Either or 8 Or.
+Write your answers on the separate answer paper provided.
+
+---
+
+## Exclusion 80: October/November 2003 — Paper 2 — Variant 1 — Question 7
+Syllabus subsection: 7.2 Transpiration
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_2.pdf, page 10
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+7
+(a)
+Explain with details how the transpiration rate of a plant is affected by
+(i)
+decreasing the humidity of the surrounding air
+(ii)
+increasing the temperature of the surrounding air.
+[7]
+(b) Suggest how transpiration is of value to a plant.
+[3]
+[Total : 10]
+Question 8 is in the form of an Either/Or question. Only answer question 8 Either or question 8 Or.
+
+---
+
+## Exclusion 81: October/November 2003 — Paper 2 — Variant 1 — Question 8
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w03_qp_2.pdf, page 10–12
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+8
+Either
+(a)
+Explain how the following are involved in the process of breathing.
+(i)
+the diaphragm
+[4]
+(ii)
+intercostal muscles
+[4]
+(b) Describe the function of the cilia in the trachea.
+[2]
+[Total : 10]
+Or
+Describe how the following help to maintain a constant internal environment.
+(a)
+the skin
+[7]
+(b) the kidneys
+[3]
+[Total : 10]
+11
+12
+
+---
+
+## Exclusion 82: October/November 2005 — Paper 2 — Variant 1 — Question 8
+Syllabus subsection: 3.1 Diffusion
+Reason: Official scheme for alternative EITHER could not be isolated
+Question source: 5090_w05_qp_2.pdf, page 12
+Mark-scheme source: biology-5090/5090_w05_ms_2.pdf
+
+ORIGINAL QUESTION TEXT
+8
+Either
+(a)
+Explain how a plant supports itself in the upright position.
+[4]
+(b)
+(i)
+Explain the process of wilting in a plant.
+(ii)
+Describe the conditions in which wilting is most likely to occur.
+[6]
+[Total: 10]
+
+---
+
+## Exclusion 83: May/June 2006 — Paper 2 — Variant 1 — Question 8
+Syllabus subsection: 11.3 Blood
+Reason: Official scheme for alternative OR could not be isolated
+Question source: 5090_s06_qp_2.pdf, page 13–16
+Mark-scheme source: biology-5090/5090_s06_ms_2.pdf
+
+ORIGINAL QUESTION TEXT
+8
+Or
+Explain the importance of
+
+(a) haemoglobin and
+[4]
+
+(b) villi
+[6]
+
+to a human being.
+
+[Total: 10]
+14
+15
+16
+
+---
+
+## Exclusion 84: October/November 2006 — Paper 2 — Variant 1 — Question 7
+Syllabus subsection: 14.4 Homeostasis
+Reason: Official scheme for subquestion (a) could not be isolated
+Question source: 5090_w06_qp_2.pdf, page 11
+Mark-scheme source: biology-5090/5090_w06_ms_2.pdf
+
+ORIGINAL QUESTION TEXT
+7
+(a) Describe the events that occur after the body temperature falls that will return the body
+temperature to its normal level.
+[7]
+
+---
+
+## Exclusion 85: October/November 2008 — Paper 2 — Variant 1 — Question 8
+Syllabus subsection: 1.1 Cell structure and function
+Reason: Official scheme for alternative OR could not be isolated
+Question source: 5090_w08_qp_2.pdf, page 12
+Mark-scheme source: biology-5090/5090_w08_ms_2.pdf
+
+ORIGINAL QUESTION TEXT
+8
+Or
+Describe the functions in a plant of
+
+(a) cell walls,
+[5]
+
+(b) cell membranes.
+[5]
+[Total: 10]
+Copyright Acknowledgements:
+Question 4
+
+Fig. 4.1 © David W. Manser.
+
+---
+
+## Exclusion 86: October/November 2009 — Paper 2 — Variant 1 — Question 5
+Syllabus subsection: 3.1 Diffusion
+Reason: Official scheme for subquestion (b) could not be isolated
+Question source: 5090_w09_qp_2.pdf, page 10–12
+Mark-scheme source: biology-5090/5090_w09_ms_2.pdf
+
+ORIGINAL QUESTION TEXT
+5
+In Fig. 5.1, curve P shows carbon dioxide uptake and release by a plant during a twelve-hour
+period between 12.00 hours and 24.00 hours.
+12.00
+time of day / hours
+CO2
+uptake /
+arbitrary
+units
+CO2
+release /
+arbitrary
+units
+18.00
+24.00
+0
+0
+Q
+P
+Fig. 5.1
+(b) (i) State the time at which there is no net movement of carbon dioxide into or out of
+the plant.
+
+(ii) Explain the shape of the curve after this time.
+11
+For
+Examiner’s
+Use
+
+---
+
+## Exclusion 87: May/June 2010 — Paper 1 — Variant 3 — Question 3
+Syllabus subsection: 5.1 Enzyme action
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 3
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+3  Cubes of hard-boiled egg white are placed in test-tubes containing 5 cm3 of water. Other
+    substances are added to each tube as shown in the chart. The tubes are left for eight hours and
+    then tested for amino acids.
+
+                  tube         solution added       results of test for amino acids
+
+                 2         pepsin + alkali                absent
+
+                 4          pepsin + acid               large amounts
+
+                 5        boiled pepsin + acid                traces
+
+   Which tubes show that pepsin is an enzyme?
+
+   A  1 and 6     B  2 and 7     C  4 and 5     D  5 and 6
+
+---
+
+## Exclusion 88: May/June 2010 — Paper 1 — Variant 3 — Question 4
+Syllabus subsection: 4.1 Biological molecules
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 3–4
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+4   Identical pieces of potato are placed in sucrose solutions of different concentrations. After three
+    hours, the mass of each potato piece is measured.
+
+   Which graph shows the results of this experiment?
+
+                     A                            B
+
+     mass of potato                         mass of potato
+
+                     sucrose concentration                       sucrose concentration
+
+                     C                            D
+
+     mass of potato                         mass of potato
+
+                     sucrose concentration                       sucrose concentration
+4
+
+---
+
+## Exclusion 89: May/June 2010 — Paper 1 — Variant 3 — Question 5
+Syllabus subsection: 3.2 Osmosis
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 4
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+5  Which of these processes require energy from respiration?
+
+                diffusion        osmosis
+
+    A                                 key
+
+    B                              = energy required
+
+    C                              = energy not required
+
+    D
+
+---
+
+## Exclusion 90: May/June 2010 — Paper 1 — Variant 3 — Question 6
+Syllabus subsection: 5.1 Enzyme action
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 4
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+6   In which regions of the alimentary canal does amylase act?
+
+   A  mouth cavity and pancreas
+
+   B  mouth cavity and ileum
+
+   C  stomach and pancreas
+
+   D  stomach and ileum
+
+---
+
+## Exclusion 91: May/June 2010 — Paper 1 — Variant 3 — Question 8
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 5
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+8  The diagram shows a section through a leaf.
+
+1
+
+2
+
+3
+
+5
+
+4
+
+   Which cells have the functions shown?
+
+             photosynthesis           transport
+
+    A        1 and 5             2 and 3
+
+    B        2 and 4             1 and 4
+
+    C        3 and 4             2 and 5
+
+    D        4 and 5             3 and 4
+
+---
+
+## Exclusion 92: May/June 2010 — Paper 1 — Variant 3 — Question 9
+Syllabus subsection: 7.3 Translocation
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 5
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+9  Which substances are transported in xylem and in phloem?
+
+    A   amino acids and mineral ions     amino acids and water
+
+    B     mineral ions and sucrose        starch and mineral ions
+
+    C      mineral ions and water          sucrose and water
+
+    D          starch and water             sucrose and starch
+
+---
+
+## Exclusion 93: May/June 2010 — Paper 1 — Variant 3 — Question 11
+Syllabus subsection: 1.3 Measurement of biological specimens
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 6
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+11 The photomicrograph shows onion epidermis.
+
+   Which term describes this onion epidermis?
+
+   A   cell
+
+   B  organ
+
+   C  organ system
+
+   D   tissue
+
+---
+
+## Exclusion 94: May/June 2010 — Paper 1 — Variant 3 — Question 14
+Syllabus subsection: 14.1 Nervous coordination
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 8–9
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+14 The diagram shows a reflex arc in which a bee sting causes the arm to be moved quickly.
+
+                                                Q
+
+                                 P
+
+          bee
+
+                                          R
+
+       If the relay neurone at Q is damaged, how will the transmission of nerve impulses in the reflex arc
+   be affected?
+
+   A  They cannot pass from P to Q.
+
+   B  They cannot pass from P to R.
+
+   C  They cannot pass from Q to P.
+
+   D  They cannot pass from R to Q.
+9
+
+---
+
+## Exclusion 95: May/June 2010 — Paper 1 — Variant 3 — Question 15
+Syllabus subsection: 14.1 Nervous coordination
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 9
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+15 The diagram shows a section through the brain and part of the spinal cord.
+
+                  P
+
+                                                 S
+               Q
+
+                                   R
+
+   Which row correctly identifies the cerebral hemisphere, cerebellum, medulla and pituitary gland?
+
+              cerebral
+                            cerebellum       medulla       pituitary gland
+           hemisphere
+
+    A       P         Q          R           S
+
+    B       P          R         Q           S
+
+    C      Q          R           S           P
+
+    D       S           P          R         Q
+
+---
+
+## Exclusion 96: May/June 2010 — Paper 1 — Variant 3 — Question 16
+Syllabus subsection: 11.3 Blood
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 9–10
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+16 The diagram represents a blood capillary with an adjacent cell. The arrows represent the transfer
+     of substances between the capillary and the cell.
+
+                 red blood cell            blood plasma       capillary wall
+
+                       tissuetissuetissue fluidfluidfluid
+
+                                    cell
+
+   Which arrows represent glucose, carbon dioxide and oxygen?
+
+                       carbon
+            glucose               oxygen
+                          dioxide
+
+    A     P       R      Q
+
+    B    Q        S        P
+
+    C     R      Q        S
+
+    D     S        P       R
+10
+
+---
+
+## Exclusion 97: May/June 2010 — Paper 1 — Variant 3 — Question 17
+Syllabus subsection: 11.2 Blood vessels
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 10
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+17 The diagram shows a vertical section through the heart.
+
+                                                                                   left ventricle
+
+   What are the functions of the numbered blood vessels?
+
+             carries blood     carries blood     carries blood     carries blood
+                to body          to lungs       from lungs      from body
+
+    A        1             4             3             2
+
+    B        2             1             3             4
+
+    C        2             3             4             1
+
+    D        3             2             4             1
+
+---
+
+## Exclusion 98: May/June 2010 — Paper 1 — Variant 3 — Question 18
+Syllabus subsection: 14.4 Homeostasis
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 10–11
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+18 Which structures are all involved in controlling human body temperature?
+
+   A  blood vessels near the skin surface, the cerebellum and sweat glands
+
+   B  blood vessels near the skin surface, the hypothalamus and skeletal muscles
+
+   C   kidneys, the cerebellum and sweat glands
+
+   D   kidneys, the hypothalamus and skeletal muscles
+11
+
+---
+
+## Exclusion 99: May/June 2010 — Paper 1 — Variant 3 — Question 20
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 11
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+20 What do the cilia do in the bronchi of the lungs?
+
+                trap bacteria     move mucus out of the lungs
+
+    A                                                  key
+
+    B                                              = function of the cilia
+
+    C                                              = not a function of the cilia
+
+    D
+
+---
+
+## Exclusion 100: May/June 2010 — Paper 1 — Variant 3 — Question 22
+Syllabus subsection: 14.2 Sense organs and the eye
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 12
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+22 Which is not controlled directly by the nervous system?
+
+   A  blood glucose concentration
+
+   B   dilation of the blood vessels
+
+   C   heart rate
+
+   D   pupil diameter in the eye
+
+---
+
+## Exclusion 101: May/June 2010 — Paper 1 — Variant 3 — Question 24
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 12–13
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+24 The diagram shows a section through a flower.
+
+1
+
+2
+
+3
+4
+
+     In which structures are haploid nuclei formed by reduction division?
+
+   A  1 and 3     B  1 and 4     C  2 and 3     D  2 and 4
+13
+
+---
+
+## Exclusion 102: May/June 2010 — Paper 1 — Variant 3 — Question 25
+Syllabus subsection: 7.2 Transpiration
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 13
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+25  Five similar plants are placed in test-tubes as shown.
+
+                                                                        oil to prevent
+                                                   evaporation
+                                                          of water
+
+                                                 water
+
+   Some of the plants have their leaves coated with grease to reduce transpiration. Each plant is
+    weighed in its test-tube at the start of the experiment and again two days later.
+
+   The results are shown in the table.
+
+                                         mass / g
+
+                                  plant 1     plant 2     plant 3     plant 4     plant 5
+
+                at the start of
+               experiment
+
+   Which plants had their leaves coated with grease?
+
+   A  1 and 2     B  1 and 4     C  2 and 5     D   2, 3 and 5
+
+---
+
+## Exclusion 103: May/June 2010 — Paper 1 — Variant 3 — Question 26
+Syllabus subsection: 17.2 Monohybrid inheritance
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 13
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+26 Which statement about human blood groups is correct?
+
+   A  A person with the blood group A cannot have an IO allele.
+
+   B  A person with the blood group B may have either the genotype IBIB or IBIO.
+
+   C   In a person with blood group AB, the IB allele is recessive to the allele IA.
+
+   D  The alleles IO and IB are co-dominant and have equal effect on a phenotype.
+
+---
+
+## Exclusion 104: May/June 2010 — Paper 1 — Variant 3 — Question 27
+Syllabus subsection: 17.1 Genes, chromosomes and cell division
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 13–14
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+27 Which statement about chromosomes is correct?
+
+   A  Chromosomes are long DNA molecules called genes which are divided into sections.
+
+   B  Chromosomes include a long molecule of DNA divided into sections called genes.
+
+   C  Chromosomes include genes which are divided into sections called DNA molecules.
+
+   D  Genes include long DNA molecules called chromosomes.
+14
+
+---
+
+## Exclusion 105: May/June 2010 — Paper 1 — Variant 3 — Question 28
+Syllabus subsection: 17.2 Monohybrid inheritance
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 14
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+28  In maize, one allele of a particular gene allows chlorophyll production while the other allele
+    prevents this, giving plants with cream coloured leaves.
+
+    Half the seeds from a cross between two green-leaved plants were sown in trays kept in the dark.
+   The other half were sown in similar conditions except that they received light.
+
+   The table gives the results obtained.
+
+                                numbers of seedlings
+
+                        kept in the dark                  kept in the light
+
+                green leaves   cream leaves    green leaves   cream leaves
+
+   What was the number of green-leaved plants formed from seeds germinating in the dark?
+
+   A  0         B  110        C  320        D  405
+
+---
+
+## Exclusion 106: May/June 2010 — Paper 1 — Variant 3 — Question 30
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 15
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+30 The diagram shows the structure of a bacterium.
+
+     In what way does this differ from a cell of a fungus?
+
+   A  The bacterium has a cell membrane.
+
+   B  The bacterium has a cell wall.
+
+   C  The bacterium has cytoplasm.
+
+   D  The bacterium has no true nucleus.
+
+---
+
+## Exclusion 107: May/June 2010 — Paper 1 — Variant 3 — Question 32
+Syllabus subsection: 13.1 Excretion
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 16
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+32 The diagram shows how the blood of a human embryo flows close to the mother’s blood in the
+    placenta.
+
+                   mother’s
+                  blood
+
+                  embryo’s
+                  blood
+
+                                                     X
+
+                                                  Y
+
+   Which substances are present at X in higher concentrations than at Y?
+
+   A  carbon dioxide and glucose
+
+   B  carbon dioxide and urea
+
+   C  glucose and oxygen
+
+   D  glucose and urea
+
+---
+
+## Exclusion 108: May/June 2010 — Paper 1 — Variant 3 — Question 33
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 16
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+33  After sexual intercourse, sperm can survive for 3 days in the uterus and oviducts. Ovulation can
+    occur any time from day 13 to day 15 and an egg cell can live for 2 days after ovulation.
+
+   How long is the longest possible fertile phase of the menstrual cycle?
+
+   A  2 days      B  3 days      C  5 days      D  7 days
+
+---
+
+## Exclusion 109: May/June 2010 — Paper 1 — Variant 3 — Question 34
+Syllabus subsection: 13.2 Kidney and urine formation
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 16–17
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+34 Which cannot be an example of excretion?
+
+   A  Carbon dioxide is breathed out from the lungs.
+
+   B  Undigested food leaves the body through the anus.
+
+   C  Urea leaves the body in urine.
+
+   D  Water is removed through the kidneys.
+17
+
+---
+
+## Exclusion 110: May/June 2010 — Paper 1 — Variant 3 — Question 38
+Syllabus subsection: 13.1 Excretion
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_13.pdf, page 17–18
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+38 Which bacteria convert urea to ammonia?
+
+   A  decay bacteria
+
+   B   denitrifying bacteria
+
+   C   nitrifying bacteria
+
+   D   nitrogen-fixing bacteria
+18
+
+---
+
+## Exclusion 111: May/June 2010 — Paper 2 — Variant 3 — Question 3
+Syllabus subsection: 4.1 Biological molecules
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_23.pdf, page 7–8
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+3
+Skimming is a process by which the constituents that collect at the top of fresh milk are
+removed. Skimmed milk has had all these constituents removed.
+
+Table 3.1 shows the nutritional contents of 100 cm3 of skimmed milk and 100 cm3 of
+unskimmed milk.
+Table 3.1
+skimmed milk
+unskimmed milk
+energy
+146 kj
+267 kj
+protein
+3.4 g
+3.4 g
+carbohydrate
+5.0 g
+4.6 g
+saturated fat
+0.04 g
+2.3 g
+unsaturated fat
+0.06 g
+1.3 g
+sodium
+0.1 g
+0.1 g
+calcium
+124 mg
+119 mg
+
+(a) Name two constituents of a healthy diet, not listed above, and state their importance to
+a person’s health.
+importance
+importance
+
+(b) Using the information in Table 3.1, suggest why skimmed milk is considered to be better
+for the circulatory system than unskimmed milk.
+
+(c) Explain why a mother’s milk is better for her baby than milk from another species of
+mammal.
+
+[Total: 11]
+8
+For
+Examiner’s
+Use
+
+---
+
+## Exclusion 112: May/June 2010 — Paper 2 — Variant 3 — Question 4
+Syllabus subsection: 11.2 Blood vessels
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_23.pdf, page 8–9
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+4
+Fig. 4.1 shows some structures in a section through human skin.
+C
+D
+Fig. 4.1
+
+(a) The body is able to maintain its internal environment within narrow limits. State the term
+for this process.
+
+(b) Structures C and D, in Fig. 4.1, are involved in the process of temperature regulation.
+
+Identify structures C and D and state the part they play in the process.
+C  ................................................................
+D  ................................................................
+
+(c) The consumption of alcohol causes the muscles in artery walls to relax.
+
+Taking this into consideration, suggest why people who work in environmental
+temperatures below 5 °C might be advised not to drink alcohol before or during work.
+
+[Total: 8]
+9
+For
+Examiner’s
+Use
+
+---
+
+## Exclusion 113: May/June 2010 — Paper 2 — Variant 3 — Question 5
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_23.pdf, page 9–11
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+5
+Fig. 5.1 shows a section through a microscopic, one-celled organism often found growing on
+the bark of trees.
+cell wall
+chloroplast
+nucleus
+E
+Fig. 5.1
+
+(a) Suggest the identity of the region labelled E in Fig. 5.1.
+[1]
+
+(b) (i) List the structures visible in Fig. 5.1 which suggest that this organism might be a
+plant.
+
+(ii) List the ways in which this cell differs from a palisade cell in a plant leaf.
+10
+For
+Examiner’s
+Use
+
+Fig. 5.2 shows the same cell reproducing.
+Fig 5.2
+
+(c) Explain why successive generations of this organism have remained unchanged in
+appearance for many thousands of years.
+
+[Total: 11]
+11
+For
+Examiner’s
+Use
+
+Section B
+
+Answer all the questions including questions 6, 7 and 8 Either or 8 Or.
+
+Write your answers in the spaces provided.
+
+---
+
+## Exclusion 114: May/June 2010 — Paper 2 — Variant 3 — Question 6
+Syllabus subsection: 4.1 Biological molecules
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_23.pdf, page 11–12
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+6
+(a) Describe how a molecule of carbon dioxide in the air becomes part of a carbohydrate
+molecule stored in a leaf of a plant.
+
+(b) Describe how a carbohydrate molecule stored in a leaf of a plant can become a starch
+molecule stored in the root.
+
+[Total: 10]
+12
+For
+Examiner’s
+Use
+
+---
+
+## Exclusion 115: May/June 2010 — Paper 2 — Variant 3 — Question 8
+Syllabus subsection: 11.2 Blood vessels
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_s10_qp_23.pdf, page 13–16
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+8
+Either
+
+A person cuts their hand on a piece of glass that they are picking up from the ground.
+
+(a) Describe how the body’s defence mechanisms protect the person from infection.
+
+(b) Explain how the person would know if the cut had damaged an artery.
+
+[Total: 10]
+14
+For
+Examiner’s
+Use
+8
+Or
+
+Potatoes contain starch. Describe and explain what happens to a piece of potato, that has
+been fried in oil, as it passes through the mouth (buccal cavity) and small intestine.
+
+mouth (buccal cavity)
+
+small intestine
+[Total: 10]
+15
+16
+
+---
+
+## Exclusion 116: October/November 2010 — Paper 1 — Variant 3 — Question 1
+Syllabus subsection: 13.1 Excretion
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 2
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+1  The diagram represents the liver and associated blood vessels.
+
+                               1       2
+
+3
+
+                                            liver
+
+                                                                   small
+                                                                          intestine
+
+     After a meal, how is the blood affected by the liver as it passes between these blood vessels?
+
+           blood vessels     effect of liver
+
+    A       2 to 1       glucose added
+
+    B       2 to 1       urea removed
+
+    C       3 to 1       glucose added
+
+    D       3 to 1       urea removed
+
+---
+
+## Exclusion 117: October/November 2010 — Paper 1 — Variant 3 — Question 3
+Syllabus subsection: 5.1 Enzyme action
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 2–3
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+3  Which chemical test shows the presence of an enzyme in a biological washing powder?
+
+   A   Benedict’s
+
+   B   biuret
+
+   C   ethanol emulsion
+
+   D   iodine solution
+3
+
+---
+
+## Exclusion 118: October/November 2010 — Paper 1 — Variant 3 — Question 4
+Syllabus subsection: 11.2 Blood vessels
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 3
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+4   Vitamin C changes cholesterol into a form which is less likely to be deposited in artery walls.
+
+   Which dietary advice would help prevent coronary heart disease?
+
+   A  Eat more bread and less meat.
+
+   B  Eat more butter and less bread.
+
+   C  Eat more meat and less oranges.
+
+   D  Eat more oranges and less butter.
+
+---
+
+## Exclusion 119: October/November 2010 — Paper 1 — Variant 3 — Question 5
+Syllabus subsection: 1.2 Levels of organisation and specialised cells
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 3
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+5  Which terms describe the parts of a plant?
+
+                   leaf         leaf mesophyll    leaf epidermis
+
+    A       organ               cell             tissue
+
+    B       organ            tissue            tissue
+
+    C    organ system        tissue               cell
+
+    D        tissue               cell                 cell
+
+---
+
+## Exclusion 120: October/November 2010 — Paper 1 — Variant 3 — Question 6
+Syllabus subsection: 7.2 Transpiration
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 3–4
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+6  The diagram shows part of a flowering plant.
+
+   Where does most transpiration take place?
+
+                                               A
+                                                          upper surface of leaf
+
+              B
+                          D
+             lower surface of leaf
+                                 stem
+
+                     C
+                                   root
+4
+
+---
+
+## Exclusion 121: October/November 2010 — Paper 1 — Variant 3 — Question 7
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 4
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+7  Which adaptations of a root hair cell make it suitable for water uptake?
+
+                partially permeable     surface area to volume
+                   cell membrane             ratio of the cell
+
+    A          absent                   high
+
+    B          absent                   low
+
+    C           present                   high
+
+    D           present                  low
+
+---
+
+## Exclusion 122: October/November 2010 — Paper 1 — Variant 3 — Question 8
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 4–5
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+8  The diagram shows a root hair.
+
+1
+
+2
+
+   Which arrows show the direction in which  it is possible for nitrate ions and water molecules to
+   move?
+
+                nitrate ions     water molecules
+
+    A       1 only          1 and 2
+
+    B      1 and 2         1 and 2
+
+    C      1 and 2          2 only
+
+    D       2 only          1 only
+5
+
+---
+
+## Exclusion 123: October/November 2010 — Paper 1 — Variant 3 — Question 13
+Syllabus subsection: 5.2 Effects of temperature and pH
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 7
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+13 Which graph shows the effect of temperature on enzyme-controlled reactions?
+
+                  A                              B
+
+                    temperature / °C                               temperature / °C
+
+                  C                              D
+
+                    temperature / °C                               temperature / °C
+
+---
+
+## Exclusion 124: October/November 2010 — Paper 1 — Variant 3 — Question 15
+Syllabus subsection: 13.2 Kidney and urine formation
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 8
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+15 The diagram shows the structures associated with a human kidney.
+
+                                 X
+
+                                   Y
+
+                                  Z
+                                           vena cava  aorta
+
+   What are the relative concentrations of urea in X, Y and Z?
+
+   A  X is sometimes higher than Y
+
+   B  Y is always higher than Z
+
+   C  Y is always lower than Z
+
+   D  Z is sometimes lower than X
+
+---
+
+## Exclusion 125: October/November 2010 — Paper 1 — Variant 3 — Question 16
+Syllabus subsection: 11.1 Heart and circulatory system
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 8–9
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+16 Which sequence shows the shortest route taken by blood travelling from a leg to an arm in the
+   human body?
+
+   A   leg → heart → lungs → heart → arm
+
+   B   leg → heart → lungs → kidney → arm
+
+   C   leg → kidney → heart → lungs → arm
+
+   D   leg → lungs → heart → gut → arm
+9
+
+---
+
+## Exclusion 126: October/November 2010 — Paper 1 — Variant 3 — Question 17
+Syllabus subsection: 14.4 Homeostasis
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 9
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+17 The diagram shows a section through skin.
+
+                                                                              vessel X
+
+         sweat
+          gland
+
+   What happens if the body temperature starts to fall below normal?
+
+              sweat glands       blood flow in vessel X
+
+    A       secrete sweat           decreases
+
+    B       secrete sweat             increases
+
+    C    stop secreting sweat         decreases
+
+    D    stop secreting sweat          increases
+
+---
+
+## Exclusion 127: October/November 2010 — Paper 1 — Variant 3 — Question 19
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 10
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+19 What passes down a pollen tube after pollination?
+
+   A  female nucleus
+
+   B  male nucleus
+
+   C   ovule
+
+   D   pollen grain
+
+---
+
+## Exclusion 128: October/November 2010 — Paper 1 — Variant 3 — Question 23
+Syllabus subsection: 3.3 Active transport
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 11–12
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+23 The diagram shows a blood capillary close to some tissue cells bathed in tissue fluid. Exchange
+     of nutrients takes place here.
+
+                                   direction of blood flow
+
+                                                           plasma                  capillary
+
+                            cell
+                                                                          tissue fluid
+
+   Which row shows the type of nutrient in the plasma and in the tissue fluid and the method of
+     transfer between the two?
+
+               plasma               tissue fluid       method of transfer
+
+    A       amino acid          amino acid               diffusion
+
+    B       amino acid               protein             osmosis
+
+    C          protein            amino acid             digestion
+
+    D          protein                 protein             active uptake
+12
+
+---
+
+## Exclusion 129: October/November 2010 — Paper 1 — Variant 3 — Question 24
+Syllabus subsection: 14.4 Homeostasis
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 12–13
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+24 The diagram shows some nerve pathways involved in temperature control of the human body.
+
+                                X
+
+                                                            muscle
+                                                                         layer
+                 receptor
+                                    sweat gland
+
+                                                    surface of skin
+
+   Which part of the nervous system does X represent?
+
+   A  cerebrum
+
+   B  hypothalamus
+
+   C  medulla
+
+   D   pituitary gland
+13
+
+---
+
+## Exclusion 130: October/November 2010 — Paper 1 — Variant 3 — Question 25
+Syllabus subsection: 14.1 Nervous coordination
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 13
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+25 The diagram shows a section through the human brain.
+
+               W
+
+   What are the functions of the labelled regions?
+
+          memory       balance
+
+    A    W         X
+
+    B    W         Y
+
+    C      X       W
+
+    D      X          Y
+
+---
+
+## Exclusion 131: October/November 2010 — Paper 1 — Variant 3 — Question 26
+Syllabus subsection: 14.2 Sense organs and the eye
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 13–14
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+26 The graph shows how the diameter of the pupil of a person’s eye changed during the course of
+    two minutes.
+
+                    pupil
+                                X
+                 diameter
+
+                                              time / minutes
+
+   What happens to the light intensity at X and which muscles begin to contract?
+
+                                         iris muscles
+               light intensity
+                              contracting
+
+    A     decreases         circular
+
+    B     decreases          radial
+
+    C     increases         circular
+
+    D     increases          radial
+14
+
+---
+
+## Exclusion 132: October/November 2010 — Paper 1 — Variant 3 — Question 27
+Syllabus subsection: 17.1 Genes, chromosomes and cell division
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 14
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+27 The diagram shows a section through the female reproductive system.
+
+                                                   X
+
+                                                   Y
+
+                                                       Z
+
+    During pregnancy, where does mitosis occur in the cells of the embryo?
+
+          X      Y      Z
+
+    A                             key
+
+    B                           = takes place
+
+    C                           = does not take place
+
+    D
+
+---
+
+## Exclusion 133: October/November 2010 — Paper 1 — Variant 3 — Question 28
+Syllabus subsection: 4.1 Biological molecules
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 14
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+28 What is a reason for breast milk being better for a baby than bottled milk?
+
+   A    It contains antibodies for disease protection.
+
+   B    It contains calcium ions for bone development.
+
+   C    It contains protein for growth.
+
+   D    It contains sugar for energy.
+
+---
+
+## Exclusion 134: October/November 2010 — Paper 1 — Variant 3 — Question 35
+Syllabus subsection: 17.2 Monohybrid inheritance
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 16
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+35 The inheritance of the ABO blood groups in humans is controlled by three alleles (IA, IB and IO),
+    only two of which can be present in one individual.
+
+   What are the possible blood groups of children born to a homozygous group A woman and a
+    heterozygous group B man?
+
+   A  A and B only
+
+   B  A and AB only
+
+   C   A, B and AB only
+
+   D   A, B, AB and O
+
+---
+
+## Exclusion 135: October/November 2010 — Paper 1 — Variant 3 — Question 36
+Syllabus subsection: 17.2 Monohybrid inheritance
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 16–17
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+36 The genotype for the height of an organism is written as Tt.
+
+   What conclusion may be drawn?
+
+   A  The allele for height has at least two different genes.
+
+   B  There are at least two different alleles of the gene for height.
+
+   C  There are two different genes for height, each having a single allele.
+
+   D  There is one allele for height with two different forms.
+17
+
+---
+
+## Exclusion 136: October/November 2010 — Paper 1 — Variant 3 — Question 37
+Syllabus subsection: 17.1 Genes, chromosomes and cell division
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 17
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+37 The body cells of a mammal contain two copies of 24 000 genes, making 48 000 genes in total.
+
+    Of these 48 000 genes in the body cells of a mammal, how many would have been inherited from
+      its mother?
+
+   A  6 000
+
+   B  12 000
+
+   C  24 000
+
+   D  48 000
+
+---
+
+## Exclusion 137: October/November 2010 — Paper 1 — Variant 3 — Question 38
+Syllabus subsection: 17.2 Monohybrid inheritance
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_13.pdf, page 17–18
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+38 Which statement is evidence that genes may be copied and passed on to the next generation?
+
+   A  Asexual reproduction produces genetically identical offspring.
+
+   B   Different alleles of a gene can produce variation in phenotype.
+
+   C  Each species of a plant or animal has a fixed number of chromosomes.
+
+   D  Sexual reproduction produces genetically different offspring.
+18
+
+---
+
+## Exclusion 138: October/November 2010 — Paper 2 — Variant 2 — Question 8
+Syllabus subsection: 1.1 Cell structure and function
+Reason: Official scheme for alternative EITHER could not be isolated
+Question source: 5090_w10_qp_22.pdf, page 11–12
+Mark-scheme source: biology-5090/5090_w10_ms_22.pdf
+
+ORIGINAL QUESTION TEXT
+8
+Either
+Using an example to illustrate each process, describe how substances move into and out
+of cells.
+
+[Total: 10]
+12
+
+---
+
+## Exclusion 139: October/November 2010 — Paper 2 — Variant 3 — Question 1
+Syllabus subsection: 11.1 Heart and circulatory system
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_23.pdf, page 2–3
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+1
+Fig. 1.1 shows a vertical section through a human heart. The valves have not been shown.
+A
+B
+Fig. 1.1
+
+(a) Identify structures A and B in Fig. 1.1.
+
+A ..............................................
+
+B ..............................................
+[2]
+
+(b) Complete Fig. 1.1 by drawing the valves to show how they control the direction of blood flow
+through the heart.
+[4]
+
+(c) On Fig. 1.1, draw arrows to show the direction of blood flow into, through and out of the heart.
+
+[2]
+
+Some people have a condition known as ‘a hole in the heart’. This allows a connection between
+the left and right atrium at point X in Fig. 1.1.
+
+(d) Suggest two problems this might cause.
+2.  ...........................................................................................................................................[2]
+[Total: 10]
+3
+
+---
+
+## Exclusion 140: October/November 2010 — Paper 2 — Variant 3 — Question 3
+Syllabus subsection: 5.1 Enzyme action
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_23.pdf, page 4–6
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+3
+Fig. 3.1 shows a water plant, bladderwort, that lives under water in a small lake. The bladderwort
+traps then digests small water animals such as water fleas.
+green
+leaves
+water flea being
+digested in bladder
+bladder
+trap door
+water flea
+Fig. 3.1
+
+(a) (i) State the process by which the plant is likely to obtain its carbohydrates.
+
+(ii) Suggest how the raw materials for this process are made available to the plant.
+5
+
+The plant is able to supplement its nitrogen requirements by absorbing products from the digested
+water fleas.
+
+(b) (i) Name an enzyme the plant must produce in its bladder in order to allow it to carry out
+this process.
+
+(ii) Name the chemicals absorbed by the bladder after digestion and suggest how the plant
+uses them.
+
+(c) State the form in which nitrogen-containing chemicals are absorbed by a plant growing on
+land.
+
+[Total: 10]
+6
+
+---
+
+## Exclusion 141: October/November 2010 — Paper 2 — Variant 3 — Question 6
+Syllabus subsection: 14.3 Hormones
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_23.pdf, page 9–10
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+6
+(a) Explain what is meant by a hormone.
+
+(b) Give an example of a hormone and describe how it is involved in maintaining constant
+conditions within the human body.
+
+[Total: 10]
+10
+
+---
+
+## Exclusion 142: October/November 2010 — Paper 2 — Variant 3 — Question 8
+Syllabus subsection: 1.1 Cell structure and function
+Reason: No corresponding official mark scheme PDF in repository
+Question source: 5090_w10_qp_23.pdf, page 11–12
+Mark-scheme source: No corresponding official PDF in repository
+
+ORIGINAL QUESTION TEXT
+8
+Either
+Using an example to illustrate each process, describe how substances move into and out
+of cells.
+
+[Total: 10]
+12
+8
+Or
+ Describe how a developing fetus in the uterus obtains and uses its metabolic requirements
+and gets rid of its waste products.
+
+[Total: 10]
+Copyright Acknowledgements:
+Fig. 5.1
+Neil Borden; Science Photo Library.
+
+---
+
+## Exclusion 143: May/June 2018 — Paper 2 — Variant 2 — Question 4
+Syllabus subsection: 7.1 Water and mineral uptake and xylem transport
+Reason: Official scheme for subquestion (b) could not be isolated
+Question source: 5090_s18_qp_22.pdf, page 8–10
+Mark-scheme source: biology-5090/5090_s18_ms_22.pdf
+
+ORIGINAL QUESTION TEXT
+4
+The graph shows the effect on crop yield (amount harvested) of using fertilisers that contain
+nitrogen.
+crop yield
+in kg / hectare
+2000
+0
+4000
+6000
+mass of fertiliser in kg / hectare
+0
+50
+100
+150
+200
+250
+(b) Name one type of mineral ion, other than nitrate, that is required by a plant and state its
+importance to the plant.
+[2]
+
+[Total: 11]
+10
+
+---

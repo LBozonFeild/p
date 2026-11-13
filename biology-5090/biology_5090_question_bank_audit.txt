@@ -1,0 +1,291 @@
+BIOLOGY 5090 — FINAL QUESTION BANK AUDIT
+AUDIT STATUS: ALL AVAILABLE PAPERS CONSIDERED; ALL IDENTIFIED ELIGIBLE ORIGINS ARE EITHER INCLUDED OR EXPLICITLY RECORDED AS EXCLUDED/UNRESOLVED.
+This is not a claim that unresolved questions were included. Missing official schemes and extraction/matching limitations are itemised in the exclusions file.
+
+## Exact totals
+Available papers (non-solved Paper 1/2 PDFs): 166
+  Paper 1: 83; Paper 2: 83
+Papers with corresponding official mark-scheme PDFs: 156
+Papers without corresponding official mark-scheme PDFs: 10
+Eligible original questions (split parts counted once at origin level): 2385
+Included complete questions: 2101
+Included individual subquestions where splitting was necessary: 171
+Total included bank entries: 2272
+Questions excluded because of missing mark schemes: 136
+Unresolved questions/subquestions: 7
+Total exclusions file records: 143
+
+## Structural audit checks
+[PASS] All 166 available non-solved Paper 1/2 PDFs considered
+[PASS] All Paper 1 PDFs yielded exactly 40 questions
+[PASS] No extraction errors outstanding
+[PASS] Every included entry has non-empty mark scheme
+[PASS] Every included Paper 1 entry has A, B, C and D labels
+[PASS] Every included entry has an exact source and scheme section
+[PASS] Every included entry has a visual-source reference
+[PASS] No duplicate record IDs
+[PASS] Tracker included rows equal bank entries
+[PASS] Tracker excluded rows equal exclusion entries
+[PASS] Every eligible origin is included or explicitly excluded
+
+## Coverage by year (available Paper 1/2 PDFs)
+2002: 2
+2003: 4
+2004: 4
+2005: 4
+2006: 4
+2007: 4
+2008: 4
+2009: 4
+2010: 12
+2011: 8
+2012: 8
+2013: 8
+2014: 8
+2015: 8
+2016: 8
+2017: 8
+2018: 8
+2019: 8
+2020: 8
+2021: 8
+2022: 8
+2023: 8
+2024: 8
+2025: 8
+2026: 4
+
+## Coverage by session
+October/November: 82
+May/June: 84
+
+## Included entries by syllabus subsection
+
+1. CELLS: 357 entries
+  1.1 Cell structure and function: 292 included; 18 excluded/unresolved
+  1.2 Levels of organisation and specialised cells: 41 included; 3 excluded/unresolved
+  1.3 Measurement of biological specimens: 24 included; 3 excluded/unresolved
+
+3. MOVEMENT INTO AND OUT OF CELLS: 192 entries
+  3.1 Diffusion: 42 included; 2 excluded/unresolved
+  3.2 Osmosis: 50 included; 5 excluded/unresolved
+  3.3 Active transport: 100 included; 6 excluded/unresolved
+
+4. BIOLOGICAL MOLECULES: 190 entries
+  4.1 Biological molecules: 141 included; 6 excluded/unresolved
+  4.2 Food tests: 36 included; 1 excluded/unresolved
+  4.3 DNA and protein synthesis: 13 included; 0 excluded/unresolved
+
+5. ENZYMES: 183 entries
+  5.1 Enzyme action: 114 included; 11 excluded/unresolved
+  5.2 Effects of temperature and pH: 69 included; 4 excluded/unresolved
+
+7. TRANSPORT IN FLOWERING PLANTS: 157 entries
+  7.1 Water and mineral uptake and xylem transport: 47 included; 1 excluded/unresolved
+  7.2 Transpiration: 64 included; 9 excluded/unresolved
+  7.3 Translocation: 46 included; 1 excluded/unresolved
+
+11. TRANSPORT IN HUMANS: 300 entries
+  11.1 Heart and circulatory system: 121 included; 4 excluded/unresolved
+  11.2 Blood vessels: 141 included; 12 excluded/unresolved
+  11.3 Blood: 38 included; 4 excluded/unresolved
+
+13. EXCRETION: 213 entries
+  13.1 Excretion: 54 included; 5 excluded/unresolved
+  13.2 Kidney and urine formation: 159 included; 6 excluded/unresolved
+
+14. COORDINATION AND CONTROL: 315 entries
+  14.1 Nervous coordination: 88 included; 7 excluded/unresolved
+  14.2 Sense organs and the eye: 97 included; 5 excluded/unresolved
+  14.3 Hormones: 55 included; 3 excluded/unresolved
+  14.4 Homeostasis: 75 included; 6 excluded/unresolved
+
+15. COORDINATION AND RESPONSE IN PLANTS: 20 entries
+  15.1 Tropic responses: 11 included; 0 excluded/unresolved
+  15.2 Plant hormones: 9 included; 0 excluded/unresolved
+
+17. INHERITANCE: 345 entries
+  17.1 Genes, chromosomes and cell division: 110 included; 6 excluded/unresolved
+  17.2 Monohybrid inheritance: 173 included; 13 excluded/unresolved
+  17.3 Variation and inheritance: 62 included; 2 excluded/unresolved
+
+## Paper-by-paper coverage
+Year | Session | Variant | Paper | Question paper | Mark scheme | Extracted original questions | Relevant original questions | Included entries | Unresolved
+2002 | October/November | 1 | 1 | 5090_w02_qp_1.pdf | MISSING | 40 | 24 | 0 | 24
+2002 | October/November | 1 | 2 | 5090_w02_qp_2.pdf | MISSING | 8 | 6 | 0 | 6
+2003 | May/June | 1 | 1 | 5090_s03_qp_1.pdf | MISSING | 40 | 20 | 0 | 20
+2003 | May/June | 1 | 2 | 5090_s03_qp_2.pdf | MISSING | 8 | 2 | 0 | 2
+2003 | October/November | 1 | 1 | 5090_w03_qp_1.pdf | MISSING | 40 | 22 | 0 | 22
+2003 | October/November | 1 | 2 | 5090_w03_qp_2.pdf | MISSING | 8 | 7 | 0 | 7
+2004 | May/June | 1 | 1 | 5090_s04_qp_1.pdf | 5090_s04_ms.pdf | 40 | 20 | 20 | 0
+2004 | May/June | 1 | 2 | 5090_s04_qp_2.pdf | 5090_s04_ms.pdf | 8 | 5 | 5 | 0
+2004 | October/November | 1 | 1 | 5090_w04_qp_1.pdf | 5090_w04_ms_1.pdf | 40 | 24 | 24 | 0
+2004 | October/November | 1 | 2 | 5090_w04_qp_2.pdf | 5090_w04_ms_2.pdf | 8 | 4 | 5 | 0
+2005 | May/June | 1 | 1 | 5090_s05_qp_1.pdf | 5090_s05_ms_1.pdf | 40 | 24 | 24 | 0
+2005 | May/June | 1 | 2 | 5090_s05_qp_2.pdf | 5090_s05_ms_2.pdf | 8 | 7 | 11 | 0
+2005 | October/November | 1 | 1 | 5090_w05_qp_1.pdf | 5090_w05_ms_1.pdf | 40 | 25 | 25 | 0
+2005 | October/November | 1 | 2 | 5090_w05_qp_2.pdf | 5090_w05_ms_2.pdf | 8 | 6 | 6 | 1
+2006 | May/June | 1 | 1 | 5090_s06_qp_1.pdf | 5090_s06_ms_1.pdf | 40 | 26 | 26 | 0
+2006 | May/June | 1 | 2 | 5090_s06_qp_2.pdf | 5090_s06_ms_2.pdf | 8 | 5 | 5 | 1
+2006 | October/November | 1 | 1 | 5090_w06_qp_1.pdf | 5090_w06_ms_1.pdf | 40 | 23 | 23 | 0
+2006 | October/November | 1 | 2 | 5090_w06_qp_2.pdf | 5090_w06_ms_2.pdf | 8 | 5 | 8 | 1
+2007 | May/June | 1 | 1 | 5090_s07_qp_1.pdf | 5090_s07_ms_1.pdf | 40 | 21 | 21 | 0
+2007 | May/June | 1 | 2 | 5090_s07_qp_2.pdf | 5090_s07_ms_2.pdf | 8 | 4 | 7 | 0
+2007 | October/November | 1 | 1 | 5090_w07_qp_1.pdf | 5090_w07_ms_1.pdf | 40 | 26 | 26 | 0
+2007 | October/November | 1 | 2 | 5090_w07_qp_2.pdf | 5090_w07_ms_2.pdf | 6 | 5 | 7 | 0
+2008 | May/June | 1 | 1 | 5090_s08_qp_1.pdf | 5090_s08_ms_1.pdf | 40 | 25 | 25 | 0
+2008 | May/June | 1 | 2 | 5090_s08_qp_2.pdf | 5090_s08_ms_2.pdf | 8 | 4 | 4 | 0
+2008 | October/November | 1 | 1 | 5090_w08_qp_1.pdf | 5090_w08_ms_1.pdf | 40 | 23 | 23 | 0
+2008 | October/November | 1 | 2 | 5090_w08_qp_2.pdf | 5090_w08_ms_2.pdf | 8 | 5 | 5 | 1
+2009 | May/June | 1 | 1 | 5090_s09_qp_1.pdf | 5090_s09_ms_1.pdf | 40 | 26 | 26 | 0
+2009 | May/June | 1 | 2 | 5090_s09_qp_2.pdf | 5090_s09_ms_2.pdf | 8 | 5 | 7 | 0
+2009 | October/November | 1 | 1 | 5090_w09_qp_1.pdf | 5090_w09_ms_1.pdf | 40 | 23 | 23 | 0
+2009 | October/November | 1 | 2 | 5090_w09_qp_2.pdf | 5090_w09_ms_2.pdf | 8 | 6 | 9 | 1
+2010 | May/June | 1 | 1 | 5090_s10_qp_11.pdf | 5090_s10_ms_11.pdf | 40 | 24 | 24 | 0
+2010 | May/June | 2 | 1 | 5090_s10_qp_12.pdf | 5090_s10_ms_12.pdf | 40 | 24 | 24 | 0
+2010 | May/June | 3 | 1 | 5090_s10_qp_13.pdf | MISSING | 40 | 24 | 0 | 24
+2010 | May/June | 1 | 2 | 5090_s10_qp_21.pdf | 5090_s10_ms_21.pdf | 8 | 5 | 6 | 0
+2010 | May/June | 2 | 2 | 5090_s10_qp_22.pdf | 5090_s10_ms_22.pdf | 8 | 5 | 6 | 0
+2010 | May/June | 3 | 2 | 5090_s10_qp_23.pdf | MISSING | 8 | 5 | 0 | 5
+2010 | October/November | 1 | 1 | 5090_w10_qp_11.pdf | 5090_w10_ms_11.pdf | 40 | 22 | 22 | 0
+2010 | October/November | 2 | 1 | 5090_w10_qp_12.pdf | 5090_w10_ms_12.pdf | 40 | 22 | 22 | 0
+2010 | October/November | 3 | 1 | 5090_w10_qp_13.pdf | MISSING | 40 | 22 | 0 | 22
+2010 | October/November | 1 | 2 | 5090_w10_qp_21.pdf | 5090_w10_ms_21.pdf | 8 | 6 | 8 | 0
+2010 | October/November | 2 | 2 | 5090_w10_qp_22.pdf | 5090_w10_ms_22.pdf | 8 | 4 | 3 | 1
+2010 | October/November | 3 | 2 | 5090_w10_qp_23.pdf | MISSING | 8 | 4 | 0 | 4
+2011 | May/June | 1 | 1 | 5090_s11_qp_11.pdf | 5090_s11_ms_11.pdf | 40 | 21 | 21 | 0
+2011 | May/June | 2 | 1 | 5090_s11_qp_12.pdf | 5090_s11_ms_12.pdf | 40 | 21 | 21 | 0
+2011 | May/June | 1 | 2 | 5090_s11_qp_21.pdf | 5090_s11_ms_21.pdf | 9 | 7 | 10 | 0
+2011 | May/June | 2 | 2 | 5090_s11_qp_22.pdf | 5090_s11_ms_22.pdf | 9 | 7 | 9 | 0
+2011 | October/November | 1 | 1 | 5090_w11_qp_11.pdf | 5090_w11_ms_11.pdf | 40 | 21 | 21 | 0
+2011 | October/November | 2 | 1 | 5090_w11_qp_12.pdf | 5090_w11_ms_12.pdf | 40 | 21 | 21 | 0
+2011 | October/November | 1 | 2 | 5090_w11_qp_21.pdf | 5090_w11_ms_21.pdf | 9 | 5 | 8 | 0
+2011 | October/November | 2 | 2 | 5090_w11_qp_22.pdf | 5090_w11_ms_22.pdf | 9 | 6 | 8 | 0
+2012 | May/June | 1 | 1 | 5090_s12_qp_11.pdf | 5090_s12_ms_11.pdf | 40 | 21 | 21 | 0
+2012 | May/June | 2 | 1 | 5090_s12_qp_12.pdf | 5090_s12_ms_12.pdf | 40 | 27 | 27 | 0
+2012 | May/June | 1 | 2 | 5090_s12_qp_21.pdf | 5090_s12_ms_21.pdf | 9 | 6 | 9 | 0
+2012 | May/June | 2 | 2 | 5090_s12_qp_22.pdf | 5090_s12_ms_22.pdf | 9 | 7 | 7 | 0
+2012 | October/November | 1 | 1 | 5090_w12_qp_11.pdf | 5090_w12_ms_11.pdf | 40 | 23 | 23 | 0
+2012 | October/November | 2 | 1 | 5090_w12_qp_12.pdf | 5090_w12_ms_12.pdf | 40 | 28 | 28 | 0
+2012 | October/November | 1 | 2 | 5090_w12_qp_21.pdf | 5090_w12_ms_21.pdf | 9 | 7 | 9 | 0
+2012 | October/November | 2 | 2 | 5090_w12_qp_22.pdf | 5090_w12_ms_22.pdf | 9 | 6 | 7 | 0
+2013 | May/June | 1 | 1 | 5090_s13_qp_11.pdf | 5090_s13_ms_11.pdf | 40 | 19 | 19 | 0
+2013 | May/June | 2 | 1 | 5090_s13_qp_12.pdf | 5090_s13_ms_12.pdf | 40 | 22 | 22 | 0
+2013 | May/June | 1 | 2 | 5090_s13_qp_21.pdf | 5090_s13_ms_21.pdf | 9 | 6 | 10 | 0
+2013 | May/June | 2 | 2 | 5090_s13_qp_22.pdf | 5090_s13_ms_22.pdf | 9 | 5 | 7 | 0
+2013 | October/November | 1 | 1 | 5090_w13_qp_11.pdf | 5090_w13_ms_11.pdf | 40 | 28 | 28 | 0
+2013 | October/November | 2 | 1 | 5090_w13_qp_12.pdf | 5090_w13_ms_12.pdf | 40 | 25 | 25 | 0
+2013 | October/November | 1 | 2 | 5090_w13_qp_21.pdf | 5090_w13_ms_21.pdf | 9 | 5 | 7 | 0
+2013 | October/November | 2 | 2 | 5090_w13_qp_22.pdf | 5090_w13_ms_22.pdf | 9 | 6 | 7 | 0
+2014 | May/June | 1 | 1 | 5090_s14_qp_11.pdf | 5090_s14_ms_11.pdf | 40 | 24 | 24 | 0
+2014 | May/June | 2 | 1 | 5090_s14_qp_12.pdf | 5090_s14_ms_12.pdf | 40 | 28 | 28 | 0
+2014 | May/June | 1 | 2 | 5090_s14_qp_21.pdf | 5090_s14_ms_21.pdf | 9 | 6 | 7 | 0
+2014 | May/June | 2 | 2 | 5090_s14_qp_22.pdf | 5090_s14_ms_22.pdf | 9 | 6 | 10 | 0
+2014 | October/November | 1 | 1 | 5090_w14_qp_11.pdf | 5090_w14_ms_11.pdf | 40 | 24 | 24 | 0
+2014 | October/November | 2 | 1 | 5090_w14_qp_12.pdf | 5090_w14_ms_12.pdf | 40 | 23 | 23 | 0
+2014 | October/November | 1 | 2 | 5090_w14_qp_21.pdf | 5090_w14_ms_21.pdf | 9 | 5 | 6 | 0
+2014 | October/November | 2 | 2 | 5090_w14_qp_22.pdf | 5090_w14_ms_22.pdf | 9 | 6 | 8 | 0
+2015 | May/June | 1 | 1 | 5090_s15_qp_11.pdf | 5090_s15_ms_11.pdf | 40 | 26 | 26 | 0
+2015 | May/June | 2 | 1 | 5090_s15_qp_12.pdf | 5090_s15_ms_12.pdf | 40 | 25 | 25 | 0
+2015 | May/June | 1 | 2 | 5090_s15_qp_21.pdf | 5090_s15_ms_21.pdf | 9 | 5 | 7 | 0
+2015 | May/June | 2 | 2 | 5090_s15_qp_22.pdf | 5090_s15_ms_22.pdf | 9 | 6 | 6 | 0
+2015 | October/November | 1 | 1 | 5090_w15_qp_11.pdf | 5090_w15_ms_11.pdf | 40 | 21 | 21 | 0
+2015 | October/November | 2 | 1 | 5090_w15_qp_12.pdf | 5090_w15_ms_12.pdf | 40 | 24 | 24 | 0
+2015 | October/November | 1 | 2 | 5090_w15_qp_21.pdf | 5090_w15_ms_21.pdf | 9 | 6 | 8 | 0
+2015 | October/November | 2 | 2 | 5090_w15_qp_22.pdf | 5090_w15_ms_22.pdf | 9 | 5 | 8 | 0
+2016 | May/June | 1 | 1 | 5090_s16_qp_11.pdf | 5090_s16_ms_11.pdf | 40 | 22 | 22 | 0
+2016 | May/June | 2 | 1 | 5090_s16_qp_12.pdf | 5090_s16_ms_12.pdf | 40 | 20 | 20 | 0
+2016 | May/June | 1 | 2 | 5090_s16_qp_21.pdf | 5090_s16_ms_21.pdf | 9 | 4 | 4 | 0
+2016 | May/June | 2 | 2 | 5090_s16_qp_22.pdf | 5090_s16_ms_22.pdf | 9 | 6 | 8 | 0
+2016 | October/November | 1 | 1 | 5090_w16_qp_11.pdf | 5090_w16_ms_11.pdf | 40 | 25 | 25 | 0
+2016 | October/November | 2 | 1 | 5090_w16_qp_12.pdf | 5090_w16_ms_12.pdf | 40 | 25 | 25 | 0
+2016 | October/November | 1 | 2 | 5090_w16_qp_21.pdf | 5090_w16_ms_21.pdf | 9 | 6 | 7 | 0
+2016 | October/November | 2 | 2 | 5090_w16_qp_22.pdf | 5090_w16_ms_22.pdf | 9 | 5 | 9 | 0
+2017 | May/June | 1 | 1 | 5090_s17_qp_11.pdf | 5090_s17_ms_11.pdf | 40 | 21 | 21 | 0
+2017 | May/June | 2 | 1 | 5090_s17_qp_12.pdf | 5090_s17_ms_12.pdf | 40 | 25 | 25 | 0
+2017 | May/June | 1 | 2 | 5090_s17_qp_21.pdf | 5090_s17_ms_21.pdf | 9 | 8 | 11 | 0
+2017 | May/June | 2 | 2 | 5090_s17_qp_22.pdf | 5090_s17_ms_22.pdf | 9 | 4 | 7 | 0
+2017 | October/November | 1 | 1 | 5090_w17_qp_11.pdf | 5090_w17_ms_11.pdf | 40 | 24 | 24 | 0
+2017 | October/November | 2 | 1 | 5090_w17_qp_12.pdf | 5090_w17_ms_12.pdf | 40 | 24 | 24 | 0
+2017 | October/November | 1 | 2 | 5090_w17_qp_21.pdf | 5090_w17_ms_21.pdf | 9 | 4 | 4 | 0
+2017 | October/November | 2 | 2 | 5090_w17_qp_22.pdf | 5090_w17_ms_22.pdf | 9 | 6 | 10 | 0
+2018 | May/June | 1 | 1 | 5090_s18_qp_11.pdf | 5090_s18_ms_11.pdf | 40 | 21 | 21 | 0
+2018 | May/June | 2 | 1 | 5090_s18_qp_12.pdf | 5090_s18_ms_12.pdf | 40 | 23 | 23 | 0
+2018 | May/June | 1 | 2 | 5090_s18_qp_21.pdf | 5090_s18_ms_21.pdf | 9 | 7 | 8 | 0
+2018 | May/June | 2 | 2 | 5090_s18_qp_22.pdf | 5090_s18_ms_22.pdf | 9 | 7 | 10 | 1
+2018 | October/November | 1 | 1 | 5090_w18_qp_11.pdf | 5090_w18_ms_11.pdf | 40 | 25 | 25 | 0
+2018 | October/November | 2 | 1 | 5090_w18_qp_12.pdf | 5090_w18_ms_12.pdf | 40 | 20 | 20 | 0
+2018 | October/November | 1 | 2 | 5090_w18_qp_21.pdf | 5090_w18_ms_21.pdf | 9 | 4 | 6 | 0
+2018 | October/November | 2 | 2 | 5090_w18_qp_22.pdf | 5090_w18_ms_22.pdf | 9 | 5 | 7 | 0
+2019 | May/June | 1 | 1 | 5090_s19_qp_11.pdf | 5090_s19_ms_11.pdf | 40 | 21 | 21 | 0
+2019 | May/June | 2 | 1 | 5090_s19_qp_12.pdf | 5090_s19_ms_12.pdf | 40 | 19 | 19 | 0
+2019 | May/June | 1 | 2 | 5090_s19_qp_21.pdf | 5090_s19_ms_21.pdf | 9 | 3 | 4 | 0
+2019 | May/June | 2 | 2 | 5090_s19_qp_22.pdf | 5090_s19_ms_22.pdf | 9 | 6 | 9 | 0
+2019 | October/November | 1 | 1 | 5090_w19_qp_11.pdf | 5090_w19_ms_11.pdf | 40 | 19 | 19 | 0
+2019 | October/November | 2 | 1 | 5090_w19_qp_12.pdf | 5090_w19_ms_12.pdf | 40 | 21 | 21 | 0
+2019 | October/November | 1 | 2 | 5090_w19_qp_21.pdf | 5090_w19_ms_21.pdf | 9 | 7 | 11 | 0
+2019 | October/November | 2 | 2 | 5090_w19_qp_22.pdf | 5090_w19_ms_22.pdf | 9 | 6 | 8 | 0
+2020 | May/June | 1 | 1 | 5090_s20_qp_11.pdf | 5090_s20_ms_11.pdf | 40 | 20 | 20 | 0
+2020 | May/June | 2 | 1 | 5090_s20_qp_12.pdf | 5090_s20_ms_12.pdf | 40 | 20 | 20 | 0
+2020 | May/June | 1 | 2 | 5090_s20_qp_21.pdf | 5090_s20_ms_21.pdf | 9 | 7 | 9 | 0
+2020 | May/June | 2 | 2 | 5090_s20_qp_22.pdf | 5090_s20_ms_22.pdf | 9 | 5 | 5 | 0
+2020 | October/November | 1 | 1 | 5090_w20_qp_11.pdf | 5090_w20_ms_11.pdf | 40 | 23 | 23 | 0
+2020 | October/November | 2 | 1 | 5090_w20_qp_12.pdf | 5090_w20_ms_12.pdf | 40 | 23 | 23 | 0
+2020 | October/November | 1 | 2 | 5090_w20_qp_21.pdf | 5090_w20_ms_21.pdf | 9 | 4 | 6 | 0
+2020 | October/November | 2 | 2 | 5090_w20_qp_22.pdf | 5090_w20_ms_22.pdf | 9 | 5 | 7 | 0
+2021 | May/June | 1 | 1 | 5090_s21_qp_11.pdf | 5090_s21_ms_11.pdf | 40 | 30 | 30 | 0
+2021 | May/June | 2 | 1 | 5090_s21_qp_12.pdf | 5090_s21_ms_12.pdf | 40 | 26 | 26 | 0
+2021 | May/June | 1 | 2 | 5090_s21_qp_21.pdf | 5090_s21_ms_21.pdf | 9 | 6 | 9 | 0
+2021 | May/June | 2 | 2 | 5090_s21_qp_22.pdf | 5090_s21_ms_22.pdf | 9 | 6 | 8 | 0
+2021 | October/November | 1 | 1 | 5090_w21_qp_11.pdf | 5090_w21_ms_11.pdf | 40 | 28 | 28 | 0
+2021 | October/November | 2 | 1 | 5090_w21_qp_12.pdf | 5090_w21_ms_12.pdf | 40 | 27 | 27 | 0
+2021 | October/November | 1 | 2 | 5090_w21_qp_21.pdf | 5090_w21_ms_21.pdf | 9 | 5 | 7 | 0
+2021 | October/November | 2 | 2 | 5090_w21_qp_22.pdf | 5090_w21_ms_22.pdf | 9 | 3 | 3 | 0
+2022 | May/June | 1 | 1 | 5090_s22_qp_11.pdf | 5090_s22_ms_11.pdf | 40 | 22 | 22 | 0
+2022 | May/June | 2 | 1 | 5090_s22_qp_12.pdf | 5090_s22_ms_12.pdf | 40 | 27 | 27 | 0
+2022 | May/June | 1 | 2 | 5090_s22_qp_21.pdf | 5090_s22_ms_21.pdf | 9 | 6 | 9 | 0
+2022 | May/June | 2 | 2 | 5090_s22_qp_22.pdf | 5090_s22_ms_22.pdf | 9 | 7 | 8 | 0
+2022 | October/November | 1 | 1 | 5090_w22_qp_11.pdf | 5090_w22_ms_11.pdf | 40 | 21 | 21 | 0
+2022 | October/November | 2 | 1 | 5090_w22_qp_12.pdf | 5090_w22_ms_12.pdf | 40 | 23 | 23 | 0
+2022 | October/November | 1 | 2 | 5090_w22_qp_21.pdf | 5090_w22_ms_21.pdf | 9 | 5 | 6 | 0
+2022 | October/November | 2 | 2 | 5090_w22_qp_22.pdf | 5090_w22_ms_22.pdf | 9 | 5 | 6 | 0
+2023 | May/June | 1 | 1 | 5090_s23_qp_11.pdf | 5090_s23_ms_11.pdf | 40 | 21 | 21 | 0
+2023 | May/June | 2 | 1 | 5090_s23_qp_12.pdf | 5090_s23_ms_12.pdf | 40 | 21 | 21 | 0
+2023 | May/June | 1 | 2 | 5090_s23_qp_21.pdf | 5090_s23_ms_21.pdf | 7 | 3 | 3 | 0
+2023 | May/June | 2 | 2 | 5090_s23_qp_22.pdf | 5090_s23_ms_22.pdf | 7 | 2 | 2 | 0
+2023 | October/November | 1 | 1 | 5090_w23_qp_11.pdf | 5090_w23_ms_11.pdf | 40 | 21 | 21 | 0
+2023 | October/November | 2 | 1 | 5090_w23_qp_12.pdf | 5090_w23_ms_12.pdf | 40 | 25 | 25 | 0
+2023 | October/November | 1 | 2 | 5090_w23_qp_21.pdf | 5090_w23_ms_21.pdf | 8 | 6 | 10 | 0
+2023 | October/November | 2 | 2 | 5090_w23_qp_22.pdf | 5090_w23_ms_22.pdf | 7 | 4 | 7 | 0
+2024 | May/June | 1 | 1 | 5090_s24_qp_11.pdf | 5090_s24_ms_11.pdf | 40 | 26 | 26 | 0
+2024 | May/June | 2 | 1 | 5090_s24_qp_12.pdf | 5090_s24_ms_12.pdf | 40 | 29 | 29 | 0
+2024 | May/June | 1 | 2 | 5090_s24_qp_21.pdf | 5090_s24_ms_21.pdf | 6 | 6 | 8 | 0
+2024 | May/June | 2 | 2 | 5090_s24_qp_22.pdf | 5090_s24_ms_22.pdf | 7 | 7 | 11 | 0
+2024 | October/November | 1 | 1 | 5090_w24_qp_11.pdf | 5090_w24_ms_11.pdf | 40 | 26 | 26 | 0
+2024 | October/November | 2 | 1 | 5090_w24_qp_12.pdf | 5090_w24_ms_12.pdf | 40 | 22 | 22 | 0
+2024 | October/November | 1 | 2 | 5090_w24_qp_21.pdf | 5090_w24_ms_21.pdf | 7 | 5 | 7 | 0
+2024 | October/November | 2 | 2 | 5090_w24_qp_22.pdf | 5090_w24_ms_22.pdf | 7 | 4 | 5 | 0
+2025 | May/June | 1 | 1 | 5090_s25_qp_11.pdf | 5090_s25_ms_11.pdf | 40 | 28 | 28 | 0
+2025 | May/June | 2 | 1 | 5090_s25_qp_12.pdf | 5090_s25_ms_12.pdf | 40 | 26 | 26 | 0
+2025 | May/June | 1 | 2 | 5090_s25_qp_21.pdf | 5090_s25_ms_21.pdf | 8 | 5 | 6 | 0
+2025 | May/June | 2 | 2 | 5090_s25_qp_22.pdf | 5090_s25_ms_22.pdf | 7 | 6 | 7 | 0
+2025 | October/November | 1 | 1 | 5090_w25_qp_11.pdf | 5090_w25_ms_11.pdf | 40 | 20 | 20 | 0
+2025 | October/November | 2 | 1 | 5090_w25_qp_12.pdf | 5090_w25_ms_12.pdf | 40 | 24 | 24 | 0
+2025 | October/November | 1 | 2 | 5090_w25_qp_21.pdf | 5090_w25_ms_21.pdf | 8 | 6 | 7 | 0
+2025 | October/November | 2 | 2 | 5090_w25_qp_22.pdf | 5090_w25_ms_22.pdf | 7 | 5 | 6 | 0
+2026 | May/June | 1 | 1 | 5090_s26_qp_11.pdf | 5090_s26_ms_11.pdf | 40 | 24 | 24 | 0
+2026 | May/June | 2 | 1 | 5090_s26_qp_12.pdf | 5090_s26_ms_12.pdf | 40 | 22 | 22 | 0
+2026 | May/June | 1 | 2 | 5090_s26_qp_21.pdf | 5090_s26_ms_21.pdf | 9 | 5 | 6 | 0
+2026 | May/June | 2 | 2 | 5090_s26_qp_22.pdf | 5090_s26_ms_22.pdf | 9 | 4 | 6 | 0
+
+## Placement and formatting audit
+[PASS] Main bank orders entries newest to oldest (October/November before May/June within a year), then paper, variant and original question number; syllabus subsections are tagged per question.
+[PASS] Each rendered question is immediately followed by MARK SCHEME; no answer appendix is used.
+[PASS] Split entries retain original question/subquestion labels and shared introductory material.
+[PASS] Official accepted alternatives, marking points and allocations extracted from each matched section are not summarised.
+[PASS] Visual material has a labelled PDF/page/question reference; no diagram is replaced by an invented description.
+[PASS] No entire question is intentionally duplicated across chapters; split entries retain traceability.
+[PASS] Tracker and bank totals were independently regenerated from the same audited record set and checked for equality.
+
+## Final accounting statement
+2385 eligible original-question origins are accounted for: 2242 have at least one included entry and 143 occur only in the exclusions file. 143 exclusion records comprise 136 missing-scheme questions and 7 unresolved questions/subquestions.
