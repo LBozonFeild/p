@@ -4,7 +4,9 @@
 # After it has run, tools/check.py and tools/report.py reproduce the tracker, checkpoint and exclusions file from findings/.
 set -e
 T=/home/user/p/physics-5054-revision/tools
-[ -x /home/user/.venv/bin/python ] || { python3 -m venv /home/user/.venv && /home/user/.venv/bin/pip install -q pymupdf pillow; }
+[ -x /home/user/.venv/bin/python ] || python3 -m venv /home/user/.venv
+# numpy is needed by the question-bank tools (tools/bank); the notes tools need only PyMuPDF and Pillow
+/home/user/.venv/bin/python -c "import fitz, PIL, numpy" 2>/dev/null || /home/user/.venv/bin/pip install -q pymupdf pillow numpy
 PY="/home/user/.venv/bin/python -W ignore"
 mkdir -p /home/user/work/tools /home/user/work/txt /home/user/work/view /home/user/work/tmp
 cd $T
@@ -17,3 +19,4 @@ $PY build_p1.py | tail -2         # Paper 1 digests and figure sheets
 $PY build_p1_rest.py > /dev/null  # remaining Paper 1 figure sheets
 $PY check.py | tail -3            # validates findings/ against the manifests -> work/status.json, work/state.pkl
 $PY report.py | tail -1           # tracker, checkpoint, exclusions, by_section.json
+# The scratch data of the question bank (/home/user/work/bank) is rebuilt separately: see tools/bank/README.txt.

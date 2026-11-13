@@ -1,0 +1,453 @@
+PHYSICS 5054 QUESTION BANK - AUDIT
+==================================
+Written 2026-11-13 08:46 UTC by tools/bank/breports.py.
+
+RESULT: ALL AUTOMATED CHECKS PASSED; VISUAL REVIEW RECORDED
+
+1. FILES
+--------
+  physics_5054_past_paper_questions_with_ms.pdf          80,941,691 bytes   4,358 pages
+  physics_5054_question_bank_tracker.txt                  1,400,671 bytes
+  physics_5054_question_bank_tracker.pdf                    705,448 bytes
+  physics_5054_question_bank_exclusions.txt                  49,846 bytes
+  physics_5054_question_bank_exclusions.pdf                  23,276 bytes
+  physics_5054_question_bank_audit.txt                 this file
+  physics_5054_question_bank_audit.pdf                 PDF copy of this file
+  sha256 of the bank PDF: 1c4c44d6e6440b49377d820cf6fd5ce50276a796cd63adc5507c37e3b8ea7701
+  built 2026-11-13 08:35 UTC by tools/bank/bbuild.py; checked 2026-11-13 08:42 UTC by tools/bank/bverify.py
+
+2. WHAT IS IN THE BANK
+----------------------
+  records (one question in one subsection)          2,709   Paper 1: 1,723   Paper 2: 986
+  original questions                                2,274   Paper 1: 1,723   Paper 2: 551
+  Paper 2 questions by number of subsections      1 subsection: 263, 2 subsections: 177, 3 subsections: 82, 4 subsections: 22, 5 subsections: 7
+  pages                                             4,358   front 2, subsection title pages 27, pages of records 4,329
+  pictures placed                                   6,261   distinct pictures: 4,951 (a question printed under several subsections uses the same pictures)
+  bookmarks                                         2,741   chapter and front matter 5, subsections 27, records 2,709
+  page orientation                                portrait 3,923, landscape 435 (landscape mark schemes from 2017 on)
+  papers                                          156 question papers with their mark schemes: 78 of Paper 1, 78 of Paper 2, May/June 2004 to May/June 2026
+  EITHER/OR questions                             5 questions, 6 records, both alternatives and both schemes shown; the marks in the header are those of one alternative:
+      4.2.2|w21|P2|V2|Q5       4 of 5 marks (printed total)
+      4.2.3|w09|P2|V1|Q11      2 of 15 marks (printed marks above the OR alternative)
+      4.2.4|w09|P2|V1|Q11      7 of 15 marks (printed marks above the OR alternative)
+      4.2.4|s10|P2|V1|Q7       3 of 5 marks (printed marks above the OR alternative)
+      4.2.4|s19|P2|V1|Q8       2 of 6 marks (printed total)
+      4.2.4|s21|P2|V2|Q8       3 of 6 marks (printed total)
+  pictures                                        16 grey levels, 180 dpi or more, shown at original size; text is black on white
+
+3. RECONCILIATION
+-----------------
+[PASS] R1 the records of the bank are exactly the question/subsection pairs that the verified findings give
+       2,709 pairs expected from the findings, 2,709 records in the bank, 2,709 in both
+[PASS] R2 the entry list used for the build equals a fresh list made from the findings, in the same order
+       2,709 entries, order identical
+[PASS] R3 questions of the 156 papers: in the bank + left out = all questions
+       Paper 1: 1,723 + 1,397 = 3,120; Paper 2: 551 + 257 = 808; checked for each of the 156 papers
+[PASS] R4 no question is both in the bank and in the list of exclusions
+       0 questions in both lists
+[PASS] R5 papers without a mark scheme: every question is listed and left out
+       10 papers, 200 + 55 = 255 questions
+[PASS] R6 all questions of all Paper 1 and Paper 2 question papers in the folder
+       2,274 in the bank + 1,654 not on a selected subsection + 255 without a mark scheme = 4,183
+[PASS] R7 pages of the bank: front pages + divider pages + pages of the records = all pages
+       2 + 27 + 4,329 = 4,358; the pages of consecutive records follow each other without a gap
+[PASS] R8 files of the folder physics-5054: used + excluded + other kinds = all
+       311 + 12 + 471 = 794
+[PASS] R9 consolidation: several tracker rows of one question in one subsection give one record
+       1,985 in-scope tracker rows of Paper 2 give 986 records of 551 questions; 1,723 Paper 1 questions give one record each
+[PASS] R11 all papers used are complete in the paper-by-paper verification; Paper 1: the recorded answer equals the published key letter
+       78 Paper 1 papers: 3,120 of 3,120 answers equal the key, 0 differ or are open; 78 Paper 2 papers: 3,673 sub-questions matched to their scheme entries
+[PASS] R10 the results of the checks belong to the files on disk
+       PDF hash equals the hash recorded by bverify.py; geometry hash equals the hash recorded by bverify.py and bcheck_geom.py
+
+  Questions by source                       questions   in the bank    left out   reason for leaving out
+  Paper 1, papers with a mark scheme            3,120         1,723       1,397   not on a selected subsection
+  Paper 2, papers with a mark scheme              808           551         257   not on a selected subsection
+  Paper 1, papers without a mark scheme           200             0         200   no mark scheme (98 on a selected subsection)
+  Paper 2, papers without a mark scheme            55             0          55   no mark scheme (35 on a selected subsection, 59 question/subsection pairs)
+  all                                           4,183         2,274       1,909
+
+4. AUTOMATED CHECKS OF THE CROP GEOMETRY (tools/bank/bcheck_geom.py, against the source PDFs)
+---------------------------------------------------------------------------------------------
+  run 2026-11-13 08:33 UTC; 156 papers
+[PASS] V1 Paper 2: the mark allocations printed inside the crops of a question add up to the marks of that question
+       808 questions, 0 differ
+[PASS] V2 question papers: every text row and every answer line lies in exactly one crop
+       48,856 rows, 0 outside or in two crops (509 ruled lines on the shared lined pages are not reproduced, see the exclusions file)
+[PASS] V3 every question and every scheme starts inside the first crop of its own question
+       3,928 question starts, 0 misplaced
+[PASS] V4 Paper 2 schemes: every row of the used scheme pages lies in exactly one crop, or is general material listed in the exclusions file
+       10,173 rows; 103 rows are in no crop: 77 after the scheme of the last question, 26 before the scheme of Question 1 (covers, general notes, legends of the mark codes; listed in the exclusions file, part D)
+[PASS] V5 Paper 1: one crop per question; its text equals the question text of the verification
+       3,120 questions, 0 differ
+[PASS] V6 Paper 1: the crop of a key row holds the question number and the key letter of that question, nothing else
+       3,120 key rows, 0 differ
+[PASS] V7 the pixel row of every cut line is free of ink (more than 8 dark pixels at 2 pixels per point), or the place was inspected
+       10,628 cut lines, 2 with ink: s04_2 qp p. 11 at y=795.6; s25_22 qp p. 6 at y=796.5 (the two places described under V11)
+[PASS] V8 Paper 2 schemes: no two neighbouring questions whose mark codes are off by opposite amounts (a row filed under the wrong question)
+       0 such pairs
+[PASS] V9 every question crop holds text (no crop of ruled lines only)
+       0 crops without text
+[PASS] V10 no ink is left outside the crops between page header and page footer
+       2,610 question-paper pages and 468 scheme pages; 0 pages with unexplained ink; 19 shared lined pages not reproduced; 16 scheme pages with the general material of V4
+[PASS] V11 no stroke crosses a cut line (8 pixels per point; excepted: cuts placed on a table rule, the rule of the examiner column), or the place was inspected
+       10,628 cut lines, 2 crossed: s04_2 qp p. 11 at y=795.6: the mark '[9]', last line of Question 10, touches the page footer '[Turn over' (gap 0.12 pt, found at 8 pixels per point); the cut is at the lower end of the brackets and '[9]' is complete in the picture; s25_22 qp p. 6 at y=796.5: the corner marks of the page (page furniture, at x = 35-38 pt and 557-560 pt) stand beside the last answer line of Question 4; the cut is in the blank row below that line and passes through the corner marks only
+  Notes of the geometry program:
+    s04_2: QP page 11: last line of the question touches the page footer: bottom edge put at y=795.6, at a gap of 0.12 pt found at 8 pixels per point
+    s26_22: MS page 11: frame or rule ends directly above the page footer: bottom limit moved down to the blank row at y=549.75
+
+5. AUTOMATED CHECKS OF THE FINISHED PDF (tools/bank/bverify.py: the PDF reopened from disk, every page rendered)
+-----------------------------------------------------------------------------------------------------------------
+[PASS] A1 page count of the PDF equals the build manifest
+       4358 pages
+[PASS] A2 every entry is in the PDF and no record ID occurs twice
+       2709 entries in page order, 2709 expected
+[PASS] A3 order: subsection, year, session, variant, paper, question number
+       strictly increasing sort key
+[PASS] A4 one record per original question and subsection
+       2274 original questions, 2709 records
+[PASS] A5 pages of an entry are adjacent; question pictures first, complete scheme directly after, in source order
+       0 entries with a problem
+[PASS] A6 bookmarks: one per chapter, subsection and entry, each pointing to the first page of its target
+       5 top-level, 27 subsection and 2709 question bookmarks
+[PASS] A7 file size below 100 MB
+       80.9 MB (80941691 bytes)
+[PASS] B0 every page of the PDF renders without a MuPDF error or warning
+       4358 pages rendered; warnings: none
+[PASS] B1 no page is dark or colour-inverted (every page rendered)
+       0 dark pages of 4358
+[PASS] B2 no blank page and no empty picture
+       0 findings
+[PASS] B3a every picture is on its page at the planned position (picture boxes read back from the PDF)
+       6261 placements, 0 not found
+[PASS] B3b the stored pixels of every distinct picture are identical to a fresh rendering of its region of the source PDF
+       4951 distinct pictures, 0 differ
+[PASS] B3c every page, rendered on the pixel grid of its pictures, shows exactly the stored pictures (nothing over them, none displaced)
+       6261 placements compared pixel by pixel, 0 differ
+[PASS] B4 nothing printed outside the pictures and the grey bars
+       0 pages with stray ink
+[PASS] B5 pictures lie inside the page area, below the header and above the footer, without overlap; orientation as planned; no page rotation
+       0 findings
+[PASS] B6 the cut lines (outermost pixel rows of every picture) are free of ink; rows of the key table and cuts on a table rule excepted
+       6453 cut lines checked, 3449 on a ruled line by design; 6 with ink, of which 6 reviewed and accepted (listed in the audit), 0 not reviewed
+[PASS] B7 every picture is shown at its original size (99.9 % or more) and at 180 dpi or more
+       6261 placements; scales {0.999: 50, 1.0: 3577, 1.001: 1795, 1.002: 223, 1.003: 281, 1.004: 97, 1.005: 24, 1.006: 214}; lowest resolution 180 dpi
+[PASS] C1 header, source lines, record ID and page number of every page agree with the entry
+       0 pages with a missing text
+[PASS] C2 marks of the question named in the header of every Paper 2 record = marks printed on the question paper inside its pictures
+       986 records of 551 questions: 980 records without alternatives (sum of all printed '[n]' and the printed '[Total: n]'), 6 records of EITHER/OR questions (marks of one alternative); 0 differ
+  Cut lines with ink that were inspected by eye and accepted (B6):
+    bank page 238, bottom edge, 5054_s05_qp_2.pdf source page 2: the mark '[1]' of the last answer line ends directly above the page footer; the brackets are complete and nothing crosses the cut line
+    bank page 720, bottom edge, 5054_s04_qp_2.pdf source page 11: the mark '[9]', last line of Question 10, touches the footer '[Turn over' (gap 0.12 pt); the cut is at the lower end of the brackets, '[9]' is complete; the last pixel row may carry a faint grey trace of the top of the footer text
+    bank page 2782, bottom edge, 5054_s25_qp_22.pdf source page 6: the corner marks of the page (page furniture) stand beside the last answer line of Question 4; the cut is in the blank row below that line and passes through the two corner marks only; nothing of the question is cut
+    bank page 3052, bottom edge, 5054_s26_ms_22.pdf source page 11: the frame of the note 'bod' below the table ends 0.5 pt above the page footer; the frame is complete
+    bank page 4315, bottom edge, 5054_s23_qp_21.pdf source page 5: '[Total: 6]' ends directly above the footer '[Turn over'; the brackets are complete and nothing crosses the cut line
+    bank page 4318, bottom edge, 5054_s23_qp_22.pdf source page 11: '[Total: 9]' ends directly above the footer '[Turn over'; the brackets are complete and nothing crosses the cut line
+
+6. RECORDS PER SUBSECTION
+-------------------------
+  subsection                                                 Paper 1  Paper 2  records  bank pages
+  1.1    Physical quantities and measurement techniques         156       26      182  3-229
+  1.2    Motion                                                 100       76      176  230-537
+  1.3    Mass and weight                                         73       39      112  538-717
+  1.4    Density                                                 57       35       92  718-867
+  1.5.1  Balanced and unbalanced forces                          85       62      147  868-1118
+  1.5.2  Friction                                                66       45      111  1119-1309
+  1.5.3  Elastic deformation                                     62       22       84  1310-1432
+  1.5.4  Circular motion                                         52       15       67  1433-1525
+  1.5.5  Turning effect of forces                                59       37       96  1526-1679
+  1.5.6  Centre of gravity                                       41       14       55  1680-1759
+  1.6    Momentum                                                 8       11       19  1760-1798
+  1.7.1  Energy                                                  68       83      151  1799-2085
+  1.7.2  Work                                                    38       30       68  2086-2199
+  1.7.3  Energy resources                                        27       17       44  2200-2272
+  1.7.4  Efficiency                                              41       29       70  2273-2389
+  1.7.5  Power                                                   60       48      108  2390-2573
+  3.1    General properties of waves                             89       53      142  2574-2798
+  3.2.1  Reflection of light                                     55        9       64  2799-2877
+  3.2.2  Refraction of light                                     76       37      113  2878-3052
+  3.2.3  Thin lenses                                             71       22       93  3053-3179
+  3.2.4  Dispersion of light                                     29       13       42  3180-3243
+  3.3    Electromagnetic spectrum                                53       46       99  3244-3410
+  3.4    Sound                                                  115       38      153  3411-3623
+  4.2.1  Electrical charge                                       90       29      119  3624-3783
+  4.2.2  Electrical current                                      35       40       75  3784-3932
+  4.2.3  Electromotive force and potential difference            44       29       73  3933-4062
+  4.2.4  Resistance                                              73       81      154  4063-4358
+  all                                                          1723      986     2709
+
+7. RECORDS PER PAPER
+--------------------
+  paper    question paper        mark scheme           questions  in the bank  records  left out
+  s04_1    5054_s04_qp_1.pdf     5054_s04_ms.pdf              40           20       20        20
+  s04_2    5054_s04_qp_2.pdf     5054_s04_ms.pdf              11            6       11         5
+  w04_1    5054_w04_qp_1.pdf     5054_w04_ms_1.pdf            40           20       20        20
+  w04_2    5054_w04_qp_2.pdf     5054_w04_ms_2.pdf            10            7        8         3
+  s05_1    5054_s05_qp_1.pdf     5054_s05_ms_1.pdf            40           18       18        22
+  s05_2    5054_s05_qp_2.pdf     5054_s05_ms_2.pdf            11            7       14         4
+  w05_1    5054_w05_qp_1.pdf     5054_w05_ms_1.pdf            40           21       21        19
+  w05_2    5054_w05_qp_2.pdf     5054_w05_ms_2.pdf            11            9       16         2
+  s06_1    5054_s06_qp_1.pdf     5054_s06_ms_1.pdf            40           21       21        19
+  s06_2    5054_s06_qp_2.pdf     5054_s06_ms_2.pdf            11            7        9         4
+  w06_1    5054_w06_qp_1.pdf     5054_w06_ms_1.pdf            40           17       17        23
+  w06_2    5054_w06_qp_2.pdf     5054_w06_ms_2.pdf            11            8       12         3
+  s07_1    5054_s07_qp_1.pdf     5054_s07_ms_1.pdf            40           22       22        18
+  s07_2    5054_s07_qp_2.pdf     5054_s07_ms_2.pdf            11            8       13         3
+  w07_1    5054_w07_qp_1.pdf     5054_w07_ms_1.pdf            40           20       20        20
+  w07_2    5054_w07_qp_2.pdf     5054_w07_ms_2.pdf            11            7       11         4
+  s08_1    5054_s08_qp_1.pdf     5054_s08_ms_1.pdf            40           20       20        20
+  s08_2    5054_s08_qp_2.pdf     5054_s08_ms_2.pdf            11            7       11         4
+  w08_1    5054_w08_qp_1.pdf     5054_w08_ms_1.pdf            40           20       20        20
+  w08_2    5054_w08_qp_2.pdf     5054_w08_ms_2.pdf            11            8       15         3
+  s09_1    5054_s09_qp_1.pdf     5054_s09_ms_1.pdf            40           18       18        22
+  s09_2    5054_s09_qp_2.pdf     5054_s09_ms_2.pdf            11            6       11         5
+  w09_1    5054_w09_qp_1.pdf     5054_w09_ms_1.pdf            40           20       20        20
+  w09_2    5054_w09_qp_2.pdf     5054_w09_ms_2.pdf            11            8       13         3
+  s10_11   5054_s10_qp_11.pdf    5054_s10_ms_11.pdf           40           23       23        17
+  s10_12   5054_s10_qp_12.pdf    5054_s10_ms_12.pdf           40           23       23        17
+  s10_21   5054_s10_qp_21.pdf    5054_s10_ms_21.pdf           11            9       14         2
+  s10_22   5054_s10_qp_22.pdf    5054_s10_ms_22.pdf           11            8       14         3
+  w10_11   5054_w10_qp_11.pdf    5054_w10_ms_11.pdf           40           20       20        20
+  w10_12   5054_w10_qp_12.pdf    5054_w10_ms_12.pdf           40           20       20        20
+  w10_21   5054_w10_qp_21.pdf    5054_w10_ms_21.pdf           10            9       14         1
+  w10_22   5054_w10_qp_22.pdf    5054_w10_ms_22.pdf           11            8       16         3
+  s11_11   5054_s11_qp_11.pdf    5054_s11_ms_11.pdf           40           22       22        18
+  s11_12   5054_s11_qp_12.pdf    5054_s11_ms_12.pdf           40           22       22        18
+  s11_21   5054_s11_qp_21.pdf    5054_s11_ms_21.pdf           11            8       11         3
+  s11_22   5054_s11_qp_22.pdf    5054_s11_ms_22.pdf           11            8       12         3
+  w11_11   5054_w11_qp_11.pdf    5054_w11_ms_11.pdf           40           21       21        19
+  w11_12   5054_w11_qp_12.pdf    5054_w11_ms_12.pdf           40           21       21        19
+  w11_21   5054_w11_qp_21.pdf    5054_w11_ms_21.pdf           11            8       14         3
+  w11_22   5054_w11_qp_22.pdf    5054_w11_ms_22.pdf           11            8       15         3
+  s12_11   5054_s12_qp_11.pdf    5054_s12_ms_11.pdf           40           21       21        19
+  s12_12   5054_s12_qp_12.pdf    5054_s12_ms_12.pdf           40           21       21        19
+  s12_21   5054_s12_qp_21.pdf    5054_s12_ms_21.pdf           11            9       13         2
+  s12_22   5054_s12_qp_22.pdf    5054_s12_ms_22.pdf           10            7       11         3
+  w12_11   5054_w12_qp_11.pdf    5054_w12_ms_11.pdf           40           20       20        20
+  w12_12   5054_w12_qp_12.pdf    5054_w12_ms_12.pdf           40           20       20        20
+  w12_21   5054_w12_qp_21.pdf    5054_w12_ms_21.pdf           11           10       16         1
+  w12_22   5054_w12_qp_22.pdf    5054_w12_ms_22.pdf           11            8       12         3
+  s13_11   5054_s13_qp_11.pdf    5054_s13_ms_11.pdf           40           24       24        16
+  s13_12   5054_s13_qp_12.pdf    5054_s13_ms_12.pdf           40           24       24        16
+  s13_21   5054_s13_qp_21.pdf    5054_s13_ms_21.pdf           11            5        8         6
+  s13_22   5054_s13_qp_22.pdf    5054_s13_ms_22.pdf           11            9       17         2
+  w13_11   5054_w13_qp_11.pdf    5054_w13_ms_11.pdf           40           21       21        19
+  w13_12   5054_w13_qp_12.pdf    5054_w13_ms_12.pdf           40           19       19        21
+  w13_21   5054_w13_qp_21.pdf    5054_w13_ms_21.pdf           11            6       13         5
+  w13_22   5054_w13_qp_22.pdf    5054_w13_ms_22.pdf           11            8       18         3
+  s14_11   5054_s14_qp_11.pdf    5054_s14_ms_11.pdf           40           23       23        17
+  s14_12   5054_s14_qp_12.pdf    5054_s14_ms_12.pdf           40           21       21        19
+  s14_21   5054_s14_qp_21.pdf    5054_s14_ms_21.pdf           11            8       15         3
+  s14_22   5054_s14_qp_22.pdf    5054_s14_ms_22.pdf           11            8       13         3
+  w14_11   5054_w14_qp_11.pdf    5054_w14_ms_11.pdf           40           19       19        21
+  w14_12   5054_w14_qp_12.pdf    5054_w14_ms_12.pdf           40           18       18        22
+  w14_21   5054_w14_qp_21.pdf    5054_w14_ms_21.pdf           11            7       16         4
+  w14_22   5054_w14_qp_22.pdf    5054_w14_ms_22.pdf           11            7       12         4
+  s15_11   5054_s15_qp_11.pdf    5054_s15_ms_11.pdf           40           23       23        17
+  s15_12   5054_s15_qp_12.pdf    5054_s15_ms_12.pdf           40           20       20        20
+  s15_21   5054_s15_qp_21.pdf    5054_s15_ms_21.pdf           11            7       12         4
+  s15_22   5054_s15_qp_22.pdf    5054_s15_ms_22.pdf           11            7       14         4
+  w15_11   5054_w15_qp_11.pdf    5054_w15_ms_11.pdf           40           20       20        20
+  w15_12   5054_w15_qp_12.pdf    5054_w15_ms_12.pdf           40           24       24        16
+  w15_21   5054_w15_qp_21.pdf    5054_w15_ms_21.pdf           11            8       15         3
+  w15_22   5054_w15_qp_22.pdf    5054_w15_ms_22.pdf           11            7       13         4
+  s16_11   5054_s16_qp_11.pdf    5054_s16_ms_11.pdf           40           27       27        13
+  s16_12   5054_s16_qp_12.pdf    5054_s16_ms_12.pdf           40           20       20        20
+  s16_21   5054_s16_qp_21.pdf    5054_s16_ms_21.pdf           12            9       15         3
+  s16_22   5054_s16_qp_22.pdf    5054_s16_ms_22.pdf           11            8       11         3
+  w16_11   5054_w16_qp_11.pdf    5054_w16_ms_11.pdf           40           21       21        19
+  w16_12   5054_w16_qp_12.pdf    5054_w16_ms_12.pdf           40           24       24        16
+  w16_21   5054_w16_qp_21.pdf    5054_w16_ms_21.pdf           10            7       13         3
+  w16_22   5054_w16_qp_22.pdf    5054_w16_ms_22.pdf           10            6       15         4
+  s17_11   5054_s17_qp_11.pdf    5054_s17_ms_11.pdf           40           26       26        14
+  s17_12   5054_s17_qp_12.pdf    5054_s17_ms_12.pdf           40           23       23        17
+  s17_21   5054_s17_qp_21.pdf    5054_s17_ms_21.pdf           11            7       13         4
+  s17_22   5054_s17_qp_22.pdf    5054_s17_ms_22.pdf           11            8       13         3
+  w17_11   5054_w17_qp_11.pdf    5054_w17_ms_11.pdf           40           22       22        18
+  w17_12   5054_w17_qp_12.pdf    5054_w17_ms_12.pdf           40           21       21        19
+  w17_21   5054_w17_qp_21.pdf    5054_w17_ms_21.pdf           11            5       14         6
+  w17_22   5054_w17_qp_22.pdf    5054_w17_ms_22.pdf           11           10       20         1
+  s18_11   5054_s18_qp_11.pdf    5054_s18_ms_11.pdf           40           20       20        20
+  s18_12   5054_s18_qp_12.pdf    5054_s18_ms_12.pdf           40           23       23        17
+  s18_21   5054_s18_qp_21.pdf    5054_s18_ms_21.pdf           11            8       13         3
+  s18_22   5054_s18_qp_22.pdf    5054_s18_ms_22.pdf           11            7       14         4
+  w18_11   5054_w18_qp_11.pdf    5054_w18_ms_11.pdf           40           23       23        17
+  w18_12   5054_w18_qp_12.pdf    5054_w18_ms_12.pdf           40           20       20        20
+  w18_21   5054_w18_qp_21.pdf    5054_w18_ms_21.pdf           10            7       15         3
+  w18_22   5054_w18_qp_22.pdf    5054_w18_ms_22.pdf           10            8       16         2
+  s19_11   5054_s19_qp_11.pdf    5054_s19_ms_11.pdf           40           22       22        18
+  s19_12   5054_s19_qp_12.pdf    5054_s19_ms_12.pdf           40           28       28        12
+  s19_21   5054_s19_qp_21.pdf    5054_s19_ms_21.pdf           11            8       16         3
+  s19_22   5054_s19_qp_22.pdf    5054_s19_ms_22.pdf           11            7       11         4
+  w19_11   5054_w19_qp_11.pdf    5054_w19_ms_11.pdf           40           21       21        19
+  w19_12   5054_w19_qp_12.pdf    5054_w19_ms_12.pdf           40           22       22        18
+  w19_21   5054_w19_qp_21.pdf    5054_w19_ms_21.pdf           10            5       10         5
+  w19_22   5054_w19_qp_22.pdf    5054_w19_ms_22.pdf           10            7       13         3
+  s20_11   5054_s20_qp_11.pdf    5054_s20_ms_11.pdf           40           25       25        15
+  s20_12   5054_s20_qp_12.pdf    5054_s20_ms_12.pdf           40           27       27        13
+  s20_21   5054_s20_qp_21.pdf    5054_s20_ms_21.pdf           10            7       11         3
+  s20_22   5054_s20_qp_22.pdf    5054_s20_ms_22.pdf           10            7       12         3
+  w20_11   5054_w20_qp_11.pdf    5054_w20_ms_11.pdf           40           26       26        14
+  w20_12   5054_w20_qp_12.pdf    5054_w20_ms_12.pdf           40           24       24        16
+  w20_21   5054_w20_qp_21.pdf    5054_w20_ms_21.pdf           10            7       11         3
+  w20_22   5054_w20_qp_22.pdf    5054_w20_ms_22.pdf            9            5       12         4
+  s21_11   5054_s21_qp_11.pdf    5054_s21_ms_11.pdf           40           22       22        18
+  s21_12   5054_s21_qp_12.pdf    5054_s21_ms_12.pdf           40           24       24        16
+  s21_21   5054_s21_qp_21.pdf    5054_s21_ms_21.pdf           10            6       13         4
+  s21_22   5054_s21_qp_22.pdf    5054_s21_ms_22.pdf           11            9       15         2
+  w21_11   5054_w21_qp_11.pdf    5054_w21_ms_11.pdf           40           24       24        16
+  w21_12   5054_w21_qp_12.pdf    5054_w21_ms_12.pdf           40           23       23        17
+  w21_21   5054_w21_qp_21.pdf    5054_w21_ms_21.pdf           10            7       13         3
+  w21_22   5054_w21_qp_22.pdf    5054_w21_ms_22.pdf            9            7       14         2
+  s22_11   5054_s22_qp_11.pdf    5054_s22_ms_11.pdf           40           25       25        15
+  s22_12   5054_s22_qp_12.pdf    5054_s22_ms_12.pdf           40           25       25        15
+  s22_21   5054_s22_qp_21.pdf    5054_s22_ms_21.pdf            9            6       13         3
+  s22_22   5054_s22_qp_22.pdf    5054_s22_ms_22.pdf            9            6       12         3
+  w22_11   5054_w22_qp_11.pdf    5054_w22_ms_11.pdf           40           21       21        19
+  w22_12   5054_w22_qp_12.pdf    5054_w22_ms_12.pdf           40           27       27        13
+  w22_21   5054_w22_qp_21.pdf    5054_w22_ms_21.pdf            9            7       13         2
+  w22_22   5054_w22_qp_22.pdf    5054_w22_ms_22.pdf            9            6        9         3
+  s23_11   5054_s23_qp_11.pdf    5054_s23_ms_11.pdf           40           21       21        19
+  s23_12   5054_s23_qp_12.pdf    5054_s23_ms_12.pdf           40           21       21        19
+  s23_21   5054_s23_qp_21.pdf    5054_s23_ms_21.pdf           11            6        8         5
+  s23_22   5054_s23_qp_22.pdf    5054_s23_ms_22.pdf           10            5       10         5
+  w23_11   5054_w23_qp_11.pdf    5054_w23_ms_11.pdf           40           19       19        21
+  w23_12   5054_w23_qp_12.pdf    5054_w23_ms_12.pdf           40           24       24        16
+  w23_21   5054_w23_qp_21.pdf    5054_w23_ms_21.pdf            9            6       12         3
+  w23_22   5054_w23_qp_22.pdf    5054_w23_ms_22.pdf           10            7       11         3
+  s24_11   5054_s24_qp_11.pdf    5054_s24_ms_11.pdf           40           21       21        19
+  s24_12   5054_s24_qp_12.pdf    5054_s24_ms_12.pdf           40           25       25        15
+  s24_21   5054_s24_qp_21.pdf    5054_s24_ms_21.pdf            8            6       10         2
+  s24_22   5054_s24_qp_22.pdf    5054_s24_ms_22.pdf            9            6       10         3
+  w24_11   5054_w24_qp_11.pdf    5054_w24_ms_11.pdf           40           26       26        14
+  w24_12   5054_w24_qp_12.pdf    5054_w24_ms_12.pdf           40           22       22        18
+  w24_21   5054_w24_qp_21.pdf    5054_w24_ms_21.pdf            9            5       10         4
+  w24_22   5054_w24_qp_22.pdf    5054_w24_ms_22.pdf            9            4        7         5
+  s25_11   5054_s25_qp_11.pdf    5054_s25_ms_11.pdf           40           20       20        20
+  s25_12   5054_s25_qp_12.pdf    5054_s25_ms_12.pdf           40           22       22        18
+  s25_21   5054_s25_qp_21.pdf    5054_s25_ms_21.pdf            9            5       12         4
+  s25_22   5054_s25_qp_22.pdf    5054_s25_ms_22.pdf            9            6       11         3
+  w25_11   5054_w25_qp_11.pdf    5054_w25_ms_11.pdf           40           24       24        16
+  w25_12   5054_w25_qp_12.pdf    5054_w25_ms_12.pdf           40           25       25        15
+  w25_21   5054_w25_qp_21.pdf    5054_w25_ms_21.pdf            9            6       10         3
+  w25_22   5054_w25_qp_22.pdf    5054_w25_ms_22.pdf            9            5       12         4
+  s26_11   5054_s26_qp_11.pdf    5054_s26_ms_11.pdf           40           26       26        14
+  s26_12   5054_s26_qp_12.pdf    5054_s26_ms_12.pdf           40           24       24        16
+  s26_21   5054_s26_qp_21.pdf    5054_s26_ms_21.pdf            9            7       10         2
+  s26_22   5054_s26_qp_22.pdf    5054_s26_ms_22.pdf            9            5       11         4
+  all                                                       3928         2274     2709      1654
+
+8. VISUAL REVIEW
+----------------
+Record of the inspection by eye, written by the AI agent that built the bank. It describes the file
+physics_5054_past_paper_questions_with_ms.pdf with sha256 1c4c44d6e6440b49 (first 16 digits), 4,358 pages.
+"Viewed" means: the page was rendered from the PDF on disk and the image was looked at.
+
+8.1 What was viewed
+  * Contact sheets of ALL 4,358 pages of the file described here (41 sheets of small page images written by
+    bverify.py), read at half size: every page is white with black print; no page is dark or colour-inverted; no page
+    is blank; the landscape mark schemes stand upright; the front pages and the 27 title pages are in place.
+  * The same 41 sheets had been read at full size for an earlier build (12 November 2026, 19:06 UTC). The file
+    described here was compared with that build page by page (both rendered at 72 dpi; pixels and page text compared).
+    70 pages differ: the front page, the header bars of the 62 pages of the 25 records corrected in 8.3, and the
+    scheme pictures of the 8 pages of the last correction in 8.3 (page 3246 is in both groups). The other 4,288 pages
+    are identical, pixel for pixel. Viewed again after the change: the front page; the header bars of 1366, 2880,
+    2928, 3905, 4110, 4252, 4285 and 4293; all 8 pages with a changed scheme picture.
+  * 83 pages at full size (of 20 of them the upper part only):
+      front page, contents, first title page (3): 1-3
+      Paper 1, question with its key row (12): 4, 7, 159, 229, 642, 701, 714, 1824, 2478, 3462, 3503, 3765
+      Paper 2, question pages (45): 238, 390, 398, 409, 457, 465, 546, 720, 870, 1015, 1366, 1511, 1897, 2073,
+          2744-2746, 2777, 2880-2881, 2908, 2928, 3150, 3293, 3296, 3360, 3372, 3761-3762, 3779-3780, 3848, 3892-3893,
+          3905-3906, 4102-4103, 4110, 4115, 4149, 4252-4253, 4293-4294
+      Paper 2, mark schemes on portrait pages (13): 307, 437, 444, 721, 771, 871, 2882, 3246, 3628, 3894, 4104, 4111,
+          4150
+      Paper 2, mark schemes on landscape pages (10): from source pages that carry a page rotation of 90 degrees:
+          127, 1963, 2747-2748, 2845, 3710, 3907; from landscape source pages without rotation: 532, 3052, 3153
+    and 4 pages at 62 % size: 1893, 2117, 2476, 2969 (the scheme pictures of 771 and 2845 under other subsections).
+    Chosen for: the first record; the five EITHER/OR questions (3905-3907, 4102-4104, 4110-4111, 4252-4253,
+    4293-4294); a record of five pages, the longest there is (2744-2748); the oldest papers (2004: 720-721, 870-871,
+    2880-2882, 3246, 3628) and the newest (2026: 229, 532, 3052, with the pale watermark of the download site);
+    schemes in small print (437, 444); long header lines (3150, 3761-3762); hatching and dot patterns (2073, 2777,
+    3779-3780); every page that looks dark or almost empty on the contact sheets; a random sample of 16 pages (seed
+    5054: 307, 409, 465, 642, 714, 1511, 1824, 1897, 1963, 2478, 3153, 3372, 3503, 3628, 3765, 3848).
+    On all of them the question or scheme is complete, upright and black on white, the header names the right paper
+    and question, and the scheme follows its question. On the Paper 1 pages the key letter stands under the question.
+  * The six cut lines that carry ink (check B6; listed in part 5), each enlarged beside its source page.
+  * The two cut lines of the geometry check that a stroke touches (V7, V11; described in part 4), enlarged.
+
+8.2 Observations that are not defects
+  * Dark areas on the contact sheets are artwork of the papers: 398, 1015 and 1483 (photograph of an astronaut,
+    5054_w17_qp_22 p. 13), 457, 677 and 1065 (man in a lift, 5054_w21_qp_21 p. 4), 546 (5054_s06_qp_2 p. 11),
+    701 (5054_s24_qp_12 p. 3), 3293 (5054_s13_qp_22 p. 6), 3296 (5054_w13_qp_21 p. 5), 3360 and 3548 (X-ray picture,
+    5054_s20_qp_21 p. 17).
+  * Pages that look almost empty are genuine: 2908, 4115 and 4149 hold drawing or answer space; 2881 holds a picture
+    38 pt high with the single mark "[2]" (beside it the page number and the examiner label of the paper), because
+    the paper prints the last line of that question at the top of its next page.
+  * Page furniture inside pictures (described with counts in the exclusions file, part D2): the heading of a section
+    above its first question; the page number in the Paper 2 papers of 2004-2007 (seen on 238, 2880, 2881); a
+    notice "Question 9 begins over the page." after the last line of a question (seen on 2746); the column "For
+    Examiner's Use"; the vertical notice "DO NOT WRITE IN THIS MARGIN" of the papers of 2025 and 2026, which is cut
+    where a picture ends (seen on 2073, 2777, 3779, 3780).
+
+8.3 Defects found by this inspection and corrected in the file described here
+  * Marks of EITHER/OR questions. The header of 4110-4111 (May/June 2010, Paper 2 variant 1, Question 7) said
+    "3 of 7 marks" and that of 4293-4295 (May/June 2021, variant 2, Question 8) "3 of 9 marks": the marks of both
+    alternatives had been added. A candidate answers one alternative, so the questions carry 5 and 6 marks. These two
+    questions and May/June 2019 variant 1 Question 8 (4252-4254) also lacked the remark "EITHER / OR question" in the
+    header. Cause: alternatives were recognised only where the tracker has separate rows for the OR part. They are
+    now recognised from the text of the question paper. Check C2 of bverify.py was written for this: it compares the
+    marks in the header of every Paper 2 record with the marks printed on the paper (part 5).
+  * Names of the parts in the header. Where the paper prints one mark for several sub-parts, e.g. one "[2]" after
+    (a)(i) and (a)(ii), the header named the last sub-part only, "(a)(ii)". 21 records, mostly of the two papers of
+    2004 (seen on 2882: "(a)(ii), (b), (c)(ii) (7 of 7 marks)" for a scheme that also marks (a)(i) and (c)(i)).
+    The header now names every sub-part the mark covers: "(a)(i)-(ii), (b), (c)(i)-(ii)".
+  * Record 4.2.2|w21|P2|V2|Q5 (3905-3907): the whole question is "5 EITHER ... OR ..."; the header now says
+    "EITHER (a), EITHER (b)(ii)" instead of "(a), (b)(ii)".
+  * The front page and the exclusions file said that page numbers and section headings are never inside a picture.
+    That was not accurate (see 8.2); both texts were corrected and the exclusions file gives the counts.
+  * A heading shown with the wrong scheme. The mark scheme of May/June 2017 variant 2 prints the heading "SECTION B"
+    in capitals at the top of the page that follows the scheme of Question 8, the last question of Section A. The
+    heading was shown as a strip of its own below the scheme of Question 8 (3710). Two more schemes print it in
+    capitals (May/June 2004 and May/June 2014 variant 1); their Question 8 is not in the bank. The heading is now
+    kept with the first question of Section B, as in all other schemes: 3710 shows the scheme of Question 8 only,
+    and the scheme of Question 9 of the three papers begins with the heading (771, 1893, 2117, 2476, 2845, 2969,
+    3246). No other picture of a scheme holds a heading that is not its first line (exclusions file, part D2).
+  Defects of earlier builds, found by the automated checks, viewed before and after the correction:
+  * three pictures with hatching or dot patterns (2073, 2777, 3779) were not identical to a fresh rendering of the
+    source (check B3b); the renderer reused a bitmap decoded at another size. All pictures were rendered again with
+    the renderer's store emptied before each page;
+  * the frame of a note below a table of the scheme of May/June 2026 variant 2 Question 5 (3052) and the last line
+    "[9]" of May/June 2004 Question 10 (720, 2391) reach down to the page footer and were cut by the lower edge of
+    the picture; the edge was moved and both are complete (part 4, notes of the geometry program);
+  * long header lines were shortened with "..."; the type is now reduced instead and nothing is left out (3150,
+    3761-3762). No header of the file contains "...", and every page carries the full title of its subsection.
+
+8.4 Not inspected by eye
+  * 4,271 of the 4,358 pages were seen only as small images on the contact sheets. At that size one can see that a
+    page is complete, upright and black on white, but not read it. That every picture shows exactly its region of
+    the source page, and that every line of every question and scheme lies in a picture, rests on the automated
+    checks of parts 4 and 5.
+  * Whether each question is filed under the best subsection was not reviewed again in this inspection.
+
+9. HOW THE BANK WAS MADE, AND LIMITS
+------------------------------------
+* Source: the PDF files in the folder physics-5054 of the repository. Every picture of the bank is rendered directly from them
+  by tools/bank/bbuild.py. No page of an earlier bank is used.
+* The files of the repository are stored with inverted colours: each page content is wrapped in a block that paints the page
+  white and inverts it with a blend mode. The wrapper also leaves white as the fill colour, so text that the original draws in
+  the default colour is invisible in the stored copy (282 pages of 31 of the files used, mostly papers of 2004-2009).
+  The bank removes the wrapper from the page content before rendering; it does not invert pixels. All pages of the bank are
+  black on white (check B1) and the text that is invisible in the stored copies is present.
+* Landscape mark schemes (2017 on) carry a page rotation or are landscape pages. The rotation is removed with the display
+  transformation of the page before any coordinate is measured; these schemes are shown on landscape pages, upright.
+* A question is cut out over the full page width from the blank band above its first line to the blank band below its last
+  line; a question that runs over several source pages gives one picture per page. The cut between two questions is placed
+  from the ink of the rendered page, not from text recognition. Nothing inside a picture is moved, removed or compressed.
+* Which subsection a question belongs to comes from the paper-by-paper verification of this project (every question read with
+  its mark scheme by the AI agent that built the bank, plus mechanical checks). It is a judgement, not an official
+  Cambridge classification. Questions written for earlier syllabuses are filed under the 2026-2028 subsection they fit.
+* The automated checks compare pixels, positions, page text and counts. They cannot judge whether a question is filed under
+  the best subsection. The visual review (part 8) covered contact sheets of all pages and full-size samples, not every page
+  at full size.
+* Third-party marks in the source files (a watermark and footer of the download site in the 2026 files) are part of the source
+  pages; the footer is outside the pictures, the pale watermark is visible inside them.

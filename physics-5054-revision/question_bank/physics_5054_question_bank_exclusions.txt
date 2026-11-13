@@ -1,0 +1,564 @@
+PHYSICS 5054 QUESTION BANK - EXCLUSIONS AND UNRESOLVED ITEMS
+============================================================
+Belongs to physics_5054_past_paper_questions_with_ms.pdf. Written 2026-11-13 08:46 UTC by tools/bank/breports.py.
+
+The bank holds a question only if (1) it is in a Paper 1 or Paper 2 question paper, (2) the official mark scheme of that
+paper is in the repository and (3) at least one part of the question is on a selected syllabus subsection (1.1-1.7,
+3.1-3.4, 4.2). Everything else is listed here. No answer was written, inferred or taken from another paper.
+
+SUMMARY
+-------
+  A    255 questions in 10 question papers without a mark scheme in the repository (133 of them on a selected subsection)
+  B      2 files that are scanned "solved" copies of question papers
+  C  1,654 questions of the 156 papers used with no part on a selected subsection (Paper 1: 1,397, Paper 2: 257)
+  D        parts of the pages of the included questions that are not reproduced (page furniture, shared lined pages, general notes),
+           and page furniture that is inside the pictures
+  E        syllabus sections that were not selected
+  F    471 files of other kinds in the folder (Papers 3 and 4, examiner reports, grade thresholds, instructions)
+  G        unresolved items: none
+
+A. QUESTION PAPERS WITHOUT A MARK SCHEME IN THE REPOSITORY
+----------------------------------------------------------
+The folder physics-5054 has no mark scheme for these ten question papers, so none of their questions is in the bank: a question
+is never shown without its own official scheme and the scheme of another paper is never attached to it.
+For the reconciliation every question was still given its syllabus code. Questions whose text is identical to a question of a
+verified paper take the code of that question; the others were coded by reading the question (no scheme to check against).
+
+5054_w02_qp_1.pdf   October/November 2002, Paper 1, variant 1: 40 questions, 18 on a selected subsection (18 question/subsection pairs)
+    Q1   source p. 2      1.1   identical question in the bank: 1.1|w15|P1|V1|Q2
+    Q2   source p. 2      1.2   identical question in the bank: 1.2|w05|P1|V1|Q3
+    Q3   source p. 2      1.2
+    Q4   source p. 3      1.3
+    Q5   source p. 3      1.4
+    Q6   source p. 3      1.5.1
+    Q7   source p. 4      1.1
+    Q8   source p. 4      1.7.5
+    Q17  source p. 7      3.1
+    Q18  source p. 8      3.1
+    Q19  source p. 8      3.2.3
+    Q20  source p. 9      3.2.2
+    Q21  source p. 9      3.3
+    Q22  source p. 9      3.2.4
+    Q23  source p. 10     3.4
+    Q25  source p. 11     4.2.1
+    Q26  source p. 11     4.2.1
+    Q28  source p. 12     4.2.3
+    not on a selected subsection (22): Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q24, Q27, Q29, Q30, Q31, Q32, Q33, Q34, Q35, Q36, Q37, Q38, Q39, Q40
+
+5054_w02_qp_2.pdf   October/November 2002, Paper 2, variant 1: 11 questions, 7 on a selected subsection (10 question/subsection pairs)
+    Q1   source p. 2      1.2; 1.5.2
+    Q2   source p. 3      3.2.2
+    Q3   source p. 4      3.3
+    Q4   source p. 5      1.7.5
+    Q5   source p. 6      4.2.1
+    Q9   source p. 9      1.7.1; 1.7.2; 1.7.4
+    Q11  source p. 11-12  3.4
+    not on a selected subsection (4): Q6, Q7, Q8, Q10
+
+5054_s03_qp_1.pdf   May/June 2003, Paper 1, variant 1: 40 questions, 19 on a selected subsection (19 question/subsection pairs)
+    Q1   source p. 2      1.1
+    Q2   source p. 2      1.5.2
+    Q3   source p. 2      1.3
+    Q4   source p. 2      1.4
+    Q5   source p. 3      1.5.3   identical question in the bank: 1.5.3|w13|P1|V1|Q8
+    Q6   source p. 3      1.5.1   identical question in the bank: 1.5.1|w06|P1|V1|Q3
+    Q7   source p. 4      1.5.5
+    Q8   source p. 4      1.1
+    Q9   source p. 4      1.7.1
+    Q10  source p. 5      1.7.5
+    Q17  source p. 8      3.1
+    Q18  source p. 8      3.1
+    Q19  source p. 9      3.2.1   identical question in the bank: 3.2.1|w11|P1|V1|Q22
+    Q20  source p. 9      3.2.2
+    Q21  source p. 10     3.2.3
+    Q22  source p. 10     3.4
+    Q24  source p. 11     4.2.1
+    Q25  source p. 12     4.2.3   identical question in the bank: 4.2.3|s06|P1|V1|Q30
+    Q26  source p. 12     4.2.4
+    not on a selected subsection (21): Q11, Q12, Q13, Q14, Q15, Q16, Q23, Q27, Q28, Q29, Q30, Q31, Q32, Q33, Q34, Q35, Q36, Q37, Q38, Q39, Q40
+
+5054_s03_qp_2.pdf   May/June 2003, Paper 2, variant 1: 11 questions, 6 on a selected subsection (9 question/subsection pairs)
+    Q1   source p. 2      1.2
+    Q4   source p. 5      3.3
+    Q5   source p. 6      4.2.1
+    Q9   source p. 11     1.7.1; 1.7.4
+    Q10  source p. 12     1.7.4; 1.7.5
+    Q11  source p. 13     3.1; 3.4
+    not on a selected subsection (5): Q2, Q3, Q6, Q7, Q8
+
+5054_w03_qp_1.pdf   October/November 2003, Paper 1, variant 1: 40 questions, 18 on a selected subsection (18 question/subsection pairs)
+    Q1   source p. 2      1.1
+    Q2   source p. 2      1.2
+    Q3   source p. 3      1.2
+    Q4   source p. 4      1.5.4
+    Q5   source p. 4      1.4
+    Q6   source p. 5      1.5.1
+    Q7   source p. 5      1.1
+    Q8   source p. 5      1.7.5
+    Q9   source p. 5      1.7.1
+    Q16  source p. 8      3.1
+    Q17  source p. 8      3.2.2
+    Q18  source p. 9      3.2.1
+    Q19  source p. 9      3.2.3
+    Q20  source p. 9      3.4
+    Q23  source p. 11     4.2.1
+    Q24  source p. 11     4.2.3
+    Q25  source p. 12     4.2.4
+    Q27  source p. 13     4.2.4
+    not on a selected subsection (22): Q10, Q11, Q12, Q13, Q14, Q15, Q21, Q22, Q26, Q28, Q29, Q30, Q31, Q32, Q33, Q34, Q35, Q36, Q37, Q38, Q39, Q40
+
+5054_w03_qp_2.pdf   October/November 2003, Paper 2, variant 1: 11 questions, 6 on a selected subsection (10 question/subsection pairs)
+    Q1   source p. 2      1.2; 1.3; 1.5.1
+    Q2   source p. 3      1.5.5
+    Q3   source p. 4      3.2.3
+    Q4   source p. 5      3.1; 3.4
+    Q9   source p. 12-13  1.7.5
+    Q10  source p. 14-15  3.2.2; 4.2.4
+    not on a selected subsection (5): Q5, Q6, Q7, Q8, Q11
+
+5054_s10_qp_13.pdf   May/June 2010, Paper 1, variant 3: 40 questions, 23 on a selected subsection (23 question/subsection pairs)
+    Every question is identical in text to a question of a verified paper: 36 in 5054_s10_qp_11.pdf, 1 in 5054_s06_qp_1.pdf, 1 in 5054_w06_qp_1.pdf, 1 in 5054_s10_qp_12.pdf, 1 in 5054_s05_qp_1.pdf.
+    Q1   source p. 2      1.1   identical question in the bank: 1.1|s10|P1|V1|Q2
+    Q2   source p. 2      1.1   identical question in the bank: 1.1|s10|P1|V1|Q1
+    Q3   source p. 2      1.5.2   identical question in the bank: 1.5.2|s10|P1|V1|Q5
+    Q4   source p. 3      1.2   identical question in the bank: 1.2|s10|P1|V1|Q3
+    Q5   source p. 3      1.2   identical question in the bank: 1.2|s10|P1|V1|Q4
+    Q6   source p. 3      1.3   identical question in the bank: 1.3|s10|P1|V1|Q7
+    Q7   source p. 4      1.5.5   identical question in the bank: 1.5.5|s10|P1|V1|Q8
+    Q8   source p. 4      1.5.4   identical question in the bank: 1.5.4|s06|P1|V1|Q5
+    Q10  source p. 5      1.5.3   identical question in the bank: 1.5.3|w06|P1|V1|Q7
+    Q12  source p. 6      1.7.5   identical question in the bank: 1.7.5|s10|P1|V1|Q13
+    Q13  source p. 6      1.7.1   identical question in the bank: 1.7.1|s10|P1|V1|Q12
+    Q18  source p. 8      3.2.3   identical question in the bank: 3.2.3|s10|P1|V1|Q21
+    Q19  source p. 9      3.1   identical question in the bank: 3.1|s05|P1|V1|Q19
+    Q20  source p. 9      3.4   identical question in the bank: 3.4|s10|P1|V1|Q23
+    Q21  source p. 9      3.3   identical question in the bank: 3.3|s10|P1|V1|Q22
+    Q22  source p. 10     3.2.1   identical question in the bank: 3.2.1|s10|P1|V1|Q19
+    Q23  source p. 10     3.2.2   identical question in the bank: 3.2.2|s10|P1|V1|Q20
+    Q24  source p. 11     4.2.1   identical question in the bank: 4.2.1|s10|P1|V1|Q25
+    Q27  source p. 12     4.2.4   identical question in the bank: 4.2.4|s10|P1|V1|Q26
+    Q28  source p. 12     1.7.5   identical question in the bank: 1.7.5|s10|P1|V1|Q30
+    Q30  source p. 13     4.2.4   identical question in the bank: 4.2.4|s10|P1|V1|Q28
+    Q31  source p. 13     4.2.4   identical question in the bank: 4.2.4|s10|P1|V1|Q27
+    Q34  source p. 15     4.2.2   identical question in the bank: 4.2.2|s10|P1|V1|Q36
+    not on a selected subsection (17): Q9, Q11, Q14, Q15, Q16, Q17, Q25, Q26, Q29, Q32, Q33, Q35, Q36, Q37, Q38, Q39, Q40
+
+5054_s10_qp_23.pdf   May/June 2010, Paper 2, variant 3: 11 questions, 8 on a selected subsection (14 question/subsection pairs)
+    The paper repeats 5054_s10_qp_22.pdf question for question (texts compared). Its questions are in the bank through that paper.
+    Q1   source p. 2      1.1   identical question in the bank: 1.1|s10|P2|V2|Q1
+    Q2   source p. 3      1.5.1; 1.7.1; 1.7.4; 1.7.5   identical question in the bank: 1.5.1|s10|P2|V2|Q2, 1.7.1|s10|P2|V2|Q2, 1.7.4|s10|P2|V2|Q2, 1.7.5|s10|P2|V2|Q2
+    Q3   source p. 4      3.3   identical question in the bank: 3.3|s10|P2|V2|Q3
+    Q5   source p. 6      3.2.2   identical question in the bank: 3.2.2|s10|P2|V2|Q5
+    Q6   source p. 7      4.2.1   identical question in the bank: 4.2.1|s10|P2|V2|Q6
+    Q9   source p. 12-13  1.2; 1.5.1; 1.5.2   identical question in the bank: 1.2|s10|P2|V2|Q9, 1.5.1|s10|P2|V2|Q9, 1.5.2|s10|P2|V2|Q9
+    Q10  source p. 14-15  3.1; 3.4   identical question in the bank: 3.1|s10|P2|V2|Q10, 3.4|s10|P2|V2|Q10
+    Q11  source p. 16-17  4.2.4   identical question in the bank: 4.2.4|s10|P2|V2|Q11
+    not on a selected subsection (3): Q4, Q7, Q8
+
+5054_w10_qp_13.pdf   October/November 2010, Paper 1, variant 3: 40 questions, 20 on a selected subsection (20 question/subsection pairs)
+    Every question is identical in text to a question of a verified paper: 40 in 5054_w10_qp_11.pdf.
+    Q1   source p. 2      1.1   identical question in the bank: 1.1|w10|P1|V1|Q2
+    Q2   source p. 2      1.2   identical question in the bank: 1.2|w10|P1|V1|Q4
+    Q3   source p. 2      1.5.2   identical question in the bank: 1.5.2|w10|P1|V1|Q6
+    Q4   source p. 3      1.1   identical question in the bank: 1.1|w10|P1|V1|Q1
+    Q5   source p. 3      1.2   identical question in the bank: 1.2|w10|P1|V1|Q3
+    Q6   source p. 4      1.5.1   identical question in the bank: 1.5.1|w10|P1|V1|Q5
+    Q8   source p. 5      1.5.6   identical question in the bank: 1.5.6|w10|P1|V1|Q9
+    Q9   source p. 5      1.3   identical question in the bank: 1.3|w10|P1|V1|Q7
+    Q11  source p. 6      1.4   identical question in the bank: 1.4|w10|P1|V1|Q8
+    Q12  source p. 6      1.5.5   identical question in the bank: 1.5.5|w10|P1|V1|Q10
+    Q18  source p. 8      1.7.4   identical question in the bank: 1.7.4|w10|P1|V1|Q15
+    Q20  source p. 8      1.7.1   identical question in the bank: 1.7.1|w10|P1|V1|Q13
+    Q21  source p. 8      3.4   identical question in the bank: 3.4|w10|P1|V1|Q25
+    Q22  source p. 8      3.3   identical question in the bank: 3.3|w10|P1|V1|Q24
+    Q23  source p. 9      3.2.2   identical question in the bank: 3.2.2|w10|P1|V1|Q22
+    Q24  source p. 9      3.2.3   identical question in the bank: 3.2.3|w10|P1|V1|Q23
+    Q25  source p. 9      3.1   identical question in the bank: 3.1|w10|P1|V1|Q21
+    Q28  source p. 11     4.2.2   identical question in the bank: 4.2.2|w10|P1|V1|Q29
+    Q29  source p. 11     4.2.1   identical question in the bank: 4.2.1|w10|P1|V1|Q27
+    Q30  source p. 12     4.2.3   identical question in the bank: 4.2.3|w10|P1|V1|Q28
+    not on a selected subsection (20): Q7, Q10, Q13, Q14, Q15, Q16, Q17, Q19, Q26, Q27, Q31, Q32, Q33, Q34, Q35, Q36, Q37, Q38, Q39, Q40
+
+5054_w10_qp_23.pdf   October/November 2010, Paper 2, variant 3: 11 questions, 8 on a selected subsection (16 question/subsection pairs)
+    The paper repeats 5054_w10_qp_22.pdf question for question (texts compared). Its questions are in the bank through that paper.
+    Q1   source p. 2      1.2; 1.5.1   identical question in the bank: 1.2|w10|P2|V2|Q1, 1.5.1|w10|P2|V2|Q1
+    Q2   source p. 3      1.4   identical question in the bank: 1.4|w10|P2|V2|Q2
+    Q3   source p. 4-5    1.5.5   identical question in the bank: 1.5.5|w10|P2|V2|Q3
+    Q4   source p. 6      4.2.4   identical question in the bank: 4.2.4|w10|P2|V2|Q4
+    Q5   source p. 7-8    3.1; 3.4   identical question in the bank: 3.1|w10|P2|V2|Q5, 3.4|w10|P2|V2|Q5
+    Q9   source p. 11-12  3.2.1; 3.3   identical question in the bank: 3.2.1|w10|P2|V2|Q9, 3.3|w10|P2|V2|Q9
+    Q10  source p. 13-14  1.1; 1.2; 1.3; 1.5.1; 1.7.2   identical question in the bank: 1.1|w10|P2|V2|Q10, 1.2|w10|P2|V2|Q10, 1.3|w10|P2|V2|Q10, 1.5.1|w10|P2|V2|Q10, 1.7.2|w10|P2|V2|Q10
+    Q11  source p. 15-16  1.7.5; 4.2.3   identical question in the bank: 1.7.5|w10|P2|V2|Q11, 4.2.3|w10|P2|V2|Q11
+    not on a selected subsection (3): Q6, Q7, Q8
+
+B. DUPLICATE FILES
+------------------
+  5054_s20_qp_11-solved.pdf: scanned copy of 5054_s20_qp_11.pdf with handwritten answers; not an official paper. The official 5054_s20_qp_11.pdf is used.
+  5054_s21_qp_12-1-solved.pdf: scanned copy of 5054_s21_qp_12.pdf with handwritten answers; not an official paper. The official 5054_s21_qp_12.pdf is used.
+
+C. QUESTIONS OF THE 156 PAPERS USED THAT ARE NOT ON A SELECTED SUBSECTION
+-------------------------------------------------------------------------
+Their mark schemes are in the repository and were verified, but no part of these questions belongs to 1.1-1.7, 3.1-3.4 or 4.2.
+Codes: 1.8 Pressure; 2.1 Kinetic particle model of matter; 2.2 Thermal properties and temperature; 2.3 Transfer of thermal energy; 4.1 Simple magnetism and magnetic fields; 4.3 Electric circuits; 4.4 Practical electricity; 4.5 Electromagnetic effects; 4.6 Uses of an oscilloscope; 5 Nuclear physics; 6 Space physics; old = earlier-syllabus content that is not in the 2026-2028 syllabus.
+
+s04_1   5054_s04_qp_1.pdf    20 of 40 questions left out: Q11 old, Q14 1.8, Q15 1.8, Q16 2.1, Q17 old, Q18 2.3, Q25 4.1, Q26 4.1, Q29 4.3, Q30 4.4, Q31 4.5, Q32 4.5, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.3, Q37 old, Q38 5, Q39 5, Q40 5
+s04_2   5054_s04_qp_2.pdf     5 of 11 questions left out: Q2 2.3, Q3 2.2, Q5 4.5+4.1, Q7 old, Q8 5
+w04_1   5054_w04_qp_1.pdf    20 of 40 questions left out: Q14 1.8, Q15 2.1, Q16 2.1, Q17 2.2, Q18 old, Q19 2.2, Q20 2.2, Q21 2.3, Q27 4.1, Q30 4.3, Q31 4.3, Q32 4.4, Q33 4.5, Q34 4.5, Q35 4.5+4.6, Q36 4.3, Q37 old, Q38 5, Q39 5, Q40 5
+w04_2   5054_w04_qp_2.pdf     3 of 10 questions left out: Q2 1.8, Q8 2.3+2.2, Q10 5
+s05_1   5054_s05_qp_1.pdf    22 of 40 questions left out: Q11 old, Q12 1.8, Q13 1.8, Q14 2.2, Q15 old, Q16 2.2, Q17 2.2, Q18 2.3, Q25 4.1, Q28 4.3, Q29 4.3, Q30 4.4, Q31 4.5, Q32 4.5, Q33 4.5, Q34 4.5, Q35 4.5, Q36 old, Q37 4.3, Q38 5, Q39 5, Q40 5
+s05_2   5054_s05_qp_2.pdf     4 of 11 questions left out: Q3 2.1, Q5 4.5+4.1, Q10 2.3, Q11 5
+w05_1   5054_w05_qp_1.pdf    19 of 40 questions left out: Q13 1.8, Q14 1.8, Q15 2.2, Q16 old, Q17 2.2, Q18 2.3, Q19 2.3, Q25 4.1, Q29 4.3, Q31 4.4, Q32 4.5, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.3, Q37 5, Q38 5, Q39 5, Q40 5
+w05_2   5054_w05_qp_2.pdf     2 of 11 questions left out: Q7 4.1, Q8 5
+s06_1   5054_s06_qp_1.pdf    19 of 40 questions left out: Q12 5, Q14 1.8, Q15 2.2, Q16 2.1, Q17 old, Q18 2.2, Q19 2.2, Q20 2.3, Q27 4.1, Q28 4.5, Q32 4.3, Q33 4.4, Q34 4.5, Q35 4.5, Q36 4.5, Q37 old, Q38 5, Q39 5, Q40 5
+s06_2   5054_s06_qp_2.pdf     4 of 11 questions left out: Q3 4.5, Q6 4.4, Q7 4.6, Q8 5
+w06_1   5054_w06_qp_1.pdf    23 of 40 questions left out: Q9 old, Q10 1.8, Q11 1.8, Q12 1.8, Q13 2.1, Q14 2.2, Q15 old, Q16 2.2, Q17 2.2, Q18 2.3, Q24 4.5, Q25 4.1, Q30 4.4, Q31 4.5, Q32 4.5, Q33 4.5, Q34 4.5, Q35 4.5+4.6, Q36 old, Q37 5, Q38 5, Q39 5, Q40 5
+w06_2   5054_w06_qp_2.pdf     3 of 11 questions left out: Q3 2.3, Q5 4.1, Q7 4.5
+s07_1   5054_s07_qp_1.pdf    18 of 40 questions left out: Q12 2.1, Q13 2.1, Q14 2.1, Q15 old, Q16 2.2, Q17 2.2, Q18 2.3, Q24 4.1, Q25 4.1, Q29 4.3, Q32 4.4, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.5, Q38 5, Q39 5, Q40 5
+s07_2   5054_s07_qp_2.pdf     3 of 11 questions left out: Q2 2.2, Q3 old, Q8 5
+w07_1   5054_w07_qp_1.pdf    20 of 40 questions left out: Q12 1.8, Q13 2.1, Q14 2.2, Q15 old, Q16 2.2, Q17 2.1, Q18 2.3, Q24 4.5, Q25 4.1, Q29 4.3, Q31 4.4, Q32 4.4, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.5, Q37 4.5, Q38 5, Q39 5, Q40 5
+w07_2   5054_w07_qp_2.pdf     4 of 11 questions left out: Q4 2.3, Q5 2.3+2.2+2.1, Q7 4.1, Q8 4.6+old
+s08_1   5054_s08_qp_1.pdf    20 of 40 questions left out: Q12 1.8, Q13 2.1, Q14 2.3, Q15 old, Q16 2.2, Q17 2.2, Q18 2.1, Q19 2.2, Q27 4.1, Q30 4.3, Q31 4.3, Q32 4.4, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.5, Q37 4.3, Q38 5, Q39 5, Q40 5
+s08_2   5054_s08_qp_2.pdf     4 of 11 questions left out: Q3 2.2+2.3, Q4 2.2, Q7 4.5, Q11 5
+w08_1   5054_w08_qp_1.pdf    20 of 40 questions left out: Q11 5, Q14 1.8, Q15 1.8, Q16 2.3, Q17 old, Q18 2.2, Q19 2.2, Q20 2.1, Q21 2.2, Q26 4.1, Q30 4.3, Q32 4.4, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.5, Q37 old, Q38 5, Q39 5, Q40 5
+w08_2   5054_w08_qp_2.pdf     3 of 11 questions left out: Q5 2.1+2.2, Q8 5, Q11 4.4+old+4.6
+s09_1   5054_s09_qp_1.pdf    22 of 40 questions left out: Q10 1.8, Q11 1.8, Q12 5, Q14 2.3, Q15 old, Q16 2.2, Q17 2.2, Q18 2.1, Q24 4.1, Q28 4.3, Q29 4.4, Q30 4.4, Q31 4.5, Q32 4.5, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.3, Q37 4.3, Q38 5, Q39 5, Q40 5
+s09_2   5054_s09_qp_2.pdf     5 of 11 questions left out: Q2 2.3, Q4 2.1+2.2, Q7 4.1+4.3+4.5, Q8 5, Q11 4.5+4.6+old
+w09_1   5054_w09_qp_1.pdf    20 of 40 questions left out: Q10 1.8, Q11 2.1, Q14 2.3, Q15 old, Q16 2.2, Q17 2.1, Q18 2.2, Q24 4.1, Q26 4.3, Q29 4.4, Q31 4.5, Q32 4.5, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.3, Q37 4.3, Q38 5, Q39 5, Q40 5
+w09_2   5054_w09_qp_2.pdf     3 of 11 questions left out: Q1 1.8+2.1, Q6 4.4, Q8 5
+s10_11  5054_s10_qp_11.pdf   17 of 40 questions left out: Q10 1.8, Q11 1.8, Q14 2.2, Q15 2.3, Q16 2.2, Q17 2.2, Q24 4.1, Q29 4.3, Q31 4.4, Q32 4.5, Q33 4.5, Q34 4.5, Q35 4.5, Q37 5, Q38 5, Q39 5, Q40 5
+s10_12  5054_s10_qp_12.pdf   17 of 40 questions left out: Q9 1.8, Q11 1.8, Q14 2.2, Q15 2.2, Q16 2.2, Q17 2.3, Q25 4.1, Q26 4.3, Q29 4.4, Q32 4.5, Q33 4.5, Q35 4.5, Q36 4.5, Q37 5, Q38 5, Q39 5, Q40 5
+s10_21  5054_s10_qp_21.pdf    2 of 11 questions left out: Q8 4.5, Q11 5
+s10_22  5054_s10_qp_22.pdf    3 of 11 questions left out: Q4 2.2, Q7 4.1+4.5+4.3, Q8 5
+w10_11  5054_w10_qp_11.pdf   20 of 40 questions left out: Q11 1.8, Q12 1.8, Q14 old, Q16 2.2, Q17 2.3, Q18 old, Q19 2.2, Q20 2.3, Q26 4.1, Q30 4.3, Q31 4.4, Q32 4.5, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.5, Q37 4.5, Q38 5, Q39 5, Q40 5
+w10_12  5054_w10_qp_12.pdf   20 of 40 questions left out: Q7 1.8, Q10 1.8, Q13 2.3, Q14 2.2, Q15 2.2, Q16 2.3, Q17 old, Q19 old, Q26 4.4, Q27 4.1, Q31 4.3, Q32 4.5, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.5, Q37 4.5, Q38 5, Q39 5, Q40 5
+w10_21  5054_w10_qp_21.pdf    1 of 10 questions left out: Q10 5
+w10_22  5054_w10_qp_22.pdf    3 of 11 questions left out: Q6 4.1, Q7 5, Q8 6
+s11_11  5054_s11_qp_11.pdf   18 of 40 questions left out: Q10 1.8, Q11 1.8, Q13 5, Q15 2.1, Q17 old, Q18 2.2, Q19 2.2, Q26 4.1, Q31 4.4, Q32 4.4, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.5, Q37 4.6, Q38 5, Q39 5, Q40 5
+s11_12  5054_s11_qp_12.pdf   18 of 40 questions left out: Q11 5, Q12 1.8, Q13 1.8, Q16 2.1, Q17 2.2, Q18 2.2, Q19 old, Q25 4.1, Q30 4.4, Q32 4.4, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.5, Q37 4.6, Q38 5, Q39 5, Q40 5
+s11_21  5054_s11_qp_21.pdf    3 of 11 questions left out: Q4 2.2, Q7 4.5, Q11 5
+s11_22  5054_s11_qp_22.pdf    3 of 11 questions left out: Q3 2.1, Q7 old, Q8 5
+w11_11  5054_w11_qp_11.pdf   19 of 40 questions left out: Q13 1.8, Q14 1.8, Q15 2.3, Q16 2.1, Q17 2.2, Q18 old, Q19 2.2, Q25 4.5, Q30 4.4, Q31 4.4, Q32 4.3, Q33 old, Q34 4.5, Q35 4.5, Q36 4.5, Q37 4.5, Q38 5, Q39 5, Q40 5
+w11_12  5054_w11_qp_12.pdf   19 of 40 questions left out: Q13 1.8, Q14 1.8, Q15 2.1, Q16 2.2, Q17 old, Q18 2.2, Q19 2.3, Q26 4.5, Q28 4.3, Q29 old, Q30 4.4, Q31 4.4, Q34 4.5, Q35 4.5, Q36 4.5, Q37 4.5, Q38 5, Q39 5, Q40 5
+w11_21  5054_w11_qp_21.pdf    3 of 11 questions left out: Q3 old, Q8 5, Q10 4.3+4.4
+w11_22  5054_w11_qp_22.pdf    3 of 11 questions left out: Q3 2.1+1.8, Q5 4.1, Q11 5
+s12_11  5054_s12_qp_11.pdf   19 of 40 questions left out: Q11 1.8, Q12 2.1, Q15 2.1, Q16 2.2, Q17 2.3, Q18 old, Q19 2.2, Q20 2.2, Q26 4.5, Q30 4.3, Q32 4.4, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.5, Q37 old, Q38 5, Q39 5, Q40 5
+s12_12  5054_s12_qp_12.pdf   19 of 40 questions left out: Q11 1.8, Q12 2.1, Q15 2.1, Q16 2.2, Q17 2.3, Q18 old, Q19 2.2, Q20 2.2, Q26 4.5, Q30 4.3, Q31 4.4, Q32 4.4, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.5, Q38 5, Q39 5, Q40 5
+s12_21  5054_s12_qp_21.pdf    2 of 11 questions left out: Q4 2.2, Q8 4.1+4.5
+s12_22  5054_s12_qp_22.pdf    3 of 10 questions left out: Q4 2.2+2.1, Q9 4.5+4.4, Q10 5
+w12_11  5054_w12_qp_11.pdf   20 of 40 questions left out: Q11 1.8, Q12 2.1, Q15 2.1, Q16 2.2, Q17 2.3, Q18 old, Q19 2.2, Q20 2.2, Q26 4.5, Q29 4.3, Q30 4.3, Q32 4.4, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.5, Q37 4.5, Q38 5, Q39 5, Q40 5
+w12_12  5054_w12_qp_12.pdf   20 of 40 questions left out: Q11 1.8, Q12 2.1, Q15 2.1, Q16 2.2, Q17 2.3, Q18 old, Q19 2.2, Q20 2.2, Q26 4.1, Q29 4.3, Q30 4.3, Q31 4.4, Q33 4.5, Q34 4.5, Q35 4.5, Q36 4.6, Q37 4.6, Q38 5, Q39 5, Q40 5
+w12_21  5054_w12_qp_21.pdf    1 of 11 questions left out: Q2 old
+w12_22  5054_w12_qp_22.pdf    3 of 11 questions left out: Q5 2.3, Q7 5, Q8 5
+s13_11  5054_s13_qp_11.pdf   16 of 40 questions left out: Q8 1.8, Q9 2.1, Q10 5, Q13 2.3, Q14 2.3, Q16 2.1, Q26 4.1, Q27 4.1, Q33 4.4, Q34 4.5, Q35 4.5, Q36 4.5, Q37 old, Q38 old, Q39 5, Q40 5
+s13_12  5054_s13_qp_12.pdf   16 of 40 questions left out: Q11 1.8, Q12 2.1, Q16 2.3, Q17 old, Q18 2.2, Q20 2.1, Q21 2.1, Q29 4.1, Q30 4.1, Q34 4.3, Q35 4.3, Q36 4.4, Q37 4.5, Q38 4.3, Q39 5, Q40 5
+s13_21  5054_s13_qp_21.pdf    6 of 11 questions left out: Q3 1.8, Q4 old, Q7 4.3+4.4, Q8 4.5, Q10 4.4+2.2+2.1, Q11 5
+s13_22  5054_s13_qp_22.pdf    2 of 11 questions left out: Q7 4.5, Q8 4.1+4.5+old
+w13_11  5054_w13_qp_11.pdf   19 of 40 questions left out: Q9 1.8, Q10 1.8, Q13 2.3, Q14 2.2, Q15 old, Q16 old, Q17 2.2, Q18 2.1, Q25 4.5, Q29 4.3, Q32 4.5, Q33 4.5, Q34 4.5, Q35 old, Q36 4.3, Q37 5, Q38 5, Q39 5, Q40 5
+w13_12  5054_w13_qp_12.pdf   21 of 40 questions left out: Q10 1.8, Q11 1.8, Q12 2.1, Q15 2.3, Q16 2.3, Q17 2.2, Q18 2.2, Q19 2.1, Q20 2.1, Q21 2.2, Q27 4.1, Q29 4.3, Q32 4.5, Q33 4.5, Q34 old, Q35 4.3, Q36 5, Q37 5, Q38 5, Q39 5, Q40 5
+w13_21  5054_w13_qp_21.pdf    5 of 11 questions left out: Q3 2.1+1.8, Q5 old, Q6 4.1, Q7 4.4, Q8 5
+w13_22  5054_w13_qp_22.pdf    3 of 11 questions left out: Q4 2.2, Q7 4.4, Q8 5
+s14_11  5054_s14_qp_11.pdf   17 of 40 questions left out: Q13 1.8, Q14 2.1, Q15 5, Q18 2.1, Q19 old, Q20 2.2, Q21 2.1, Q29 4.1, Q31 4.3, Q33 4.3, Q34 4.5, Q35 4.5, Q36 4.5, Q37 old, Q38 old, Q39 5, Q40 5
+s14_12  5054_s14_qp_12.pdf   19 of 40 questions left out: Q13 1.8, Q14 1.8, Q15 2.1, Q17 5, Q19 old, Q20 old, Q21 2.1, Q22 2.2, Q23 2.2, Q24 2.2, Q30 4.1, Q33 4.4, Q34 4.5, Q35 4.5, Q36 4.5, Q37 old, Q38 old, Q39 5, Q40 5
+s14_21  5054_s14_qp_21.pdf    3 of 11 questions left out: Q4 4.1, Q6 4.5, Q8 5
+s14_22  5054_s14_qp_22.pdf    3 of 11 questions left out: Q3 2.2, Q8 5, Q10 2.3+2.2
+w14_11  5054_w14_qp_11.pdf   21 of 40 questions left out: Q10 1.8, Q11 1.8, Q12 2.1, Q15 2.3, Q16 old, Q17 old, Q18 2.2, Q26 4.1, Q27 4.1, Q28 4.3, Q30 4.5, Q31 4.5, Q32 4.5, Q33 old, Q34 4.3, Q35 4.3, Q36 4.5, Q37 5, Q38 5, Q39 5, Q40 5
+w14_12  5054_w14_qp_12.pdf   22 of 40 questions left out: Q7 1.8, Q8 1.8, Q11 2.3, Q12 2.3, Q13 old, Q14 old, Q15 2.1, Q20 4.1, Q21 4.1, Q27 4.3, Q28 4.4, Q30 4.4, Q31 4.5, Q32 4.5, Q33 4.5, Q34 4.5, Q35 4.3, Q36 4.3, Q37 4.5, Q38 5, Q39 5, Q40 5
+w14_21  5054_w14_qp_21.pdf    4 of 11 questions left out: Q3 2.1, Q7 4.5, Q8 5, Q10 2.3+4.4+2.2
+w14_22  5054_w14_qp_22.pdf    4 of 11 questions left out: Q5 2.2, Q6 2.1+2.2, Q8 4.5+4.6, Q11 5
+s15_11  5054_s15_qp_11.pdf   17 of 40 questions left out: Q13 1.8, Q14 1.8, Q15 2.3, Q16 2.3, Q17 old, Q18 old, Q19 2.2, Q25 4.1, Q26 4.1, Q27 4.5, Q33 4.3, Q35 4.4, Q36 4.5, Q37 5, Q38 5, Q39 5, Q40 5
+s15_12  5054_s15_qp_12.pdf   20 of 40 questions left out: Q10 1.8, Q11 2.1, Q14 2.3, Q15 2.3, Q16 2.3, Q17 old, Q18 2.2, Q19 2.1, Q20 2.1, Q21 2.2, Q22 2.2, Q23 2.2, Q31 4.1, Q33 4.3, Q35 4.3, Q36 4.5, Q37 4.5, Q38 5, Q39 5, Q40 5
+s15_21  5054_s15_qp_21.pdf    4 of 11 questions left out: Q3 1.8+2.1, Q7 4.5, Q8 old, Q11 5
+s15_22  5054_s15_qp_22.pdf    4 of 11 questions left out: Q4 2.2+2.3, Q6 4.5, Q7 4.4, Q8 5
+w15_11  5054_w15_qp_11.pdf   20 of 40 questions left out: Q11 1.8, Q12 1.8, Q13 2.1, Q15 old, Q16 old, Q17 2.2, Q18 2.2, Q23 4.5, Q28 4.3, Q29 4.3, Q30 4.3, Q31 4.4, Q32 4.5, Q33 4.5, Q35 4.5, Q36 4.3, Q37 old, Q38 4.5, Q39 5, Q40 5
+w15_12  5054_w15_qp_12.pdf   16 of 40 questions left out: Q12 2.1, Q13 1.8, Q16 2.1, Q17 old, Q18 2.2, Q19 2.2, Q28 4.1, Q31 4.5, Q32 4.5, Q34 4.4, Q35 4.5, Q36 old, Q37 4.5, Q38 4.5, Q39 5, Q40 5
+w15_21  5054_w15_qp_21.pdf    3 of 11 questions left out: Q2 2.3+2.1+1.8, Q5 2.2+2.1, Q11 5
+w15_22  5054_w15_qp_22.pdf    4 of 11 questions left out: Q4 2.3, Q5 old, Q6 2.1, Q11 5
+s16_11  5054_s16_qp_11.pdf   13 of 40 questions left out: Q13 5, Q15 1.8, Q16 2.1, Q17 2.1, Q27 4.1, Q31 4.3, Q33 4.4, Q35 4.5, Q36 4.3, Q37 4.3, Q38 5, Q39 5, Q40 5
+s16_12  5054_s16_qp_12.pdf   20 of 40 questions left out: Q8 5, Q10 1.8, Q11 1.8, Q12 2.1, Q13 2.1, Q14 old, Q15 2.3, Q16 2.3, Q23 4.1, Q29 4.3, Q30 4.4, Q32 4.5, Q33 4.5, Q34 4.5, Q35 old, Q36 4.3, Q37 5, Q38 5, Q39 5, Q40 5
+s16_21  5054_s16_qp_21.pdf    3 of 12 questions left out: Q4 2.2+old, Q9 4.6+old, Q10 2.2+2.3
+s16_22  5054_s16_qp_22.pdf    3 of 11 questions left out: Q4 2.2, Q10 old+4.6, Q11 5+6
+w16_11  5054_w16_qp_11.pdf   19 of 40 questions left out: Q12 1.8, Q13 1.8, Q14 2.1, Q15 2.1, Q16 2.2, Q17 2.2, Q18 2.2, Q19 old, Q20 2.3, Q30 4.1, Q32 4.5, Q33 4.5, Q34 4.5, Q35 4.5, Q36 old, Q37 old, Q38 5, Q39 5, Q40 5
+w16_12  5054_w16_qp_12.pdf   16 of 40 questions left out: Q17 1.8, Q18 2.1, Q19 2.2, Q20 2.2, Q21 2.2, Q22 2.2, Q23 old, Q24 2.3, Q31 4.1, Q34 4.3, Q35 4.4, Q36 4.5, Q37 4.5, Q38 4.3, Q39 5, Q40 5
+w16_21  5054_w16_qp_21.pdf    3 of 10 questions left out: Q6 4.1+4.5, Q7 4.4, Q8 5
+w16_22  5054_w16_qp_22.pdf    4 of 10 questions left out: Q4 2.2+2.3, Q5 2.1, Q6 old+4.5, Q7 5
+s17_11  5054_s17_qp_11.pdf   14 of 40 questions left out: Q16 1.8, Q17 1.8, Q18 2.2, Q19 2.1, Q20 2.1, Q21 2.2, Q22 2.2, Q23 old, Q24 old, Q25 2.2, Q33 4.1, Q34 4.1, Q39 4.5, Q40 5
+s17_12  5054_s17_qp_12.pdf   17 of 40 questions left out: Q18 1.8, Q19 1.8, Q20 2.1, Q21 2.1, Q22 2.2, Q23 2.2, Q24 old, Q25 2.3, Q30 4.1, Q31 4.1, Q32 4.1, Q35 4.3, Q36 4.5, Q37 4.5, Q38 4.5, Q39 5, Q40 5
+s17_21  5054_s17_qp_21.pdf    4 of 11 questions left out: Q3 2.3, Q5 4.3, Q7 4.5, Q8 5
+s17_22  5054_s17_qp_22.pdf    3 of 11 questions left out: Q4 2.2+2.3, Q5 2.1, Q11 5
+w17_11  5054_w17_qp_11.pdf   18 of 40 questions left out: Q8 1.8, Q11 2.1, Q12 2.2, Q13 2.2, Q14 2.2, Q15 2.2, Q16 2.3, Q17 2.3, Q26 4.1, Q27 4.1, Q33 4.4, Q34 4.5, Q35 old, Q36 4.3, Q37 5, Q38 5, Q39 5, Q40 5
+w17_12  5054_w17_qp_12.pdf   19 of 40 questions left out: Q10 1.8, Q11 2.1, Q12 2.1, Q13 2.2, Q14 2.2, Q15 2.2, Q16 old, Q17 old, Q18 2.3, Q26 4.1, Q29 4.3, Q33 4.5, Q34 4.5, Q35 old, Q36 4.3, Q37 5, Q38 5, Q39 5, Q40 5
+w17_21  5054_w17_qp_21.pdf    6 of 11 questions left out: Q2 1.8+2.1, Q3 2.1+2.2, Q4 old, Q6 old, Q7 4.5, Q8 5
+w17_22  5054_w17_qp_22.pdf    1 of 11 questions left out: Q11 4.1+4.5
+s18_11  5054_s18_qp_11.pdf   20 of 40 questions left out: Q14 1.8, Q15 1.8, Q16 1.8, Q17 2.2, Q18 old, Q19 2.2, Q20 2.3, Q21 2.3, Q27 4.5, Q28 4.5, Q30 4.3, Q31 4.4, Q32 5, Q33 4.5, Q35 4.3, Q36 5, Q37 5, Q38 5, Q39 5, Q40 5
+s18_12  5054_s18_qp_12.pdf   17 of 40 questions left out: Q16 1.8, Q17 1.8, Q18 2.1, Q19 2.1, Q20 2.2, Q21 old, Q22 old, Q23 old, Q24 2.3, Q25 2.3, Q34 4.5, Q35 4.4, Q36 4.5, Q37 4.3, Q38 4.3, Q39 4.6, Q40 5
+s18_21  5054_s18_qp_21.pdf    3 of 11 questions left out: Q3 2.1, Q6 4.5+4.1, Q8 4.5
+s18_22  5054_s18_qp_22.pdf    4 of 11 questions left out: Q4 2.2+2.3, Q7 4.1+4.5, Q8 4.4, Q11 5
+w18_11  5054_w18_qp_11.pdf   17 of 40 questions left out: Q10 2.1, Q11 1.8, Q12 2.1, Q13 2.2, Q14 2.2, Q15 2.2, Q16 2.2, Q17 2.3, Q30 4.3, Q32 4.4, Q33 4.5, Q34 4.5, Q35 4.5, Q37 5, Q38 5, Q39 5, Q40 5
+w18_12  5054_w18_qp_12.pdf   20 of 40 questions left out: Q8 2.1, Q13 1.8, Q14 1.8, Q15 2.1, Q16 1.8, Q17 2.2, Q18 2.1, Q19 2.2, Q20 2.2, Q21 old, Q28 4.1, Q30 4.3, Q33 4.4, Q34 4.5, Q35 4.3, Q36 4.6, Q37 5, Q38 5, Q39 5, Q40 5
+w18_21  5054_w18_qp_21.pdf    3 of 10 questions left out: Q2 1.8, Q5 old+2.2, Q6 4.1
+w18_22  5054_w18_qp_22.pdf    2 of 10 questions left out: Q3 2.3+2.2, Q6 5
+s19_11  5054_s19_qp_11.pdf   18 of 40 questions left out: Q11 1.8, Q12 1.8, Q13 1.8, Q17 2.2, Q18 old, Q19 old, Q20 2.2, Q21 2.1, Q22 2.1, Q28 4.1, Q29 4.5, Q32 4.4, Q35 4.4, Q36 4.5, Q37 4.5, Q38 4.5, Q39 4.3, Q40 5
+s19_12  5054_s19_qp_12.pdf   12 of 40 questions left out: Q14 1.8, Q15 2.1, Q22 2.2, Q23 2.1, Q24 2.1, Q31 4.1, Q35 4.4, Q36 4.4, Q37 4.5, Q38 4.5, Q39 4.3, Q40 5
+s19_21  5054_s19_qp_21.pdf    3 of 11 questions left out: Q4 2.1, Q6 4.4, Q11 5
+s19_22  5054_s19_qp_22.pdf    4 of 11 questions left out: Q2 1.8+2.1, Q7 4.5, Q10 2.2+4.4+2.3+old, Q11 6+5
+w19_11  5054_w19_qp_11.pdf   19 of 40 questions left out: Q14 1.8, Q15 1.8, Q16 2.1, Q18 5, Q19 old, Q20 old, Q21 2.2, Q22 2.2, Q23 2.2, Q24 2.2, Q30 4.1, Q33 4.3, Q34 4.3, Q35 4.3, Q36 4.4, Q37 4.5, Q38 old, Q39 4.6, Q40 5
+w19_12  5054_w19_qp_12.pdf   18 of 40 questions left out: Q12 1.8, Q13 2.1, Q15 5, Q17 old, Q18 2.2, Q19 2.2, Q20 2.1, Q21 2.2, Q29 4.1, Q32 4.3, Q33 4.3, Q34 4.3, Q35 4.4, Q36 4.4, Q37 4.5, Q38 4.3, Q39 5, Q40 5
+w19_21  5054_w19_qp_21.pdf    5 of 10 questions left out: Q1 1.8, Q3 2.1+2.2, Q7 5, Q8 4.1+4.5, Q9 2.3+2.2+2.1
+w19_22  5054_w19_qp_22.pdf    3 of 10 questions left out: Q2 1.8+2.1, Q4 2.2, Q10 5
+s20_11  5054_s20_qp_11.pdf   15 of 40 questions left out: Q14 1.8, Q15 1.8, Q18 5, Q20 old, Q21 2.3, Q22 2.2, Q23 2.2, Q24 2.1, Q25 2.1, Q32 4.1, Q33 4.5, Q37 5, Q38 5, Q39 5, Q40 4.4
+s20_12  5054_s20_qp_12.pdf   13 of 40 questions left out: Q14 1.8, Q15 2.1, Q18 5, Q21 4.4, Q23 2.3, Q24 2.2, Q25 2.2, Q26 2.2, Q27 2.1, Q28 2.1, Q38 4.3, Q39 4.5, Q40 4.5
+s20_21  5054_s20_qp_21.pdf    3 of 10 questions left out: Q4 2.3+2.2, Q5 1.8+2.1, Q7 5
+s20_22  5054_s20_qp_22.pdf    3 of 10 questions left out: Q6 4.4, Q7 5, Q9 4.5+4.1
+w20_11  5054_w20_qp_11.pdf   14 of 40 questions left out: Q5 2.1, Q13 1.8, Q20 old, Q21 2.2, Q22 2.2, Q23 2.2, Q24 2.2, Q25 2.1, Q32 4.1, Q35 4.3, Q36 4.3, Q37 4.3, Q38 4.3, Q40 5
+w20_12  5054_w20_qp_12.pdf   16 of 40 questions left out: Q12 2.1, Q17 2.3, Q18 old, Q19 2.2, Q20 2.2, Q21 2.1, Q22 2.1, Q31 4.3, Q32 4.3, Q33 4.4, Q34 4.5, Q36 4.5, Q37 4.6, Q38 4.3, Q39 5, Q40 5
+w20_21  5054_w20_qp_21.pdf    3 of 10 questions left out: Q5 old, Q6 4.5, Q8 1.8+2.1
+w20_22  5054_w20_qp_22.pdf    4 of  9 questions left out: Q3 2.3, Q4 2.1+2.2, Q5 4.4, Q6 5
+s21_11  5054_s21_qp_11.pdf   18 of 40 questions left out: Q10 2.1, Q11 1.8, Q12 1.8, Q15 2.3, Q16 old, Q17 old, Q18 2.2, Q19 2.2, Q26 4.1, Q31 4.4, Q32 4.5, Q34 4.5, Q35 4.5, Q36 4.5, Q37 5, Q38 5, Q39 5, Q40 5
+s21_12  5054_s21_qp_12.pdf   16 of 40 questions left out: Q12 1.8, Q13 1.8, Q14 2.1, Q17 2.3, Q18 2.3, Q19 old, Q20 old, Q21 2.2, Q22 2.1, Q23 2.1, Q30 4.1, Q36 4.4, Q37 4.5, Q38 4.5, Q39 5, Q40 5
+s21_21  5054_s21_qp_21.pdf    4 of 10 questions left out: Q2 2.3, Q3 2.2, Q6 4.5, Q10 5
+s21_22  5054_s21_qp_22.pdf    2 of 11 questions left out: Q7 4.5, Q11 5
+w21_11  5054_w21_qp_11.pdf   16 of 40 questions left out: Q8 1.8, Q9 2.1, Q10 1.8, Q12 2.3, Q13 2.2, Q14 2.2, Q15 2.1, Q16 2.2, Q27 4.1, Q28 4.1, Q34 4.5, Q35 4.5, Q37 4.3, Q38 5, Q39 5, Q40 5
+w21_12  5054_w21_qp_12.pdf   17 of 40 questions left out: Q10 1.8, Q11 2.1, Q14 2.3, Q15 2.3, Q16 old, Q17 old, Q18 2.2, Q19 2.2, Q20 2.2, Q30 4.1, Q34 4.5, Q35 4.5, Q36 4.3, Q37 5, Q38 5, Q39 5, Q40 5
+w21_21  5054_w21_qp_21.pdf    3 of 10 questions left out: Q7 4.5+old, Q9 2.1+old, Q10 5
+w21_22  5054_w21_qp_22.pdf    2 of  9 questions left out: Q4 4.4, Q7 1.8+2.1
+s22_11  5054_s22_qp_11.pdf   15 of 40 questions left out: Q7 2.1, Q13 2.3, Q14 old, Q15 old, Q16 old, Q17 2.2, Q18 2.1, Q27 4.5, Q34 4.3, Q35 4.4, Q36 4.5, Q37 4.5, Q38 4.5, Q39 5, Q40 5
+s22_12  5054_s22_qp_12.pdf   15 of 40 questions left out: Q11 1.8, Q12 1.8, Q16 2.3, Q17 2.3, Q18 old, Q19 old, Q20 2.2, Q21 2.2, Q22 2.2, Q23 2.2, Q36 4.3, Q37 4.4, Q38 4.5, Q39 4.5, Q40 4.5
+s22_21  5054_s22_qp_21.pdf    3 of  9 questions left out: Q3 2.2, Q8 1.8+2.1, Q9 5
+s22_22  5054_s22_qp_22.pdf    3 of  9 questions left out: Q3 1.8+2.1, Q6 4.1+4.5, Q9 5
+w22_11  5054_w22_qp_11.pdf   19 of 40 questions left out: Q13 1.8, Q14 2.1, Q17 2.3, Q18 2.3, Q19 old, Q20 2.2, Q21 2.2, Q22 2.2, Q26 4.1, Q29 4.3, Q31 4.3, Q32 4.4, Q33 4.5, Q34 4.5, Q36 5, Q37 5, Q38 5, Q39 5, Q40 5
+w22_12  5054_w22_qp_12.pdf   13 of 40 questions left out: Q14 1.8, Q15 2.1, Q20 old, Q21 2.1, Q29 4.1, Q30 4.1, Q34 4.4, Q35 4.5, Q36 4.5, Q37 5, Q38 4.5, Q39 5, Q40 5
+w22_21  5054_w22_qp_21.pdf    2 of  9 questions left out: Q3 1.8+2.1, Q5 5
+w22_22  5054_w22_qp_22.pdf    3 of  9 questions left out: Q6 4.5+4.4, Q7 2.3+2.2, Q9 5
+s23_11  5054_s23_qp_11.pdf   19 of 40 questions left out: Q13 1.8, Q14 2.1, Q15 2.1, Q16 2.2, Q17 2.3, Q18 2.3, Q25 4.1, Q26 4.1, Q30 4.3, Q31 4.3, Q32 4.5, Q33 4.6, Q34 5, Q35 5, Q36 5, Q37 5, Q38 5, Q39 6, Q40 6
+s23_12  5054_s23_qp_12.pdf   19 of 40 questions left out: Q14 2.1, Q15 2.1, Q16 2.2, Q17 2.3, Q18 2.3, Q22 5, Q24 4.1, Q25 4.1, Q29 4.3, Q30 4.3, Q32 4.5, Q33 5, Q34 5, Q35 5, Q36 5, Q37 5, Q38 5, Q39 6, Q40 6
+s23_21  5054_s23_qp_21.pdf    5 of 11 questions left out: Q4 1.8, Q5 2.2, Q9 4.5, Q10 5, Q11 6
+s23_22  5054_s23_qp_22.pdf    5 of 10 questions left out: Q3 1.8+2.1, Q4 2.2+2.1, Q8 4.5, Q9 5, Q10 6
+w23_11  5054_w23_qp_11.pdf   21 of 40 questions left out: Q12 1.8, Q13 1.8, Q14 2.1, Q15 2.2, Q16 2.2, Q17 2.3, Q25 4.3, Q26 4.3, Q28 4.4, Q29 4.5, Q30 4.5, Q31 4.5, Q32 4.5, Q33 4.5, Q34 4.5, Q35 5, Q36 5, Q37 5, Q38 5, Q39 6, Q40 6
+w23_12  5054_w23_qp_12.pdf   16 of 40 questions left out: Q16 1.8, Q17 2.2, Q18 2.1, Q19 2.1, Q20 2.2, Q21 2.3, Q22 2.3, Q23 2.3, Q32 4.1, Q34 4.3, Q35 4.5, Q36 4.5, Q37 5, Q38 4.6, Q39 5, Q40 6
+w23_21  5054_w23_qp_21.pdf    3 of  9 questions left out: Q3 2.2+2.3, Q7 4.5+4.6, Q8 5
+w23_22  5054_w23_qp_22.pdf    3 of 10 questions left out: Q4 1.8, Q5 2.2, Q8 4.1+4.5
+s24_11  5054_s24_qp_11.pdf   19 of 40 questions left out: Q14 1.8, Q15 2.1, Q16 2.1, Q17 2.1, Q18 2.2, Q19 2.2, Q20 2.3, Q21 2.3, Q29 4.1, Q31 4.3, Q32 4.3, Q33 4.4, Q34 4.5, Q35 4.5, Q36 4.5, Q37 5, Q38 5, Q39 5, Q40 6
+s24_12  5054_s24_qp_12.pdf   15 of 40 questions left out: Q18 2.1, Q19 2.1, Q20 2.2, Q21 2.2, Q29 4.3, Q30 4.4, Q32 4.4, Q33 4.4, Q34 4.5, Q35 4.5, Q36 4.5, Q37 5, Q38 5, Q39 5, Q40 6
+s24_21  5054_s24_qp_21.pdf    2 of  8 questions left out: Q6 4.5, Q7 5
+s24_22  5054_s24_qp_22.pdf    3 of  9 questions left out: Q7 4.1+4.5, Q8 6, Q9 5
+w24_11  5054_w24_qp_11.pdf   14 of 40 questions left out: Q7 2.1, Q19 1.8, Q20 1.8, Q21 2.1, Q22 2.2, Q23 2.2, Q24 2.3, Q34 4.3, Q35 4.4, Q36 4.5, Q37 5, Q38 5, Q39 6, Q40 6
+w24_12  5054_w24_qp_12.pdf   18 of 40 questions left out: Q13 2.1, Q14 2.1, Q15 2.1, Q16 2.2, Q17 2.2, Q18 2.3, Q24 4.1, Q25 4.1, Q26 4.1, Q31 4.3, Q33 4.5, Q34 4.5, Q35 4.5, Q36 5, Q37 5, Q38 5, Q39 6, Q40 6
+w24_21  5054_w24_qp_21.pdf    4 of  9 questions left out: Q3 2.3+2.1+1.8, Q6 4.1, Q8 5, Q9 6
+w24_22  5054_w24_qp_22.pdf    5 of  9 questions left out: Q2 1.8, Q3 2.3, Q4 1.8+2.1, Q7 4.5, Q8 5
+s25_11  5054_s25_qp_11.pdf   20 of 40 questions left out: Q11 1.8, Q12 1.8, Q13 2.1, Q14 2.1, Q15 2.2, Q16 2.2, Q17 2.2, Q18 2.3, Q21 2.3, Q30 4.3, Q31 4.3, Q32 4.5, Q33 5, Q34 4.5, Q35 5, Q36 5, Q37 5, Q38 5, Q39 6, Q40 6
+s25_12  5054_s25_qp_12.pdf   18 of 40 questions left out: Q11 1.8, Q12 1.8, Q13 2.1, Q14 2.1, Q15 2.2, Q16 2.3, Q17 2.3, Q30 4.3, Q31 4.4, Q32 4.5, Q33 4.1, Q34 4.5, Q35 4.5, Q36 5, Q37 5, Q38 5, Q39 6, Q40 6
+s25_21  5054_s25_qp_21.pdf    4 of  9 questions left out: Q4 2.2+2.3, Q7 4.5+4.6, Q8 5, Q9 6
+s25_22  5054_s25_qp_22.pdf    3 of  9 questions left out: Q6 4.4+4.3, Q8 5+2.2, Q9 6
+w25_11  5054_w25_qp_11.pdf   16 of 40 questions left out: Q10 2.1, Q14 2.1, Q15 2.1, Q16 2.2, Q17 2.3, Q26 4.1, Q29 4.3, Q31 4.5, Q32 4.5, Q33 4.3, Q34 4.4, Q35 4.5, Q36 5, Q37 5, Q39 6, Q40 6
+w25_12  5054_w25_qp_12.pdf   15 of 40 questions left out: Q19 1.8, Q20 1.8, Q21 2.1, Q22 2.1, Q23 2.2, Q24 2.3, Q25 2.3, Q32 4.1, Q34 4.3, Q35 4.5, Q36 5, Q37 5, Q38 5, Q39 6, Q40 6
+w25_21  5054_w25_qp_21.pdf    3 of  9 questions left out: Q3 2.3+2.2+2.1, Q5 2.2+4.5+2.3, Q8 5
+w25_22  5054_w25_qp_22.pdf    4 of  9 questions left out: Q4 2.2+2.1, Q7 4.4, Q8 5, Q9 6
+s26_11  5054_s26_qp_11.pdf   14 of 40 questions left out: Q15 1.8, Q16 2.2, Q17 2.1, Q18 2.2, Q19 2.2, Q20 2.3, Q29 4.1, Q33 4.3, Q35 5, Q36 5, Q37 5, Q38 6, Q39 6, Q40 6
+s26_12  5054_s26_qp_12.pdf   16 of 40 questions left out: Q14 1.8, Q15 1.8, Q16 2.2, Q17 2.1, Q18 2.1, Q19 2.2, Q29 4.1, Q30 4.1, Q33 4.4, Q34 4.5, Q35 4.5, Q36 5, Q37 5, Q38 6, Q39 6, Q40 6
+s26_21  5054_s26_qp_21.pdf    2 of  9 questions left out: Q7 4.5+4.1+4.4, Q8 5
+s26_22  5054_s26_qp_22.pdf    4 of  9 questions left out: Q4 2.2+2.3, Q7 4.5, Q8 5, Q9 6
+
+Total: 1,654 questions (1,397 of Paper 1, 257 of Paper 2).
+
+D. MATERIAL ON THE PAGES OF THE INCLUDED QUESTIONS THAT IS NOT REPRODUCED
+------------------------------------------------------------------------
+The pictures of the bank run from the first line of a question (or scheme) to its last line, over the full width of the
+page. D1 lists what is left out, D2 what is inside a picture although it is not part of the question.
+
+D1. Not part of a picture:
+  * the page number at the head of the page (exception in D2), the footer line (copyright, paper code, "Turn over") and
+    bar codes;
+  * blank pages, cover pages, the instructions on the front page, formula or data pages, copyright notices at the end;
+  * the shared lined answer pages at the end of seven Paper 2 question papers of 2004-2009 (19 pages). They are ruled lines
+    for the answers to all Section B questions and belong to no single question:
+      5054_w04_qp_2.pdf: source pages 18-20
+      5054_w05_qp_2.pdf: source pages 14-16
+      5054_s07_qp_2.pdf: source pages 16
+      5054_s08_qp_2.pdf: source pages 14-16
+      5054_w08_qp_2.pdf: source pages 14-16
+      5054_s09_qp_2.pdf: source pages 14-16
+      5054_w09_qp_2.pdf: source pages 14-16
+  * rows of the Paper 2 mark schemes that belong to no question (103 text rows): covers bound into the scheme file, general
+    marking notes, the legend of the mark codes and "Total for paper" lines. Each row, with file and source page:
+      5054_s04_ms.pdf p. 8 (after the scheme of the last question):
+          Total for paper :   [75]
+      5054_w04_ms_2.pdf p. 2 (before the scheme of Question 1):
+          NOVEMBER 2004
+          GCE O Level
+          MARK SCHEME
+          MAXIMUM MARK: 75
+          SYLLABUS/COMPONENT: 5054/02
+          PHYSICS
+          Paper 2 (Theory)
+      5054_s05_ms_2.pdf p. 2 (before the scheme of Question 1):
+          June 2005
+          GCE O Level
+          MARK SCHEME
+          MAXIMUM MARK: 75
+          SYLLABUS/COMPONENT: 5054/02
+          PHYSICS
+          Paper 2 (Theory)
+      5054_s06_ms_2.pdf p. 4 (after the scheme of the last question):
+          Mark Scheme Code
+          B1   Independent mark
+          C1   Compensation mark; given automatically if the answer is
+          be seen if the answer is correct; also given if the answer i
+          the working.
+          M1   Method mark: if not given subsequent A marks fall (up t
+          A1   Answer mark.
+          c.a.o. correct answer only (including unit)
+          e.e.o.o. each error or omission
+          e.c.f. error carried forward; it usually is even where not s
+          working including a previous error is credited, if otherwise
+      5054_w06_ms_2.pdf p. 2 (before the scheme of Question 1):
+          Max. 1 unit penalty per question, no excess sig. fig. penalt
+          stated.
+      5054_s07_ms_2.pdf p. 2 (before the scheme of Question 1):
+          1 unit penalty per question, expect 2 or more sig. figs and 
+          Fractions are treated as not showing final answer but can sc
+      5054_w07_ms_2.pdf p. 2 (before the scheme of Question 1):
+          1 unit penalty per question, no sig. fig penalty throughout 
+      5054_s08_ms_2.pdf p. 6 (after the scheme of the last question):
+          B1   independent mark
+          C1   compensation mark; given automatically if the answer is
+          seen if the answer is correct; also given if the answer is w
+          working
+          M1   method mark: if not given subsequent A marks fall (up t
+          A1   answer mark
+          cao   correct answer only (including unit)
+          eeoo each error or omission
+          ecf   error carried forward; it usually is even where not sp
+          working including a previous error is credited, if otherwise
+      5054_w08_ms_2.pdf p. 2 (before the scheme of Question 1):
+          Do not accept fractions.  No penalty for [ 2 s. f. unless st
+          Only one unit and only one fraction penalty per question.
+      5054_w08_ms_2.pdf p. 6 (after the scheme of the last question):
+          B1 Independent mark
+          C1 Compensation mark; given also if the answer is correct
+          M1 Method mark:
+          if not given, subsequent A marks are not awarded
+          A1 Answer mark.
+      5054_s09_ms_2.pdf p. 2 (before the scheme of Question 1):
+          1 unit penalty per question.
+          Allow 2 or more sig. figs throughout paper.  2 or 3 sig. fig
+      5054_s09_ms_2.pdf p. 5 (after the scheme of the last question):
+          MARK SCHEME CODE
+          B1   Independent mark.
+          C1   Compensation mark; given automatically if the answer is
+          not be seen if the answer is correct; also given if the answ
+          seen in the working.
+          M1   Method mark: if not given subsequent A marks fall (up t
+          A1   Answer mark.
+          e.c.f.   error carried forward; it usually is even where not
+          working including a previous error is credited, if otherwise
+          vv   vice versa
+      5054_w10_ms_21.pdf p. 5 (after the scheme of the last question):
+          B1   Independent Mark
+          C1   Compensation Mark:
+          awarded automatically if the answer is correct.  i.e. the wo
+          answer is correct; also given if the answer is wrong but the
+          M1   (Compulsory) Method Mark:
+          if not awarded subsequent A marks are lost (up to next B, M 
+          A1   Answer Mark.
+          c.a.o. correct answer only (including unit)
+          e.e.o.o. each error or omission
+          e.c.f. error carried forward:
+          it is usually awarded even where not specifically indicated.
+          i.e. subsequent working including a previous error is credit
+          Incorrect units, errors in powers of 10 (except where the po
+          N/kg) and unit multipliers are to be treated as arithmetical
+          Correct numerical answers with incorrect units will normally
+          when the working is not shown.
+          Do not penalise a sig. fig. fraction or a unit error more th
+          Sig. Fig. Answers must given to 2 or more sig. fig. except w
+          Answers given to 2 or 3 sig. fig. must be correctly rounded 
+          up or down.
+      5054_w10_ms_22.pdf p. 6 (after the scheme of the last question):
+          B1   Independent Mark
+          C1   Compensation Mark:
+          awarded automatically if the answer is correct.  i.e. the wo
+          answer is correct; also given if the answer is wrong but the
+          M1   (Compulsory) Method Mark:
+          if not awarded subsequent A marks are lost (up to next B, M 
+          A1   Answer Mark.
+          c.a.o. correct answer only (including unit)
+          e.e.o.o. each error or omission
+          e.c.f. error carried forward:
+          it is usually awarded even where not specifically indicated.
+          i.e. subsequent working including a previous error is credit
+          Incorrect units, errors in powers of 10 (except where the po
+          N/kg) and unit multipliers are to be treated as arithmetical
+          Correct numerical answers with incorrect units will normally
+          when the working is not shown.
+          Do not penalise a sig. fig. /fraction or a unit error more t
+          Sig. fig. Answers must given to 2 or more sig. fig. except w
+          Answers given to 2 or 3 sig. fig. must be correctly rounded 
+          up or down.
+      5054_s11_ms_21.pdf p. 2 (before the scheme of Question 1):
+          Do not accept fractions.  No penalty for 2 sig. fig. or for 
+          Only one unit and only one fraction penalty per question.
+      5054_s22_ms_22.pdf p. 5 (before the scheme of Question 1):
+          Marking
+  * Paper 1 mark schemes: only the row of the answer key of the question is shown (question number, key letter and, where
+    printed, the mark). The rest of the key table belongs to other questions.
+
+D2. Inside a picture although not part of the question. A picture is the full width of the page and has no holes, so what
+stands beside or directly above the lines of a question is in its picture:
+  * the heading of a section with its instruction ("Section A", "Answer all the questions in this section.", "Section B",
+    "Answer two questions from this section."). It is printed directly above the first question of the section and is kept
+    with that question: 119 pictures, shown on 267 pages of the bank (267 records).
+  * in the Paper 2 mark schemes, the heading "Section A" or "Section B" above the scheme of the first question of the section:
+    72 pictures, shown on 151 pages of the bank (151 records).
+    In every one of them the heading is the first line of the picture; no scheme picture holds a heading anywhere else.
+  * the column "For Examiner's Use" of the older papers with its label and its rule, the corner marks of the page, and the
+    vertical notice "DO NOT WRITE IN THIS MARGIN" of the papers of 2025 and 2026 (the notice is cut where a picture ends);
+  * the page number, in 8 Paper 2 question papers of 2004-2007 only. In these papers the label 'For Examiner's Use' begins on the
+    line of the page number and reaches down to the first line of the page. A picture of the top of such a page cannot leave
+    the number out without cutting through the label or the first line: 44 pictures, shown on 63 pages of the bank (56 records).
+    Files: 5054_s04_qp_2.pdf, 5054_w04_qp_2.pdf, 5054_s05_qp_2.pdf, 5054_w05_qp_2.pdf, 5054_s06_qp_2.pdf, 5054_w06_qp_2.pdf, 5054_s07_qp_2.pdf, 5054_w07_qp_2.pdf.
+  * a notice that the next question or section begins over the page, printed alone on the page after the last line of a
+    question: 7 pictures, shown on 13 pages of the bank (13 records); each is a strip less than 30 pt high. Bank pages: 190, 466, 1267, 1624, 2738, 2746, 3016, 3376, 3564, 3570, 3897, 4287, 4302.
+    Wording: "Question N begins over the page" (2); "Question N begins over the page." (2); "Question N starts over the page" (1); "Section B begins over the page" (2).
+
+E. SYLLABUS SECTIONS THAT WERE NOT SELECTED
+-------------------------------------------
+Selected: 1.1-1.7 (all subsections), 3.1-3.4 (all subsections) and 4.2 (4.2.1-4.2.4): 27 subsections.
+Not selected. A question with no part on a selected subsection is not in the bank (part C). A Paper 2 question that has a
+part on a selected subsection and other parts on these sections is in the bank and is shown whole.
+Rows of the verification tracker (one per Paper 1 question, one per Paper 2 sub-question) that carry the code:
+  section                                                         rows   of these in questions left out
+  1.8 Pressure                                                     243     181
+  2.1 Kinetic particle model of matter                             241     204
+  2.2 Thermal properties and temperature                           366     292
+  2.3 Transfer of thermal energy                                   210     164
+  4.1 Simple magnetism and magnetic fields                         142     131
+  4.3 Electric circuits                                            299     127
+  4.4 Practical electricity                                        232     140
+  4.5 Electromagnetic effects                                      474     383
+  4.6 Uses of an oscilloscope                                       50      30
+  5 Nuclear physics                                                652     620
+  6 Space physics                                                  120      71
+  earlier-syllabus content (not in the 2026-2028 syllabus)         227     172
+  Section 4.3 (electric circuits) is not a selected section: series and parallel circuit rules are filed there, not under 4.2.4.
+
+F. FILES OF OTHER KINDS IN THE FOLDER
+-------------------------------------
+794 PDF files in physics-5054: 311 used (78 Paper 1 and 78 Paper 2 question papers, 155 mark scheme files: the May/June 2004
+mark scheme is one file for all papers), 12 listed in A and B, 471 of other kinds:
+    83  Paper 4 question papers (alternative to practical)
+    82  Paper 3 question papers (practical test)
+    77  Paper 4 mark schemes
+    74  Paper 3 mark schemes
+    46  instructions for the practical test (Paper 3)
+    40  examiner reports
+    33  confidential instructions (Paper 3)
+    24  grade thresholds
+    11  answer booklets of the practical test (Paper 3)
+     1  Paper 4 question papers (alternative to practical) - scanned "solved" copy
+The request covers past-paper questions with mark schemes for the theory papers; Papers 3 and 4 test practical skills and
+were not part of the verified material.
+
+G. UNRESOLVED ITEMS
+-------------------
+None. Every question of every Paper 1 and Paper 2 question paper in the folder is either in the bank or listed in A or C, and
+every included question has the scheme of its own paper (see the reconciliation in the audit file).
