@@ -1,0 +1,27 @@
+# P1 w15_11 | main sheet 1 and rest sheet viewed; Q1, 2, 8, 19, 20, 25, 32, 35, 37, 38 are identical to w15_12 questions; Q6 to s22_12 Q5; Q13 to w23_12 Q19; Q14 to s24_11 Q13; Q15 to w22_12 Q20
+3 B 1.2 {F} distance = area under the speed–time graph: 10 × 10 = 100 m plus ½ × (10 + 20) × 5 = 75 m, total 175 m
+4 C 1.5.1 {F} resultant force = sum of forces one way − sum of forces the other way; 30 N against two 5 N forces gives 20 N, the largest
+5 A 1.5.2 friction can act in the direction of motion: the friction from a conveyor belt is the force that accelerates a suitcase forwards; on braking tyres or rubbing surfaces it opposes the motion
+7 D 1.3 mass is a measure of the resistance of a body to a change in its motion (mass = density × volume; mass = weight ÷ g)
+9 D 1.5.1 a force may change the shape, size and velocity of a body but not its mass
+10 A 1.5.3 {F} a spring balance has a linear scale only over the straight-line (proportional) part of the extension–load graph, here from 0 N to 10 N
+11 B X1.8 {F} minimum pressure on the largest face
+12 B X1.8 {F} manometer
+16 D XOLD thermocouple
+17 C X2.2 E = mcΔθ
+18 C X2.2 latent heat of vaporisation
+21 D 3.2.2 {F} the angle of incidence is the angle between the ray and the normal (30°, not the 60° to the surface); for light leaving the medium sin r = n sin i = 1.8 × sin 30° = 0.90, r = 64°
+22 D 3.4 {F} two notes with the same frequency and amplitude but differently shaped waveforms differ in quality (timbre)
+23 C X4.5 electromagnet core
+24 A 4.2.1 charging by rubbing: friction causes a transfer of electrons
+26 D 4.2.2 I = Q ÷ t = 6.0 ÷ 0.0032 = 1900 A (time converted from ms to s)
+27 C 4.2.3 charge × potential difference = energy (work done)
+28 B X4.3 {F} resistor networks
+29 D X4.3 {F} fuse and diode symbols
+30 D X4.3 {F} current at a junction
+31 C X4.4 {F} lamp wiring
+33 B X4.5 {F} commutator
+34 B 4.2.4+4.2.2 {F} to investigate how the current in a lamp varies with p.d.: ammeter in series with the lamp (carrying only the lamp's current), voltmeter in parallel across the lamp alone, and a variable resistor (potential divider) to vary the p.d.
+36 B X4.3 {F} potential divider
+39 C X5 gamma-rays
+40 C X5 fusion

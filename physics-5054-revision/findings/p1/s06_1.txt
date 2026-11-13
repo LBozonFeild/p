@@ -1,0 +1,37 @@
+# P1 s06_1 | main sheets 1-3 and rest sheet viewed; Q3 vernier scale enlarged and viewed; zoom viewed for Q4 (arrow lengths measured on the scale diagram) and Q19; Q5 is identical to w13_12 Q5; Q29 to s23_11 Q27; Q34 to w11_12 Q36; Q36 to s12_11 Q36
+1 A 1.2 {F} a heavy ball falling a short distance has negligible air resistance, so its speed increases uniformly: a straight speed–time line through the origin (a straight distance–time line would mean constant speed; a levelling curve would mean terminal velocity)
+2 C 1.5.1+1.5.2 resultant force = 20 − 5.0 = 15 N; a = F ÷ m = 15 ÷ 5.0 = 3.0 m/s²
+3 B 1.1 {F} vernier reading = main-scale reading just before the vernier zero (6.5 cm) + the vernier division that lines up with a main-scale mark (5th = 0.05 cm) = 6.55 cm
+4 B 1.1 {F} the resultant of two forces drawn to scale is the diagonal of the parallelogram formed with the two force arrows as sides (drawn from the point where they act); it lies between the two forces, closer to the larger one
+6 B 1.3 mass is the property that measures a body's inertia (its resistance to a change in motion)
+7 D 1.4 {F} volume of the object = rise in the water level = 90 − 50 = 40 cm³; density = 100 ÷ 40 = 2.5 g/cm³
+8 A 1.5.5 a longer spanner gives a larger turning moment for the same force (moment = force × perpendicular distance from the pivot)
+9 A 1.5.6 {F} the most stable container has the widest base and the lowest centre of gravity (the conical flask, wide at the bottom and narrow at the top)
+10 C 1.5.3 below the limit of proportionality extension is proportional to load: 2 N gives 4 mm, so 5 N in total gives 10 mm; length = 1.000 + 0.010 = 1.010 m (use the total load and add the extension to the original length)
+11 D 1.7.1+1.7.3 hydroelectric power station: overall conversion of (gravitational) potential energy into electrical energy
+12 B X5 in fission, uranium splits into daughter products and releases energy; in fusion, hydrogen is converted into helium and releases energy
+13 C 1.7.4+1.7.5 useful power output = work ÷ time = 400 × 6.0 ÷ 20 = 120 W; efficiency = 120 ÷ 300 = 40 %
+14 D X1.8 {F} liquid pressure and depth
+15 C X2.2 evaporation
+16 B X2.1 liquid being heated
+17 C XOLD thermocouple
+18 C X2.2 {F} heating curve
+19 A X2.2 {F} bimetallic strip
+20 B X2.3 convection
+21 D 3.1 {F} reflection of water waves at a plane surface does not change their speed or their wavelength (or frequency)
+22 B 3.1 {F} the frequency is unchanged by refraction: f = v ÷ λ = 2 ÷ 1 = 2 Hz; in the shallow water v = fλ = 2 × 0.4 = 0.8 m/s
+23 D 3.2.3 {F} if the rays cross before reaching the screen, the image is formed in front of the screen; a lens of longer focal length (less converging) at the same position brings the image further from the lens and onto the screen
+24 D 3.2.4 {F} the deviation by a prism increases with frequency: red (lower frequency) is deviated least and blue (higher frequency) most; on a frequency axis red comes before blue
+25 D 3.3 electromagnetic waves are transverse and travel at 3 × 10⁸ m/s (in a vacuum)
+26 B 3.4 {F} sound travels faster in a solid (metal) than in air, so it arrives through the fence in less time than through the air
+27 A X4.1 {F} induced magnetism
+28 B X4.5 {F} loudspeaker
+30 B 4.2.3 electromotive force is the energy converted by a source in driving unit charge round a complete circuit
+31 C 4.2.4 {F} Ohm's law applies only over the straight-line part of the I–V graph through the origin (current proportional to p.d.)
+32 A X4.3 {F} adding an identical resistor in parallel leaves the p.d. across each resistor equal to the battery p.d. (3.0 V) and doubles the current from the battery (0.5 A in each branch, 1.0 A in the ammeter)
+33 D X4.4 energy = I²Rt
+35 D X4.5 {F} induced e.m.f.
+37 A XOLD {F} resistor colour code
+38 C X5 {F} deflection in a magnetic field
+39 D X5 half-life
+40 D X5 alpha scattering

@@ -1,0 +1,38 @@
+# P1 s11_12 | main sheets 1-3 and rest sheet viewed; Q1 is identical to w19_12 Q3; Q6 to w16_12 Q2; Q21 to w25_11 Q22
+2 C 1.1 vernier calipers measure an internal diameter of about 2 cm; a (metre) rule measures a length of about 80 cm
+3 B 1.5.4 {F} for motion in a circle at constant speed the resultant force points towards the centre of the circle (at right angles to the direction of travel)
+4 D 1.2 acceleration = change in speed ÷ time = 50 ÷ 10 = 5 m/s²
+5 B 1.2 {F} speed–time graph for a journey: rising section for the acceleration (first 10 s), horizontal section for steady speed (next 20 s), falling section to zero for braking (last 3 s) – match the times on the axis
+7 A 1.5.5 {F} to rebalance, the extra force must give an equal moment in the opposite sense: 60 × 30 = 1800 N cm; an upward force of 30 N at 60 cm on the same side as the load does this (30 × 60 = 1800)
+8 C 1.4 for the density of an irregular solid measure the mass on a top-pan balance and the volume by displacement of water in a measuring cylinder
+9 B 1.5.6 {F} centre of mass of a lamina: hang it freely with a plumb-line from one hole and mark the line, then repeat from a different hole; the centre of mass is where the lines cross
+10 A 1.7.1+1.7.3 {F} coal-fired power station (boiler → turbine → generator): chemical → heat → kinetic → electrical
+11 C X5 the source of the Sun's energy is nuclear fusion
+12 D X1.8 {F} liquid pressure
+13 B X1.8 {F} pressure and area
+14 C 1.7.4+1.7.2 efficiency = useful work done ÷ energy input = (1000 × 30) ÷ 60 000 = 0.50 = 50 %
+15 C 1.4+X2.2 when a fixed mass of air is heated and expands, its mass stays the same and its density (mass ÷ volume) decreases
+16 B X2.1 liquid model
+17 C X2.2 {F} specific heat capacity
+18 B X2.2 thermal expansion
+19 A XOLD thermometer linearity
+20 A 3.3 microwaves are used for cooking food
+22 D 3.1 {F} wavelength from the displacement–distance graph (2 cm) and period from the displacement–time graph (0.04 s): speed = wavelength ÷ period = fλ = 25 × 2 = 50 cm/s
+23 C 3.2.1 {F} law of reflection: angle of incidence = angle of reflection, both measured between the ray and the normal
+24 D 3.2.3 {F} a diverging lens forms a virtual image that is smaller than the object
+25 A X4.1 magnetic materials
+26 A 3.4 sound travels slowest in air (a gas) and fastest in steel (a solid)
+27 B 4.2.2+4.2.4 {F} I = V ÷ R = 5 ÷ 10 = 0.5 A; Q = It = 0.5 × 30 = 15 C
+28 A 4.2.4 the resistance of a metal wire decreases when its length decreases (or its thickness increases) and when its temperature falls
+29 C 4.2.1 charging a metal sphere by induction: bring the charged rod close, earth the sphere (touch it), remove the earth connection, then remove the rod
+30 D X4.4 E = VIt
+31 B 4.2.4+X4.3 {F} with the switch open two 3 Ω resistors are in series: I = 6 ÷ 6 = 1 A; closing a switch connected across one resistor short-circuits it: I = 6 ÷ 3 = 2 A
+32 C X4.4 {F} P = VI
+33 B X4.5 {F} a.c. generator output
+34 B X4.5 induced e.m.f.
+35 C X4.5 soft-iron core
+36 B X4.5 {F} forces between parallel currents
+37 A X4.6 {F} time-base
+38 D X5 decay equations
+39 A X5 isotopes
+40 B X5 half-life

@@ -1,0 +1,47 @@
+# P2 w14_22 | figs viewed: 1.1 (length 8.5 cm at 0 N, straight to P at 5.0 N, 17.5 cm, then curving up), 2.1 (handle, X 0.18 m from the axis), 3.1, 4.1, 7.1 (three 1.5 V cells in parallel; ammeter, 6.0 Ω and resistance wire in series), 9.1 (12 000 m/s to 10 s, curve, straight fall 20–30 s, curve to 2000 m/s, drop to zero at 40 s), 9.2, 10.1, 10.2 (parallelogram block with 45° corners, ray entering a slanting face at right angles) | not viewed: 5.1, 6.1, 8.1, 8.2
+1a | 1.5.3 | the point where a length-load line stops being straight and begins to curve is the limit of proportionality (not the breaking point) [B1]
+1bi | 1.5.3 | {F} unstretched length = length at zero load (the intercept on the length axis) = 8.5 cm [B1]
+1bii | 1.5.3 | {F} extension = length at that load − unstretched length = 15.7 − 8.5 = 7.1–7.3 cm [B1]
+1c | 1.5.3+1.3 | load for a given extension by proportion (below the limit): 4.0 × (2.7 ÷ 7.2) = 1.5 N, or read from the graph at length 11.2 cm [C1] ;; mass = W ÷ g = 0.15 kg (148–152 g) [A1]
+2ai | 1.5.5 | maximum moment = force × distance from the axis = 2.5 × 0.18 [C1] ;; 0.45 N m [A1]
+2aii | 1.5.5 | the moment is less than the maximum when the force is not applied at right angles to the handle [B1]
+2b | 1.5.5 | a longer handle needs a smaller force for the same moment (force inversely proportional to distance) [B1]
+3a | X2.1 | Boyle's law
+3bi | 1.4 | density = m ÷ V = 0.30 ÷ 9.0 × 10⁻³ [C1] ;; 33 kg/m³ [A1]
+3bii | 1.1 | weighing a heavy container is not an accurate way of finding the mass of its light contents: the mass of the gas is a small fraction of the total, which includes the cylinder [B1]
+4ai | X2.3 | thermal gain
+4aii | X2.3 | thermal loss
+4b | 1.7.1 | car accelerating up a hill: chemical energy (of the fuel) decreases [B1] ;; gravitational potential energy of the car increases [B1] ;; kinetic energy of the car increases [B1]
+5a | X2.2 | cooling curve
+5b | X2.2 | cooling curve
+5c | X2.2 | mL
+6a | X2.1 | molecular speed
+6bi | X2.2 | evaporation cooling
+6bii | X2.2 | evaporation rate
+7ai | 4.2.3 | cells in parallel rather than a single cell: lasts longer / if one fails the others still work / a cell can be replaced without switching off [B1]
+7aii | 4.2.3 | {F} p.d. across identical cells connected in parallel = e.m.f. of one cell = 1.5 V [B1]
+7bi | 4.2.4+X4.3 | {F} total resistance R = V/I = 1.5 ÷ 0.075 [C1] ;; 20 Ω [C1] ;; resistance of the unknown series component = total − known = 20 − 6.0 = 14 Ω [A1]
+7bii | 4.2.4 | metal wire heated: the ammeter reading decreases [B1] ;; because the resistance of the wire increases [B1]
+8a | X4.5 | generator parts
+8b | X4.5 | generator
+8c | X4.6 | time-base
+9a | 1.2 | uniform acceleration: the speed / velocity is changing [C1] ;; at a constant rate – (v − u) ÷ t is constant [A1]
+9b | 1.1 | a vector quantity has direction [B1]
+9ci | 1.2 | {F} on a speed-time graph: constant speed is the horizontal section [B1] ;; uniform deceleration is the straight downward-sloping section [B1] ;; non-uniform deceleration is a downward curve [B1]
+9cii | 1.2+1.5.1 | {F} deceleration = gradient of the straight section: two speed values read from it [C1] ;; with the two corresponding times, a = Δv ÷ t [C1] ;; 500 m/s² [A1] ;; F = ma = 8.4 × 500 [C1] ;; 4200 N [A1]
+9ciii | 1.5.2 | {F} gravitational force drawn from the object perpendicular to (towards) the Earth's surface [B1] ;; air resistance drawn opposite to the direction of travel [B1] ;; air resistance changes because the speed changes (or the density of the air / the object's cross-sectional area changes) [B1]
+9civ | 1.2 | speed falling suddenly to zero: the object hits the ground and stops [B1]
+10a | 3.3 | speed of light in air = 3.0 × 10⁸ m/s [B1]
+10bi | 3.2.2 | light entering glass: speed decreases [B1] ;; frequency does not change [B1] ;; wavelength decreases [B1]
+10bii | 3.2.2 | {F} angle of incidence marked between the incident ray and the normal [B1] ;; angle of refraction marked between the refracted ray and the normal [B1]
+10ci | 3.2.2 | sin i ÷ sin r = n [C1] ;; sin r = sin 89° ÷ 1.5 = 0.67 [C1] ;; r = 42° [A1]
+10cii | 3.2.2 | the angle of refraction in glass is always below 45° because the angle of incidence can never be bigger than 90° [B1] ;; so r cannot exceed sin⁻¹(1 ÷ 1.5) = 41.8°, the critical angle (r = 45° would need sin i greater than 1) [B1]
+10di | 3.2.2 | {F} light meeting a surface along the normal (angle of incidence 0°) [B1] ;; is not refracted (angle of refraction 0°) – the whole wavefront slows down together [B1]
+10dii | 3.2.2 | {F} inside the block the ray meets the surface at 45°, greater than the critical angle (42°): correct total internal reflection drawn at the first surface [M1] ;; a second correct reflection at the opposite surface, with no refraction at either point, before the ray leaves through the end face [A1]
+11a | X5 | isotope
+11bi | X5 | electrons
+11bii | X5 | neutrons
+11c | X5 | beta decay
+11di | X5 | half-life
+11dii | X5 | identifying beta
+11diii | X5 | random

@@ -1,0 +1,102 @@
+Record of the inspection by eye, written by the AI agent that built the bank. It describes the file
+physics_5054_past_paper_questions_with_ms.pdf with sha256 1c68400f822ce087 (first 16 digits), 4,358 pages.
+"Viewed" means: the page was rendered from the PDF on disk and the image was looked at.
+
+8.1 What was viewed
+  * Contact sheets of ALL 4,358 pages of the file described here (41 sheets of small page images written by
+    bverify.py), read at half size. Thin white strokes fade when a dark sheet is reduced, so the copies that were
+    read had been passed through a maximum filter and brightened before the reduction. Every page is black with
+    light print; no page is white or partly white; no picture was left black on white; no page is blank; the
+    landscape mark schemes stand upright; the front pages and the 27 title pages are in place.
+  * 59 pages at reading size (rendered at 97 dpi, landscape pages at 130 dpi):
+      front page, contents, first title page (3): 1-3
+      Paper 1, question with its answer line (13): 4, 228, 558, 1011, 1307, 2119, 2157, 2687, 2707, 2792, 2861, 3065,
+          3754
+      Paper 2, question pages (31): 233-234, 309, 369, 373, 472, 571, 710, 1185, 2358, 2645, 2790, 3067, 3292, 3362,
+          3409, 3680, 3809-3810, 3830, 4047-4048, 4067, 4138-4139, 4169-4170, 4310, 4320-4321, 4357
+      Paper 2, mark schemes on portrait pages (6): 3410, 3828, 4049, 4240, 4311, 4322
+      Paper 2, mark schemes on landscape pages (6): from source pages that carry a page rotation of 90 degrees:
+          303, 2836, 3811, 4140, 4171; from a landscape source page without rotation: 235
+    Chosen for: the first record (4) and the last (4357); the oldest papers (2004: 228, 1307, 3409-3410, 4357) and
+    the newest (2026: 4, 233-235, 4067, with the pale watermark of the download site); the Paper 1 page on which
+    the answer line stands lowest (2687); every page of the six records of the five EITHER/OR questions (3809-3811,
+    4047-4049, 4138-4140, 4169-4171, 4310-4311, 4320-4322); a scheme in small print at the end of a record of five
+    pages, the longest there is (3828); schemes that begin with the heading "SECTION B" (2836, 3410); photographs
+    and dark or shaded artwork (309, 369, 373, 558, 710, 1011, 2645, 2790, 3065, 3292, 3362, 3680), among them the
+    record pages that check B1 measures as the lightest (373, 3292, 3362, 3680, 710, 2790; pages 978, 1473 and 3485
+    show the pictures of 373 and 3292 under other subsections); a random sample of 16 pages (seed 5054: 303, 472,
+    571, 1185, 1307, 2119, 2157, 2358, 2707, 2792, 2861, 3067, 3754, 3830, 4067, 4240).
+    On all of them the question or scheme is complete, upright and white on black, the print is sharp, the header
+    names the right paper and question, and the scheme follows its question. On the Paper 1 pages the line
+    "Answer: X" stands below the question, under a bar that names the mark scheme file, its page and the question;
+    on 2687 it stands clear of the page footer. The EITHER/OR records show both alternatives and both schemes, and
+    their header says so.
+  * Paper 1 answers against the printed key. For 12 further records chosen at random (seed 5054; pages 184, 215,
+    626, 712, 1280, 1587, 1821, 2446, 3062, 3401, 3492, 3755) the header and the answer line of the bank were put
+    beside the answer key of the source mark scheme, rendered as printed, with the row of the question marked. The
+    letter is the same in all 12. (Check C3 makes this comparison for all 1,723 records by reading the words of the
+    row from the source PDF.)
+  * The bookmarks: the first 34, the last three of subsection 1.1, the first three and the last three of
+    subsection 1.2 and the last three of the file were read. They run from May/June 2026 down to May/June 2004,
+    October/November before May/June of the same year.
+  * The PDF copies of the reports, white on black: tracker pages 1, 2 and 150, exclusions pages 1 and 8, audit
+    pages 1 and 7.
+
+8.2 Pictures and headers are those of the file inspected before
+  * The black-on-white file of commit f410326 (sha256 1c4c44d6e6440b49, 4,358 pages) was inspected in more detail:
+    its 41 contact sheets were read, 83 pages were viewed at full size (of 20 of them the upper part) and 4 at
+    62 % size, and the six cut lines that carry ink (check B6) and the two cut lines that a stroke touches (V7,
+    V11) were viewed enlarged beside their source pages. The record of that inspection is part 8 of the audit file
+    of that commit.
+  * tools/bank/bneg.py read both files back from disk and compared them:
+      - each of the 3,218 distinct pictures of the file described here is, pixel for pixel, the negative of a
+        picture of that file;
+      - each of the 2,709 records holds, page by page and from top to bottom, the pictures it held there. Only the
+        last picture of each of the 1,723 Paper 1 records is gone: the row of the answer key, which is text now;
+      - the text that the bank prints on the pages of the 986 Paper 2 records (header, source bars, footer) is
+        word for word the same, apart from the number of the record and of the page. On the pages of the 1,723
+        Paper 1 records the label "QUESTION and ANSWER" stands for "QUESTION and MARK SCHEME" and the line
+        "Answer: X" is new; nothing else differs.
+  * So no crop and no header changed with the colours and the order, and what was corrected after the earlier
+    inspections is still as corrected: the marks and the remark of the EITHER/OR questions, the names of the parts
+    in the header, the heading "SECTION B" kept with Question 9, three pictures with hatching, two pictures that
+    were cut at the page footer, header lines no longer shortened. The cut lines of B6, V7 and V11 were not viewed
+    again for this file.
+
+8.3 Observations that are not defects
+  * Photographs and filled or shaded drawings are negatives. Large light areas are artwork that is black in print:
+    373, 978 and 1473 (astronaut in space, 5054_w17_qp_22 p. 13), 558 (5054_s24_qp_12 p. 3), 3362
+    (5054_s13_qp_22 p. 6), 3292 and 3485 (X-ray image of a hand, 5054_s20_qp_21 p. 17: the bones, light in
+    print, are dark here). The man in the lift (309, 5054_w21_qp_21 p. 4) is a black figure in print and a white
+    one here.
+  * The tones of a shaded drawing are reversed, and the wording of a question is not. Seen on 4067
+    (5054_s26_qp_21 p. 13, viewed beside the source page): the question says that the inside surface of a lamp
+    "darkens"; the darkened part of the drawing is the lighter part here. Part 9 names the pages where the
+    inversion shows most.
+  * The watermark of the download site in the papers of 2026, pale grey in print, is a dark grey here (4, 233-235,
+    4067).
+  * Page furniture inside pictures (described with counts in the exclusions file, part D2): the heading of a
+    section above its first question (369, 373, 1185, 3409; in a scheme 2836, 3410); the page number in a Paper 2
+    paper of 2004 (4357); the column "For Examiner's Use" (3362, 4310, 4357); the vertical notice "DO NOT WRITE IN
+    THIS MARGIN", which is cut where a picture ends (233, 234, 3067, 4067).
+
+8.4 Defects found while the colours were changed, and corrected
+  * A test build of 60 records failed check B4 on 66 pages: the black background ended exactly on the page edge
+    and the rendered page kept light pixels along its border. The background is now drawn 20 pt beyond the page on
+    all sides. B4 passes on all 4,358 pages of the file described here.
+  * The PDF copies of the audit and of the exclusions were first set, white on black, in the regular cut of their
+    typewriter font. Its thin strokes are dim on black. Both cuts were viewed side by side, and the two PDFs are
+    now set in the bold cut.
+  * The exclusions file said that the notice "DO NOT WRITE IN THIS MARGIN" is in the papers of 2025 and 2026.
+    Page 3067 shows it in a paper of October/November 2024. The file now names the papers that carry the notice,
+    found by searching the text of all Paper 2 question papers.
+  * The inspection by eye of the bank found no defect in its pages.
+
+8.5 Not inspected by eye
+  * 4,299 of the 4,358 pages were seen only as small images on the contact sheets (of 12 of them also the header
+    and the answer line). At that size one can see that a page is complete, upright and white on black, but not
+    read it. That every picture shows exactly its region of the source page, that every line of every question and
+    scheme lies in a picture, and that every answer letter is the letter of the key, rests on the automated checks
+    of parts 4 and 5.
+  * Of the report PDFs, only the pages named in 8.1.
+  * Whether each question is filed under the best subsection was not reviewed again in this inspection.

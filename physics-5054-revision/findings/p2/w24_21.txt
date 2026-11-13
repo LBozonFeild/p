@@ -1,0 +1,41 @@
+# P2 w24_21 | figs viewed: 1.1, 4.1 (prism: R above V on screen, P just beyond R), 7.1, 7.2 (blank I-V axes)
+1a | 1.4 | m = ρV = 650 × 0.0012 = 0.78 kg [C1] ;; add the other mass: combined mass = 0.98 kg [A1]
+1bi | 1.5.3 | F = kx (spring constant × extension) = 14 × 0.035 [C1] ;; 0.49 N [A1]
+1bii | 1.7.2 | W = F × distance moved = 0.49 × 0.86 [C1] ;; 0.42 J [A1]
+1biii | 1.7.5 | constant force, increasing speed: the distance moved in one second / unit time increases as the speed increases [B1] ;; so the work done in one second / unit time (the power) increases [B1]
+2ai | 1.7.1 | GPE = mgh = 0.20 × 9.8 × 40 [C1] ;; 78 J [A1]
+2aii | 1.7.1 | KE = ½mv² (set equal to the GPE lost) [C1] ;; v² = 2gh = 2 × 9.8 × 40 = 784 [C1] ;; 28 m/s [A1]
+2bi | X2.2 | Δθ = ΔE/mc = 0.28 °C
+2bii | 1.7.1 | why the temperature rise is less than calculated, any one: some (thermal) energy is transferred to the ground; work is done deforming the clay; air resistance / work done against it means the speed / k.e. is less than calculated [B1]
+3a | X2.3 | conduction in metals by electrons
+3bi | X2.1 | particle speed increases
+3bii | X2.1 | gas pressure and temperature
+3ci | X2.1 | fewer collisions
+3cii | X1.8 | pressure equals atmospheric
+4a | 3.2.4 | {F} dispersion by a prism: at least one ray refracted correctly at both faces (towards the normal on entering, away on leaving) and no incorrect rays [B1] ;; two separate rays inside the glass from the point of entry, red deviated less ending at R and violet deviated more ending at V [B1]
+4b | 3.2.4 | both red and violet light travel more slowly in glass than in air [B1] ;; red light travels more quickly than violet light in glass (violet slowed more, refracted more) [B1]
+4ci | 3.2.4 | any four of the five colours in order, or all five in any order [C1] ;; red, orange, yellow, green, blue, indigo, violet in the correct order [B1]
+4cii | 3.2.4+3.3 | from red to violet the frequency increases and the wavelength decreases (both needed) [B1]
+4d | 3.3 | {F} radiation detected just beyond the red end of the visible spectrum: infrared [B1]
+5a | 3.4 | ultrasound / sound is transmitted by vibrating matter / particles [B1] ;; there is no matter / no particles / no medium in a vacuum [B1]
+5b | 3.1 | longitudinal wave: vibration (of particles) is parallel to the direction of propagation [B1] ;; transverse wave: vibration is perpendicular to the direction of propagation [B1]
+5ci | 3.1+3.4 | λ = v/f = 1500 ÷ 8.4 × 10⁶ [C1] ;; 1.8 × 10ᴺ – correct figures, power of ten wrong (MHz = 10⁶ Hz) [C1] ;; 1.8 × 10⁻⁴ m [A1]
+5cii | 3.1 | wave enters a medium where it travels faster: frequency does not change [B1] ;; wavelength increases [B1]
+6a | X4.1 | steel magnet
+6b | X4.1 | field pattern bar magnet
+6ci | X4.1 | forces on poles
+6cii | X4.1 | magnet rotates to align
+7ai | X4.4 | I = P/V = 2.0 A
+7aii | 4.2.4 | R = V/I = 12 ÷ 2.0 [C1] ;; 6.0 Ω [A1]
+7bi | 4.2.4 | {F} circuit to obtain a current-voltage graph for a lamp: variable resistor in series with battery and lamp [B1] ;; ammeter in series with the lamp and voltmeter across the lamp [B1] (alternative route: correctly connected potential-divider circuit (B1) with ammeter in series with lamp and voltmeter across lamp (B1))
+7bii | 4.2.4 | {F} current-voltage graph for a filament lamp: curved line starting at the origin with gradient never negative [M1] ;; curve of decreasing gradient, gradient always greater than zero (never flat or falling) [A1]
+7biii | 4.2.4 | resistance of a filament lamp increases as the voltage increases [B1] ;; because the temperature increases / filament gets hot, or the particles / ions vibrate more vigorously and impede the electron flow [B1]
+8a | X5 | alpha needs 4 nucleons
+8bi | X5 | beta decay equation
+8bii | X5 | helium
+8ci | X5 | half-life
+8cii | X5 | random decay
+9ai | X6 | fusion
+9aii | X6 | stable star
+9bi | X6 | hydrogen runs out
+9bii | X6 | supernova

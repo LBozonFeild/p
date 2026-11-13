@@ -1,0 +1,37 @@
+# P1 w10_12 | main sheets 1-3 and rest sheet viewed; Q4 vernier scale enlarged twice and viewed; zoom viewed for Q36; Q1 is identical to w17_12 Q1; Q13 to s26_11 Q20; Q17 to s21_12 Q20; Q27 to s15_12 Q31
+2 C 1.2 {F} speed–time graph for a dropped object that hits the ground without rebounding: a straight line rising from the origin (constant acceleration), then a sudden vertical drop to zero speed
+3 D 1.5.2 pressing the brake pedal harder changes the braking force, the braking distance and the stopping distance, but not the thinking distance (which depends on reaction time and speed)
+4 C 1.1 {F} zero error of vernier calipers with the jaws closed: read the main scale just before the vernier zero (0.1 cm) and add the vernier division that lines up with a main-scale mark (4 → 0.04 cm), giving 0.14 cm
+5 B 1.2 {F} ticker-tape: dots are far apart when the tape moves quickly and close together when it moves slowly (equal time intervals between dots)
+6 C 1.5.1 {F} constant height means no vertical resultant (lift = weight); gaining speed means a forward resultant (thrust > air resistance)
+7 D X1.8 {F} pressure = force ÷ area
+8 B 1.5.6 the stability of an object depends only on its base area and the position of its centre of mass
+9 A 1.3 mass = weight ÷ g = 600 ÷ 10.00 = 60.0 kg and is unchanged; weight at the top = 60.0 × 9.97 = 598 N
+10 A X1.8 {F} liquid pressure and depth
+11 B 1.4 {F} volume of the object = volume of the box − volume of air left = 1000 − 520 = 480 cm³; mass = density × volume = 8.00 × 480 = 3840 g
+12 A 1.5.5 {F} the weight of a uniform rule acts at its mid-point (50 cm mark); moments about the pivot at the 10 cm mark: 4 × 10 = W × 40, so W = 1 N
+14 C X2.2 evaporation
+15 D X2.2 {F} cooling curve
+16 D X2.3 convection from expansion
+18 B 1.7.4 efficiency = energy output ÷ energy input; only 6 ÷ 30 = 0.2 fits its row
+19 D XOLD mass–energy equivalence E = mc²
+20 A 1.7.1 {F} gravitational potential energy is greatest at the highest point of the track (the point of release)
+21 C 3.4 distance = speed of sound × time between the flash and the thunder = 340 × 1.70 = 578 m (light arrives almost instantly)
+22 B 3.3 all electromagnetic waves (e.g. gamma-rays and infra-red) travel at the same speed in air
+23 A 3.2.2 sin r = sin i ÷ n = sin 45° ÷ 1.5, r = 28°
+24 D 3.2.3 the image formed by a diverging lens is virtual, upright and diminished
+25 D 3.1 {F} reflection does not change the speed or the wavelength of a wave (the frequency is also unchanged)
+26 B X4.4 earthing
+28 A 4.2.2 {F} an electron has a negative charge; electrons flow round the circuit from the − terminal to the + terminal (opposite to conventional current)
+29 B 4.2.1 {F} charging by induction with a negative sphere: earthing the uncharged sphere lets electrons be repelled to earth; after the earth is removed and the charged sphere taken away, the sphere is left with a positive charge spread evenly over it
+30 B 4.2.3+4.2.2+1.7.5 {F} energy = power × time = 24 × 60 = 1440 J; p.d. = energy ÷ charge = 1440 ÷ 120 = 12 V (or I = Q ÷ t = 2 A, V = P ÷ I = 12 V)
+31 B X4.3 {F} resistors in parallel
+32 A X4.5 {F} force on an electron beam
+33 D X4.5 power transmission
+34 A X4.5 motor turning effect
+35 A X4.5 {F} relay alarm
+36 D X4.5 {F} force between parallel currents
+37 B X4.5 {F} a.c. generator
+38 C X5 half-life
+39 A X5 {F} absorption of alpha-particles
+40 A X5 electrons in an atom

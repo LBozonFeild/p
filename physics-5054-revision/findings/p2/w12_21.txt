@@ -1,0 +1,45 @@
+# P2 w12_21 | figs viewed: 3.1 (load lifted 2.8 m), 5.1 (scale 1:8; straight wavefronts in deep water, closer and turned in the shallow region), 6.1 (pupil's list: gamma-rays, X-rays, ultrasound, microwaves, infra-red waves, radio waves in order of "increasing wavelength"), 8.1 (600 Ω and thermistor in series across 20 V, voltmeter across the 600 Ω), 9.1, 11.1 (positive cloud base above a tree), 11.2 (upper plate connected to negative terminal) | not viewed: 2.1, 2.2, 3.2, 7.1, 7.2, 10.1, 10.2
+1a | 1.5.1+1.5.2 | falling at constant velocity: the resistive (drag) force equals the weight, 950 N [B1] ;; and acts upwards [B1]
+1b | 1.1 | adding two perpendicular velocities graphically: correct rectangle with its diagonal, or triangle, with at least one velocity labelled [B1] ;; resultant 7.8–8.0 m/s (√(6.5² + 4.5²) = 7.9 m/s) [B1] ;; scale stated [B1]
+2ai | XOLD | linear output
+2aii | XOLD | thermocouple interpolation
+2b | XOLD | thermometer choice
+3ai | 1.7.2+1.7.1 | {F} work done lifting a load = mgh = 54 × 10 × 2.8 [C1] ;; 1510 J [A1]
+3aii | 1.7.5 | useful output power = work done ÷ time = 1512 ÷ 3.0 [C1] ;; 504 W [A1]
+3b | 1.7.4 | electrical power supplied is greater than the useful output power, any two: the board / rope is lifted as well; heat is produced in the motor / wires; friction (at the axle, with the air) [B2]
+3ci | 4.2.2+4.2.3 | circuit to find the power supplied to a motor: power supply, motor and ammeter in series [B1] ;; voltmeter connected across the motor [B1]
+3cii | X4.4 | P = VI
+4a | 1.4 | mass of liquid m = density × volume = 740 × 30 = 22 200 kg [C1] ;; total mass = 22 200 + 2800 = 25 000 kg [A1]
+4b | 1.5.1 | deceleration a = F/m using the total mass = 30 000 ÷ 25 000 [C1] ;; 1.2 m/s² [A1]
+5ai | 3.1 | {F} wavelength from a scale diagram: measure across several wavelengths and divide (about 1.30–1.45 cm on the diagram) [B1] ;; multiply by the scale factor (× 8): 10.7–11.3 cm [B1]
+5aii | 3.1 | v = fλ = 3.6 × 11 [C1] ;; 40 cm/s [A1]
+5bi | 3.1 | water wave passing into shallow water: frequency stays the same [B1]
+5bii | 3.1 | its speed decreases [B1]
+6a | 3.3 | {F} errors in a list of the electromagnetic spectrum, any three: infrared and microwaves are in reversed order (infrared has the shorter wavelength); visible light is omitted; ultraviolet is missing; ultrasound is not an electromagnetic wave [B3]
+6b | 3.3 | use of X-rays in engineering (not a medical use): detecting cracks in metal / checking welds [M1] ;; more X-rays pass through the crack or poor weld, giving an image on film / a screen [A1] ;; alternatives: airport or border security (M1) – contents of luggage revealed (A1); crystallography (M1) – pattern of atoms revealed (A1)
+7a | X4.5 | solenoid field
+7bi | 4.2.2 | conventional current is in the opposite direction to the movement of negative particles (beta-particles / electrons) [B1]
+7bii | X5 | beta deflection
+8ai | 4.2.4 | {F} voltmeter across the fixed resistor reads V = IR = 0.025 × 600 [C1] ;; 15 V [A1]
+8aii | 4.2.4+X4.3 | p.d. across the series component = supply p.d. − 15 = 5.0 V; R = V/I = 5.0 ÷ 0.025 (or total 20 ÷ 0.025 = 800 Ω, minus 600 Ω) [C1] ;; 200 Ω [A1]
+8bi | X4.3 | thermistor resistance
+8bii | X4.3 | meter readings
+9ai | X1.8 | ρgh
+9aii | X1.8 | total pressure
+9bi | X1.8 | F = PA
+9bii | X1.8 | hatch force
+9ci | 3.4 | ultrasound: a sound (pressure) wave [B1] ;; with a frequency above 20 kHz – beyond human hearing [B1]
+9cii | 3.4 | transmission of ultrasound through water: the water molecules vibrate / oscillate [B1] ;; they collide with neighbouring molecules [B1] ;; passing on the vibration (energy) – a longitudinal wave of compressions and rarefactions [B1]
+9ciii | 3.4 | to find the distance of an obstacle from the echo time, the speed of ultrasound in the water must be known [B1] ;; distance = speed × time ÷ 2 [B1]
+9civ | 3.4 | other uses of ultrasound: cleaning, quality control / detecting cracks, pre-natal scanning, breaking kidney stones, detecting shoals of fish [B1]
+10a | X2.2 | mcΔT
+10bi | 1.7.5 | average rate of release of energy = energy ÷ time = 2.2 × 10⁷ ÷ (7.0 × 3600) [C1] ;; 870 W (870 J/s) [A1]
+10bii | X2.3 | rate of heat loss
+10c | X2.3 | convection
+10d | X2.3 | insulation
+11ai | 4.2.1 | {F} object below a positively charged cloud: negative charges marked on it [B1]
+11aii | 4.2.1 | it becomes charged because electrons (negative charges) are attracted by the positive cloud [B1] ;; the electrons come up from the ground (charging by induction) [B1]
+11aiii | 4.2.2+4.2.1 | number of electrons = total charge ÷ charge on one electron = 560 ÷ 1.6 × 10⁻¹⁹ [C1] ;; 3.5 × 10²¹ [A1] ;; I = Q/t = 560 ÷ 2.0 × 10⁻⁴ [C1] ;; 2.8 × 10⁶ A [A1]
+11bi | 4.2.1 | {F} electric field between parallel charged plates: at least four straight lines perpendicular to the plates [B1] ;; equally spaced (curved only at the edges) [B1] ;; arrows from the positive plate to the negative plate [B1]
+11bii | 4.2.1 | charged droplet accelerating towards the negative plate: the droplet is positively charged [B1] ;; so there is a force on it in the direction of the field (attraction to the negative plate) [B1] ;; this force is greater than its weight, so there is a resultant upward force [B1]
+11biii | 4.2.1 | on touching the negative plate the droplet becomes negatively charged [C1] ;; because it gains electrons from the plate [A1]

@@ -1,0 +1,37 @@
+# P1 s04_1 | key taken from page 3 of the combined mark scheme 5054_s04_ms.pdf; main sheets 1-3 and rest sheets 1-2 viewed; zoom viewed for Q8, 22, 23; Q9 is identical to w07_1 Q8; Q21 to w11_12 Q20; Q34 to s24_11 Q36; Q39 to w08_1 Q40
+1 A 1.1 choose the instrument to suit the size: a metre rule for a length of about 80 cm and a micrometer for a diameter of about 0.2 cm (2 mm)
+2 A 1.2 acceleration = change in velocity ÷ time taken
+3 C 1.2 {F} distance travelled while the speed is increasing = area under that part of the speed–time graph = ½ × 20 × 10 = 100 m
+4 D 1.3 gravitational field strength = weight ÷ mass
+5 C 1.4 {F} volume of the ball = rise in the water level = 40 − 30 = 10 cm³; mass = increase in the balance reading = 180 − 100 = 80 g; density = 80 ÷ 10 = 8.0 g/cm³
+6 D 1.5.1 Newton's third law: to every action there is an equal but opposite reaction
+7 C 1.5.2 oil reduces the friction between the tyres and the road, so the car takes longer to slow down (the braking distance increases; the driver's thinking distance is unchanged)
+8 A 1.5.5 {F} moment of a force about a pivot = force × perpendicular distance from the pivot to the line of action of the force (F × d), not the distance along the pole, up the wall or along the chain
+10 A 1.1 {F} the resultant of two forces acting at a point is the diagonal of the parallelogram (rectangle) drawn from that point, with its arrow pointing away from the point
+11 C XOLD mass–energy equivalence
+12 B 1.7.4 efficiency = useful energy output ÷ total energy input = (60 − 45) ÷ 60 = 25 % (useful output = input − wasted)
+13 A 1.7.3+1.7.1 coal-fired power station: chemical → heat → kinetic → electrical
+14 A X1.8 {F} pressure = weight of block ÷ contact area
+15 D X1.8 {F} manometer
+16 B X2.1 liquid being heated
+17 B XOLD {F} thermometer sensitivity and range
+18 B X2.3 {F} silvering of a vacuum flask
+19 D 3.1 {F} when a water wave moves into shallower water its wavelength is reduced because only its speed decreases; the frequency does not change
+20 C 3.2.1 {F} for a plane mirror the angle of incidence equals the angle of reflection, both measured between the ray and the normal (not between the ray and the mirror), and the image is as far behind the mirror as the object is in front
+22 D 3.2.3 {F} for an object closer to a converging lens than the principal focus, the refracted rays diverge and never meet; traced back they appear to come from a virtual, upright, enlarged image on the same side as the object, further from the lens than the object
+23 C 3.2.4 {F} dispersion by a prism begins at the first face (the colours separate inside the glass) and increases at the second face; red is deviated least and violet most
+24 A 3.4 {F} sound is a longitudinal wave: in one period (1/200 s for 200 Hz) an air molecule moves forwards and back again along the direction in which the sound travels; it does not travel along with the wave
+25 C X4.1 attraction does not prove magnetism
+26 B X4.1 {F} soft magnetic core
+27 B 4.2.1 {F} a positively charged cloud induces a negative charge on a tree beneath it: negatively charged particles (electrons) are attracted up the tree from the ground
+28 D 4.2.3 {F} the potential difference between two points is the work done in driving unit charge between them
+29 B X4.3 {F} series and parallel combinations
+30 A X4.4 {F} switch in the live wire
+31 B X4.5 {F} force on an electron beam
+32 D X4.5 {F} induced current direction
+33 D X4.5 {F} generator speed doubled
+35 C X4.5 transmission
+36 A X4.3 {F} variable potential divider
+37 A XOLD {F} capacitor charging
+38 D X5 {F} deflection in a magnetic field
+40 B X5 {F} half-life from a graph

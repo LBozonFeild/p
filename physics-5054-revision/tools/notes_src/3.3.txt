@@ -1,0 +1,87 @@
+ORDER A B S C X D E Z
+== A | The regions of the electromagnetic spectrum in order | spectrum|order|wavelength|frequency|regions|components|infrared|ultraviolet|gamma|radiation | 7
+- The seven regions in order of increasing wavelength (decreasing frequency): gamma rays, X-rays, ultraviolet, visible light, infrared, microwaves, radio waves. Typical credit: some of the missing regions named correctly (C1 or one mark each); all in the correct order (A1).
+- Changes across the spectrum from radio waves to gamma rays (any two): the wavelength decreases; the frequency increases; the energy / ionisation / damage increases. "Radio has the largest wavelength" and "gamma has the highest frequency" are accepted; saying that the speed changes contradicts; both trends stated with the direction reversed scores 1 mark only.
+- Gamma rays have the greatest frequency and the smallest wavelength.
+- Regions with wavelengths shorter than ultraviolet: X-rays and gamma rays. Shorter than violet light (frequencies greater than visible light): ultraviolet, X-rays and gamma rays.
+- Between visible light and microwaves: infrared. Between gamma rays and ultraviolet: X-rays.
+- The invisible radiation just beyond the red end of the visible spectrum is infrared and just beyond the violet end is ultraviolet (both needed where both are asked).
+- Infrared falls beyond the red end, on the side away from the violet (deviated less than red) (B1); a blackened thermometer bulb detects it because black surfaces are good absorbers of infrared (B1).
+- The three regions emitted most by the Sun: infrared, visible light and ultraviolet (B1) – this is the order of increasing frequency (B1).
+- Red has the largest wavelength of the visible colours; blue light has a shorter wavelength and a higher frequency than red light.
+- Errors to look for in a list of the spectrum: infrared and microwaves reversed (infrared has the shorter wavelength); visible light or ultraviolet omitted; ultrasound included – it is not an electromagnetic wave.
+- X-rays belong to the electromagnetic spectrum.
+- A wavelength just longer than that of red light (7.0 × 10⁻⁷ m) is infrared; the wavelength of maximum brightness is read from the peak of an intensity–wavelength graph.
+* X-rays and microwaves are electromagnetic waves; sound, ultrasound and water waves are not.
+* Infrared, microwaves and radio waves have longer wavelengths than visible light; ultraviolet, X-rays and gamma rays have greater frequencies.
+== B | Properties common to all electromagnetic waves | propert|common to|similarit|transverse|vacuum|same speed|travel | 6
+- Properties common to all electromagnetic waves (any two): they travel at the same (high) speed in a vacuum – the speed of light; they can travel through a vacuum (need no medium); they are transverse; they are oscillating electric and magnetic fields; they transfer energy; they can be reflected, refracted and diffracted (counts once only). "No mass" and "no charge" are ignored.
+- Similarities between infrared and microwaves, besides being electromagnetic (any two): the same speed in a vacuum; can travel in a vacuum; travel in straight lines; can be reflected / refracted / diffracted; carry energy / cause heating; transverse; both have a longer wavelength (lower frequency) than visible light. A difference: the wavelength or frequency – infrared has the shorter wavelength and higher frequency.
+- A light wave is electromagnetic and transverse, not longitudinal.
+- Energy from the Sun reaches the Earth as electromagnetic radiation – infrared, light or ultraviolet (B1) – which travels through a vacuum and needs no medium, whereas conduction and convection need a medium (B1).
+- Thermal radiation is energy transmitted by electromagnetic (infrared) waves, which can travel through a vacuum (B1); infrared has a wavelength just longer than visible light, between visible light and microwaves (B1). It is produced by hot objects.
+* All electromagnetic waves travel at the same speed in a vacuum (and in air); they differ in frequency and wavelength and most cannot be seen.
+* Infrared is an invisible transverse electromagnetic wave that travels at the speed of light, can travel in a vacuum and through gases, is not ionising and has a lower frequency than ultraviolet.
+== S | The speed of electromagnetic waves; calculations | 3\.0 × 10⁸|3 × 10⁸|distance ÷ speed|speed × time|[fλ] = [vc]\s*[/÷]|speed of light|equal speeds | 5
+- The speed of light – of all electromagnetic waves – in a vacuum is 3.0 × 10⁸ m/s, and it is approximately the same in air (B1 when the value is asked for).
+- Blue and red light have equal speeds in a vacuum.
+- f = v/λ (f = c/λ) or λ = v/f with v = 3.0 × 10⁸ m/s (C1); answer (A1). In three-mark versions the correct figures with any power of ten earn a C1.
+- Inside a medium use the speed in that medium: λ = v/f with the reduced speed.
+- Time = distance ÷ speed with consistent units – the distance in metres when the speed is in m/s (C1, C1, A1).
+- Reflected signals (radar, pulses to the Moon or a satellite): distance = speed × half the there-and-back time (C1, A1).
+* Radio waves have the longest wavelengths and the lowest frequencies; gamma rays have the shortest wavelengths.
+* The speed of light in air is about 10⁶ times the speed of sound in air (3 × 10⁸ ÷ 330).
+== C | Uses of each region | \buse|used|sunbed|sun-bed|remote control|cooking|steril|fluorescen|intruder|optical|thermometer|detected just beyond|detected with | 4
+- A component of the spectrum named with a matching use (B1 for the component, B1 for its use): microwaves – satellite television, mobile phones, cooking, radar; X-rays – medical or security imaging, killing cancerous cells, detecting cracks in metal; gamma rays – killing cancerous cells (radiotherapy), sterilisation, tracers, detecting cracks.
+- Ultraviolet (one use): security marking / detecting counterfeit bank notes; sterilising water / disinfection / sterilising medical equipment; fluorescence (fluorescent tubes, fingerprints, body fluids); sun tanning / sunbeds; cancer treatment; curing inks and resins (dental fillings); production of vitamin D.
+- A fluorescent coating gives out visible light (B1) when ultraviolet radiation falls on it (B1).
+- Infrared: television remote controllers – the infrared signal is emitted by the controller and received at the set (B1); the signal is encoded and decoded by the set (B1). Infrared is also the other electromagnetic radiation used in optical (glass) fibres.
+- Infrared in intruder alarms: the intruder, a warm body, emits infrared (B1), which is detected by a sensor – or an infrared beam is broken or reflected by the intruder and the change is detected (B1).
+- A remote control for a television emits infrared; a radioactive source emits gamma rays.
+- A container for microwave cooking must let microwaves pass through it – it must not absorb or reflect them.
+- X-rays in engineering (a non-medical use): detecting cracks in metal / checking welds (M1) – more X-rays pass through the crack or poor weld, giving an image on film or a screen (A1). Alternatives: airport or border security (M1), the contents of luggage are revealed (A1); crystallography (M1), the pattern of atoms is revealed (A1).
+- Statements to judge correctly: gamma rays are used to kill cancerous cells but can also cause cancer; sunbeds use ultraviolet, not infrared; radio waves have the lowest frequency; the higher the frequency the smaller the wavelength.
+* Radio waves: radio and television communications. Microwaves: cooking, satellite television, mobile phones. Infrared: remote controllers, grills and toasters, intruder alarms, thermal imaging.
+* Ultraviolet: sunbeds, sterilising water and surgical instruments. X-rays and gamma rays: killing cancerous cells and detecting cracks in metals; X-rays also medical imaging. Prenatal scanning uses ultrasound, which is not electromagnetic.
+== X | X-ray images | X-ray imag|image of a (broken )?bone|shadow image|make the image darker | 2
+- X-rays are directed towards the part of the body being examined (B1); they pass through flesh (soft tissue absorbs only some) but are absorbed by bone – not reflected (B1); they are detected photographically or by a digital / electronic (CCD or CMOS) detector, or a fluorescent screen, placed behind the patient (B1).
+- A shadow image of the bones is formed: the X-rays travel in straight lines and affect the detector (blacken the film); where more X-rays reach the detector the image is blacker; little or no exposure shows where the bone is, and exposure within it shows the break (B1).
+- Dental X-ray image (any two): X-rays pass through the spaces and make the image dark; most or all X-rays are absorbed by the teeth, which appear white; X-rays are partially absorbed by tissue, which appears grey. Answers in terms of X-rays being reflected score at most 1.
+- Other medical applications credited: gamma rays or X-rays absorbed by a tumour destroy it; ultraviolet, X-rays or gamma rays kill bacteria (sterilisation). The health risk asked for with them: ultraviolet damages eyes and causes skin cancer; X-rays and gamma rays cause cancer / radiation sickness.
+== D | Harmful effects of electromagnetic radiation | cancer|damag|ionising|ionisation|harm|burns|unborn|pre-natal|escaping | 3
+- X-rays are not used on an unborn child (for pre-natal scanning) because they may cause cancer / cell mutation / birth defects / miscarriage – they are ionising and kill cells. Also accepted: they show bone structure rather than the development of the foetus.
+- Damaging effect of ultraviolet on the body: skin cancer / cataracts (B1); the property that causes it: ultraviolet radiation is ionising (B1). Damage to the eye: cataracts, or burning / destroying the retina or cornea.
+- A microwave oven switches off when its door is opened to prevent microwaves escaping (B1); microwaves can cause burns / damage living tissue through internal heating (B1).
+* Ultraviolet and gamma rays are ionising; radio waves and infrared are not.
+== E | Communication with satellites | satellite | 1
+- Satellite television and satellite communication use microwaves (one scheme also allowed radio waves).
+- Satellite television: the encoded microwave signal is transmitted from Earth to the satellite (B1); the satellite transmits microwaves back to Earth, to a dish or antenna (B1).
+- Fuller version (any three): the signal is encoded on the microwaves; it is sent from a transmitter (dish) on Earth to the satellite; the microwaves travel through space (a vacuum) and pass through the atmosphere; the satellite amplifies (boosts) the signal; and transmits it back; it is received by a satellite dish on Earth.
+- Only electromagnetic waves can reach a satellite, because they can travel through a vacuum (space).
+- Advantage of satellite transmission: it covers a large area, beyond the horizon, with only one transmitter and less ground-based equipment; it is not obstructed by hills or tall buildings.
+- Time for a signal to go up to a satellite and down again: t = distance ÷ speed (C1); distance = 2 × the height, in metres (C1); answer (A1).
+- Advantage of using satellites for communication: greater coverage with less ground-based equipment and less obstruction (B1).
+* Microwaves are used because they pass through the atmosphere without significant loss of energy; they have shorter wavelengths than radio waves and the same speed in a vacuum. Telephone signals are also sent to and from satellites by microwaves.
+== Z | Other points
+MOVE s26_21|4a|B
+MOVE w11_22|4d|B
+MOVE s24_12|MCQ22|B
+MOVE s16_11|MCQ18|B
+MOVE w21_21|3bi|B
+MOVE s18_12|MCQ30|B
+MOVE w24_11|MCQ27|B
+MOVE s26_22|5c|A
+MOVE w24_12|MCQ23|A
+MOVE w24_21|4d|A
+MOVE w16_22|10ciii|A
+MOVE w17_12|MCQ24|A
+MOVE s18_21|9a|C
+MOVE w16_11|MCQ28|C
+MOVE s23_22|7aii|C
+MOVE s20_22|5a|C
+MOVE s12_11|MCQ25|C
+MOVE w20_12|MCQ25|C
+MOVE s16_22|6b|C
+MOVE s24_11|MCQ27|C
+MOVE s08_2|5bi|X
+MOVE s21_12|MCQ27|A

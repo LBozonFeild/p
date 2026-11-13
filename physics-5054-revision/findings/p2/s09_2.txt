@@ -1,0 +1,50 @@
+# P2 s09_2 | figs viewed: 1.1 (height-time: curve from 4.0 m, then a straight line from about 3.6 m at 0.5 s to zero at 2.0 s), 5.1 (man facing a plane mirror of height h; X at his toes), 6.1, 9.1 (lamp A 190 Ω and lamp B 380 Ω in parallel across 240 V; P in B's branch, Q in A's branch, R in the supply line), 9.2 (same lamps in series), 10.1, 10.2 (400 J in, 20 J lost) | not viewed: 2.1, 3.1, 4.1, 7.1–7.3, 11.1, 11.2
+# leaf 8biv holds 8(b)(iii) and (iv)
+1a | 1.2 | {F} height-time graph of a falling sheet of paper: its speed increases at first (it accelerates) [B1] ;; then becomes constant (zero acceleration) [B1]
+1b | 1.2 | {F} speed = gradient of the straight part of the height-time graph = change in distance ÷ change in time [C1] ;; 2.3–2.5 m/s [A1]
+1c | 1.7.1 | falling at constant speed: gravitational potential energy [B1] ;; is transferred to heat (internal / thermal energy, kinetic energy of the air) [B1]
+2ai | X2.3 | conduction
+2aii | X2.3 | conduction
+2bi | X2.3 | convection
+2bii | X2.3 | convection
+3a | 1.7.5 | E = Pt with time in seconds = 85 × 120 [C1] ;; 10 200 J [A1]
+3b | X2.2 | latent heat
+3c | X2.2 | ice below 0 °C
+4a | X2.1 | solid vs liquid
+4bi | X2.1 | forces
+4bii | X2.2 | evaporation cooling
+4biii | X2.2 | evaporation rate
+5ai | 3.2.1 | {F} ray from a point on the object to the mirror and then to the eye, with angle of reflection equal to angle of incidence [B1]
+5aii | 3.2.1 | angle of incidence marked between the incident ray and the normal [B1]
+5aiii | 3.2.1 | angle of incidence: the angle between the incident ray and the normal (at the point where the ray meets the mirror) [B1]
+5b | 3.2.1 | {F} smallest mirror in which a person sees their whole image: ray drawn from the top of the head to the mirror and reflected to the eye [B1] ;; the mirror must reach from where that ray meets it to where the ray from the toes meets it – half the person's height (0.85–1.15 m from the scale diagram) [B1]
+6a | 3.4 | ultrasound: sound with a frequency too high to be heard – above 20 kHz [B1]
+6b | 3.4+3.1 | f = v/λ = 1500 ÷ 1.2 × 10⁻³ [C1] ;; 1 250 000 Hz [A1]
+6c | 3.4 | particles in a longitudinal wave vibrate / oscillate [C1] ;; in the same direction as (parallel to) the direction in which the wave travels [A1]
+6d | 3.4 | gas bubbles expand and contract as ultrasound passes because the pressure alternately decreases and increases (rarefactions and compressions) [B1]
+7a | X4.1 | induced poles
+7b | X4.1 | reed switch
+7ci | X4.3 | thermistor
+7cii | X4.5 | reed relay
+8a | X5 | nucleon number
+8bi | X5 | alpha
+8bii | X5 | alpha
+8biv | X5 | alpha decay
+9a | X4.4 | measuring power
+9bi | 4.2.4+X4.3 | {F} current in each parallel branch I = V/R with the full supply p.d.: 240 ÷ 380 = 0.63 A [B1] ;; 240 ÷ 190 = 1.26 A [B1] ;; current in the supply line = sum of the branch currents = 1.89 A [B1]
+9bii | 4.2.4+X4.3 | total resistance of a parallel circuit = supply p.d. ÷ total current = 240 ÷ 1.895 (or 1/R = 1/R₁ + 1/R₂) [C1] ;; 127 Ω [A1]
+9ci | 4.2.4+X4.3 | {F} series circuit: I = V ÷ total resistance = 240 ÷ (190 + 380) [C1] ;; 0.42 A [A1]
+9cii | 4.2.4 | p.d. across one lamp = IR = 0.42 × 190 = 80 V [B1]
+9d | X4.3 | lamps in parallel
+10ai | 1.5.2 | {F} as a cyclist speeds up the air resistance increases [B1] ;; until at constant speed it equals the driving force [B1]
+10aii | 1.5.2 | while accelerating the driving (forward) force is larger than the air resistance [B1]
+10bi | 1.7.1 | K.E. = ½mv² [C1] ;; ½ × 75 × 4.0² [C1] ;; 600 J [A1]
+10bii | 1.5.1 | a = F/m with the resultant force = 30 − 20 = 10 N [C1] ;; 10 ÷ 75 = 0.13 m/s² [A1]
+10ci | 1.7.4 | energy lost between pedals and wheel: friction in the chain / axles (surfaces rubbing) [B1] ;; produces heat (thermal energy) [B1]
+10cii | 1.7.4 | {F} efficiency = useful energy output ÷ energy input = (400 − 20) ÷ 400 [C1] ;; 0.95 (95%) [A1]
+10d | 1.4+1.5.1 | advantage of low-density materials for a bicycle: lower mass / weight [B1] ;; consequence [M1] with its reason [A1], e.g. greater acceleration for the same force (F = ma); less work needed to go uphill; less kinetic energy so a shorter stopping distance
+11ai | X4.5 | generator
+11aii | X4.5 | generator
+11bi | X4.6 | oscilloscope calibration
+11bii | X4.6 | oscilloscope controls
+11biii | XOLD | electron beam

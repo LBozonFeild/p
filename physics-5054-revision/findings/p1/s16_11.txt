@@ -1,0 +1,27 @@
+# P1 s16_11 | main sheets 1-3 and rest sheet viewed; Q3, 5, 7, 13, 14, 16, 17, 22, 27 are identical to s16_12 questions; Q2 to w24_12 Q2; Q6 to w25_12 Q12; Q9 to s23_11 Q9; Q15 to s25_11 Q12; Q30 to w24_12 Q29
+1 D 1.1 {F} parallelogram rule: the resultant of two vectors drawn from the same point is the diagonal of the parallelogram starting at that point, with its arrow pointing away from it
+4 D 1.2 {F} a horizontal section of a speed–time graph means constant speed and zero acceleration
+8 D 1.5.1 a force can change the shape, velocity and volume of a body but not its mass
+10 A 1.5.6 {F} the most stable object has the lowest centre of mass and a wide base
+11 A 1.7.1+1.7.2 {F} loss of GPE = weight × height = 250 × 7.0 = 1750 J; final KE = GPE lost − work done against friction = 1750 − 1300 = 450 J
+12 B 1.7.3 a nuclear power station uses a non-renewable energy source; geothermal, solar and wind sources are renewable
+18 A 3.3+X2.3 thermal (infrared) radiation is a transverse electromagnetic wave that travels at the speed of light in a vacuum; black surfaces are better emitters than white
+19 A 3.1 a wavefront is a line joining all points on the same crest of a wave
+20 D 3.1 {F} for a longitudinal wave one wavelength is the distance between the centres of two adjacent compressions (or two adjacent rarefactions)
+21 C 3.2.1 {F} the angle of incidence and the angle of reflection are each measured between the ray and the normal, not between the ray and the mirror
+23 A 3.2.2 {F} sin r = sin 57° ÷ 1.5, r = 34°; critical angle from sin c = 1 ÷ n = 1 ÷ 1.5, c = 42°
+24 B 3.3 microwaves are used for satellite television because they pass through the atmosphere without significant loss of energy; they have shorter wavelengths than radio waves and the same speed in a vacuum
+25 B 3.3 gamma rays are used to kill cancerous cells
+26 B 3.4 a quieter sound of the same pitch has a lower amplitude and the same frequency
+28 D 4.2.1 {F} induction in a conductor: the side of the ball nearest a positive rod becomes negative and the far side positive (no overall charge)
+29 D 4.2.2 Q = It = 2.0 × 4.0 × 60 = 480 C
+31 C X4.3 {F} resistors in parallel
+32 B 4.2.4 {F} on a voltage–current graph the steeper line is the greater resistance; for the same material and length the wire with the smaller resistance has the larger cross-sectional area
+33 C X4.4 {F} switch and fuse in the live wire
+34 A 4.2.4 {F} choose meter ranges just large enough for the readings: with R ≈ 5 Ω a p.d. up to 2 V gives a current up to 2 ÷ 5 = 0.4 A, so a 0–2 V voltmeter and a 0–0.5 A ammeter
+35 B X4.5 commutator
+36 A X4.3 {F} diode symbol
+37 B X4.3 {F} thermistor and LDR divider
+38 B X5 beta-particles
+39 D X5 half-life
+40 C X5 nucleus composition

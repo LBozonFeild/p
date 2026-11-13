@@ -1,0 +1,49 @@
+# P2 s23_21 | figs viewed: 1.2 (straight line 0 → 22 m/s in 6 s, then horizontal), 2.1, 3.1 (three resistors in series with 12 V and ammeter), 6.2, 6.3 (scale grid: object O near lens L, tall upright image I further from the lens on the same side), 7.1 (student's wavefronts after a gap), 7.2 (narrow gap)
+1a | 1.2 | {F} describing motion from a speed-time graph: uniform / constant acceleration for the first 6 s (3.7 m/s²) [B1] ;; then constant speed / zero acceleration after 6 s [B1]
+1b | 1.5.1 | a = (v − u)/t in any form, or 3.7 m/s² seen [C1] ;; m = F/a (or Ft/v) in any form [C1] ;; 1800 ÷ 3.67 = 490 kg [A1]
+1c | 1.2 | distance = area under the speed-time graph, or average speed × time [C1] ;; ½ × 6.0 × 22 = 66 m [A1]
+1di | X2.3 | convection current
+1dii | X2.3 | convection formation
+2ai | 1.6 | momentum = the product of mass and velocity [B1]
+2aii | 1.6 | unit of momentum: kg m/s or N s [B1]
+2b | 1.6 | conservation of momentum for vehicles that move together after collision: 1100 × 10 = (1100 + 3000) × v [C1] ;; 2.7 m/s [A1]
+2ci | 1.7.1 | KE = ½mv² algebraic or numerical [C1] ;; ½ × 4100 × 2.7² = 15 000 J (combined mass, common velocity) [A1]
+2cii | 1.7.1 | energy transfer in an inelastic collision: kinetic energy becomes heat / thermal / internal energy (of vehicles / air), or kinetic energy of the car goes to kinetic energy of the van [B1]
+3a | 4.2.4+X4.3 | {F} I = V/R in any form, or total (series) resistance = 700 Ω [B1] ;; 12 ÷ 700 = 0.017 A [B1]
+3b | X4.4 | P = I²R
+3c | X4.3 | parallel circuit drawing
+4ai | X1.8 | P = F/A
+4aii | X1.8 | equal forces
+4aiii | X1.8 | small area large pressure
+4bi | X1.8 | liquid pressure direction
+4bii | X1.8 | pressure with depth
+5a | X2.2 | expansion of liquids
+5bi | X2.2 | 373 K
+5bii | X2.2 | latent heat
+5c | X2.2 | specific heat capacity
+6ai | 3.2.3 | magnifying glass: object within the focal length of the lens (closer to the lens than the principal focus) [B1]
+6aii | 3.2.3 | virtual image is formed from diverging (or parallel) rays: rays traced back behind the lens meet at the image / rays only appear to come from the image / rays do not meet on a screen / do not converge [B1]
+6bi | 3.2.3 | {F} ray diagram for a virtual image: ray from top of object through the optical centre (undeviated) [B1] ;; ray from top of object parallel to the axis to the lens, with a line from that point on the lens to the top of the image [B1] ;; both rays extended back (as construction lines) to the top of the image, and the parallel ray correctly refracted through the lens (through the principal focus) so that it appears to come from the top of the image [B1]
+6bii | 3.2.3 | focal length found from the diagram where the refracted parallel ray crosses the axis: 4.0 cm (scale applied) [B1]
+7a | 3.1 | {F} errors in a drawing of diffraction at a gap, any one: wavelength has been altered (drawn too large) – it must stay the same; crests in the "shadow" region should be curved (quarter circles above and below the gap); central lines drawn too straight [B1]
+7b | 3.1 | {F} gap smaller than the wavelength: at least 3 semicircular crests centred on the gap [B1] ;; wavelength constant and the same on both sides of the gap [B1]
+7ci | 3.1 | wavelength: distance between two consecutive identical points on a wave, such as two consecutive crests [B1]
+7cii | 3.1 | v = fλ numerical or algebraic, f = 6.0 ÷ 2.0 [C1] ;; 3.0 Hz [A1]
+7ciii | 3.1 | frequency unchanged in shallow water: λ = v/f = 4.0 ÷ 3.0 = 1.3 cm [B1]
+8ai | 1.7.4 | efficiency = useful energy output ÷ (total) energy input [B1]
+8aii | 1.7.4 | filament lamp has low efficiency because heat / thermal energy is produced (energy is wasted) [B1]
+8b | 1.7.4 | useful output power = input power × efficiency = 120 × 0.062 = 7.4 W [C1] ;; same useful output from the other device: efficiency = 7.44 ÷ 15 = 0.50 or 50% [A1]
+8ci | X4.4 | earthing and fuse
+8cii | X4.4 | fuse in earth wire
+9a | X4.5 | induced voltage
+9b | X4.5 | generator output vs position
+9ci | X4.5 | split ring
+9cii | X4.5 | force on current
+10a | X5 | radioactive decay
+10b | X5 | decay curve
+10c | X5 | GM tube
+10d | X5 | carbon dating
+11a | X6 | planet names
+11b | X6 | orbital speed
+11c | X6 | distance and period
+11d | X6 | distance and temperature

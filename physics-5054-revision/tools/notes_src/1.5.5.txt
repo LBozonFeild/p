@@ -1,0 +1,81 @@
+ORDER A L B K C Z
+== A | Moment of a force: definition and calculation | moment|turning effect | 4
+- Moment of a force = force × distance (M1); the distance is the perpendicular distance from the pivot (axis) to the line of action of the force (A1).
+- In a calculation: moment = force × (perpendicular) distance in any form (C1); answer (A1). F1d1 = F2d2 written algebraically, or any listed force × any listed distance, is accepted for the first mark.
+- Unit of moment: N m (a separate B1 in some questions); N cm when the distance is left in centimetres – N m only if the distance has been converted to metres.
+- Use the perpendicular (horizontal) distance from the pivot to the vertical line of the weight, not a slant distance; where it has to be measured on the diagram the scheme gives a tolerance.
+- Moment of a weight = weight × perpendicular distance from the pivot (support, hinge, toes) to the centre of mass; the weight of a uniform lid acts at its centre.
+- Two equal forces on opposite sides of an axis (the two sides of a coil) turn it the same way: total moment = 2 × force × distance of each force from the axis = one force × perpendicular distance between the forces.
+- Total moment of several equal forces turning the same way = number × force × distance.
+- Force = moment ÷ distance from the axle or pivot.
+- The moment of a constant force decreases as an arm rotates, because the perpendicular distance from the axis to the line of action of the force is reduced.
+- The moment is less than the maximum when the force is not applied at right angles to the handle; a force in any other direction must be larger, because its perpendicular distance from the hinge is less.
+- The turning effect on a coil is greatest when the perpendicular distance between the forces and the axis is largest (coil horizontal); it becomes smaller as the perpendicular distance between the lines of action of the forces decreases.
+- A force has a moment about a pivot because it does not act at the pivot.
+- The weight of the object itself (for example a ladder) is another force with a turning effect about the pivot.
+- Why the real force or moment is greater than the calculated one (any two where asked): friction at the axle or hinge; the weight of the rope; the force is not perpendicular to the handle; air resistance; an initial acceleration has to be given.
+- Moment–time sketch for a rotating coil: axes labelled and a repeating shape that is always the same sign (B1); the time for one revolution spans two repeats of the shape (B1).
+* The moment of a force is the measure of its turning effect.
+* The distance is the one that meets the line of the force at a right angle – not the distance along the pole, up the wall or along the chain, and not the straight-line distance from the pivot to the point where the force is applied.
+* Total moment = sum of force × perpendicular distance for forces that turn the same way (the weight of a uniform board acts at its centre).
+* Compare moments in consistent units (N m).
+* A suspended lamina: moment of the weight about the point of suspension = weight × horizontal distance from the pivot to the vertical line through the centre of mass; it turns the lamina back towards the position with the centre of mass below the pivot.
+== L | Levers; how a moment changes | lever|spanner|longer handle|door|see-saw|brake pedal|submerged|muscle|towards the pivot reduces|nearer the pivot | 1
+- A longer handle needs a smaller force for the same moment (force inversely proportional to distance).
+- A smaller force can turn a door against a larger force when its moment is greater (B1), because its distance from the hinge is greater than the distance from the hinge to where the larger force acts (B1).
+- Lever: the force acting nearer the pivot is the larger one, because its distance to the pivot is smaller (B1) and force × distance (the moment) is the same for both (B1).
+- Both people on a see-saw move equal distances further from the pivot: both moments increase (C1); the moment of the heavier person increases more (A1); so the see-saw tips down on the heavier person's side (B1).
+- A load partly submerged in water: the water exerts an upward force on the load, so the force the load exerts on the rule (the tension in the string) is reduced (B1); so its moment about the pivot is reduced (B1).
+* A longer spanner gives a larger turning moment for the same force.
+* A force close to the pivot must be much larger than the load (the muscle of the forearm: tension × 5.0 = 40 × 35).
+* Moving a load towards the pivot reduces its moment, so the other end of the rule moves down.
+== B | Principle of moments and conditions for equilibrium | principle of moments: \(|principle of moments for a body|principle of moments: for|principle of moments: the sum|conditions for equilibrium|rotates|stays at rest|lies on the other side|on the other side of the pivot|stays balanced|not negligible|turning pair|add up to zero|beam balanced at its centre | 2
+- Principle of moments: (sum of / total) clockwise moments = (sum of / total) anticlockwise moments (M1) for a body in equilibrium / balanced / stationary / not turning (A1). "CW = ACW" is accepted as long as moments are mentioned.
+- Accepted alternative: the sum / total / net / resultant moment is zero (M1) when the object is in equilibrium (A1).
+- The moments are taken about the same pivot (about any point).
+- Conditions for equilibrium: no resultant force – upward force = downward force (B1); no resultant moment – clockwise moment = anticlockwise moment (B1).
+- An object rotates when the moment of one force about the support becomes greater than (is no longer equal to) the opposing moment.
+- Pivot moved away from the centre of mass: the object rotates / tilts (C1), turning so that the side containing the centre of mass goes down (A1), because the weight acting at the centre of mass now has a moment about the pivot (B1).
+- If the weight of a beam is not negligible the supporting force is greater, because the weight of the beam adds to the moment that has to be balanced.
+* Even when the forces on a rod add up to zero, unequal moments give a resultant moment and the rod starts to rotate.
+* Two equal forces keep a body in equilibrium only if they are opposite in direction and act along the same line; equal and opposite forces along different lines form a turning pair.
+* If a weight has to be hung on one side of the pivot to balance an object, the centre of mass of the object lies on the other side of the pivot.
+* A balanced rod stays balanced where g is lower, because both weights (and so both moments) are reduced in the same proportion.
+* A beam balanced at its centre with loads at equal distances has equal downward forces at the ends and an upward force at the pivot equal to their sum.
+* An upward force on one side of the pivot turns the beam the same way as a downward force on the other side.
+== K | Calculations with the principle of moments | moments about|principle of moments|moments balance|moment equation|no resultant moment|is balanced when|to rebalance|about to tip|forces also balance | 3
+- Moments about the pivot: F1 × d1 = F2 × d2 (C1); answer (A1).
+- Measure every distance from the pivot (add lengths where necessary) and use perpendicular distances.
+- Three-mark versions: the moment of the known force, or the distances from the pivot, worked out (C1); clockwise moment = anticlockwise moment (C1); answer (A1).
+- With masses on both sides g cancels: m1x1 = m2x2.
+- The weight of a uniform rule acts at the 50 cm mark; a load resting on a rule acts at the centre of the load.
+- Include the moment of the weight of the plank or beam itself when it is given.
+- Change a mass to a weight first, W = mg (g = 9.8 N/kg; the scheme allows 10).
+- On the point of tipping: clockwise moment = anticlockwise moment about the edge; "=" or ">" is accepted in the moment equation.
+- Finding a third force: (difference between the two known moments) ÷ its distance from the pivot (C1); answer (A1); its direction is the one that makes its moment oppose the larger moment (B1).
+- In equilibrium the forces also balance: force from the pivot = upward force − total downward force (C1, A1).
+- When the result has to be compared with a limit, state the comparison (B1 for the moments equation, B1 for the value and the comparison).
+- A horizontal force that cancels a moment = moment ÷ its perpendicular (vertical) distance from the pivot.
+* Uniform rule pivoted away from its centre: the weight acts at the centre; moments give one force (W × 25 = F × 75, so F = W/3) and "no resultant force" gives the other (P + F = W, so P = ⅔W).
+* Three or more forces: add the moments each way; the extra force must supply the difference, on the side of the smaller moment (or acting upwards on the heavier side).
+* A block about to tip about a corner: the weight acts through the centre, half the base width from the pivot.
+* With masses, mass × distance is equal on both sides of the pivot (400 × 12 = 300 × 16).
+* The ratio of two balancing weights is the inverse of the ratio of their distances from the pivot.
+== C | Experiment to verify the principle of moments | experiment to verify|verifying the principle | 0
+- Diagram or apparatus: a metre rule (ruler), a pivot (fulcrum) and at least two weights (loads), labelled (B1).
+- Balance the rule on the pivot on its own first; place a weight on each side and adjust the positions until it balances (B1).
+- Measure the distance of each weight from the pivot and calculate force (or mass) × distance for each side (B1).
+- The clockwise and anticlockwise moments are found to be equal – the net moment is zero (B1).
+- Vary the weights or positions and repeat (B1).
+== Z | Other points
+MOVE w04_2|9biv|A
+MOVE s22_21|1bii|L
+MOVE w10_22|3aii|K
+MOVE s25_21|2bii|K
+MOVE s26_22|2c|K
+MOVE w23_11|MCQ7|K
+MOVE w24_12|MCQ9|A
+MOVE w11_21|11aiii|A
+MOVE s10_12|MCQ7|K
+MOVE s23_12|MCQ11|K
+MOVE s13_21|2b|K

@@ -1,0 +1,51 @@
+# P2 s07_2 | figs viewed: 1.1 (QP p2: distance-time curves for two runners; A curves up to 20 m at 4 s then is straight to 100 m at 15 s; B reaches 100 m at about 14 s when A is at about 92–93 m), 4.1 (ray PQ inside a curved glass fibre), 5.1 (full-scale grid: object 2 cm high, 8 cm from the lens), 7.1 (12 V across two branches: 6 Ω and 3 Ω in parallel with each other in series with the ammeter; 2 Ω and 4 Ω in series), 9.1, 9.2 (speed-time: straight to about 12.8 m/s at 8 s, curving to a constant 16 m/s from 14 s), 11.1 | not viewed: 2.1, 3.1, 3.2, 5.2, 5.3, 6.1, 6.2, 8.1, 10.1, 10.2
+1a | 1.2 | {F} distance-time graph that curves upwards then becomes straight: the runner accelerates from rest (speed increases) [B1] ;; then moves at constant speed [B1]
+1b | 1.2 | {F} distance between two runners at a given time = difference between their distance readings at that time: between 7 and 8 m [B1]
+1c | 1.2 | {F} speed = gradient of the straight section = distance ÷ time, with distance 100 − 20 = 80 m [C1] ;; 80 ÷ 11 = 7.3 m/s [A1]
+2ai | X2.2 | evaporation
+2aii | X2.2 | evaporation rate
+2b | X2.2 | mL
+3a | XOLD | calibrating a thermometer
+3bi | XOLD | range
+3bii | XOLD | linearity
+3c | XOLD | sensitivity
+4a | 3.2.2 | {F} ray in an optical fibre: repeated reflections drawn along the fibre with angle of reflection equal to angle of incidence each time [B1]
+4b | 3.2.2 | total internal reflection: all of the light is reflected back into the denser medium (glass) – reflection with no refraction out into the air [B1]
+4c | 3.2.2 | advantage of optical fibres over copper wires for telephones (other than cheaper and lighter): carry more calls / more data per second (greater bandwidth); less energy loss so greater distance between repeaters; less noise / interference; harder to tap [B1]
+4d | 3.1+3.3 | f = v/λ = 2.1 × 10⁸ ÷ 6.4 × 10⁻⁷ [C1] ;; 3.3 × 10¹⁴ Hz [A1]
+5a | 3.2.3 | {F} full-scale ray diagram: one correct ray from the top of the object – straight through the optical centre, or parallel to the axis then through the principal focus [B1] ;; a second correct ray from the same point meeting the first at the image [B1]
+5bi | 3.2.3 | linear magnification = image size ÷ object size (image distance ÷ object distance accepted) [B1]
+5bii | 3.2.3 | magnification from the diagram 0.55–0.65 (object 8 cm from a lens of focal length 3 cm gives 0.60) [B1]
+5c | 3.2.3 | long-sighted eye viewing a near object: rays drawn to the retina that would meet behind the retina [B1]
+6a | X4.5 | field of a solenoid
+6bi | 3.1 | a frequency of 100 Hz: 100 oscillations (cycles / waves) in 1 second [B1]
+6bii | X4.5 | loudspeaker
+7ai | X4.3 | {F} resistors in series add: 2 + 4 = 6 Ω [B1]
+7aii | X4.3 | resistors in parallel: 1/R = 1/R₁ + 1/R₂ = 1/3 + 1/6 [C1] ;; R = 2 Ω [A1]
+7b | 4.2.4 | {F} current in a branch connected directly across the supply: I = V/R = 12 ÷ 2 [C1] ;; 6 A [A1]
+7c | 4.2.4+X4.3 | {F} current in the series branch = 12 ÷ 6 = 2 A (or share the p.d. in the ratio of the resistances) [C1] ;; p.d. across the 4 Ω = 2 × 4 = 8 V [A1]
+8a | X5 | isotopes
+8b | X5 | half-life
+8c | X5 | half-life
+9ai | 1.5.1 | {F} constant speed on a straight road: the forward and backward forces are equal in size and opposite in direction [B1]
+9aii | 1.5.1 | accelerating: the forward force is larger than the backward force [B1]
+9b | 1.5.4 | turning a corner at constant speed: the resultant force acts towards the centre of the circle (corner) [B1]
+9ci | 1.2 | {F} uniform acceleration is the straight sloping part of a speed-time graph: from 0 to 8–9 s [B1]
+9cii | 1.7.1 | energy changes for an accelerating car: chemical (potential) energy of the fuel [B1] ;; to kinetic energy [B1] ;; with thermal energy (heat) also produced [B1]
+9ciii | 1.2 | acceleration = (v − u) ÷ t (gradient) [C1] ;; 8.0 ÷ 5.0 [C1] ;; 1.6 m/s² [A1]
+9civ | 1.2 | distance = area under the speed-time graph (average speed × time) [C1] ;; ½ × 8.0 × 5.0 [C1] ;; 20 m [A1]
+9d | 1.5.2 | factors affecting braking distance besides the braking force, any two: speed of the car; friction with the road (wet, icy or oily surface); condition of the tyres; mass of the car and passengers; slope of the road; air resistance / wind [B2]
+10a | X4.5 | transmission losses
+10b | X4.5 | transformers in transmission
+10ci | X4.5 | transformer structure
+10cii | X4.5 | transformer action
+10di | X4.4 | I = P/V
+10dii | 1.7.5+X4.4 | E = Pt with time in seconds = 690 × 600 [C1] ;; 414 000 J [A1]
+11a | 4.2.1 | charging by friction: negative charge (electrons) moves [C1] ;; from the cloth to the rod, which gains electrons [A1]
+11bi | 4.2.1 | {F} uncharged conductor near a negatively charged rod: its free electrons move to the side furthest from the rod [B1] ;; because they are repelled – like charges repel [B1]
+11bii | 4.2.1 | induced charge distribution: positive on the side nearest the negative rod, negative on the far side [B1]
+11biii | 4.2.1 | the uncharged sphere is attracted because the positive side is attracted to the rod (unlike charges attract) [B1] ;; and the repulsion of the negative side is weaker because it is further away [B1]
+11ci | 4.2.1 | earthing: connecting the object to the earth / ground (0 V) [B1]
+11cii | 4.2.1 | on earthing with the negative rod still near, electrons flow from the sphere down to earth [B1] ;; because they are repelled by the negative charge on the rod [B1]
+11ciii | 4.2.1 | after earthing only positive charge is left, on the side nearest the rod [B1]
+11d | 4.2.1 | a use of electrostatic charging: sensible example, e.g. electrostatic precipitator, photocopier, spray painting, inkjet printer [M1] ;; simple diagram showing the effect [A1] ;; a correctly charged object identified [A1] ;; what the charge does, e.g. charged paint droplets repel each other and are attracted to the earthed / oppositely charged object [A1]

@@ -1,0 +1,48 @@
+# P2 s17_21 | figs viewed: 1.1 (A up, B forwards, C down, D backwards), 4.1 (grid: object 3.0 cm in front of the lens, inverted image 12.0 cm behind it, one horizontal ray drawn), 5.1, 5.2 (20 Ω in series with 20 Ω and 40 Ω in parallel; V1 across the series resistor), 7.1, 9.1, 10.1, 10.2, 11.1 | not viewed: 2.1, 2.2, 3.1, 3.2, 6.1
+# leaf 4biii holds 4(b)(i)–(iii) (3 marks); leaf 7aiii holds 7(a)(i)–(iii) (3 marks)
+1a | 1.5.1 | {F} forces on a car moving horizontally: upward force is the contact (normal reaction) force, forward force is the driving force, downward force is the force of gravity, backward force is air resistance and friction (all four needed) [B1]
+1bi | 1.3 | mass = weight ÷ g = 8000 ÷ 10 = 800 kg [B1]
+1bii | 1.5.1 | resultant force = driving force − resistive force = 1000 − 600 = 400 N (the vertical forces cancel) [B1]
+1biii | 1.5.1 | a = F/m using the resultant force [C1] ;; 400 ÷ 800 = 0.50 m/s² [A1]
+1c | 1.2 | change in speed = at = 1.6 × 5.0 = 8.0 m/s [C1] ;; u = 20 − 8.0 = 12 m/s [A1]
+2a | X1.8 | pressure and area
+2b | 1.5.6 | tilted chair falls over, any 2: the centre of mass is (on or) outside the base / beyond the chair leg; the weight acts outside the chair leg; this creates a moment that turns it over [B2]
+3a | X2.3 | conduction and convection
+3b | X2.3 | contact area
+3ci | X2.3 | emitter
+3cii | X2.3 | emitter
+4ai | 3.2.3 | linear magnification = image height ÷ object height (or image distance ÷ object distance) [B1]
+4aii | 3.2.3 | real image: the rays actually go to / meet at the image – it can be formed on a screen [B1]
+4biii | 3.2.3 | {F} ray parallel to the principal axis is continued from the lens through the principal focus to the tip of the image [B1] ;; focal length = distance from the lens to where that refracted ray crosses the axis = 2.4 cm [B1] ;; two other rays drawn from the top of the object to the top of the image, e.g. straight through the centre of the lens [B1]
+5a | X4.3 | series-parallel resistance
+5b | X4.3 | voltmeter comparison
+6ai | X4.4 | total power
+6aii | 1.7.5 | energy in kW h = power in kW × time in hours [C1] ;; 0.200 × 3.0 = 0.60 kW h [A1]
+6aiii | X4.4 | I = P/V
+6b | X4.4 | switch in live
+7aiii | X4.5 | force on conductor
+7bi | X4.5 | induction
+7bii | X4.5 | induction
+8a | X5 | gamma
+8b | X5 | decay equation
+8c | X5 | tracer choice
+9ai | 1.7.3 | non-renewable energy source: not being replaced / will run out [B1]
+9aii | 1.7.3 | oil is non-renewable [B1] ;; wind and hydroelectric are renewable and caused by energy from the Sun [B1] ;; geothermal is renewable and not caused by energy from the Sun [B1]
+9aiii | 1.7.3 | nuclear better for the environment than oil: fewer greenhouse gases / less global warming / less acid rain (no toxic gases or oil spills) [B1]
+9aiv | 1.7.3 | nuclear worse than oil: radioactive (nuclear) waste causes storage problems, or an explosion / meltdown / leak emits radioactivity [B1]
+9bi | 1.7.3 | {F} oil-fired power station: burner, boiler, turbine, then the generator (and transformer) [B1]
+9bii | 1.7.1 | a turning turbine possesses kinetic energy [B1]
+9biii | 1.4+X2.2 | mass = density × volume = 1000 × 24 = 24 000 kg [B1] ;; (thermal part, outside the selected sections) E = mcΔT and E = mL [C1] ;; 24 000 × 4200 × 90 = 9.1 × 10⁹ J [C1] ;; 24 000 × 2.3 × 10⁶ = 5.5 × 10¹⁰ J [C1] ;; total 6.4 × 10¹⁰ J [A1]
+9biv | X4.5 | high-voltage transmission
+10ai | 3.2.1 | {F} plane mirror: both reflected rays drawn with angle of reflection equal to angle of incidence [B1] ;; image located by continuing the reflected rays back behind the mirror to where they meet [B1]
+10aii | 3.2.1 | characteristic of a plane-mirror image: virtual / upright / laterally inverted / same size as the object [B1]
+10bi | 3.1 | wavefront: a line (joining points) [C1] ;; joining points on the wave that have the same phase, e.g. a line along a crest [A1]
+10bii | 3.1 | {F} reflected wavefronts: same angle to the boundary as the incident ones but sloping the other way, same wavelength [B1] ;; refracted wavefronts in the slower region: at a smaller angle to the boundary [B1] ;; with a smaller, constant wavelength and deviated in the correct direction [B1]
+10ci | 3.1+3.4 | v = fλ = 2000 × 0.16 [C1] ;; 320 m/s (32 000 cm/s) [A1]
+10cii | 3.4 | range of human hearing: about 20 Hz (15–25 Hz) to 20 kHz (15–30 kHz) [B1] ;; smallest audible wavelength = v ÷ highest frequency = 320 ÷ 20 000 = 0.016 m (1.6 cm) [B1]
+10ciii | 3.4 | experiment showing sound obeys the law of reflection: tube(s) used to give a narrow beam of sound from the source and/or to the detector [B1] ;; named detector (e.g. microphone, ear) or named reflector (hard flat surface) [B1] ;; move the detector to find the position of maximum loudness, then measure the angles of incidence and reflection (they are equal) [B1]
+11a | X4.3 | thermistor circuit
+11bi | 4.2.4 | {F} current at the given temperature read from the graph: 0.05 A at 20 °C [C1] ;; V = IR = 0.05 × 240 [C1] ;; 12 V [A1] ;; with the p.d. constant, R = V/I using the current read at 40 °C, 0.12 A [C1] ;; 100 Ω [A1]
+11bii | 4.2.4 | showing that resistance does not change linearly with temperature: compare the change in resistance for two equal changes in temperature (240 to 100 Ω and 100 to 48 Ω) [C1] ;; the changes are not the same (140 Ω and 52 Ω) [A1]
+11ci | XOLD | thermocouple
+11cii | XOLD | thermocouple

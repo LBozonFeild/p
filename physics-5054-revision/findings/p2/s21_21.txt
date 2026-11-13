@@ -1,0 +1,47 @@
+# P2 s21_21 | figs viewed: 1.1 (36 kN north, 12 kN east), 4.1 (transverse wave on rope), 4.2 (compressions on spring, point X), 5.1 (object between F and lens; three rays from the top of O; R emerges parallel to the axis), 7.1, 7.4, 8.1, 8.2, QP p13 (Fig. 8.3: thin rectangular fence and wider-based trapezium fence of equal height), 9.1 (lamp I-V curve: 0.50 A at 0.40 V, 1.8 A at 6.0 V), 9.2
+# leaf 9dii holds (d)(i) and (d)(ii), which share 3 marks
+1a | 1.1 | {F} resultant of two perpendicular forces by scale drawing: scale vector diagram showing both forces and the resultant in the correct direction [B1] ;; size 38 ± 1 kN [B1] ;; angle 18° ± 3° from north (towards the east) [B1]
+1bi | 1.2 | uniform acceleration: the same change in speed / velocity each time (constant acceleration; straight-line speed-time graph) [B1] ;; the same change in speed / velocity in the same time – same rate of change of velocity [B1]
+1bii | 1.5.1 | a = F/m using the resultant force [C1] ;; 38 000 ÷ 60 000 = 0.63–0.66 m/s² (kN converted to N) [A1]
+2a | X2.3 | emitters of radiation
+2b | X2.3 | convection
+3a | X2.2 | mcΔT
+3bi | X2.2 | boiling vs evaporation
+3bii | X2.2 | evaporation rate
+4ai | 3.1 | {F} wave on a rope is transverse and a compression wave on a spring is longitudinal (both needed) [B1]
+4aii | 3.1 | {F} a wave of smaller frequency (same speed) is drawn with a larger wavelength [B1]
+4aiii | 3.1 | a point on a spring carrying a longitudinal wave moves backwards and forwards (to and fro), parallel to the direction of the wave [B1]
+4b | 3.4+3.3 | higher pitch means larger frequency (not larger amplitude) [B1] ;; ultrasound (not X-rays) is used for pre-natal scanning [B1] ;; gamma rays (not microwaves) have the highest frequency in the electromagnetic spectrum [B1]
+5a | 3.2.3 | lens used as a magnifying glass is a convex / converging lens [B1]
+5b | 3.2.3 | {F} ray entering a lens refracts (towards the normal) / changes speed [B1] ;; on leaving it bends away from the normal / speeds up / wavelength increases (a ray that appears to come from the principal focus emerges parallel to the principal axis) [B1]
+5c | 3.2.3 | {F} magnifying glass ray diagram: an emergent ray extended back to the object side of the lens [B1] ;; two emergent rays extended back and the image marked where the extensions intersect [B1]
+5d | 3.2.3 | image formed by a magnifying glass is upright and virtual [B1]
+6a | X4.5 | induction
+6b | X4.5 | direction of motion and reading
+6c | X4.5 | faster
+6d | X4.5 | Lenz's law
+7a | X4.3 | thermistor and LDR
+7bi | 4.2.3 | electromotive force: energy / work done per unit charge [B1]
+7bii | X4.3 | p.d. across other series components
+7biii | X4.4 | E = VIt
+7biv | 4.2.4+X4.3 | diode reversed: no current (no ammeter reading) because the reversed diode does not conduct / has a very high resistance / blocks the current (a reference to its current-voltage graph is accepted) [B1]
+8ai | 1.5.1 | {F} forces on a standing animal carrying a rider: weight drawn downwards from the middle of the body and labelled [B1] ;; upward (contact) forces from the ground on at least two legs, labelled [B1] ;; downward force from the rider on the saddle area [B1]
+8aii | 1.5.1 | Newton's third law: the two forces are equal and opposite [B1] ;; the partner force acts on the other object (the horse pushes upwards on the rider) [B1]
+8bi | 1.5.6 | {F} centre of mass of a uniform rectangle is at its centre [B1] ;; for a shape that is wider at the base, the centre of mass is on the centre line but lower than half the height [B1]
+8bii | 1.5.6 | wider base is more stable: it does not topple / falls back when tilted, or must be tilted through a larger angle (needs more force) before toppling, or the centre of mass is lower [B1] ;; because the centre of mass is still above (inside) the base, so the weight turns it back [B1]
+8ci | 1.7.1 | K.E. = ½mv² [C1] ;; v² = 2 × 4000 ÷ 520 [C1] ;; 3.9 m/s [A1]
+8cii | 1.7.1 | height gained h = P.E. ÷ mg [C1] ;; 3000 ÷ (520 × 10) = 0.58 m [C1] ;; add the initial height: 1.4 + 0.58 = 2.0 m [A1]
+9a | 4.2.4 | {F} circuit for a current-voltage graph: correct symbol for the lamp [B1] ;; correct voltmeter symbol connected across the lamp [B1] ;; correct variable resistor symbol in series with the lamp and battery (or used as a potential divider) [B1]
+9b | 4.2.2 | multi-range ammeter used safely: start on the highest (10 A) range – use it for the larger readings [B1] ;; switch to a lower, more sensitive range (0–1 A) for the smaller readings [B1]
+9c | 4.2.4 | lamp does not obey Ohm's law: graph is curved / not a straight line through the origin / current is not proportional to voltage [B1]
+9dii | 4.2.4 | {F} R = V/I using values read from the graph [C1] ;; at 0.40 V: 0.40 ÷ 0.50 = 0.80 Ω [A1] ;; at 6.0 V: 6.0 ÷ 1.8 = 3.3–3.4 Ω [B1]
+9ei | 4.2.4 | resistance of a lamp changes because the temperature of the filament is not constant / increases [C1] ;; resistance increases as temperature increases [A1]
+9eii | 4.2.4 | resistance of a wire is directly proportional to its length [B1] ;; and inversely proportional to its cross-sectional area [B1]
+9eiii | 4.2.4 | resistance proportional to length, using the resistance of the cold filament (the low-voltage value 0.80 Ω): length = 0.80 ÷ 16 × 1.0 m [B1] ;; 0.050 m [B1]
+10a | X5 | alpha beta gamma table
+10bi | X5 | isotope
+10bii | X5 | gamma sterilising
+10biii | X5 | alpha absorbed
+10biv | X5 | half-life too short
+10ci | X5 | alpha scattering
+10cii | X5 | empty space

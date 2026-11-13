@@ -1,0 +1,47 @@
+# P2 w13_22 | figs viewed: 1.1 (lights hung from a sloping cable and pulled sideways by a horizontal chain), 2.1, 6.1, 9.1 (six handles, each pushed 1.2 m from the axis), 10.1, 10.2 (blank speed-time axes), 11.1, 11.2 (lamp curve through 0.70 A at 2.0 V and 2.0 A at 12 V) | not viewed: 3.1, 4.1, 8.1
+1ai | 1.1 | {F} tension force drawn as an arrow along the chain, pointing away from the object (to the right) [B1]
+1aii | 1.1 | weight drawn as a vertical arrow downwards from the object [B1]
+1b | 1.1 | resultant of two perpendicular forces by scale diagram: scale stated with units (cm to N) [B1] ;; correct triangle or rectangle drawn with the correct diagonal as the resultant [B1] ;; resultant 272–283 N (√(240² + 140²) = 278 N) [B1]
+2a | 1.4 | m = density × volume = 1000 × 0.150 [C1] ;; 150 kg [A1]
+2b | 1.5.1+1.6 | harder to stop when loaded: greater mass (greater momentum) [B1] ;; more inertia – mass resists a change in its state of motion, so a larger force is needed for the same deceleration (or a smaller deceleration for the same force) [B1] ;; alternative: greater kinetic energy (B1) so more work must be done to stop it in the same distance (B1)
+3ai | X1.8 | P = F/A
+3aii | X1.8 | F = PA
+3b | X1.8 | friction, atmospheric pressure
+3c | 1.7.2 | work done = force × distance moved = 12 000 × 0.065 [C1] ;; 780 J [A1]
+3d | X1.8 | incompressible liquid
+4a | X2.2 | melting point
+4b | X2.2 | mL
+4ci | X2.2 | solidifying
+4cii | X2.2 | latent heat
+5a | 3.1 | longitudinal wave: energy is transmitted through a medium by vibrations / oscillations (compressions and rarefactions) [C1] ;; with the direction of vibration parallel to the direction of travel of the wave (energy) [A1]
+5bi | 3.4 | range of audible frequencies – highest about 20 kHz (15–25 kHz) [B1] ;; lowest about 20 Hz (15–25 Hz) [B1]
+5bii | 3.1+3.4 | shortest audible wavelength λ = v/f using the highest frequency = 330 ÷ 20 000 [C1] ;; 0.017 m (unit required) [A1]
+6a | 4.2.1 | liquid rubbing against a pipe becomes negatively charged: electrons move [M1] ;; from the pipe to the liquid (the pipe becomes positive; positive charges do not move) [A1]
+6b | 4.2.1 | danger of a charged aircraft during refuelling: a spark may jump from it [B1] ;; which can ignite the fuel / cause an explosion [B1] ;; alternative: a current to or from the ground through a person (B1) gives a shock (B1)
+6ci | 4.2.1 | an earthing cable is made of metal because metal is an electrical conductor – it allows charges / electrons to flow through it [B1]
+6cii | 4.2.1 | the charge (electrons) flows along the cable to the ground, so the aircraft is earthed and stays uncharged [B1]
+7a | X4.4 | cost of electricity
+7b | X4.4 | earthing
+8ai | X5 | safety
+8aii | X5 | random
+8b | X5 | smoke detector source
+9a | 1.5.5 | moment of a force = force × distance [C1] ;; force × perpendicular distance from the pivot (to the line of action of the force) [A1]
+9bi | 1.5.5+1.7.1 | {F} total moment of several equal forces turning the same way = number × force × distance = 6 × 750 × 1.2 [C1] ;; 5400 N m [A1] ;; g.p.e. gained = mgh [C1] ;; with height in metres: 350 × 10 × 1.6 [C1] ;; 5600 J [A1]
+9bii | 1.7.1 | work done is much larger than the g.p.e. gained because of friction at the axle, drag of the water, or because the chain is lifted as well [B1] ;; so heat is produced / work is done against friction or drag / work is done raising the chain [B1]
+9biii | 1.7.5 | power is larger when a load is lifted faster: the same work is done (P = work done ÷ time) [B1] ;; in a shorter time [B1]
+9c | 1.5.5 | verifying the principle of moments: clear labelled diagram with a ruler, a pivot (fulcrum) and at least two weights [B1] ;; any three of: balance the ruler on the pivot on its own first; place the weights on the ruler so that it balances; measure the distances from the pivot and calculate each moment – clockwise and anticlockwise moments are equal (net moment zero); repeat with other weights or positions [B3]
+10ai | 1.2 | {F} speed-time sketch for a constant driving force with decreasing acceleration: starts at the origin and rises [B1] ;; with gradually decreasing gradient [B1] ;; ending in a horizontal section at the final constant speed [B1]
+10aii | 1.2 | distance travelled while accelerating = area under the speed-time graph [M1] ;; between t = 0 and the start of the horizontal section (count squares and convert using the scales) [A1]
+10bi | 1.5.2 | acceleration decreases because friction / air resistance increases as the speed increases [B1] ;; so the resultant force decreases (the driving force itself is constant) [B1]
+10bii | 1.5.2 | constant speed is reached when the net force is zero – air resistance and driving force are balanced [B1]
+10ci | 1.7.1 | K.E. = ½mv² [C1] ;; ½ × 5.5 × 10⁵ × 40² [C1] ;; 4.4 × 10⁸ J [A1]
+10cii | 1.7.4 | total energy input = useful energy output ÷ efficiency = 4.4 × 10⁸ ÷ 0.40 [C1] ;; 1.1 × 10⁹ J [A1]
+10ciii | 1.7.3+1.7.4 | places where energy is lost as heat between the oil and the motor, any two: furnace / boiler, turbines, generator, cooling water / cooling towers, chimney (waste gases), transformer, transmission cables [B2]
+11a | 4.2.3 | electromotive force: work done (energy transformed) per unit charge [B1] ;; it is a property of the source – the energy transformed to electrical energy per unit charge [B1]
+11bi | 4.2.2 | {F} ammeter symbol placed in series in the circuit [B1]
+11bii | 4.2.3 | voltmeter symbol placed in parallel with the lamp [B1]
+11ci | 4.2.4 | {F} voltage read from the graph at the given current: 2.0 V at 0.70 A [C1] ;; R = V/I = 2.0 ÷ 0.70 [C1] ;; 2.9 Ω, quoted to 2 or 3 significant figures only [A1]
+11cii | 4.2.4 | resistance of a filament lamp increases as the voltage increases [B1]
+11d | X4.4 | P = VI
+11ei | XOLD | thermionic emission
+11eii | XOLD | cathode-ray oscilloscope

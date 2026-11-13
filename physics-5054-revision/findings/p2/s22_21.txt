@@ -1,0 +1,58 @@
+# P2 s22_21 | figs viewed: QP p2 (Fig. 1.2: band fixed 2.0 cm from pivot, load hangs 16 cm further out, i.e. 18 cm from pivot), 4.1 (blue ray meets second face at critical angle c), 5.2 (speed rises to a steady maximum, falls to a lower non-zero value, repeating), 6.1, 6.2 (6.0 Ω in series with 4.0 Ω ∥ 5.0 Ω), 7.2 (A→B 10 m east, B→C 35 m north, C→D 40 m west)
+1ai | 1.5.3 | {F} a stretched rubber band becomes longer [B1] ;; and thinner / smaller in cross-sectional area [B1]
+1aii | 1.7.1 | energy stored in a stretched rubber band: elastic potential (strain) energy [B1]
+1bi | 1.5.5 | principle of moments: the sum / total / net / resultant moment is zero [M1] ;; when the object is in equilibrium [A1]
+1bii | 1.5.5 | {F} the force acting nearer the pivot must be the larger one: the distance from the rubber band to the pivot is smaller than the distance from the load to the pivot [B1]
+1biii | 1.5.5 | {F} moments about the pivot with every distance measured from the pivot (load at 16 + 2.0 = 18 cm): 4.0 × 18 = F × 2.0 [C1] ;; 36 N [A1]
+1biv | 1.5.5 | if the weight of the beam is not negligible the supporting force is greater, because the weight of the beam adds to the (clockwise) moment that has to be balanced [B1]
+2a | 1.7.1 | KE = ½mv² [C1] ;; 0.5 × 60 000 × 12² [C1] ;; 4 300 000 J [A1]
+2bi | 1.7.3 | reducing the carbon dioxide produced reduces global warming [B1]
+2bii | 1.7.3 | advantage of a coal-fired power station over a wind turbine, any one: wind is not always blowing / not reliable / not available in some places; smaller land area for the same power; less harm to birds; less visual effect; no interference with TV or radar signals [B1]
+2ci | X4.4 | kilowatt-hour
+2cii | 1.7.5 | energy = power × time in kW h: 2000 kW × 12 h = 24 000 kW h; × 0.96 kg per kW h = 23 000 kg [B1]
+2d | 1.7.3 | renewable energy sources other than wind: solar, tidal, geothermal, hydroelectric, biomass, wave [B1]
+3a | X2.2 | latent heat of fusion
+3bi | X2.2 | heating curve
+3bii | X2.2 | longer flat section
+4ai | 3.2.2 | {F} angle of incidence i and angle of refraction r both marked between the ray and the normal at the point of entry [B1]
+4aii | 3.2.2 | {F} ray meeting a surface at exactly the critical angle: reflected ray drawn at approximately the correct angle, or ray drawn along the surface [B1]
+4aiii | 3.2.4 | {F} red light is refracted less than blue light on entering the prism (smaller refractive index) [B1] ;; red light then refracts out correctly (emerges, bending away from the normal) at the second face [B1]
+4bi | 3.2.2 | critical angle: it is an angle of incidence [B1] ;; the smallest angle at which the ray is totally internally reflected / at which the ray is just internally reflected / at which the refracted ray travels along the surface (angle of refraction 90°) [B1] (both marks also for: the angle of refraction when the angle of incidence is 90°)
+4bii | 3.2.2 | sin c = 1/n in any form [B1] ;; sin c = 1 ÷ 1.5 so c = 42° [B1]
+5a | X4.5 | brush, split ring
+5bi | X4.5 | more turns faster
+5bii | X4.5 | reversed rotation
+5ci | 1.2 | {F} describing a repeating speed-time graph: speeds up and slows down (as the supply is switched on and off) [B1] ;; reaches a steady / maximum speed, or slows down but never to rest, or the cycle repeats continuously [B1]
+5cii | 1.2 | with longer on and off periods: same top speed (held for a longer time), or drops to a lower speed / comes to rest during the off period [B1]
+6ai | X4.3 | LDR symbol
+6aii | X4.3 | LDR and voltmeter
+6bi | 4.2.4+X4.3 | {F} "show that" a branch current: V = IR for the other parallel resistor, 2.4 × 4.0 = 9.6 V (same p.d. across both branches) [B1] ;; I = 9.6 ÷ 5.0 = 1.92 A [B1]
+6bii | 4.2.4+X4.3 | {F} current in the series resistor = sum of the branch currents = 4.32 A, so p.d. across it = 4.32 × 6.0 = 25.9 V (or parallel pair = 20/9 Ω, total resistance 8.2 Ω) [C1] ;; total p.d. = 25.9 + 9.6 = 35 V [A1]
+7ai | 1.2 | {F} total distance travelled = sum of the path lengths = 10 + 35 + 40 = 85 m [B1]
+7aii | 1.2 | average speed = distance ÷ time [C1] ;; 85 ÷ 40 = 2.1 m/s [A1]
+7bi | 1.1 | displacement involves direction / is a vector (distance has size only) [B1]
+7bii | 1.1 | {F} scale of a scale drawing found from a line of known length: 1 cm represents 5 m [B1]
+7biii | 1.1 | {F} size of displacement = length of the straight line from start to finish: measured diagonal 9.2 cm × scale, or Pythagoras √(30² + 35²) [B1] ;; 46 m [B1]
+7biv | 1.1 | {F} direction of the displacement measured from North (protractor, or tan θ = 30 ÷ 35): 39°–42° (318°–320° if measured clockwise) [B1]
+7bv | 1.2 | velocity = (change in) displacement ÷ time / displacement per unit time / rate of change of displacement [B1]
+7bvi | 1.2 | magnitude of the average velocity is smaller than the average speed because the displacement is smaller than the distance travelled along the path in the same time [B1]
+7c | 1.5.2 | fall to terminal velocity: air resistance and weight (gravitational force) both mentioned [B1] ;; as speed increases, air resistance increases [B1] ;; resultant force decreases / acceleration decreases [B1] ;; eventually air resistance = weight / resultant force is zero [B1] ;; then zero acceleration / constant speed (terminal velocity) [B1]
+8a | X1.8 | pressure definition
+8bi | X1.8 | manometer equal levels
+8bii | X1.8 | gas pressure greater
+8biii | X1.8 | balance
+8c | X1.8 | ρgh
+8d | X2.1 | molecules and pressure
+8ei | X1.8 | manometer too short
+8eii | X1.8 | denser liquid
+9ai | X5 | isotope
+9aii | X5 | not isotope
+9bi | X5 | technetium
+9bii | X5 | gamma, short half-life
+9ci | X5 | natural background
+9cii | X5 | man-made background
+9ciii | X5 | harm
+9di | X5 | fusion equation
+9dii | X5 | neutron
+9diii | X5 | Sun
+9e | X5 | alpha vs beta

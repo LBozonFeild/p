@@ -1,0 +1,14 @@
+36 Paper 2 checklist lines were taken at fixed intervals through the notes (every 42nd line from the 20th, and every 84th line
+from the 47th; all three chapters are represented) and traced back, through the findings line that supports them, to the
+mark-scheme text of the paper concerned.
+Result: 36 of 36 agree with the published mark-scheme wording (statement, accepted alternatives and mark split).
+For lines that merge several papers, the second supporting mark scheme was also opened (5 cases); all agreed.
+One neighbouring line (3.4, movement of the air particles in a sound wave) was reworded after the check, to say exactly which
+of its two marks ignores "left and right" / "up and down".
+After the scope revision of section 4.2.4 (series and parallel circuit rules removed, diode points added) the same positions
+were sampled again: 33 of the 36 hold the lines already checked; the three positions that now fall on other lines of 4.2.4
+(Ohm's law; non-linear change of resistance with temperature; reading currents from current-voltage graphs at a stated
+p.d.) were traced to the mark-scheme text and agree. The three mark-scheme entries behind the two new diode lines and the
+entries behind eight of the reworded resistance points were also opened again; all agree.
+Paper 1 checklist lines are explanations written for the notes; their check is the agreement of every worked answer with the
+official key (section 2).

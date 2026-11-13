@@ -1,0 +1,41 @@
+ORDER A B C Z
+== C | Energy from power and time (E = Pt); the kilowatt-hour | kW h|kWh|kilowatt|E = Pt|energy = power × time|energy (supplied|transferred) = power|= Pt|P × t|power × time | 0
+- E = P × t in any form (C1); answer (A1). P = W/t is accepted for the first mark, as is the product with unconverted units or a wrong power of ten.
+- Convert first: MW or kW to W, and minutes or hours to seconds; where three marks are given they are the formula (B1 or C1), the time in seconds (C1) and the answer (A1).
+- Energy in kW h = power in kW × time in hours: change W to kW (C1); answer (A1).
+- The same energy in joules: E = Pt with watts and seconds; 1 kW h = 3.6 × 10⁶ J (C1, A1).
+- Time from energy and power with consistent units: t = E ÷ P, for example kW h ÷ kW gives hours (C1, A1).
+- Useful energy = efficiency × power × time.
+- Energy not transferred to the object being heated = energy supplied − energy used.
+- For the energy output in a year use t = 365 × 24 × 3600 s.
+* The kilowatt-hour is a unit of energy; the watt and kilowatt are units of power (the kN is a unit of force).
+* Total power in use = sum of the powers of the appliances that are switched on; energy = total power × time.
+* To compare appliances work out power × time for each; work done = power × time.
+== B | Power when lifting or moving a load | mgh|lift|climb|stairs|weight ×|force ×|Fv|raise|pump|height | 1
+- Power when lifting: work = force × distance and power = work ÷ time (C1); power = mass × g × height ÷ time, i.e. weight × height ÷ time (A1).
+- Work done = force × distance (C1); P = work ÷ time (C1); answer (A1).
+- The power is larger when a load is lifted faster: the same work is done (B1) in a shorter time (B1).
+- Measuring the power of a person running upstairs – readings: the mass (or weight) of the person (B1); the time taken to run up the stairs (B1); the vertical height of the stairs, or the number of steps and the height of each (B1).
+- A precaution for one of the readings: the balance reads zero before the person steps on; time with two timers, or repeat and average; hold the rule vertical / the tape taut when measuring the height (B1).
+* Power = weight × vertical height ÷ time = mgh ÷ t; a metre rule (height) and a stop-watch (time) are needed to measure the power output when a known load is lifted.
+* For the same distance and time the largest force gives the greatest power; to compare, work out m × h ÷ t for each.
+* Use the total mass or total weight lifted.
+* Power of falling water = mgh per second; power output = efficiency × power input.
+* For a horizontal movement, work = force × distance in the direction of the force (the weight does no work), then power = work ÷ time.
+== A | Power: definition, unit and calculation (P = E ÷ t) | power|watt|P =  | 2
+- Power = work done, or energy transferred, per unit time (B1). P = E ÷ t in any form (C1); answer (A1).
+- The watt: a rate of transfer of energy (energy ÷ time) (C1) of 1 joule in one second (A1).
+- A power rating of 100 W means that 100 J (B1) of energy is transferred (converted) every second (B1).
+- Use the time in seconds (2 minutes = 120 s), reading it from the graph where necessary.
+- Useful power = useful energy (work done) ÷ time (C1, A1).
+- Average rate of using or releasing energy = energy ÷ time, in W or J/s (C1, A1).
+- Time needed: t = E ÷ P (C1, A1).
+- When only part of the energy is passed on: find that energy (C1); P = E ÷ t with the time in seconds (C1); answer (A1).
+- Constant force, increasing speed: the distance moved in one second increases as the speed increases (B1), so the work done in one second – the power – increases (B1).
+- Average power from repeated actions: count the number of times the action is done in the time (B1); power = total work ÷ time = work for one action × number ÷ time (B1).
+- The appliance that supplies more useful energy per minute (greater useful power output) heats water to boiling first: it transfers energy at a faster rate.
+* Power = work done ÷ time = energy transferred per second = rate of doing work; force × distance is work, not power.
+* Unit of power: the watt, W = J/s; energy and work are measured in joules.
+* Change the time to seconds before dividing (24 h = 24 × 3600 s); an answer in seconds may need changing to minutes.
+== Z | Other points
+MOVE w12_21|10bi|A

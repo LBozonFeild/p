@@ -1,0 +1,49 @@
+# P2 w17_22 | figs viewed: 1.1 (two 49 kN forces, each 20° from the centre line), 2.1 (spring and load hung below a second identical spring), 6.1, 7.1 (1800 Ω and LDR in parallel across 4.5 V, ammeter in the battery line), 9.1, 9.3, MS p2 (vector diagram for 1(a)) | not viewed: 3.1, 3.2, 9.2 (blank axes), 10.1, 11.1
+# leaf 11aiii holds 11(a)(i)–(iii), which share 2 marks
+1a | 1.1 | {F}{M} resultant of two forces by a graphical method: suitable scale stated, at least 1.0 cm to 10 kN [B1] ;; correct triangle (forces drawn head-to-tail) or parallelogram with the resultant drawn [B1] ;; resultant 90–94 kN [B1]
+1b | 1.5.1 | moving in a straight line at constant speed: no resultant force / balanced forces [B1] ;; the pulling force is cancelled by drag / water resistance / friction [B1]
+2a | 1.5.1+1.5.3 | besides changing its velocity, a force applied to a solid can change its shape [B1] ;; and its size / volume / density [B1]
+2bi | 1.3 | W = mg = 0.012 × 10 = 0.12 N [B1]
+2bii | 1.5.3 | {F} two identical springs in series: the upper spring also supports the weight of the lower spring, so its extension is larger [B1]
+2biii | 1.5.3 | limit of proportionality: the point (load / extension) beyond which extension is not directly proportional to load – the extension-load graph is no longer straight [B1]
+2ci | 1.7.1 | energy stored in a stretched spring: elastic potential energy [B1]
+2cii | 1.7.1 | oscillating load stops because of friction / air resistance – thermal energy (heat) is produced [B1]
+3a | X1.8 | P = F/A
+3b | X1.8 | atmospheric pressure
+3ci | 1.5.6 | centre of mass of a uniform block is at half its height: 0.13 ÷ 2 = 0.065 m [B1]
+3cii | 1.7.2+1.7.1 | work is done in tipping a block on to its end because its centre of mass rises [B1] ;; so gravitational potential energy is gained [B1] ;; alternative route: the block has weight (B1) ;; and a force moves through a distance in its own direction (B1)
+4ai | 1.7.5 | E = Pt [C1] ;; time converted to seconds: 75 × 63 × 60 × 60 [C1] ;; 1.7 × 10⁷ J [A1]
+4aii | 1.7.4 | useful (light) energy = efficiency × energy supplied = 0.12 × 1.7 × 10⁷ = 2.0 × 10⁶ J [B1]
+4bi | 1.7.3 | oil is non-renewable: it gets used up / is not replaced / will run out / is finite [B1]
+4bii | 1.7.3 | environmental consequence of using oil – one cause with its effect: greenhouse gases / CO₂ emitted [B1] ;; leading to global warming / increased greenhouse effect / melting ice caps [B1] ;; alternatives: acid rain / SO₂ / nitrogen oxides emitted (B1) causing breathing difficulty, damage to buildings, acidified lakes, harm to plants and animals (B1); or oil spills (B1) that damage / kill plants, sea-life, animals (B1)
+5a | X5 | fusion
+5b | 3.3 | energy from the Sun reaches the Earth as electromagnetic radiation – infrared / light / ultraviolet [B1] ;; which travels through a vacuum / needs no medium [B1]
+6a | 3.4 | echo: a reflection of sound [B1]
+6bi | 3.4 | quieter sound: the amplitude of the sound wave has decreased [B1]
+6bii | 3.4 | same pitch: the frequency has not changed [B1]
+6c | 3.1+3.4 | λ = v/f = 330 ÷ 3700 [C1] ;; 0.089 m (8.9 cm) [A1]
+7ai | X4.3 | parallel resistance
+7aii | 4.2.4 | {F} I = V/R with the total resistance = 4.5 ÷ 1500 [C1] ;; 3.0 × 10⁻³ A (3.0 mA) [A1]
+7bi | X4.3 | LDR in brighter light
+7bii | X4.3 | parallel branch unchanged
+8a | 4.2.2 | Q = It = 120 × 3.5 [C1] ;; 420 C [A1]
+8b | X4.5 | relay
+9ai | 1.5.1 | F = ma = 160 × 0.35 [C1] ;; 56 N [A1]
+9aii | 1.2 | v = u + at from rest = 0.35 × 1.2 [C1] ;; 0.42 m/s [A1]
+9bi | 1.2 | speed-time sketch for a constant resultant force that suddenly becomes zero: straight line of positive gradient from the origin up to that time [B1] ;; then a horizontal line (constant speed) [B1]
+9bii | 1.2 | distance moved from a speed-time graph: find the area [B1] ;; the area under the line, converted to distance using the scales of the axes [B1]
+9ci | 1.5.4+X6 | {F} force keeping a satellite in a circular orbit: arrow from the satellite towards the centre of the Earth [B1] ;; it is caused by the gravitational attraction / field [B1] ;; of the Earth [B1]
+9cii | 1.2 | velocity: change of displacement [M1] ;; per unit time [A1] ;; alternative: distance moved per unit time (M1) in a specified direction (A1)
+9ciii | 1.5.4+1.7.1 | in a circular orbit at constant speed the velocity changes, because its direction changes (the force is perpendicular to the velocity) [B1] ;; the kinetic energy remains constant, because the speed is constant / kinetic energy is a scalar [B1]
+10ai | X4.4 | I = P/V
+10aii | X4.4 | fuse rating
+10bi | X2.2 | mcΔT
+10bii | X2.3 | heat loss
+10ci | X2.3 | convection
+10cii | X2.3 | conduction
+10ciii | 1.4+X2.2 | heating a solid: its particles move further apart (on average) [B1] ;; so the volume increases and the density decreases (same mass) [B1]
+11aiii | X4.1 | magnetic materials
+11bi | X4.5 | transformer use
+11bii | X4.5 | a.c. graph; turns ratio
+11ci | X4.5 | induction; Lenz
+11cii | X4.5 | induction

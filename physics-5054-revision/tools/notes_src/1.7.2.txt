@@ -1,0 +1,37 @@
+ORDER A B Z
+== A | Work done = force × distance moved in the direction of the force | work|W = F | 1
+- Work done = force × distance moved in the direction of the force (formula B1 or C1; answer B1 or A1).
+- Work is done because a force moves through a distance (in the direction of the force).
+- When the force acts along a slope, use the distance moved along the slope.
+- Use the distance in metres (for example a change in length of 0.93 − 0.70 = 0.23 m).
+- The distance may have to be worked out first: the distance for a quarter turn is the circumference ÷ 4; the distance travelled in 1.0 s is the speed × 1.0 s.
+- Number of movements needed = total work ÷ work done in one movement (C1 for work = force × distance, C1 for the work in one movement, A1).
+- Work done stretching a spring = average force × distance in metres (C1, A1).
+- Useful work done raising a load = mgh (force × distance) (C1, A1).
+- A force perpendicular to the direction of motion does no work: there is no distance moved along its line of action (M1 or C1), so no work is done by the force that keeps an object in a circular path or orbit (A1).
+- Because no work is done on it, the (kinetic and gravitational potential) energy of a satellite in a circular orbit remains constant.
+- From battery to moving scooter in terms of work done: electrical work is done / a current is made to flow (B1); mechanical work is done by the motor / on the wheel (B1).
+* The unit of work is the joule (J).
+* Work done by or against a weight = weight × vertical height moved – not the distance along the slope, the length of the ramp or plank, or the horizontal distance.
+* Work done by a push along a ramp = force × distance along the ramp (the direction of the push).
+* No work is done against gravity on an object carried horizontally at constant height.
+* The contact force and the weight do no work on an object moving horizontally, because they are perpendicular to the motion; the pulling force does the work that increases the kinetic energy store.
+== B | Work and energy transfers | friction|against|brak|stopping force|energy transferred|is done by gravity|counterweight|centre of mass rises|kinetic energy gained|increasing the speed|gain in GPE | 0
+- Work is done by gravity / the weight (B1); energy is transferred from the gravitational potential energy store (B1) to the kinetic energy store (B1).
+- Pushing a vehicle up a slope: work is done against the weight (gravitational force) (B1), producing gravitational potential energy (B1), and against friction / air resistance (B1), producing heat (thermal / internal energy) (B1).
+- Falling at terminal velocity: energy is transferred by doing work against friction / drag / the resistive force (B1), to the internal (thermal) energy store of the surrounding fluid (B1).
+- The kinetic energy gained is less than the work done because of friction / drag (B1): work is done against the resistance and energy is lost as heat (B1).
+- The work done is larger than the gravitational potential energy gained because a larger force is needed (B1), because of friction (for example between wheel and axle or tyre and plank) / heat produced, the weight of the rope, or the load gaining kinetic energy (B1).
+- Work is done in tipping a block on to its end because its centre of mass rises (B1), so gravitational potential energy is gained (B1). Alternative route: the block has weight (B1) and a force moves through a distance in its own direction (B1).
+- A lift balanced by a counterweight of equal mass needs very little work from the motor: work is done by the falling counterweight, which loses gravitational potential energy (B1), and this raises the lift; the motor only does work against friction and to accelerate the lift (B1).
+- Average stopping (braking) force: work done = force × distance = kinetic energy lost, so F = kinetic energy ÷ distance (C1, A1).
+- Work done lifting a load = mgh (C1, A1).
+* Work done by a force = energy transferred to the object it acts on.
+* Work done increasing the kinetic energy = resultant force × distance.
+* Work done against the braking force = kinetic energy lost: F × d = ½mv².
+* On a ramp: total work done = force × distance along the ramp; gain in gravitational potential energy = weight × vertical height; work done against friction = the difference.
+* Lifting at constant speed with no friction: work done = gain in gravitational potential energy = mgh, using the vertical height.
+== Z | Other points
+MOVE w12_12|MCQ14|A
+MOVE w18_22|1c|A
+MOVE s25_11|MCQ9|A

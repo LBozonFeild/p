@@ -1,0 +1,46 @@
+# P2 s24_22 | figs viewed: 1.1, 1.2 (A: 0.7 → 0.4 m/s and B: 0 → 0.4 m/s between 0.3 s and 0.5 s), 3.2, 4.1 (right-angled prism, ray enters at P along the normal, reflects at Q and R), 6.1, 6.2 (lamp on: 0.10 A at 8 V; off: 0.06 A at 8 V) | MS label 4(a)(ii) printed twice
+1ai | 1.2 | {F} uniform acceleration shown by a straight (sloping) line on the speed-time graph [B1]
+1aii | 1.2 | {F} larger acceleration shown by a steeper gradient, or a larger change in speed in the same time [B1]
+1aiii | 1.2 | a = change in speed ÷ time in any form (gradient of the line) [C1] ;; 0.4 ÷ 0.2 = 2.0 m/s² [A1]
+1b | 1.6 | "show momentum is conserved": p = mv, initial momentum of A = 0.80 × 0.7 = 0.56 kg m/s (B at rest) [B1] ;; final momentum of A and B together = (0.80 + 0.60) × 0.4 = 0.56 kg m/s, same value [B1]
+1c | 1.6 | why the force is larger in a collision without a cushioning material, any two of three: contact surfaces are more rigid / less pliable; time of contact decreases (or final velocity of struck trolley larger / of striking trolley smaller); acceleration increases, or force = (mv − mu)/t, or force = impulse/t [B2]
+2ai | 1.4 | "show that": volume = length × breadth × depth in any form [C1] ;; mass = density × volume = 6.72 × 1000 = 6720 kg clearly seen (unrounded value shown) [A1]
+2aii | X1.8 | pressure definition
+2aiii | X1.8 | P = dgh
+2aiv | X2.2 | ΔT = E/mc
+2bi | X2.2 | evaporation cooling
+2bii | X2.2 | evaporation factors
+3ai | 1.7.1 | solar charger energy chain: nuclear energy in the Sun (→ light → electrical) [B1] ;; chemical energy in the battery [B1]
+3aii | 1.7.3 | solar charger on a cloudy day: less / no light / energy reaches the charger, or less / no electrical current is produced [B1]
+3b | X2.3 | conduction, convection, radiation
+3c | 4.2.2 | Q = It in any form [C1] ;; 0.300 × 4.5 × 3600 = 4900 (mA converted to A, hours to seconds) [A1] ;; unit C or coulomb [B1]
+4ai | 3.2.2 | {F} ray entering along the normal: angle of incidence = 0 [B1]
+4aii | 3.2.2 | {F} normal drawn perpendicular to the surface at the point of incidence, correct by eye [B1] ;; angle of incidence marked between the incident ray and the normal, and labelled [B1]
+4aiii | 3.2.2 | conditions for total internal reflection (no refracted light): angle of incidence greater than the critical angle [B1] ;; light travelling from a more dense to a less dense medium / from high to low refractive index [B1]
+4bi | 3.3 | other electromagnetic radiation used in optical (glass) fibres: infrared [B1]
+4bii | 3.2.2 | advantages of glass fibres over copper wires, any 2: more calls per second / greater bandwidth / faster; less chance of hacking; less interference; less noise; longer transmission distance before losing signal / less attenuation; thinner / lighter [B2]
+5ai | 4.2.1 | charging by rubbing: electrons are gained by the object that becomes negative and lost by the other [B1] ;; the object losing electrons (the cloth) becomes positively charged [B1]
+5aii | 4.2.1 | charge stays on a rubbed balloon: balloon / rubber / air is an insulator [C1] ;; electrons / charge cannot move through the rubber / air (or little ionisation of the air) [A1]
+5b | X2.1 | gas expansion on heating
+6a | 4.2.4 | Ohm's law: current is (directly) proportional to potential difference [B1] ;; at constant temperature [B1]
+6b | 4.2.4 | {F} Ohm's law obeyed when the current-voltage graph is a straight line through the origin [B1]
+6c | 4.2.4 | {F} LDR: resistance decreases in bright(er) light [B1] ;; supported by graph values: resistances calculated (80 Ω lit, 130 Ω dark), or larger current at the same voltage, or less voltage needed for the same current [B1]
+6di | X4.3 | series current same
+6dii | 4.2.4+X4.3 | V = IR in any form [C1] ;; p.d. across fixed resistor = 0.050 × 240 = 12 V (or total resistance 320 Ω) [C1] ;; e.m.f. = sum of p.d.s = 12 + 4 = 16 V [A1]
+7ai | X4.1 | poles
+7aii | X4.1 | plotting field lines
+7aiii | X4.1 | field direction
+7bi | X4.5 | induction
+7bii | X4.5 | frequency of motion
+7biii | X4.5 | a.c. on centre-zero meter
+7biv | X4.5 | rate of change of flux
+8a | X6 | supernova
+8b | X6 | protostar
+8ci | X6 | Milky Way
+8cii | X6 | light-year
+8ciii | X6 | orbital speed
+9a | X5 | spontaneous
+9b | X5 | alpha composition
+9ci | X5 | cloud chamber / spark counter
+9cii | X5 | random
+9ciii | X5 | half-life

@@ -1,0 +1,41 @@
+# P1 w24_11 | sheets 1-2 viewed; zoom viewed for Q23, 24, 33 (cell symbols enlarged), 36
+1 B 1.7.5 power is measured in watts (kW for a large motor); kW h is a unit of energy and kN a unit of force
+2 A 1.3+1.1 mass is a scalar measured in kilograms
+3 C 1.1 {F} two equal forces at right angles (horizontal pull = weight) have a resultant at 45° to each, so the thread, which lies along the line of the resultant, is at 45° to the vertical
+4 B 1.2 average speed = total distance ÷ total time: (3.0 × 20/60) + (4.0 × 15/60) = 2.0 km in 35 minutes = 3.4 km/h (distance travelled, not the straight-line displacement)
+5 C 1.2 {F} constant acceleration from rest: a distance–time graph that curves upwards with increasing gradient (the speed–time graph would be a straight line)
+6 D 1.2 {F} free fall without air resistance is constant acceleration, so positions at equal time intervals get steadily further apart in the direction of movement
+7 B X2.1 compressing a gas
+8 B 1.3 m = W ÷ g = 8000 ÷ 9.8 = 820 kg
+9 A 1.5.1 resultant force = driving force − resistive force = 80 − 20 = 60 kN forwards, so the vehicle accelerates
+10 A 1.5.2+1.7.1 friction (in the brakes) transfers energy from the kinetic store to the thermal store
+11 B 1.5.3 {F} limit of proportionality: the last point on the straight-line section of the extension–load graph before it curves
+12 D 1.5.4+X6 circular motion needs a force towards the centre of the circle (towards the centre of the Earth for a satellite)
+13 A 1.5.5 {F} principle of moments about the pivot: 2.0 × (x + 5.0) + 3.0 × 5.0 = 2.0 × 30, so x = 17.5 cm
+14 C 1.5.6 {F} a freely suspended lamina hangs with its centre of gravity vertically below the point of suspension; it lies on that vertical line at the balance point of the area (lower down where the card is wider), not at the pin or on the edge
+15 B 1.6 {F} conservation of momentum (opposite directions have opposite signs): 2.0 × 2.0 − 1.0 × 1.0 = (2.0 + 1.0)v, v = 1.0 m/s; force = change in momentum ÷ time = 2.0 × (2.0 − 1.0) ÷ 0.20 = 10 N
+16 C 1.7.1 KE = ½mv², so v = √(2 × 10 ÷ 5.0) = 2.0 m/s
+17 B 1.7.1 {F} wasted energy transfer: kinetic energy to thermal energy (friction); useful transfers are chemical (person) → elastic → kinetic → electrical → sound
+18 B 1.7.4 efficiency = useful power output ÷ total power input = (60 − 46) ÷ 60 = 14/60
+19 C X1.8 {F} pressure = force ÷ area
+20 C X1.8 barometer
+21 A X2.1 compressing a gas
+22 C X2.2 states and temperatures
+23 C X2.2 {F} latent heat on a heating curve
+24 B X2.3 {F} convection
+25 D 3.2.2 {F} light passing from glass into air bends away from the normal (angle of refraction greater than angle of incidence)
+26 A 3.2.3 short sight: the image of a distant object forms in front of the retina; corrected with a diverging lens
+27 D 3.3 infrared: transverse electromagnetic waves, invisible, travelling at the speed of light (3.0 × 10⁸ m/s); used in intruder alarms
+28 A 3.1+3.4 sound waves are longitudinal (in any medium); electromagnetic waves and water-surface waves are transverse
+29 C 3.4 an echo is a reflection of sound
+30 B 4.2.1 charging by friction: electrons are transferred from the cloth to the plastic, giving it a negative charge; protons do not move
+31 C 4.2.1 {F} electric field between oppositely charged parallel plates: parallel, evenly spaced lines directed from the positive plate to the negative plate
+32 C 4.2.3 electromotive force: the electrical work done by a source in moving unit charge around a complete circuit
+33 C 4.2.3 {F} e.m.f.s of cells in series add, but a cell connected the opposite way round subtracts: three cells one way and one reversed give 3 × 1.5 − 1.5 = 3.0 V
+34 B X4.3 {F} series circuit rules
+35 C X4.4 fuse rating
+36 B X4.5 {F} field of a straight wire
+37 A X5 particles
+38 C X5 nuclide notation
+39 C X6 planets
+40 C X6 redshift

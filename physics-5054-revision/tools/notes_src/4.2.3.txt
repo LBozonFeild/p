@@ -1,0 +1,37 @@
+ORDER A B C D Z
+== C | Measuring potential difference: voltmeters | voltmeter | 0
+- A voltmeter is drawn in parallel with (across) the component whose p.d. is measured (B1).
+- A voltmeter across the only component connected to cells in series reads the sum of their e.m.f.s.
+- Choosing a voltmeter range: a range whose maximum is below the p.d. is unsuitable – the reading would be off the scale and the meter may be damaged (B1); a range far larger than the p.d. is unsuitable – the deflection is too small to read precisely, so the reading is less accurate (B1).
+- A suitable range starts from 0 (B1) and runs up to a little more than the expected reading – for about 7 V, up to about 8–10 V and no more than 20 V (B1).
+- A voltmeter reads much less than expected when one cell is connected the wrong way round and acts against the others (B1).
+* Potential difference is measured in volts with a voltmeter.
+== D | Cells in series and in parallel | cells? in series|in parallel|battery of|number of cells|cells? (are )?connected|identical cells|total e\.m\.f|combined e\.m\.f|cells | 1
+- Cells in series: the total e.m.f. is the sum of the e.m.f.s – number of cells × e.m.f. of one cell (C1, A1). The cells must all face the same direction.
+- Number of cells needed in series = battery e.m.f. ÷ e.m.f. of one cell; e.m.f. of each identical cell = total e.m.f. ÷ number of cells.
+- Identical cells (sources) in parallel: the e.m.f. equals that of one cell (B1).
+- Adding an identical cell in parallel has no effect on the p.d.s in the circuit (B1), because the e.m.f. of identical cells in parallel equals the e.m.f. of a single cell (B1).
+- Advantage of cells in parallel rather than a single cell (one mark): the battery lasts longer – runs down more slowly, twice as long for two cells; more energy is available; the supply still works if one cell fails; a cell can be replaced without switching off; smaller internal resistance. "A greater e.m.f." is not accepted.
+- Two-mark version: they last longer (M1) because more energy is stored / there is a smaller current in each cell (A1); or the circuit keeps working if one cell fails (M1) because the other cell takes over (A1).
+- Drawing cells in parallel: all the positive terminals are joined together and all the negative terminals are joined together.
+- Battery diagrams: the correct cell symbol with the positive terminal (the long line) marked (B1); four 1.5 V cells in series, all the same way round, give 6.0 V (B1); eight cells giving 6.0 V are four in series connected in parallel with another four in series (B1).
+- Four 1.5 V cells giving 3.0 V: two parallel pairs connected in series (B1); the cells must not be all in series or all in parallel.
+* Cells in series add, but a cell connected the opposite way round subtracts: three cells one way and one reversed give 3 × 1.5 − 1.5 = 3.0 V.
+* Identical cells in parallel give the e.m.f. of one cell – a lamp keeps its normal brightness – but each cell supplies only part of the current and so takes longer to run down.
+* Two cells in series are drawn with the long plate of one next to the short plate of the other.
+* The current leaving a battery equals the current returning to it.
+== A | Electromotive force (e.m.f.) | e\.m\.f|electromotive | 2
+- Electromotive force (e.m.f.): the energy transferred / work done per unit charge (B1 or M1) by the source in driving charge round the complete circuit (B1 or A1).
+- The second mark is also given for saying that it is a property of the source (cell, battery, power supply) – the energy transferred from other forms to electrical energy per unit charge.
+- e.m.f. and p.d. together: e.m.f. is the work done per unit charge round the complete circuit / by the source (B1); p.d. is the work done per unit charge across a component / between two points (B1).
+- Similarity: both are energy per unit charge, measured in volts (J/C) with a voltmeter (B1). Difference: e.m.f. is energy changed from other forms (for example chemical) to electrical in the source (B1); p.d. is energy changed from electrical to other forms (heat, light) in part of the circuit (B1).
+- An e.m.f. of 18 V means energy supplied per unit charge (C1): 18 J for each coulomb (A1).
+- Charge delivered = energy ÷ e.m.f. (C1, A1).
+* e.m.f. = work done ÷ charge; it is measured in volts (joules per coulomb), not joules.
+== B | Potential difference (p.d.); the volt; W = QV | potential difference|p\.d\.|volt|W = QV|E = QV|V = W|J/C|energy|charge | 3
+- Potential difference across a component: the work done / energy transferred (B1, M1 or C1) per unit charge passing through the component (B1 or A1) – work done ÷ charge.
+- Energy transferred when a charge moves through a p.d.: E = QV (C1); answer (A1).
+* One volt is one joule per coulomb: V = W ÷ Q, so energy = charge × potential difference and charge = energy ÷ p.d.
+* Find the charge (Q = It) or the energy (E = Pt) first where necessary; then power = energy ÷ time and current = charge ÷ time.
+* A bird standing on a high-voltage line is not connected to earth, so there is no potential difference across it and no current through it.
+== Z | Other points

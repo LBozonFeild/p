@@ -1,0 +1,40 @@
+# P1 w11_12 | main sheets 1-4 and rest sheet viewed; zoom viewed for Q10, 21, 33, 34, 36; Q26 is identical to s18_12 Q34
+1 C 1.5.2 {F} terminal velocity is reached when a falling object is still moving but no longer accelerating (air resistance equals weight)
+2 C 1.5.1 {F} Newton's third law: if the propeller pushes water backwards with 2000 N, the water pushes the propeller forwards with an equal force of 2000 N (the resistive force is not part of this pair)
+3 B 1.2 {F} distance = area under the speed–time graph = (4 × 5) + ½ × (4 + 6) × 2 = 20 + 10 = 30 m
+4 B 1.5.1+1.5.2 {F} when the link breaks the truck has only resistive forces acting, so it slows down gradually; the engine has the same driving force but less resistance, so there is a resultant forward force and it speeds up
+5 B 1.3 {F} a newton meter measures weight, which is different on the Moon; a pan balance compares masses, so its reading is the same on the Earth and on the Moon
+6 A 1.1 a micrometer measures the diameter of a thin wire; a (metre) rule measures a length of about 1 m
+7 D 1.1 the unit symbol ms means milliseconds (prefix m = milli, s = second)
+8 C 1.7.4 useful energy output = efficiency × energy input = 0.65 × 12 = 7.8 kJ
+9 B 1.7.1+1.7.3 coal-fired power station: chemical energy → heat energy → kinetic energy → electrical energy
+10 B 1.7.1 {F} change in gravitational potential energy = weight × vertical height moved, whatever path the load takes
+11 B 1.5.3 {F} the limit of proportionality is the point where the extension–load graph stops being a straight line
+12 B 1.5.6 {F} stability depends on the width of the base and the position (height) of the centre of mass
+13 C X1.8 pressure = force ÷ area
+14 D X1.8 {F} liquid pressure
+15 A X2.1 {F} liquid model
+16 C X2.2 specific heat capacity
+17 B XOLD clinical thermometer
+18 A X2.2 {F} changes of state
+19 D X2.3 radiation
+20 A 3.2.2 {F} sin i against sin r is a straight line through the origin with gradient n (greater than 1 for light entering glass), so sin i reaches 1 while sin r is still about 0.65
+21 A 3.2.1 {F} the image in a plane mirror lies on the line through the object at right angles to the mirror, as far behind the mirror as the object is in front, wherever the observer stands
+22 C 3.2.4+3.3 red and violet light travel at the same speed in air; red light has the greater wavelength
+23 D 3.3 {F} the region with a frequency just below visible light is infrared, used in television remote controllers
+24 B 3.4+3.1 {F} sound is a longitudinal wave: on a spring it is modelled by compressions (coils close together) and rarefactions (coils spread out) travelling along the spring
+25 C 3.4+X4.6 {F} the same note played on two instruments has the same frequency but a differently shaped waveform, so the sounds differ in quality (timbre)
+27 B 4.2.4 resistance is proportional to length ÷ cross-sectional area: twice the length and four times the area gives 80 × 2 ÷ 4 = 40 Ω
+28 D X4.3 {F} potential divider
+29 A XOLD {F} capacitor time delay
+30 C X4.4 fuse rating
+31 D X4.4 plug wiring
+32 C 4.2.3 {F} identical cells in parallel give the same e.m.f. as one cell (the lamp keeps its normal brightness), but they last longer because each supplies only part of the current
+33 C 4.2.1 {F} like charges repel: when two negatively charged metal spheres are brought close, the charges on each move round to the side furthest from the other sphere
+34 D X4.5 {F} a.c. generators
+35 A X4.5 commutator
+36 A X4.5 {F} force between parallel currents
+37 B X4.5 {F} induced current reverses
+38 A X5 half-life
+39 D X5 {F} deflection of beta-particles
+40 C X5 neutron and proton numbers

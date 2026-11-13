@@ -1,0 +1,39 @@
+# P1 w07_1 | main sheets 1-3 and rest sheet viewed; Q6 is identical to s18_12 Q9; Q19 to s26_12 Q23
+1 C 1.1 {F} a flexible tape measure is used to measure the length of a curved track (a rigid metre rule cannot follow the curve)
+2 A 1.1 the resultant of two forces lies between their difference and their sum: for 30 N and 50 N between 20 N and 80 N, so 10 N is impossible
+3 D 1.5.2 {F} terminal velocity is shown by a horizontal section of the speed–time graph (constant speed, air resistance equal to weight)
+4 D 1.5.2 {F} friction always opposes the motion of a body across a surface
+5 B 1.5.4 {F} for motion in a circle at constant speed the resultant force points towards the centre of the circle
+7 A 1.5.5 {F} principle of moments about the pivot: F × 4.0 = 500 × 2.0, so F = 250 N
+8 D 1.5.3 {F} extension = length − unloaded length (2 cm at zero load); an extension of 3 cm means a length of 5 cm, which the graph gives at 15 N
+9 B 1.7.1 kinetic energy = ½mv²: v = √(2 × 400 ÷ 2) = 20 m/s
+10 B 1.7.1 {F} increase in gravitational potential energy = weight × vertical height gained, whatever path the load takes
+11 B 1.7.4 useful output = efficiency × energy input = 0.65 × 12 = 7.8 kJ
+12 C X1.8 {F} liquid pressure
+13 C X2.1 intermolecular forces
+14 D X2.2 {F} cooling by evaporation
+15 D XOLD thermocouple
+16 B X2.2 {F} cooling curve
+17 D X2.1 {F} gas expansion alarm
+18 C X2.3 {F} water as a poor conductor
+20 B 3.2.1 {F} angles are measured from the normal: a ray at 30° to the mirror has an angle of incidence of 60°, so the angle of reflection is 60°
+21 C 3.2.4 {F} dispersion by a prism: white light is split into colours as it is refracted on entering the prism and spreads further on leaving; red is deviated least and violet most (violet nearer the base of the prism)
+22 D 3.3 a sunbed uses ultraviolet, not infra-red; grills, intruder alarms and remote controllers use infra-red
+23 A 3.4 finding the distance of a lightning strike from the delay assumes that the light arrives almost instantly and that sound travels at about 300 m/s (1800 ÷ 6)
+24 B X4.5 {F} electromagnet signal
+25 B X4.1 uses of magnetic materials
+26 D 4.2.1 {F} a positively charged sphere near an uncharged metal sphere: negative charge is induced on the near side of the uncharged sphere and positive on its far side, and the charge on the positive sphere is drawn towards the side facing it
+27 C 4.2.4 Ohm's law applies only if the temperature is constant
+28 B 4.2.3+4.2.2+1.7.5 {F} energy = power × time = 24 × 60 = 1440 J; p.d. = energy ÷ charge = 1440 ÷ 120 = 12 V (or I = Q ÷ t = 2 A, V = P ÷ I = 12 V)
+29 A X4.3 {F} currents in a parallel circuit
+30 B 4.2.4+X4.3 {F} two 6.0 Ω resistors in parallel make 3.0 Ω; total resistance = 3.0 + 3.0 = 6.0 Ω; current from the cell = 6.0 ÷ 6.0 = 1.0 A, which splits equally, so an ammeter in one branch reads 0.50 A
+31 C X4.4 E = VIt and P = VI
+32 B X4.4 earthing and fuse
+33 C X4.5 {F} force on an electron beam
+34 D X4.5 motor turning effect
+35 C X4.5 {F} induced current reverses
+36 C X4.5 {F} step-up transformer
+37 B X4.5 {F} reed switch
+38 C X5 {F} range of alpha-particles
+39 C X5 half-life
+40 A X5 isotopes

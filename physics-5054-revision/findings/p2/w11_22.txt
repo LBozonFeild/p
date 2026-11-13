@@ -1,0 +1,49 @@
+# P2 w11_22 | figs viewed: 1.1 (0.050 kg at the 10 cm mark, pivot at 50 cm, cube at 75 cm), 2.1 (slope from T to B, then 33 m horizontal to P), 4.1 (two and a half waves between A and B), 8.1 (parallel rays entering a short-sighted eye), 8.2, 9.1 (straight line from rest to 72 m/s at 9.0 s, then level) | not viewed: 3.1, 5.1, 6.1 (blank axes), 11.1
+1a | 1.5.5 | {F} moment of each mass about the pivot = m(g) × distance from the pivot; distances 40 cm and 25 cm [C1] ;; anticlockwise moment = clockwise moment: 0.050 × 40 = m × 25 (g cancels) [C1] ;; m = 0.080 kg [A1]
+1b | 1.4 | density = m ÷ V = 0.080 ÷ 1.6 × 10⁻⁴ [C1] ;; 500 kg/m³ [A1]
+2ai | 1.3 | W = mg = 85 × 10 = 850 N [B1]
+2aii | 1.7.1 | minimum height: kinetic energy gained = g.p.e. lost, mgh = 5.5 × 10⁴ [C1] ;; h = 5.5 × 10⁴ ÷ 850 = 65 m [A1]
+2b | 1.7.2 | {F} average stopping force: work done = force × distance = kinetic energy lost, F = 5.5 × 10⁴ ÷ 33 [C1] ;; 1700 N [A1]
+3ai | X2.1 | Boyle's law
+3aii | X2.1 | Boyle's law
+3b | X1.8 | pressure and height
+4a | 3.3 | speed of microwaves in air = 3.0 × 10⁸ m/s [B1]
+4b | 3.1 | {F} wavelength = distance ÷ number of complete waves in that distance = 40 ÷ 2.5 = 16 cm (0.16 m) [B1]
+4c | 3.3 | microwaves in satellite television, any three: the signal is encoded on the microwaves; sent from a transmitter (dish) on Earth to the satellite; they travel through space (a vacuum) and pass through the atmosphere; the satellite amplifies (boosts) the signal; and transmits it back; it is received by a (satellite) dish on Earth [B3]
+4d | 3.3 | properties common to all electromagnetic waves, any two: the same (high) speed – the speed of light; travel through a vacuum (no medium needed); transfer energy; transverse; oscillating electric and magnetic fields; can be reflected / refracted / diffracted [B2]
+5ai | X4.1 | induced poles
+5aii | X4.1 | attraction
+5b | X4.1 | soft iron
+6ai | 4.2.4 | circuit to measure the p.d. across a wire and the current in it: power supply, wire and ammeter in series [B1] ;; voltmeter connected across the wire [B1] ;; a variable power supply, or a rheostat in series, to change the current [B1]
+6aii | 4.2.4 | read the ammeter and the voltmeter [B1] ;; change the current (vary the supply or rheostat) and repeat [B1]
+6aiii | 4.2.4 | resistance R = V/I (p.d. ÷ current) [B1]
+6b | 4.2.4 | if p.d. is directly proportional to current the resistance is constant: the resistance-current graph is a horizontal line above the axis [B1]
+7a | X4.4 | P = VI
+7bi | 4.2.4 | V = IR = 65 × 3.0 [C1] ;; 195 V [A1]
+7bii | X4.4 | I²Rt
+7ci | X4.5 | high-voltage transmission
+7cii | X4.5 | safety of low voltage
+8ai | 3.2.3 | {F} short-sighted eye and parallel rays from a distant object: the central ray passes through undeviated [M1] ;; the outer rays meet the central ray at a point inside the eye, in front of the retina, and carry on (diverging) to the retina [A1]
+8aii | 3.2.3 | the image is blurred because the rays do not meet at a point on the retina – light from a single point is spread over an area of the retina [B1]
+8bi | 3.2.3 | short sight is corrected by a diverging lens – drawn thinner at the centre than at the edges [B1]
+8bii | 3.2.3 | parallel rays passing through it diverge [B1]
+9a | 1.2 | {F} speed read from the speed-time graph at the given time: 72 m/s [B1]
+9bi | 1.2 | distance = area under the graph = ½ × base × height = ½ × 9.0 × 72 [C1] ;; 324 m [A1]
+9bii | 1.2 | acceleration = change in velocity ÷ time = 72 ÷ 9.0 [C1] ;; 8.0 m/s² [A1]
+9biii | 1.5.1 | resultant force F = ma = 650 × 8.0 [C1] ;; 5.2 × 10³ N [A1]
+9c | 1.5.2 | constant acceleration needs an increasing driving force: friction / air resistance (drag) acts [M1] ;; and increases as the speed increases [A1] ;; so the driving force must increase to keep the resultant force constant [B1]
+9di | 1.5.4 | turning a corner at constant speed: the direction of motion changes [B1] ;; so the velocity changes – an acceleration [B1]
+9dii | 1.5.4 | the acceleration is towards the centre of the circle [B1]
+9diii | 1.5.4 | the force causing it is friction with the ground [B1] ;; acting on the tyres (wheels), towards the centre (on a banked track, the reaction force) [B1]
+10a | X2.2 | melting point
+10bi | X2.2 | mL
+10bii | 1.7.1 | speed from kinetic energy: ½mv² = 41.8 J with mass in kg (0.0019 kg) [C1] ;; v² = 44 000 [C1] ;; v = 210 m/s [A1]
+10biii | 1.7.1 | the launch speed is greater than this, any two: some heat is lost to the wall; heat is also needed to raise the bullet to its melting point; air resistance reduces the speed (work done against air resistance in flight) [B2]
+10c | X2.1 | melting structure
+10d | 1.7.1+X2.2 | a bullet of twice the mass at the same speed: twice the energy is needed to melt it [M1] ;; but it has twice the kinetic energy – the mass cancels (mL = ½mv²) [M1] ;; so it still melts [A1]
+11a | X5 | fission
+11bi | X5 | nuclear equation
+11bii | X5 | E = mc²
+11c | X5 | reactor
+11di | X5 | half-life
+11dii | X5 | safety

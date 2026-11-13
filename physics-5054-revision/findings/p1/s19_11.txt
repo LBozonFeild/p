@@ -1,0 +1,25 @@
+# P1 s19_11 | main sheets 1-2 and rest sheet viewed; Q3, 5, 8, 9, 12, 15, 22, 23, 30, 35, 38, 39 are identical to s19_12 questions; Q14 to w23_11 Q8; Q16 to s26_12 Q26; Q24 to w25_11 Q19; Q26 to w25_11 Q20
+1 D 1.1 velocity and acceleration are both vectors; length and distance are scalars
+2 C 1.1 {F} when two force vectors are drawn head to tail, the resultant is the line from the start of the first to the end of the second, with its arrow pointing towards the end of the second
+4 C 1.1 prefixes: mega (M, 10⁶) is larger than kilo (k, 10³), which is larger than milli (m, 10⁻³)
+6 A 1.5.1 {F} constant velocity at constant height means no resultant force in any direction: the two horizontal forces are equal and the two vertical forces are equal
+7 D 1.5.4 {F} for motion along a circular path at constant speed the resultant force is directed towards the centre of the circle (the concave side of the path)
+10 B 1.5.6 for centres of mass at the same height, a larger base makes an object more stable; a higher centre of mass makes it less stable
+11 D X1.8 force = pressure × area added to the weight
+13 A X1.8 manometer height change
+17 D X2.2 {F} energy loss in a heating experiment
+18 B XOLD sensitivity and range
+19 C XOLD {F} thermometer scales
+20 D X2.2 {F} expansion of flask then air
+21 C X2.1 particles in a liquid
+25 C 3.2.3 {F} a diverging lens makes a parallel beam diverge as if from a point in the focal plane on the incident side; the ray through the centre of the lens passes straight on, and for an oblique beam the virtual focus is the point where that central ray crosses the focal plane
+27 B 3.4 {F} a sound getting louder has an increasing amplitude; a decreasing pitch means a decreasing frequency (fewer, more widely spaced waves on the trace)
+28 B X4.1 {F} induced magnetism in soft iron
+29 C X4.5 {F} field of two currents
+31 B 4.2.1 {F} rubbing transfers electrons from one material to the other, leaving the two with opposite charges that attract (one loses electrons, the other gains them)
+32 D X4.4 volt = watt per ampere
+33 D 4.2.4 {F} the gradient of a voltage–current graph for a metal wire is its resistance (V ÷ I)
+34 A 4.2.2 {F} current is measured with an ammeter (circuit symbol: A in a circle)
+36 C X4.5 motor speed
+37 D X4.5 {F} electron beam and field directions
+40 C X5 neutron number

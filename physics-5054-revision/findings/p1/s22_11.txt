@@ -1,0 +1,28 @@
+# P1 s22_11 | main sheet 1 and rest sheet viewed; Q1, 3, 10, 14, 16, 21, 24, 26, 28, 31, 32, 36, 38 are identical to s22_12 questions and are worked there
+2 C 1.5.2 during the thinking distance the car continues at uniform velocity (the brakes are not yet applied); during the braking distance it decelerates
+4 B 1.3 W = mg, so m = W ÷ g
+5 D 1.4 density = mass ÷ volume: halving each side of a cube makes the volume 1/8 of the original with the same mass, so the density becomes 8ρ
+6 C 1.5.6 {F} for equal bases the least stable object is the one with the highest centre of gravity (most of its mass near the top)
+7 A X2.1 Boyle's law statements
+8 D 1.7.1 at terminal velocity the kinetic energy is constant, so the loss of gravitational potential energy equals the thermal energy produced (work done against air resistance)
+9 A 1.7.3 flowing river water turning a turbine is a hydroelectric power source
+11 A 1.7.4 efficiency = useful energy output ÷ energy input = 120 ÷ 720 = 17%; area = total energy received ÷ energy per m² = 720 ÷ 120 = 6.0 m²
+12 D 1.7.5 E = Pt = 1000 × 5.0 × 60 = 300 000 J
+13 B X2.3 conduction
+15 C XOLD thermocouple
+17 A X2.2 heat capacity
+18 A X2.1 solids
+19 D 3.1 crest to adjacent trough is half a wavelength, so λ = 2 × 4.5 = 9.0 m; period T = 6.0 s; v = λ ÷ T = fλ = 1.5 m/s
+20 B 3.1+3.4 when a wave is refracted its speed and wavelength change but its frequency does not
+22 C 3.2.4 {F} a prism refracts and disperses white light; red light has a smaller frequency than blue and is deviated less
+23 C 3.3 ultrasound is a sound wave, not part of the electromagnetic spectrum (radio/television signals and ultraviolet are)
+25 D 3.4 sound travels fastest in solids and slowest in gases
+27 C X4.5 electromagnet core
+29 C 4.2.1 a photocopier uses static electric charges
+30 D 4.2.1 {F} induced charges on a conductor in an electric field: free electrons move against the field direction, so the end the field points away from becomes negative and the far end positive
+33 D 4.2.3 potential difference is measured in volts with a voltmeter
+34 C X4.3 {F} resistors in parallel
+35 A X4.4 fuse blows
+37 C X4.5 {F} two transformers
+39 D X5 {F} electron beam in a magnetic field
+40 A X5 {F} alpha scattering

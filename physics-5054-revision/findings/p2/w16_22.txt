@@ -1,0 +1,49 @@
+# P2 w16_22 | figs viewed: 1.1 (blank speed-time grid), 2.1 (ramp, 1.8 m drop), 3.1 (lid hinged at the back, handle 0.70 m from the hinge, F vertical), 8.1 (straight line from origin to X at 1.2 N, 7.0 cm), 8.2, 10.1 (ray symmetrical in the prism, 30° to each normal), 10.2 | not viewed: 4.1, 4.2, 5.1, 9.1
+1a | 1.2 | v = u + at from rest = 3.4 × 5.0 [C1] ;; 17 m/s [A1]
+1bi | 1.5.1 | travelling at constant speed (in a straight line): resultant force is zero [B1]
+1bii | 1.2 | {F} speed-time graph: straight line of positive gradient from (0, 0) for the uniform acceleration [B1] ;; then a horizontal line (constant speed) [B1] ;; plotted accurately – from (0, 0) to (5.0 s, 17 m/s), then level to at least 15.0 s [B1]
+1biii | 1.2 | distance travelled = area under the speed-time graph (area of the trapezium) [B1]
+2ai | 1.7.1 | change in g.p.e. = mgh = 45 × 10 × 1.8 [B1] ;; 810 J [B1]
+2aii | 1.7.1 | energy forms that increase as the skateboarder descends: kinetic energy [B1] ;; thermal / internal energy (heat) or sound [B1]
+2bi | 1.5.4 | {F} at the lowest point of a vertical circular path at constant speed the resultant force is upwards – towards the centre of the circle [B1]
+2bii | 1.5.4 | so the weight is less than the upward (contact) force from the ramp [B1]
+3ai | 1.3 | W = mg = 2.0 × 10 = 20 N [B1]
+3aii | 1.5.5 | {F} moment of a uniform lid about its hinge = weight × distance from hinge to its centre = 20 × 0.35 [C1] ;; 7.0 N m [A1] ;; a larger moment is needed in practice because of friction (at the hinge / seal), air resistance, or to give an initial acceleration [B1]
+3b | 1.5.5 | a force in any other direction must be larger because its perpendicular distance from the hinge is less (same moment needed) [B1]
+4a | X2.2 | boiling point
+4bi | X2.2 | mcΔT
+4bii | X2.3 | heat loss
+4ci | X2.2 | constant temperature
+4cii | X2.2 | latent heat
+5a | X2.1 | gas pressure
+5b | X2.1 | Boyle's law
+6a | XOLD | thermionic emission
+6b | XOLD | vacuum
+6c | X4.5 | force on moving charge
+7a | X5 | atom
+7bi | X5 | ionising effect
+7bii | X5 | safety
+8ai | 1.5.3 | {F} load read from the extension-load graph at an extension of 4.9 cm: 0.83–0.86 N [B1]
+8aii | 1.5.3 | extension-load graph beyond the limit of proportionality: the line becomes curved [B1] ;; curving upwards (larger extension for each extra newton) [B1]
+8bi | X1.8 | hρg
+8bii | X1.8 | F = PA
+8biii | 1.5.1 | object at rest hanging from a spring and partly supported by water: weight = upward force from the spring + upward force from the water = 0.84 + 0.56 = 1.4 N [B1]
+8ci | X1.8 | atmospheric pressure
+8cii | 1.1 | a vector has direction (as well as magnitude); a scalar has magnitude only [B1]
+8d | 1.5.1 | as more of the block is immersed, any three: the upward force due to the water increases; the pressure at the base increases; the force due to the spring decreases; the two upward forces always add up to a constant value, the weight of the block [B3]
+9a | 4.2.2 | current: rate of flow of charge (charge flowing per unit time) [B1]
+9bi | 4.2.3 | e.m.f. of five 1.5 V cells in series = 5 × 1.5 = 7.5 V [B1]
+9bii | 4.2.4 | total resistance R = V/I = 7.5 ÷ 4.0 [C1] ;; 1.9 Ω [A1]
+9biii | X4.4 | P = VI
+9biv | 4.2.4 | copper wire getting warmer: its resistance increases [M1] ;; so the ammeter reading (current) decreases [A1]
+9ci | X4.5 | field pattern
+9cii | X4.1 | induced magnetism
+10ai | 3.3 | speed of light in air = 3.0 × 10⁸ m/s [B1]
+10aii | 3.3+3.1 | λ = c/f = 3.0 × 10⁸ ÷ 4.3 × 10¹⁴ [C1] ;; 7.0 × 10⁻⁷ m [A1]
+10bi | 3.2.2 | speed of light decreases as it enters glass [B1]
+10bii | 3.2.2 | {F} sin i = n × sin r = 1.5 × sin 30° = 0.75 [C1] ;; i = 49° [A1]
+10biii | 3.2.2 | {F} a ray meeting the second face at the same angle to the normal (30°) emerges at 49° to the normal, so the angle between the ray and the face is 90° − 49° = 41° [B1]
+10ci | 3.2.4 | {F} white light through a prism: dispersion shown at both surfaces with refraction in the correct direction [B1] ;; violet / blue deviated more than red (drawn below the red for a prism with its apex up) [B1]
+10cii | 3.2.4 | on the screen: a spectrum / band of colours (colours of the rainbow) [B1] ;; in order red, orange, yellow, green, blue, indigo, violet [B1]
+10ciii | 3.3+X2.3 | infrared falls just beyond the red end of the spectrum, on the side away from the violet (deviated less than red) [B1] ;; a blackened thermometer bulb detects it because black surfaces are good absorbers of infrared radiation [B1]
+10d | 3.3 | infrared in intruder alarms: the intruder (a warm body) emits infrared [B1] ;; which is detected by a sensor – or an infrared beam is broken / reflected by the intruder and the change is detected [B1]

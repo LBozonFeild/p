@@ -1,0 +1,41 @@
+# P1 s25_11 | sheets 1-2 viewed; zoom viewed for Q30; rest sheet viewed later for Q12, 32, 35 (enlarged), 37
+1 D 1.1 weight has magnitude and direction, so it is a vector; mass is a scalar
+2 B 1.2 {F} distance = area under a speed–time graph: average speed (1.0 + 4.0) ÷ 2 = 2.5 m/s for 10 s gives 25 m (trapezium)
+3 D 1.5.2 terminal velocity is reached only when air resistance has grown to equal the weight; in a short fall the weight is always greater than the air resistance, so the object is still accelerating
+4 B 1.5.3 {F} limit of proportionality: the point where the load–extension graph stops being a straight line
+5 B 1.4 {F} mass is directly proportional to volume for one material (density constant): a straight line through the origin
+6 D 1.5.4 {F} circular motion at constant speed: the resultant force points towards the centre of the circle
+7 A 1.6 momentum = mass × velocity, unit kg m/s
+8 C 1.6 impulse = force × time, so force = 14 000 ÷ 0.070 = 200 000 N (time converted from ms to s)
+9 C 1.7.2 {F} work done = force × distance moved in the direction of the force; the pulling force does the work that increases the kinetic energy store (the contact force and weight are perpendicular to the motion and do no work)
+10 A 1.3 a greater mass means more matter and a greater resistance to a change in motion
+11 C X1.8 {F} same force, different pressure
+12 C X1.8 {F} liquid pressure and depth
+13 A X2.1 forces in solids
+14 C X2.1 gas pressure and temperature
+15 A X2.2 specific heat capacity experiment
+16 C X2.2 evaporation
+17 C X2.2 rate of evaporation
+18 B X2.3 conduction by electrons
+19 B 3.2.1 {F} angle of incidence: the angle between the incident ray and the normal (not between the ray and the mirror)
+20 B 3.2.1 {F} to see your feet in a plane mirror the reflecting point is halfway between eye level and the floor (150 ÷ 2 = 75 cm); the mirror must include that height, so its bottom edge can be no lower than 75 − 50 = 25 cm
+21 C X2.3 dull black surface
+22 B 3.2.3 {F} a converging lens makes rays less divergent or more convergent; a diverging lens makes converging rays less convergent
+23 C 3.2.2 {F} light in water meeting the surface at an angle of incidence greater than the critical angle is totally internally reflected back into the water, with angle of reflection = angle of incidence
+24 D 3.2.3 magnifying glass: image is virtual, upright (and magnified)
+25 A 3.4 sound is a longitudinal wave; the pressure in a rarefaction is lower than in a compression
+26 A 3.4 a louder sound has a larger amplitude
+27 A 3.4 {F} ultrasound pulse-echo: extra time for the deeper reflection = 1.5 × 10⁻⁵ − 1.0 × 10⁻⁵ = 0.5 × 10⁻⁵ s covers the extra distance there and back, so x = 5200 × 0.5 × 10⁻⁵ ÷ 2 = 0.013 m
+28 B 4.2.2+4.2.4 I = V ÷ R = 12 ÷ 100 = 0.12 A; Q = It = 0.12 × 30 × 60 = 220 C (time in seconds)
+29 C 4.2.2 conventional current is from the positive terminal to the negative terminal; free electrons flow the opposite way, from negative to positive
+30 D X4.3 {F} thermistor graph and series resistance
+31 C X4.3 {F} series and parallel resistors
+32 C X4.5 {F} a.c. generator trace
+33 C X5 force on beta particles in a magnetic field
+34 B X4.5 transmission
+35 B X5 {F} isotopes
+36 D X5 decay chain
+37 A X5 {F} half-life graph
+38 B X5 fission
+39 B X6 orbital speed and period
+40 C X6 planets

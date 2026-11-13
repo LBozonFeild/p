@@ -1,0 +1,41 @@
+# P2 w23_22 | figs viewed: 1.1 (velocities at 90°: 2.4 m/s north, 6.8 m/s east), 3.1 (G is 8.0 cm horizontally from H, 6.0 cm below it, HG = 10 cm), 6.1, 7.1
+1a | 1.1 | a vector quantity has a direction (as well as magnitude); a scalar does not [B1]
+1b | 1.1 | from acceleration, distance, energy, mass, momentum, temperature: the vectors are acceleration and momentum only [B1]
+1c | 1.1 | {F} resultant of two perpendicular velocities: v² = 6.8² + 2.4² (Pythagoras), or correct triangle / rectangle drawn to scale [B1] ;; magnitude 7.1–7.3 m/s [B1] ;; angle: tan θ = 6.8 ÷ 2.4, or scale diagram with scale at least 1 cm : 1 m/s [B1] ;; direction 69°–72° from due north (angle measured from the stated reference direction) [B1]
+2a | 1.6 | p = mv = 300 × 8000 [C1] ;; 2.4 × 10⁶ kg m/s [A1]
+2bi | 1.6 | explosion into two parts: momentum conserved, mv = m₁v₁ + m₂v₂ [C1] ;; v₂ = (2.4 × 10⁶ − 150 × 9000) ÷ 150 [C1] ;; 7000 m/s [A1]
+2bii | 1.7.1 | extra kinetic energy after an explosion comes from energy stored as chemical (potential) energy in the fuel [B1]
+2biii | 1.6 | change in momentum (impulse) of the part = 150 × (9000 − 8000) = 150 000, or a = (9000 − 8000) ÷ 0.20 [C1] ;; F = Δp/Δt (impulse ÷ time), or F = ma [C1] ;; 7.5 × 10⁵ N [A1]
+3ai | 1.3 | an object has weight because it is in the gravitational field (of the Earth) [B1]
+3aii | 1.3 | W = mg with mass in kg: 0.050 × 9.8 [C1] ;; 0.49 N [A1]
+3bi | 1.5.5 | {F} moment = force × perpendicular distance from the pivot to the line of action of the force (the horizontal 8.0 cm, not the slant distance to G): 0.49 × 0.080 [C1] ;; 0.039 N m [A1]
+3bii | 1.5.6 | {F} lamina released with its centre of gravity to one side of the pivot: it rotates (clockwise) about the pivot [B1] ;; it speeds up then slows down / oscillates with decreasing amplitude / overshoots [B1] ;; it stops with the centre of gravity G vertically below the pivot H [B1]
+4ai | X1.8 | Δp = hρg plus atmospheric
+4aii | X1.8 | F = pA
+4bi | X1.8 | barometer liquid falls
+4bii | X1.8 | barometer height
+5ai | X2.2 | evaporation cooling
+5aii | X2.2 | latent heat
+5b | X2.2 | evaporation vs boiling
+6a | 3.1 | frequency: the number of wavelengths (waves) [B1] ;; passing a point per unit time [B1]
+6b | 3.4 | 800 Hz is audible because it is within the audible range of a healthy human ear (20 Hz to 20 kHz) [B1]
+6c | 3.4 | sound from a loudspeaker: the cone / coil is vibrating [B1] ;; moving forwards it produces a compression (compresses the air), moving backwards it produces a rarefaction (expands the air) [B1] ;; the vibrations / compressions / rarefactions / pressure changes are passed on to neighbouring air [B1]
+6d | 3.4 | space is a vacuum / there is no medium (air) in space [C1] ;; sound cannot travel in a vacuum / without a medium [A1]
+7a | X4.3 | thermistor symbol
+7bi | 4.2.4 | {F} I = V/R = 0.40 ÷ 2.5 [C1] ;; 0.16 A [A1]
+7bii | X4.4 | P = VI
+7c | X4.3 | thermistor divider
+8a | X4.1 | steel
+8bi | X4.5 | induction
+8bii | X4.5 | Lenz's law
+8c | X4.5 | alternating induced current
+9a | 1.7.1 | collapsing cloud, any two: energy comes from gravitational potential energy (it decreases); kinetic energy mentioned; transferred to internal energy (internal energy increases) [B2]
+9bi | X5 | isotopes
+9bii | X5 | one proton only
+9biii | X5 | beta decay equation
+9biv | X6 | stable star
+9c | X6 | supernova
+10ai | X5 | gamma undeflected
+10aii | X5 | beta, left-hand rule
+10aiii | X5 | absorption by lead
+10b | 3.3+3.1 | λ = v/f = 3.0 × 10⁸ ÷ 8.8 × 10¹⁹ [C1] ;; 3.4 × 10⁻¹² m [A1]

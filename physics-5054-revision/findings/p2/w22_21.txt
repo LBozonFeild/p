@@ -1,0 +1,48 @@
+# P2 w22_21 | figs viewed: 1.2 (blank extension-load axes), 2.1 (track with loop; D on loop level with A), 7.1, 7.2 (curve levelling at 15.2 m/s by 26 s, straight fall to zero at 30 s), 8.1, 8.2, 8.3 (full-scale grid, object 6 cm left of lens line), 9.1 (20 Ω in parallel with 30 Ω + S2 branch, in series with 28 Ω and wire YZ between poles)
+1a | 1.5.3 | procedure for an extension-load graph: measure the (unstretched) length of the spring / attach a marker [B1] ;; attach a load, measure the new length and calculate extension (new length − original length), or read extension directly against a zeroed rule [B1] ;; repeat for different loads to obtain further results (use of a rule / calculation of extension explained) [B1]
+1bi | 1.5.3 | {F} extension-load sketch for a spring taken beyond its limit of proportionality: straight line of positive gradient from the origin for at least half the line [B1] ;; then a curve of increasing gradient (extension increasing faster) starting at the end of the straight line, never becoming vertical [B1]
+1bii | 1.5.3 | limit of proportionality marked where the gradient starts to change (end of the straight section) [B1]
+1c | 1.5.3 | below the limit of proportionality extension is directly proportional to load: x = 0.014 × 5.5 ÷ 3.5 [C1] ;; 0.022 m (unit required) [A1]
+2a | 1.7.1 | change in g.p.e. = mgh = 0.12 × 10 × 0.45 [C1] ;; 0.54 J [A1]
+2b | 1.7.1 | k.e. gained = g.p.e. lost: ½mv² = 0.54 [C1] ;; v² = 2gh = 2 × 0.54 ÷ 0.12 = 9 [C1] ;; 3.0 m/s [A1]
+2ci | 1.7.1 | {F} frictionless track: the car cannot rise above its starting height – not enough (kinetic) energy to travel beyond the point level with the start / g.p.e. gained cannot be greater than the original g.p.e. [B1]
+2cii | 1.7.1 | it travels back down and returns to its starting point (energy conserved, motion reverses) [B1]
+3a | X1.8 | Δp = hρg plus atmospheric
+3bi | X2.1 | molecules speed up
+3bii | X1.8 | pressures balance
+4a | 3.3 | X-rays belong to the electromagnetic spectrum [B1]
+4bi | 3.1 | frequency: number of oscillations / cycles / wavelengths [B1] ;; per unit time [B1]
+4bii | 3.3 | waves of greatest frequency in the electromagnetic spectrum: gamma rays [B1]
+4ci | 3.3 | X-ray imaging of bones: X-rays directed towards the body part with the suspected broken bone [B1] ;; X-rays pass through flesh but not (to the same extent) through bone [B1] ;; image produced by a digital / electronic (CCD / CMOS) detector [B1]
+4cii | 3.3 | X-rays not used for pre-natal scanning: may cause cancer / cell mutation / birth defect / miscarriage (or show bone structure rather than foetal development) [B1]
+5ai | X5 | protons from ion charge
+5aii | X5 | nuclide notation
+5b | X5 | isotope
+5c | X5 | electrostatic attraction to nucleus
+6a | X4.5 | soft iron core
+6bi | X4.4 | P = VI
+6bii | 4.2.2 | Q = It = 39 × 4.5 with time conversion started [C1] ;; time in seconds: 4.5 × 3600 [C1] ;; 6.3 × 10⁵ C (unit required) [A1]
+6c | 4.2.4 | current larger when a metal coil is cold: resistance is lower at low temperature / resistance increases with temperature [B1]
+7a | 1.5.2 | {F} speed-time curve levelling off on a slope: acceleration / increase in speed, with gravity / weight mentioned [B1] ;; air resistance / friction increases with speed [B1] ;; terminal (constant) velocity reached when air resistance becomes equal to the accelerating force [B1]
+7b | 1.2 | {F} distance travelled while braking = area under the graph = ½ × 15.2 × 4.0 (or ½(u + v)t) [C1] ;; 35 − 30.4 [C1] ;; 4.6 m [A1]
+7ci | 1.2 | deceleration = gradient of the speed-time graph = Δv/Δt [C1] ;; 15.2 ÷ 4.0, values read from the graph [C1] ;; 3.8 m/s² [A1]
+7cii | 1.5.1 | F = ma with total mass: (46 + 9.0) × 3.8 [C1] ;; 210 N [A1]
+7ciii | 1.7.1 | braking: energy transferred from kinetic energy (and from gravitational potential energy on a slope) [B1] ;; to thermal energy, with no intermediate energy stated [B1]
+7d | 1.5.1 | passenger jerks forwards when the brake is applied: due to his mass / mass mentioned [B1] ;; mass resists a change to its state of motion (inertia – he tends to continue moving) [B1]
+8ai | 3.2.3 | {F} diverging lens drawn as a (vertical) biconcave shape – thinner at the centre [B1]
+8aii | 3.2.3 | {F} parallel beam through a diverging lens: the middle ray (through the centre) continues in a straight line [B1] ;; the other two rays diverge away from the middle ray [B1]
+8bi | 3.2.3 | {F} short-sighted eye, distant object: the rays meet at a point on the continuation of the middle ray [B1] ;; the meeting point is inside the eye in front of the back of the eye, so the rays strike the back of the eye at different places [B1]
+8bii | 3.2.3 | in a normal eye the image of a distant object is sharp / focused / not blurred [B1]
+8biii | 3.2.3 | diverging lens corrects short sight: light diverges before entering the eye, so the meeting point is moved back onto the back of the eye (retina) [B1]
+8ci | 3.2.3 | {F} ray diagram for a diverging lens: principal focus marked on the axis at the focal length from the lens centre [B1] ;; any two rays: ray parallel to the axis that, after refraction, seems to come from the principal focus on the object side; ray aimed towards the principal focus on the far side that emerges parallel to the axis; ray through the centre of the lens undeviated [B2] ;; image marked at the correct intersection (of the backward extensions) [B1]
+8cii | 3.2.3 | image is virtual because light only seems to come from the image / light does not pass through the image [B1]
+8ciii | 3.2.3 | the eye must be on the opposite side of the lens from the object (light must pass through the lens to the eye) to see the image [B1]
+8civ | 3.2.3 | linear magnification = height of image ÷ height of object [C1] ;; diminished image: value between 0.30 and 0.50 [A1]
+9a | 4.2.2 | e.m.f. of a battery (d.c.) compared with an a.c. supply: always positive / never negative / direction does not change [B1] ;; constant value / size does not change [B1]
+9bi | 4.2.4+X4.3 | {F} I = V/R with resistors in series: 12 ÷ (20 + 28) [C1] ;; 0.25 A [A1]
+9bii | X4.5 | force on current in field
+9biii | X4.5 | direction of force
+9biv | X4.5 | left-hand rule
+9ci | X4.3 | parallel plus series resistance
+9cii | X4.5 | larger current larger force
+9ciii | X4.3 | current ratio in parallel

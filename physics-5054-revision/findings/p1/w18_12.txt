@@ -1,0 +1,40 @@
+# P1 w18_12 | main sheet 1 and rest sheet viewed; zoom viewed for Q10, 28; Q6 is identical to w22_12 Q10
+1 C 1.5.1+1.2 a falling apple has unbalanced forces on it (weight greater than air resistance), so it accelerates
+2 A 1.2 constant acceleration means equal changes of speed in equal times; speed changes of 1.0, 2.0, 3.0 m/s in successive seconds show an acceleration that is not constant
+3 B 1.5.1 {F} at constant speed the driving force balances the total resistive force; when the link breaks the engine has a forward resultant force and speeds up, while the truck has only the resistive force and slows down gradually
+4 B 1.5.4+1.5.1 a car rounding a bend at constant speed is changing direction, so there is a resultant force on it; constant velocity (or rest) means no resultant force
+5 A 1.3 a balance compares the masses of two objects
+7 C 1.4 {F} density is a property of the material: two objects made of the same metal have the same density whatever their dimensions
+8 D X2.1 compression heats a gas
+9 B 1.1+1.2 {F} returning to the starting point gives a total displacement of zero, while the total distance travelled is the sum of the path lengths (5.0 + 12.0 + 13.0 = 30 m)
+10 A 1.1 {F} vector addition: draw the two forces head to tail (4.0 N then 3.0 N at right angles); the resultant (5.0 N) runs from the start of the first to the end of the second
+11 D 1.7.3+1.7.1 {F} a geothermal power station transfers thermal energy (from hot rocks, via hot water and steam) into electrical energy
+12 C 1.7.4+1.7.5 {F} useful work = weight × height = 40 × 0.50 = 20 J; useful power = efficiency × input power = 0.25 × 20 = 5.0 W; time = 20 ÷ 5.0 = 4.0 s
+13 D X1.8 liquid pressure
+14 B X1.8 pressure = force ÷ area
+15 B X2.1 {F} Boyle's law
+16 C X1.8 {F} barometer
+17 A X2.2 condensation
+18 D X2.1 cooling a gas
+19 C X2.2 {F} specific latent heat
+20 C X2.2 boiling
+21 B XOLD range and sensitivity
+22 C 3.1 for a water wave the speed is the horizontal distance travelled per second by a peak; amplitude is half the trough-to-peak height, wavelength is peak to peak, and frequency is the number of peaks passing per second
+23 A 3.2.3 {F} a real image at twice the focal length from a converging lens is formed by an object at twice the focal length on the other side
+24 A 3.2.4 in glass red light is slowed down less and refracted less than blue light
+25 D 3.2.2 total internal reflection occurs when the angle of incidence in the glass is greater than the critical angle (about 42° for glass in air)
+26 C 3.3 radio waves are electromagnetic waves used in radio and television communications; their frequencies are lower than those of visible light
+27 D 3.4 five pulses sent in 8.0 s means each round trip takes 8.0 ÷ 5 = 1.6 s; speed = 2 × 1200 ÷ 1.6 = 1500 m/s
+28 B X4.1 {F} field between like poles
+29 D 4.2.4 measuring resistance: voltmeter in parallel with the conductor, ammeter in series with it, then R = V ÷ I
+30 D X4.3 {F} combinations of three resistors
+31 D 4.2.4 R ∝ length ÷ area: four times the length and half the area give 4 × 2 = 8 times the resistance: 8 × 0.75 = 6.0 Ω
+32 C 4.2.3+4.2.2 charge = energy ÷ voltage = 240 ÷ 2000 = 0.12 C; current = charge ÷ time = 0.12 ÷ 0.010 = 12 A
+33 A X4.4 switch in the live wire
+34 C X4.5 high-voltage transmission
+35 D X4.3 {F} thermistor and LDR
+36 A X4.6 {F} oscilloscope with d.c.
+37 B X5 alpha radiation
+38 C X5 reactor
+39 D X5 nuclear atom
+40 B X5 isotopes

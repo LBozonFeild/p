@@ -1,0 +1,28 @@
+# P1 w13_11 | main sheets 1-2 and rest sheet viewed; Q10 figure enlarged and viewed; Q2, 3, 5, 7, 8, 9, 14, 19, 24, 29, 33, 36 are identical to w13_12 questions; Q39 to s17_12 Q39
+1 A 1.1 {F} resultant of two velocities at right angles: draw them from the same point (20 m/s due north, 12 m/s towards the east because a wind from the west blows towards the east) and complete the rectangle; the resultant is the diagonal from that point
+4 A 1.5.1 Newton's third law: the force of the ball on the foot is equal in size and opposite in direction to the force of the foot on the ball
+6 A 1.3 the weight of a spacecraft is zero at the point where the gravitational fields of the Earth and the Moon cancel
+10 A X1.8 {F} manometer reading
+11 D 1.7.1 KE = ½mv²: 1 kg at 3 m/s has 4.5 J, 2 kg at 2 m/s has 4.0 J, 5 kg at 1 m/s has 2.5 J (speed matters more than mass because it is squared)
+12 A 1.7.3 geothermal energy comes from hot rocks beneath the Earth's surface
+13 A X2.3 {F} heat losses from a house
+15 D XOLD {F} thermometer sensitivity
+16 B XOLD thermometer scale
+17 D X2.2 cooling by evaporation
+18 D X2.1 gases
+20 B 3.2.2 {F} in an optical fibre the light is totally internally reflected at each wall with the angle of reflection equal to the angle of incidence, giving a regular zig-zag path
+21 B 3.2.3 {F} a diverging lens makes a parallel beam of light spread out
+22 D 3.3 cracks inside metal are detected with X-rays or gamma rays, the highest-frequency electromagnetic waves (10¹⁸ Hz to 10²² Hz)
+23 B 3.4 {F} a compression in a sound wave is where the air pressure is greatest (the peak of the pressure–time graph)
+25 A X4.5 {F} field of a straight wire
+26 B 4.2.1 {F} unlike charges attract: on two oppositely charged conducting spheres the charges gather on the sides facing each other and the forces act towards each other
+27 B 4.2.1 aluminium (a metal) is a conductor; glass is an insulator
+28 A 4.2.2 Q = It, so one coulomb is one ampere second
+30 C 4.2.4+X4.3 {F} resistors in parallel have the same p.d.; if their resistances differ, their currents differ (I = V ÷ R)
+31 C 1.7.4+X4.4 {F} efficiency = useful power output ÷ power input = (12 × 2.0) ÷ (250 × 0.10) = 24 ÷ 25 = 0.96 (P = VI step outside the selected sections)
+32 B X4.5 {F} left-hand rule
+34 D X4.5 transformer core
+35 A XOLD thermionic emission
+37 C X5 alpha-particles
+38 A X5 {F} deflection of alpha-particles
+40 A X5 isotopes

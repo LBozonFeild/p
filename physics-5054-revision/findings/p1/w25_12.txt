@@ -1,0 +1,41 @@
+# P1 w25_12 | sheets 1-2 viewed; zoom viewed for Q1, 10, 21, 23, 32
+1 B 1.1 {F} micrometer reading = sleeve reading to the last visible mark (7.5 mm, the half-millimetre mark after 7 is showing) + thimble reading (25 × 0.01 = 0.25 mm) = 7.75 mm
+2 B 1.1 {F} resultant of two perpendicular forces by Pythagoras: √(1.5² + 2.0²) = 2.5 N
+3 D 1.2 acceleration = change in velocity ÷ time taken
+4 B 1.3 weight = mass × g; on the Moon g is one sixth of 9.8 N/kg, so W = 1 × 9.8 ÷ 6 = 1.6 N
+5 A 3.4 echo sounding: depth = speed × time ÷ 2 = 1500 × 0.52 ÷ 2 = 390 m
+6 C 1.3 mass is a measure of the quantity of matter in an object, measured with a(n electronic) balance; a force meter measures weight
+7 C 1.4 {F} volume by displacement: volume of the solid = final reading − initial reading of the measuring cylinder (59.0 − 35.0 = 24.0 cm³)
+8 D 1.5.1 a force can change the shape, the volume and the velocity of an object, but not its mass
+9 A 1.5.1+1.2 {F} F = ma: a resultant force that falls steadily to zero gives a decreasing acceleration, so the speed–time graph rises with a decreasing gradient and is then horizontal (constant speed) once the resultant force is zero
+10 D 1.5.1 {F} object at rest: free-body diagram shows the weight downwards and the contact force upwards with equal-length arrows (no resultant force)
+11 B 1.5.3 {F} limit of proportionality: the point where the load–extension graph stops being a straight line
+12 B 1.5.4 {F} motion in a circle at constant speed: the resultant force acts towards the centre of the circle, perpendicular to the direction of motion
+13 C 1.5.5 {F} principle of moments: anticlockwise 140 × 1.2 = 168 N m, clockwise 220 × 0.55 = 121 N m; the third weight must supply 47 N m clockwise, so it is 47 ÷ 110 = 0.43 m from the pivot on the same side as the smaller moment (between the pivot and Y)
+14 B 1.5.6 stability: for the same height of centre of gravity, a wider base makes an object more stable; a higher centre of gravity makes it less stable
+15 A 1.7.1 batteries, fuels and food are chemical energy stores
+16 C 1.7.1 KE = ½mv²: the question asks about the rocket itself, whose own mass M is unchanged, so doubling its speed multiplies its kinetic energy by four (KE ∝ v²) [reworked: first attempt wrongly included the mass of the expelled fuel in the initial kinetic energy]
+17 C 1.7.4 efficiency = useful energy output ÷ total energy input
+18 B 1.7.5+1.7.1 power = work done ÷ time = gain in gravitational potential energy ÷ time = mgd ÷ t
+19 D X1.8 {F} pressure = force ÷ area
+20 D X1.8 force = ρgh × area
+21 B X2.1 {F} gas properties
+22 C X2.1 Boyle's law
+23 D X2.2 {F} condensation and melting
+24 A X2.3 dull black surface
+25 D X2.3 temperature and area
+26 C 3.4+3.1 ultrasound has a frequency above 20 000 Hz; f = v ÷ λ gives 1500 ÷ 0.050 = 30 000 Hz and 6700 ÷ 0.31 = 21 600 Hz (ultrasound), but 340 ÷ 0.19 = 1790 Hz and 4000 ÷ 0.23 = 17 400 Hz (audible)
+27 D 3.2.2 n = sin i ÷ sin r, so sin r = sin i ÷ n
+28 D 3.2.1 {F} reflection at a plane mirror: the reflected ray stays on the same side of the mirror, with angle of reflection = angle of incidence
+29 D 3.2.1 image in a plane mirror is virtual and the same size as the object
+30 C 3.2.2 {F} the critical angle lies between the largest angle of incidence that still gives a refracted ray (40°) and the smallest that gives total internal reflection (50°)
+31 B 3.2.3 linear magnification = image length ÷ object length (4.7 ÷ 0.60 = 7.8 is the largest)
+32 B X4.1 {F} induced poles
+33 C 4.2.4+X4.3 R = V ÷ I = 9.0 ÷ 0.75 = 12 Ω; 20 Ω and 30 Ω in parallel give 20 × 30 ÷ (20 + 30) = 12 Ω (parallel-resistance formula outside the selected sections)
+34 C X4.3 {F} series circuit: I = E ÷ total resistance; p.d. across the variable resistor = IR rises from 0 (zero resistance) to E × 2R ÷ (R + 2R) = ⅔E
+35 D X4.5 transformer uses induction
+36 A X5 {F} deflection of beta-particles
+37 A X5 alpha decay
+38 B X5 absorption
+39 A X6 Earth's orbit
+40 C X6 redshift

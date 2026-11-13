@@ -1,0 +1,49 @@
+# P2 w11_21 | figs viewed: 2.1 (elevator and concrete block on a cable over a pulley), 4.1 (three rays through F1 to a converging lens), 5.1, 5.2 (negative rod to the right of a hanging sphere), 7.1, 9.1 (speed zero until about 5 s, curving up, straight from 600 m/s at 60 s to 1400 m/s at 100 s) | not viewed: 1.1, 3.1, 6.1, 8.1, 10.1, 10.2, 11.1, 11.2
+1ai | 1.4 | volume of a cube = side³ = 0.040³ = 6.4 × 10⁻⁵ m³ [C1] ;; m = density × volume = 920 × 6.4 × 10⁻⁵ [C1] ;; 0.059 kg [A1]
+1aii | 1.3 | W = mg = 0.059 × 10 = 0.59 N [B1]
+1b | X2.2 | mL
+2a | 1.7.2+1.7.1 | {F} lift balanced by a counterweight of equal mass needs very little work from the motor: work is done by the falling block (it loses gravitational potential energy) – the weights balance [B1] ;; and this raises the lift (becomes its g.p.e.); the motor only does work against friction and to accelerate it [B1]
+2b | 1.7.5 | work done = force × distance = 4900 × 24 = 117 600 J [C1] ;; P = work ÷ time = 117 600 ÷ 28 [C1] ;; 4.2 × 10³ W [A1]
+3ai | XOLD | thermocouple
+3aii | XOLD | thermocouple calibration
+3b | XOLD | thermocouple advantage
+4a | 3.2.3 | {F} rays passing through the principal focus before reaching a converging lens emerge parallel to the principal axis: one ray correct [C1] ;; all three rays drawn parallel to the axis [A1]
+4bi | 3.2.2 | speed of light is reduced on entering glass from air [B1]
+4bii | 3.2.2 | on returning to the air the speed returns to its original value (3.0 × 10⁸ m/s) [B1]
+4ci | 3.3+3.1 | f = c/λ = 3.0 × 10⁸ ÷ 6.0 × 10⁻⁷ [C1] ;; 5.0 × 10¹⁴ Hz [A1]
+4cii | 3.2.2 | frequency is unchanged when light enters glass [B1]
+5ai | 4.2.1 | rubbing makes a rod negatively charged because electrons move on to the rod (from the cloth) [B1]
+5aii | 4.2.1 | the cloth loses electrons and becomes positively charged [B1]
+5bi | 4.2.1 | {F} conducting sphere near a negatively charged rod: positive charges on the side nearest the rod and negative charges on the far side [M1] ;; equal numbers of each, roughly symmetrical [A1]
+5bii | 4.2.1 | the sphere is attracted because its positive charges are attracted by the rod [B1] ;; and they are closer to the rod than the negative charges, so the attraction is larger than the repulsion [B1]
+6ai | X4.5 | generator output
+6aii | X4.5 | generator speed
+6b | 4.2.4 | R = V/I = 12 ÷ 0.50 [C1] ;; 24 Ω [A1]
+7a | X4.3 | potentiometer
+7b | 3.4 | sound of constant pitch becoming louder: the amplitude increases [B1] ;; the frequency remains constant [B1]
+8a | X5 | beta decay
+8bi | X5 | beta deflection
+8bii | X5 | gamma path
+8c | X5 | random
+9a | 1.7.1 | energy changes as a rocket accelerates upwards: chemical (potential) energy at the start [B1] ;; to gravitational potential energy [B1] ;; to heat (thermal / internal) energy [B1] ;; and to kinetic energy [B1]
+9bi | 1.2 | {F} acceleration is zero where the speed-time graph is horizontal (gradient zero), as at t = 0 [B1]
+9bii | 1.2 | {F} gradient of the speed-time graph increasing then becoming a straight line: the acceleration increases [B1] ;; to a constant value [B1]
+9biii | 1.2 | acceleration = gradient of the straight section = (v − u) ÷ t = (1400 − 600) ÷ 40 [C1] ;; 20 m/s² [A1]
+9biv | 1.5.1 | resultant force F = ma = 1.6 × 10⁶ × 20 [C1] ;; 3.2 × 10⁷ N [A1]
+9bv | 1.5.1 | upward force on a rocket = weight + resultant force = 1.6 × 10⁷ + 3.2 × 10⁷ = 4.8 × 10⁷ N [B1]
+9ci | 1.5.1 | Newton's third law: to every action there is an equal and opposite reaction – forces act in pairs of equal size and opposite direction, on different bodies [B1]
+9cii | 1.5.1 | rocket: the rocket exerts a downward force on the hot gas [B1] ;; the gas exerts an equal and opposite (upward) force on the rocket [B1]
+10ai | X4.3 | switches
+10aii | X4.3 | switches
+10aiii | X4.4 | overheating
+10bi | X4.4 | I = P/V
+10bii | X4.4 | fuse
+10biii | X4.4 | earthing
+10c | X4.4 | cost of electricity
+11ai | 1.5.5 | moment of a force = force × distance [C1] ;; force × perpendicular distance from the axis (pivot) [A1]
+11aii | 1.5.5 | moment = 8200 × 0.050 [C1] ;; 410 N m [A1]
+11aiii | 1.5.5 | as the arm rotates the moment of a constant vertical force decreases because the perpendicular distance from the axis to the line of action of the force is reduced (the force is no longer perpendicular to the arm) [B1]
+11bi | X1.8 | P = F/A
+11bii | X1.8 | friction
+11c | X2.1 | gas expansion
+11d | X2.1 | gas pressure

@@ -1,0 +1,41 @@
+# P1 s25_12 | sheets 1-3 viewed; rest sheet viewed later for Q15, 32
+1 B 1.1 vectors: momentum, gravitational field strength, displacement (also force, weight, velocity, acceleration); mass, distance, energy, time and speed are scalars
+2 D 1.2 {F} distance–time graph whose gradient decreases to zero: the object slows down and stops (deceleration to rest)
+3 D 1.5.2 {F} terminal velocity is the part of a speed–time graph where the speed is constant (horizontal line)
+4 B 1.5.2 {F} on a speed–time graph for an emergency stop, the area under the constant-speed section is the thinking distance, the area under the sloping section is the braking distance, and the two areas together are the stopping distance
+5 A 1.5.3 {F} limit of proportionality: the end of the straight-line section through the origin on a load–extension graph (not the maximum load)
+6 D 1.2 with no air resistance all objects fall with the same acceleration whatever their mass, so objects dropped together from the same height land together
+7 D 1.4+1.3 mass = W ÷ g = 1.2 ÷ 9.8 = 0.122 kg = 122 g; volume by displacement = 147 − 100 = 47 cm³; density = 122 ÷ 47 = 2.6 g/cm³
+8 C 1.7.1 KE = ½mv² = ½ × 20 × 6.0² = 360 J
+9 A 1.7.3 nuclear fuel: advantage – no carbon dioxide produced (and not weather dependent); disadvantage – produces radioactive waste; it is not renewable
+10 C 1.7.2 work done = force × distance moved in the direction of the force; unit joule (J)
+11 A X1.8 {F} equal force, smaller area gives greater pressure
+12 D X1.8 pressure in a liquid
+13 D X2.1 heating a gas at constant pressure
+14 B X2.1 Boyle's law
+15 D X2.2 {F} changes of state
+16 A X2.3 conduction
+17 B X2.3 convection
+18 C 3.4+3.1 {F} on a pressure–distance graph of a sound wave a rarefaction is a point of lowest pressure; the wavelength is the distance between two adjacent peaks (compressions), not the height of a peak
+19 C 3.1 {F} period from a displacement–time graph (4 cycles in 2.0 s, T = 0.50 s), f = 1 ÷ T = 2.0 Hz; amplitude = maximum displacement from the mean position = 2.0 cm (so λ = 2.0 cm here); v = fλ = 2.0 × 2.0 = 4.0 cm/s
+20 D 3.1 water waves entering shallow water slow down and their wavelength decreases (frequency unchanged)
+21 D 3.2.1 {F} angles of incidence and reflection are measured from the normal: a ray at 40° to the mirror has i = 90° − 40° = 50° and r = i = 50°
+22 D 3.2.2 {F} at the critical angle the refracted ray travels along the boundary (angle of refraction 90°), with a weak reflected ray inside the glass
+23 C 3.2.3 {F} object between the lens and the principal focus (f = 3.0 cm, object at 2.0 cm): a ray diagram gives a virtual image 6.0 cm from the lens on the same side, so magnification = image distance ÷ object distance = image height ÷ object height = 3.0
+24 B 3.2.4+3.3 red light has a lower frequency (longer wavelength) than violet; a prism deviates violet more than red; all colours travel at the same speed in a vacuum
+25 B 3.4 uses of ultrasound: cleaning, prenatal (and other medical) scanning, sonar, testing materials
+26 A 3.4 echo sounding: depth = speed × time ÷ 2; sea bed 1500 × 1.0 ÷ 2 = 750 m, whale 1500 × 0.60 ÷ 2 = 450 m, so the whale is 300 m above the sea bed
+27 B 3.4 ultrasound: longitudinal (sound) waves with a frequency above 20 kHz
+28 B 4.2.3 electromotive force (e.m.f.): the work done by a source in moving unit charge around a complete circuit; unit volt (V)
+29 B 4.2.4+X4.3 {F} total resistance = 3.0 + (6.0 and 6.0 in parallel = 3.0) + 6.0 = 12 Ω; I = 6.0 ÷ 12 = 0.50 A; voltmeter across the single 6.0 Ω resistor reads V = IR = 0.50 × 6.0 = 3.0 V (parallel combination outside the selected sections)
+30 A X4.3 {F} potential divider V1/V2 = R1/R2
+31 C X4.4 electrical energy E = I²Rt
+32 A X4.5 {F} induced e.m.f. graph
+33 C X4.1 temporary magnets
+34 A X4.5 d.c. motor
+35 C X4.5 transformer
+36 B X5 {F} alpha deflection in an electric field
+37 D X5 charges
+38 C X5 half-life
+39 D X6 light from the Sun
+40 C X6 asteroid belt

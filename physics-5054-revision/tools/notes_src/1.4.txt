@@ -1,0 +1,55 @@
+ORDER A K B Z
+== A | Density: meaning, units and what changes it | density|ρ|mass|volume | 2
+- Density = mass ÷ volume (mass per unit volume).
+- Besides the mass, the volume is needed to find a density.
+- Heating a solid: the particles move further apart (B1), so the volume increases and the density decreases while the mass is unchanged (B1).
+- Samples of the same material have the same density (mass is proportional to volume); the sample made of a different material is the one whose mass ÷ volume differs from the others.
+- Advantage of a low-density material (for example for a bicycle): lower mass / weight (B1); a consequence (M1) with its reason (A1), such as greater acceleration for the same force (F = ma), less work needed to go uphill, or less kinetic energy and so a shorter stopping distance.
+- Units: g/cm³ or kg/m³; an answer may be given in either (0.87 g/cm³ = 870 kg/m³).
+* 1 g/cm³ = 1000 kg/m³.
+* Density is a property of the material: objects of the same material have the same density whatever their shape, size or mass.
+* For one material, mass against volume is a straight line through the origin; its gradient is the density.
+* The same mass in half the volume has double the density; a fixed mass of gas squeezed into half the volume has twice the density.
+* A cube with sides twice as long has 2³ = 8 times the volume: with the same mass its density is one eighth; made of the same material its mass and weight are 8 times as large.
+* When a fixed mass of air is heated and expands, its mass stays the same and its density decreases.
+* Equal masses of two liquids: the one with one third of the volume has three times the density.
+* On a plot of mass against volume, the point with the smallest mass and the largest volume has the smallest density.
+== K | Density calculations | \d\s*[×÷]\s*[\d(]|=\s*\(?\d[\d ,.]*\s*[×÷+−/] | 1
+- Use ρ = m ÷ V, m = ρV or V = m ÷ ρ in any form (C1); answer (A1).
+- Volume of a rectangular block = length × breadth (width) × height (thickness); volume of a cube = side³ (C1 for the volume in three-mark questions).
+- Volume of a column or pipe = cross-sectional area × length (height).
+- Thickness of a thin sheet = volume ÷ (length × width).
+- Volume of liquid lost from a tank = cross-sectional area × fall in level.
+- Mass of liquid in a container: m = ρV (C1); add the mass of the container for the total (C1 or A1); then W = mg if the weight is asked for (A1).
+- Mass of liquid = mass of the full container − mass of the empty container; then V = m ÷ ρ.
+- Mass flowing in each second = density × volume flowing in each second.
+- The same material with a different volume: find the density from the first pair of values, then mass = density × new volume (the mass is proportional to the volume).
+- Density from a weight–volume graph: take two pairs of readings from the line, separated by at least half its length (B1); use the gradient, change in weight ÷ change in volume – not a single reading, because the line does not start at zero when the container has weight (C1); change weight to mass with W = mg, so density = gradient ÷ g (C1); answer (A1).
+- "Show that" questions: the equation in any form (C1); the unrounded value clearly seen (A1).
+- Give the answer to 2 or 3 significant figures, to match the data.
+- Two liquid columns that balance (equal masses above equal areas): density is inversely proportional to the height of the column.
+* Density of a liquid = (mass of beaker and liquid − mass of empty beaker) ÷ volume of liquid.
+* Change the units first so that they agree (2.0 mm = 0.20 cm; 0.11 mm = 0.011 cm) before using volume = area × thickness.
+* Overall density of two materials together = total mass ÷ total volume, not the average of the two densities.
+* Number of identical small objects = total volume ÷ volume of one (volume of one = mass ÷ density).
+* Volume of an object in a closed box = volume of the box − volume of air left.
+* To find which block has the greatest density, work out mass ÷ volume for each.
+* Mixing liquids: add the masses (density × volume) of each liquid.
+== B | Measuring density: regular solids, liquids, and irregular solids by displacement | measuring.cylinder|displace|balance|rise in the water|experiment|hydrometer | 0
+- Regular solid: measure its mass (M1) using a (top-pan) balance (A1); measure its length, breadth and height (M1) using a ruler / calipers / micrometer (A1); volume = length × breadth × height (A1); density = mass ÷ volume (B1). Volume by displacement of water in a measuring cylinder is the accepted alternative.
+- Volume of an irregular solid: read the volume of water alone in a measuring cylinder (B1 or C1); lower the object in until it is totally immersed and read the new level; volume of the object = new reading − original reading (B1 or A1).
+- Accepted alternative: a displacement can filled to the spout; collect the overflow and measure it with a measuring cylinder.
+- Density of an irregular solid of known mass (4 marks): record the volume of water in a measuring cylinder; lower the object in; record the new reading; subtract to find the volume; density = mass ÷ volume.
+- An object that will not fit into an ordinary measuring cylinder (its volume is too large) cannot be measured this way.
+- Density of a liquid: pour the liquid into a measuring cylinder and read the volume (B1); find the mass of the cylinder with the liquid on a balance (B1); subtract the mass of the empty cylinder, or zero the balance with the empty cylinder on it first (B1); density = mass of liquid ÷ volume (B1).
+- Checking the density of water: mass of water = mass of container with water − mass of container without it (B1); volume from a measuring cylinder and density = mass ÷ volume (B1); a calibrated hydrometer is an accepted alternative.
+* Irregular solid: a balance for the mass and a measuring cylinder of water for the volume by displacement. Regular solid: a balance and a ruler. Liquid: a balance and a measuring cylinder.
+* Find the mass of the object first, while it is dry; remove air bubbles before reading the new level.
+* In calculations: mass = difference between two balance readings; volume = rise in the measuring-cylinder reading; then density = mass ÷ volume.
+* For several identical objects measured together, use the total mass and the total volume.
+* If the weight is given, find the mass from m = W ÷ g before dividing by the volume.
+== Z | Other points
+MOVE s20_12|MCQ10|B
+MOVE w19_21|5|K
+MOVE w24_12|MCQ7|A
+MOVE w12_11|MCQ10|A

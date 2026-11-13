@@ -1,0 +1,23 @@
+# P1 s17_11 | main sheet 1 and rest sheet viewed; Q1, 3, 4, 9, 11, 14, 17, 22, 30, 34, 40 are identical to s17_12 questions; Q16 to s26_11 Q15; Q20 to s26_12 Q17; Q26 to w24_11 Q28; Q27 to s26_11 Q24; Q31 to s25_12 Q26; Q33 and Q35 to s23_12 Q24 and Q26
+2 B 1.1 acceleration and force are vectors; speed and mass are scalars
+5 A 1.5.1+1.2 {F} F = ma: a resultant force that decreases steadily to zero gives a decreasing acceleration, so the speed–time graph rises with a decreasing gradient and then stays level at a constant speed
+6 C 1.5.2 terminal velocity: air resistance increases with speed until it balances the weight, so the acceleration becomes zero
+7 C 1.5.1+1.5.4 the acceleration of a body is always in the same direction as the resultant force on it (towards the centre for a circular orbit); the velocity is along the tangent
+8 B 1.5.4 in a circular orbit the acceleration is constant in size but continually changes direction (always towards the centre), so the velocity is not constant
+10 C 1.3 mass is the same everywhere; weight depends on the gravitational field strength and is different away from the Earth's surface
+12 C 1.5.5 {F} principle of moments about the pivot: 300 × 0.40 = 350 × d + 100 × 0.50, so d = 0.20 m
+13 A 1.7.2 work done = force × distance travelled in the direction of the force
+15 B 1.7.5+1.7.4 power available = mgh per second = 20 × 10 × 15 = 3000 W; power output = efficiency × input = 0.60 × 3000 = 1.8 kW
+18 D X2.2 evaporation
+19 D X2.1 {F} Boyle's law graph
+21 D X2.2 liquid range
+23 D XOLD {F} linear scale
+24 D XOLD {F} sensitive thermometer
+25 C X2.2 expansion
+28 C 3.2.2 {F} the angle given is between the ray and the surface, so i = 90° − 15° = 75°; sin r = sin 75° ÷ 1.5, r = 40°
+29 C 3.3 {F} electromagnetic spectrum in order of decreasing frequency (increasing wavelength): gamma, X-ray, ultraviolet, visible light, infrared, microwave, radio
+32 B 4.2.1+1.3 a stationary charged ball is surrounded by an electric field and a gravitational field, but produces no magnetic field
+36 A 4.2.2 charge per minute = 3 × 20 = 60 C; average current = Q ÷ t = 60 ÷ 60 = 1.0 A
+37 C 4.2.3 identical cells in parallel give the same e.m.f. as one cell but the battery lasts longer
+38 D 4.2.4 R ∝ length ÷ area: twice the length and half the cross-sectional area give four times the resistance
+39 D X4.5 {F} transformer output too large for the lamp

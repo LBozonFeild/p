@@ -1,0 +1,36 @@
+# P1 w13_12 | main sheets 1-4 and rest sheet viewed; Q20 is identical to s25_11 Q14; Q23 to s26_11 Q23; Q24 to s24_11 Q24; Q37 to s17_12 Q39; Q40 to w17_12 Q40
+1 D 1.1 {F} volume of metal in a pipe: a tape for the length of several metres and calipers for the internal and external diameters of about 2 cm
+2 B 1.2 a = (v − u) ÷ t = (12 − 5) ÷ 10 = 0.7 m/s²
+3 D 1.2+1.5.2 {F} terminal velocity is the constant speed shown by the straight section of the height–time graph: gradient = 3.0 m ÷ 1.5 s = 2.0 m/s
+4 C 1.3+1.5.1 weight = mg = 80 × 10 = 800 N; resultant force = ma = 80 × 2 = 160 N
+5 D 1.5.4 {F} an object moving in a horizontal circle at constant speed has a horizontal resultant force towards the centre of the circle
+6 C 1.3 on the Moon the gravitational field strength is less; the mass is unchanged
+7 C 1.5.5+1.5.3 {F} moving a load towards the pivot reduces its moment, so the other end of the rule moves down: the spring above it stretches more and the spring below it stretches less
+8 C 1.5.6 {F} a freely suspended card hangs with its centre of mass vertically below the pin, within the body of the card where its area is balanced (not at the pin or at the edge)
+9 B 1.5.3 {F} the limit of proportionality is the point where the extension–load graph stops being a straight line through the origin
+10 D X1.8 {F} liquid pressure and force on a base
+11 C X1.8 {F} p = hρg compared
+12 D X2.1 Boyle's law
+13 D 1.7.4 a more efficient solar cell gives the same useful (electrical) energy output from a smaller energy input (less bright light)
+14 D 1.7.1 {F} conservation of energy for a diver in flight (air resistance ignored): the sum of gravitational potential energy and kinetic energy is constant; part-way down he has both
+15 B X2.3 {F} conduction in metals and non-metals
+16 B X2.3 conduction
+17 C X2.2 thermal expansion
+18 A X2.2 temperature change
+19 C X2.1 gas at constant pressure
+21 D X2.2 evaporation
+22 D 3.1 {F} a ball floating on water moves up and down (perpendicular to the direction of travel) as a transverse wave passes; it is not carried along
+25 C 3.4 light arrives almost instantly, so distance = speed of sound × time delay = 340 × 5.0 = 1700 m
+26 C 3.4 {F} two notes with the same frequency but differently shaped waveforms differ in timbre (quality)
+27 B X4.1 magnetic screening
+28 B 4.2.4 {F} read the meter (6.0 mA = 0.0060 A), then V = IR = 0.0060 × 300 = 1.8 V
+29 B X4.3 {F} switches and resistors
+30 A 4.2.4 {F} filament lamp: the I–V graph curves towards the V axis, because the resistance increases as the filament gets hotter, and the current never falls
+31 C 4.2.4+X4.3 {F} resistors in parallel have the same p.d., so the current divides in inverse proportion to resistance (I = V ÷ R): the smallest share is in the larger resistance of the unequal pair (one quarter of the total)
+32 A X4.5 {F} left-hand rule
+33 D X4.5 {F} generator speed
+34 B XOLD cathode-ray oscilloscope
+35 A X4.3 {F} thermistor and LDR
+36 A X5 radiations
+38 A X5 {F} decay curve
+39 A X5 carbon dating

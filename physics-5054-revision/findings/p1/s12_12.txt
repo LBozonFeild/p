@@ -1,0 +1,40 @@
+# P1 s12_12 | main sheets 1-2 and rest sheets 1-2 viewed; zoom viewed for Q26, 34, 37; Q20 is identical to w20_12 Q20
+1 D 1.1 a tape measures a length of 30 m; a micrometer measures a diameter of 2 mm
+2 D 1.1 weight is a vector and volume is a scalar (mass, density and area are scalars; velocity, acceleration and force are vectors)
+3 B 1.2+1.7.1 {F} freewheeling with no friction: the speed is greatest at the bottom of a hill, where the gravitational potential energy is least, so the first peak of the speed–time graph marks the bottom of the first hill
+4 C 1.5.2 a light ball dropped in air: velocity increases while acceleration decreases (air resistance grows as the speed rises)
+5 C 1.5.2 {F} as a falling object speeds up, the upward air resistance increases, so the resultant force (weight − air resistance) decreases until it is zero at constant speed
+6 A 1.5.4+1.5.2 {F} the force that makes a motorcyclist move round a corner is the sideways friction of the road on the tyres, directed towards the centre of the turn
+7 A 1.5.5 {F} moments about the pivot: 3 × 6 = P × 2 + 4 × 2, so P = 5 N (an upward force on the same side as a downward force turns the beam the opposite way)
+8 C 1.5.6 {F} the centre of mass is nearest the base in the shape that has most of its area (mass) close to the base
+9 C 1.5.3 extension is proportional to load below the limit of proportionality: 4 mm for 2 N means 10 mm for a total of 5 N; length = 1000 + 10 = 1010 mm
+10 D 1.4 volume of one clip = mass ÷ density = 0.50 ÷ 8.0 = 0.0625 cm³; number = 20 ÷ 0.0625 = 320
+11 B X1.8 {F} manometer, p = hρg
+12 B X2.1 {F} Boyle's law
+13 D 1.7.1+1.7.3 in a power station the turbine gives out kinetic energy and the generator gives out electrical energy
+14 C 1.7.4 efficiency = useful energy output ÷ total energy input
+15 B X2.1 {F} gas expanding at constant temperature
+16 A X2.2 {F} evaporation rate
+17 C X2.3 conduction in metals
+18 C XOLD {F} sensitivity and range
+19 B X2.2 {F} heating curve
+21 A 3.1 frequency is the number of waves per second, so in one minute 2 × 60 waves are produced
+22 D 3.2.1 {F} angles of incidence and reflection are measured from the normal: a ray at 40° to the mirror surface has i = r = 90° − 40° = 50°
+23 B 3.2.2 {F} the critical angle is the angle of incidence in the glass, between the ray and the normal, for which the refracted ray travels along the surface
+24 C 3.2.3 {F} short sight: rays from a distant object are brought to a focus in front of the retina
+25 D 3.3 a sunbed uses ultraviolet radiation
+26 B X4.5 {F} field of two wires
+27 D 4.2.1 {F} a positively charged sphere near an uncharged metal sphere: negative charge is induced on the near side of the uncharged sphere and positive on its far side, and the charge on the positive sphere is drawn towards the side facing it
+28 C 4.2.4 {F} I–V graphs: a straight line through the origin for a resistor at constant temperature; a curve that bends towards the voltage axis (flattening) for a filament lamp
+29 A 4.2.4 {F} I = V ÷ R = 10 ÷ 2000 = 0.005 A = 5 mA (kΩ converted to Ω)
+30 A X4.3 {F} the p.d.s across components in series add up to the supply p.d.: 12 − 8 = 4 V
+31 B X4.4 P = VI
+32 C X4.4 fuse rating
+33 C X4.5 {F} force on an electron beam
+34 D X4.5 {F} turning effect on a coil
+35 B X4.5 {F} induced e.m.f.
+36 B X4.5 {F} a.c. generator output
+37 D 4.2.2 {F} conventional current flows from the positive terminal of the cell (the longer line of the symbol) round the circuit to the negative terminal; the electrons flow in the opposite direction
+38 A X5 atom composition
+39 B X5 waste disposal
+40 C X5 half-life

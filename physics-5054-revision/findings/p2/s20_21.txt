@@ -1,0 +1,44 @@
+# P2 s20_21 | figs viewed: 1.1, 2.1–2.3, 3.1 (straight line through origin, 6.0 cm at 8.0 N), 3.2, 6.1, 8.1, 8.2 (two I-V curves: 2.0 A and 0.5 A at 12 V), 8.3, 9.1 (pulse A at 0.02 ms, pulse B at 0.05 ms), 9.2 | not viewed: 10.1, 10.2 (circuit to complete), 10.3
+1a | 1.5.2 | {F} stopping distance = thinking distance + braking distance = 18 + 60 = 78 m [B1]
+1b | 1.5.2 | thinking distance: distance travelled between seeing a hazard and (starting to) apply the brakes [B1]
+1ci | 1.5.2 | thinking distance is unchanged by road conditions because the time taken to think / react is the same (and the speed is the same) [B1]
+1cii | 1.5.2 | braking distance is larger on a wet road: friction is lower / smaller backward (resistive) force / tyres do not grip, car skids [B1] ;; so the deceleration is less / it takes a longer time to stop [B1]
+2a | 1.5.6 | {F} finding the centre of mass of a card: hang the card from a pin / nail through a hole so it swings freely and wait until it is stationary [B1] ;; hang a plumb line from the same pin and mark its line on the card [B1] ;; repeat using another hole – the centre of mass is where the lines cross [B1]
+2bi | 1.5.6+1.5.5 | {F} object topples when tilted far enough that its centre of mass falls outside the base (line of action of the weight passes beyond the pivoting corner) [B1] ;; the weight then creates a moment / turning effect that tips it over [B1]
+2bii | 1.5.6 | more stable: lower centre of gravity or wider / longer base [C1]
+3a | 1.5.3 | {F} extension directly proportional to load is shown by a straight-line graph [B1] ;; that passes through the origin [B1]
+3b | 1.5.3 | showing the limit of proportionality: add loads above that value [B1] ;; the increase in length for the same increase in load is then different / the graph does not continue as a straight line [B1]
+3c | 1.5.3+1.5.1 | {F} force read from the extension-load graph at the given extension: 3.0 cm corresponds to 4.0 N [C1] ;; a = F/m [C1] ;; 4.0 ÷ 5.0 = 0.80 m/s² [A1]
+4a | X2.3 | conduction
+4bi | X2.2 | expansion
+4bii | X2.3 | convection
+5a | X1.8 | pressure and area
+5bi | X2.1 | Boyle's law conditions
+5bii | X2.1 | gas pressure
+6a | 3.2.1 | image in a plane mirror is behind the mirror / on the opposite side of the mirror to the object [B1] ;; the same distance from the mirror as the object [B1]
+6bi | 3.2.1 | {F} image position marked correctly: as far behind the mirror as the object is in front, on the line through the object perpendicular to the mirror [B1]
+6bii | 3.2.1 | {F} ray drawn from the object to the mirror and from the mirror to the eye [M1] ;; with the angles of incidence and reflection equal [A1]
+6c | 3.2.1 | characteristic of a plane-mirror image (other than position): virtual / same size as the object / laterally inverted [B1]
+7a | X5 | radioactive decay
+7b | X5 | isotope table
+7ci | X5 | beta
+7cii | X5 | gamma
+8ai | 1.7.1 | energy transfer in a filament lamp: electrical energy in [B1] ;; to heat (thermal) energy [B1] ;; and light energy [B1]
+8aii | 1.7.4 | efficiency = energy output ÷ energy input [C1] ;; useful output energy ÷ total energy input [A1]
+8b | X4.3 | series vs parallel
+8ci | 4.2.4+X4.3 | {F} R = V/I [C1] ;; total current for components in parallel = sum of the currents read from the graph at that voltage = 2.0 + 0.5 = 2.5 A (or separate resistances 6.0 Ω and 24 Ω) [C1] ;; 12 ÷ 2.5 = 4.8 Ω [A1]
+8cii | 4.2.4 | wire of the same material, length and temperature with greater resistance has a smaller cross-sectional area / diameter [B1]
+8d | X4.5 | relay
+9ai | 3.4 | ultrasound: sound that cannot be heard (by humans) [C1] ;; sound with a frequency above 20 kHz [A1]
+9aii | 3.4 | ultrasound meeting a boundary between two materials: some is reflected [B1] ;; some passes into the new material (is transmitted) / is absorbed [B1]
+9aiii | 3.4 | {F} distance = speed × time [C1] ;; time between emitted and returned pulses = 0.03 ms; the pulse travels there and back so use half: 1500 × 0.03 × 10⁻³ ÷ 2 [C1] ;; 0.022 m or 0.023 m [A1]
+9aiv | 3.4 | approximate speed of sound in gases: 150–1000 m/s [B1] ;; in solids: 2000–8000 m/s [B1]
+9bi | 3.3 | {F} X-ray image: X-rays are absorbed by bone / do not reach the detector through bone [B1] ;; some X-rays pass through soft tissue (tissue absorbs only some) [B1] ;; where (more) X-rays reach the detector the image is black(er) [B1]
+9bii | 3.3+3.1 | f = v/λ [C1] ;; 3.0 × 10⁸ ÷ 2.0 × 10⁻⁹ = 1.5 × 10¹⁷ Hz [A1]
+9biii | 3.3 | X-rays are not used on an unborn child because they cause mutation / cancer / kill cells / ionisation [B1]
+10ai | 4.2.2+4.2.3 | ammeter connected in series with the component [B1] ;; voltmeter connected across (in parallel with) the component or the battery [B1]
+10aii | X4.4 | E = VIt
+10aiii | 1.7.1 | g.p.e. = mgh [C1] ;; 0.15 × 10 × 0.80 (g converted to kg, cm to m) [C1] ;; 1.2 J [A1]
+10aiv | 1.7.1+1.7.4 | why g.p.e. gained is less than the electrical energy supplied, any two: the motor / mass has kinetic energy; heat generated in the motor / wires; heat generated in the air due to drag / resistance; work done to lift the string [B2]
+10bi | X4.5 | induction
+10bii | X4.5 | Lenz's law

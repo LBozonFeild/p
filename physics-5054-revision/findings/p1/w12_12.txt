@@ -1,0 +1,39 @@
+# P1 w12_12 | main sheets 1-3 and rest sheets 1-2 viewed; Q15 is identical to s16_12 Q13; Q25 to w15_12 Q24
+1 D 1.4+1.1 a solid lowered into a measuring cylinder raises the reading by its own volume: 75 + 20 = 95 cm³
+2 C 1.5.1+1.1 {F} forces along a line: 11 N to the right against 3 N + 2 N to the left gives 6 N to the right; a further 9 N to the left leaves a resultant of 3 N to the left
+3 A 1.2 {F} free fall in a vacuum (no air resistance): the speed increases uniformly, giving a straight-line speed–time graph through the origin
+4 A 1.2 {F} acceleration is the gradient of the speed–time graph; at the top of the curve (maximum speed) the gradient and the acceleration are zero
+5 D 1.5.1+1.5.2 {F} forces on a rocket in flight: thrust acts forwards along its direction of travel, air resistance acts backwards along that line, and weight acts vertically downwards
+6 C 1.5.1 resultant force = 40 − 10 = 30 N; a = F ÷ m = 30 ÷ 15 = 2.0 m/s²
+7 D 1.5.5+1.3 {F} a balanced rod stays balanced where g is lower, because both weights (and so both moments) are reduced in the same proportion
+8 C 1.5.6 {F} the most stable object has the widest base and the lowest centre of mass
+9 B 1.5.3 {F} extension = loaded length − original length = 8 − 5 = 3 cm for 10 N; doubling the load doubles the extension (6 cm), so the new length is 5 + 6 = 11 cm
+10 D 1.4 density = mass ÷ volume: the same mass in half the volume gives double the density
+11 B X1.8 {F} greatest pressure
+12 D X2.1 {F} Boyle's law
+13 D 1.7.3 hydroelectric and tidal power stations use renewable energy sources; fossil fuels are non-renewable
+14 A 1.7.2 no work is done against gravity on an object carried horizontally at constant height (no movement in the direction of the supporting force)
+16 C X2.2 evaporation
+17 A X2.3 {F} emission of radiation
+18 B XOLD {F} sensitivity and range
+19 B X2.2 latent heat of fusion
+20 A X2.2 {F} bimetallic strip
+21 A 3.1+3.2.1 {F} circular water waves reflected from a flat barrier appear to come from a point as far behind the barrier as the source is in front (like the image in a plane mirror)
+22 D 3.2.1 the image in a plane mirror is virtual and the same size as the object
+23 D 3.2.2 {F} partial reflection at a glass–air boundary: the reflected ray leaves at an angle equal to the angle of incidence and the refracted ray bends away from the normal as it enters the air
+24 B 3.2.3 {F} linear magnification = image height ÷ object height (= image distance ÷ object distance), measured from the scale diagram as 3.0
+26 C X4.1 {F} induced magnetism
+27 A 4.2.1 {F} a negative rod induces positive charge on the near side of an uncharged metal sphere and negative on the far side (no overall charge); the sphere is attracted towards the rod
+28 C 4.2.4 the resistance of a wire is proportional to length ÷ cross-sectional area
+29 B X4.3 {F} three resistors in parallel
+30 B X4.3 {F} circuit symbols
+31 A X4.4 P = VI
+32 C 1.7.5+X4.4 energy = power × time = 3 kW × 4 h; cost = 4 × 3 × 16 c (cost step outside the selected sections)
+33 D X4.5 {F} field of two wires
+34 D X4.5 motor turning effect
+35 C X4.5 induced e.m.f.
+36 C X4.6 {F} period from a trace
+37 B X4.6 {F} oscilloscope controls
+38 A X5 proton number
+39 C X5 {F} penetration
+40 C X5 half-life with background

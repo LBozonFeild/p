@@ -1,0 +1,48 @@
+# P2 s23_22 | figs viewed: 1.1 (18 m/s constant to 10 s then falling curve of decreasing slope to about 2.5 m/s at 50 s), 5.1 (plane crests from bar at left, glass block obstacle occupying lower right), 6.1 (lamp and R in series, three ammeters in series, voltmeter across each), 6.2 (lamp I-V curve: 0.35 A at 6.0 V), 7.1 (semicircular block, ray along radius meets flat face at 40° to the normal and emerges along the surface)
+1a | 1.2 | {F} speed is constant at first (for 10 s) [B1] ;; then deceleration, described as: average value 0.39 m/s², or lasting 40 s, or non-uniform [B1]
+1bi | 1.5.2 | forces slowing a car with engine off and no brakes: friction (with the road) and air resistance / drag (both needed) [B1]
+1bii | 1.5.2 | speed-time graph is a curve while coasting because the resistive forces change / decrease as speed decreases, so the deceleration is not constant (decreases) [B1]
+1ci | 1.6 | momentum = mv in any form; change = 1200 × (18 − 11) [C1] ;; 8400 with unit kg m/s or N s [A1]
+1cii | 1.6 | F = change in momentum ÷ time, or F = ma, in any form [C1] ;; 8400 ÷ 10 = 840 N [A1]
+2ai | 1.7.1 | energy store in a battery: chemical (potential) energy [B1]
+2aii | 1.7.2 | battery to moving scooter in terms of work done: electrical work is done / current (electrons) made to move [B1] ;; mechanical work is done by the motor / on the (back) wheel [B1]
+2b | 1.7.1 | KE = ½mv² in any form [C1] ;; ½ × 70 × 4.0² = 560 J [A1]
+2ci | X4.4 | kilowatt-hour definition
+2cii | 1.7.5 | t = E/P with consistent units: 0.35 kW h ÷ 0.070 kW (or 350 ÷ 70) [C1] ;; 5.0 hours [A1]
+3ai | X1.8 | mercury column pressure
+3aii | X2.1 | gas pressure and volume
+3b | X1.8 | P = dgh plus atmospheric
+3c | X2.1 | pV graph
+4ai | X2.2 | absolute zero
+4aii | X2.1 | particle motion in solid
+4aiii | X2.2 | melting
+4bi | X2.2 | mcΔT
+4bii | X2.2 | specific heat capacity
+5a | 3.1 | transverse waves from the list (seismic P-waves, seismic S-waves, sound, X-rays): seismic S-waves and X-rays [B1]
+5bi | 3.1 | f = 1/T = 1 ÷ 0.15, or λ = v/f, or distance = vt, in any form [C1] ;; frequency 6.7 Hz [A1] ;; wavelength = 27 × 0.15 = 4.0 cm [A1]
+5bii | 3.1 | {F} diffraction at the edge of an obstacle: straight wavefronts continue past the block with the same wavelength [B1] ;; wavefronts curve into the region behind the block as quarter circles centred on the corner of the block [B1]
+5biii | 3.1 | smaller wavelength in a ripple tank: increase the frequency of movement of the bar [B1]
+5biv | 3.1 | decrease in wavelength gives less diffraction / less bending [B1]
+6ai | X4.3 | series readings
+6aii | 4.2.4+X4.3 | {F} R = V/I in any form, using the p.d. across the resistor (12 − 3.0 = 9.0 V) and the series current [C1] ;; 9.0 ÷ 0.25 = 36 Ω [A1]
+6aiii | 4.2.4 | Ohm's law: current is (directly) proportional to voltage / potential difference [B1] ;; provided the temperature is constant [B1]
+6b | 4.2.4+X4.3 | {F} current read from the lamp's current-voltage graph at 6.0 V = 0.35 A [B1] ;; p.d. across the series resistor = IR = 0.35 × 36 = 12.6 V (or total resistance 36 + 6 ÷ 0.35 = 53 Ω) [B1] ;; e.m.f. = 6.0 + 12.6 = 19 V [B1]
+7ai | 3.3 | components of the electromagnetic spectrum with wavelength smaller than ultraviolet: X-rays and gamma rays [B1]
+7aii | 3.3 | one use of ultraviolet: security marking / detecting counterfeit bank notes; sterilising water / disinfection / sterilisation; fluorescence (fingerprints, body fluids); sun tanning / sun beds; cancer treatment; curing inks and resins (dental fillings); production of vitamin D; solar panels / generating electricity [B1]
+7aiii | 3.3 | damage to the eye by ultraviolet: cataracts / (skin) cancer / burns or destroys the retina or cornea [B1]
+7bi | 3.2.2 | {F} angle of incidence for which the refracted ray travels along the surface: the critical angle [B1]
+7bii | 3.2.2 | n = 1/sin c (or sin i/sin r with r = 90°) [C1] ;; 1 ÷ sin 40° = 1.6 [A1]
+8a | X4.5 | soft iron
+8b | X4.5 | transformer
+8c | X4.5 | turns ratio
+8d | X4.5 | step-up
+9ai | X5 | alpha
+9aii | X5 | beta
+9bi | X5 | absorption evidence
+9bii | X5 | alpha range
+9c | X5 | safety
+10ai | X6 | light-year
+10aii | X6 | 100 000 ly
+10bi | X6 | supernova
+10bii | X6 | supernova
+10c | X6 | big bang evidence

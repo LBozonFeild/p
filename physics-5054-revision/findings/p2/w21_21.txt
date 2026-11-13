@@ -1,0 +1,53 @@
+# P2 w21_21 | figs viewed: 1.1 (bench 2.2 m long; pivot edge Q is 0.25 m from the left end, P is at the left end), 2.2 (blank distance-time axes, 8.0 m at 8.0 s marked), 5.1 (positive rod on the left of the sphere), 6.1 (variable resistor in series with 28 Ω), 8.2 (four cycles in 0.020 s, amplitude about 3.6 V)
+# Q7 is EITHER/OR: leaf 7a = EITHER (a); leaf 7b = EITHER (b) [2] plus OR (a) [1]; leaves 7bi–7biv = OR (b)(i)–(iv). MS labels 8(a) as "8(a)(i)".
+1a | X1.8 | p = F/A
+1bi | 1.5.6 | centre of mass is at the middle of an object that is symmetrical (left-to-right / front-to-back), or: the bench is stable [B1] ;; because the centre of mass is in the middle (horizontally) / lies within the base [B1]
+1bii | 1.5.5 | {F} moment of the weight about the pivot = weight × distance of the centre of mass from the pivot = 2000 × (1.1 − 0.25) [C1] ;; on the point of tipping: clockwise moment = anticlockwise moment, F × 0.25 = 2000 × 0.85 [C1] ;; 6800 N [A1]
+2a | 1.3 | W = mg = 80 × 10 = 800 N (correct answer only) [B1]
+2bi | 1.5.1 | resultant force F = ma = 80 × 0.50 [C1] ;; 40 N [A1]
+2bii | 1.5.1 | upward force from the floor on a person accelerating upwards = weight + resultant force = 800 + 40 = 840 N [B1]
+2c | 1.2 | {F} distance-time sketch for uniform acceleration from rest followed by uniform deceleration to rest: curve of increasing gradient from the origin for the first half [B1] ;; curve of decreasing gradient from the end of the first curve [B1] ;; line horizontal (zero gradient) at the origin or at the end time, where the object is at rest [B1]
+3a | X5 | fusion
+3bi | 3.3 | radiation emitted by the Sun's surface is electromagnetic (waves) [B1] ;; infrared radiation / produced by hot objects [B1]
+3bii | 3.3 | speed of electromagnetic radiation in a vacuum = 3.0 × 10⁸ m/s [B1]
+3biii | 3.3+1.2 | t = distance ÷ speed = 1.5 × 10¹¹ ÷ 3.0 × 10⁸ [C1] ;; 500 s [A1]
+3c | X2.3 | white reflects radiation
+4a | 1.7.1 | energy store in coal that ends up as electrical energy: chemical energy [B1]
+4bi | 1.7.1 | principle of conservation of energy: energy cannot be created and cannot be destroyed [B1] ;; energy can be transferred from one form into another [B1]
+4bii | 1.7.1 | why electrical output is much less than the energy in the fuel: some chemical energy is transferred to thermal energy (and sound and light) [B1] ;; thermal energy is lost to the air / water / buildings / equipment [B1]
+4c | 1.7.3 | environmental consequence of coal-fired power stations, any one: carbon dioxide / carbon monoxide produced; global warming; greenhouse gases; nitrous oxide; sulfur dioxide; acid rain; rise in sea level [B1]
+5ai | 4.2.1 | a rubbed rod becomes positively charged because electrons are transferred from the rod (on to the cloth) [B1]
+5aii | 4.2.1 | the cloth becomes negatively charged [B1]
+5bi | 4.2.1 | {F} induced charge on an uncharged conducting sphere near a positive rod: negative signs on the side nearest the rod and positive signs on the far side [M1] ;; equal numbers of positive and negative signs (six or fewer) [A1]
+5bii | 4.2.1 | uncharged sphere attracted to a charged rod: negative charges / electrons on the sphere are attracted by the positive charges on the rod [B1] ;; the attraction is greater than the repulsion of the positive charges, because the unlike charges are closer together than the like charges [B1]
+6a | 4.2.3 | identical cells in series: e.m.f. of each cell = total e.m.f. ÷ number of cells = 4.5 ÷ 3 = 1.5 V [B1]
+6bi | 4.2.3 | potential difference: work done / energy transferred when charge passes through a component [C1] ;; work done (energy transferred) ÷ charge passed, i.e. per unit charge [A1]
+6bii | 4.2.4+X4.3 | {F} p.d. across the fixed series resistor = 4.5 − 2.5 = 2.0 V [C1] ;; R = V/I with the series current I = 2.0 ÷ 28 (or ratio R ÷ 28 = 2.5 ÷ 2.0) [C1] ;; 35 Ω [A1]
+7a | X4.5 | EITHER (a) induced current
+7b | X4.5 | EITHER (b) reversed current; OR (a) NOR gate
+7bi | XOLD | logic gates
+7bii | XOLD | logic gates
+7biii | XOLD | logic gates
+7biv | XOLD | logic gates
+8a | X4.5 | magnet needed
+8bi | X4.5 | alternating force on coil
+8bii | 3.4 | loudspeaker cone producing sound: cone moves forwards and the air is compressed (compression) [B1] ;; cone moves backwards and a rarefaction is produced [B1] ;; air molecules vibrate / compressions and rarefactions continue to be produced (and travel outwards) [B1]
+8biii | 3.1 | longitudinal wave: vibration direction is parallel to the direction of energy travel / propagation [B1] ;; transverse wave: vibration direction is perpendicular to the direction of propagation / energy travel [B1]
+8biv | 3.1 | {F} period read from the graph = 0.0050 s, f = 1/T = 200 per second [C1] ;; direction reverses twice in every cycle: 400 times per second [A1]
+8bv | 3.1+3.4 | λ = v/f = 340 ÷ 200 [C1] ;; 1.7 m [A1]
+8ci | 3.4 | smaller maximum voltage: sound is quieter / less loud [B1] ;; because the amplitude of the vibration / sound decreases (smaller maximum force on the coil) [B1]
+8cii | 3.4 | pitch stays the same because the frequency / time period is unchanged [B1]
+9ai | X2.1 | liquid structure
+9aii | X2.1 | compressing a gas
+9aiii | X2.1 | heating a liquid
+9bi | XOLD | fixed points
+9bii | XOLD | calibration
+9ci | XOLD | thermometer range
+9cii | XOLD | thermometer range
+10a | X5 | isotopes
+10b | X5 | beta decay product
+10ci | X5 | background
+10cii | X5 | background sources
+10ciii | X5 | half-life
+10civ | X5 | random
+10d | X5 | beta in electric field

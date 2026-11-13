@@ -1,0 +1,48 @@
+# P2 s24_21 | figs viewed: 1.1 (track A high, B bottom of circular dip, C hump, D-E level), 1.2 (distance-time curve; X at 1.0 s, 1.7 m; straight from 2.0 s), 4.1 (long waves bend round hill, short do not), 8.1 | MS 1(d) says "at D", see issues file
+1ai | 1.2 | {F} on a distance-time graph: accelerating where the line curves with increasing gradient (P in the curved regions) [B1] ;; constant speed where the line is straight (Q on the straight sloping section) [B1]
+1aii | 1.2 | {F} speed at a point on a curved distance-time graph: tangent drawn at the point [B1] ;; speed = distance ÷ time (gradient of tangent) in any form [C1] ;; value in the accepted range 1.9–2.4 m/s [A1]
+1b | 1.7.1 | {F} smooth track, released from rest: speed is greatest at the lowest point and least at the highest; order vA < vC < vD < vB (lower height means more kinetic energy) [B1]
+1c | 1.7.2 | work is done by gravity / weight / gravitational attraction [B1] ;; energy transferred from the gravitational potential energy store [B1] ;; to the kinetic energy store [B1]
+1d | 1.5.4 | {F} resultant force on a ball at the bottom of a circular section of track: arrow upwards (towards the centre of the circle, perpendicular to the motion) [B1]
+2ai | X2.1 | particles hit piston; pressure
+2aii | X2.1 | faster particles
+2b | X1.8 | F = (pressure difference) × A
+2ci | 1.6 | momentum = mv in any form [C1] ;; 3.0 × 10⁴ × 28 = 8.4 × 10⁵ kg m/s [A1]
+2cii | 1.6 | time = change in momentum ÷ force (mv − mu)/F, or t = (v − u)/a with F = ma [C1] ;; 8.4 × 10⁵ ÷ 6.0 × 10⁵ = 1.4 s [A1]
+3a | X2.3 | conduction in metal
+3bi | X2.2 | 273 K
+3bii | X2.2 | latent heat
+3biii | X2.2 | mcΔT
+3biv | 1.7.5 | P = E/t in any form [C1] ;; energy from previous part ÷ time read from graph in seconds (2 minutes = 120 s) = 390 W [A1]
+3bv | X2.2 | water higher specific heat capacity
+4ai | 3.1 | frequency: number of (complete) waves (passing a point) per second [B1]
+4aii | 3.1+3.4 | v = fλ in any form [C1] ;; 30 000 × 0.011 = 330 m/s (kHz converted to Hz) [A1]
+4aiii | 3.4 | one use of ultrasound from: cleaning; prenatal and other medical scanning; sonar; calculation of depth or distance [B1]
+4bi | 3.1 | longitudinal wave: oscillation (of particles) backwards and forwards / in the direction of travel of the wave [B1] ;; transverse wave: oscillation at right angles to the direction of travel of the wave [B1] ;; a diagram of each type of wave [B1]
+4bii | 3.1 | a single source generating both longitudinal and transverse waves: earthquake (seismic waves), or other correct single source e.g. lightning [B1]
+4c | 3.1 | {F} long wavelengths bend round the hill and short wavelengths do not bend (as much) [B1] ;; due to diffraction [B1]
+5a | X4.3 | fuse symbol
+5bi | 4.2.4 | current-voltage graph for a filament lamp: curve through the origin with correct curvature (gradient decreasing as voltage increases) [B1]
+5bii | 4.2.4 | at higher current / voltage the temperature (of the filament) increases [B1] ;; at higher current / voltage the resistance increases [B1]
+5c | 4.2.4+X4.3 | I = V/R in any form [C1] ;; current in each parallel resistor found separately: 240 ÷ 40 = 6 A or 240 ÷ 60 = 4 A (or combined resistance 24 Ω) [C1] ;; total current = 6 + 4 = 10 A [A1]
+5di | X4.4 | fuse rating
+5dii | X4.4 | fuse too large
+5diii | X4.4 | fuse in live
+6ai | X4.5 | motor faster
+6aii | X4.5 | current/field directions
+6aiii | X4.5 | forces on coil
+6bi | X4.5 | field of two wires
+6bii | X4.5 | force between currents
+7ai | X5 | protons
+7aii | X5 | neutrons
+7aiii | X5 | nucleons
+7bi | X5 | background radiation
+7bii | X5 | corrected count
+7biii | X5 | half-life
+7biv | X5 | random
+7c | X5 | uses of radiation
+8a | X6 | planet positions
+8bi | X6 | smaller mass smaller g
+8bii | 1.3 | mass found first from m = W/g = 37 ÷ 3.7 = 10 kg (mass is the same on every planet) [C1] ;; weight on Earth = mg = 10 × 9.8 = 98 N [A1]
+8c | X6 | moon definition
+8d | X6 | red giant, white dwarf

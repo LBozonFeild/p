@@ -1,0 +1,45 @@
+# P2 s18_21 | figs viewed: 1.1, 2.1 (push P forwards, friction F backwards), 4.1, 7.1, 7.2, 9.1 (ray of white light meeting a prism), 9.2, 11.1 (waves P and Q: both period 300 ms, Q larger amplitude and out of step with P) | not viewed: 3.1, 8.1
+1a | 1.2+1.1 | measuring average speed: measure the distance between two marks with a metre rule / tape measure [B1] ;; measure the time taken to travel between the marks with a stopwatch / stopclock / timer [B1] ;; average speed = (total) distance ÷ time [B1]
+1bi | 1.2 | negative acceleration: a decrease in speed / deceleration [B1]
+1bii | 1.2 | change in speed = a × t = 1.8 × 2.5 [C1] ;; 4.5 m/s [A1]
+2ai | 1.5.1 | balanced forces: equal and opposite forces / no resultant force [B1]
+2aii | 1.5.2 | friction produces heating only when the object moves / slides [B1]
+2aiii | 1.5.1 | with balanced forces an object is either stationary or moving with constant velocity (constant speed and direction) [B1]
+2b | 1.5.1 | {F} resultant force = 100 − 85 = 15 N [C1] ;; a = F/m [C1] ;; 15 ÷ 25 = 0.60 m/s² [A1]
+3a | X2.1 | gas pressure
+3bi | X2.1 | Boyle's law
+3bii | X2.1 | assumptions
+4a | 1.7.2 | work done = force × distance (moved) [C1] ;; force × distance moved in the direction of the force [A1]
+4b | 1.7.1 | increase in g.p.e. = mgh = 0.35 × 10 × 6.0 [C1] ;; 21 J [A1]
+4c | 1.7.2 | work done is larger than the g.p.e. gained because a larger force is needed (on the rope) [B1] ;; because of friction / heat produced, the weight of the rope, or the load gaining kinetic energy (accelerating) [B1]
+5a | 4.2.4 | circuit to find a resistance: correct circuit symbols for battery, resistor, variable resistor, ammeter and voltmeter [B1] ;; ammeter in series with the resistor and voltmeter in parallel with it, in a correct series circuit [B1]
+5bi | 4.2.4 | R = V/I = 4.2 ÷ 1.2 [C1] ;; 3.5 Ω [A1]
+5bii | X4.4 | power rating exceeded
+5biii | X4.3 | series resistors
+6a | X4.5 | magnetising
+6b | X4.1 | testing a magnet
+7a | 4.2.1 | shock after walking on a carpet: friction (between shoes and carpet) causes charging – electrons move between foot and carpet [B1] ;; the charge (electrons) then flows between the person and the handle, causing the shock [B1]
+7bi | 4.2.1 | {F} charged spray drops spread out because the drops repel each other [B1] ;; they all have the same charge [B1]
+7bii | 4.2.1 | {F} paint reaches the back of the object because the (positive) drops are attracted by the oppositely (negatively) charged object [B1]
+8a | X4.5 | transformer turns
+8b | X4.5 | iron core
+8c | X4.5 | induction
+8d | X4.5 | underground power lines
+9a | 3.3 | gamma rays are used to kill cancerous cells but can also cause cancer (true); sun-beds use ultraviolet, not infrared; radio waves have the lowest, not the highest, frequency; the higher the frequency the smaller the wavelength (true) – all four judged correctly [B2] (three correct B1)
+9bi | 3.2.4 | {F} white light through a prism: refraction towards the normal on entering the prism [B1] ;; splitting into colours begins at the first surface [B1] ;; red deviated least and blue / violet deviated most (red at the top, violet at the bottom for a prism with its apex up) [B1]
+9bii | 3.2.4 | dispersion: different colours have different speeds in glass / different refractive indices [B1] ;; so they refract through different angles [B1]
+9ci | 3.3 | speed of light in a vacuum = 3.0 × 10⁸ m/s [B1]
+9cii | 3.3+1.2 | t = distance ÷ speed with the distance in metres: 1.5 × 10¹¹ ÷ 3.0 × 10⁸ [C1] ;; 500 s [A1]
+9di | 4.2.2 | I = Q/t with time in seconds: 180 ÷ 120 [C1] ;; 1.5 A [A1]
+9dii | X5 | alpha, proton, gamma table
+10ai | X2.2 | boiling vs evaporation
+10aii | X2.2 | latent heat
+10bi | 1.4 | mass = density × volume [C1] ;; 1000 × 4.6 × 10⁻³ ÷ 60 = 0.077 kg in each second [A1]
+10bii | X2.2 | mcΔT
+10biii | 1.7.4 | to find efficiency the input (electrical) energy or power is also needed [B1] ;; efficiency = output (energy / power) ÷ input (energy / power) [B1]
+10biv | X4.4 | earthing
+11ai | 3.1 | ripple tank: a tank containing water [B1] ;; a dipper (bar or point) touching / in the surface of the water [B1] ;; a light source / stroboscope / video to observe the wave [B1] ;; the dipper moves up and down to create the wave [B1]
+11aii | 3.1 | showing that a water wave transfers energy: place a cork / small floating object on the surface (or observe the surface) [B1] ;; it moves up and down as the wave passes [B1]
+11aiii | 3.1 | wavefront: a line joining points [M1] ;; that are at the same point in their motion (e.g. all on a crest) [A1]
+11bi | 3.1 | {F} comparing two waves from height-time graphs – difference: greater / different amplitude, or different phase [B1] ;; similarity: same frequency / same time for one wave (period); both transverse [B1]
+11bii | 3.1 | {F} period read from the graph = 300 ms = 0.30 s [C1] ;; f = 1/T [C1] ;; 3.3 Hz [A1] ;; λ = v/f = 0.20 ÷ 3.3 [C1] ;; 0.060 m [A1]

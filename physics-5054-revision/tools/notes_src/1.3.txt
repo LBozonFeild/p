@@ -1,0 +1,42 @@
+ORDER A B C Z
+== A | Mass and weight: meanings and differences | mass|weight | 2
+- Mass: the amount (quantity) of matter (substance) in a body (B1).
+- Mass is also credited as the property of a body that resists a change in its state of rest or motion – a measure of its inertia (the second B1 where two marks are given; an accepted alternative where one mark is given).
+- Weight: the force (pull) of gravity on a body; marked as a force on a body (B1) due to a gravitational field (B1).
+- An object has weight because it is in the gravitational field of the Earth; a mass hung on a spring exerts a force on it because of its weight.
+- Gravitational field: a region (of space) in which a mass experiences a force (due to gravitational attraction).
+- Ways in which weight differs from mass (any two, other than the units): weight is a force; weight is a vector / has a direction, mass is a scalar; weight depends on location / gravitational field strength, mass does not; mass is the amount of matter; mass resists a change of motion (inertia); weight is measured with a spring balance / newton meter, not a beam balance.
+* Mass is a scalar measured in kilograms; weight is a force measured in newtons.
+* A greater mass means more matter and a greater resistance to a change in motion.
+* Weight acts vertically downwards, whatever the slope of the surface.
+* Mass is not changed by taking the object to the Moon, by heating it, or by a force that changes its shape and size. On the Moon the volume and density are also unchanged; only the weight changes.
+* The weight of a spacecraft is zero at the point where the gravitational fields of the Earth and the Moon cancel.
+== B | Weight = mass × gravitational field strength (W = mg) | W = mg|= mg|mg =|weight = m|gravitational field strength|N/kg|g = |m = W|W ÷ g|W/g|× 10|× 9\.8|÷ 10|÷ 9\.8 | 1
+- Weight = mass × gravitational field strength, W = mg (C1 for the equation or substitution and A1 for the answer; often a single B1).
+- Use the mass in kilograms.
+- Use g = 9.8 N/kg, the value in the current syllabus; older papers used 10 N/kg where the question gave that value. For 2.0 kg the answer is 19.6 N, and 20 N is accepted.
+- Mass from a weight or a newton-meter reading: m = W ÷ g.
+- Weight on another planet: find the mass first from m = W ÷ g (C1) – the mass is the same on every planet – then weight = mass × the local g (A1).
+- Where the gravitational field strength is less, the mass is unchanged and the weight is less.
+- With no air resistance the acceleration of free fall is numerically equal to the gravitational field strength; give it in m/s², not N/kg.
+- Why objects of different mass fall with the same acceleration (no air resistance): weight is directly proportional to mass, W = mg (B1); a larger force acts on the more massive body, and a = F/m = W/m (B1); so the mass cancels and a = g for both (B1).
+- A mass hanging at rest: the upward force (tension) is the same size as the weight, because the mass is at rest.
+* Gravitational field strength g = W ÷ m, in N/kg; to compare planets or objects work out W ÷ m (or mg) for each.
+* On the Moon g is about one sixth of its value on the Earth.
+* Weight decreases as height above the Earth increases, because the gravitational field strength is smaller; the mass is unchanged.
+* Mass = weight ÷ g, not weight × g.
+* Weight (mg) and resultant force (ma) are different quantities: for 80 kg accelerating at 2 m/s² the weight is 800 N and the resultant force is 160 N.
+== C | Measuring and comparing mass and weight: balances | balance|newton ?meter|newtonmeter|forcemeter|force meter|scales|compar | 0
+- Mass is measured with a balance / scales.
+- A lever-arm (beam) balance compares the unknown mass with known masses (B1), so it gives the correct mass anywhere (B1).
+- A spring balance measures weight (the force of gravity) and so depends on g (B1); a spring balance calibrated on the Earth reads wrongly where weights are different, for example on Mars (B1).
+- Finding mass with a spring balance marked in newtons: hang the object from the balance and read its weight (B1); divide the weight by g (B1).
+* A newton meter (force meter) measures weight, so its reading is different on the Moon; a pan balance compares masses, so its reading is the same on the Earth and on the Moon.
+* Spring balances and top-pan balances respond to weight, so their mass scale is wrong where g is different; lever-arm and two-pan balances read mass correctly anywhere.
+* On a balanced equal-arm beam balance the two objects have equal masses, equal weights and equal moments; their volumes need not be equal.
+* Mass is not measured in newtons, nor weight in kilograms.
+* Bathroom scales give the mass in kg; the weight is then mg.
+* A balance that reads the force as an Earth mass shows one fifth of the true mass where g is one fifth as large.
+== Z | Other points
+MOVE w21_22|1a|A
+MOVE s22_22|1b|A

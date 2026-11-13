@@ -1,0 +1,49 @@
+# P2 w10_21 | figs viewed: 1.1 (speed rises linearly to about 7.4 m/s at 0.75 s, curves to 12 m/s by 1.6 s, level to 2.5 s, then drops to zero), 2.1, 3.1, 7.1, 9.1 (light at Q on the ground beside a pool; eye at P on the pool floor), QP p13 (Fig. 9.2 scale diagram: small inverted display at one end of the axis, large image about 16 cm away on the diagram) | not viewed: 5.1, 6.1, 8.1
+1ai | 1.2 | {F} uniform speed is where the speed-time graph is horizontal (any time between 1.60 s and 2.50 s) [B1]
+1aii | 1.2 | {F} non-uniform acceleration is where the graph is a rising curve (0.75 s to 1.65 s) [B1]
+1aiii | 1.2 | {F} deceleration is where the speed falls (at 2.50 s) [B1]
+1b | 1.2 | {F} distance = area under the speed-time graph = ½ × base × height = ½ × 0.75 × 7.4 [C1] ;; 2.7–2.8 m [A1]
+2a | X6 | gravitational attraction of the Sun
+2bi | 1.5.4 | {F} acceleration of a planet in a circular orbit: arrow from the planet towards the centre of the orbit (the Sun) [B1]
+2bii | 1.5.1 | F = ma = 4.9 × 10²⁴ × 9.7 × 10⁻³ [C1] ;; 4.8 × 10²² N [A1]
+2c | 1.7.2 | no work is done by the force keeping an object in a circular orbit: the direction of movement is not the direction of the force [C1] ;; the force is perpendicular to the distance moved – there is no movement in the direction of the force [A1]
+3a | 1.7.1 | principle of conservation of energy: energy cannot be created [B1] ;; and cannot be destroyed – it is only transformed (total energy of an isolated system is constant) [B1]
+3bi | 1.7.1 | energy change in cells: chemical (potential) energy [B1] ;; to electrical energy [B1]
+3bii | 1.7.1 | forms of energy produced in a filament lamp: light [B1] ;; and heat (thermal / internal energy) [B1]
+3c | 1.7.4 | equally bright but more efficient lamp (LEDs) on the same battery: the same light, less heat – so less electrical / chemical energy is used [B2]
+4ai | 3.3 | only electromagnetic waves can be used to reach a satellite because they can travel through a vacuum (space) [B1]
+4aii | 3.3 | satellite television uses microwaves (radio waves) [B1]
+4aiii | 3.3 | satellites give greater coverage with less ground-based equipment and less obstruction [B1]
+4b | 3.3+1.2 | distance = speed × time = 3.0 × 10⁸ × 0.24 [C1] ;; 7.2 × 10⁷ m [A1]
+5ai | X4.4 | P = VI
+5aii | 1.7.5 | energy = Pt (= VIt) [C1] ;; with time in seconds: 420 × 120 [C1] ;; 5.0 × 10⁴ J [A1]
+5bi | X2.2 | latent heat
+5bii | X2.2 | energy losses
+6ai | X4.5 | loudspeaker
+6aii | 3.4 | a vibrating cone produces sound: the air (molecules) next to the cone are made to vibrate [B1] ;; producing compressions and rarefactions (regions of high and low pressure) that are passed on – a longitudinal wave [B1]
+6b | 3.4 | larger vibrations of the cone give a louder note (same frequency) [B1]
+7ai | XOLD | capacitor
+7aii | XOLD | time delay
+7b | 4.2.2 | average current I = Q/t = 5.4 × 10⁻⁷ ÷ 200 [C1] ;; 2.7 × 10⁻⁹ A [A1]
+8ai | 1.3 | W = mg = 70 × 10 [C1] ;; 700 N [A1]
+8aii | X1.8 | P = F/A
+8bi | X2.1 | gas pressure
+8bii | X2.1 | gas pressure
+8ci | X2.1 | temperature
+8cii | X2.1 | gas expansion
+9ai | 3.2.2 | {F} light from a source at water level reaching an observer under water: ray drawn horizontally along the surface to the edge and then down through the water to the eye [B1] ;; the critical angle marked between the ray in the water and the normal [B1]
+9aii | 3.2.2 | light meeting the water surface along the surface has an angle of incidence of 90° [B1] ;; it is refracted at the critical angle, the largest possible angle of refraction, so no light can reach points that would need a different angle [B1]
+9aiii | 3.2.2 | n = 1 ÷ sin c = 1 ÷ sin 49° [B1] ;; 1.3 [B1]
+9aiv | 3.3+3.2.4 | blue light has a shorter wavelength in air than red light [B1]
+9bi | 3.2.3 | image formed by a projector lens on a wall (besides inverted and magnified), any two: real; less bright; further from the lens than the object (beyond 2f) [B2]
+9bii | 3.2.3 | {F} locating a lens from object and image on a scale diagram: straight ray from the top of the object to the top of the image [B1]
+9biii | 3.2.3 | the lens is where that straight ray crosses the principal axis (it passes through the optical centre undeviated) [B1]
+9biv | 3.2.3 | a ray from the top of the object parallel to the axis is refracted at the lens to the top of the image [M1] ;; the principal focus is where it crosses the principal axis [A1]
+9bv | 3.2.3 | focal length = distance from the lens to the principal focus measured on the diagram (1.6–1.9 cm) [C1] ;; multiplied by the scale (× 12): 19–23 cm, to 2 significant figures [A1]
+10ai | X5 | proton number
+10aii | X5 | nucleon number
+10bi | X5 | decay equation
+10bii | X5 | beta
+10biii | X5 | beta test
+10ci | X5 | half-life
+10cii | X5 | half-life

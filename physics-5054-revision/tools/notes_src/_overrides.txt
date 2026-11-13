@@ -1,0 +1,116 @@
+# Notes wording for mixed sub-questions: the findings line holds steps from sections outside the selected ones; the notes keep
+# only the in-scope steps.  Format: pair|label|text used in the notes.  (The tracker keeps the full original line.)
+s06_2|10aii|weight = mg = 60 × 10 = 600 N [C1]
+s17_21|9biii|mass = density × volume = 1000 × 24 = 24 000 kg [B1]
+w25_11|MCQ5|moments about the pivot (toes): F × d = W × ¾d, so the total force at the hands is ¾W and each hand supports 3W/8
+w15_12|MCQ15|work done = force × distance moved in the direction of the force = 100 × 0.10 = 10 J
+w13_11|MCQ31|efficiency = useful power output ÷ power input = 24 ÷ 25 = 0.96 (both powers in watts)
+s12_11|MCQ14|efficiency = useful output power ÷ input power = 24 ÷ 26.4 = 0.91
+s23_12|MCQ31|energy in kW h = power in kW × time in hours = 1.5 × 10/60 = 0.25 kW h
+w21_11|MCQ33|power = energy ÷ time = 0.133 kW h ÷ 0.060 h = 2.2 kW
+s21_12|MCQ35|energy = power × time = 0.100 kW × (5 × 21) h = 10.5 kW h
+w20_11|MCQ39|energy in kW h = power in kW × time in hours (power in W ÷ 1000)
+w18_11|MCQ31|energy = power × time = 3.0 kW × 2.5 h = 7.5 kW h
+w17_12|MCQ32|power in use = 0.10 + 0.40 = 0.50 kW; energy = power × time = 0.50 × 2 = 1.0 kW h
+s16_21|11bi|E = Pt with consistent units: 500 000 × 60 × 60 [C1] ;; 1.8 × 10⁹ J (or 500 kW h) [A1]
+w15_21|10bii|E = Pt with time in seconds: 2.8 × 10⁶ × 3600 [C1] ;; 1.0 × 10¹⁰ J [A1]
+s15_21|10ciii|E = Pt = 200 × 120 [C1] ;; 24 000 J [A1] ;; energy not transferred to the water = energy supplied − energy used [B1]
+s14_11|MCQ32|energy = power × time = 2 kW × 3 h = 6 kW h
+w12_12|MCQ32|energy = power × time = 3 kW × 4 h = 12 kW h
+w09_1|MCQ30|energy transferred = power × time: 100 W for 24 h = 2.4 kW h, more than 0.5 kW h, 0.17 kW h or 0.083 kW h
+w08_1|MCQ31|energy = power × time = 3 kW × 5 h = 15 kW h
+s07_1|MCQ31|power in use = fan 0.1 kW + one heater 0.4 kW = 0.5 kW; energy = power × time = 0.5 × 2 = 1.0 kW h
+w06_1|MCQ29|energy = power × time: 5000 W for 60 s = 300 000 J (the least of the four appliances compared)
+s05_2|6a|power in kW = power in W ÷ 1000 = 3.024 kW [B1] ;; energy in kW h = power in kW × time in hours = 3.024 × 0.50 = 1.512 kW h [B1]
+s04_2|10biv|energy supplied = power × time = 30 × 400 = 12 000 J [C1]
+w22_11|MCQ35|f = 1 ÷ T: a period of 20 ms gives f = 1 ÷ 0.020 = 50 Hz
+w21_11|MCQ36|two complete waves in 1.2 ms means a period of 0.60 ms, so f = 1 ÷ T = 1700 Hz
+s07_1|MCQ37|the period is the time for one complete cycle: three cycles in 12 ms give a period of 4 ms
+s04_2|9aii|electromagnetic spectrum diagram: three parts other than visible and infrared, from radio waves, microwaves, ultraviolet, X-rays, gamma rays [M3] ;; all the parts shown in the correct order of wavelength, including visible light and infrared (gamma, X-rays, ultraviolet, visible, infrared, microwaves, radio in order of increasing wavelength) [A1]
+w18_11|MCQ36|the echo arrives 9.0 ms after the original sound; this is the time for the journey there and back, so the sound takes 4.5 ms to reach the wall
+s18_11|MCQ34|the echo arrives 0.08 s after the direct sound; distance to the wall = speed × time ÷ 2 = 300 × 0.08 ÷ 2 = 12 m
+w25_12|MCQ33|R = V ÷ I = 9.0 ÷ 0.75 = 12 Ω
+s25_12|MCQ29|with a total circuit resistance of 12 Ω, I = V ÷ R = 6.0 ÷ 12 = 0.50 A; a voltmeter across the 6.0 Ω resistor reads V = IR = 0.50 × 6.0 = 3.0 V
+w24_12|MCQ30|resistance is proportional to length and inversely proportional to cross-sectional area: a wire of 4 × the length and 4 × the area has the same resistance R
+s21_12|MCQ32|I = V ÷ R = 12 ÷ 2500 = 4.8 mA (total resistance 2.5 kΩ), so the 0–10 mA range gives a reading near mid-scale
+w15_12|MCQ33|with a total circuit resistance of 6.0 Ω, I = V ÷ R = 18 ÷ 6.0 = 3.0 A; p.d. across the 2.0 Ω resistor = IR = 3.0 × 2.0 = 6.0 V
+w04_2|7cii|a thicker cable has a smaller resistance [B1] ;; resistance is inversely proportional to cross-sectional area (so less energy is lost as heat in the cable) [B1]
+# --- added 2026-11-12: questions on resistance that also need the rules for series and parallel circuits (syllabus 4.3.2, 4.3.3).
+# The notes keep the use of R = V/I for one component or for the whole circuit; adding resistances, adding branch currents,
+# adding or sharing p.d.s and the potential divider are left out.
+s26_22|6cii|current in the fixed resistor = p.d. across it ÷ its resistance = 3.6 ÷ 200 = 0.018 A (ecf) [C1] ;; resistance of a component (an LDR) = p.d. across it ÷ current in it = 2.4 ÷ 0.018 = 130 Ω [A1]
+w25_21|6bi|I = V/R using the e.m.f. and the total resistance of the circuit = 9.0 ÷ 12 [C1] ;; 0.75 A [A1]
+w25_21|6cii|current = e.m.f. ÷ total resistance of the circuit = 9.0 ÷ 6.0 = 1.5 A, then p.d. across a resistor = current in it × its resistance (V = IR) [C1] ;; 1.5 × 4.0 = 6.0 V [A1]
+s24_22|6dii|V = IR in any form [C1] ;; p.d. across the fixed resistor = current in it × its resistance = 0.050 × 240 = 12 V [C1]
+s24_21|5c|I = V/R in any form [C1] ;; current in a resistor = p.d. across it ÷ its resistance: 240 ÷ 40 = 6 A, or 240 ÷ 60 = 4 A [C1]
+w23_21|6bi|total resistance of the circuit R = V/I = e.m.f. ÷ current = 1.5 ÷ 0.20 = 7.5 Ω (identical cells in parallel give the e.m.f. of one cell) [C1]
+s23_22|6aii|R = V/I in any form, using the p.d. across the resistor itself (9.0 V) and the current in it [C1] ;; 9.0 ÷ 0.25 = 36 Ω [A1]
+s23_21|3a|I = V/R in any form [B1] ;; current = supply p.d. ÷ total resistance of the circuit = 12 ÷ 700 = 0.017 A [B1]
+w22_21|9bi|I = V/R using the supply p.d. and the total resistance of the circuit = 12 ÷ 48 [C1] ;; 0.25 A [A1]
+s22_22|5bii|V = IR in any form [C1] ;; p.d. across a component = current in it × its resistance = 0.0020 × 600 = 1.2 V (or total resistance of the circuit = supply p.d. ÷ current = 6.0 ÷ 0.0020 = 3000 Ω) [C1] ;; resistance of a resistor = p.d. across it ÷ current in it = 4.8 ÷ 0.0020 = 2400 Ω [A1]
+s22_21|6bi|"show that" a current: p.d. across a resistor = current in it × its resistance = 2.4 × 4.0 = 9.6 V [B1] ;; current in a resistor with that p.d. across it = 9.6 ÷ 5.0 = 1.92 A [B1]
+s22_21|6bii|p.d. across a resistor = current in it × its resistance = 4.32 × 6.0 = 25.9 V [C1]
+w21_21|6bii|current in a fixed resistor = p.d. across it ÷ its resistance = 2.0 ÷ 28 [C1] ;; resistance of a component = p.d. across it ÷ current in it = 2.5 ÷ (2.0 ÷ 28) = 35 Ω [A1]
+s21_22|8a|current = supply p.d. ÷ total resistance of the circuit = 6.0 ÷ 2000 [C1] ;; p.d. across a resistor = current in it × its resistance = 0.0030 × 1200 = 3.6 V [A1]
+w20_21|10cii|current = e.m.f. ÷ total resistance of the circuit = 1.2 ÷ 16 = 0.075 A [C1] ;; p.d. across a resistor = current in it × its resistance = 0.075 × 6.4 = 0.48 V [A1]
+s20_22|8ciii|total resistance of the circuit = e.m.f. ÷ current = 25 ÷ 0.014 (one route to the first mark) [C1] ;; resistance of a resistor = p.d. across it ÷ current in it = 21.4 ÷ 0.014 = 1500 Ω [A1]
+w19_22|6aii|current in a fixed resistor = p.d. across it ÷ its resistance = 4.0 ÷ 700 = 5.7 × 10⁻³ A [C1] ;; resistance of a component R = V/I = p.d. across it ÷ current in it = 8.0 ÷ (4.0 ÷ 700) [C1] ;; 1400 Ω [A1]
+s19_22|6b|R = V/I using the p.d. across the resistor and the current in that resistor = 6.0 ÷ 0.25 = 24 Ω [A1]
+s19_21|8ai|current = supply p.d. ÷ total resistance of the circuit = 12 ÷ 3200 [C1] ;; p.d. across a resistor = current in it × its resistance = 0.00375 × 2000 = 7.5 V [A1]
+w18_21|7biii|increasing a resistance in the circuit increases the total resistance of the circuit [B1] ;; so the current decreases, and the p.d. across a fixed resistor that carries this current (V = IR) decreases [B1]
+s18_22|10bii|p.d. across a resistor = current in it × its resistance = 0.24 × 10 = 2.4 V (one route to the first mark) [C1] ;; e.m.f. = current × total resistance of the circuit = 0.24 × 50 = 12 V [A1]
+s18_22|10e|when the total resistance of a circuit decreases, the current from the supply increases [B1] ;; the p.d. across a fixed resistor that carries this current increases [M1] ;; because p.d. is proportional to current for a fixed resistance (V = IR) [A1]
+s17_22|10bi|I = V/R using the e.m.f. and the total resistance of the circuit = 6.0 ÷ 40 [C1] ;; 0.15 A [A1] ;; p.d. across part of a circuit = current in it × its resistance = 0.15 × 16 [C1] ;; 2.4 V [A1]
+s16_22|9bii|I = V/R using the supply p.d. and the total resistance of the circuit = 12 ÷ 48 [C1] ;; 0.25 A [A1]
+s16_21|8b|I = V/R using the supply p.d. and the total resistance of the circuit = 9.0 ÷ 1500 [C1] ;; 0.0060 A [A1]
+w15_21|8ai|I = V/R using the supply p.d. and the total resistance of the circuit = 12 ÷ 8000 [C1] ;; 0.0015 A (1.5 mA) [A1]
+s15_22|10biii|p.d. across a component = IR with the current in amperes = 0.0015 × 2000 [C1] ;; 3.0 V [A1] ;; current in a resistor connected directly across the supply = supply p.d. ÷ its resistance = 12 ÷ 200 = 0.060 A [C1]
+w14_22|7bi|total resistance of the circuit R = V/I = e.m.f. ÷ current = 1.5 ÷ 0.075 [C1] ;; 20 Ω [C1]
+w14_21|11eii|p.d. across part of a circuit = current in it × its resistance = 0.50 × 2.0 = 1.0 V [B1]
+s14_21|7bii|I = V/R using the supply p.d. and the total resistance of the circuit = 6.0 ÷ 3000 [C1] ;; 0.0020 A (2.0 mA) [A1]
+w13_21|11ai|I = V/R using the supply p.d. and the total resistance of the circuit = 6.0 ÷ 12 [C1] ;; 0.50 A [A1]
+w13_21|11bii|so the resistance of the variable resistor has decreased: the current is larger for the same supply p.d. [B1]
+s13_22|6biii|current in a resistor I = V/R [C1] ;; = p.d. across it ÷ its resistance = 6.0 ÷ 20 = 0.30 A [C1]
+w12_22|11ai|I = V/R using the supply p.d. and the total resistance of the circuit = 12 ÷ 4.8 [C1] ;; 2.5 A [A1]
+w12_21|8aii|R = V/I using the p.d. across the component itself and the current in it = 5.0 ÷ 0.025 (or total resistance of the circuit = supply p.d. ÷ current = 20 ÷ 0.025 = 800 Ω) [C1] ;; 200 Ω [A1]
+s12_22|8biii|for the same p.d., the resistor with the smaller current has the larger resistance (R = V/I) [B1]
+s12_22|8biv|p.d. across a resistor = current in it × its resistance = 0.30 × 10 = 3.0 V (or resistance of a component = p.d. across it ÷ current in it = 2.0 ÷ 0.10 = 20 Ω) [C1] ;; total resistance of the circuit = total p.d. ÷ current from the supply = 5.0 ÷ 0.30 = 16.7 Ω [A1]
+s11_21|10biv|R = V/I [C1] ;; current in amperes, 25 mA = 0.025 A [C1] ;; total resistance of the circuit = supply p.d. ÷ current = 9.0 ÷ 0.025 = 360 Ω (one route to the third mark) [C1] ;; resistance of a resistor = p.d. across it ÷ current in it = 7.3 ÷ 0.025 = 292 Ω [A1]
+s10_22|11cii|current in a fixed resistor = p.d. across it ÷ its resistance = 3.8 ÷ 2000 = 1.9 × 10⁻³ A [C1] ;; resistance of a component (a thermistor) = p.d. across it ÷ current in it = 2.2 ÷ 1.9 × 10⁻³ = 1160 Ω (1200 Ω) [A1]
+s10_21|7ai|I = V/R using the supply p.d. and the total resistance of the circuit = 6 ÷ 2400 [C1] ;; 0.0025 A (2.5 mA) [A1]
+w09_2|11ai|I = V/R using the supply p.d. and the total resistance of the circuit = 9.0 ÷ 20.0 [C1] ;; 0.45 A [A1]
+s09_2|9bi|current in a lamp connected directly across the supply = supply p.d. ÷ its resistance: 240 ÷ 380 = 0.63 A [B1] ;; 240 ÷ 190 = 1.26 A [B1]
+s09_2|9bii|total resistance of the circuit = supply p.d. ÷ current from the supply = 240 ÷ 1.895 [C1] ;; 127 Ω [A1]
+s09_2|9ci|I = V/R using the supply p.d. and the total resistance of the circuit = 240 ÷ 570 [C1] ;; 0.42 A [A1]
+w07_2|10civ|resistance of a component = p.d. across it ÷ the current in it = 8.0 ÷ 0.60 [C1] ;; 13 Ω [A1]
+s07_2|7c|current in a part of the circuit connected directly across the supply = supply p.d. ÷ its resistance = 12 ÷ 6 = 2 A [C1] ;; p.d. across a resistor = current in it × its resistance = 2 × 4 = 8 V [A1]
+s06_2|11cii|the current in a lamp is smaller [B1] ;; because the total resistance of the circuit is higher, or because the lamp has less than the full supply p.d. across it [B1]
+s04_2|6bii|formula V = IR [B1] ;; current in a resistor = p.d. across it ÷ its resistance = 4.0 ÷ 12 [C1] ;; 0.33 A [A1] ;; p.d. across the whole circuit = current × total resistance of the circuit = 0.33 × 30 [C1] ;; 10 V [A1]
+s23_22|6b|current read from the lamp's current-voltage graph at 6.0 V = 0.35 A [B1] ;; p.d. across a resistor that carries this current = IR = 0.35 × 36 = 12.6 V [B1]
+s20_21|8ci|R = V/I [C1] ;; read each current from the graph at that voltage (2.0 A and 0.5 A) and find each resistance: 12 ÷ 2.0 = 6.0 Ω and 12 ÷ 0.5 = 24 Ω [C1]
+w05_2|11bi|at the stated current read each p.d. from its current-voltage graph: lamp 3.0 V [B1] ;; wire 12 V [B1] ;; resistance of the lamp at this current R = V/I = 3.0 ÷ 0.8 [C1] ;; 3.75 Ω [A1]
+w05_2|11bii|at the stated p.d. read each current from its current-voltage graph: wire 0.8 A [B1] ;; lamp 2.0 A [B1] ;; resistance of the wire = 12 ÷ 0.8 = 15 Ω [B1]
+w09_2|11bii|as a metal conductor connected in a circuit with a fixed resistor is heated, the voltmeter reading across the fixed resistor falls [B1] ;; because the current supplied by the battery falls [B1]
+s12_21|7c|a voltmeter reads much less than expected when one cell is connected the wrong way round, acting against the others [B1]
+s26_12|MCQ32|a lamp is brightest when the current in it is largest, i.e. when the total resistance of the circuit is smallest (the supply p.d. is the same)
+s26_11|MCQ34|current = e.m.f. ÷ total resistance of the circuit = 10 ÷ 50 = 0.20 A; p.d. across the 40 Ω resistor = IR = 0.20 × 40 = 8.0 V
+w24_12|MCQ28|current = e.m.f. ÷ total resistance of the circuit: I = E ÷ 4R
+w22_11|MCQ30|decreasing the resistance of a variable resistor decreases the total resistance of the circuit, so the current in the lamp increases; the e.m.f. is unchanged
+w21_11|MCQ31|I = V ÷ total resistance of the circuit = 5.0 ÷ 10 = 0.50 A; p.d. across each resistor = IR, so 1.5 V appears across the 3.0 Ω resistor
+s19_12|MCQ33|increasing the resistance of a variable resistor reduces the current in the circuit, so the lamps are dimmer and the motor turns more slowly
+s15_12|MCQ34|V = IR = 0.60 × 30 = 18 V across the 30 Ω resistor
+s15_11|MCQ34|current = supply p.d. ÷ total resistance of the circuit = 12 ÷ 10 = 1.2 A; p.d. across the 6.0 Ω resistor = IR = 1.2 × 6.0 = 7.2 V
+w14_12|MCQ25|the current leaving the cell equals the current returning to it; for the same p.d., the smaller resistance carries the larger current (I = V ÷ R)
+w14_12|MCQ26|I = V ÷ total resistance of the circuit = 12 ÷ 5.0 = 2.4 A
+w13_12|MCQ31|for the same p.d., the larger resistance carries the smaller current (I = V ÷ R)
+w13_11|MCQ30|for the same p.d., resistors of different resistance carry different currents (I = V ÷ R)
+s12_11|MCQ29|current in a resistor connected directly across the battery = battery p.d. ÷ its resistance: 12 ÷ 6 = 2.0 A and 12 ÷ 3 = 4.0 A
+s11_12|MCQ31|I = V ÷ total resistance of the circuit: 6 ÷ 6 = 1 A; when the total resistance is reduced to 3 Ω the current rises to 6 ÷ 3 = 2 A
+w09_1|MCQ28|p.d. across the 6 Ω resistor = IR = 4 × 6 = 24 V; a 12 Ω resistor with the same p.d. across it carries 24 ÷ 12 = 2 A
+w06_1|MCQ28|p.d. across the 6 Ω resistor = IR = 4 × 6 = 24 V; a 12 Ω resistor with the same p.d. across it carries 24 ÷ 12 = 2 A
+w07_1|MCQ30|current from the cell = e.m.f. ÷ total resistance of the circuit = 6.0 ÷ 6.0 = 1.0 A
+s07_1|MCQ30|total resistance of the circuit = V ÷ I = 3 ÷ 0.5 = 6 Ω
+w05_1|MCQ28|with only the 10 Ω resistor in the circuit V = IR = 0.6 × 10 = 6 V; when the total resistance of the circuit is 30 Ω, I = V ÷ R = 6 ÷ 30 = 0.2 A
+w20_12|MCQ30|t = Q ÷ I with the total current from the battery (8.0 A): 150 000 ÷ 8.0 = 18 750 s = 5.2 hours
+s15_11|MCQ28|two cells joined + to − are in series the same way round: drawn as two cell symbols with the long plate of one next to the short plate of the other
+s13_11|MCQ32|identical cells in parallel give the same e.m.f. as one cell, and the e.m.f.s of cells in series add

@@ -1,0 +1,49 @@
+# P2 w18_21 | figs viewed: 1.1, 1.2 (blank speed-time axes with t1 marked), 3.1, 3.2 (straight line from origin to 19 cm at 7.0 N), 3.3 (two springs side by side sharing one load), 7.1 (2.8 Ω in series with 3.6 Ω and X in parallel), 8.1 (cylinder radius 0.12 m, handle 0.40 m from axle), 9.1 (crests closer together and turned in the shaded region), 9.2 (ray entering the vertical side of a rectangular block at 60°, then meeting the bottom side at P) | not viewed: 2.1, 5.1, 6.1, 6.2, 10.1
+1a | 1.5.1 | F = ma = 35 × 2.6 [C1] ;; 91 N [A1]
+1bi | 1.2 | {F} speed-time sketch: constant acceleration is a straight line from the origin (up to the marked time) [B1] ;; then a gradually decreasing gradient until the line is horizontal (constant speed) [B1]
+1bii | 1.2 | distance travelled = area under the speed-time line (between the line and the time axis) [B1]
+2ai | X1.8 | ρgh
+2aii | X1.8 | atmospheric pressure
+2b | X1.8 | pressure and depth
+3a | 1.5.3 | {F} extension-load graph beyond the limit of proportionality: the line continues from the end of the straight section and curves upwards (extension increases faster than load) [B1]
+3b | 1.5.3 | {F} extension = new length − original length = 13.4 − 4.9 = 8.5 cm [C1] ;; weight read from the extension-load graph at that extension: 3.1–3.2 N [A1]
+3c | 1.5.3 | {F} two identical springs side by side: limit of proportionality is not reached because the load is shared equally (limit for the pair is doubled, 14 N) [B1] ;; tension in each spring is half the load, 4.5 N, which is less than 7.0 N [B1]
+4a | 1.7.1 | kinetic energy = ½mv², where m is the mass of the object [B1]
+4bi | X2.2 | mcΔT
+4bii | 1.7.1 | minimum speed if all the kinetic energy becomes internal energy: ½mv² = ΔQ, v² = 2 × 8.4 × 10³ ÷ 0.60 = 2.8 × 10⁴ [C1] ;; 167 m/s [A1]
+4biii | 1.7.1 | actual speed is greater because not all the kinetic energy heats the rock: some thermal energy is lost to the ground / air, or work is done shattering the rock / compressing the ground, or the rock bounces [B1]
+5ai | XOLD | range and sensitivity
+5aii | XOLD | sensitivity
+5b | XOLD | constriction
+5c | X2.2 | expansion
+6a | X4.1 | steel
+6b | X4.1 | plotting compass
+6c | X4.1 | induced magnetism
+7ai | X4.3 | parallel resistance
+7aii | 4.2.4 | I = V/R using the total circuit resistance = 6.0 ÷ 4.0 [C1] ;; 1.5 A [A1]
+7bi | 4.2.3 | potential difference across a component: work done / energy transferred per unit charge passing through the component [B1]
+7bii | 4.2.3 | {F} voltmeter symbol drawn in parallel with (across) the component whose p.d. is measured [B1]
+7biii | 4.2.4+X4.3 | {F} increasing one resistance increases the total resistance of the circuit [B1] ;; so the current in the series resistor decreases, and its p.d. (V = IR) decreases [B1]
+8a | 1.3 | mass is a measure of the amount of matter (substance) in a body [B1] ;; it resists a change in the body's state of rest or motion [B1]
+8bi | 1.3 | gravitational field: a region (of space) where a mass experiences a force (due to gravitational attraction) [B1]
+8bii | 1.4+1.3 | mass of liquid m = ρV = 1000 × 2.4 × 10⁻² = 24 kg [C1] ;; add the container: 25 kg in total [C1] ;; W = mg = 250 N [A1]
+8ci | 1.5.5 | {F} moment = force × perpendicular distance from the axle = 250 × 0.12 (the rope pulls at the radius of the cylinder) [C1] ;; 30 N m [A1]
+8cii | 1.5.5 | balancing force = moment ÷ distance of the handle from the axle = 30 ÷ 0.40 = 75 N [B1]
+8di | 1.5.5 | why the real force is greater than the calculated one, any two: friction at the axle; weight of the rope; force not perpendicular to the handle radius; rope wraps over itself (increasing the moment) [B2]
+8dii | 1.7.1 | lifting a load at constant speed by hand: energy comes from chemical energy (in the person) [B1] ;; to gravitational potential energy (of the load) [B1] ;; and to thermal / internal energy (heat, from friction) [B1]
+8e | 1.5.1 | moving at constant speed: no resultant force / forces balance / upward force (tension) equals weight [B1]
+9a | 3.1 | longitudinal wave: the vibration direction is parallel to the direction of wave / energy travel (transverse: perpendicular); longitudinal waves have compressions and rarefactions, transverse have crests and troughs [B1]
+9bi | 3.1 | f = v/λ = 0.17 ÷ 0.019 [C1] ;; 8.9 Hz [A1]
+9bii | 3.1 | frequency stays constant when a wave passes into water of different depth [B1]
+9biii | 3.1 | {F} speed decreases [B1] ;; shown by the wavelength decreasing (crests closer together) / the direction of travel bending towards the normal [B1]
+9ci | 3.3+3.1 | a light wave is electromagnetic and transverse (not longitudinal) [B1]
+9cii | 3.2.2 | n = sin i ÷ sin r, so r = sin⁻¹(sin 60° ÷ 1.6) [C1] ;; 33° [A1]
+9ciii | 3.2.2 | {F} critical angle c = sin⁻¹(1/n) = sin⁻¹(1 ÷ 1.6) [C1] ;; 39° [A1] ;; at the next side the light is totally internally reflected [B1] ;; because the angle of incidence there (90° − 33° = 57°) is greater than the critical angle [B1] ;; reflected ray drawn at the correct angle (i = r) [B1] ;; it leaves through the opposite parallel side at the same angle as it entered (60° to the normal, 30° to the surface) [B1]
+10ai | X5 | isotopes
+10aii | X5 | isotopes
+10bi | X5 | alpha decay equation
+10bii | X5 | half-life
+10biii | X5 | alpha in magnetic field
+10ci | X5 | fission
+10cii | X5 | fission
+10ciii | 1.7.3 | advantage of a nuclear power station over an oil-fired one: no CO₂ / SO₂ / nitrogen oxides / greenhouse gases emitted – does not contribute to global warming or acid rain [B1] ;; advantage over wind turbines: reliable / not intermittent, or needs a smaller land area [B1]

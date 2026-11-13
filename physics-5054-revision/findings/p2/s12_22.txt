@@ -1,0 +1,52 @@
+# P2 s12_22 | figs viewed: 1.1, 1.2 (spring A straight, 25 N at 5.0 cm; spring B less steep and curving above about 25 N), 2.1 (force A forwards, force B backwards), 5.1 (ray meeting the inside surface of a curved fibre at P), 6.1 (water wave with point X on a crest), 7.1 (positive sphere on the left, negative on the right), 8.1 (X carries 0.30 A, which divides into 0.20 A in Y and I in Z) | not viewed: 3.1, 3.2, 4.1, 9.1, 9.2, 10.1, 10.2
+1ai | 1.3 | mass of a body: the amount of matter (substance) it contains [B1]
+1aii | 1.5.3 | {F} finding extension with a scale: read the scale with and without the load and subtract (difference between the two readings) [B1]
+1bi | 1.5.3 | {F} "easier to stretch": for the same extension it needs a smaller force, or for the same force it has a larger extension – shown with a pair of values from the graph [B1]
+1bii | 1.5.3 | limit of proportionality reached: its graph is no longer a straight line (gradient no longer constant), while the other spring's graph is still straight [B1]
+1biii | 1.5.3 | {F} force at which one spring's extension is 1.0 cm more than the other's, found by comparing the two lines at the same force: 15 N [B1]
+2a | 1.5.2 | friction: a force [B1] ;; that acts when surfaces slide over (rub against) one another and opposes the motion [B1]
+2bi | 1.5.1 | forward and backward forces equal: constant speed / constant velocity (zero acceleration) [B1]
+2bii | 1.5.1 | {F} resultant force F = ma [C1] ;; 800 × 1.5 = 1200 N [C1] ;; backward force = forward force − resultant = 5000 − 1200 = 3800 N [A1]
+2biii | 1.5.2 | constant driving force but decreasing acceleration: the backward force (air resistance / friction) increases [M1] ;; as the speed increases [A1]
+2c | 1.7.1 | gain in potential energy = mgh = 800 × 10 × 200 [C1] ;; 1.6 × 10⁶ J [A1]
+3a | X2.3 | temperature difference
+3bi | X2.3 | total thermal energy
+3bii | 1.7.5 | E = P × t with time in seconds = 300 × 60 × 60 [C1] ;; 1.08 × 10⁶ J (0.30 kW h) [A1]
+3c | X2.3 | convection
+4a | X2.2 | melting point
+4b | X2.2 | mcΔT
+4ci | X2.2 | latent heat
+4cii | X2.1 | liquid to solid
+5a | 3.2.2 | advantage of optical fibres for telephone signals: more signals at once (greater bandwidth / more data per second); less attenuation (signal loss), so longer distances; more secure; less noise / interference [B1]
+5bi | 3.2.2 | {F} normal drawn at the point of incidence, perpendicular to the surface, and the angle of incidence marked between the ray and the normal [B1]
+5bii | 3.2.2 | the ray is totally internally reflected [B1] ;; because the angle of incidence is larger than the critical angle [B1]
+5c | 3.2.2 | n = sin i ÷ sin r so sin r = sin 60° ÷ 1.5 [C1] ;; r = 35° (unit needed) [A1]
+6a | 3.1 | wave motion, any 2: an oscillation / vibration (movement up and down); it carries energy; there is no (net) movement of the medium / no transfer of matter [B2]
+6b | 3.1 | {F} a water molecule in a transverse wave moves vertically – arrow drawn up or down, not along the wave [B1]
+6ci | 3.1 | v = fλ = 2.0 × 2.5 [C1] ;; 5.0 cm/s (0.050 m/s) [A1]
+6cii | 3.1 | distance moved by a wavefront in 1.0 s = speed × time = 5.0 cm = 2 wavelengths, marked along the direction of travel [B1]
+7a | 4.2.1 | {F} electric field between a positive and a negative sphere: at least three lines from one sphere to the other, spreading out as they leave one sphere and coming together at the other [B1] ;; direction from the positive sphere to the negative sphere [B1]
+7b | 4.2.2 | I = Q/t = 4.8 × 10⁻⁹ ÷ 2.0 × 10⁻⁶ [C1] ;; 2.4 × 10⁻³ A [A1]
+8ai | 4.2.4 | circuit to investigate the resistance of a wire: correct symbols for battery, ammeter, voltmeter and fixed resistor [B1] ;; ammeter connected so that it measures the current through the wire (in series) [B1] ;; voltmeter connected across the wire [B1]
+8aii | 4.2.4 | one complete set of results, any 2: measure the length of the wire, the p.d. and the current; calculate resistance R = V/I; change the length and measure V and I again [B2]
+8aiii | 4.2.4 | temperature kept constant because resistance changes with temperature (and a hot wire may melt or burn) [B1] ;; done by using small currents, switching off between readings, or putting the wire in a water bath [B1]
+8bi | 4.2.4 | {F} V = IR = 0.20 × 10 [C1] ;; 2.0 V [A1]
+8bii | X4.3 | junction rule
+8biii | 4.2.4+X4.3 | {F} two resistors in parallel have the same p.d. [B1] ;; the one with the smaller current has the larger resistance [B1]
+8biv | 4.2.4+X4.3 | {F} p.d. across the series resistor = 0.30 × 10 = 3.0 V (or resistance of the second branch = 2.0 ÷ 0.10 = 20 Ω) [C1] ;; total p.d. = 3.0 + 2.0 = 5.0 V (or parallel pair 1/R = 1/10 + 1/20, R = 6.7 Ω) [C1] ;; total resistance = 5.0 ÷ 0.30 = 16.7 Ω [A1]
+9ai | X4.5 | current direction
+9aii | X4.5 | field in iron ring
+9bi | X4.5 | induction
+9bii | X4.5 | induction
+9biii | X4.5 | induction
+9ci | X4.4 | P = VI
+9cii | X4.4 | I²R loss
+10ai | X5 | alpha
+10aii | X5 | gamma
+10bi | X5 | experimental design
+10bii | X5 | safety
+10ci | X5 | alpha present
+10cii | X5 | beta absent
+10ciii | X5 | gamma present
+10d | X5 | background
+10e | X5 | radiation effects

@@ -1,0 +1,40 @@
+# P1 w04_1 | main sheets 1-4 and rest sheets 1-2 viewed; zoom viewed for Q1, 31, 36; Q2 is identical to w11_12 Q1
+1 B 1.1 {F} vernier reading = main-scale reading just before the vernier zero (33 mm) + the vernier division that lines up with a main-scale mark (5th = 0.5 mm) = 33.5 mm
+3 B 1.5.4 {F} a particle moving in a circle at constant speed has a force of constant size acting on it towards the centre of the circle
+4 D 1.5.1 {F} the stretched spring pulls the two trolleys with equal and opposite forces (Newton's third law); a = F ÷ m, so the trolley with half the mass has twice the acceleration: 4 m/s²
+5 D 1.5.2 {F} the frictional force of the road on a driven wheel acts forwards, in the direction of the car's acceleration (the wheel pushes backwards on the road and the road pushes forwards on the wheel)
+6 B 1.3 {F} a newtonmeter (spring balance) measures weight, so its reading is different on the Moon; a pan balance compares masses, so its reading is the same
+7 A 1.4 {F} density = mass ÷ volume for each block: 200 ÷ 100 = 2.0 g/cm³ is the greatest (1.25, 1.0 and 0.875 g/cm³ for the others)
+8 A 1.5.5+1.3 {F} weight = mg = 60 × 10 = 600 N; moments about the pivot (wheel): F × (70 + 50) = 600 × 70, so F = 350 N
+9 C 1.5.6 {F} hanging weights lower the centre of mass of a balancing toy to below the point of support, so it is stable
+10 B 1.5.3 {F} two identical springs side by side share the load: each carries 15 N; extension = 4 cm × 15 ÷ 10 = 6 cm
+11 D 1.7.3 hydroelectric and tidal energy are renewable; fossil fuels are not
+12 D 1.7.4 {F} for a machine that is 50 % efficient, half the input energy is useful output, so the wasted energy equals the useful output energy (input = useful output + wasted)
+13 A 1.7.5+1.7.2 {F} work done = force × distance moved in the direction of the force = 300 × 3.0 = 900 J (the weight does no work in a horizontal movement); power = 900 ÷ 20 = 45 W
+14 D X1.8 pressure on soft ground
+15 C X2.1 {F} Boyle's law
+16 B X2.1 {F} properties of gases
+17 A X2.2 {F} evaporation and surface area
+18 B XOLD thermometer linearity
+19 B X2.2 expansion of fillings
+20 B X2.2 specific heat capacity
+21 B X2.3 {F} convection current
+22 A 3.1 {F} on a displacement–time graph the amplitude is the height of a peak above the zero line and the time for one complete cycle is the period (the wavelength can only be read from a displacement–distance graph)
+23 A 3.1 {F} water waves passing from deep to shallower water slow down: the wavefronts get closer together and the direction of travel bends towards the normal
+24 C 3.2.1 {F} the image in a plane mirror lies on the line through the object at right angles to the mirror (extended if necessary), as far behind the mirror as the object is in front – even when the object is beyond the end of the mirror
+25 C 3.2.3 {F} a diverging lens forms a virtual, upright, diminished image on the same side as the object, between the principal focus and the lens
+26 C 3.2.4 {F} the order of the visible spectrum from the least deviated to the most deviated colour: red, orange, yellow, green, blue, indigo, violet (infra-red and ultraviolet are not visible colours)
+27 D X4.1 {F} broken magnet
+28 D 4.2.3 energy converted = charge × potential difference = 100 × 12 = 1200 J
+29 C 4.2.4 {F} resistance is proportional to length: 2.0 m of the wire has 4.0 Ω; the same cell (V = IR = 3.0 × 2.0 = 6.0 V) then drives I = 6.0 ÷ 4.0 = 1.5 A
+30 B X4.3 {F} currents in a series–parallel circuit
+31 A X4.3 {F} diode polarity protection
+32 D X4.4 {F} fuse in the live wire, earth to the metal frame
+33 B X4.5 {F} forces between parallel currents
+34 C X4.5 {F} induced current reverses
+35 C X4.5+X4.6 {F} generator speed doubled
+36 B X4.3 {F} light-dependent resistor circuit
+37 B XOLD {F} cathode-ray tube deflection
+38 A X5 radiation hazards
+39 C X5 beta and alpha decay
+40 C X5 isotopes

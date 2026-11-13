@@ -1,0 +1,26 @@
+# P1 w18_11 | main sheets 1-2 and rest sheet viewed; Q5, 7, 8, 10, 11, 12, 14, 19, 20, 28, 32, 38, 39 are identical to w18_12 questions; Q13 to s25_12 Q15; Q26 to s21_12 Q31
+1 B 1.1 a sensible estimate of the mass of an adult is about 75 kg
+2 A 1.1 {F} measure the distance for several revolutions on the ruler and divide by the number: (10.2 − 1.4) ÷ 2 = 4.4 cm for one circumference
+3 C 1.5.2 {F} at terminal velocity the velocity is constant and the acceleration is zero (weight balanced by air resistance)
+4 B 1.2 {F} average speed for the whole journey = total distance ÷ total time (including the stop) = 300 ÷ 250 = 1.2 m/s
+6 C 1.3 weight = mg increases where the gravitational field strength is greater; mass, volume and density do not change
+9 B 1.7.4 efficiency is increased by reducing the energy losses (e.g. friction) in the motor
+15 D X2.2 expansion of a lid
+16 A X2.2 E = mcΔθ
+17 B X2.3 conduction
+18 B 3.1 frequency: the number of crests (waves) passing a point per second
+21 C 3.3+3.4 speed of light in air (3 × 10⁸ m/s) ÷ speed of sound in air (about 330 m/s) ≈ 10⁶
+22 C 3.4 normal human hearing ranges from about 20 Hz to 20 kHz
+23 D 3.4 ultrasound is used for cleaning, pre-natal scanning and quality control (finding flaws); it is not used for sterilising equipment
+24 B 4.2.1 {F} the electric field around an isolated positive point charge is radial, with the arrows pointing away from the charge
+25 D 4.2.1 {F} between two equal and opposite charges the field points from the positive charge to the negative one; it is strongest on the line joining them and weaker, but in the same direction, at a point further away on the perpendicular bisector
+27 A 4.2.4 {F} for a resistor of fixed resistance the current is directly proportional to the voltage (straight line through the origin)
+29 D 4.2.3 work done = charge × potential difference = 2.0 × 10 = 20 J
+30 B X4.3 {F} identical resistors in series each have the same p.d.: 8.0 V across two means 4.0 V across one, and the e.m.f. is the sum across all three = 12 V
+31 A 1.7.5+X4.4 energy = power × time = 3.0 kW × 2.5 h = 7.5 kW h; cost of 1 kW h = 120 ÷ 7.5 = 16 c (cost step outside the selected sections)
+33 C X4.5 {F} force on a conductor
+34 A X4.5 transformer turns
+35 B X4.5 transmission
+36 A 3.4+X4.6 {F} time scale = 24 ms ÷ 8.0 cm = 3.0 ms/cm; the echo arrives 3.0 cm later = 9.0 ms for the journey there and back, so the sound takes 4.5 ms to reach the wall (reading the oscilloscope is outside the selected sections)
+37 C X5 {F} fusion products
+40 A X5 isotopes

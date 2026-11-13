@@ -1,0 +1,55 @@
+# P2 s12_21 | figs viewed: 1.1 (velocity falls linearly from 4.8 m/s at t = 0 to 1.6 m/s at 2.0 s), 2.1, 5.1 (gamma rays, P, ultra-violet, visible light, Q, microwaves, radio waves), 6.1 (decaying trace, one cycle = 0.020 s, amplitude halves in three cycles), 7.1 (three cells, a lamp with a voltmeter across it and an LED in series), 10.1 (45° incidence, 29° refraction at A; 61° at B), 10.2, 10.3 (full-scale grid: 2.0 cm object 8.0 cm from the lens) | not viewed: 3.1, 4.1, 8.1–8.3, 9.1, 9.2, 11.1
+1ai | 1.2 | {F} velocity-time graph for an object thrown upwards with no air resistance: the same straight line continues with the same gradient through zero to an equal negative velocity when it is caught (6.0 s) [B1]
+1aii | 1.2 | the highest point is reached when the velocity is zero: t = 3.0 s [B1]
+1b | 1.2 | {F} a = (v − u) ÷ t = (1.6 − 4.8) ÷ 2.0 [C1] ;; (−)1.6 m/s² [A1]
+1c | 1.2+1.5.2 | the same throw on the Earth, any two: the graph is steeper (larger deceleration); the highest point is reached sooner and the stone is caught sooner; the graph curves (because of air resistance) [B2]
+2a | 1.7.1 | K.E. = ½mv² = ½ × 90 × 5.0² [C1] ;; 1125 J [A1]
+2bi | 1.5.1+1.5.2 | constant speed: no resultant force – the forward force equals the backward force [B1] ;; the backward force is the water resistance (drag / friction of the water) [B1]
+2bii | 1.7.1 | work is done by the driving force but the kinetic energy does not increase because an equal amount of work is done against the drag – the energy becomes heat [B1]
+3a | 1.5.3 | force on a spring by proportion (change in length proportional to force): 2.8 × 10 ÷ 2.0 = 14 N [B1]
+3b | X1.8 | P = F/A
+3c | 1.5.3 | a stiffer (stronger) spring compresses less for the same force (or use a piston of smaller area) [B1]
+3d | X2.1 | gas pressure
+4a | X2.2 | melting point
+4bi | X2.2 | heating a solid
+4bii | X2.2 | melting
+4c | X2.2 | expansion
+5ai | 3.3 | {F} between gamma rays and ultraviolet: X-rays [B1]
+5aii | 3.3 | between visible light and microwaves: infrared [B1]
+5b | 3.3 | properties of all electromagnetic waves, any two: the same speed in a vacuum; can travel through a vacuum (need no medium); carry energy; transverse; can be reflected / refracted / diffracted [B2]
+5c | 3.3 | satellite communication uses microwaves [B1]
+6ai | 3.4+X4.6 | {F} decreasing loudness is shown by the amplitude of the trace decreasing [B1]
+6aii | 3.4+X4.6 | constant pitch is shown by a constant frequency – the time for one wave (period) stays the same [B1]
+6bi | 3.1 | frequency: the number of complete cycles (waves) in one second [B1]
+6bii | 3.1 | f = 1/T = 1 ÷ 0.020 [C1] ;; 50 Hz [A1]
+6biii | 3.1 | {F} time for the amplitude to fall to half its initial value read from the trace: three cycles = 0.06 s [B1]
+7a | X4.3 | LED
+7b | 4.2.3 | electromotive force of a cell: energy (work done) per unit charge [B1]
+7c | 4.2.3+X4.3 | {F} voltmeter across one component reads much less than the total e.m.f. because part of the p.d. is across the other series component (the LED) [B1] ;; and because one cell is connected the wrong way round, acting against the others [B1]
+7di | 4.2.3 | three cells in parallel: all the positive terminals joined together and all the negative terminals joined together [B1]
+7dii | 4.2.3 | advantage of cells in parallel: they last longer (run down more slowly) / if one cell fails the others still work [B1]
+8ai | X4.1 | soft iron
+8aii | X4.1 | induced magnetism
+8bi | X4.5 | field of a wire
+8bii | X4.5 | field strength
+9ai | X4.4 | fuse position
+9aii | X4.4 | earth connection
+9aiii | X4.4 | earthing
+9bi | 1.7.4 | very efficient: most of the energy output is useful (heat) – little energy is wasted [B1]
+9bii | X2.3 | convection
+9ci | X4.4 | power of second element
+9cii | 1.7.5 | energy in kW h = power in kW × time in hours: 2.1 kW [C1] ;; 2.1 × 2.5 = 5.25 kW h [A1] ;; in joules E = Pt with watts and seconds: 2100 × 2.5 × 3600 [C1] ;; 1.89 × 10⁷ J (1 kW h = 3.6 × 10⁶ J) [A1]
+10ai | 3.2.2 | change of direction of light entering glass: refraction [B1]
+10aii | 3.2.2 | {F} n = sin i ÷ sin r [C1] ;; sin 45° ÷ sin 29° [C1] ;; 1.46 (more than 1 significant figure) [A1]
+10aiii | 3.2.2 | {F} the ray does not emerge at the second face because the angle of incidence there (61°) is greater than the critical angle [B1] ;; so total internal reflection occurs [B1]
+10aiv | 3.2.2 | {F} a second parallel ray entering the same face is refracted along a path parallel to the first ray inside the glass [B1] ;; then reflected and refracted out correctly at the faces it meets [B1]
+10bi | 3.2.3 | {F} converging lens (camera) ray diagram, any two: undeviated ray through the centre of the lens; ray parallel to the axis refracted through the principal focus 3.0 cm beyond the lens; ray through the principal focus 3.0 cm in front of the lens emerging parallel to the axis [M2] ;; rays converge and the image is drawn there and labelled [A1]
+10bii | 3.2.3 | image height from the diagram: 1.2 ± 0.2 cm (diminished, inverted) [B1]
+10biii | 3.2.3 | a real image can be formed on a screen – the rays actually converge at it; a virtual image cannot – the rays only appear to come from it [B1] ;; to obtain a virtual image with a converging lens place the object within the focal length (between the lens and the principal focus) [B1] ;; and view it by looking through the lens from the other side (image on the same side as the object) [B1]
+11a | X5 | gamma unsuitable
+11bi | 4.2.1 | electric field between two horizontal charged plates: at least three lines between the plates, straight and vertical in the middle [B1] ;; curved outwards at the edges [B1] ;; arrows from the positive plate to the negative plate [B1]
+11bii | 4.2.1+X5 | alpha-particles are positively charged, so they are repelled by the positive plate and attracted by the negative plate [B1] ;; they are deflected towards the negative plate [B1]
+11c | X5 | gamma undeviated
+11di | X5 | half-life
+11dii | X5 | half-life choice
+11diii | X5 | isotopes

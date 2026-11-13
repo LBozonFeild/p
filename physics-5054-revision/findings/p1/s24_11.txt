@@ -1,0 +1,41 @@
+# P1 s24_11 | sheets 1-2 viewed; rest sheet viewed later for Q29, 31, 34
+1 C 1.4+1.1 {F} mass of the object = difference in balance readings (54 − 20 = 34 g); volume by displacement = rise in the measuring-cylinder reading (17 − 7 = 10 cm³)
+2 B 1.1 force is a vector; distance, mass and speed are scalars
+3 A 1.2 equal distances in equal times mean constant speed; distances per interval that increase by unequal amounts (11, 13, 16, 23 m) mean non-uniform acceleration
+4 A 1.4 density = mass ÷ volume: same mass but a cube of twice the side has 2³ = 8 times the volume, so its density is 1/8 = 0.125 of the other
+5 C 1.5.1 {F} the contact (normal) force from a surface acts at right angles to the surface (not vertically on a slope)
+6 D 1.5.2 thinking distance = stopping distance − braking distance; it increases with the speed of the car (and the driver's reaction time), not with the load
+7 D 1.5.3 below the limit of proportionality extension ∝ load: 3.0 N gives half of 4.0 cm = 2.0 cm; total length = original length + extension = 15.0 + 2.0 = 17.0 cm
+8 A 1.5.5 moment = force × perpendicular distance from the pivot; it measures the turning effect of the force
+9 C 1.5.6 {F} the most stable object has the lowest centre of gravity (above a wide base)
+10 B 1.7.1 {F} change in gravitational potential energy = mgΔh, using the vertical height gained (5.0 × 9.8 × 3.0), not the distance along the slope or the horizontal distance
+11 C 1.7.2 {F} work done against gravity = weight × vertical distance = 60 × 9.8 × 1.5 = 880 J (the horizontal distance is not used)
+12 C 1.7.3 solar cells generate electricity directly without a turbine; hydroelectric, nuclear and wind generation all turn a turbine
+13 D 1.7.4+1.7.5 wasted power = 2.7 ÷ 3.0 = 0.90 W; useful power = 6.0 − 0.90 = 5.1 W; efficiency = 5.1 ÷ 6.0 = 0.85
+14 D X1.8 total pressure under water
+15 A X2.1 solids
+16 C X2.1 gas expansion
+17 B X2.1 Boyle's law
+18 D X2.2 liquid-in-glass thermometer
+19 D X2.2 boiling and evaporation
+20 C X2.3 convection
+21 D X2.3 poor emitter
+22 B 3.1 frequency: the number of wavelengths (waves) passing a point per second
+23 B 3.2.1 plane-mirror image: same size as the object and virtual
+24 A 3.2.2 n = sin i ÷ sin r, so sin r = sin 45° ÷ 1.8 and r = 23°
+25 B 3.2.3 {F} a converging lens bends rays towards the principal axis: a diverging beam leaves less divergent (or parallel) and a parallel beam is brought to a focus
+26 B 3.2.4 {F} dispersion by a prism: red light is deviated least and has the lowest frequency; violet is deviated most; light bends towards the normal on entering glass, and different colours travel at different speeds in glass
+27 A 3.3 infrared is used for remote controllers; microwaves are used for satellite communication
+28 B 3.4 {F} echo method: 11 claps mark 10 intervals, each the time for sound to travel to the wall and back: 9.4 ÷ 10 = 0.94 s; x = 320 × 0.94 ÷ 2 = 150 m
+29 C X4.1 {F} compass needle and pole
+30 B 4.2.1 rubbing transfers electrons: the material that gains electrons becomes negative and the one that loses them becomes equally positive
+31 B X4.3 {F} heater and fuse symbols
+32 B X4.3 {F} LDR potential divider
+33 D X4.4 E = VIt
+34 D X4.5 {F} a.c. generator parts
+35 C X4.5 {F} loudspeaker
+36 B X4.5 transformer turns
+37 D X5 alpha scattering
+38 C X5 gamma count rate
+39 B X5 fusion
+40 B X6 orbits

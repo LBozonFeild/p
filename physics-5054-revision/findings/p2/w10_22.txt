@@ -1,0 +1,44 @@
+# P2 w10_22 | figs viewed: 1.1, 2.1 (U-tube: X 0.066 m below the water surface, Y 0.075 m below the oil surface, same level), 3.1 (C is 12 m above and 5.0 m to the right of pivot P), 3.2, 9.1 (rays R and S from C on the ceiling to a mirror at 45°), 10.1 (bus pushed up a slope), 10.2 (blank axes), 11.1 | not viewed: 5.1, 5.2, 6.1
+1a | 1.2 | velocity has a direction (is a vector); speed does not [B1]
+1bi | 1.2 | change in velocity when the direction reverses = sum of the two speeds = 25 + 22 = 47 m/s [B1]
+1bii | 1.2 | average acceleration = change in velocity ÷ time = 47 ÷ 0.0013 [C1] ;; 3.6 × 10⁴ m/s² [A1]
+1biii | 1.5.1 | average force F = ma = 0.16 × 3.6 × 10⁴ [C1] ;; 5.8 × 10³ N [A1]
+2a | X1.8 | pressure in a liquid
+2bi | 1.4 | {F} mass = density × volume, with volume = cross-sectional area × height = 1000 × 5.0 × 10⁻⁴ × 0.066 [C1] ;; 0.033 kg [A1]
+2bii | 1.4+X1.8 | {F} equal pressures at the same level mean equal masses of liquid above equal areas: density of the second liquid = 0.033 ÷ (5.0 × 10⁻⁴ × 0.075), i.e. 1000 × 0.066 ÷ 0.075 – density inversely proportional to height [C1] ;; 880 kg/m³ [A1]
+3ai | 1.5.5 | {F} moment of a weight about a pivot = force × perpendicular (horizontal) distance = 840 × 5.0 [C1] ;; 4200 N m [A1]
+3aii | 1.5.5 | horizontal force needed to cancel it acts at a perpendicular (vertical) distance of 12 m: R = 4200 ÷ 12 = 350 N [B1]
+3aiii | 1.5.5 | another force with a turning effect about the pivot: the weight of the ladder (or hose) [B1]
+3b | X2.3 | reflective clothing and trapped air
+4a | 4.2.4 | R = V/I = 230 ÷ 12 [C1] ;; 19 Ω [A1]
+4b | 4.2.4 | as a filament lamp gets brighter its resistance increases [B1] ;; because its temperature increases [B1]
+4c | 4.2.4 | a series variable resistor turned down slowly protects a filament lamp: when cold the filament has a low resistance, so switching on suddenly would give a very high current [B1] ;; which could blow (melt) the filament [B1]
+5a | 3.1+X4.6 | period from the trace = number of divisions for one cycle × time-base setting = 4 × 0.20 ms = 0.80 ms [C1] ;; f = 1/T [C1] ;; 1250 Hz [A1]
+5b | 3.4 | comparing two notes from their traces, three points: same pitch (same frequency / period); the one with the larger amplitude is louder; different quality (timbre) – different wave shape, more overtones [B3]
+6a | X4.1 | non-magnetic
+6b | X4.1 | iron
+6c | X4.1 | steel
+7a | X5 | background
+7b | X5 | background
+8 | X6 | star formation
+9ai | 3.2.1 | {F} reflected ray drawn with angle of reflection equal to angle of incidence [B1]
+9aii | 3.2.1 | two reflected rays traced back behind the mirror to where they meet [B1] ;; image marked there – as far behind the mirror as the object is in front, on the perpendicular to the mirror [B1]
+9aiii | 3.2.1 | characteristics of the image, any two: virtual; same size as the object (magnification 1); same distance from the mirror as the object; laterally inverted [B2]
+9aiv | 3.2.1 | a mirror at 45° lets a viewer see something overhead while looking horizontally – no need to look up [B1]
+9bi | 3.3+3.1 | speed of light c = 3.0 × 10⁸ m/s stated [B1] ;; f = c/λ = 3.0 × 10⁸ ÷ 4.0 × 10⁻⁷ [C1] ;; 7.5 × 10¹⁴ Hz [A1]
+9bii | 3.3 | components with wavelengths smaller than violet light, any two: ultraviolet, X-rays, gamma rays [B2]
+9biii | 3.3 | medical application, e.g. X-rays are absorbed by bone but not by flesh [B1] ;; so a shadow image of the bones is formed [B1] ;; on film / a detector behind the patient (alternatives: gamma rays or X-rays absorbed by a tumour destroy it; ultraviolet, X-rays or gamma rays kill bacteria – sterilisation) [B1] ;; health risk: ultraviolet damages eyes and causes skin cancer; X-rays and gamma rays cause cancer / radiation sickness [B1]
+10ai | 1.3 | W = mg = 3200 × 10 = 32 000 N [B1]
+10aii | 1.1 | {F} weight drawn vertically downwards and the pushing force drawn up along the line of the slope [B1]
+10aiii | 1.1 | resultant of two forces that are not at right angles, by scale drawing: scale given [B1] ;; the two force arrows drawn at the correct angle with the correct resultant (triangle or parallelogram) [B1] ;; size 32.0–35.0 kN [B1] ;; direction 58.5°–61.5° to the horizontal (below it) [B1]
+10aiv | 1.5.1 | at constant speed the resultant of all the forces acting is zero [B1]
+10b | 1.7.2+1.7.1 | pushing a vehicle up a slope: work is done against the weight (gravitational force) [B1] ;; producing gravitational potential energy [B1] ;; and against friction / air resistance [B1] ;; producing heat (thermal / internal energy) [B1]
+10ci | 1.2 | distance-time sketch for constant speed followed by rest: axes labelled, distance against time [B1] ;; straight line of positive slope [B1] ;; followed by a horizontal line [B1]
+10cii | 1.2 | speed = gradient of the distance-time graph (distance travelled ÷ time taken) [B1]
+11a | 4.2.3 | an e.m.f. of 18 V: energy supplied per unit charge [C1] ;; 18 J for each coulomb [A1]
+11bi | 1.7.5 | time in seconds = 90 × 60 = 5400 s; E = Pt [B1] ;; 450 × 5400 [C1] ;; 2.4 × 10⁶ J (0.675 kW h) [A1]
+11bii | 4.2.3+4.2.2 | charge Q = energy ÷ e.m.f. = 2.43 × 10⁶ ÷ 18 (or I = P/V = 25 A, then Q = It = 25 × 5400) [C1] ;; 1.35 × 10⁵ C [A1]
+11ci | X4.5 | transformer structure
+11cii | X4.5 | turns ratio
+11ciii | X4.3 | rectifier
+11d | X4.5 | a.c. transmission

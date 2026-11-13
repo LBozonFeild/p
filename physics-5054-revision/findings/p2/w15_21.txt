@@ -1,0 +1,47 @@
+# P2 w15_21 | figs viewed: 1.1, 1.2 (blank axes, 95 m/s and 0.011 s marked), 4.1 (screwdriver balanced on a pivot), 6.1 (full-scale grid: lens, screen 7.2 cm away, inverted image with tip Y) | not viewed: 2.1, 8.1, 10.1, 10.2, 11.1, 11.2
+1ai | 1.2 | average acceleration = change in velocity ÷ time = 95 ÷ 0.011 [C1] ;; 8.6 × 10³ m/s² [A1]
+1aii | 1.5.1 | F = ma = 0.018 × 8.63 × 10³ [C1] ;; 155 N (150–160 N) [A1]
+1b | 1.2 | {F} speed-time sketch when the accelerating force falls gradually to zero: line from (0, 0) to the final point with decreasing gradient [B1] ;; becoming horizontal at the final speed (95 m/s at 0.011 s) [B1]
+2a | X2.3 | white surface
+2bi | X2.1 | gas pressure and temperature
+2bii | X1.8 | pressure difference
+3a | 1.7.1 | K.E. = ½mv² [C1] ;; ½ × 4.4 × 10⁴ × 20² [C1] ;; 8.8 × 10⁶ J [A1]
+3bi | 1.7.2 | work done = force × distance moved (in the direction of the force) [B1]
+3bii | 1.7.2 | braking force = kinetic energy lost ÷ braking distance = 8.8 × 10⁶ ÷ 40 [C1] ;; 2.2 × 10⁵ N [A1]
+4a | 1.5.6 | {F} object balanced on a pivot: centre of mass marked immediately above the tip of the pivot (in the middle of the object's thickness) [B1]
+4bi | 1.3 | W = mg = 0.064 × 10 = 0.64 N [B1]
+4bii | 1.5.6 | weight arrow drawn vertically downwards through the centre of mass (through the pivot) [B1]
+4c | 1.5.5 | conditions for equilibrium: no resultant force (upward force = downward force) [B1] ;; no resultant moment (clockwise moment = anticlockwise moment) [B1]
+5a | X2.2 | boiling point
+5bi | X2.1 | liquid structure
+5bii | X2.2 | latent heat
+6a | 3.2.3 | focal length: distance from the (optical) centre of the lens to the focal point (principal focus) [B1]
+6bi | 3.2.3 | {F} both principal foci marked on the principal axis, one focal length (2.4 cm) either side of the lens [B1]
+6bii | 3.2.3 | {F} locating the object from the image, two of: ray parallel to the axis on one side passing through the principal focus on the other; ray straight through the optical centre; ray through the principal focus that is parallel to the axis on the other side [M2] ;; object tip marked where the rays cross [A1]
+6biii | 3.2.3 | object distance measured from the diagram: 3.4–3.8 cm (calculated value 3.6 cm) [B1]
+7a | 3.4+3.1 | compression: molecules closer together / pressure higher; rarefaction: molecules further apart / pressure lower [B1]
+7bi | 3.1 | v = fλ (speed = frequency × wavelength) [B1]
+7bii | 3.4 | audible sound has a larger wavelength than ultrasound in the same medium because its frequency is lower (same speed) [B1]
+7c | 3.4 | one use of ultrasound stated, e.g. pre-natal scanning [B1] ;; with the basic idea, e.g. ultrasound reflects off the fetus [B1]
+8ai | 4.2.4+X4.3 | I = V/R with the total series resistance = 12 ÷ (6000 + 2000) [C1] ;; 1.5 mA (0.0015 A) [A1]
+8aii | 4.2.4 | p.d. across the fixed resistor = IR = 0.0015 × 6000 = 9.0 V [B1]
+8b | X4.3 | LDR potential divider
+8c | X4.3 | light sensor
+9ai | 1.1 | a vector has direction; a scalar does not [B1]
+9aii | 1.1 | another vector quantity, e.g. displacement, velocity, acceleration [B1] ;; another scalar quantity, e.g. distance, length, speed, time, current, resistance [B1]
+9b | 1.1 | resultant of two forces by scale drawing (1.0 cm to 40 kN): weight arrow drawn vertically downwards, 4.0 cm long [B1] ;; correct triangle or parallelogram with the correct diagonal shown [B1] ;; size 270–285 kN [B1] ;; direction horizontal (±3°) [B1]
+9ci | 1.7.1 | aeroplane accelerating at constant height: energy changes from chemical (fuel) energy [B1] ;; to kinetic energy (and thermal energy) [B1]
+9cii | 1.5.2+1.5.4 | constant engine power, speed levels off: air resistance / drag acts [B1] ;; drag increases with speed, so the resultant force and the acceleration decrease [B1] ;; until the resultant force is zero – drag equals thrust [B1] ;; in a circular turn at constant speed the direction of motion is changing [B1] ;; velocity is a vector (has direction) [B1] ;; so the velocity is changing, which is an acceleration – the resultant force is towards the centre of the circle [B1]
+10ai | X4.5 | solenoid field
+10aii | X4.5 | induction
+10bi | X4.5 | iron core
+10bii | 1.7.5+X4.4 | P = VI = 33 000 × 85 (outside the selected sections) [C1] ;; 2.8 × 10⁶ W [A1] ;; E = Pt (= VIt) with time in seconds: 2.8 × 10⁶ × 3600 [C1] ;; 1.0 × 10¹⁰ J [A1]
+11ai | X5 | isotopes
+11aii | X5 | neutrons
+11aiii | X5 | electrons
+11bi | X5 | beta decay
+11bii | X5 | beta decay
+11ci | X5 | background
+11cii | X5 | half-life from graph
+11di | X5 | shielding
+11dii | X5 | shielding

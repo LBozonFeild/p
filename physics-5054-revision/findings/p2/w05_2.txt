@@ -1,0 +1,45 @@
+# P2 w05_2 | figs viewed: 1.1 (0.4 kg mass hanging at rest from a spring), 3.1 (straight wavefronts moving right; over the glass sheet they are closer together and travel in a new direction), 5.1 (oscilloscope trace of a note, about four cycles on the left half of the screen), 6.1 (negatively charged dome sparking to a metal ball on an earthed conducting rod), 10.1, 11.1 (current-p.d.: lamp L curved through 0.8 A at 3 V and 2.0 A at 12 V; wire W straight through 0.8 A at 12 V), 11.2, 11.3 | not viewed: 2.1, 7.1, 8.1, 9.1
+1a | 1.3 | mass: the amount of matter in an object (a measure of its resistance to a change in motion) [B1]
+1bi | 1.5.1 | {F} forces on a mass hanging at rest from a spring: weight (gravity) acting downwards along the vertical line through the mass [B1] ;; tension in the spring acting upwards along the same vertical line [B1]
+1bii | 1.3+1.5.1 | weight = mg = 0.4 × 10 = 4 N [B1] ;; the upward force (tension) is the same size, 4 N, because the mass is at rest [B1]
+1c | 1.5.3 | when the mass is pulled down the upward force (tension) increases [B1] ;; because the spring is stretched more (is longer) [B1]
+2a | X2.1 | gas pressure
+2bi | 1.7.2 | formula work done = force × distance [B1] ;; 23 × 0.10 = 2.3 J [B1]
+2bii | X2.1 | Boyle's law
+3a | 3.1 | wavefront: a line joining points of the same phase, e.g. a line joining the points along one crest [B1]
+3bi | 3.1 | {F} water waves refracted on passing into shallower water (over a glass sheet): the wavelength decreases [B1]
+3bii | 3.1 | the speed decreases [B1]
+3biii | 3.1 | the frequency stays constant [B1]
+4a | 3.3 | order of increasing wavelength: X-rays, ultraviolet, infrared, microwaves – all four correct [B2] (one mark if moving a single one gives the correct order)
+4b | 3.3 | a use of ultraviolet: sun-beds (tanning); fluorescent tubes; sterilisation; illuminating security marks on property [B1]
+4c | 3.3 | properties common to all electromagnetic radiation, any two: transverse waves; same speed (in a vacuum); can travel through a vacuum (need no medium); can be reflected / refracted / diffracted (counts once only) [B2]
+5ai | 3.4 | {F} oscilloscope trace of a louder, higher-pitched note: larger amplitude and more closely spaced waves (shorter period on the screen) [B1]
+5aii | 3.4 | louder means a larger amplitude (height) [B1] ;; higher pitch means a higher frequency – more waves on the screen [B1]
+5b | 1.7.1 | charging a rechargeable battery: electrical energy at the start [B1] ;; converted to chemical energy stored in the battery [B1]
+6ai | 4.2.1 | {F} conductor near a negatively charged dome: electrons in the ball move away from the dome, down the rod (to earth) [B1] ;; because like charges repel – they are repelled by the negative charge on the dome [B1]
+6aii | 4.2.1 | the most positive charge is on the side of the ball nearest the negatively charged dome [B1]
+6b | 4.2.2 | equation Q = It (I = Q/t) [B1] ;; 0.00016 ÷ 0.012 [C1] ;; 0.0133 A [A1]
+7a | X4.1 | induced magnetism
+7b | X4.1 | magnetic materials
+8a | X5 | absorption
+8b | X5 | safety
+8ci | X5 | detector
+8cii | X5 | random emission
+9ai | X4.4 | fuse
+9aii | X4.4 | earthing
+9bi | 1.7.5 | formula energy = power × time [B1] ;; time in seconds: 2000 × 360 [C1] ;; 720 000 J [A1]
+9bii | 1.7.5 | energy in kW h = power in kW × time in hours: convert 2000 W to 2 kW [C1] ;; 2 × 0.1 = 0.2 kW h [A1]
+9biii | X4.4 | cost
+9c | X2.2 | evaporation
+10ai | 3.1 | number of pulses emitted = number per second × time = 216 × 360 [C1] ;; 77 800 [A1]
+10aii | 1.7.1 | total energy emitted = number of pulses × energy of each pulse = 77 800 × 0.00012 [C1] ;; 9.33 J [A1]
+10aiii | X2.2 | mcΔT
+10bi | 1.7.5 | E = Pt = 0.20 × 360 [C1] ;; 72 J [A1]
+10bii | 1.7.4 | fraction of the energy supplied that becomes useful output = 9.33 ÷ 72 = 0.13 (13%) [A1]
+10ci | XOLD | fixed points
+10cii | XOLD | sensitivity
+10ciii | XOLD | sensitivity
+11ai | 4.2.4 | circuit to take current and p.d. readings for a lamp: correct symbols for the supply and the lamp [B1] ;; voltmeter connected across the lamp [B1] ;; ammeter in series with the lamp [B1] ;; a variable resistor (or a variable power supply) to change the readings, with no errors [B1] ;; voltmeter range 0 to a value just above the largest p.d. needed (12–20 V for readings up to 12 V) [B1]
+11aii | 4.2.4 | {F} lamp: the resistance increases as the p.d. (and temperature) increases [B1]
+11bi | 4.2.4+X4.3 | {F} components in series carry the same current – read each p.d. from its graph at that current: lamp 3.0 V [B1] ;; wire 12 V [B1] ;; supply p.d. = sum of the p.d.s = 15 V [B1] ;; resistance of the lamp at this current R = V/I = 3.0 ÷ 0.8 [C1] ;; 3.75 Ω [A1]
+11bii | 4.2.4+X4.3 | {F} components in parallel have the same p.d. – read each current from its graph at that p.d.: wire 0.8 A [B1] ;; lamp 2.0 A [B1] ;; total current = sum of the branch currents = 2.8 A [B1] ;; resistance of the wire = 12 ÷ 0.8 = 15 Ω [B1]

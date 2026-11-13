@@ -1,0 +1,57 @@
+# P2 w09_2 | figs viewed: 2.1, 4.1 (coin 0.17 m in front of a vertical mirror, M on the side facing the mirror), 7.1 (slab 3.0 m wide resting on a wall 0.50 m from its back edge, cables at the back), 10.1 (lever-arm balance with marked discs; spring balance marked in grams), QP p6 (Fig. 5.1 full-scale sound-wave diagram) | not viewed: 9.1, 11.1, 11.2
+# Q11(c) is EITHER/OR: leaves 11ci, 11cii, 11ciii = EITHER (c)(i)-(iii) (circuit used as a resistance thermometer); leaves 11Oci, 11Ocii, 11Ociii = OR (c)(i)-(iii) (NAND gate and LED); both alternatives are counted in the marks
+!marks 11biii=2 11ci=2 11cii=2 11ciii=2 11Oci=2 11Ocii=2 11Ociii=2
+1ai | X1.8 | pressure and depth
+1aii | X1.8 | density
+1bi | X1.8 | total pressure
+1bii | X2.1 | Boyle's law
+2a | 1.7.2 | work done = force × distance = 1680 × 50.0 [C1] ;; 84 000 J [A1]
+2b | 1.7.2+1.7.1 | kinetic energy gained is less than the work done because of friction / drag (resistance of the water and air) [B1] ;; work is done against the resistance – energy is lost as heat (thermal / internal energy) [B1]
+3ai | 4.2.1 | a person becomes positively charged by friction when he loses negative charge [C1] ;; electrons are transferred from him to the surface [A1]
+3aii | 4.2.1 | the surface gains the electrons and becomes negatively charged [B1]
+3bi | 4.2.1 | the shock on touching metal is the person discharging – electrons flow to him through the metal [B1]
+3bii | 4.2.2 | Q = It with both in SI units: 0.0016 × 0.00015 [C1] ;; figures 2.4 with a power of ten [C1] ;; 2.4 × 10⁻⁷ C [A1]
+4ai | 3.2.1 | {F} image in a plane mirror: one ray from the object point reflected correctly (i = r) [C1] ;; two rays reflected correctly and traced back behind the mirror [A1]
+4aii | 3.2.1 | image marked where the traced-back rays intersect [B1]
+4b | 3.2.1 | distance from object to image = twice the object's distance from the mirror = 2 × 0.17 = 0.34 m [B1]
+5ai | 3.1+3.4 | {F} on a diagram of a sound wave a compression is where the lines (layers of air) are closest together [B1] ;; a rarefaction is where they are furthest apart [B1]
+5aii | 3.1 | {F} wavelength = distance from the centre of one compression to the centre of the next, measured from the full-scale diagram: 6.2–6.6 cm [B1]
+5aiii | 3.1+3.4 | v = fλ with f in Hz and λ in metres: 5100 × 0.064 [C1] ;; figures 3.16–3.37 with a power of ten [C1] ;; 316–337 m/s [A1]
+5b | 3.1 | longitudinal wave: the direction of vibration is parallel to the direction of travel of the wave (energy) [B1] ;; transverse wave: the vibration is perpendicular to the direction of travel [B1]
+6ai | X4.4 | I = P/V
+6aii | X4.4 | fuse rating
+6bi | X4.4 | live casing
+6bii | X4.4 | earthing
+7a | 1.5.6 | {F} centre of mass of a uniform slab is at its centre, 1.5 m from each edge, so 1.5 − 0.50 = 1.0 m from the supporting wall [B1]
+7bi | 1.5.5 | principle of moments: for an object in equilibrium (balanced) [B1] ;; anticlockwise moment = clockwise moment [B1]
+7bii | 1.5.5 | {F} moments about the wall: 18 000 × 1.0 = T × 0.50 [C1] ;; T = 36 000 N [A1]
+8ai | X5 | electrons
+8aii | X5 | nucleons
+8aiii | X5 | protons
+8bi | X5 | isotopes
+8bii | X5 | isotopes
+9ai | X2.2 | mcΔT
+9aii | 1.7.5 | minimum time t = E ÷ P = 1.15 × 10⁷ ÷ 2600 [C1] ;; 4.4 × 10³ s [A1]
+9aiii | X2.3 | heat loss
+9bi | X2.3 | convection
+9bii | X2.3 | conductors and insulators
+9ci | X2.2 | evaporation
+9cii | X2.2 | evaporation vs boiling
+10ai | 1.3 | W = mg using the local gravitational field strength = 0.50 × 3.7 [C1] ;; 1.85 N [A1]
+10aii | 1.3+1.2 | with no air resistance the acceleration of free fall equals the gravitational field strength: 3.7 m/s² (unit m/s², not N/kg) [B1]
+10aiii | 1.7.1 | K.E. = ½mv² [C1] ;; ½ × 0.50 × 3.2² [C1] ;; 2.56 J [A1]
+10bi | 1.3 | {F} a lever-arm (beam) balance compares the unknown mass with known masses [B1] ;; a spring balance measures weight (the force of gravity) and so depends on g [B1] ;; weights on Mars are less than on Earth, so a spring balance calibrated on Earth reads wrongly there [B1]
+10bii | 1.3 | the balance that compares masses gives the correct mass anywhere [B1]
+10ci | 1.4 | besides its mass, the volume of the rock is needed to find its density [B1]
+10cii | 1.4 | density of a small irregular rock of known mass, four points: record the volume of water in a measuring cylinder; lower the rock in; record the new reading; subtract to find the volume of the rock (or use a displacement can filled to overflowing and collect the overflow in a measuring cylinder); density = mass ÷ volume [B4]
+11ai | 4.2.4+X4.3 | I = V/R with the total series resistance = 9.0 ÷ (16.0 + 4.0) [C1] ;; 0.45 A [A1]
+11aii | 4.2.4 | p.d. across one resistor = IR = 0.45 × 16.0 = 7.2 V [A1]
+11bi | 4.2.4 | graph of the resistance of a metal conductor against temperature: a line of positive slope throughout [B1] ;; a straight line with a positive intercept on the resistance axis [B1]
+11bii | 4.2.4+X4.3 | as a metal conductor in series with a fixed resistor is heated, the voltmeter reading across the fixed resistor falls [B1] ;; because the current falls (the heated conductor takes a greater share of the p.d.) [B1]
+11biii | 4.2.3 | suitable voltmeter range for a reading of about 7 V from a 9 V supply: starting from 0 [B1] ;; up to about 8–10 V (no more than 20 V) [B1]
+11ci | XOLD | EITHER: resistance thermometer – metal conductor as the probe, voltmeter reading calibrated against known temperatures
+11cii | XOLD | EITHER: advantages over a liquid-in-glass thermometer
+11ciii | XOLD | EITHER: non-linear – equal temperature changes do not give equal changes of reading
+11Oci | XOLD | OR: NAND gate truth table
+11Ocii | XOLD | OR: both inputs 0 give output 1, LED lit
+11Ociii | XOLD | OR: both inputs become 1, output 0, LED off

@@ -1,0 +1,40 @@
+# P1 w20_12 | main sheets 1-2 and rest sheet viewed; Q37 screen enlarged and viewed; Q10 is identical to w25_12 Q8
+1 A 1.1+1.5.1 {F} three forces in equilibrium form a closed triangle with the arrows following one another head to tail; each side is drawn parallel to its force (the tension at the stated angle to the vertical, the weight vertically downwards)
+2 A 1.2 from rest up to a steady speed the velocity changes, and the acceleration changes too (it falls to zero)
+3 C 1.2 {F} non-uniform acceleration is a curved section of a speed–time graph (changing gradient); straight sloping sections are uniform acceleration or deceleration
+4 A 1.5.2 friction on a skidding tyre acts backwards, opposite to the direction of motion
+5 D 1.5.1 resultant force = ma = 800 × 2.5 = 2000 N = driving force − friction, so driving force = 2000 + 1200 = 3200 N
+6 B 1.5.1+X6 {F} Newton's third law: the force on the planet due to the satellite is directed towards the satellite (equal and opposite to the force on the satellite)
+7 A 1.3 {F} a spring balance responds to the weight of the block; its reading can be used to find the mass in kg (mass is not measured in N, nor weight in kg)
+8 D 1.3 the balance reads the force as an Earth mass: a reading of 1.0 kg means a weight equal to 1.0 × g(Earth); with g one fifth as large each 0.1 kg sample weighs 0.02 × g(Earth), so 50 samples are needed
+9 B 4.2.1+1.3 a stationary charged object with mass produces an electric field and a gravitational field, but no magnetic field (that needs moving charge)
+11 B 1.5.3 {F} limit of proportionality: the last point lying on the straight line through the origin before the extension–load graph starts to curve
+12 C X2.1 {F} Boyle's law
+13 A 1.7.1 {F} conservation of energy: with no air resistance the total energy (GPE + KE) of a falling ball is the same at every point
+14 A 1.7.2 work done = force × distance moved in the direction of the force = F × d
+15 B 1.7.2 {F} work done against gravity = weight × vertical height = 2000 × 0.80 = 1600 J (not the length of the plank)
+16 D 1.7.5 power = work done per second
+17 A X2.3 {F} convection current
+18 B XOLD thermometric property
+19 A X2.2 heat capacity
+20 C X2.2 states
+21 C X2.1 liquid
+22 C X2.1 {F} gas pressure
+23 D 3.2.1 image in a plane mirror: virtual, upright, same size as the object
+24 B 3.2.2 light entering glass slows down, so its wavelength decreases; the frequency is unchanged
+25 B 3.3 X-rays: killing cancerous cells (and medical imaging); ultraviolet: sterilising surgical instruments; microwaves: satellite television
+26 D 3.4 sound travels fastest in solids and cannot travel in a vacuum
+27 D 3.4 echo time = 2 × distance ÷ speed = 2 × 6000 ÷ 1500 = 8.0 s; the next pulse is sent 2.0 s after the echo returns, so the interval between pulses is 10 s
+28 B 3.4 ultrasound: longitudinal waves with a frequency greater than 20 kHz
+29 C 1.7.1 a battery stores energy (chemical store), measured in joules
+30 B 4.2.2+X4.3 total current = 2 × 4.0 = 8.0 A; t = Q ÷ I = 150 000 ÷ 8.0 = 18 750 s = 5.2 hours
+31 D X4.3 {F} currents in parallel branches
+32 C X4.3 {F} thermistor and LDR divider
+33 D X4.4 P = VI
+34 B X4.5 generator
+35 D 1.7.1 a wind turbine transfers kinetic energy to electrical energy
+36 D X4.5 transformer frequency
+37 A X4.6 {F} oscilloscope amplitude
+38 C X4.3 {F} potential divider
+39 C X5 half-life
+40 B X5 atomic structure

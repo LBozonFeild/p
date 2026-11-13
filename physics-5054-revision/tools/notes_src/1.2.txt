@@ -1,0 +1,147 @@
+ORDER A F B C D G E Z
+== A | Speed and velocity; average speed | speed|velocity|distance|time | 9
+- Speed: distance travelled per unit time (speed = distance ÷ time).
+- Velocity: change in displacement per unit time (rate of change of displacement); marked as change of displacement (M1), per unit time (A1).
+- Accepted alternative for velocity: distance moved per unit time (speed) (M1 or C1) in a stated / specified direction (A1).
+- Difference between speed and velocity (1 mark): velocity has a direction / is a vector / depends on displacement rather than distance; speed has no direction / is a scalar.
+- Velocity changes at constant speed when the direction changes.
+- A negative velocity is in the opposite direction to a positive velocity.
+- When the direction of motion reverses, the change in velocity is the sum of the two speeds.
+- Average speed = total distance ÷ total time, in any form (C1); answer (A1).
+- Total distance travelled = sum of the lengths of the parts of the path.
+- Include any rest during the journey in the total time; use the time up to arrival and do not include time spent stationary afterwards.
+- The magnitude of the average velocity is smaller than the average speed when the displacement is smaller than the distance travelled along the path in the same time.
+- Distance travelled at constant speed = speed × time, with the time interval read from the graph where necessary (C1, A1).
+- Speed round a circular path or orbit = circumference ÷ time for one revolution, v = 2πr ÷ T, with the time in seconds (C1 for speed = distance ÷ time, C1 for the substitution, A1).
+- A point that moves round a circle of smaller circumference in the same rotation time has a lower speed (smaller circumference B1; same time for one rotation B1).
+- To compare two orbital speeds, work out circumference ÷ time for one orbit for each (C1) and compare the two values (A1).
+* Average speed uses the distance along the path; velocity needs the displacement (straight-line distance and direction), which is not known for a winding path.
+* Average velocity = displacement (straight line from start to finish) ÷ total time, including rests.
+* Average speed is not the mean of the separate speeds: (100 + 20) km in (1 + ½) h gives 80 km/h.
+* Change minutes to hours (or to seconds) so that the units of distance and time agree.
+== B | Acceleration: definition and calculation | accelerat|deceler|a = |v − u|Δv|= at\b|a × t|u \+ at | 8
+- Acceleration = change in velocity ÷ time taken; a = (v − u) ÷ t in any form, algebraic or numerical (C1).
+- Definition marks: change (increase) of velocity (B1); per unit time / rate of change of velocity (B1).
+- Unit of acceleration: m/s² (a separate B1 in some questions; N/kg is ignored as a unit of acceleration).
+- Final answer: 2 significant figures, correctly rounded (2.95 is accepted for 3.0, 2.9 is not); a negative sign is accepted for a deceleration; an error is carried forward from a wrongly drawn graph.
+- Uniform acceleration: the same change in speed / velocity (M1 or C1) in the same time / in each second / per unit time (A1).
+- Also accepted for uniform acceleration: the rate of change of velocity is constant; speed increasing at a constant rate; a straight line on a speed–time graph; any named time period in place of "unit time".
+- Recent mark schemes ignore the formula alone, "speed increases steadily" and "accelerates at a constant rate" as explanations of uniform acceleration.
+- Deceleration (retardation) is a negative acceleration: a decrease in speed.
+- Uniform deceleration: a decrease in speed (C1) by equal amounts in equal times (A1).
+- A deceleration is larger than an acceleration when the same change in speed takes place in a shorter time.
+- Average deceleration = (v − u) ÷ t; where three marks are given they are formula (C1), substitution (C1), answer (A1).
+- From a speed–time or velocity–time graph: acceleration = gradient of the straight section; read two speeds from it (C1) with the two corresponding times and use a = Δv ÷ t (C1); answer (A1).
+- Change in speed = acceleration × time (C1); final speed = initial speed + change in speed, or initial speed = final speed − change in speed (A1). From rest, v = at.
+- Positions recorded at equal time intervals show acceleration when the object travels further in each successive interval; an object that is slowing down covers less distance in each successive interval.
+- An object moving at constant speed is accelerating if it changes direction (goes round a corner), because its velocity changes: velocity depends on direction.
+- When the gradient of a velocity–time graph for a falling object is about 10 m/s², comment that this is the acceleration of free fall, because the only force acting is the weight.
+* Constant acceleration means equal changes of speed in equal times; speed changes of 1.0, 2.0 and 3.0 m/s in successive seconds are not a constant acceleration.
+* Equal distances in equal times mean constant speed; distances per interval that increase by unequal amounts mean non-uniform acceleration.
+* When a body accelerates its velocity must change (the speed need not change if only the direction changes).
+* A car that speeds up from rest and then travels at constant speed has a changing velocity and a changing acceleration (the acceleration falls to zero).
+* Change the time to seconds before working out an acceleration in m/s².
+ALSO B | =\s*gradient|\(gradient | 2.5
+== C | Distance–time graphs | distance.time|height.time|distance from the start against time | 1
+- Speed = gradient of the distance–time graph.
+- Constant speed (zero acceleration): a straight line of constant, positive gradient (B1), because equal distances are travelled in equal times (B1).
+- A greater speed is shown by a steeper slope (larger gradient): a larger distance in the same time.
+- At rest: a horizontal section; its duration is read from the time axis.
+- Accelerating: the line curves with increasing gradient. Decelerating: the gradient decreases.
+- A curve of increasing gradient that becomes a straight line: accelerating (B1), with decreasing acceleration until a constant speed is reached (B1).
+- Speed at an instant on a curved graph: draw a tangent at that time (B1); find the gradient of the tangent (B1 or C1); value inside the accepted range (A1).
+- Speed on a straight section (maximum speed, terminal velocity): take two pairs of coordinates from the straight section (C1); change in distance ÷ change in time (C1); answer inside the accepted range (A1).
+- Plotting from a table: points correct to within half a small square (B1); a smooth curve for an accelerating object, not point-to-point straight lines (B1).
+- Sketching: axes labelled distance against time (B1); starts at the origin with zero initial gradient, gradient increasing while accelerating (B1); a straight line of positive gradient at constant speed (B1); gradient decreasing but never negative while slowing down (B1); horizontal where the object is at rest (B1).
+- Constant speed followed by rest: a straight line of positive slope followed by a horizontal line.
+- Total distance: read the graph at the arrival time.
+- Distance between two objects at a given time: the difference between their two distance readings at that time.
+- Difference in finishing times: the difference between the times at which each line reaches the finishing distance.
+- Comparing an accelerating part with a decelerating part: compare the magnitudes (a longer time for the same change of speed means a smaller acceleration), or say that one starts from rest and the other finishes at rest.
+- Height–time graph of a light falling object: its speed increases at first (it accelerates), then becomes constant (zero acceleration).
+* Uniform acceleration from rest gives a curve of increasing gradient (the speed–time graph is then a straight line through the origin).
+* If constant speed follows the acceleration, the curve becomes a straight sloping line; it does not level off.
+* A gradient that decreases to zero shows an object decelerating to rest.
+* The fastest constant speed is the steepest straight section.
+* Two constant speeds: two straight lines, the second less steep for the lower speed; the distance keeps increasing.
+* A straight-line distance–time graph means constant speed: zero acceleration, zero resultant force and a constant kinetic energy greater than zero.
+* On a graph of distance from the start against time, a falling line means moving back towards the start.
+== D | Speed–time and velocity–time graphs: shapes and what they show | speed.time|velocity.time|gradient|horizontal|sketch | 4
+- Constant speed: a horizontal line; the acceleration is zero where the graph is horizontal (gradient zero).
+- Uniform acceleration: a straight line of constant positive gradient. Uniform deceleration: a straight line sloping downwards.
+- Non-uniform acceleration or deceleration: the gradient is not constant – the graph is a curve.
+- A larger acceleration: a steeper gradient, or a larger change in speed in the same time.
+- Decreasing acceleration: the gradient decreases (the increase in speed in the same time is less at later times); when the graph becomes level the acceleration has decreased to zero.
+- A gradient that increases and then becomes constant: the acceleration increases (B1) to a constant value (B1).
+- Negative acceleration (deceleration, retardation) is shown by a negative gradient: the line slopes downwards.
+- Reading values: a constant speed from the horizontal section; the speed at a given time; the time at constant speed as the difference between two time readings; the driver's reaction time as the time before the speed starts to fall.
+- Describing motion from a graph: describe each stage with its values (for example uniform acceleration for the first 6 s, then constant speed / zero acceleration; stationary where the speed is zero).
+- Sketch or plot marks: axes labelled speed and time the correct way round, with units when asked (B1); a straight line from the origin for uniform acceleration from rest (B1); a horizontal line for constant speed between the stated times (B1); a straight line down to zero for uniform deceleration (B1); final values marked (B1).
+- Plotted points must be within half a small square; a wrongly plotted value is penalised once only (error carried forward from a misplotted point); labels on the lines are not needed unless asked for.
+- Acceleration that falls gradually to zero (constant driving force with growing resistance; an accelerating force that falls to zero): a line from the origin with gradually decreasing gradient (B1), becoming horizontal at the final speed (B1).
+- A constant resultant force that suddenly becomes zero: a straight line of positive gradient up to that time (B1), then a horizontal line (B1).
+- Falling skydiver: a curve from the origin with decreasing gradient up to the terminal velocity (B1); a horizontal line at the terminal velocity (B1); the speed drops to the lower value when the parachute opens (B1); a horizontal line at the lower speed until landing (B1).
+- A sudden fall in the speed of a parachutist: the parachute opens. The speed dropping to zero at the end: landing.
+- Speed falling suddenly to zero, or an almost vertical section of a velocity–time graph: the object hits the ground – a very short time for the deceleration, so a large force.
+- Emergency stop: axes labelled with quantity and unit (B1); a horizontal line at the initial speed during the reaction time (B1); then a straight line down to zero (B1).
+- A lower initial speed with the same reaction time and the same deceleration: a horizontal line at the new speed for the same time (B1), then a braking line parallel to the original, reaching zero sooner (B1). A second vehicle with the same deceleration has a braking line parallel to the first.
+- Slowing under a resistive force that depends on speed: the deceleration decreases as the speed falls (B1) because the resistive force decreases (B1); the sketch falls from the initial speed to zero with a gradient of decreasing magnitude (B1, B1).
+- A steady speed that covers the same distance in the same time is a horizontal line at the average speed (total distance ÷ total time).
+- A repeating graph (drive switched on and off): the object speeds up and slows down (B1); it reaches a steady or maximum speed, or slows down but never to rest, or the cycle repeats continuously (B1). With longer on and off periods the same top speed is held for a longer time, or the speed drops lower / the object comes to rest during the off period (B1).
+* An object is at rest where the graph reads zero speed, not at the peak; the greatest speed is the highest point on the graph.
+* At the top of a curve (maximum speed) the gradient, and so the acceleration, is zero.
+* The largest acceleration is the steepest upward section; a downward slope is a deceleration.
+* A short stop: the speed falls to zero, stays at zero for a time, then rises again.
+* The magnitude of the velocity is decreasing wherever a velocity–time graph is moving towards the time axis, from positive values or from negative values.
+* Rolling down a slope and then along rough level ground: the speed rises steadily and then falls gradually (it neither stays constant nor drops at once to zero).
+* Two horizontal lines are two constant speeds; the higher line is the faster object.
+* Freewheeling with no friction: the speed is greatest at the bottom of a hill, where the gravitational potential energy is least.
+* Match each section of a journey to the times on the axis.
+== G | Distance from a speed–time graph: the area under the line | area | 2
+- Distance travelled = area under the speed–time graph (between the line and the time axis).
+- Convert the area to a distance using the scales of the axes (or count squares and convert).
+- Use the area of a triangle (½ × base × height), a rectangle (speed × time) or a trapezium (½ × sum of the parallel sides × height); average speed × time and ½(u + v)t are accepted.
+- Typical marks: area idea or formula (C1 or B1); one section worked out correctly (C1); total distance (A1).
+- Use the time in seconds when the speed is in m/s.
+- "Show by calculation": the working must be shown and the final value calculated; at most 1 mark if no working is shown or the distance has a wrong unit such as m² or m/s.
+- Braking distance = area under the graph during braking = ½ × braking time × initial speed.
+- A vehicle travels further while braking when the area under its graph is greater (higher initial / average speed).
+- Height gained by an object thrown upwards = area between the line and the time axis up to the time at which the velocity is zero.
+* The distance travelled at constant speed is the area under the horizontal section only.
+* For uniform acceleration from rest the average speed is half the final speed.
+== E | Free fall | free fall|free-fall|acceleration of free fall|vacuum|no air resistance|without air resistance|dropped|falling from rest|no atmosphere|throw | 3
+- Acceleration of free fall = 9.8 m/s² (older schemes accepted 9.8–10 m/s²); it is the initial acceleration of an object falling from rest.
+- Speed after falling from rest for a time t with constant acceleration: v = at (C1, A1).
+- Speed–time graph: free fall is a straight line from the origin; when air resistance becomes important the gradient then decreases (but is never negative).
+- Object thrown upwards with no air resistance: the velocity–time graph is one straight line that continues with the same gradient through zero to an equal negative velocity when it is caught.
+- The highest point is reached when the velocity is zero (where the line crosses the time axis).
+- The same throw on the Earth instead of on the Moon (any two): the graph is steeper (larger deceleration); the highest point is reached sooner and the object is caught sooner; the graph curves because of air resistance.
+* With no air resistance all objects fall with the same acceleration whatever their mass, so objects released together from the same height land together.
+* In a vacuum the acceleration is g at all times: a straight-line speed–time graph through the origin, and positions at equal time intervals that get steadily further apart.
+* In air the air resistance grows as the speed rises, so the acceleration decreases.
+* A heavy ball falling a short distance has negligible air resistance: a straight speed–time line through the origin.
+* A dropped object that hits the ground without rebounding: a straight line rising from the origin, then a sudden vertical drop to zero speed.
+== F | Measuring speed: timing experiments and ticker tape | ticker|light gate|measuring average speed|showing that a speed is constant | 0
+- Measuring average speed: measure the distance between two marks with a metre rule / tape measure (B1); measure the time taken to travel between the marks with a stopwatch / stopclock / timer (B1); average speed = distance ÷ time (B1).
+- Showing that a speed is constant: measure at least two distances and the corresponding times (C1); method, for example mark the position every second and measure the distances between marks, or use a video with a scale, or put marks every metre and time the object past each (A1); the speed is constant if the same distance is covered in each equal time interval – distance ÷ time is constant / the distance–time graph has a constant slope (B1).
+* Ticker tape: the dots are made at equal time intervals; dots far apart mean the tape is moving quickly, dots close together mean slowly.
+* Count the spaces, not the dots: 11 dots mark 10 intervals.
+== Z | Other points
+MOVE s06_1|MCQ1|E
+MOVE s12_21|1aii|E
+MOVE s07_2|1c|C
+MOVE s14_12|MCQ6|C
+MOVE s07_2|1b|C
+MOVE s15_21|1aii|C
+MOVE s15_22|11aiii|B
+MOVE s06_2|2a|B
+MOVE w25_11|MCQ4|D
+MOVE s18_11|MCQ4|D
+MOVE w14_22|9civ|D
+MOVE w10_21|1aiii|D
+MOVE w10_21|1aii|D
+MOVE s23_22|1a|D
+MOVE s22_22|7ai|D
+MOVE w06_2|1aii|D
+MOVE s22_21|5cii|D
+MOVE w07_2|1a|D

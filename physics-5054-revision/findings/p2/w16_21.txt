@@ -1,0 +1,48 @@
+# P2 w16_21 | figs viewed: 2.1 (hinge at the wall, W 0.35 m from the hinge, legs a further 0.30 m out), 4.1 (lamp under water with rays at 90°, 60° and 30° to the horizontal), 5.1, 9.1 (supply, rechargeable battery and 5.2 Ω in series, e.m.f.s opposed) | not viewed: 6.1, 8.1, 10.1
+1a | 1.2 | velocity has a direction / is a vector (speed does not) [B1]
+1bi | 1.5.1 | F = ma = 800 × 1.5 [C1] ;; 1200 N [A1]
+1bii | 1.5.1+1.5.2 | the forward force from the engine is greater than the resultant force because friction / air resistance acts on the car [B1] ;; and opposes the force due to the engine [B1]
+1biii | 1.2 | change in speed = at = 1.5 × 4.0 = 6.0 m/s [C1] ;; final speed = 25 + 6.0 = 31 m/s [A1]
+2a | 1.3 | W = mg = 26 × 10 = 260 N [B1]
+2bi | 1.5.5 | principle of moments: for a body in equilibrium [B1] ;; (total) clockwise moment = (total) anticlockwise moment [B1]
+2bii | 1.5.5 | {F} moment of the weight about the hinge = 260 × 0.35 = 91 N m [C1] ;; equal to the moment of the supporting force, with its distance measured from the hinge: F × (0.35 + 0.30) = F × 0.65 [C1] ;; F = 91 ÷ 0.65 = 140 N [A1]
+3a | 1.7.1 | energy stored in oil before it is burnt: chemical (potential) energy [B1]
+3bi | 1.7.3 | oil is non-renewable: it is not replaced / will run out [B1]
+3bii | 1.7.3 | environmental issue from burning oil: acid rain / produces CO₂ / global warming / greenhouse effect / warms lakes, rivers or sea [B1]
+3ci | 1.7.4 | efficiency = useful energy output ÷ (total) energy input (or the same ratio of powers) [B1]
+3cii | 1.7.4+1.7.5 | input power = output power ÷ efficiency = 1.9 × 10⁹ ÷ 0.38 [C1] ;; 5.0 × 10⁹ W [A1] ;; energy wasted = wasted power × time in seconds = (5.0 − 1.9) × 10⁹ × 2.0 × 3600 (or 0.62 × 5.0 × 10⁹ × 7200) [C1] ;; 2.2 × 10¹³ J [A1]
+4a | 3.2.2 | critical angle: the smallest angle of incidence for total internal reflection / the angle of incidence for which the refracted ray travels along the surface [B1] ;; it is the angle of incidence in the (optically) denser medium [B1]
+4b | 3.2.2 | {F} rays from under water with critical angle 49°: a ray along the normal continues undeviated [B1] ;; a ray at 30° to the normal (less than the critical angle) refracts away from the normal into the air [B1] ;; a ray at 60° to the normal (greater than the critical angle) is reflected internally with i = r and no refracted ray [B1]
+5a | 3.1+3.4 | frequency: number of oscillations / vibrations / wavelengths / compressions per second (unit time) [B1]
+5bi | 3.1+3.4 | λ = v/f = 330 ÷ 2200 [C1] ;; 0.15 m [A1]
+5bii | 3.4 | sound passing from air into glass: frequency does not change and speed increases [B1]
+5ci | 3.4 | loudspeaker produces sound because its cone vibrates / moves to and fro [B1] ;; sound travels through air as compressions and rarefactions – molecules vibrate (longitudinal wave) [B1] ;; the vibration / energy is passed on from molecule to molecule [B1]
+5cii | 3.4 | removing the air makes the sound quieter: fewer / no molecules, so less / no vibration (energy) is transferred [B1]
+6ai | X4.1 | induced poles
+6aii | X4.1 | attraction
+6b | X4.5 | relay
+7ai | X4.4 | live wire
+7aii | X4.4 | neutral wire
+7bi | X4.4 | fuse
+7bii | X4.4 | fuse in live
+8ai | X5 | atom
+8aii | X5 | isotopes
+8bi | X5 | beta
+8bii | X5 | decay equation
+8c | X5 | gamma
+8di | X5 | beta in electric field
+8dii | X5 | gamma in electric field
+8diii | X5 | charge
+8e | X5 | half-life
+9ai | X4.5 | transformer
+9aii | X4.3 | diode
+9bi | 4.2.3 | e.m.f.: work done / energy transferred per unit charge [M1] ;; in driving charge round the whole circuit / in converting other forms of energy to electrical energy (a property of the supply) [A1]
+9bii | 4.2.2+4.2.4+4.2.3 | {F} two e.m.f.s acting in opposite directions: resultant e.m.f. = 5.0 − 3.7 = 1.3 V [B1] ;; I = V/R using the resultant e.m.f.: 1.3 ÷ 5.2 [C1] ;; 0.25 A [A1] ;; Q = It [C1] ;; time in seconds: 0.25 × 1.5 × 3600 [C1] ;; 1350 C (1300–1400 C) [A1]
+9c | X4.4 | double insulation
+10ai | X2.1 | liquid density
+10aii | X2.1 | incompressible
+10bi | 1.4 | V = m ÷ density = 680 ÷ 0.85 [C1] ;; 800 cm³ (8.0 × 10⁻⁴ m³) [A1]
+10bii | X2.3 | conduction, convection, insulator
+10ci | X2.2 | boiling point
+10cii | X2.2 | mcΔT
+10ciii | X2.3 | heat loss

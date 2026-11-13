@@ -1,0 +1,41 @@
+# P1 w23_11 | sheets 1-2 viewed; rest sheets viewed later for Q15, 25, 29, 30, 31, 37 (Q37 enlarged)
+1 D 1.1 a scalar has magnitude (and a unit) only; a vector also has direction
+2 C 1.2 {F} on a distance–time graph deceleration is where the gradient is decreasing (curve flattening); a straight sloping section is constant speed and a horizontal section is rest
+3 B 1.5.2+1.5.1 constant speed means no resultant force: the frictional force is equal in size and opposite in direction to the pushing force
+4 A 1.2 while speeding up from rest to a constant speed the velocity increases and the acceleration falls to zero, so both change
+5 B 1.5.3 {F} extension = stretched length − original length = 8.0 − 5.0 = 3.0 cm for 10 N; doubling the load doubles the extension to 6.0 cm, so the new length = 5.0 + 6.0 = 11 cm
+6 D 1.5.5 {F} moment = force × perpendicular distance from the pivot to the line of action of the force (the distance that meets the force line at a right angle), not the distance from the pivot to the point where the force is applied
+7 C 1.5.5 {F} weight of a uniform rule acts at its centre (50 cm mark); moments about the pivot: W × 25 = F × 75, so F = W/3; no resultant force: P + F = W, so P = ⅔W
+8 A 1.7.1 {F} gravitational potential energy = mgh: for equal masses the highest object has the most
+9 D 1.7.3 hydroelectric and tidal power stations both use renewable sources
+10 A 1.7.3 biofuels are renewable and available at all times; nuclear is non-renewable; solar and wind are renewable but intermittent
+11 D 1.7.5 E = Pt = 10 × 5.0 × 60 = 3000 J (time in seconds)
+12 C X1.8 {F} liquid pressure
+13 B X1.8 {F} p = hρg
+14 B X2.1 Boyle's law with absolute pressure
+15 D X2.2 {F} heating curve
+16 D X2.2 cooling by evaporation
+17 A X2.3 emission factors
+18 D 3.2.1 image in a plane mirror is virtual and upright
+19 D 3.2.2+3.2.1 {F} at an air–glass surface some light is reflected back into the air (angle of reflection = angle of incidence) and some is refracted into the glass, bending towards the normal
+20 C 3.2.2 total internal reflection: happens only for light in the denser medium (glass to air) at an angle of incidence greater than the critical angle; the angle of reflection equals the angle of incidence; a larger refractive index gives a smaller critical angle
+21 C 3.2.3 {F} linear magnification = image height ÷ object height (= image distance ÷ object distance), read from the scale diagram: 6.0 ÷ 3.0 = 2.0
+22 C 3.4 human hearing range is about 20 Hz to 20 000 Hz, so 50–5000 Hz lies wholly inside it
+23 B 4.2.1 objects become charged by friction (the aircraft rubbing against the air)
+24 A 4.2.1 like charges repel: both spheres carry charge of the same sign
+25 C X4.3 {F} diode direction
+26 C X4.3 {F} series 2R and parallel R/2
+27 B 4.2.3+4.2.2 charge Q = It = 2.0 × 5.0 = 10 C; p.d. = energy ÷ charge = 20 ÷ 10 = 2.0 V
+28 B X4.4 double insulation
+29 A X4.5 {F} induced e.m.f. trace
+30 A X4.5 {F} induced poles
+31 C X4.5 {F} a.c. generator output
+32 B X4.5 transformer turns
+33 D X4.5 split-ring commutator
+34 D X4.5 {F} simple transformer
+35 C X5 nucleus
+36 C X5 alpha and beta properties
+37 D X5 {F} beta deflection in magnetic and electric fields
+38 B X5 half-life
+39 B X6 star formation
+40 B X6 redshift

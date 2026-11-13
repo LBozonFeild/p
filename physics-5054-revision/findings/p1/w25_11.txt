@@ -1,0 +1,41 @@
+# P1 w25_11 | sheets 1-2 viewed; rest sheet viewed later for Q15, 26, 29, 33
+1 C 1.1 {F} ruler with an end (zero) error: true length = scale reading + the distance from the end of the ruler to its zero mark (1.1 + 0.2 = 1.3 cm)
+2 D 1.1 scalars: distance, mass, temperature; vectors: displacement, force, weight
+3 C 1.2 {F} distance = area under a speed–time graph (½ × 4.0 × 6.0 = 12 m; ½ × 5.0 × 10.0 = 25 m, a difference of 13 m); acceleration = gradient (6.0 ÷ 4.0 = 1.5 m/s²; 10.0 ÷ 5.0 = 2.0 m/s², a difference of 0.50 m/s²)
+4 C 1.2 {F} a short stop: the speed falls to zero, stays at zero for a short time, then rises again
+5 B 1.5.5+X1.8 {F} moments about the pivot (toes): F × d = W × ¾d, so the total force at the hands is ¾W and each hand supports 3W/8; pressure on each palm = force ÷ area = 3W/8S (pressure step outside the selected sections)
+6 B 1.5.2 falling at constant speed: no resultant force, so the upward force (air resistance) equals the weight
+7 A 1.4 density of an irregular solid: a balance for the mass and a measuring cylinder of water for the volume by displacement
+8 C 1.5.3 limit of proportionality from a table: extension rises by equal steps for equal load steps (3 cm per 2 N) up to 10 N; the first larger step (15 → 20 cm) shows the limit lies between 10 N and 12 N
+9 C 1.5.1 {F} Newton's third-law partner of a person's weight (Earth pulls the person down) is the gravitational force of the person on the Earth, upwards on the Earth
+10 A X2.1 Boyle's law pV constant
+11 B 1.4 density = mass ÷ volume
+12 D 1.5.5+1.5.6 {F} balanced object: the weight of the object acts at its centre of gravity and its moment about the pivot must oppose the moment of the hanging weight, so the centre of gravity is on the other side of the pivot
+13 C 1.7.3 renewable sources: hydroelectric, solar, geothermal, wind, tides; fossil fuel and nuclear are non-renewable
+14 D X2.1 melting
+15 A X2.1 {F} gas volume and temperature
+16 B X2.2 melting at constant temperature
+17 A X2.3 matt black best emitter
+18 A 3.4 sound: longitudinal wave of compressions (higher pressure) and rarefactions (lower pressure); an echo is a reflected sound wave
+19 D 3.2.1 angle between incident and reflected rays = 2 × angle of incidence = 2 × 25° = 50°
+20 D 3.2.4 visible spectrum in order of increasing frequency: red, orange, yellow, green, blue, violet
+21 A 3.2.3 {F} rays from a point on the object that actually meet after the lens form a real image; the ray parallel to the principal axis is refracted through the principal focus
+22 D 3.2.2 {F} a ray meeting a boundary along the normal (at 90° to the surface) passes straight on without changing direction; a ray leaving glass or water for air bends away from the normal, or is totally internally reflected beyond the critical angle
+23 C 3.2.2 {F} optical fibre: angle of incidence greater than the critical angle gives total internal reflection – the ray is reflected back into the fibre with the angle of reflection equal to the angle of incidence (measured from the normal to the fibre wall), not out through the wall and not at some other angle [reworked after a first misreading of the reflected angle]
+24 A 3.4 speed of sound = distance ÷ time delay between seeing the flash and hearing the sound = 360 ÷ 1.8 = 200 m/s
+25 B 3.4 greater amplitude gives a louder sound; pitch depends on frequency, which is unchanged
+26 B X4.1 {F} induced poles
+27 A 4.2.1 metals (e.g. aluminium) are electrical conductors; glass, plastic and rubber are insulators
+28 A 4.2.1 charging by friction transfers electrons: the two objects gain equal and opposite charges, and unlike charges attract
+29 B X4.3 {F} circuit arrangement
+30 A 4.2.2 {F} Q = It = 2.8 × 10⁴ × 52 × 10⁻³ = 1500 C (time converted from ms to s)
+31 D X4.5 force between parallel currents
+32 C X4.5 d.c. motor parts
+33 B X4.3 {F} thermistor symbol
+34 C X4.4 fuse rating
+35 C X4.5 transformer equation
+36 C X5 nuclear atom
+37 B X5 alpha
+38 D 1.5.4+X6 motion in a circular orbit needs a force towards the centre of the circle (towards the Sun), perpendicular to the direction of travel
+39 D X6 light-year
+40 B X6 protostar

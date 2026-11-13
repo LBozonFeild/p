@@ -1,0 +1,50 @@
+# P2 s16_22 | figs viewed: 1.1 (30 m/s to 2.0 s, straight fall to 25 m/s at 4.0 s, curve levelling at 22.5 m/s by about 8 s), 2.1, 3.1 (table of spring lengths), 5.1 (rays from a near point not yet converged at the back of the eye), 6.1, 7.1, 7.2, 9.1 (18 Ω and 30 Ω in series with 12 V), 10.1, 10.2, MS p3 (Q4–Q6) | not viewed: 4.1, 8.1, 11.1
+# leaf 3aii holds 3(a)(i) and (ii); leaf 9dii holds 9(d)(i) and (ii); leaf 11biv holds 11(b)(i)–(iv). MS prints one mark only for 5(a)(ii) and for 5(b)(i), each a 2-mark part.
+1a | 1.2 | {F} non-uniform deceleration is where the speed-time graph is a falling curve (changing gradient) – a point marked on the curved section [B1]
+1b | 1.2 | {F} deceleration = gradient of the straight section = (v − u) ÷ t = (30 − 25) ÷ 2.0 [C1] ;; 2.5 m/s² [A1]
+1c | 1.5.1 | constant speed: a forward (driving) force and a backward (resistive) force both act [B1] ;; they are equal – no resultant force / forces balance [B1]
+2a | 1.7.1 | increase in g.p.e. = weight × height (mgh) = 5.0 × 3.5 [C1] ;; 17.5 J [A1]
+2bi | 1.7.4 | efficiency = useful energy output ÷ energy input [B1]
+2bii | 1.7.4 | energy input = useful energy output ÷ efficiency = 17.5 ÷ 0.65 [C1] ;; 27 J [A1]
+2c | 1.7.4 | efficiency of a motor is less than 100% because of friction (in the bearings), electrical resistance in the motor or air resistance – thermal energy (heat) is produced / lost [B1]
+3aii | 1.5.3 | {F} the spring stretched past its limit of proportionality is the one whose extensions for equal increases in load are not equal (spring C) [M1] ;; data quoted to show it stretches more for the later loads (0.8, 0.8, 1.8, 3.8 cm per 0.5 N) [A1]
+3aiii | 1.5.3 | {F} unstretched length = length at a known load − extension for that load, using the constant extension per newton (1.6 cm/N): 6.1 − 1.6 = 4.5 cm [B1]
+3b | 1.5.3+1.3 | using a calibrated spring to find the mass of a rock: hang the rock from the spring, measure the length / extension and find the weight from the table or graph, or by proportion (extension in cm ÷ 1.6) [B1] ;; mass = weight ÷ g [B1]
+4a | X2.2 | steam bubbles
+4b | X2.2 | latent heat
+4c | X2.2 | evaporation cooling
+5ai | 3.2.3 | {F} eye that focuses distant objects but not near ones: long sight (hypermetropia) [B1]
+5aii | 3.2.3 | {~}{M} near object blurred because the rays do not converge on the retina – the image would be formed behind the retina (back of the eye) [B1]
+5bi | 3.2.3 | {~}{M} correcting long sight: a converging lens drawn in front of the eye, so that the rays meet on the retina [B1]
+5bii | 3.2.3 | long sight is corrected with a converging (convex) lens [B1]
+6ai | 3.3+3.2.4 | of red, orange, yellow, green, blue: red has the largest wavelength [B1]
+6aii | 3.3+3.2.4 | blue has the highest frequency [B1]
+6b | 3.3 | {M} two further components of the electromagnetic spectrum, each with a matching use – component named: microwaves / X-rays / gamma rays [B1] ;; use: microwaves – satellite television, mobile phones, cooking, radar; X-rays – medical or security imaging, killing cancerous cells, detecting cracks in metal; gamma rays – killing cancerous cells (radiotherapy), sterilisation, tracers, detecting cracks [B1] ;; second component named [B1] ;; with its matching use [B1]
+7a | 4.2.1 | electrical insulator: e.g. perspex, plastic, nylon, rubber [B1]
+7b | 4.2.1 | {F} uncharged metal below a positive rod: net negative charge on the surface nearest the rod [B1] ;; an equal number of positive charges on the far (lower) side [B1]
+7ci | 4.2.1 | {F} metal earthed while the positive rod is near: a net negative charge on the metal, near the rod [B1]
+7cii | 4.2.1 | rod removed with the earth wire still connected: the negative charges / electrons flow to earth and the metal becomes neutral [B1] ;; rod removed after the earth wire is disconnected: the (negative) charge stays and spreads over the metal [B1]
+8a | X4.5 | transformer
+8b | X4.5 | turns
+8c | X4.1 | steel core
+8d | 4.2.4+X4.3 | action of a diode: passes current (charge) in one direction only, or has a high resistance (acts as an insulator) for current in the other direction / when reverse biased [B1]
+9a | 4.2.3 | electromotive force: the energy / work done (by the source) [M1] ;; per unit charge in driving charge round the complete circuit [A1]
+9bi | X4.3 | series rules
+9bii | 4.2.4+X4.3 | {F} I = V/R with the total series resistance = 12 ÷ (18 + 30) [C1] ;; 0.25 A [A1]
+9biii | 4.2.4 | p.d. across one resistor = IR = 0.25 × 18 = 4.5 V [B1]
+9biv | X4.4 | P = VI
+9c | 4.2.4 | Ohm's law: current is (directly) proportional to voltage – voltage ÷ current is constant [B1] ;; limitation: it holds only for constant physical conditions / constant temperature (for metals) [B1]
+9dii | 4.2.4 | resistance of a wire is (directly) proportional to its length (constant cross-sectional area) [B1] ;; and inversely proportional to its cross-sectional area (constant length) [B1]
+9e | XOLD | resistor colour code
+10ai | XOLD | cathode-ray oscilloscope parts
+10aii | XOLD | anode and heater
+10aiii | XOLD | screen
+10aiv | XOLD | time base
+10bi | X4.6 | oscilloscope readings
+10bii | X4.6 | trace
+11a | X5 | isotopes
+11biv | X5 | fusion particles
+11c | X5 | fusion temperature
+11d | X6 | star formation
+11ei | X5 | half-life
+11eii | X5 | half-life

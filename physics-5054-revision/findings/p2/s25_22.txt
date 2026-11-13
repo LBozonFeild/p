@@ -1,0 +1,47 @@
+# P2 s25_22 | figs viewed: 1.1 (blank distance-time grid), 2.1, 4.1, 4.2 (2.5 waves in 0.050 s), 4.3, 4.4 (plane wavefronts approaching gap), 5.1 (voltmeter in series, ammeter across wire, cell pairs opposed), 5.2 (P: 0.8 A at 6 V; Q: 0.8 A at 4 V)
+1ai | 1.2 | {F} plotting a distance-time graph from a table: points plotted to within ½ a small square [B1] ;; smooth curve drawn (for an accelerating object, not point-to-point straight lines) [B1]
+1aii | 1.2 | average speed = (total) distance ÷ time in any form [C1] ;; 78 ÷ 0.40 = 195 cm/s [A1]
+1aiii | 1.2 | speed at an instant from a curved distance-time graph: draw a tangent at that time [B1] ;; find the gradient / slope of the tangent [B1]
+1bi | 1.5.2 | mention of air resistance / resistive force [B1] ;; resultant force decreases, or air resistance / upward force increases as speed increases [B1] ;; eventually air resistance = weight (balances / cancels weight) so acceleration is zero [B1]
+1bii | 1.2 | distance-time graph at zero acceleration (constant speed): straight line of positive, constant gradient / slope [B1]
+2a | 1.7.5 | power = work done or energy (transferred) per unit time [B1]
+2b | 1.7.4 | input power = (useful) power output ÷ efficiency in any form [C1] ;; 600 ÷ 0.70 = 860 W [A1]
+2ci | 1.7.2 | work = force × distance, or mgh [C1] ;; 50 × 9.8 × 2.3 = 1100 J [A1]
+2cii | 1.7.5 | time = work done ÷ (output) power [C1] ;; 1.9 s or 1.8 s [A1]
+2d | 1.7.1 | how energy becomes thermal when a load is lifted by a motor, any one: friction / air resistance; electrical heating [B1]
+3ai | X1.8 | P = F/A
+3aii | X1.8 | area decreases
+3bi | 1.6 | momentum = mass × velocity [B1]
+3bii | 1.6 | particle hitting a wall: on collision there is a change of momentum / direction / velocity, or momentum is transferred to the wall [B1] ;; force is (related to) change in momentum ÷ time, or equal-sized force on wall and on particle (Newton's third law) [B1]
+3c | X2.1 | gas pressure and temperature
+4a | 3.4 | motion of air particles in a sound wave: backwards and forwards / to and fro / closer together and further apart [B1] ;; oscillating in (parallel to) the direction of travel of the wave / longitudinal, or mention of compressions and rarefactions [B1]
+4bi | 3.1 | frequency: number of oscillations per second, or number of waves (wavelengths) passing a point per second [B1]
+4bii | 3.4 | {F} count the waves on the trace: 2.5 waves seen, or one wave takes 0.02 s, or f = 1/T, or number of waves ÷ time [C1] ;; 2.5 ÷ 0.050 = 50 Hz [A1]
+4biii | 3.4 | amplitude of trace decreases: sound is quieter / less volume [B1]
+4biv | 3.4 | {F} half the frequency on the same oscilloscope settings: trace with half as many waves (twice the period) and at least one complete oscillation shown [B1]
+4ci | 3.1 | {F} wavefronts after a gap: at least three curved wavefronts centred on the gap [B1] ;; same wavelength as before the gap, curving in the correct direction [B1]
+4cii | 3.1 | spreading of wavefronts through a gap (heard round a doorway): diffraction [B1]
+5a | 4.2.4 | {F} corrections to a resistance-measuring circuit: swap the voltmeter and the ammeter (ammeter in series, voltmeter across the wire) [B1] ;; all cells must face the same way (reverse the cells connected the wrong way round) [B1]
+5bi | 4.2.4 | {F} R = V/I in any form, values read from the same point of the I-V line, e.g. 6 ÷ 0.8 [C1] ;; 7.5 Ω [A1]
+5bii | 4.2.4 | steeper current-voltage line is the shorter wire, with a reason: resistance smaller / resistance proportional to length; larger current for the same voltage; smaller voltage for the same current [B1]
+5biii | 4.2.4 | length found by proportion (R ∝ length): 9.0 × 5.0 ÷ 7.5 = 6.0 cm [B1]
+6a | X4.4 | fuse choice
+6b | X4.4 | fuse melts
+6ci | X4.3 | parallel currents add
+6cii | X4.4 | number of lamps
+6d | X4.4 | trip switch advantages
+7a | X4.5 | commutator, brushes
+7b | X4.5 | left-hand rule
+7c | X4.5 | no change
+7di | 1.5.5 | moment = force × (perpendicular) distance in any form [C1] ;; two equal forces on opposite sides both turn the same way: total = 2 × 2.3 × 0.15 = 0.69 [A1] ;; unit N m [B1]
+7dii | 1.5.5 | turning effect smaller because the (perpendicular) distance between the lines of action of the forces decreases (alternatives for this motor: coil sides enter a weaker magnetic field / coil leaves the field) [B1]
+8a | X5 | reactor parts
+8b | X5 | fission
+8ci | X2.2 | specific heat capacity
+8cii | X2.2 | coolant
+9a | X6 | orbits
+9b | X6 | Sun in the way
+9ci | X6 | gravitational force
+9cii | X6 | towards Sun
+9ciii | X6 | force vs distance
+9d | X6 | orbital period

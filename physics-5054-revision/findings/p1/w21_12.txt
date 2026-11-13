@@ -1,0 +1,41 @@
+# P1 w21_12 | main sheets 1-3 and rest sheet viewed
+1 C 1.1 {F} displacement is the straight-line distance (and direction) from the start: after 3.0 m north and 4.0 m east it is √(3.0² + 4.0²) = 5.0 m, so walking 5.0 m straight back gives zero overall displacement
+2 B 1.1 force (e.g. the gravitational force) is a vector; diameter, distance and speed are scalars
+3 B 1.2 {F} average acceleration = total change in speed ÷ time = 26 ÷ 6.0 = 4.3 m/s²
+4 D 1.5.1 {F} stationary object: upward forces balance downward forces, F + T = W (F − W + T = 0)
+5 D 1.5.4 {F} at constant speed round a circular track the resultant force points towards the centre of the circle
+6 C 1.3 gravitational field strength g = weight ÷ mass
+7 A 1.4 density = mass ÷ volume
+8 D 1.5.6 {F} the most stable shape has the widest base and the lowest centre of gravity
+9 B 1.5.3 beyond the limit of proportionality a wire continues to extend, but the extension is no longer directly proportional to the force
+10 D X1.8 {F} pressure transmitted in a liquid
+11 B X2.1 {F} Boyle's law
+12 C 1.7.2+1.7.1 work done against the braking force = kinetic energy lost: F × 5.0 = ½ × 60 × 3.0² = 270 J, so F = 54 N
+13 A 1.7.4 efficiency = useful energy output ÷ total energy input
+14 D X2.3 {F} cooled air contracts
+15 B X2.3 absorber
+16 B XOLD fixed points
+17 B XOLD sensitivity and range
+18 D X2.2 solar heating calculation
+19 B X2.2 {F} specific latent heat from a graph
+20 D X2.2 evaporation
+21 B 3.1 {F} water waves slow down on entering shallow water, so the wavelength decreases and the wavefront changes direction (refraction)
+22 B 3.1+3.2.2 light is a transverse wave and is refracted on entering a lens; ultrasound is longitudinal, and water waves at a barrier or infrared in an optical fibre are reflected
+23 C 3.2.1 {F} the angle of reflection is between the reflected ray and the normal (on the side away from the source); angle of incidence = angle of reflection always
+24 D 3.2.3 {F} an object beyond the principal focus of a converging lens gives a real, inverted image
+25 A 3.2.3 a long-sighted person cannot see close objects clearly (the image would form behind the retina); corrected with a converging lens
+26 D 3.2.4 {F} the deviation by a prism increases with frequency: blue light (higher frequency) is deviated more than red
+27 C 3.3 time = distance ÷ speed = 300 × 10³ ÷ 3.0 × 10⁸ = 1.0 × 10⁻³ s
+28 B 3.4 echoes are reflections of sound
+29 C 3.4 an ultrasound scanner forms its image from ultrasound reflected at boundaries inside the body
+30 A X4.1 {F} compass beside a bar magnet
+31 C 4.2.1 {F} induction: a positive rod attracts electrons to the near side of the metal ball (negative) leaving the far side equally positive; charge is measured in coulombs (C), not amperes
+32 A 4.2.2+4.2.3 {F} an ammeter is connected in series with the resistor and a voltmeter in parallel across that same resistor only
+33 B 4.2.3 e.m.f.: energy supplied by a source in driving unit charge round the complete circuit; p.d.: work done in driving unit charge through a component; both measured in volts
+34 C X4.5 {F} transformer power
+35 A X4.5 {F} electromagnet alarm
+36 B X4.3 {F} LED on a.c.
+37 C X5 nuclear power station
+38 A X5 half-life constant
+39 A X5 {F} atom model
+40 C X5 isotopes

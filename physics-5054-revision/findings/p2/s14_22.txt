@@ -1,0 +1,55 @@
+# P2 s14_22 | figs viewed: 1.1, 4.1 (hand holding a rope with a transverse wave), 5.1 (white ray into a prism; blue emerges below red), 6.1 (full-scale grid: object 3.0 cm from the lens, one ray parallel to the axis and one aimed at the centre), 9.1, 11.1, 11.3 (R in series with a 50 Ω potential divider across 18 V; lamp across the whole 50 Ω) | not viewed: 2.1, 7.1, 9.2 and 11.2 (blank axes), 10.1
+1ai | 1.5.1 | when a vehicle accelerates forwards the driving force is larger than the backward force – there is a resultant force forwards [B1]
+1aii | 1.5.2 | cause of the backward force on a moving vehicle: air resistance (drag) or friction [B1]
+1bi | 1.3 | m = W ÷ g = 300 000 ÷ 10 = 30 000 kg [B1]
+1bii | 1.5.1 | a = F/m using the resultant force = 15 000 ÷ 30 000 [C1] ;; 0.50 m/s² [A1]
+1c | 1.5.4 | turning a corner at constant speed is an acceleration because the direction (velocity) is changing – the force is sideways, towards the centre of the circle [B1]
+2ai | X1.8 | P = F/A
+2aii | X1.8 | hydraulic force
+2b | X1.8 | hydraulic distance
+2c | 1.7.4 | efficiency: output ÷ input (as a fraction or percentage) [C1] ;; complete definition: useful work (energy) obtained ÷ total work (energy) put in [A1]
+3ai | X2.2 | expansion use
+3aii | X2.2 | expansion problem
+3b | X2.2 | expansion
+3c | X2.2 | expansion compared
+4ai | 3.1 | {F} transverse wave on a rope: the hand moves up and down, at right angles to the rope [B1]
+4aii | 3.1 | wavelength marked as the distance between two consecutive points in phase (e.g. crest to next crest) [B1]
+4aiii | 3.1 | amplitude marked as the distance from the undisturbed (centre) position to a crest or trough [B1]
+4b | 3.1 | measuring frequency with a stopwatch: count the number of oscillations (waves passing) in a measured time [B1] ;; frequency = number of oscillations ÷ time in seconds [B1]
+4c | 3.1 | to produce a longer wavelength on the same rope, move the hand more slowly – a lower frequency (same speed) [B1]
+5a | 3.3 | components of the electromagnetic spectrum besides visible light, radio waves, X-rays, gamma rays and microwaves: ultraviolet and infrared [B1]
+5b | 3.2.4 | {F} dispersion by a prism: blue light refracts (deviates) more than red [B1] ;; blue slows down more than red on entering the glass – the colours travel at different speeds in glass [B1] ;; so blue and red have different refractive indices (greater for blue) [B1]
+6ai | 3.2.3 | parallel beam through a converging lens narrows to a point at the principal focus: its width is less than the original at any distance between 0 and twice the focal length (0 to 5.6 cm) [B1]
+6aii | 3.2.3 | beyond twice the focal length (5.6 cm) the diverging beam is wider than the original [B1]
+6bi | 3.2.3 | {F} ray through the optical centre continues undeviated [B1] ;; ray parallel to the axis is refracted through the principal focus, crossing the axis 2.8 cm from the lens [B1]
+6bii | 3.2.3 | object just outside the principal focus: the two refracted rays are almost parallel and meet a long way from the lens (beyond 11 cm – off the page) [B1]
+6biii | 3.2.3 | image of an object between f and 2f: inverted, magnified and real (all three) [B1]
+7ai | X4.1 | force on pole
+7aii | 1.5.5+X4.1 | the needle turns because the force does not act at the pivot, so it has a moment about the pivot [B1]
+7b | X4.1 | plotting compass
+8ai | X5 | charges
+8aii | X5 | masses
+8bi | X5 | beta decay
+8bii | X5 | half-life
+9a | 1.2 | speed-time graph: uniform acceleration is a straight line from (0, 0) to (3.0 s, 2.4 m/s) [B1] ;; constant speed is a horizontal line from 3 s to 8 s [B1] ;; uniform deceleration is a straight line from the end of the horizontal line to zero in 1 s [B1]
+9b | 1.2 | uniform acceleration: constant (the same) change in velocity [C1] ;; in each second / per unit time [A1]
+9c | 1.2 | a deceleration is larger than an acceleration when the same change in speed takes place in a shorter time (1 s rather than 3 s) [B1]
+9d | 1.2 | distance = area under the speed-time graph (average speed × time for each stage) [C1] ;; ½ × 2.4 × 3.0 = 3.6 m and 2.4 × 5.0 = 12 m [C1] ;; total 15.6 m [A1]
+9ei | 1.7.1 | decrease in g.p.e. = mgh = 30 × 10 × 1.6 [C1] ;; 480 J [A1]
+9eii | 1.7.1 | gain in kinetic energy is less than the loss of potential energy because heat (thermal energy) or sound is produced – work is done against friction / air resistance [B1]
+9f | 1.2 | showing that a speed is constant: measure at least two distances and the corresponding times [C1] ;; method, e.g. mark the position every second and measure the distances between marks (or video with a scale; or marks every metre and time the object past each) [A1] ;; constant speed if the same distance is covered in each equal time interval – distance ÷ time constant / distance-time graph has constant slope [B1]
+10ai | X2.3 | conduction
+10aii | X2.3 | convection
+10bi | X2.3 | black radiator
+10bii | X2.3 | covered pan
+10ci | X2.2 | specific heat capacity
+10cii | X2.2 | high specific heat capacity
+10ciii | X2.2 | mcΔT
+11a | 4.2.4 | {F} circuit for a current-voltage graph: correct symbols for ammeter and voltmeter [B1] ;; ammeter in series with the lamp [B1] ;; voltmeter in parallel with the lamp [B1]
+11b | X4.3 | protective resistor
+11ci | 4.2.4 | current-voltage sketch for a filament lamp: the operating point (12 V, 0.25 A) plotted [B1] ;; a curved line from the origin [B1] ;; with decreasing slope (curving towards the voltage axis) [B1]
+11cii | 4.2.4 | current-voltage graph for a fixed resistor is a straight line (through the origin) [B1] ;; because its resistance (temperature) is constant, whereas the lamp's temperature and resistance change [B1]
+11di | 4.2.4 | {F} I = V/R for the resistor connected across the same 12 V as the lamp = 12 ÷ 50 [C1] ;; 0.24 A [A1]
+11dii | X4.3 | junction rule
+11diii | X4.3 | series p.d.
+11div | 4.2.4 | R = V/I using the p.d. across it and the current through it = 6.0 ÷ 0.49 = 12 Ω [B1]

@@ -1,0 +1,41 @@
+ORDER A B C D Z
+== A | Electric current: rate of flow of charge; Q = It | Q = It|I = Q|Q/t|Q ÷ t|charge|rate of flow|coulomb | 3
+- Electric current: the rate of flow of charge – the charge flowing per unit time (B1).
+- A flow of electrons is an electric current because electrons are charged.
+- Q = It in any form (C1 or B1); answer (A1). Convert first: mA to A; minutes or hours to seconds (a separate C1 in three-mark questions). The unit C or coulomb is sometimes a separate mark (B1) and is sometimes required for the answer mark.
+- I = Q/t with the time in seconds (C1, A1); t = Q/I (C1, A1).
+- With very small values: Q = It with both quantities in SI units (C1); the correct figures with a power of ten (C1); the answer (A1).
+- Number of electrons = total charge ÷ charge on one electron (C1, A1). Number of electrons per second = current ÷ charge on one electron; current = number of electrons per second × charge on each (C1, A1).
+- In a wire the electrons move towards the positive terminal, opposite to the conventional current.
+- The same charge passes when the current is doubled for half the time – the product I × t is the same.
+- A smaller current (for example because the resistance of an LDR has increased in dimmer light) (B1) means that the time for the same charge to pass increases, t = Q/I (B1).
+- Two e.m.f.s acting in opposite directions: resultant e.m.f. = the difference (B1); I = V/R using the resultant e.m.f. (C1, A1); then Q = It (C1) with the time in seconds (C1); answer (A1).
+- Battery discharge: current read from the graph (B1); Q = It with the time in seconds (C1, A1); energy E = QV (C1, A1); the result is only an estimate because the current / voltage falls as the battery runs down, some energy remains in the cells and some is wasted as heat inside the cells (B1).
+* Current = charge ÷ time, so the ampere is a coulomb per second and one coulomb is one ampere second.
+* Find the current first where necessary (I = V ÷ R); for the charge delivered by a battery use the total current from the battery; change ms, minutes or hours to seconds.
+* The most appropriate ammeter range is the smallest one that includes the calculated current.
+== B | Conventional current and electron flow | conventional|electrons flow|electrons are attracted|particles that flow | 2
+- The particles that flow in a metal wire are electrons (M1); they flow away from the negative terminal and towards the positive terminal (A1).
+- The free electrons are attracted to the positive terminal / repelled by the negative terminal (B1); conventional current is from positive to negative, opposite to the electron flow (B1).
+- Conventional current is in the opposite direction to the movement of negatively charged particles such as electrons.
+* Conventional current flows from the positive terminal of the cell (the longer line of the symbol) round the circuit to the negative terminal; the electrons, being negatively charged, flow the opposite way.
+== C | Measuring current: ammeters | ammeter|meter connected|in series|parallel branch | 1
+- An ammeter is connected in series with the component (B1); a voltmeter is connected across – in parallel with – the component or the supply (B1).
+- A meter connected in series measures current; a meter connected across a component measures voltage (p.d.).
+- Circuit to measure the current in a heater or motor and the p.d. across it: power supply, ammeter and the device in series (B1); voltmeter in parallel with the device (B1).
+- A suitable ammeter range runs from 0 to a maximum a little above the reading (for 0.50 A: a maximum between 0.50 A and 5.0 A, such as 0–1 A).
+- Multi-range ammeter: start on the highest range and use it for the larger readings (B1); switch to a lower, more sensitive range for the smaller readings, keeping the reading on scale – use the smallest range that is not exceeded (B1).
+* An ammeter (symbol: A in a circle) measures the current in the component it is in series with; a voltmeter goes across that same component only.
+== D | Direct current and alternating current | direct current|alternating|a\.c\.|d\.c\. | 0
+- Direct current flows in one direction only – its polarity does not change; alternating current repeatedly reverses direction (B1).
+- Alternating current also varies in size (sinusoidally); direct current is steady (B1).
+- Graphs: a sinusoidal voltage–time graph labelled a.c. (B1); the d.c. graph is a horizontal, non-zero line (B1); a.c. changes direction (polarity) at regular intervals whereas d.c. is constant / never negative (B1).
+- The e.m.f. of a battery compared with an a.c. supply: always positive – its direction does not change (B1); constant in size (B1).
+== Z | Other points
+MOVE w25_22|6bii|A
+MOVE s13_22|6bi|A
+MOVE w12_22|6b|A
+MOVE s15_11|MCQ29|A
+MOVE s14_21|2a|C
+MOVE w21_22|5a|A
+MOVE w20_12|MCQ30|A

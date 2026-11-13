@@ -1,0 +1,55 @@
+# P2 s10_21 | figs viewed: 1.1 (speed rises linearly to about 1.2 m/s at 0.12 s, levels at 1.5 m/s from 0.20 s), 2.1, 3.1, 4.1 (wavefronts approaching an inclined barrier), 4.2 (wavefronts approaching shallow water with a parallel boundary), 5.1 (white ray dispersed by a prism, red ray shown), 5.2 (white ray totally reflected at Q in a right-angled prism), 6.1 (battery, variable resistor P, ammeter and lamp in series; voltmeter across the lamp) | not viewed: 7.1–7.3, 8.1, 9.1, 9.2, 10.1, 10.2, 11.1
+# Q7(b) is EITHER/OR: leaf 7b holds EITHER (b) [2] (capacitor) and OR (b) [2] (transistor); both alternatives are counted in the marks
+1a | 1.5.2 | falling at constant speed: the forces balance – weight equals air resistance (no net force) [B1]
+1bi | 1.2 | acceleration of free fall = 9.8–10 m/s² [B1]
+1bii | 1.2 | speed after falling from rest with constant acceleration: a = (v − u) ÷ t, so v = 10 × 0.20 [C1] ;; 2.0 m/s [A1]
+1biii | 1.2 | {F} speed-time graph: free fall is a straight line from the origin to (0.20 s, 2.0 m/s) [B1] ;; then a line of decreasing (but not negative) gradient as the acceleration decreases [B1]
+2a | 1.5.3 | limit of proportionality: the point beyond which extension is no longer proportional to the load (where the extension-load graph begins to curve) [C1]
+2b | 1.5.3 | extension proportional to load: 6.0 cm for 4.0 N, so 3.0 cm for 2.0 N [C1] ;; new length = 8.0 + 3.0 = 11 cm [A1]
+2c | 1.5.3 | {F} readings for an extension-load graph: hang different weights on the spring and read the pointer position (length) each time [B1] ;; extension = reading with the load − reading with no load [B1]
+3a | 1.7.1 | rubbing hands together: chemical energy (or kinetic energy) [B1] ;; is converted to heat (thermal / internal energy) [B1]
+3b | 1.5.2 | pressing harder increases the friction (resistive) force, so more work is done and more heat produced [B1]
+3ci | 1.7.2 | work = force × distance [C1] ;; work in one movement = 1.2 × 0.080 = 0.096 J [C1] ;; number of movements = 2.0 ÷ 0.096 = 21 [A1]
+3cii | 1.7.5 | power = work ÷ time [C1] ;; 0.096 ÷ 0.20 = 0.48 W [A1]
+4a | 3.1 | {F} reflection of water waves at a barrier: at least three reflected wavefronts with the same wavelength as before [B1] ;; drawn at the correct angle (angle of reflection = angle of incidence) [B1]
+4bi | 3.1 | {F} wavefronts passing into shallow water parallel to the boundary: no change in direction, with a smaller, constant wavelength [B1]
+4bii | 3.1 | in the shallow water the wave speed reduces [B1] ;; the frequency stays constant [B1]
+5ai | 3.2.4 | {F} blue light through a prism: refracted in the correct direction at both faces [B1] ;; deviated more than red, so the blue and red rays diverge [B1]
+5aii | 3.2.4 | colours between red and blue in the spectrum, any two: orange, yellow, green [B1]
+5bi | 3.2.2 | {F} no light emerges because the angle of incidence is greater than the critical angle – total internal reflection [B1]
+5bii | 3.2.4+3.2.1 | no spectrum is produced by reflection because all colours are reflected at the same angle (i = r for every colour) [B1]
+6a | X4.3 | variable resistor
+6b | 4.2.4 | current-p.d. sketch for a filament lamp: a curved line starting at the origin [C1] ;; with decreasing gradient (curving towards the p.d. axis) [A1]
+6ci | 4.2.4 | the resistance of a filament lamp increases as the p.d. increases [B1]
+6cii | 4.2.4 | shown by the gradient of the current-p.d. graph decreasing – the current is lower than a proportional increase would give (R = V/I is larger) [B1]
+7ai | 4.2.4+X4.3 | I = V/R with the total series resistance = 6 ÷ (800 + 1600) [C1] ;; 0.0025 A (2.5 mA) [A1]
+7aii | 4.2.4 | p.d. across one resistor = IR = 0.0025 × 1600 = 4 V [B1]
+7b | XOLD | EITHER: capacitor charges up when the switch is closed (takes time); OR: small base current switches the transistor on
+8a | X4.5 | induction
+8b | X4.5 | induction
+8c | X4.5 | induction
+9ai | XOLD | range
+9aii | XOLD | range
+9bi | XOLD | sensitivity
+9bii | XOLD | sensitivity
+9c | XOLD | clinical thermometer
+9di | XOLD | thermocouple
+9dii | XOLD | thermocouple
+9ei | 1.7.5 | energy supplied = Pt with time in seconds = 80 × 5.0 × 60 [C1] ;; 24 000 J [A1]
+9eii | X2.2 | mcΔT
+10a | X1.8 | hydraulic brakes
+10bi | X1.8 | P = F/A
+10bii | X1.8 | F = PA
+10biii | 1.5.5 | brake pedal as a lever: the distance from the foot to the pivot is larger than the distance from the piston to the pivot [B1] ;; force × distance (the moment) is the same for both, so the force on the piston is larger [B1]
+10ci | X2.1 | gas pressure
+10cii | X2.1 | gas pressure
+10ciii | X2.1 | Boyle's law
+10d | X1.8 | air in brake fluid
+11a | X5 | radiation table
+11bi | X5 | half-life
+11bii | X5 | tracer choice
+11biii | X5 | half-life choice
+11biv | X5 | half-life choice
+11ci | X5 | random
+11cii | X5 | half-life
+11ciii | X5 | background

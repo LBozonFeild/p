@@ -1,0 +1,113 @@
+ORDER A T B C D Z
+== A | Energy stores | store|chemical|elastic|energy | 5
+- Energy stored in a battery or cell: chemical (potential) energy; the useful energy output from a battery is electrical.
+- Energy stored in a fuel (coal, oil, a fuel gas) before it is burnt: chemical (potential) energy – with no other energy named.
+- Energy used by a person to do work, or stored in muscles: chemical (potential) energy.
+- Energy stored in a stretched spring or a stretched rubber band: elastic (strain) potential energy.
+- A turning turbine possesses kinetic energy.
+- Water has least gravitational potential energy at its lowest point.
+- A load pulled down on a spring and held: the energy stored in the spring is larger at the lower position; the gravitational potential energy of the load is larger at the higher position.
+- When the formulas are asked for together: gravitational potential energy = mgh and kinetic energy = ½mv² (both needed for the mark).
+- Total energy emitted in pulses = number of pulses × energy of each pulse (C1, A1).
+* Batteries, fuels and food are chemical energy stores; the energy stored is measured in joules.
+* Gravitational potential energy is greatest at the highest point; for equal masses the highest object has the most.
+* A ball on a curved track has its maximum kinetic energy at the lowest point, where its gravitational potential energy is least.
+== T | Energy transfers: describing the changes | →|to kinetic|to thermal|to heat|transferred|converted|energy changes?|transfers|changes from|energy forms|energy chain|outputs | 4
+- Falling object: gravitational potential energy to kinetic energy (a change must be stated; "GPE to KE" is accepted).
+- Falling at constant (terminal) speed: gravitational potential energy (B1) is transferred to thermal / internal energy – heat, kinetic energy of the air (B1) – not to kinetic energy of the falling object, whose kinetic energy does not change.
+- Falling water whose speed is unchanged at the bottom: kinetic energy to internal (thermal) energy; "energy to sound" and "back to GPE in splashes" are ignored.
+- Falling pieces: gravitational potential energy is transferred to (any two) kinetic energy; heat / thermal / internal energy; sound.
+- Braking: from kinetic energy (B1) – and from gravitational potential energy on a slope – to thermal (heat / internal) energy (B1), with no intermediate energy stated.
+- Brakes heat up because friction produces thermal energy / kinetic energy is changed to heat / work is done against friction.
+- A ball stopping on the ground, or an inelastic collision: kinetic energy becomes internal / thermal energy (of the ball and ground, of the vehicles or the air); in a collision kinetic energy of one vehicle may go to kinetic energy of the other.
+- Energy forms that increase as a skateboarder descends: kinetic energy (B1); thermal / internal energy or sound (B1). A vehicle running downhill: some energy is transferred to heat (B1) and some to kinetic energy (B1).
+- Collapsing gas cloud, or matter falling together under gravity: gravitational potential energy (it decreases) to kinetic energy (B1 or C1), then to internal (thermal) energy and light (B1 or A1).
+- Accelerating car, or aeroplane accelerating at constant height: chemical (potential) energy of the fuel (B1) to kinetic energy (B1), with thermal energy also produced (B1). The store that decreases is the fuel / chemical energy.
+- Car accelerating up a hill: chemical energy of the fuel decreases (B1); gravitational potential energy increases (B1); kinetic energy increases (B1).
+- Rocket accelerating upwards: chemical (potential) energy at the start (B1), to gravitational potential energy (B1), heat (B1) and kinetic energy (B1).
+- A ship or vehicle at constant speed: chemical (potential) energy (B1) to thermal energy / heat – no gain in kinetic energy (B1).
+- Pedalling uphill at constant speed, or lifting a load at constant speed by hand: chemical energy of the person decreases (B1); gravitational potential energy increases (B1); thermal (internal) energy is produced, from friction (B1).
+- A stretched rope or spring released: elastic (strain) potential energy (B1) to kinetic energy / gravitational potential energy (B1).
+- Bungee jumper while the rope stretches (no air resistance): gravitational potential energy (B1) and kinetic energy at the start (B1) are transferred to elastic (strain) potential energy by the lowest point, with no intermediate form (B1).
+- Battery, motor and pulley lifting a load (any three): reduction in the chemical energy store of the battery; electrical work done by the motor; mechanical work done on the weight; increase in the gravitational potential energy store of the weight; increase in thermal energy (in the motor or the air); electrical heating by the current.
+- How energy becomes thermal when a motor lifts a load (any one): friction / air resistance; electrical heating.
+- Electric pump: electrical energy supplied (B1); kinetic energy of the water and moving parts produced (B1); some thermal (internal) energy produced (B1).
+- Water wheel driving a generator (any two): potential energy of the water to kinetic energy (of the water or wheel); kinetic energy of the wheel to electrical energy.
+- Filament lamp: electrical energy in (B1), to heat (thermal / internal) energy (B1) and light (B1).
+- Cells: chemical (potential) energy (B1) to electrical energy (B1). Charging a rechargeable battery: electrical energy (B1) converted to chemical energy stored in the battery (B1).
+- Rubbing hands together: chemical (or kinetic) energy (B1) is converted to heat (B1).
+- Useful energy outputs from a mobile phone (any two): light; sound; radio / microwave / electromagnetic waves.
+- Solar charger: nuclear energy in the Sun, then light, then electrical (B1); chemical energy in the battery (B1).
+- An oscillating load stops because of friction / air resistance: thermal energy (heat) is produced.
+- The extra kinetic energy after an explosion comes from chemical (potential) energy stored in the fuel.
+- Roller coaster: going downhill the gravitational potential energy decreases (B1) and kinetic energy is gained (B1); going uphill kinetic energy changes back to potential energy (B1).
+* Coal-fired power station (boiler, turbine, generator): chemical → heat → kinetic → electrical; the turbine gives out kinetic energy and the generator electrical energy.
+* Hydroelectric power station: gravitational potential energy → electrical energy. Wind turbine: kinetic energy → electrical energy.
+* An electric heater or kettle transfers energy by electrical work to a thermal store; a motor transfers energy electrically to a kinetic store; a current in a resistor transfers energy to internal (thermal) energy.
+* A battery-driven motor lifting a load at constant speed: chemical → gravitational potential (the kinetic energy does not change).
+* A dropped ball that bounces: gravitational potential → kinetic → elastic potential (while squashed against the ground) → kinetic.
+* A diver slowing down while moving down through water loses both kinetic and gravitational potential energy; both end up as thermal energy.
+* A ball rolling down a track and stopping lower on the other side: potential → kinetic + heat → potential + heat (heat is produced on the way down as well as on the way up).
+* Wasted transfer: kinetic energy to thermal energy by friction. A useful chain: chemical (person) → elastic → kinetic → electrical → sound.
+* A spacecraft in a circular orbit at constant height keeps the same kinetic and gravitational potential energy, so no energy is transferred; a car at constant speed still transfers energy from the fuel to thermal energy.
+* At constant speed on level ground the work done by a cyclist equals the thermal energy produced (work against friction and air resistance).
+== B | Kinetic energy (Ek = ½mv²) | KE = ½mv²|K\.E\. = ½mv²|Ek = ½mv²|kinetic energy = ½mv²|E = ½mv²|KE ∝|twice the mass | 2
+- Kinetic energy = ½mv², where m is the mass of the object.
+- Calculation marks: KE = ½mv², algebraic or numerical (C1); the numerical substitution (C1) – a correct substitution also earns the formula mark; answer (A1).
+- Use the total mass that is moving (the combined mass and common velocity after a collision; rider plus vehicle).
+- Speed from kinetic energy: v² = 2Ek ÷ m (C1), then the square root (A1). Mass from kinetic energy: m = 2Ek ÷ v² (C1 for the equation or rearrangement, C1 for the substitution, A1).
+- Use the mass in kilograms.
+- The speed may have to be read from a graph (for example the terminal speed) or found first from distance ÷ time.
+- If all the kinetic energy becomes internal energy: ½mv² = energy needed, then solve for v (C1, A1).
+- An object of twice the mass at the same speed has twice the kinetic energy; if twice the energy is needed to melt it (M1) and it has twice the kinetic energy, the mass cancels (M1), so the result is unchanged (A1).
+* Kinetic energy is proportional to v²: doubling the speed multiplies it by four; halving the mass and doubling the speed doubles it. The speed matters more than the mass because it is squared.
+* Use SI units: 56 g = 0.056 kg; 1500 m/minute = 25 m/s.
+* v = √(2Ek ÷ m).
+== C | Gravitational potential energy (ΔEp = mgΔh) | mgh|mgΔh|weight × (vertical )?height|g\.p\.e\. ÷|ΔGPE|P\.E\. ÷ | 3
+- Change in gravitational potential energy: ΔEp = mgΔh (C1 with the substitution); answer (A1). It equals weight × height.
+- Use the vertical height, the mass in kilograms and the height in metres.
+- Use the mass of the object that is raised only (for example the mass of the water only).
+- Rearranged: h = Ep ÷ (mg) and m = Ep ÷ (gh) (C1, A1). When the total height is asked for, add the initial height (C1, C1, A1).
+- Change in gravitational potential energy per kilogram = g × h.
+* The change in gravitational potential energy = weight × vertical height moved, whatever path the load takes – not the distance along the slope and not the horizontal distance.
+* Only the mass left at the top has gained potential energy overall (a lorry that returns to the bottom has not).
+== D | Conservation of energy; energy that is wasted | principle of conservation|conservation of energy|k\.e\. gained = g\.p\.e\. lost|gain in KE = loss|kinetic energy gained = g\.p\.e\. lost|is less than|less than calculated|actual speed|much larger than|why |launch speed|land at the same speed|rises less|cannot rise|returns to its starting|GPE \(= KE\)|set equal to the GPE|all the kinetic energy becomes|does not increase|released from rest|at terminal velocity the kinetic|falling at constant speed: kinetic|most kinetic energy at the lowest | 1
+- Principle of conservation of energy: energy cannot be created or destroyed (B1); it can only be transferred from one store (form) to another (B1). "The total energy of an isolated system is constant" is also credited.
+- Applied to a motor lifting a load: the total energy is constant (B1); energy from the power supply = energy gained by the weight + thermal energy, to the air or due to friction (B1). Electrical energy changes to potential energy (and kinetic energy and heat).
+- A journey that starts and ends at rest at the same height: the total stays constant and all the chemical energy used ends up as heat.
+- With no friction or air resistance, loss in gravitational potential energy = gain in kinetic energy: ½mv² = mgΔh (C1); v = √(2gΔh) (C1); answer (A1).
+- Height from a speed: mgh = ½mv² or the use of h = v² ÷ 2g (1); answer (1) – the value for g = 10 N/kg is accepted.
+- Kinetic energy at a lower point = loss of gravitational potential energy = mg × height fallen (C1, C1, A1 with the potential energy at the top).
+- Minimum height for a given kinetic energy: mgh = kinetic energy needed, so h = Ek ÷ (mg) (C1, A1). If all the kinetic energy becomes gravitational potential energy: h = KE ÷ mg; give 2 or 3 significant figures to match the data.
+- At the lowest point of a bungee jump all the energy is elastic potential energy; part-way, kinetic energy = loss of gravitational potential energy − energy stored.
+- Smooth track, released from rest: the speed is greatest at the lowest point and least at the highest (a lower height means more kinetic energy).
+- Frictionless track: the car cannot rise above its starting height – the gravitational potential energy gained cannot be greater than the original; it travels back and returns to its starting point.
+- Objects of different mass dropped from the same height land at the same speed (no air resistance), because both gravitational potential energy and kinetic energy are proportional to mass / the mass cancels / they have the same acceleration g.
+- Why the gain in kinetic energy is less than the loss of gravitational potential energy: air resistance / friction (B1); heat (thermal energy) or sound is produced – work is done against friction or air resistance (B1).
+- Why the gravitational potential energy gained is less than the electrical energy supplied (any two): the motor / mass has kinetic energy; heat is generated in the motor / wires; heat is generated in the air due to drag; work is done to lift the string.
+- Why the work done is much larger than the gravitational potential energy gained: friction at the axle, drag, or a chain is lifted as well (B1); so heat is produced / work is done against friction or drag / work is done raising the chain (B1).
+- Why the electrical output is much less than the energy in the fuel: some chemical energy is transferred to thermal energy (and sound and light) (B1); thermal energy is lost to the air / water / buildings / equipment (B1).
+- Why a temperature rise is less than calculated, or the real speed must be greater than calculated (any one or two as asked): some thermal energy is transferred to the ground, air or wall; work is done deforming or shattering the object or compressing the ground; the object bounces; air resistance reduces the speed; heat is also needed to raise the object to its melting point.
+- Work is done by the driving force but the kinetic energy does not increase, because an equal amount of work is done against the drag: the energy becomes heat.
+- A load lowered on a spring by a person: the chemical energy of the person / the gravitational potential energy of the load decreases while the energy stored in the spring increases (B1); the increase in spring energy is greater than the decrease in gravitational potential energy, and the difference is the work done by the person (B1).
+* At terminal velocity the kinetic energy is constant, so the loss of gravitational potential energy equals the thermal energy produced (work done against air resistance).
+* With no air resistance the total energy (gravitational potential + kinetic) is the same at every point; part-way down the object has both.
+* A bouncing ball rises less each time because some kinetic energy is converted to thermal energy at each bounce; a pendulum has most kinetic energy the first time it passes its lowest point.
+* Final kinetic energy = gravitational potential energy lost − work done against friction.
+== Z | Other points
+MOVE w23_22|2bii|T
+MOVE w15_22|1bi|T
+MOVE w14_22|4b|T
+MOVE s11_22|2a|T
+MOVE s15_11|MCQ11|T
+MOVE w17_22|2cii|T
+MOVE s25_22|2d|T
+MOVE s25_21|3a|T
+MOVE s12_12|MCQ13|T
+MOVE s06_1|MCQ11|T
+MOVE s13_12|MCQ13|T
+MOVE w10_21|3bii|T
+MOVE w11_22|10bii|B
+MOVE w20_11|MCQ17|C
+MOVE s20_11|MCQ17|D
+MOVE s16_11|MCQ11|D
