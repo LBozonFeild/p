@@ -1,0 +1,848 @@
+# Answers
+
+Every answer gives the **result**, the **working** (why it is what it is), and the **mark points**. Check your method against the working — the method is what earns marks in the exam.
+
+## Section 2 — Iteration and nested constructs
+
+**Answer 1** (3 marks)
+**Pseudocode:**
+```
+Total ← 0
+FOR I ← 1 TO 10
+    Total ← Total + I ^ 2
+NEXT I
+OUTPUT Total
+```
+**Python:**
+```
+total = 0
+for i in range(1, 11):
+    total = total + i ** 2
+print(total)
+```
+**Why:** the till starts at 0; each lap adds the square of the lap number (1 + 4 + 9 + ... + 100 = 385). The loop counter is the number being squared — no literal 385 anywhere.
+Mark points: initialising __Total__ (1); loop 1 to 10 accumulating the square of the counter (1); output of the calculated total (1). Accept __I * I__ / `i * i`.
+
+**Answer 2** (2 marks)
+Outputs __3, 5, 7__ (three lines). __STEP 2__ visits 3, 5, 7 — then 9 would exceed the end value 7, so the loop stops (the fence-post rule: __TO 7__ includes 7).
+**Python:** `for i in range(3, 8, 2): print(i)` — the end is 8 because `range` stops **before** its end value.
+Mark points: correct output 3, 5, 7 (1); correct `range(3, 8, 2)` (1).
+
+**Answer 3** (3 marks)
+**Pseudocode:**
+```
+I ← 1
+WHILE I <= 10 DO
+    OUTPUT I * 2
+    I ← I + 1
+ENDWHILE
+```
+**Python:**
+```
+i = 1
+while i <= 10:
+    print(i * 2)
+    i = i + 1
+```
+**Why:** a WHILE loop needs everything the FOR gave for free: the counter initialised before the loop (__I ← 1__), the test (__I <= 10__ — inclusive, or you lose the lap where I = 10), and the manual increment (the hamster-wheel rule).
+Mark points: initialise the counter (1); correct inclusive condition (1); increment and correct WHILE structure (1).
+
+**Answer 4** (2 marks)
+The condition __I < 5__ should be __I <= 5__ — with __<__ the loop stops when __I__ reaches 5, so 5 is never printed (one fence post too few). Python: `while i <= 5:`.
+Mark points: identifying the wrong condition (1); correcting it in both languages (1).
+
+**Answer 5** (3 marks)
+__UNTIL__ stops when the condition is **TRUE**, so this loop stops when the mark is **invalid** (__Mark < 0 OR Mark > 100__ becomes true) and keeps asking while it is valid — exactly inverted. The stopping state must be "valid":
+```
+REPEAT
+    INPUT Mark
+UNTIL Mark >= 0 AND Mark <= 100
+```
+Mark points: explaining the UNTIL polarity (1); corrected condition with both bounds and __AND__ (1); correct final code (1).
+
+**Answer 6** (2 marks)
+(a) **FOR** — 20 marks means 20 known laps; the count is fixed before the loop starts.
+(b) **REPEAT ... UNTIL** — at least one question must be asked (the body runs once minimum), and the loop stops when the password becomes "Open123".
+(c) **WHILE** — the box is checked **before** each slice; if it starts empty, zero slices are eaten.
+Mark points: one per situation with a fitting justification (award 2 of 3 for one correct and one partially justified).
+
+**Answer 7** (3 marks)
+**Error 1:** __Total__ is never initialised — the till starts at garbage; it needs __Total ← 0__ before the loop. **Error 2:** __TO 4__ stops at 4 (fence post) while the question wants 1 to 5.
+```
+Total ← 0
+FOR I ← 1 TO 5
+    Total ← Total + I
+NEXT I
+OUTPUT Total
+```
+The corrected code prints 15.
+Mark points: missing initialisation (1); wrong upper bound (1); corrected code (1).
+
+**Answer 8** (3 marks)
+**Pseudocode:**
+```
+Count ← 0
+FOR I ← 1 TO 5
+    INPUT Value
+    IF Value > 10 THEN
+        Count ← Count + 1
+    ENDIF
+NEXT I
+OUTPUT Count
+```
+**Python:**
+```
+count = 0
+for i in range(1, 6):
+    value = int(input("Number: "))
+    if value > 10:
+        count += 1
+print(count)
+```
+**Why:** a counter (clicker) with the IF as the test — one click per value over 10. The counter starts at 0.
+Mark points: counter initialised (1); loop of 5 inputs (1); correct test, increment and output (1).
+
+**Answer 9** (3 marks)
+**Pseudocode:**
+```
+IF Age < 13 THEN
+    OUTPUT "Child"
+ELSE
+    IF Age < 20 THEN
+        OUTPUT "Teen"
+    ELSE
+        OUTPUT "Adult"
+    ENDIF
+ENDIF
+```
+**Python:** the same nested inside else (or the elif ladder). Age 10 → **Child** (fails the first test's bound... 10 < 13 → Child); Age 15 → **Teen** (not < 13, but < 20); Age 22 → **Adult** (neither).
+Mark points: correct nested structure (1); correct outputs for 10, 15, 22 (1); correct ELSE logic — the second test only applies to 13-and-overs (1).
+
+**Answer 10** (3 marks)
+```
+count = 0
+for mark in marks:
+    if mark >= 80:
+        count += 1
+        print("Distinction")
+    elif mark >= 50:
+        count += 1
+        print("Pass")
+    else:
+        print("Fail")
+print(count)
+```
+**Why:** the three shortcuts are for-each (`for mark in marks` — no index needed), += (`count += 1` twice), and elif (the nested IF flattened; identical logic, tested top to bottom).
+Mark points: one per shortcut applied correctly.
+
+**Answer 11** (2 marks)
+Prints __15 0__. The loop adds 5 + 4 + 3 + 2 + 1 = 15 while counting __n__ down to 0; `total += n` is `total = total + n`, `n -= 1` is `n = n - 1`; the loop stops because __n > 0__ finally fails.
+**Pseudocode equivalent:**
+```
+N ← 5
+Total ← 0
+WHILE N > 0 DO
+    Total ← Total + N
+    N ← N - 1
+ENDWHILE
+OUTPUT Total, N
+```
+Mark points: 15 (1); 0 (1).
+
+## Section 3 — Strings
+
+**Answer 12** (3 marks)
+(a) **8**  (b) **"mpu"**  (c) **"O"**.
+Python: `len(text)` → 8; `text[2:5]` → "mpu"; `text[1:2].upper()` → "O".
+**Why:** positions are C=1, o=2, m=3, p=4, u=5 ... __SUBSTRING(Text, 3, 3)__ starts at bead 3 ("m") and takes 3 beads: "mpu". __SUBSTRING(Text, 2, 1)__ is "o", upper-cased to "O". Python beads are numbered one lower: position 3 = index 2.
+Mark points: one per part.
+
+**Answer 13** (2 marks)
+__SUBSTRING("HELLO", 2, 3)__ = **"ELL"** (beads 2, 3, 4). __LENGTH__ of that = **3**.
+Python: `"HELLO"[1:4]` — start at index 1 (bead 2), stop before index 4.
+Mark points: "ELL" (1); length 3 and correct slice (1).
+
+**Answer 14** (4 marks)
+**Pseudocode:**
+```
+INPUT S
+Count ← 0
+FOR I ← 1 TO LENGTH(S)
+    Ch ← LCASE(SUBSTRING(S, I, 1))
+    IF Ch = "e" THEN
+        Count ← Count + 1
+    ENDIF
+NEXT I
+OUTPUT Count
+```
+**Python:**
+```
+s = input("Text: ")
+count = 0
+for ch in s:
+    if ch.lower() == "e":
+        count += 1
+print(count)
+```
+**Why:** one walk of the necklace, one look per bead; normalising the case (LCASE/lower) makes "E" and "e" count together. (Python shortcut `if ch.lower() in "e":` also works but `==` is clearer here.)
+Mark points: loop over the whole string (1); extracting each character (1); case-insensitive comparison (1); counting and outputting (1).
+
+**Answer 15** (3 marks)
+**Pseudocode:**
+```
+INPUT S
+Reversed ← ""
+FOR I ← LENGTH(S) TO 1 STEP -1
+    Reversed ← Reversed + SUBSTRING(S, I, 1)
+NEXT I
+OUTPUT Reversed
+```
+**Python:**
+```
+s = input("Text: ")
+reversed_text = ""
+for i in range(len(s) - 1, -1, -1):
+    reversed_text += s[i]
+print(reversed_text)
+```
+**Why:** walk the necklace from the **last** bead to the first (__STEP -1__), stitching each bead onto the growing string. "ABC" → "C" → "CB" → "CBA". `print(s[::-1])` is the accepted Python shortcut.
+Mark points: downward loop (1); character extraction (1); concatenation and output (1).
+
+**Answer 16** (3 marks)
+(a) `print("-" * 30)`  (b) `if ch.upper() in "AEIOU":`  (c) `print(s[::-1])`.
+**Why:** repetition (`*`) builds the dashes; `in` replaces the long OR chain ("is this bead in the vowel set?"); `[::-1]` is the reverse slice.
+Mark points: one per task.
+
+**Answer 17** (2 marks)
+Output: __8 mpu COMPUTER__ (one line). `len("Computer")` = 8; `s[2:5]` = indexes 2, 3, 4 = "mpu"; `s.upper()` = "COMPUTER".
+**Pseudocode version:**
+```
+S ← "Computer"
+OUTPUT LENGTH(S), SUBSTRING(S, 3, 3), UCASE(S)
+```
+Mark points: 8 and "mpu" (1); "COMPUTER" and correct pseudocode (1).
+
+## Section 4 — Arrays and data tables
+
+**Answer 18** (3 marks)
+**Pseudocode:**
+```
+DECLARE Marks : ARRAY[1:20] OF INTEGER
+FOR I ← 1 TO 20
+    INPUT Marks[I]
+NEXT I
+```
+**Python:**
+```
+marks = []
+for i in range(0, 20):
+    marks.append(int(input("Mark: ")))
+```
+Mark points: declaration of 20 integers (1); loop 20 times (1); input into the element using the counter as index (1).
+
+**Answer 19** (4 marks)
+T:
+| Step | I | A[I] | Max |
+| before loop | - | - | 2 |
+| 1 | 2 | 7 | 7 |
+| 2 | 3 | 4 | 7 |
+| 3 | 4 | 9 | 9 |
+Output: __9__.
+**Why:** __Max__ is seeded from locker 1 (value 2); 7 beats it (Max = 7); 4 loses (unchanged); 9 beats it (Max = 9). The Python twin is identical with `a = [2, 7, 4, 9]`.
+Mark points: __Max__ starts at 2 (1); one mark per correct trace row (3).
+
+**Answer 20** (4 marks)
+**Error 1 — index out of range:** `range(1, 4)` visits 1, 2, 3 but a 3-item list has indexes 0, 1, 2, so `scores[3]` asks for a locker that doesn't exist (IndexError). Fix: `range(0, 3)` or `range(len(scores))`.
+**Error 2 — text plus number:** `"Total: " + total` joins text to an int (TypeError). Fix: `print("Total:", total)`.
+```
+scores = [50, 70, 90]
+total = 0
+for i in range(0, 3):
+    total = total + scores[i]
+print("Total:", total)
+```
+Prints __Total: 210__.
+Mark points: each error identified (2); each fix shown (2).
+
+**Answer 21** (4 marks)
+**Pseudocode:**
+```
+FOR Row ← 1 TO 2
+    Sum ← 0
+    FOR Col ← 1 TO 3
+        Sum ← Sum + Grid[Row, Col]
+    NEXT Col
+    OUTPUT "Row ", Row, " total is ", Sum
+NEXT Row
+```
+**Python:**
+```
+for row in range(0, 2):
+    total = 0
+    for col in range(0, 3):
+        total += grid[row][col]
+    print("Row", row + 1, "total is", total)
+```
+Outputs __Row 1 total is 8__ (3+1+4) then __Row 2 total is 13__ (2+5+6).
+**Why:** the till (__Sum__) is reset **inside the outer loop** — one receipt per row — and the inner loop scans every seat in that row.
+Mark points: nested loop covering both dimensions (2); accumulation with both indices (1); correct totals output inside the outer loop (1).
+
+**Answer 22** (2 marks)
+**Pseudocode:**
+```
+DECLARE Squares : ARRAY[1:5] OF INTEGER
+FOR I ← 1 TO 5
+    Squares[I] ← I ^ 2
+NEXT I
+```
+**Python:**
+```
+squares = []
+for i in range(1, 6):
+    squares.append(i * i)
+```
+Accept `squares = [i * i for i in range(1, 6)]`.
+Mark points: correct storage (1); loop 1 to 5 squaring the counter (1).
+
+**Answer 23** (3 marks)
+```
+SELECT Name FROM Students WHERE Class = "9A" AND Mark >= 80 ORDER BY Mark DESCENDING
+```
+**Why:** both conditions belong in one __WHERE__ joined with __AND__; __ORDER BY ... DESCENDING__ runs the results highest-first.
+Mark points: SELECT Name FROM Students (1); WHERE with AND (1); ORDER BY Mark DESCENDING (1).
+
+**Answer 24** (3 marks)
+Output: **3**.
+**Why:** every row is checked against **both** conditions: Aisha (9A, 84 ✓), Ben (9B ✗ — class fails despite 72), Chen (9A, 91 ✓), Dina (65 ✗), Elias (9A, 78 ✓). Three records survive; COUNT counts them.
+Mark points: correct output 3 (2); correctly identifying the matching records (1).
+
+**Answer 25** (2 marks)
+__StudentID__ — unique to every student, always present, and never changes (a name can repeat or be corrected; a date of birth is shared by twins).
+Mark points: correct field (1); justification (1).
+
+**Answer 26** (3 marks)
+**Pseudocode:**
+```
+FOR I ← 1 TO 5
+    IF Class[I] = "9A" AND Mark[I] >= 80 THEN
+        OUTPUT Name[I]
+    ENDIF
+NEXT I
+```
+**Python:**
+```
+for i in range(0, 5):
+    if class_[i] == "9A" and mark[i] >= 80:
+        print(name[i])
+```
+**Why:** a query is a filter loop over the parallel arrays — exactly the __WHERE__ logic written out by hand. (Ordering would need the bubble sort of section 7.3 first.)
+Mark points: loop over the rows (1); both conditions (1); correct output of the name (1).
+
+## Section 5 — Procedures and functions
+
+**Answer 27** (3 marks)
+**Pseudocode:**
+```
+PROCEDURE PrintLine(Symbol : CHAR, Times : INTEGER)
+    DECLARE I : INTEGER
+    DECLARE LineText : STRING
+    LineText ← ""
+    FOR I ← 1 TO Times
+        LineText ← LineText + Symbol
+    NEXT I
+    OUTPUT LineText
+ENDPROCEDURE
+
+CALL PrintLine('*', 10)
+```
+**Python:**
+```
+def print_line(symbol, times):
+    line_text = ""
+    for i in range(1, times + 1):
+        line_text += symbol
+    print(line_text)
+
+print_line('*', 10)
+```
+Prints `**********` (10 stars on one line).
+Mark points: header with both typed parameters (1); loop building the string (1); single output and correct call (1).
+
+**Answer 28** (4 marks)
+**Pseudocode:**
+```
+FUNCTION IsEven(Number : INTEGER) RETURNS BOOLEAN
+    RETURN MOD(Number, 2) = 0
+ENDFUNCTION
+
+Count ← 0
+FOR I ← 1 TO 10
+    INPUT Value
+    IF IsEven(Value) THEN
+        Count ← Count + 1
+    ENDIF
+NEXT I
+OUTPUT Count
+```
+**Python:**
+```
+def is_even(number):
+    return number % 2 == 0
+
+count = 0
+for i in range(1, 11):
+    value = int(input("Number: "))
+    if is_even(value):
+        count += 1
+print(count)
+```
+**Why:** a number is even exactly when the remainder on division by 2 is zero (__MOD(Number, 2) = 0__ / `number % 2 == 0`). The function hands back TRUE/FALSE; the IF treats it as the test.
+Mark points: function header with return type (1); remainder test (1); loop of 10 inputs (1); counting and output (1).
+
+**Answer 29** (3 marks)
+Outputs __25__. Working: __Square(3)__ = 3 × 3 = **9**; __Square(4)__ = 4 × 4 = **16**; 9 + 16 = **25**. Function calls are expressions — each call is replaced by its returned value before the addition.
+**Python:**
+```
+def square(x):
+    return x * x
+
+n = 3
+print(square(n) + square(n + 1))
+```
+Mark points: 9 (1); 16 (1); 25 (1).
+
+**Answer 30** (2 marks)
+Outputs __5__. The __Total__ declared inside the procedure is a **local** (the notepad) shadowing the global (the whiteboard); setting it to 10 changes only the notepad, which is discarded when the procedure ends.
+**Python equivalent:**
+```
+total = 5
+
+def add_up():
+    total = 10      # new local
+
+add_up()
+print(total)        # prints 5
+```
+Mark points: correct output (1); explanation via local vs global (1).
+
+## Section 6 — Files
+
+**Answer 31** (5 marks)
+**Pseudocode:**
+```
+OPENFILE "Scores.txt" FOR READ
+Total ← 0
+FOR I ← 1 TO 10
+    READFILE "Scores.txt", Mark
+    Total ← Total + Mark
+NEXT I
+CLOSEFILE "Scores.txt"
+OUTPUT "Average is ", Total / 10
+```
+**Python:**
+```
+total = 0
+f = open("Scores.txt", "r")
+for i in range(10):
+    mark = int(f.readline())
+    total += mark
+f.close()
+print(f"Average is {total / 10}")
+```
+**Why:** the till accumulates the 10 reads (0 → ... → sum of all marks), then divides by 10. The average must be computed **before** the file is closed but **after** the loop.
+Mark points: open for reading (1); loop 10 times (1); read and accumulate (1); divide by 10 and output (1); close the file (1).
+
+**Answer 32** (2 marks)
+The existing contents are **erased** — __FOR WRITE__ inserts a brand-new empty folder; it does not append. Anything previously in "Notes.txt" is lost.
+**Python equivalent:** `f = open("Notes.txt", "w")` — which likewise truncates the file.
+Mark points: data lost/overwritten (1); because write mode creates a new file rather than adding (1).
+
+**Answer 33** (3 marks)
+A file opened __FOR READ__ cannot be written to with __WRITEFILE__ — and writing must target the **destination** file. Both files are opened at once, one per mode:
+**Pseudocode:**
+```
+OPENFILE "Old.txt" FOR READ
+OPENFILE "New.txt" FOR WRITE
+```
+**Python:**
+```
+f_old = open("Old.txt", "r")
+f_new = open("New.txt", "w")
+```
+Mark points: identifying the mode mismatch (2); correct separate opens (1).
+
+**Answer 34** (4 marks)
+**Pseudocode:**
+```
+DECLARE LineOfText : STRING
+OPENFILE "FileA.txt" FOR READ
+OPENFILE "FileB.txt" FOR WRITE
+READFILE "FileA.txt", LineOfText
+WRITEFILE "FileB.txt", LineOfText
+CLOSEFILE "FileA.txt"
+CLOSEFILE "FileB.txt"
+```
+**Python:**
+```
+f_a = open("FileA.txt", "r")
+f_b = open("FileB.txt", "w")
+line_of_text = f_a.readline()
+f_b.write(line_of_text)
+f_a.close()
+f_b.close()
+```
+**Why:** the folder roles are fixed — source for reading, destination for writing — and both drawers are shut afterwards.
+Mark points: both opens in correct modes (1); read one line (1); write one line (1); both closed (1).
+
+## Section 7 — Standard algorithms and trace tables
+
+**Answer 35** (5 marks)
+**Pseudocode:**
+```
+INPUT Value
+Largest ← Value
+Smallest ← Value
+FOR I ← 2 TO 12
+    INPUT Value
+    IF Value > Largest THEN
+        Largest ← Value
+    ENDIF
+    IF Value < Smallest THEN
+        Smallest ← Value
+    ENDIF
+NEXT I
+OUTPUT "Largest is ", Largest
+OUTPUT "Smallest is ", Smallest
+```
+**Python:**
+```
+value = int(input("Number: "))
+largest = smallest = value
+for i in range(2, 13):
+    value = int(input("Number: "))
+    if value > largest:
+        largest = value
+    if value < smallest:
+        smallest = value
+print("Largest is", largest)
+print("Smallest is", smallest)
+```
+**Why:** the first value seeds both records (better than 0 — negatives exist!), then 11 more values are compared one at a time.
+Mark points: seeding both with the first value (1); loop covering the remaining 11 (1); update largest (1); update smallest (1); both outputs (1).
+
+**Answer 36** (2 marks)
+`print(max(a))` is good Python but earns few or no marks here: the question asks for **the method**, and the syllabus's "standard methods of solution" include finding the maximum as an algorithm — the marker needs to see the seed-first-value-then-scan loop (or an equivalent step-by-step). Using `max(a)` shows awareness but skips the assessed logic. Save shortcuts for the scenario question, where clean Python is explicitly allowed.
+Mark points: recognising the method itself is being tested (1); reference to the standard loop/seed-and-scan approach (1).
+
+**Answer 37** (4 marks)
+T:
+| Iteration | I | A[I] | Found | Position |
+| before loop | 1 | - | FALSE | 0 |
+| 1 | 1 | 7 | FALSE | 0 |
+| 2 | 2 | 2 | FALSE | 0 |
+| 3 | 3 | 9 | TRUE | 3 |
+Output: __3__.
+**Why:** the finger scans lockers 1 and 2 (7, 2 — no match), finds 9 in locker 3 (__Found__ becomes TRUE, __Position__ = 3), and the loop condition __Found = FALSE__ then fails — locker 4 is never visited. (The Python twin would print index 2.)
+Mark points: three correct iterations (3); correct output 3 (1).
+
+**Answer 38** (3 marks)
+**Pseudocode:**
+```
+INPUT Target
+Found ← FALSE
+FOR I ← 1 TO 5
+    IF Names[I] = Target THEN
+        Found ← TRUE
+    ENDIF
+NEXT I
+IF Found = TRUE THEN
+    OUTPUT "Yes"
+ELSE
+    OUTPUT "No"
+ENDIF
+```
+**Python:**
+```
+target = input("Name: ")
+if target in names:          # the 'in' shortcut does the whole search
+    print("Yes")
+else:
+    print("No")
+```
+**Why:** the loop is the register scan; Python's `in` runs exactly that scan behind the scenes. Case must match ("rahim" ≠ "Rahim") unless the question says otherwise.
+Mark points: search loop over 5 names (1); correct flag handling (1); Yes/No output (1).
+
+**Answer 39** (5 marks)
+T:
+| Pass | Comparison | Action | Array after step |
+| 1 | 5 vs 3 | swap | 3, 5, 4 |
+| 1 | 5 vs 4 | swap | 3, 4, 5 |
+| 2 | 3 vs 4 | no swap | 3, 4, 5 |
+| 2 | 4 vs 5 | no swap | 3, 4, 5 |
+Final array: __3, 4, 5__.
+**Why:** pass 1 compares the two neighbour pairs, swapping both times (5 bubbles to the end). Pass 2 finds both pairs already in order — **no swaps at all**, which is the signal that the sort is finished.
+Mark points: first swap correct (2); second swap (1); pass 2 with no swaps (1); final array and reasoning (1).
+
+**Answer 40** (3 marks)
+When __Inner = N__ the comparison reads __A[N + 1]__ — outside the array (index out of range; Python IndexError). The inner loop must stop one element early:
+```
+    FOR Inner ← 1 TO N - Outer
+```
+(__TO N - 1__ also acceptable.) The Python twin of the bug and fix:
+```
+for inner in range(0, n):          # WRONG on the last pass
+for inner in range(0, n - 1 - outer):  # RIGHT
+```
+Mark points: identifying the out-of-range read (2); corrected bound (1).
+
+**Answer 41** (4 marks)
+T:
+| Step | Value | Total | Count |
+| before loop | - | 0 | 0 |
+| 1 | 4 | 4 | 1 |
+| 2 | -2 | 4 | 1 |
+| 3 | 6 | 10 | 2 |
+| 4 | 1 | 11 | 3 |
+| 5 | 0 | 11 | 3 |
+Output: __11, 3__.
+**Why:** 4 passes the __> 0__ test (till 4, click 1); −2 fails it (unchanged); 6 passes (till 10, click 2); 1 passes (till 11, click 3); 0 fails the test, is recorded in the row, and then __UNTIL Value = 0__ stops the loop.
+Mark points: __Total__ column correct (2); __Count__ column correct (1); correct output (1).
+
+**Answer 42** (2 marks)
+A dry-run verifies the **logic** step by step without executing anything — the flight recorder shows every variable at every step, catching wrong conditions, uninitialised variables and arithmetic slips early (and on paper, without a computer). The same trace works for pseudocode and Python because the logic is what moves, not the syntax.
+Mark points: checking/finding errors before running (1); tracking values at each step (1).
+
+## Section 8 — Program development and testing
+
+**Answer 43** (3 marks)
+- **Presence check** — has any username been entered at all?
+- **Length check** — is it exactly 6 characters (__LENGTH(Username) = 6__ / `len(username) == 6`)?
+- **Format check** — does it contain letters only (no digits or symbols)?
+Mark points: one per check with a correct description.
+
+**Answer 44** (3 marks)
+**Validation** (the bouncer) checks that input data is **reasonable and acceptable** — within range, right type/format, present — before processing. **Verification** (the proofreader) checks that data was **entered or transferred accurately** — e.g. a visual check against the source, or double entry where two typings are compared. One judges the data's sense; the other judges the accuracy of the entry.
+Mark points: validation defined (1); verification defined (1); the difference made clear (1).
+
+**Answer 45** (4 marks)
+(a) **Normal:** 15 (any sensible accepted age, 13–19).
+(b) **Abnormal:** "abc" (text where a number is expected). Accept −5, 25, or any clearly invalid value.
+(c) **Extreme:** 13 and 19 — the smallest and largest values that should be **accepted**.
+(d) **Boundary:** 12, 13, 19, 20 — the extreme values **plus** the neighbouring values that must be **rejected**.
+Mark points: one per category; extreme and boundary need values on **both** sides.
+
+**Answer 46** (3 marks)
+(a) **Analysis** — requirements and data identification happen here. (b) **Design** — structure diagrams are design tools. (c) **Testing** — running against sample data is the testing stage.
+Mark points: one per task.
+
+## Section 9 — Flowcharts
+
+**Answer 47** (4 marks)
+- **Terminator** (rounded box): "Start".
+- **Input/Output** (parallelogram): "INPUT Password".
+- **Decision** (diamond): "Password = 'Secret'?" with exits labelled **No** and **Yes**.
+- **No** loops back along a flow line to the point above the input box.
+- **Yes** leads to **Input/Output** (parallelogram): "OUTPUT 'Access granted'".
+- **Terminator** (rounded box): "Stop".
+Mark points: correct shapes for terminator, input/output and decision (2); No branch looping back (1); Yes branch with output and stop, labels present (1).
+
+**Answer 48** (4 marks)
+- **Terminator**: "Start".
+- **Process** box: "Total ← 0", "I ← 1".
+- **Decision** diamond: "I <= 3?" — **Yes** exit down, **No** exit towards the output.
+- Yes path: **Input/Output** "INPUT Value" → **Process** "Total ← Total + Value" → **Process** "I ← I + 1" → flow line back up to the decision.
+- No path: **Input/Output** "OUTPUT Total" → **Terminator** "Stop".
+Mark points: initialisation in a process box (1); decision with loop-back (1); body boxes in order (1); No path with output and stop (1).
+
+**Answer 49** (2 marks)
+(a) A decision must be a **diamond** — the parallelogram is the Input/Output shape. (b) Both decision exits must be labelled (Yes/No or True/False) so the reader can follow each condition's road.
+Mark points: one per error with its correction.
+
+## Section 10 — Boolean logic and logic gates
+
+**Answer 50** (3 marks)
+T:
+| A | B | C | A OR B | NOT C | X |
+| 0 | 0 | 0 | 0 | 1 | 0 |
+| 0 | 0 | 1 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 1 | 1 | 1 |
+| 0 | 1 | 1 | 1 | 0 | 0 |
+| 1 | 0 | 0 | 1 | 1 | 1 |
+| 1 | 0 | 1 | 1 | 0 | 0 |
+| 1 | 1 | 0 | 1 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 0 | 0 |
+Output column: __0, 0, 1, 0, 1, 0, 1, 0__.
+**Why:** build the two intermediate columns first; X takes 1 only where __A OR B__ = 1 **and** __NOT C__ = 1 (i.e. C = 0 and at least one of A, B is 1).
+Mark points: correct intermediate columns (1); correct X column (2).
+
+**Answer 51** (2 marks)
+**OR** lights for **one or both** inputs (1 OR 1 = 1) — either of two doors lets you in, even both. **XOR** lights only when the inputs **differ** (1 XOR 1 = 0) — one slice each, not both. They agree everywhere except the both-1 case.
+Mark points: OR behaviour (1); XOR behaviour with the both-1 case (1).
+
+**Answer 52** (3 marks)
+__X = (A AND NOT B) OR (B AND NOT A)__ — the first term is "A is true and B is not", the second "B is true and A is not". This is the **XOR** gate, so __X = A XOR B__ (or __A EOR B__) is equally correct.
+Mark points: correct expanded expression (2); correct parentheses (1). Full marks for the XOR form.
+
+**Answer 53** (3 marks)
+A **NOT** gate with input __B__. An **AND** gate whose two inputs are __A__ (direct line) and the output of the NOT gate. The AND gate's output is __X__.
+Mark points: AND gate (1); NOT gate on B (1); correct connections (1).
+
+**Answer 54** (4 marks)
+T:
+| A | B | C | A AND B | NOT C | X |
+| 0 | 0 | 0 | 0 | 1 | 1 |
+| 0 | 0 | 1 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 0 | 1 | 1 |
+| 0 | 1 | 1 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 0 | 1 | 1 |
+| 1 | 0 | 1 | 0 | 0 | 0 |
+| 1 | 1 | 0 | 1 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 0 | 1 |
+Output column: __1, 0, 1, 0, 1, 0, 1, 1__.
+**Why:** X is 1 whenever __A AND B__ is 1 **or** __NOT C__ is 1. The only 0 rows are those with C = 1 while A and B are not both 1 (rows 001, 011, 101).
+Mark points: one mark per pair of correct rows (4).
+
+## Section 11 — The scenario question
+
+**Answer 55** (10 marks)
+**Model answer — pseudocode:**
+```
+FUNCTION GetMeals(Day : INTEGER) RETURNS INTEGER
+    REPEAT
+        OUTPUT "Meals sold on day ", Day
+        INPUT Value
+        IF Value < 0 THEN
+            OUTPUT "Invalid: the number must not be negative"
+        ENDIF
+    UNTIL Value >= 0
+    RETURN Value
+ENDFUNCTION
+
+DECLARE Meals : ARRAY[1:10] OF INTEGER
+DECLARE Day : INTEGER
+FOR Day ← 1 TO 10
+    Meals[Day] ← GetMeals(Day)
+NEXT Day
+
+Total ← 0
+FOR Day ← 1 TO 10
+    Total ← Total + Meals[Day]
+NEXT Day
+Average ← Total / 10
+OUTPUT "Total meals sold: ", Total
+OUTPUT "Average per day: ", Average
+
+Highest ← Meals[1]
+FOR Day ← 2 TO 10
+    IF Meals[Day] > Highest THEN
+        Highest ← Meals[Day]
+    ENDIF
+NEXT Day
+OUTPUT "Highest day: ", Highest
+
+Above ← 0
+FOR Day ← 1 TO 10
+    IF Meals[Day] > Average THEN
+        Above ← Above + 1
+    ENDIF
+NEXT Day
+OUTPUT "Days above average: ", Above
+```
+**Model answer — Python (shortcuts used):**
+```
+def get_meals(day):
+    """Ask for one day's sales, rejecting negative values."""
+    while True:
+        value = int(input(f"Meals sold on day {day}: "))
+        if value >= 0:
+            return value
+        print("Invalid: the number must not be negative")
+
+def find_highest(values):
+    highest = values[0]
+    for v in values:
+        if v > highest:
+            highest = v
+    return highest
+
+meals = []
+for day in range(1, 11):
+    meals.append(get_meals(day))
+
+total = 0
+for v in meals:
+    total += v
+average = total / 10
+print(f"Total meals sold: {total}")
+print(f"Average per day: {average}")
+
+print(f"Highest day: {find_highest(meals)}")
+
+above = 0
+for v in meals:
+    if v > average:
+        above += 1
+print(f"Days above average: {above}")
+```
+**Why:** the validation uses REPEAT ... UNTIL (at least one attempt, stops when valid — the tea loop); the ten values are stored in the locker corridor before processing; the largest uses the seed-then-scan method of section 7.1; "above average" is a counting loop with the average as the test. Sanity-check with mental test data (e.g. 10, 10, ..., 10 → total 100, average 10, highest 10, days above average 0).
+Mark points (10, identical for either language): loop collecting exactly 10 stored values (2); validation rejecting negatives and re-asking (2); correct total (1); correct average (1); correct highest (2); correct count above average (2). Credit comments and meaningful names; a single script with complete logic earns the same marks.
+
+# Appendix A — pseudocode and Python side-by-side reference
+
+T:
+| Pseudocode | Python |
+| DECLARE X : INTEGER | x = 0 (comment the type) |
+| CONSTANT Rate ← 5 | RATE = 5 |
+| X ← expr | x = expr |
+| INPUT X | x = int(input("...")) |
+| OUTPUT A, "is", B | print(A, "is", B) or f-string |
+| IF c THEN ... ELSE ... ENDIF | if c: ... else: ... |
+| nested IF inside ELSE | nested if in else (or elif ladder) |
+| CASE OF X ... ENDCASE | nested if / elif ladder |
+| FOR I ← 1 TO N ... NEXT I | for i in range(1, N + 1): |
+| FOR I ← A TO B STEP S | for i in range(A, B + 1, S): |
+| loop over elements | for value in a: (for-each) |
+| WHILE c DO ... ENDWHILE | while c: |
+| REPEAT ... UNTIL c | while True: ... if c: break |
+| Total ← Total + Value | total += value (also -=, *=, /=) |
+| swap via Temp | a[i], a[j] = a[j], a[i] |
+| IF Ch = "A" OR Ch = "E" OR ... | if ch in "AEIOU": |
+| manual total / max / min | sum(a) / max(a) / min(a) |
+| OUTPUT repeated characters | print("-" * 20) |
+| OUTPUT "Total: ", T | print(f"Total: {T}") |
+| reverse loop with STEP -1 | s[::-1] |
+| DIV(A, B) | A // B |
+| MOD(A, B) | A % B |
+| A ^ B | A ** B |
+| X <> Y | X != Y |
+| ARRAY[1:N] OF INTEGER | a = [0] * N (indexes 0 to N-1) |
+| Grid[2, 3] | grid[1][2] |
+| LENGTH(s) | len(s) |
+| SUBSTRING(s, p, l) | s[p-1 : p-1+l] |
+| UCASE(s) / LCASE(s) | s.upper() / s.lower() |
+| ROUND(x, n) / RANDOM() | round(x, n) / random.random() |
+| PROCEDURE P(x : INTEGER) ... CALL P(5) | def p(x): ... p(5) |
+| FUNCTION F(x) RETURNS INTEGER ... | def f(x): return ... |
+| // comment | # comment |
+| OPENFILE "F" FOR READ / WRITE | open("F", "r") / open("F", "w") |
+| READFILE "F", v | v = f.readline() |
+| WRITEFILE "F", v | f.write(str(v)) |
+| CLOSEFILE "F" | f.close() |
+
+# Appendix B — command words
+
+T:
+| Command word | What it means |
+| Calculate | work out from given facts, figures or information |
+| Compare | identify similarities and/or differences |
+| Define | give a precise meaning |
+| Demonstrate | show how, or give an example |
+| Describe | state the points / give characteristics and main features |
+| Evaluate | judge quality, importance, amount or value |
+| Explain | give purposes or reasons; make relationships clear; say why/how |
+| Give | produce an answer from a source or from memory |
+| Identify | name, select or recognise |
+| Outline | set out the main points |
+| Show (that) | provide structured evidence leading to a given result |
+| State | express in clear terms |
+| Suggest | apply knowledge to a situation with a range of valid responses |

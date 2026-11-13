@@ -1,0 +1,532 @@
+# How this guide works
+
+Every subtopic in this guide follows the same recipe:
+
+1. **Explanation** — the idea through an analogy, then worked through with **real values** (actual numbers you can check on paper).
+2. **Examples** — the same algorithm in **pseudocode**, **Python** (shortcuts used openly), and **flowchart** form.
+3. **Common errors** — the traps for that subtopic, at the moment you meet them.
+4. **Practice questions** — try them unaided. **All answers are collected at the back of the guide** (section 12) with full worked explanations and mark points.
+
+N: **The golden exam rule.** In the real Paper 2 exam, every coding answer must be written in **Cambridge pseudocode** — answers in Python score zero, **except** in the final 15-mark scenario question, where pseudocode **or** Python/Visual Basic/Java is allowed. Syntax is never marked: the **logic** earns the marks. Operators must be precise: write __x > y__, never "x is greater than y".
+
+Two things about this guide's layout:
+
+- **Python shortcuts** (elif, +=, for-each, f-strings...) appear inside the examples where they belong, always after the fundamental form they replace.
+- **Databases and SQL are taught inside the arrays section (4.3).** A database table *is* parallel arrays of records, and an SQL query is just a filter loop over them — the same mental model. (The syllabus lists databases as its own Topic 9, so it is examined separately, but you learn it here because that is what it *is*. If you understand arrays, you already understand SQL.)
+
+# 1. The big picture — the analogy map
+
+Every idea in this guide has a mental model. Keep this table; when something feels slippery, find its row and rebuild from the analogy.
+
+T:
+| Idea | Analogy | Real values |
+| Variable | labelled box | Total ← 0, then Total ← Total + 5 holds 5 |
+| FOR loop | counting laps | 5 laps: I takes 1, 2, 3, 4, 5 |
+| WHILE loop | eating pizza | eat while Slices > 0 |
+| REPEAT UNTIL | stirring tea | stir until sugar dissolved |
+| Accumulator | till receipt | 2 + 5 + 1 = 8 |
+| Counter | clicker | 3 people in → Count = 3 |
+| 1D array | numbered lockers | A = [7, 2, 9, 4]; A[3] = 9 |
+| 2D array | cinema seats | Grid[2, 3] = row 2, seat 3 |
+| String | bead necklace | "HELLO": LENGTH = 5 |
+| Procedure | recipe card | CALL PrintLine('*', 5) prints `*****` |
+| Function | blender | Square(3) hands back 9 |
+| Local vs global | notepad vs whiteboard | local Total = 10 leaves global Total = 5 |
+| File | filing cabinet | Scores.txt survives the program |
+| Linear search | register scan | find 9 in [7, 2, 9, 4] → position 3 |
+| Bubble sort | fizzy drink | [5, 3, 4] → [3, 4, 5] |
+| Trace table | flight recorder | record every variable at every step |
+| Validation | club bouncer | age 13–19 rejects 20, accepts 15 |
+| Verification | proofreader | type the password twice, compare |
+| Logic gates | tiny decision machines | two-key safe: A AND B |
+| Database table | spreadsheet | StudentID = exam candidate number |
+
+# 2. Iteration and nested constructs
+
+## 2.1 FOR loops — counting laps on the track
+
+**Explanation.** A FOR loop is a planned number of laps: you decide "5 laps" **before** you start, and a lap counter (__I__) ticks 1, 2, 3, 4, 5. With __FOR I ← 1 TO 5__, the body runs exactly 5 times with __I__ holding 1, then 2, then 3, 4, 5. If the track is closed before you start (__FOR I ← 1 TO 0__), you run **zero** laps. A step is the lap size: __STEP 2__ on 1 to 9 visits 1, 3, 5, 7, 9 — five visits, not nine.
+
+**Examples.** Output the lap numbers 1 to 5:
+
+**Pseudocode:**
+```
+FOR I ← 1 TO 5
+    OUTPUT I
+NEXT I
+```
+**Python (with shortcut):**
+```
+for i in range(1, 6):      # range stops BEFORE 6, so laps 1..5
+    print(i)
+```
+F: for-loop
+
+N:(Common errors) **Fence posts.** __TO 5__ means **5** laps (1, 2, 3, 4, 5) — not 4. Python's `range(1, 5)` gives only 1 to 4; to include 5 write `range(1, 6)`. When a loop "prints one too few", count the fence posts first. Also: if start > end the body never runs — that is correct behaviour, not a bug.
+
+**Practice questions**
+
+Q:(3) Write an algorithm that calculates the sum of the squares of the numbers 1 to 10 (1 + 4 + 9 + ... + 100) and outputs the total, in pseudocode **and** Python. The value 385 must not appear as a literal.
+
+Q:(2) State exactly what this pseudocode outputs, and give the Python line with the same effect.
+```
+FOR I ← 3 TO 7 STEP 2
+    OUTPUT I
+NEXT I
+```
+
+## 2.2 WHILE loops — the pizza check
+
+**Explanation.** A WHILE loop asks **before every** slice: "is there pizza left?" Start with 3 slices: check 3 > 0 (eat → 2), check 2 > 0 (eat → 1), check 1 > 0 (eat → 0), check 0 > 0 (stop). Three slices eaten. Start with 0 slices and you eat **none** — the body can run zero times. The condition is re-tested before each run, and the loop lives only as long as it stays true.
+
+**Examples.** Keep asking for the password until it is correct:
+
+**Pseudocode:**
+```
+Password ← ""
+WHILE Password <> "Secret" DO
+    INPUT Password
+ENDWHILE
+OUTPUT "Access granted"
+```
+**Python (with shortcut):**
+```
+password = ""
+while password != "Secret":
+    password = input("Password: ")
+print("Access granted")
+```
+F: while-password
+
+N:(Common errors) **The hamster wheel.** A WHILE loop whose counter is never incremented runs forever:
+```
+I ← 1
+WHILE I <= 5 DO
+    OUTPUT I
+    // forgot: I ← I + 1
+ENDWHILE
+```
+FOR/NEXT increments for you; in a WHILE loop **you** must write the increment. Also mind the comparison: __I < 5__ prints 1 to 4; __I <= 5__ prints 1 to 5.
+
+**Practice questions**
+
+Q:(3) Rewrite this FOR loop as a WHILE loop in pseudocode **and** Python. It must produce exactly the same output.
+```
+FOR I ← 1 TO 10
+    OUTPUT I * 2
+NEXT I
+```
+
+Q:(2) This loop should output 1 to 5 but outputs 1 to 4. Identify the error and write the corrected line (the same bug exists in the Python version — fix it there too).
+```
+I ← 1
+WHILE I < 5 DO
+    OUTPUT I
+    I ← I + 1
+ENDWHILE
+```
+
+## 2.3 REPEAT ... UNTIL — stirring the tea
+
+**Explanation.** REPEAT ... UNTIL is the stir-and-check loop: you **always stir at least once**, then check "dissolved yet?" — and the loop **stops when the answer is TRUE**. Asking for a password: attempt "abc" (not "Secret" — stir again), attempt "xyz" (again), attempt "Secret" (stop). Three attempts, and any number of wrong ones is allowed. The test happens **after** the body — that is why it always runs at least once, and why the UNTIL condition is the **stopping** state, the opposite of Python's `while`.
+
+**Examples.** Ask for the password until it is correct (at least one attempt guaranteed):
+
+**Pseudocode:**
+```
+REPEAT
+    INPUT Password
+UNTIL Password = "Secret"          // stops when TRUE
+OUTPUT "Access granted"
+```
+**Python (with shortcut):**
+```
+while True:
+    password = input("Password: ")
+    if password == "Secret":
+        break                       # the UNTIL test
+print("Access granted")
+```
+F: repeat-password
+
+N:(Common errors) **UNTIL polarity.** __UNTIL__ stops when the condition is **TRUE** — the sugar must be dissolved. Writing the wrong side inverts the loop:
+```
+REPEAT
+    INPUT Password
+UNTIL Password <> "Secret"    // WRONG: stops when password is NOT "Secret"
+```
+Write the state you want to **stop** on: __UNTIL Password = "Secret"__. The Python twin mistake is forgetting the `if condition: break` entirely.
+
+**Practice questions**
+
+Q:(3) This pseudocode is supposed to keep asking until the user enters a valid mark between 0 and 100 inclusive. It does the opposite. Identify the error and fix it.
+```
+REPEAT
+    INPUT Mark
+UNTIL Mark < 0 OR Mark > 100
+```
+
+Q:(2) For each situation, state whether FOR, WHILE or REPEAT ... UNTIL fits best and justify in one sentence: (a) input exactly 20 exam marks; (b) keep asking for a password until it is "Open123"; (c) keep offering pizza slices while the box is not empty.
+
+## 2.4 Totalling and counting — the till and the clicker
+
+**Explanation.** An accumulator is the **till receipt**: scan prices 2, 5 and 1 and the display goes 0 → 2 → 7 → 8. A counter is the **clicker**: clicking once for each value over 4 among 2, 5, 1 gives one click (only 5 qualifies). Both must be **set to zero before the loop** — the receipt starts at 0.00 — and each is updated inside the loop, one step at a time.
+
+**Examples.** Input 5 prices, output the total and how many were over 4:
+
+**Pseudocode:**
+```
+Total ← 0
+Count ← 0
+FOR I ← 1 TO 5
+    INPUT Price
+    Total ← Total + Price
+    IF Price > 4 THEN
+        Count ← Count + 1
+    ENDIF
+NEXT I
+OUTPUT Total, Count
+```
+**Python (with shortcuts):**
+```
+total = 0
+count = 0
+for i in range(1, 6):
+    price = float(input("Price: "))
+    total += price                  # shortcut for total = total + price
+    if price > 4:
+        count += 1
+print(total, count)
+```
+F: total-count
+
+N:(Common errors) **The till must start at zero.** __Total ← Total + Value__ without __Total ← 0__ first adds to a garbage starting value. And keep the pair apart: prices go in the __Total__, clicks go in the __Count__ — __Count ← Count + Price__ runs perfectly and is perfectly wrong.
+
+**Practice questions**
+
+Q:(3) This pseudocode should output the sum 1 + 2 + 3 + 4 + 5 (= 15). Identify the **two** errors and write the corrected code.
+```
+FOR I ← 1 TO 4
+    Total ← Total + I
+NEXT I
+OUTPUT Total
+```
+
+Q:(3) Write an algorithm in pseudocode **and** Python that inputs 5 integers and outputs how many of them are greater than 10.
+
+## 2.5 Nested IF and nested loops — triage and the cinema
+
+**Explanation.** A nested IF is a **triage of questions**: the second question is only asked if the first sent you down a particular path. Mark 72: is it ≥ 80? No → is it ≥ 60? Yes → "Grade B". One question answered, the next only where needed. Nested loops are the **cinema**: walk every seat in every row — for a 2×3 grid holding [[3, 1, 4], [2, 5, 6]], the row totals are 3+1+4 = 8 and 2+5+6 = 13. The syllabus allows at most **three levels** of nesting.
+
+**Examples.** Grade bands (score 72 → "Grade B") and a row-total loop:
+
+**Pseudocode:**
+```
+IF Score >= 80 THEN
+    OUTPUT "Grade A"
+ELSE
+    IF Score >= 60 THEN
+        OUTPUT "Grade B"
+    ELSE
+        OUTPUT "Grade C"
+    ENDIF
+ENDIF
+
+FOR Row ← 1 TO 2
+    Sum ← 0
+    FOR Col ← 1 TO 3
+        Sum ← Sum + Grid[Row, Col]
+    NEXT Col
+    OUTPUT "Row ", Row, " total is ", Sum
+NEXT Row
+```
+**Python (nested if; shortcut version after):**
+```
+if score >= 80:
+    print("Grade A")
+else:
+    if score >= 60:
+        print("Grade B")
+    else:
+        print("Grade C")
+
+for row in range(1, 3):
+    total = 0
+    for col in range(1, 4):
+        total += grid[row - 1][col - 1]
+    print("Row", row, "total is", total)
+```
+**Python shortcut — the elif ladder** (same logic, flatter; pseudocode has no elif, so exams need the nested form):
+```
+if score >= 80:
+    print("Grade A")
+elif score >= 60:
+    print("Grade B")
+else:
+    print("Grade C")
+```
+F: nested-if
+
+N:(Common errors) **Pairs and indentation.** Every nested __IF__ needs its **own** __ENDIF__ (two IFs above, two ENDIFs below). In Python the nested IF belongs **inside** the else block — one indent deeper; a mis-indented IF silently joins the wrong branch. And in nested loops, use the **right counter** in the body: __Grid[Row, Row]__ looks up the wrong seat.
+
+**Practice questions**
+
+Q:(3) Write nested IF statements in pseudocode **and** Python that output "Child" if __Age__ < 13, "Teen" if __Age__ < 20 (but ≥ 13), and "Adult" otherwise. State what your code prints for ages 10, 15 and 22.
+
+Q:(3) Rewrite this Python program using three shortcuts: for-each, += and elif.
+```
+count = 0
+for i in range(0, len(marks)):
+    mark = marks[i]
+    if mark >= 80:
+        count = count + 1
+        print("Distinction")
+    else:
+        if mark >= 50:
+            count = count + 1
+            print("Pass")
+        else:
+            print("Fail")
+print(count)
+```
+
+Q:(2) State exactly what this Python code prints, and give the pseudocode equivalent of the loop.
+```
+n = 5
+total = 0
+while n > 0:
+    total += n
+    n -= 1
+print(total, n)
+```
+
+# 3. Strings
+
+## 3.1 String operations — the bead necklace
+
+**Explanation.** A string is a necklace of beads, and the operations work exactly as the analogy suggests. Take __S = "HELLO"__: __LENGTH(S)__ counts 5 beads. __SUBSTRING(S, 2, 3)__ snips 3 beads starting at bead 2 — "ELL". __UCASE("ell")__ repaints to "ELL"; __LCASE('W')__ gives 'w'. Strings join with __+__: __"Good" + " " + "morning"__ is "Good morning". Cambridge numbers beads from **1**; Python from **0** — bead 2 for Cambridge is index 1 in Python.
+
+**Examples.** From __Text = "Computer"__, snip the 3 characters starting at position 3 ("mpu") and upper-case the first letter:
+
+**Pseudocode:**
+```
+Text ← "Computer"
+Part ← SUBSTRING(Text, 3, 3)
+First ← UCASE(SUBSTRING(Text, 1, 1))
+OUTPUT Part, First          // outputs: mpu  C
+```
+**Python (with shortcuts):**
+```
+text = "Computer"
+part = text[2:5]              # offset: position 3 = index 2
+first = text[0:1].upper()
+print(part, first)            # outputs: mpu C
+```
+F: substring-linear
+
+N:(Common errors) **The offset trap.** Cambridge bead 3 is Python bead 2: __SUBSTRING(S, 3, 3)__ = `s[2:5]` — the rule is `s[p-1 : p-1+l]`. When a substring answer returns "the wrong letters", check the offset before anything else.
+
+**Practice questions**
+
+Q:(3) The variable __Text__ contains "Computer". Evaluate (a) __LENGTH(Text)__ (b) __SUBSTRING(Text, 3, 3)__ (c) __UCASE(SUBSTRING(Text, 2, 1))__ and give the Python equivalent of each expression.
+
+Q:(2) Evaluate __SUBSTRING("HELLO", 2, 3)__ and __LENGTH(SUBSTRING("HELLO", 2, 3))__. Then give the Python slice that produces the same substring.
+
+## 3.2 Character by character — sliding the magnifying glass
+
+**Explanation.** Processing a string bead by bead means a loop from 1 to __LENGTH(s)__, looking at one bead each time. Count the vowels in "Computer": C no, **o** yes (1), m no, p no, **u** yes (2), t no, **e** yes (3), r no — **3**. The loop visits 8 beads, the counter clicks 3 times. This one pattern answers most string questions: counting, searching, checking rules, rebuilding (reversing = the same walk in **reverse**, bead 8 down to 1, stitching as you go).
+
+**Examples.** Count vowels (case-insensitive) and reverse the string:
+
+**Pseudocode:**
+```
+INPUT S
+Count ← 0
+FOR I ← 1 TO LENGTH(S)
+    Ch ← UCASE(SUBSTRING(S, I, 1))
+    IF Ch = "A" OR Ch = "E" OR Ch = "I" OR Ch = "O" OR Ch = "U" THEN
+        Count ← Count + 1
+    ENDIF
+NEXT I
+OUTPUT Count
+
+Reversed ← ""
+FOR I ← LENGTH(S) TO 1 STEP -1
+    Reversed ← Reversed + SUBSTRING(S, I, 1)
+NEXT I
+OUTPUT Reversed
+```
+**Python (with shortcuts):**
+```
+s = input("Text: ")
+count = 0
+for ch in s:                       # for-each shortcut
+    if ch.upper() in "AEIOU":      # 'in' retires the OR chain
+        count += 1
+print(count)
+
+reversed_text = ""
+for i in range(len(s) - 1, -1, -1):
+    reversed_text += s[i]
+print(reversed_text)
+print(s[::-1])                     # slicing shortcut: same result
+print("-" * 30)                    # repetition: 30 dashes
+print(f"Count: {count}")           # f-string shortcut
+```
+F: vowel-count
+
+N:(Common errors) **Three string traps.** (1) **Case sensitivity:** input "secret" fails against __= "Secret"__ — normalise with __UCASE__ / `.upper()` when the question wants case-insensitive matching. (2) **Text + number in print:** `print("Total: " + total)` is a TypeError — use `print("Total:", total)`, `str(total)`, or an f-string. (3) **Slicing past the end:** `s[0:100]` is harmless in Python (it just stops), but __SUBSTRING__ past the end in pseudocode is a logic error — check lengths first.
+
+**Practice questions**
+
+Q:(4) Write an algorithm in pseudocode **and** Python that inputs a string __S__ and counts how many times the letter "e" appears, in either case. Output the count.
+
+Q:(3) Write an algorithm in pseudocode **and** Python that inputs __S__ and outputs it reversed. For "ABC" the output must be "CBA".
+
+Q:(3) Write one line of Python for each task using a shortcut: (a) print 30 dashes; (b) test whether __ch__ is a vowel using __in__; (c) output __s__ reversed without a loop.
+
+Q:(2) This Python code is run. Write the exact output, then the pseudocode version of the same program.
+```
+s = "Computer"
+print(len(s), s[2:5], s.upper())
+```
+
+# 4. Arrays and data tables
+
+## 4.1 One-dimensional arrays — the corridor of lockers
+
+**Explanation.** An array is a corridor of identical, numbered lockers. With __Marks = [50, 70, 90, 60]__ in lockers 1 to 4: __Marks[3]__ is 90. Cambridge corridors number from 1; Python's from 0 — the same 90 is `marks[2]`. Declare the corridor with a fixed size (__ARRAY[1:4] OF INTEGER__), then walk it with a loop: locker __I__ for __I__ = 1, 2, 3, 4. Asking for __Marks[5]__ in a corridor of 4 is a locker that doesn't exist (**index out of range**). In Python the list can also grow: `marks.append(75)` adds a new locker at the end.
+
+**Examples.** Declare 4 marks, fill from input, echo back locker 3:
+
+**Pseudocode:**
+```
+DECLARE Marks : ARRAY[1:4] OF INTEGER
+FOR I ← 1 TO 4
+    INPUT Marks[I]
+NEXT I
+OUTPUT Marks[3]
+```
+**Python (with shortcuts):**
+```
+marks = []
+for i in range(0, 4):
+    marks.append(int(input("Mark: ")))
+print(marks[2])                  # locker 3 = index 2
+
+for mark in marks:               # for-each: walk without indexes
+    print(mark)
+```
+F: fill-array
+
+N:(Common errors) **Lockers that don't exist.** For __ARRAY[1:30]__ the lockers are __A[1]__ to __A[30]__: a loop from 0, or to 31, walks past the corridor's end. And the numbering differs between languages — Cambridge __Marks[5]__ is Python `marks[4]` (the same offset trap as strings).
+
+**Practice questions**
+
+Q:(3) Write an algorithm in pseudocode **and** Python to declare an array of 20 integer exam marks and fill it with values typed by the user.
+
+Q:(4) The array __A__ holds 2, 7, 4, 9 in positions 1 to 4. Trace the algorithm below (columns __I__, __A[I]__, __Max__), and state what is output.
+```
+Max ← A[1]
+FOR I ← 2 TO 4
+    IF A[I] > Max THEN
+        Max ← A[I]
+    ENDIF
+NEXT I
+OUTPUT Max
+```
+
+Q:(4) This Python program is meant to total the scores 50, 70, 90 and print the total, but it crashes. Identify the **two** errors and write the corrected program.
+```
+scores = [50, 70, 90]
+total = 0
+for i in range(1, 4):
+    total = total + scores[i]
+print("Total: " + total)
+```
+
+## 4.2 Two-dimensional arrays — the cinema
+
+**Explanation.** A 2D array is a cinema: rows of seats, __Grid[Row, Col]__. For the 2×3 cinema [[3, 1, 4], [2, 5, 6]] — row 1 seats hold 3, 1, 4; row 2 holds 2, 5, 6 — __Grid[2, 3]__ is 6 and the row totals are 3+1+4 = **8** and 2+5+6 = **13**. Walking the whole cinema needs **nested loops**: the outer loop takes a row, the inner loop sweeps every seat in it.
+
+**Examples.** Output each row's total:
+
+**Pseudocode:**
+```
+FOR Row ← 1 TO 2
+    Sum ← 0
+    FOR Col ← 1 TO 3
+        Sum ← Sum + Grid[Row, Col]
+    NEXT Col
+    OUTPUT "Row ", Row, " total is ", Sum
+NEXT Row
+```
+**Python (with shortcuts):**
+```
+for row in range(0, 2):
+    total = 0
+    for col in range(0, 3):
+        total += grid[row][col]
+    print("Row", row + 1, "total is", total)
+```
+F: row-totals
+
+N:(Common errors) **Wrong index in the body.** __Grid[Row, Row]__ (using the outer counter twice) silently reads the wrong seat — always check that the inner loop's counter is the one used for the column. Also mind the bases: pseudocode __Grid[2, 3]__ is Python `grid[1][2]`.
+
+**Practice questions**
+
+Q:(4) A 2D array __Grid__ has 2 rows and 3 columns: row 1 is 3, 1, 4 and row 2 is 2, 5, 6. Write an algorithm (pseudocode **and** Python) to output the total of each row. It must work for any stored values.
+
+Q:(2) Show how to build a list/array __Squares__ holding 1, 4, 9, 16, 25 by looping — in both languages.
+
+## 4.3 Database tables and SQL — the spreadsheet with rules
+
+**Explanation.** A database table is a spreadsheet — and a spreadsheet is just **parallel arrays plus rules**. Each **record** is a row (one student), each **field** a column (Name, Mark); the **primary key** is the exam candidate number: unique, never blank, never reused. **SQL** asks the spreadsheet questions in one line. Look at this table as arrays: `name = ["Aisha","Ben","Chen","Dina","Elias"]`, `class_ = ["9A","9B","9A","9B","9A"]`, `mark = [84, 72, 91, 65, 78]` — and the query *"9A students with mark ≥ 80, highest first"* is just a **filter loop** over those arrays (plus a sort). The syllabus examines databases as Topic 9, but the thinking is pure arrays — which is why it lives here.
+
+**Examples.** The same question in SQL, pseudocode and Python:
+
+T:
+| StudentID | Name | Class | Mark |
+| 101 | Aisha | 9A | 84 |
+| 102 | Ben | 9B | 72 |
+| 103 | Chen | 9A | 91 |
+| 104 | Dina | 9B | 65 |
+| 105 | Elias | 9A | 78 |
+
+**SQL (the examinable keywords: SELECT, FROM, WHERE, ORDER BY, SUM, COUNT, AND, OR):**
+```
+SELECT Name FROM Students
+WHERE Class = "9A" AND Mark >= 80
+ORDER BY Mark DESCENDING
+```
+Output: Chen (91), Aisha (84).
+**Pseudocode (the same filter as a loop):**
+```
+FOR I ← 1 TO 5
+    IF Class[I] = "9A" AND Mark[I] >= 80 THEN
+        OUTPUT Name[I], Mark[I]
+    ENDIF
+NEXT I
+```
+**Python (with shortcuts):**
+```
+for i in range(0, 5):
+    if class_[i] == "9A" and mark[i] >= 80:
+        print(name[i], mark[i])
+```
+F: sql-filter
+
+N:(Common errors) **Both conditions, every row.** When predicting SQL output, check each record against **all** the WHERE conditions — __AND__ means both must hold (in the table above, Ben has 72 ≥ 80 but is 9B, so he is out). And choose primary keys for uniqueness: __Name__ can repeat; __StudentID__ cannot.
+
+**Practice questions**
+
+Q:(3) Write an SQL query to list the __Name__ of every student in class "9A" with a __Mark__ of 80 or more, highest mark first.
+
+Q:(3) State the exact output of:
+```
+SELECT COUNT(StudentID) FROM Students WHERE Mark >= 70 AND Class = "9A"
+```
+
+Q:(2) A school table has fields __Name__, __DateOfBirth__, __Class__ and __StudentID__. Suggest a suitable primary key and justify your choice.
+
+Q:(3) Without SQL, write the same filter in pseudocode **and** Python: using the parallel arrays of the Students table, output the names of all students in "9A" with a mark of 80 or more.

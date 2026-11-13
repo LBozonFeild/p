@@ -1,0 +1,553 @@
+# 5. Procedures and functions
+
+## 5.1 Procedures — the recipe card
+
+**Explanation.** A procedure is a recipe card on the wall: __CALL__ means *let's do the recipe now*. It performs a job and hands **nothing** back. __CALL PrintLine('*', 5)__ runs the recipe with __Symbol = '*'__ and __Times = 5__, printing ***** — the ingredients (parameters) are handed in; the recipe works with whatever it is given (up to **three** parameters in the exam). The same card can be used again with different ingredients: __CALL PrintLine('#', 3)__ prints ###.
+
+**Examples.** Draw a line of __Times__ copies of __Symbol__:
+
+**Pseudocode:**
+```
+PROCEDURE PrintLine(Symbol : CHAR, Times : INTEGER)
+    DECLARE I : INTEGER
+    DECLARE LineText : STRING
+    LineText ← ""
+    FOR I ← 1 TO Times
+        LineText ← LineText + Symbol
+    NEXT I
+    OUTPUT LineText
+ENDPROCEDURE
+
+CALL PrintLine('*', 5)
+```
+**Python (with shortcut):**
+```
+def print_line(symbol, times):
+    line_text = ""
+    for i in range(1, times + 1):
+        line_text += symbol               # += shortcut
+    print(line_text)
+
+print_line('*', 5)     # prints *****
+```
+F: procedure-call
+
+N:(Common errors) **CALL is for procedures only.** A function call is an **expression** (it hands a value back) — writing __CALL MaxOf(3, 4)__ is wrong; use __OUTPUT MaxOf(3, 4)__ or put it in an expression. In Python the "call" is just the name: `print_line('*', 5)`.
+
+**Practice questions**
+
+Q:(3) Write a procedure __PrintLine(Symbol : CHAR, Times : INTEGER)__ that outputs one line of __Times__ copies of __Symbol__, and call it to print 10 stars. Provide the Python version too.
+
+## 5.2 Functions — the blender
+
+**Explanation.** A function is a blender: ingredients in (**parameters**), press the button (**call**), and a smoothie comes back (**return value**). __Square(3)__ hands back 9, __Square(4)__ hands back 16, and because the call is an expression it can live inside arithmetic: __OUTPUT Square(3) + Square(4)__ prints **25**. The definition states what comes back (pseudocode: __RETURNS INTEGER__); Python's type follows whatever `return` sends.
+
+**Examples.** A function that compares two values and hands back the larger:
+
+**Pseudocode:**
+```
+FUNCTION MaxOf(Value1 : INTEGER, Value2 : INTEGER) RETURNS INTEGER
+    IF Value1 > Value2 THEN
+        RETURN Value1
+    ELSE
+        RETURN Value2
+    ENDIF
+ENDFUNCTION
+
+OUTPUT "The winner is ", MaxOf(72, 88)      // prints: The winner is 88
+```
+**Python (with shortcut):**
+```
+def max_of(value1, value2):
+    return value1 if value1 > value2 else value2   # or a plain nested if
+
+print("The winner is", max_of(72, 88))
+```
+F: function-call
+
+N:(Common errors) **The empty blender.** A Python function without `return` hands back `None` — silently. The program runs and the garbage appears far from the real bug. In pseudocode, forgetting __RETURN__ inside a __FUNCTION__ (or putting __RETURN__ in a procedure that should return nothing) is the same slip.
+
+**Practice questions**
+
+Q:(4) Write a function __IsEven(Number : INTEGER) RETURNS BOOLEAN__ that returns TRUE when __Number__ is even. Then use it in a program that inputs 10 integers and outputs how many are even. Write both languages.
+
+Q:(3) State exactly what this program outputs, show your working, and give the Python version.
+```
+FUNCTION Square(X : INTEGER) RETURNS INTEGER
+    RETURN X * X
+ENDFUNCTION
+
+DECLARE N : INTEGER
+N ← 3
+OUTPUT Square(N) + Square(N + 1)
+```
+
+## 5.3 Local and global — notepad vs whiteboard
+
+**Explanation.** A variable declared **inside** a subroutine is written in a **personal notepad**: it exists only there and is thrown away afterwards. A variable declared at the top of the program is the **classroom whiteboard** — visible everywhere. Run this story with real values: the whiteboard holds __Total = 5__; the procedure declares its **own** __Total__, sets it to 10 (notepad only), and finishes; the final __OUTPUT Total__ reads the whiteboard — **5**. Python behaves identically: assigning a name inside a function creates a local.
+
+**Examples.** The shadowing story in code:
+
+**Pseudocode:**
+```
+DECLARE Total : INTEGER
+Total ← 5
+PROCEDURE AddUp
+    DECLARE Total : INTEGER
+    Total ← 10
+ENDPROCEDURE
+CALL AddUp
+OUTPUT Total                    // prints 5
+```
+**Python:**
+```
+total = 5
+
+def add_up():
+    total = 10      # a NEW local (the notepad)
+
+add_up()
+print(total)        # prints 5
+```
+F: local-global
+
+N:(Common errors) **The shadowing trap.** If a subroutine declares a name that already exists globally, it gets a **fresh local** — changes inside never travel back out. To change a global's value, work through a **return value** (or in pseudocode, don't re-declare the name inside).
+
+**Practice questions**
+
+Q:(2) What does this program output? Explain why, then show the Python equivalent and its output.
+```
+DECLARE Total : INTEGER
+Total ← 5
+PROCEDURE AddUp
+    DECLARE Total : INTEGER
+    Total ← 10
+ENDPROCEDURE
+CALL AddUp
+OUTPUT Total
+```
+
+# 6. Files
+
+## 6.1 File operations — the filing cabinet
+
+**Explanation.** Variables live on the desk and are swept away when the program ends; a **file** is the filing cabinet that survives. __FOR READ__ takes a folder out to copy pages; __FOR WRITE__ inserts a **brand-new empty folder** — anything the old one held is gone (that is why writing overwrites, not appends). Work through real values: "Scores.txt" holds 40, 60, 80 — three reads fill the till 0 → 40 → 100 → 180, and the average is 180 ÷ 3 = **60**. Always __CLOSEFILE__ — shut the drawer.
+
+**Examples.** Read 3 marks from "Scores.txt" and output the average:
+
+**Pseudocode:**
+```
+OPENFILE "Scores.txt" FOR READ
+Total ← 0
+FOR I ← 1 TO 3
+    READFILE "Scores.txt", Mark
+    Total ← Total + Mark
+NEXT I
+CLOSEFILE "Scores.txt"
+OUTPUT "Average is ", Total / 3          // prints: Average is 60
+```
+**Python (with shortcuts):**
+```
+total = 0
+f = open("Scores.txt", "r")              # "r" = FOR READ
+for i in range(1, 4):
+    mark = int(f.readline())
+    total += mark
+f.close()
+print(f"Average is {total / 3}")         # f-string shortcut
+```
+F: file-average
+
+N:(Common errors) **Three file traps.** (1) **Write erases:** __FOR WRITE__ / `"w"` truncates the file first — it does not append; opening a file you meant to **keep** for writing destroys it. (2) **The open drawer:** forgetting __CLOSEFILE__ / `f.close()` leaves later reads with stale or missing data. (3) **Mode mismatch:** never __WRITEFILE__ to a file opened __FOR READ__ (or write on `"r"`) — open the source for reading and the destination for writing, both at once.
+
+**Practice questions**
+
+Q:(5) The file "Scores.txt" contains exactly 10 integer exam marks, one per line. Write an algorithm to output their average, in pseudocode **and** Python.
+
+Q:(2) State what happens to the existing contents of "Notes.txt" when this runs, and why. What is the Python equivalent?
+```
+OPENFILE "Notes.txt" FOR WRITE
+```
+
+Q:(3) A student copies "Old.txt" into "New.txt" by opening "Old.txt" and writing to it with __WRITEFILE__. Explain what is wrong and give the corrected opening lines in both languages.
+
+Q:(4) Write a program that copies a single line of text from "FileA.txt" to "FileB.txt", in pseudocode **and** Python.
+
+# 7. Standard algorithms and trace tables
+
+## 7.1 Maximum, minimum and average — the tallest kid
+
+**Explanation.** Finding the tallest kid in a line: assume the **first** kid is tallest, then walk the line updating the record whenever someone beats it. Real values: __A = [3, 9, 4]__: start __Max = 3__; look at 9 — bigger, __Max = 9__; look at 4 — smaller, ignored. So the maximum is **9**. Minimum is the same walk with __<__. Average is the till divided by the count: (3+9+4) ÷ 3 = **5.33...**. The first value must seed __Max__/__Min__ — starting at 0 breaks for negative numbers (a line of negative temperatures would wrongly report max = 0).
+
+**Examples.** Largest and smallest of 3 values:
+
+**Pseudocode:**
+```
+INPUT Value
+Largest ← Value
+Smallest ← Value
+FOR I ← 2 TO 3
+    INPUT Value
+    IF Value > Largest THEN
+        Largest ← Value
+    ENDIF
+    IF Value < Smallest THEN
+        Smallest ← Value
+    ENDIF
+NEXT I
+OUTPUT Largest, Smallest
+```
+**Python (with shortcuts):**
+```
+value = int(input("Number: "))
+largest = smallest = value
+for i in range(2, 4):
+    value = int(input("Number: "))
+    if value > largest:
+        largest = value
+    if value < smallest:
+        smallest = value
+print(largest, smallest)
+# shortcut when the method itself is NOT being tested:
+# print(max(a), min(a), sum(a) / len(a))
+```
+F: max-min
+
+N:(Common errors) **Seeding and direction.** Seed __Max__/__Min__ from the **first value**, not 0. And check the update direction: in a smallest-value search, __IF Value > Smallest__ silently finds the biggest instead. Python shortcut caveat: `max(a)` is great code — but if the question says **"write an algorithm to find the maximum"**, the loop *is* the answer.
+
+**Practice questions**
+
+Q:(5) Write an algorithm in pseudocode **and** Python that inputs 12 integers and outputs the **largest** and the **smallest** of them.
+
+Q:(2) A question says: "Write an algorithm to find the maximum value in an array." A student answers `print(max(a))` in Python. Discuss whether this earns the marks.
+
+## 7.2 Linear search — the register scan
+
+**Explanation.** Run your finger down a class register name by name until you find the target — or reach the bottom. Real values: __A = [7, 2, 9, 4]__, searching for __9__: look at locker 1 (7 ≠ 9), locker 2 (2 ≠ 9), locker 3 (9 = 9 — **found at position 3**), stop; locker 4 is never visited. In Python the same search reports index **2** (0-based). If the target is absent, the finger reaches the end and the answer is "not found" — the __Found__ flag remembers which outcome happened.
+
+**Examples.** Search for __SearchKey__ and report the position:
+
+**Pseudocode:**
+```
+Found ← FALSE
+Position ← 0
+I ← 1
+WHILE Found = FALSE AND I <= 4 DO
+    IF A[I] = SearchKey THEN
+        Found ← TRUE
+        Position ← I
+    ENDIF
+    I ← I + 1
+ENDWHILE
+IF Found = TRUE THEN
+    OUTPUT "Found at ", Position
+ELSE
+    OUTPUT "Not found"
+ENDIF
+```
+**Python (with shortcuts; positions 0-based):**
+```
+found = False
+position = 0
+i = 0
+while found == False and i < 4:
+    if a[i] == search_key:
+        found = True
+        position = i
+    i += 1
+print(f"Found at {position}" if found else "Not found")
+```
+F: linear-search
+
+N:(Common errors) **Two positions, two bases.** The same search reports position 3 in pseudocode and index 2 in Python — answer in the language of the question. And the loop must **stop when found** (the __Found = FALSE__ in the condition); scanning on after a find can overwrite the position with a later match.
+
+**Practice questions**
+
+Q:(4) __A__ holds 7, 2, 9, 4 in positions 1 to 4 and __SearchKey__ is 9. Complete a trace table (columns __I__, __A[I]__, __Found__, __Position__) for the pseudocode above, and state the output.
+
+Q:(3) Write a linear search in pseudocode **and** Python that inputs a name and a list of 5 names, then outputs "Yes" or "No" depending on whether the name is in the list.
+
+## 7.3 Bubble sort — the fizzy drink
+
+**Explanation.** A line of kids sorts by height by repeatedly walking the line, comparing **neighbours** and swapping any pair out of order. Each full walk floats the tallest remaining "bubble" to the end. Real values, sorting [5, 3, 4]: walk 1 compares 5 vs 3 (swap → [3, 5, 4]), then 5 vs 4 (swap → [3, 4, 5]); walk 2 compares 3 vs 4 (no swap), 4 vs 5 (no swap). A walk with **no swaps** means everyone is in order — stop. The inner loop compares __A[Inner]__ with __A[Inner + 1]__, so it must stop **one locker early**.
+
+**Examples.** Sort __A[1]__ to __A[N]__ ascending:
+
+**Pseudocode:**
+```
+FOR Outer ← 1 TO N - 1
+    FOR Inner ← 1 TO N - Outer
+        IF A[Inner] > A[Inner + 1] THEN
+            Temp ← A[Inner]
+            A[Inner] ← A[Inner + 1]
+            A[Inner + 1] ← Temp
+        ENDIF
+    NEXT Inner
+NEXT Outer
+```
+**Python (with shortcuts):**
+```
+for outer in range(0, n - 1):
+    for inner in range(0, n - 1 - outer):
+        if a[inner] > a[inner + 1]:
+            a[inner], a[inner + 1] = a[inner + 1], a[inner]   # swap shortcut
+```
+F: bubble-pass
+
+N:(Common errors) **The neighbour beyond the end.** The inner loop going __TO N__ (Python `range(0, n)`) reads __A[N + 1]__ on its last run — a locker that doesn't exist (Python: IndexError). The bound is __N - Outer__ (or at least __N - 1__). Also note the swap needs the temporary __Temp__ in pseudocode; Python's `a[i], a[j] = a[j], a[i]` does it in one line.
+
+**Practice questions**
+
+Q:(5) Trace one complete bubble sort of [5, 3, 4] (ascending). Show the array after every comparison and swap, and say how you know the sort is finished.
+
+Q:(3) This bubble sort should sort __A[1]__ to __A[N]__ but sometimes crashes. Identify the error, write the corrected inner loop line, and show the same bug in Python form.
+```
+FOR Outer ← 1 TO N - 1
+    FOR Inner ← 1 TO N
+        IF A[Inner] > A[Inner + 1]
+```
+
+## 7.4 Trace tables — the flight recorder
+
+**Explanation.** A trace table is the flight recorder: one **column per variable** (plus OUTPUT), one **row per step**, the initial values first. It works identically for pseudocode and Python, because the logic — not the syntax — is what moves. Worked with real values, tracing __Total ← 0; Count ← 0; REPEAT INPUT Value ... UNTIL Value = 0__ with inputs 5, −3, 2, 0:
+
+T:
+| Step | Value | Total | Count |
+| before loop | - | 0 | 0 |
+| 1 | 5 | 5 | 1 |
+| 2 | -3 | 5 | 1 |
+| 3 | 2 | 7 | 2 |
+| 4 | 0 | 7 | 2 |
+
+Read the story: 5 goes on the till and clicks the counter (5, 1); −3 fails the __> 0__ test (unchanged); 2 adds (7, 2); 0 is processed, then the __UNTIL Value = 0__ test stops the loop. Output: **7, 2**.
+
+N:(Common errors) **Recorder mistakes.** Put the initial row first; show each row **after** that step's changes; keep types consistent (no "TRUE" in a number column); and remember __UNTIL__ is tested **after** the body — the row for the stopping value (0 here) is still written.
+
+**Practice questions**
+
+Q:(4) Complete a trace table (__Value__, __Total__, __Count__) for the REPEAT program above with inputs 4, −2, 6, 1, 0, and state what is output.
+
+Q:(2) Explain why programmers use dry-runs and trace tables before running a program.
+
+# 8. Program development and testing
+
+## 8.1 The PDLC and validation checks — the bouncer
+
+**Explanation.** Building software has four stages: **analysis** (what is needed? decompose the problem), **design** (structure diagrams, flowcharts, pseudocode), **coding** (write it, test as you go), **testing** (run it against test data). Validation is the **bouncer** at the door of your program: input data must pass the checks before it gets inside. The six checks with real values — a registration form wanting a 6-letter username and an age of 13–19: **presence** (is anything typed?), **length** (exactly 6 characters?), **format** (letters only?), **type** (age is a number), **range** (13 ≤ age ≤ 19 — 15 passes, 20 is bounced), **check digit** (like the last digit of a credit card: recalculated and compared).
+
+**Examples.** The bouncer as code:
+
+**Pseudocode:**
+```
+REPEAT
+    INPUT Age
+    IF Age < 13 OR Age > 19 THEN
+        OUTPUT "Invalid age - must be 13 to 19"
+    ENDIF
+UNTIL Age >= 13 AND Age <= 19
+OUTPUT "Welcome"
+```
+**Python (with shortcuts):**
+```
+while True:
+    age = int(input("Age: "))
+    if age < 13 or age > 19:
+        print("Invalid age - must be 13 to 19")
+    else:
+        break                        # passed the bouncer
+print("Welcome")
+```
+F: validation-age
+
+N:(Common errors) **Validation vs verification.** Validation (bouncer) asks "is this data **reasonable**?"; verification (proofreader) asks "was it **copied accurately**?" — comparing two entries of the same password is **verification**, not validation. And validate **before** processing; a program that averages the marks first and checks them later has already crashed.
+
+**Practice questions**
+
+Q:(3) A registration program requires a username that is **exactly 6 characters long** and **letters only**. Identify the validation checks needed and say what each one checks.
+
+Q:(3) Define **validation** and **verification**, making the difference between them clear.
+
+## 8.2 Verification and test data — the proofreader's checklist
+
+**Explanation.** Verification catches **entry** errors: a **visual check** (re-read the typed data against the source) or **double entry** (type it twice; if "Secret123" then "Secretl23", the comparison flags a mismatch). Test data proves the program survives every kind of impact: for age 13–19 — **normal** 15 (accepted), **abnormal** "abc" (rejected: wrong type), **extreme** 13 and 19 (the smallest and largest **accepted**), **boundary** 12, 13, 19, 20 (the extremes **plus** the adjacent **rejected** values). Boundary data is where off-by-one bugs die: a program accepting 12 has a __<=__ where it needs __<__.
+
+**Examples.** Double entry as code:
+
+**Pseudocode:**
+```
+INPUT First
+INPUT Second
+IF First = Second THEN
+    OUTPUT "Entry verified"
+ELSE
+    OUTPUT "Mismatch - retype"
+ENDIF
+```
+**Python:**
+```
+first = input("Type it: ")
+second = input("Type it again: ")
+if first == second:
+    print("Entry verified")
+else:
+    print("Mismatch - retype")
+```
+F: double-entry
+
+N:(Common errors) **Extreme vs boundary.** **Extreme** = the largest/smallest value that should be **accepted** (13, 19). **Boundary** = those values **plus** the neighbours that must be **rejected** (12, 20). Answering "13 and 19" for boundary data loses half the marks — the rejected neighbours are the point.
+
+**Practice questions**
+
+Q:(4) A competition form accepts only ages between 13 and 19 inclusive. Suggest suitable test data of each type: (a) normal (b) abnormal (c) extreme (d) boundary.
+
+Q:(3) Classify each task by PDLC stage (analysis, design, coding or testing): (a) identifying what data the program must store (b) drawing a structure diagram (c) running the program with sample data to find errors.
+
+# 9. Flowcharts
+
+## 9.1 Symbols and conversion — the road map
+
+**Explanation.** A flowchart is the algorithm as a **road map**: boxes are places, arrows are roads, and a diamond is a fork with a yes/no sign. There are exactly **six** legal shapes: **Terminator** (rounded: Start/Stop), **Process** (rectangle: something done), **Decision** (diamond: one question, **two** labelled exits), **Input/Output** (parallelogram), **Subroutine** (rectangle with double side bars: a call to a separate chart), and **Flow line** (arrow). Loops are roads that circle back — no special "loop box". Real values: the password loop below asks the question, and the No road curves back to the input.
+
+**Examples.** The password loop in all three forms:
+
+**Pseudocode:**
+```
+REPEAT
+    INPUT Password
+UNTIL Password = "Secret"
+OUTPUT "Access granted"
+```
+**Python (with shortcut):**
+```
+while True:
+    password = input("Password: ")
+    if password == "Secret":
+        break
+print("Access granted")
+```
+F: repeat-password
+(Diamond or box? The middle shape must be a **diamond** — draw decisions as diamonds, actions as rectangles.)
+
+N:(Common errors) **Shape crimes.** A decision drawn as a parallelogram or rectangle is wrong (diamond!). Unlabelled decision exits are wrong (Yes/No or True/False on **both**). Assignments hiding in input/output parallelograms are wrong (__X ← X + 1__ is a Process). Missing flow-line arrowheads leave the reader guessing the direction.
+
+**Practice questions**
+
+Q:(4) Draw a flowchart for: *Start. Repeatedly ask for a password until the user enters "Secret". Then output "Access granted" and stop.* Describe each box, its shape, and where every flow line goes.
+
+Q:(4) Describe the flowchart for this pseudocode, naming each box's shape and contents, and saying where the loop line goes.
+```
+Total ← 0
+FOR I ← 1 TO 3
+    INPUT Value
+    Total ← Total + Value
+NEXT I
+OUTPUT Total
+```
+
+Q:(2) Sam drew a decision as a parallelogram, and left one exit of the decision unlabelled. State what is wrong in each case and how to fix it.
+
+# 10. Boolean logic and logic gates
+
+## 10.1 The seven gates — tiny decision machines
+
+**Explanation.** A gate is a machine with one or two input levers and a bulb. With real values __A = 1, B = 0__: **AND** (two-key safe) = 0 (both keys must turn); **OR** (two doors) = 1 (one door is enough); **XOR** (one slice each, not both) = 1 (they differ); **NAND** = 1 (AND inverted); **NOR** = 0 (OR inverted); **NOT A** = 0 (opposite day). NOT takes **one** input; all others take **two**. A truth table lists **every combination** of the levers — 2 inputs = 4 rows, 3 inputs = 8 rows, like the outcomes of flipping coins.
+
+**Examples.** __X = (A AND B) OR C__ — *the fan runs when it is hot AND the window is open, OR when the manual switch is on*:
+
+T:
+| A | B | C | A AND B | X = (A AND B) OR C |
+| 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 0 | 1 |
+| 0 | 1 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 0 | 1 |
+| 1 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 0 | 1 |
+| 1 | 1 | 0 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 1 |
+
+**Pseudocode:**
+```
+INPUT A
+INPUT B
+INPUT C
+X ← (A AND B) OR C
+OUTPUT X
+```
+**Python (with shortcut):**
+```
+a = int(input("A: "))     # 0 is False, 1 is True
+b = int(input("B: "))
+c = int(input("C: "))
+x = (a and b) or c
+print(int(x))
+```
+F: gates-eval
+
+N:(Common errors) **Parentheses and rows.** Write expressions with explicit parentheses — __(A AND NOT B) OR C__ — pseudocode has no precedence rules for mixed logical operators. And count the rows: a 3-input truth table **always** has 8 rows (000 to 111); a 6-row table is missing combinations.
+
+**Practice questions**
+
+Q:(3) Complete the truth table for __X = (A OR B) AND NOT C__.
+
+Q:(2) Compare the behaviour of the OR and XOR gates.
+
+## 10.2 Conversions — statement, expression, circuit, truth table
+
+**Explanation.** The exam moves freely between four forms of the same logic: **statement** ("X is TRUE only when exactly one of A, B is TRUE"), **expression** (__X = (A AND NOT B) OR (B AND NOT A)__), **circuit** (an AND on A and NOT-B, another on B and NOT-A, both feeding an OR), and **truth table** (every combination). The key move is translating word by word: "only when" tells you the output rows; "and" = AND gate; "or" = OR gate; "not" = NOT gate. Circuits are drawn **exactly as stated — never simplified** (max 3 inputs, 1 output).
+
+N:(Common errors) **Simplifying.** If the statement says "(A AND B) OR (A AND C)", draw **both** AND gates and the OR — combining them into "A AND (B OR C)" loses marks, even though it is logically equal. And when building a truth table from a circuit, evaluate **one gate at a time** into an extra column (like the __A AND B__ column above) before combining.
+
+**Practice questions**
+
+Q:(3) Write a logic expression (and name the gate) for: *X is TRUE only when exactly one of the inputs A and B is TRUE.*
+
+Q:(3) Describe the logic circuit for __X = A AND NOT B__ (gates and connections).
+
+Q:(4) Complete the truth table for __X = (A AND B) OR (NOT C)__.
+
+# 11. The scenario question
+
+**Explanation.** The last question of Paper 2 is a **15-mark unseen scenario** (~30 minutes). You may answer in **pseudocode, Python, Visual Basic or Java** — everywhere else on the paper, pseudocode only. The marks follow the **logic** (every requirement covered, correct structure, validation where implied) and **maintainability** (meaningful names, comments) — not language tricks. Plan first: name your variables, sketch the main loop (a flowchart sketch on the question paper is allowed and wise), decide on one or two functions, then write. Sanity-check each part with mental test data — a normal value and a boundary value.
+
+**Examples.** *Ask for 5 daily temperatures; output the average and the number of days above 25°.* With real values 20, 26, 30, 24, 25: total 125, average **25**, days above 25: **2** (26 and 30).
+
+**Pseudocode:**
+```
+DECLARE Temps : ARRAY[1:5] OF REAL
+FOR Day ← 1 TO 5
+    INPUT Temps[Day]
+NEXT Day
+Total ← 0
+FOR I ← 1 TO 5
+    Total ← Total + Temps[I]
+NEXT I
+Average ← Total / 5
+OUTPUT "Average temperature: ", Average
+HotDays ← 0
+FOR I ← 1 TO 5
+    IF Temps[I] > 25 THEN
+        HotDays ← HotDays + 1
+    ENDIF
+NEXT I
+OUTPUT "Days above 25 degrees: ", HotDays
+```
+**Python (with shortcuts):**
+```
+temps = []
+for day in range(1, 6):
+    temps.append(float(input(f"Temperature for day {day}: ")))
+
+total = 0
+for value in temps:
+    total += value
+average = total / 5
+print(f"Average temperature: {average}")
+
+hot_days = sum(1 for v in temps if v > 25)      # or a plain counting loop
+print(f"Days above 25 degrees: {hot_days}")
+```
+F: scenario-loop
+
+**Practice questions**
+
+Q:(10) **Scenario practice.** The school canteen records meals sold each day for 10 days. Write a complete program that: asks the user for each day's sales, **rejecting and re-asking on any negative value**; stores the 10 values; outputs the **total** and the **average**; outputs the **highest**; and outputs **how many days were above the average**. Write it in either pseudocode or Python (in the exam, either is allowed for this question only).
