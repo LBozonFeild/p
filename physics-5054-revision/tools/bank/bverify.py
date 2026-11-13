@@ -2,17 +2,21 @@
 """bverify.py [sheets] — verification of the finished bank PDF  -> WORK/bank/verify.json (+ contact sheets with 'sheets')
 
 The PDF is reopened from disk and every page is rendered. Nothing is taken on trust from the build:
- A structure   page count, one record per entry, order of the records, pages of an entry adjacent, question pictures
-               first and scheme pictures directly after them, bookmarks, file size
- B pictures    pass 1 renders every page: no rendering warning, not dark / inverted, not blank, nothing outside the
-               pictures and the grey bars, pictures inside the page. Pass 2 takes every picture: it is on the page at
-               the planned place; its stored pixels are identical to a fresh rendering of the same region of the
-               SOURCE PDF; the page rendered on the pixel grid of the picture shows exactly these pixels; its cut lines
-               (outermost pixel rows) are free of ink; it is shown at original size
+ A structure   page count, one record per entry, order of the records (newest first), pages of an entry adjacent,
+               question pictures first and scheme pictures directly after them (Paper 1: the answer line), bookmarks,
+               file size
+ B pictures    The bank is white on black. Pass 1 renders every page: no rendering warning, the page is dark (white
+               print on black, not a light page), not blank, nothing outside the pictures, the answer lines and the
+               bars, pictures inside the page. Pass 2 takes every picture: it is on the page at the planned place; its
+               stored pixels are identical to the INVERTED fresh rendering of the same region of the SOURCE PDF (source
+               rendered as printed, 16 grey levels, v -> 15 - v); the page rendered on the pixel grid of the picture
+               shows exactly these pixels; its cut lines (outermost pixel rows) are free of ink; it is shown at
+               original size
  C text        header, source lines and footer of every page against the entry (subsection, year, session, paper,
                variant, question, source file names and source page numbers, record ID, page number); the marks of the
                question named in the header of a Paper 2 record against the marks printed on the question paper inside
-               its pictures (EITHER/OR questions: the marks of one alternative)
+               its pictures (EITHER/OR questions: the marks of one alternative); the answer line of every Paper 1
+               record against the key row of the mark scheme, read again from the source PDF
 With 'sheets' it also writes contact sheets of ALL pages (WORK/bank/sheets/cs_NNN.png) for the visual review."""
 import sys, os, re, json, collections
 import numpy as np
@@ -57,8 +61,11 @@ def main(sheets=False):
     for r in rids:
         if r not in seen: order.append(r); seen.add(r)
     check('A2 every entry is in the PDF and no record ID occurs twice',order==[e['rid'] for e in E] and len(set(e['rid'] for e in E))==len(E),f'{len(order)} entries in page order, {len(E)} expected')
-    keyf=lambda e:(bentries.ORDER[e['sec']],e['year'],0 if e['sess'][0]=='s' else 1,e['variant'],e['paper'],e['q'])
-    check('A3 order: subsection, year, session, variant, paper, question number',all(keyf(E[i])<keyf(E[i+1]) for i in range(len(E)-1)),'strictly increasing sort key')
+    # newest first: later year first; within a year October/November before May/June; then variant, paper, question
+    SESS={'October/November':0,'May/June':1}
+    keyf=lambda e:(bentries.ORDER[e['sec']],-int(e['year']),SESS[e['session']],e['variant'],e['paper'],e['q'])
+    check('A3 order: subsection; newest first (year descending, October/November before May/June); variant, paper, question number',all(keyf(E[i])<keyf(E[i+1]) for i in range(len(E)-1)),
+          f"strictly increasing sort key; first record {E[0]['rid']}, last record {E[-1]['rid']}")
     check('A4 one record per original question and subsection',len({(e['pid'],e['q'],e['sec']) for e in E})==len(E),f'{len({(e["pid"],e["q"]) for e in E})} original questions, {len(E)} records')
     bad=[]
     pages_of=collections.defaultdict(list)
@@ -69,14 +76,25 @@ def main(sheets=False):
         if nums!=list(range(nums[0],nums[0]+len(nums))): bad.append((e['rid'],'pages not adjacent')); continue
         items=[it for p in ps for it in p['items']]
         parts=[it['part'] for it in items]
-        nq=len(e['qbands']); nm=1 if e['paper']==1 else len(e['mbands'])
+        nq=len(e['qbands']); nm=0 if e['paper']==1 else len(e['mbands'])
         if parts!=['Q']*nq+['MS']*nm: bad.append((e['rid'],f'parts {parts}')); continue
-        if nm<1 or nq<1: bad.append((e['rid'],'question or scheme missing')); continue
+        if nq<1 or (e['paper']==2 and nm<1): bad.append((e['rid'],'question or scheme missing')); continue
         g=G[e['pid']]
         want=[[e['qp'],b[0],0.0,b[1],g['qp_size'][b[0]][0],b[2]] for b in e['qbands']]
-        want+=[[e['ms'],e['key'][0]]+e['key'][1:5]] if e['paper']==1 else [[e['ms'],b[0],0.0,b[1],g['ms_size'][b[0]][0],b[2]] for b in e['mbands']]
+        want+=[] if e['paper']==1 else [[e['ms'],b[0],0.0,b[1],g['ms_size'][b[0]][0],b[2]] for b in e['mbands']]
         if [it['spec'] for it in items]!=want: bad.append((e['rid'],'pictures differ from the geometry'))
-    check('A5 pages of an entry are adjacent; question pictures first, complete scheme directly after, in source order',not bad,f'{len(bad)} entries with a problem'); fails['A5']=bad[:50]
+        # Paper 1: one answer line, on the last page of the record, below the last question picture, for the key row of
+        # this question; Paper 2: no answer line
+        ans=[(p['page'],p['answer']) for p in ps if p.get('answer')]
+        if e['paper']==2:
+            if ans: bad.append((e['rid'],'answer line in a Paper 2 record'))
+            continue
+        if len(ans)!=1 or ans[0][0]!=nums[-1]: bad.append((e['rid'],'answer line missing, repeated or not on the last page')); continue
+        an=ans[0][1]; lastq=[it for it in ps[-1]['items']]
+        if an['spec']!=[e['ms'],e['key'][0]]+e['key'][1:5] or an['letter']!=e['letter'] or an['letter']!=e['key'][5] or an['q']!=e['q']: bad.append((e['rid'],'answer line does not belong to the key row of the question'))
+        if lastq and an['capy']<lastq[-1]['rect'][3]-0.01: bad.append((e['rid'],'answer line above the question picture'))
+        if 'MS' not in ps[-1]['parts']: bad.append((e['rid'],'answer line not announced in the header'))
+    check('A5 pages of an entry are adjacent; question pictures first, complete scheme directly after, in source order (Paper 1: the answer line directly after the question)',not bad,f'{len(bad)} entries with a problem'); fails['A5']=bad[:50]
     toc=doc.get_toc(simple=True)
     l3=[t for t in toc if t[0]==3]; l2=[t for t in toc if t[0]==2]; l1=[t for t in toc if t[0]==1]
     okb=len(l3)==len(E) and all(t[2]==M['first'][e['rid']] for t,e in zip(l3,E)) and all(f"Question {e['q']}" in t[1] and str(e['year']) in t[1] for t,e in zip(l3,E))
@@ -86,7 +104,7 @@ def main(sheets=False):
     size=os.path.getsize(PDF)
     check('A7 file size below 100 MB',size<100*1024*1024,f'{size/1e6:.1f} MB ({size} bytes)')
     # ---------------- pass 1: every page rendered (B0, B1, B2, B4, B5, C1); no source PDF is open yet
-    N=len(doc); dark=[];blank=[];mism=[];outside=[];edges=[];bounds=[];textbad=[];small=[]; ptxt={}
+    N=len(doc); light=[];blank=[];mism=[];outside=[];edges=[];bounds=[];textbad=[];small=[]; ptxt={}; atxt={}; brightness=[]
     stats=collections.Counter()
     thumbs=[]
     notplaced=[]; pixdiff=[]; xseen={}
@@ -98,21 +116,26 @@ def main(sheets=False):
         if sheets:
             im=Image.fromarray(a); tw=118 if pw<700 else 166; thumbs.append((pi+1,im.resize((tw,int(a.shape[0]*tw/a.shape[1])),Image.LANCZOS)))
         stats['pages rendered']+=1
-        if a.mean()<200 or (a<128).mean()>0.2: dark.append((pi+1,round(float(a.mean()),1)))
+        # white on black: a page is mostly black. A page that is not (a picture left un-inverted, a white page) is light.
+        bright=float((a>128).mean()); brightness.append((round(bright,4),pi+1))
+        if a.mean()>100 or bright>0.40: light.append((pi+1,round(float(a.mean()),1),round(bright,3)))
         orient='P' if pw<ph else 'L'
         if orient!=p['orient']: bounds.append((pi+1,'orientation differs from the manifest'))
         if pg.rotation: bounds.append((pi+1,'page carries a rotation'))
         txt=pg.get_text('text')
         if f'Page {pi+1} of {N}' not in txt: textbad.append((pi+1,'page number'))
         if p['kind']!='entry':
-            if (a<128).mean()<0.002: blank.append((pi+1,'front or divider page without content'))
+            if (a>128).mean()<0.002: blank.append((pi+1,'front or divider page without content'))
             continue
         e=byrid[p['rid']]
         if e['paper']==2: ptxt[pi]=txt
+        else: atxt[pi]=txt
         need=[f"{e['sec']}  {bentries.SECT[e['sec']]}"[:40],f"{e['year']} {e['session']}",f"Paper {e['paper']}",f"Variant {e['variant']}",f"Question {e['q']}",f"record {e['rid']}",f"record {e['seq']} of {len(E)}"]
         if e['paper']==2: need.append(f"parts on {e['sec']}: {', '.join(e['parts'])} ({e['marks_sec']} of {e['marks_q']} marks)")
         for it in p['items']:
             need.append(it['spec'][0]); need.append(f"source page {it['spec'][1]+1} of")
+        an=p.get('answer')
+        if an: need+=[an['spec'][0],f"source page {an['spec'][1]+1} of",f"row for Question {an['q']}",f"Answer: {an['letter']}"]
         for t in need:
             if t not in txt: textbad.append((pi+1,t)); break
         mask=np.zeros(a.shape,bool)
@@ -126,9 +149,16 @@ def main(sheets=False):
             mask[max(0,int(cy0)-1):int(cy0+CAP)+2,:]=True
             ix0,iy0,ix1,iy1=max(0,int(round(x0))),int(round(y0)),min(a.shape[1],int(round(x1))),min(a.shape[0],int(round(y1)))
             mask[max(0,iy0-1):iy1+1,max(0,ix0-1):ix1+1]=True
-            inkin+=int((a[iy0:iy1,ix0:ix1]<128).sum())
-        if inkin<40: blank.append((pi+1,'no ink inside the pictures of the page'))
-        out=(a<160)&~mask
+            inkin+=int((a[iy0:iy1,ix0:ix1]>128).sum())
+        if an:
+            # the answer line of a Paper 1 record: its source line and the zone reserved for the text
+            x0,y0,x1,y1=an['rect']
+            if y0<prev or y1>ph-BOT+1.0: bounds.append((pi+1,'answer line',[round(v,1) for v in an['rect']]))
+            mask[max(0,int(an['capy'])-1):int(an['capy']+CAP)+2,:]=True
+            mask[max(0,int(y0)-1):int(y1)+1,:]=True
+            if int((a[int(y0):int(y1),:]>128).sum())<20: blank.append((pi+1,'answer line without text'))
+        if p['items'] and inkin<40: blank.append((pi+1,'no ink inside the pictures of the page'))
+        out=(a>95)&~mask
         if out.sum()>3: outside.append((pi+1,int(out.sum())))
         if (pi+1)%1000==0: print('  pass 1: pages rendered',pi+1,'of',N,flush=True)
     warn=fitz.TOOLS.mupdf_warnings()
@@ -150,14 +180,15 @@ def main(sheets=False):
             px=fitz.Pixmap(doc,xref)
             got=np.frombuffer(px.samples,dtype=np.uint8).reshape(px.height,px.width)
             if xref not in xseen:
-                # B3b: the stored pixels are identical to a fresh rendering of the source region (16 grey levels)
+                # B3b: the stored pixels are identical to the inverted fresh rendering of the source region: the source
+                # is rendered as printed (black on white), reduced to 16 grey levels and inverted (white on black)
                 fresh=doc_of(fn).gray(spi,it['z'],clip=(sx0,sy0,sx1,sy1))
-                want=(np.round(fresh.astype(np.float32)/255*15)*17).astype(np.uint8)
+                want=((15-np.round(fresh.astype(np.float32)/255*15))*17).astype(np.uint8)
                 same=got.shape==want.shape and bool((got==want).all())
                 xseen[xref]=tuple(it['spec'])
                 stats['distinct pictures']+=1
                 if not same: pixdiff.append((pi+1,it['spec'][:2],got.shape,want.shape))
-                if (got<128).mean()<0.0008: blank.append((pi+1,'picture nearly empty',it['spec'][:2]))
+                if (got>128).mean()<0.0008: blank.append((pi+1,'picture nearly empty',it['spec'][:2]))
                 # B6: the cut lines. The outermost two pixel rows of the picture (centre 88 % of the width; margin
                 # rules and margin text are at the sides) must be free of ink. Rows of the key table and cuts placed
                 # on a table rule end on a ruled line by design.
@@ -165,7 +196,7 @@ def main(sheets=False):
                 for nm,row,kind in(('top',got[:2,xa:xb],it['edges'][0]),('bottom',got[-2:,xa:xb],it['edges'][1])):
                     if kind in('key','rule'): stats['edges on a ruled line by design']+=1; continue
                     stats['picture edges checked']+=1
-                    n=int((row<160).sum())
+                    n=int((row>95).sum())                    # ink is light on the inverted picture
                     if n>3: edges.append((pi+1,nm,it['spec'],n))
             elif xseen[xref]!=tuple(it['spec']): pixdiff.append((pi+1,it['spec'][:2],'picture object reused for a different region'))
             # B3c: the page as rendered shows exactly the stored picture. The region of the page is rendered on the
@@ -184,16 +215,18 @@ def main(sheets=False):
             mindpi=min(mindpi,zx*72,zy*72)
             if sc<0.99 or min(zx,zy)*72<178: small.append((pi+1,it['spec'][:2],sc,round(min(zx,zy)*72)))
         if (pi+1)%1000==0: print('  pass 2: pages checked',pi+1,'of',N,flush=True)
-    check('B1 no page is dark or colour-inverted (every page rendered)',not dark,f'{len(dark)} dark pages of {N}'); fails['B1']=dark[:50]
+    check('B1 every page is white on black: no page is light (every page rendered; a page counts as light if more than 40 % of it is bright)',not light,
+          f"{len(light)} light pages of {N}; the brightest page is {max(brightness)[0]*100:.0f} % bright (page {max(brightness)[1]})"); fails['B1']=light[:50]
+    info['brightest']=sorted(brightness,reverse=True)[:60]
     check('B2 no blank page and no empty picture',not blank,f'{len(blank)} findings'); fails['B2']=blank[:50]
     check('B3a every picture is on its page at the planned position (picture boxes read back from the PDF)',not notplaced,f"{stats['pictures placed']} placements, {len(notplaced)} not found"); fails['B3a']=notplaced[:50]
-    check('B3b the stored pixels of every distinct picture are identical to a fresh rendering of its region of the source PDF',not pixdiff,f"{stats['distinct pictures']} distinct pictures, {len(pixdiff)} differ"); fails['B3b']=pixdiff[:50]
+    check('B3b the stored pixels of every distinct picture are identical to the inverted fresh rendering of its region of the source PDF',not pixdiff,f"{stats['distinct pictures']} distinct pictures, {len(pixdiff)} differ"); fails['B3b']=pixdiff[:50]
     check('B3c every page, rendered on the pixel grid of its pictures, shows exactly the stored pictures (nothing over them, none displaced)',not mism,f"{stats['placements compared']} placements compared pixel by pixel, {len(mism)} differ"); fails['B3c']=mism[:50]
-    check('B4 nothing printed outside the pictures and the grey bars',not outside,f'{len(outside)} pages with stray ink'); fails['B4']=outside[:50]
+    check('B4 nothing printed outside the pictures, the answer lines and the bars; the rest of every page is black',not outside,f'{len(outside)} pages with stray ink'); fails['B4']=outside[:50]
     check('B5 pictures lie inside the page area, below the header and above the footer, without overlap; orientation as planned; no page rotation',not bounds,f'{len(bounds)} findings'); fails['B5']=bounds[:50]
     known=[x for x in edges if (x[2][0],x[2][1],x[1]) in EDGE_OK]; new_edges=[x for x in edges if (x[2][0],x[2][1],x[1]) not in EDGE_OK]
     info['edges']=edges; info['edges_reviewed']=[dict(page=x[0],edge=x[1],source=x[2][0],source_page=x[2][1]+1,pixels=x[3],reason=EDGE_OK[(x[2][0],x[2][1],x[1])]) for x in known]
-    check('B6 the cut lines (outermost pixel rows of every picture) are free of ink; rows of the key table and cuts on a table rule excepted',not new_edges,
+    check('B6 the cut lines (outermost pixel rows of every picture) are free of ink; cuts on a table rule excepted',not new_edges,
           f"{stats['picture edges checked']} cut lines checked, {stats['edges on a ruled line by design']} on a ruled line by design; {len(edges)} with ink, of which {len(known)} reviewed and accepted (listed in the audit), {len(new_edges)} not reviewed"); fails['B6']=new_edges[:50]
     check('B7 every picture is shown at its original size (99.9 % or more) and at 180 dpi or more',not small,f"{stats['placements compared']} placements; scales {dict(sorted(scales.items()))}; lowest resolution {mindpi:.0f} dpi"); fails['B7']=small[:50]
     check('C1 header, source lines, record ID and page number of every page agree with the entry',not textbad,f'{len(textbad)} pages with a missing text'); fails['C1']=textbad[:50]
@@ -242,6 +275,31 @@ def main(sheets=False):
     check('C2 marks of the question named in the header of every Paper 2 record = marks printed on the question paper inside its pictures',not marksbad,
           f"{len(recs)} records of {len(byq)} questions: {nplain} records without alternatives (sum of all printed '[n]' and the printed '[Total: n]'), {len(neo)} records of EITHER/OR questions (marks of one alternative); {len(marksbad)} differ"); fails['C2']=marksbad[:50]
     info['either_or_records']=neo
+    # ---------------- C3: the answer line of the Paper 1 records. Read from the PDF: the text of the page. Read from the
+    # source: the words inside the key row of the mark scheme (question number, key letter and, where printed, the mark),
+    # and the key string that ../parse_ms1.py read from the whole key table.
+    keys=json.load(open(WORK+'/keys_p1.json'))
+    RX_ANS=re.compile(r'^Answer: ([A-D])$',re.M)
+    ansbad=[]; nans=0; letters=collections.Counter()
+    for pi,p in enumerate(P):
+        if p['kind']!='entry' or pi not in atxt: continue
+        e=byrid[p['rid']]; an=p.get('answer'); found=RX_ANS.findall(atxt[pi])
+        if not an:
+            if found: ansbad.append((pi+1,p['rid'],'answer text on a page without an answer line'))
+            continue
+        nans+=1
+        if len(found)!=1: ansbad.append((pi+1,p['rid'],f'answer lines in the page text: {found}')); continue
+        fn,spi,kx0,ky0,kx1,ky1=an['spec']
+        ws=sorted(w[4] for w in doc_of(fn).page(spi).get_text('words') if kx0<=(w[0]+w[2])/2<=kx1 and ky0<=(w[1]+w[3])/2<=ky1)
+        src=[w for w in ws if w in ('A','B','C','D')]
+        okrow=ws in (sorted([str(e['q']),found[0]]),sorted([str(e['q']),found[0],'1']))
+        if not okrow or len(src)!=1 or found[0]!=e['letter'] or found[0]!=keys[e['pid']]['key'][e['q']-1] or fn!=e['ms']:
+            ansbad.append((pi+1,p['rid'],f"page: {found[0]}; key row of {fn} p. {spi+1}: {ws}; findings: {e['letter']}; key table: {keys[e['pid']]['key'][e['q']-1]}"))
+        letters[found[0]]+=1
+    n1=sum(1 for e in E if e['paper']==1)
+    check('C3 Paper 1: the answer typeset on the page = the key letter in the row of that question in the mark scheme (read again from the source PDF) = the key of the verified findings',
+          not ansbad and nans==n1,f"{nans} answer lines of {n1} Paper 1 records; {len(ansbad)} differ; letters {dict(sorted(letters.items()))}"); fails['C3']=ansbad[:50]
+    info['theme']='white on black'; info['order']='newest first'; info['p1_answers']=nans
     info['orientation']=dict(collections.Counter(p['orient'] for p in P))
     info['pages']=N; info['entries']=len(E); info['size']=size; info['bookmarks']=len(toc); info['pictures']=stats['pictures placed']; info['distinct_pictures']=stats['distinct pictures']; info['edges_checked']=stats['picture edges checked']; info['edges_by_design']=stats['edges on a ruled line by design']; info['scales']={str(k):v for k,v in sorted(scales.items())}; info['min_dpi']=round(mindpi)
     info['pages_by_kind']=dict(collections.Counter(p['kind'] for p in P))

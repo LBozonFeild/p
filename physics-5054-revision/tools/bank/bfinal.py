@@ -15,7 +15,17 @@ hash that bverify.py recorded. Every file is reopened from disk.
     record ID)
  F8 audit: the result line says that everything passed and no line starts with [FAIL]; the counts printed in the audit
     equal the counts of the tracker file and of the PDF
- F9 no page of the report PDFs is blank; all pages have the page number line"""
+ F9 no page of the report PDFs is blank; all pages have the page number line
+ F10 order of the included records, from the fields of the tracker alone: subsections in syllabus order; inside a
+     subsection newest first (year descending, October/November before May/June), then variant, paper, question number
+ F11 Paper 1 records: the page of the bank carries exactly one text line 'Answer: X', X is the letter the tracker names,
+     and the page holds one picture only (the question; the answer is text, not a picture)
+ F12 white on black: every 20th page of the bank, all pages of its first and last record and every page of the three
+     PDF copies (tracker, exclusions, audit) are rendered at 108 dpi; the corners of the page are black, less than 40 %
+     of the page is bright, and there is print (a pixel of grey 160 or more)
+ F13 every text the bank and the PDF copies add (bars, headers, answer lines, footers, table cells) is visible: on every
+     page of the four PDFs each text span is rendered and must be light print on a dark ground (brightest pixel of the
+     span at least 60 grey levels above its background, background below 100 of 255)"""
 import sys, os, re, json, hashlib, collections
 import fitz
 HERE=os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0,HERE)
@@ -25,6 +35,37 @@ res=[]
 def chk(name,ok,detail):
     res.append(bool(ok)); print(('PASS ' if ok else 'FAIL ')+name+' | '+detail)
 def squeeze(t): return re.sub(r'\s+','',t)
+def invisible(pg,z=2.0):
+    """text spans of the page that are not light print on a dark ground in the rendering -> (bad spans, spans checked,
+    lowest contrast). Spans without a letter or digit (bullets, dashes) are skipped."""
+    import numpy as np
+    pix=pg.get_pixmap(matrix=fitz.Matrix(z,z),colorspace=fitz.csGRAY,alpha=False)
+    a=np.frombuffer(pix.samples,dtype=np.uint8).reshape(pix.height,pix.width); bad=[]; n=0; lo=255
+    for b in pg.get_text('dict')['blocks']:
+        if b.get('type')!=0: continue
+        for l in b['lines']:
+            for sp in l['spans']:
+                t=sp['text']
+                if not any(c.isalnum() for c in t): continue
+                x0,y0,x1,y1=sp['bbox']; r=a[max(0,int(y0*z)):int(y1*z)+1,max(0,int(x0*z)):int(x1*z)+1]
+                n+=1
+                if r.size==0: bad.append((t[:30],'outside the page')); continue
+                med=int(np.median(r)); mx=int(r.max()); lo=min(lo,mx-med)
+                if med>100 or mx-med<60: bad.append((t[:30],med,mx))
+    return bad,n,lo
+def page_colours(pg,z=1.5):
+    """(share of bright pixels, list of what is wrong) of a page that should be white on black.
+    Rendered at 108 dpi: at half size the thin strokes of the typewriter font of the audit and exclusions PDFs do not
+    reach grey 160, and a page of print would be taken for a page without print."""
+    import numpy as np
+    pix=pg.get_pixmap(matrix=fitz.Matrix(z,z),colorspace=fitz.csGRAY,alpha=False)
+    a=np.frombuffer(pix.samples,dtype=np.uint8).reshape(pix.height,pix.width)
+    corners=[a[1:7,1:7],a[1:7,-7:-1],a[-7:-1,1:7],a[-7:-1,-7:-1]]
+    bright=float((a>128).mean()); why=[]
+    if bright>0.40: why.append('light page')
+    if any(int(c.max())>80 for c in corners): why.append('corner not black')
+    if int(a.max())<160: why.append('no print')
+    return bright,why
 def main():
     files=[BANK]+[STEM+k+e for k in ('tracker','exclusions','audit') for e in ('.txt','.pdf')]
     have=sorted(os.listdir(QB))
@@ -65,6 +106,39 @@ def main():
         if b<a: gaps.append((r[0],a,b))
         prev=b
     chk('F6 bank page ranges',not gaps and prev==N and first[inc[0][0]]==4,f'first record on page {first[inc[0][0]]}, last record ends on page {prev} of {N}; {len(gaps)} gaps or overlaps')
+    # ---- order of the records, from the tracker fields alone (record_id, bank_pages, year, session, paper, variant, question, chapter, subsection, ...)
+    subs=[]
+    for r in inc:
+        if r[8] not in subs: subs.append(r[8])
+    num=lambda sub: tuple(int(x) for x in sub.split()[0].split('.'))
+    SESS={'October/November':0,'May/June':1}
+    keys=[(subs.index(r[8]),-int(r[2]),SESS[r[3]],int(r[5]),int(r[4]),int(r[6])) for r in inc]
+    oko=all(a<b for a,b in zip(keys,keys[1:])) and [num(x) for x in subs]==sorted(num(x) for x in subs)
+    years=[int(r[2]) for r in inc if r[8]==subs[0]]
+    chk('F10 order of the records',oko,f"{len(subs)} subsections in syllabus order; inside each, newest first (year descending, October/November before May/June), then variant, paper, question number: {'yes' if oko else 'NO'}; first record {inc[0][0]}, last record {inc[-1][0]}; years of the first subsection run from {years[0]} to {years[-1]}")
+    # ---- answers of Paper 1: text on the page = letter named in the tracker; one picture on the page
+    bada=[]; na=0; letters=collections.Counter()
+    for r in inc:
+        if r[4]!='1': continue
+        na+=1
+        m=re.search(r'shown as text: Answer ([A-D])$',r[13]); pg=doc[last[r[0]]-1]
+        found=re.findall(r'^Answer: ([A-D])$',pg.get_text(),re.M)
+        if not m or found!=[m.group(1)] or first[r[0]]!=last[r[0]] or len(pg.get_images())!=1: bada.append((r[0],found,len(pg.get_images())))
+        else: letters[found[0]]+=1
+    chk('F11 answers of Paper 1 as text',not bada and na>0,f"{na:,} Paper 1 records: one line 'Answer: X' on the page, X = the letter in the tracker, one picture on the page (the question); {len(bada)} wrong"+(f' {bada[:5]}' if bada else '')+f"; letters {dict(sorted(letters.items()))}")
+    # ---- white on black
+    import numpy as np
+    sample=sorted(set(list(range(0,N,20))+[N-1]+list(range(first[inc[0][0]]-1,last[inc[0][0]]))+list(range(first[inc[-1][0]]-1,last[inc[-1][0]]))))
+    badc=[]; mx=0.0; nrep=0
+    def darkpage(d,i,tag):
+        nonlocal mx
+        bright,why=page_colours(d[i]); mx=max(mx,bright)
+        if why: badc.append((tag,i+1,round(bright,3),'/'.join(why)))
+    for i in sample: darkpage(doc,i,'bank')
+    for k in ('tracker','exclusions','audit'):
+        d=fitz.open(os.path.join(QB,STEM+k+'.pdf'))
+        for i in range(len(d)): darkpage(d,i,k); nrep+=1
+    chk('F12 white on black',not badc,f"{len(sample)} pages of the bank and all {nrep} pages of the tracker, exclusions and audit PDFs rendered at 108 dpi: corners black, white print present and less than 40 % bright on every one (brightest {mx*100:.0f} %); {len(badc)} pages fail"+(f' {badc[:8]}' if badc else ''))
     # ---- PDF copies
     det=[];ok7=True;ok9=True;np_={}
     for k in ('audit','exclusions'):
@@ -106,6 +180,14 @@ def main():
     okc=bool(m1 and m2 and m3) and int(m1.group(1).replace(',',''))==len(inc) and int(m2.group(1).replace(',',''))==N and m3.group(1)==sha
     chk('F8 audit',not fails and 'RESULT: ALL AUTOMATED CHECKS PASSED' in a and okc and len(passes)>=30,
         f"{len(passes)} lines [PASS], {len(fails)} lines [FAIL]; records {m1.group(1) if m1 else '?'}, pages {m2.group(1) if m2 else '?'}, hash {'equal' if m3 and m3.group(1)==sha else 'DIFFERENT'}")
+    # ---- every text span visible (all pages of the four PDFs)
+    badv=[]; nsp=0; lo=255; npg=0; ans_seen=0
+    for tag,dd in [('bank',doc)]+[(k,fitz.open(os.path.join(QB,STEM+k+'.pdf'))) for k in ('tracker','exclusions','audit')]:
+        for i in range(len(dd)):
+            bad,n,l=invisible(dd[i]); nsp+=n; lo=min(lo,l); npg+=1
+            if n==0: badv.append((tag,i+1,'no text span'))
+            if bad: badv.append((tag,i+1,bad[:3]))
+    chk('F13 every added text is visible',not badv and nsp>0,f"{npg:,} pages of the four PDFs rendered, {nsp:,} text spans: each is light print on a dark ground (lowest contrast {lo} of 255 grey levels); {len(badv)} pages with an invisible or dark text"+(f' {badv[:5]}' if badv else ''))
     print('RESULT:','all passed' if all(res) else 'FAILED')
     return all(res)
 if __name__=='__main__':

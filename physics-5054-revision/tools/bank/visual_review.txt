@@ -1,89 +1,102 @@
 Record of the inspection by eye, written by the AI agent that built the bank. It describes the file
-physics_5054_past_paper_questions_with_ms.pdf with sha256 1c4c44d6e6440b49 (first 16 digits), 4,358 pages.
+physics_5054_past_paper_questions_with_ms.pdf with sha256 1c68400f822ce087 (first 16 digits), 4,358 pages.
 "Viewed" means: the page was rendered from the PDF on disk and the image was looked at.
 
 8.1 What was viewed
   * Contact sheets of ALL 4,358 pages of the file described here (41 sheets of small page images written by
-    bverify.py), read at half size: every page is white with black print; no page is dark or colour-inverted; no page
-    is blank; the landscape mark schemes stand upright; the front pages and the 27 title pages are in place.
-  * The same 41 sheets had been read at full size for an earlier build (12 November 2026, 19:06 UTC). The file
-    described here was compared with that build page by page (both rendered at 72 dpi; pixels and page text compared).
-    70 pages differ: the front page, the header bars of the 62 pages of the 25 records corrected in 8.3, and the
-    scheme pictures of the 8 pages of the last correction in 8.3 (page 3246 is in both groups). The other 4,288 pages
-    are identical, pixel for pixel. Viewed again after the change: the front page; the header bars of 1366, 2880,
-    2928, 3905, 4110, 4252, 4285 and 4293; all 8 pages with a changed scheme picture.
-  * 83 pages at full size (of 20 of them the upper part only):
+    bverify.py), read at half size. Thin white strokes fade when a dark sheet is reduced, so the copies that were
+    read had been passed through a maximum filter and brightened before the reduction. Every page is black with
+    light print; no page is white or partly white; no picture was left black on white; no page is blank; the
+    landscape mark schemes stand upright; the front pages and the 27 title pages are in place.
+  * 59 pages at reading size (rendered at 97 dpi, landscape pages at 130 dpi):
       front page, contents, first title page (3): 1-3
-      Paper 1, question with its key row (12): 4, 7, 159, 229, 642, 701, 714, 1824, 2478, 3462, 3503, 3765
-      Paper 2, question pages (45): 238, 390, 398, 409, 457, 465, 546, 720, 870, 1015, 1366, 1511, 1897, 2073,
-          2744-2746, 2777, 2880-2881, 2908, 2928, 3150, 3293, 3296, 3360, 3372, 3761-3762, 3779-3780, 3848, 3892-3893,
-          3905-3906, 4102-4103, 4110, 4115, 4149, 4252-4253, 4293-4294
-      Paper 2, mark schemes on portrait pages (13): 307, 437, 444, 721, 771, 871, 2882, 3246, 3628, 3894, 4104, 4111,
-          4150
-      Paper 2, mark schemes on landscape pages (10): from source pages that carry a page rotation of 90 degrees:
-          127, 1963, 2747-2748, 2845, 3710, 3907; from landscape source pages without rotation: 532, 3052, 3153
-    and 4 pages at 62 % size: 1893, 2117, 2476, 2969 (the scheme pictures of 771 and 2845 under other subsections).
-    Chosen for: the first record; the five EITHER/OR questions (3905-3907, 4102-4104, 4110-4111, 4252-4253,
-    4293-4294); a record of five pages, the longest there is (2744-2748); the oldest papers (2004: 720-721, 870-871,
-    2880-2882, 3246, 3628) and the newest (2026: 229, 532, 3052, with the pale watermark of the download site);
-    schemes in small print (437, 444); long header lines (3150, 3761-3762); hatching and dot patterns (2073, 2777,
-    3779-3780); every page that looks dark or almost empty on the contact sheets; a random sample of 16 pages (seed
-    5054: 307, 409, 465, 642, 714, 1511, 1824, 1897, 1963, 2478, 3153, 3372, 3503, 3628, 3765, 3848).
-    On all of them the question or scheme is complete, upright and black on white, the header names the right paper
-    and question, and the scheme follows its question. On the Paper 1 pages the key letter stands under the question.
-  * The six cut lines that carry ink (check B6; listed in part 5), each enlarged beside its source page.
-  * The two cut lines of the geometry check that a stroke touches (V7, V11; described in part 4), enlarged.
+      Paper 1, question with its answer line (13): 4, 228, 558, 1011, 1307, 2119, 2157, 2687, 2707, 2792, 2861, 3065,
+          3754
+      Paper 2, question pages (31): 233-234, 309, 369, 373, 472, 571, 710, 1185, 2358, 2645, 2790, 3067, 3292, 3362,
+          3409, 3680, 3809-3810, 3830, 4047-4048, 4067, 4138-4139, 4169-4170, 4310, 4320-4321, 4357
+      Paper 2, mark schemes on portrait pages (6): 3410, 3828, 4049, 4240, 4311, 4322
+      Paper 2, mark schemes on landscape pages (6): from source pages that carry a page rotation of 90 degrees:
+          303, 2836, 3811, 4140, 4171; from a landscape source page without rotation: 235
+    Chosen for: the first record (4) and the last (4357); the oldest papers (2004: 228, 1307, 3409-3410, 4357) and
+    the newest (2026: 4, 233-235, 4067, with the pale watermark of the download site); the Paper 1 page on which
+    the answer line stands lowest (2687); every page of the six records of the five EITHER/OR questions (3809-3811,
+    4047-4049, 4138-4140, 4169-4171, 4310-4311, 4320-4322); a scheme in small print at the end of a record of five
+    pages, the longest there is (3828); schemes that begin with the heading "SECTION B" (2836, 3410); photographs
+    and dark or shaded artwork (309, 369, 373, 558, 710, 1011, 2645, 2790, 3065, 3292, 3362, 3680), among them the
+    record pages that check B1 measures as the lightest (373, 3292, 3362, 3680, 710, 2790; pages 978, 1473 and 3485
+    show the pictures of 373 and 3292 under other subsections); a random sample of 16 pages (seed 5054: 303, 472,
+    571, 1185, 1307, 2119, 2157, 2358, 2707, 2792, 2861, 3067, 3754, 3830, 4067, 4240).
+    On all of them the question or scheme is complete, upright and white on black, the print is sharp, the header
+    names the right paper and question, and the scheme follows its question. On the Paper 1 pages the line
+    "Answer: X" stands below the question, under a bar that names the mark scheme file, its page and the question;
+    on 2687 it stands clear of the page footer. The EITHER/OR records show both alternatives and both schemes, and
+    their header says so.
+  * Paper 1 answers against the printed key. For 12 further records chosen at random (seed 5054; pages 184, 215,
+    626, 712, 1280, 1587, 1821, 2446, 3062, 3401, 3492, 3755) the header and the answer line of the bank were put
+    beside the answer key of the source mark scheme, rendered as printed, with the row of the question marked. The
+    letter is the same in all 12. (Check C3 makes this comparison for all 1,723 records by reading the words of the
+    row from the source PDF.)
+  * The bookmarks: the first 34, the last three of subsection 1.1, the first three and the last three of
+    subsection 1.2 and the last three of the file were read. They run from May/June 2026 down to May/June 2004,
+    October/November before May/June of the same year.
+  * The PDF copies of the reports, white on black: tracker pages 1, 2 and 150, exclusions pages 1 and 8, audit
+    pages 1 and 7.
 
-8.2 Observations that are not defects
-  * Dark areas on the contact sheets are artwork of the papers: 398, 1015 and 1483 (photograph of an astronaut,
-    5054_w17_qp_22 p. 13), 457, 677 and 1065 (man in a lift, 5054_w21_qp_21 p. 4), 546 (5054_s06_qp_2 p. 11),
-    701 (5054_s24_qp_12 p. 3), 3293 (5054_s13_qp_22 p. 6), 3296 (5054_w13_qp_21 p. 5), 3360 and 3548 (X-ray picture,
-    5054_s20_qp_21 p. 17).
-  * Pages that look almost empty are genuine: 2908, 4115 and 4149 hold drawing or answer space; 2881 holds a picture
-    38 pt high with the single mark "[2]" (beside it the page number and the examiner label of the paper), because
-    the paper prints the last line of that question at the top of its next page.
-  * Page furniture inside pictures (described with counts in the exclusions file, part D2): the heading of a section
-    above its first question; the page number in the Paper 2 papers of 2004-2007 (seen on 238, 2880, 2881); a
-    notice "Question 9 begins over the page." after the last line of a question (seen on 2746); the column "For
-    Examiner's Use"; the vertical notice "DO NOT WRITE IN THIS MARGIN" of the papers of 2025 and 2026, which is cut
-    where a picture ends (seen on 2073, 2777, 3779, 3780).
+8.2 Pictures and headers are those of the file inspected before
+  * The black-on-white file of commit f410326 (sha256 1c4c44d6e6440b49, 4,358 pages) was inspected in more detail:
+    its 41 contact sheets were read, 83 pages were viewed at full size (of 20 of them the upper part) and 4 at
+    62 % size, and the six cut lines that carry ink (check B6) and the two cut lines that a stroke touches (V7,
+    V11) were viewed enlarged beside their source pages. The record of that inspection is part 8 of the audit file
+    of that commit.
+  * tools/bank/bneg.py read both files back from disk and compared them:
+      - each of the 3,218 distinct pictures of the file described here is, pixel for pixel, the negative of a
+        picture of that file;
+      - each of the 2,709 records holds, page by page and from top to bottom, the pictures it held there. Only the
+        last picture of each of the 1,723 Paper 1 records is gone: the row of the answer key, which is text now;
+      - the text that the bank prints on the pages of the 986 Paper 2 records (header, source bars, footer) is
+        word for word the same, apart from the number of the record and of the page. On the pages of the 1,723
+        Paper 1 records the label "QUESTION and ANSWER" stands for "QUESTION and MARK SCHEME" and the line
+        "Answer: X" is new; nothing else differs.
+  * So no crop and no header changed with the colours and the order, and what was corrected after the earlier
+    inspections is still as corrected: the marks and the remark of the EITHER/OR questions, the names of the parts
+    in the header, the heading "SECTION B" kept with Question 9, three pictures with hatching, two pictures that
+    were cut at the page footer, header lines no longer shortened. The cut lines of B6, V7 and V11 were not viewed
+    again for this file.
 
-8.3 Defects found by this inspection and corrected in the file described here
-  * Marks of EITHER/OR questions. The header of 4110-4111 (May/June 2010, Paper 2 variant 1, Question 7) said
-    "3 of 7 marks" and that of 4293-4295 (May/June 2021, variant 2, Question 8) "3 of 9 marks": the marks of both
-    alternatives had been added. A candidate answers one alternative, so the questions carry 5 and 6 marks. These two
-    questions and May/June 2019 variant 1 Question 8 (4252-4254) also lacked the remark "EITHER / OR question" in the
-    header. Cause: alternatives were recognised only where the tracker has separate rows for the OR part. They are
-    now recognised from the text of the question paper. Check C2 of bverify.py was written for this: it compares the
-    marks in the header of every Paper 2 record with the marks printed on the paper (part 5).
-  * Names of the parts in the header. Where the paper prints one mark for several sub-parts, e.g. one "[2]" after
-    (a)(i) and (a)(ii), the header named the last sub-part only, "(a)(ii)". 21 records, mostly of the two papers of
-    2004 (seen on 2882: "(a)(ii), (b), (c)(ii) (7 of 7 marks)" for a scheme that also marks (a)(i) and (c)(i)).
-    The header now names every sub-part the mark covers: "(a)(i)-(ii), (b), (c)(i)-(ii)".
-  * Record 4.2.2|w21|P2|V2|Q5 (3905-3907): the whole question is "5 EITHER ... OR ..."; the header now says
-    "EITHER (a), EITHER (b)(ii)" instead of "(a), (b)(ii)".
-  * The front page and the exclusions file said that page numbers and section headings are never inside a picture.
-    That was not accurate (see 8.2); both texts were corrected and the exclusions file gives the counts.
-  * A heading shown with the wrong scheme. The mark scheme of May/June 2017 variant 2 prints the heading "SECTION B"
-    in capitals at the top of the page that follows the scheme of Question 8, the last question of Section A. The
-    heading was shown as a strip of its own below the scheme of Question 8 (3710). Two more schemes print it in
-    capitals (May/June 2004 and May/June 2014 variant 1); their Question 8 is not in the bank. The heading is now
-    kept with the first question of Section B, as in all other schemes: 3710 shows the scheme of Question 8 only,
-    and the scheme of Question 9 of the three papers begins with the heading (771, 1893, 2117, 2476, 2845, 2969,
-    3246). No other picture of a scheme holds a heading that is not its first line (exclusions file, part D2).
-  Defects of earlier builds, found by the automated checks, viewed before and after the correction:
-  * three pictures with hatching or dot patterns (2073, 2777, 3779) were not identical to a fresh rendering of the
-    source (check B3b); the renderer reused a bitmap decoded at another size. All pictures were rendered again with
-    the renderer's store emptied before each page;
-  * the frame of a note below a table of the scheme of May/June 2026 variant 2 Question 5 (3052) and the last line
-    "[9]" of May/June 2004 Question 10 (720, 2391) reach down to the page footer and were cut by the lower edge of
-    the picture; the edge was moved and both are complete (part 4, notes of the geometry program);
-  * long header lines were shortened with "..."; the type is now reduced instead and nothing is left out (3150,
-    3761-3762). No header of the file contains "...", and every page carries the full title of its subsection.
+8.3 Observations that are not defects
+  * Photographs and filled or shaded drawings are negatives. Large light areas are artwork that is black in print:
+    373, 978 and 1473 (astronaut in space, 5054_w17_qp_22 p. 13), 558 (5054_s24_qp_12 p. 3), 3362
+    (5054_s13_qp_22 p. 6), 3292 and 3485 (X-ray image of a hand, 5054_s20_qp_21 p. 17: the bones, light in
+    print, are dark here). The man in the lift (309, 5054_w21_qp_21 p. 4) is a black figure in print and a white
+    one here.
+  * The tones of a shaded drawing are reversed, and the wording of a question is not. Seen on 4067
+    (5054_s26_qp_21 p. 13, viewed beside the source page): the question says that the inside surface of a lamp
+    "darkens"; the darkened part of the drawing is the lighter part here. Part 9 names the pages where the
+    inversion shows most.
+  * The watermark of the download site in the papers of 2026, pale grey in print, is a dark grey here (4, 233-235,
+    4067).
+  * Page furniture inside pictures (described with counts in the exclusions file, part D2): the heading of a
+    section above its first question (369, 373, 1185, 3409; in a scheme 2836, 3410); the page number in a Paper 2
+    paper of 2004 (4357); the column "For Examiner's Use" (3362, 4310, 4357); the vertical notice "DO NOT WRITE IN
+    THIS MARGIN", which is cut where a picture ends (233, 234, 3067, 4067).
 
-8.4 Not inspected by eye
-  * 4,271 of the 4,358 pages were seen only as small images on the contact sheets. At that size one can see that a
-    page is complete, upright and black on white, but not read it. That every picture shows exactly its region of
-    the source page, and that every line of every question and scheme lies in a picture, rests on the automated
-    checks of parts 4 and 5.
+8.4 Defects found while the colours were changed, and corrected
+  * A test build of 60 records failed check B4 on 66 pages: the black background ended exactly on the page edge
+    and the rendered page kept light pixels along its border. The background is now drawn 20 pt beyond the page on
+    all sides. B4 passes on all 4,358 pages of the file described here.
+  * The PDF copies of the audit and of the exclusions were first set, white on black, in the regular cut of their
+    typewriter font. Its thin strokes are dim on black. Both cuts were viewed side by side, and the two PDFs are
+    now set in the bold cut.
+  * The exclusions file said that the notice "DO NOT WRITE IN THIS MARGIN" is in the papers of 2025 and 2026.
+    Page 3067 shows it in a paper of October/November 2024. The file now names the papers that carry the notice,
+    found by searching the text of all Paper 2 question papers.
+  * The inspection by eye of the bank found no defect in its pages.
+
+8.5 Not inspected by eye
+  * 4,299 of the 4,358 pages were seen only as small images on the contact sheets (of 12 of them also the header
+    and the answer line). At that size one can see that a page is complete, upright and white on black, but not
+    read it. That every picture shows exactly its region of the source page, that every line of every question and
+    scheme lies in a picture, and that every answer letter is the letter of the key, rests on the automated checks
+    of parts 4 and 5.
+  * Of the report PDFs, only the pages named in 8.1.
   * Whether each question is filed under the best subsection was not reviewed again in this inspection.

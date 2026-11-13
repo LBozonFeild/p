@@ -60,6 +60,11 @@ def load():
     D.V=json.load(open(OUT+'/verify.json')); D.GC=json.load(open(OUT+'/geom_check.json'))
     S=pickle.load(open(WORK+'/state.pkl','rb')); D.res1,D.res2,D.pairs,D.excl=S['res1'],S['res2'],S['pairs'],S['excl']; D.man2=S['man2']
     D.U=json.load(open(DATA+'/bank_unpaired_questions.json'))
+    # the lists of papers and of excluded questions run in the order of the bank: newest first (October/November before
+    # May/June of the same year), variant 1 before 2, Paper 1 before Paper 2
+    nkey=lambda sess,variant,paper: (-int(sess[1:]),0 if sess[0]=='w' else 1,int(variant),int(paper))
+    D.pairs=sorted(D.pairs,key=lambda p: nkey(p['sess'],p['comp'][1] if len(p['comp'])==2 else 1,p['paper']))
+    D.U['files']=collections.OrderedDict(sorted(D.U['files'].items(),key=lambda kv: nkey(kv[1]['sess'],kv[1]['variant'],kv[1]['paper'])))
     D.P1Q=json.load(open(WORK+'/p1_questions.json'))
     D.pdf=os.path.join(QB,BANK)
     D.pdf_size=os.path.getsize(D.pdf); D.pdf_sha=hashlib.sha256(open(D.pdf,'rb').read()).hexdigest()
@@ -76,12 +81,12 @@ def build_rows(D):
         g=G[e['pid']]; first=M['first'][e['rid']]; last=first+npages[e['rid']]-1
         qpp=[b[0]+1 for b in e['qbands']]
         if e['paper']==1:
-            msp=[e['key'][0]+1]; mssec=f"p. {rng(msp)}; row of the answer key for Question {e['q']}"
+            msp=[e['key'][0]+1]; mssec=f"p. {rng(msp)}; row of the answer key for Question {e['q']}; shown as text: Answer {e['letter']}"
             scope='whole question (1 mark)'
             fig={'F':'figure','T':'table','':'no figure'}[D.P1Q[e['pid']][e['q']-1]['fig']]
-            diag=f"preserved; picture + key row ({fig})"
-            assoc=f"verified: same paper, key row {e['q']}"
-            nq,nm=len(e['qbands']),1
+            diag=f"preserved; 1 question picture ({fig}); answer as text"
+            assoc=f"verified: same paper, key row {e['q']} reads {e['letter']}"
+            nq,nm=len(e['qbands']),0
         else:
             msp=[b[0]+1 for b in e['mbands']]; mssec=f"p. {rng(msp)}; complete scheme of Question {e['q']}"
             scope=f"whole question ({e['marks_q']} marks); on {e['sec']}: {', '.join(e['parts'])} ({e['marks_sec']} marks)"
@@ -205,8 +210,13 @@ def san(t):
         elif ch in SAN: out.append(SAN[ch])
         else: out.append('?'); NSAN[ch]+=1
     return ''.join(out)
+# the PDF copies are white on black, like the bank (requested 13 November 2026)
+PBG=(0,0,0); PFG=(1,1,1); PDIM=(0.74,0.74,0.74); PBAR=(0.21,0.21,0.21); PRULE=(0.36,0.36,0.36)
+def dark(pg,sh):
+    """black page background; drawn beyond the page edge so that no light pixel column is left at the border."""
+    sh.draw_rect(pg.rect+(-20,-20,20,20)); sh.finish(color=None,fill=PBG)
 def text_pdf(path,lines,title,fs=7.6,landscape=False):
-    """monospaced copy of a text file; long lines are wrapped with a hanging indent."""
+    """monospaced copy of a text file, white on black; long lines are wrapped with a hanging indent."""
     pw,ph=(841.89,595.28) if landscape else (595.28,841.89)
     mx=30; top=36; bot=30; lh=fs*1.22; cw=fs*0.6; maxc=int((pw-2*mx)/cw)
     out=[]
@@ -224,12 +234,13 @@ def text_pdf(path,lines,title,fs=7.6,landscape=False):
     per=int((ph-top-bot)/lh); n=max(1,(len(out)+per-1)//per)
     doc=fitz.open(); doc.set_metadata(dict(title=title,creator='physics-5054-revision/tools/bank/breports.py',producer='PyMuPDF'))
     for i in range(n):
-        pg=doc.new_page(width=pw,height=ph); sh=pg.new_shape(); y=top
+        pg=doc.new_page(width=pw,height=ph); sh=pg.new_shape(); y=top; dark(pg,sh)
         for ln in out[i*per:(i+1)*per]:
-            if ln.strip(): sh.insert_text((mx,y),ln,fontname='cour',fontsize=fs,color=(0,0,0))
+            # Courier Bold: the thin strokes of the regular cut are dim on a black page
+            if ln.strip(): sh.insert_text((mx,y),ln,fontname='cobo',fontsize=fs,color=PFG)
             y+=lh
-        sh.insert_text((mx,ph-14),title,fontname='helv',fontsize=6.5,color=(0.35,0.35,0.35))
-        t=f'Page {i+1} of {n}'; sh.insert_text((pw-mx-fitz.get_text_length(t,'helv',6.5),ph-14),t,fontname='helv',fontsize=6.5,color=(0.35,0.35,0.35))
+        sh.insert_text((mx,ph-14),title,fontname='helv',fontsize=6.5,color=PDIM)
+        t=f'Page {i+1} of {n}'; sh.insert_text((pw-mx-fitz.get_text_length(t,'helv',6.5),ph-14),t,fontname='helv',fontsize=6.5,color=PDIM)
         sh.commit()
     doc.save(path,garbage=3,deflate=True); return n
 
@@ -255,7 +266,7 @@ def wrap(t,font,fs,w):
     if cur or not out: out.append(cur)
     return out
 def table_pdf(path,title,intro,cols,groups):
-    """cols=[(heading,width,key)], groups=[(group title, [row dict])] ; landscape A4, 6 pt."""
+    """cols=[(heading,width,key)], groups=[(group title, [row dict])] ; landscape A4, 6 pt, white on black."""
     pw,ph=841.89,595.28; mx=22; top=30; bot=24; fs=6.0; lh=6.9; font='helv'
     doc=fitz.open(); doc.set_metadata(dict(title=title,creator='physics-5054-revision/tools/bank/breports.py',producer='PyMuPDF'))
     state=dict(pg=None,sh=None,y=0,n=0)
@@ -264,36 +275,37 @@ def table_pdf(path,title,intro,cols,groups):
     def newpage(head=True):
         if state['sh'] is not None: state['sh'].commit()
         state['pg']=doc.new_page(width=pw,height=ph); state['sh']=state['pg'].new_shape(); state['n']+=1; state['y']=top
+        dark(state['pg'],state['sh'])
         if head:
             heads=[wrap(h,'hebo',fs,w-4) for h,w,_ in cols]; nl=max(len(h) for h in heads)
-            sh=state['sh']; sh.draw_rect(fitz.Rect(mx,state['y']-7,pw-mx,state['y']+(nl-1)*lh+3)); sh.finish(color=None,fill=(0.88,0.88,0.88))
+            sh=state['sh']; sh.draw_rect(fitz.Rect(mx,state['y']-7,pw-mx,state['y']+(nl-1)*lh+3)); sh.finish(color=None,fill=PBAR)
             for hl,x in zip(heads,xs):
-                for i,l in enumerate(hl): sh.insert_text((x+2,state['y']+i*lh),l,fontname='hebo',fontsize=fs)
+                for i,l in enumerate(hl): sh.insert_text((x+2,state['y']+i*lh),l,fontname='hebo',fontsize=fs,color=PFG)
             state['y']+=nl*lh+5
     newpage(head=False); sh=state['sh']
-    sh.insert_text((mx,state['y']+4),title,fontname='hebo',fontsize=12); state['y']+=22
+    sh.insert_text((mx,state['y']+4),title,fontname='hebo',fontsize=12,color=PFG); state['y']+=22
     for ln in intro:
         for l in wrap(ln,font,7.2,pw-2*mx):
             if state['y']>ph-bot-10: newpage(head=False); sh=state['sh']
-            state['sh'].insert_text((mx,state['y']),l,fontname='hebo' if ln.isupper() else font,fontsize=7.2); state['y']+=9
+            state['sh'].insert_text((mx,state['y']),l,fontname='hebo' if ln.isupper() else font,fontsize=7.2,color=PFG); state['y']+=9
     for gt,rows in groups:
         newpage(); sh=state['sh']
-        sh.insert_text((mx,state['y']+2),gt,fontname='hebo',fontsize=8.5); state['y']+=14
+        sh.insert_text((mx,state['y']+2),gt,fontname='hebo',fontsize=8.5,color=PFG); state['y']+=14
         for r in rows:
             cells=[wrap(san(r[k]),font,fs,w-4) for _,w,k in cols]; h=max(len(c) for c in cells)*lh+2.2
             if state['y']+h>ph-bot:
-                newpage(); state['sh'].insert_text((mx,state['y']+2),gt+' (continued)',fontname='hebo',fontsize=8.5); state['y']+=14
+                newpage(); state['sh'].insert_text((mx,state['y']+2),gt+' (continued)',fontname='hebo',fontsize=8.5,color=PFG); state['y']+=14
             sh=state['sh']
             for c,x in zip(cells,xs):
                 for i,l in enumerate(c):
-                    if l: sh.insert_text((x+2,state['y']+i*lh),l,fontname=font,fontsize=fs)
+                    if l: sh.insert_text((x+2,state['y']+i*lh),l,fontname=font,fontsize=fs,color=PFG)
             state['y']+=h
-            sh.draw_line((mx,state['y']-lh+1.2),(pw-mx,state['y']-lh+1.2)); sh.finish(color=(0.78,0.78,0.78),width=0.25)
+            sh.draw_line((mx,state['y']-lh+1.2),(pw-mx,state['y']-lh+1.2)); sh.finish(color=PRULE,width=0.25)
     state['sh'].commit()
     n=len(doc)
     for i,pg in enumerate(doc):
-        sh=pg.new_shape(); sh.insert_text((mx,ph-10),title,fontname='helv',fontsize=6.5,color=(0.35,0.35,0.35))
-        t=f'Page {i+1} of {n}'; sh.insert_text((pw-mx-fitz.get_text_length(t,'helv',6.5),ph-10),t,fontname='helv',fontsize=6.5,color=(0.35,0.35,0.35)); sh.commit()
+        sh=pg.new_shape(); sh.insert_text((mx,ph-10),title,fontname='helv',fontsize=6.5,color=PDIM)
+        t=f'Page {i+1} of {n}'; sh.insert_text((pw-mx-fitz.get_text_length(t,'helv',6.5),ph-10),t,fontname='helv',fontsize=6.5,color=PDIM); sh.commit()
     doc.save(path,garbage=3,deflate=True); return n
 
 # ------------------------------------------------------------------------------------------------ the three reports
@@ -367,7 +379,7 @@ def main():
      ('V3 every question and every scheme starts inside the first crop of its own question',not pr['V3'] and not pr['V3ms'],f"{th(st.get('starts',0))} question starts, {len(pr['V3'])+len(pr['V3ms'])} misplaced"),
      ('V4 Paper 2 schemes: every row of the used scheme pages lies in exactly one crop, or is general material listed in the exclusions file',v4ok,f"{th(st.get('ms rows',0))} rows; {len(v4)} rows are in no crop: "+', '.join(f'{n} {k}' for k,n in v4c.most_common())+' (covers, general notes, legends of the mark codes; listed in the exclusions file, part D)'),
      ('V5 Paper 1: one crop per question; its text equals the question text of the verification',not pr['V5'],f"{th(st.get('p1 questions',0))} questions, {len(pr['V5'])} differ"),
-     ('V6 Paper 1: the crop of a key row holds the question number and the key letter of that question, nothing else',not pr['V6'],f"{th(st.get('key rows',0))} key rows, {len(pr['V6'])} differ"),
+     ('V6 Paper 1: the key row of a question (the place its answer is read from) holds the question number and the key letter of that question, nothing else',not pr['V6'],f"{th(st.get('key rows',0))} key rows, {len(pr['V6'])} differ"),
      ('V7 the pixel row of every cut line is free of ink (more than 8 dark pixels at 2 pixels per point), or the place was inspected',all((x[0],x[1],x[2],x[4]) in CROSS_OK for x in pr['V7']),f"{th(st.get('edges',0))} cut lines, {len(pr['V7'])} with ink"+(': '+'; '.join(f"{x[0]} {x[1]} p. {x[2]} at y={x[4]}" for x in pr['V7'])+' (the two places described under V11)' if pr['V7'] else '')),
      ('V8 Paper 2 schemes: no two neighbouring questions whose mark codes are off by opposite amounts (a row filed under the wrong question)',not pr['V8'],f"{len(pr['V8'])} such pairs"),
      ('V9 every question crop holds text (no crop of ruled lines only)',not pr['V9'],f"{len(pr['V9'])} crops without text"),
@@ -383,13 +395,13 @@ def main():
     intro=[
      'PHYSICS 5054 QUESTION BANK - TRACKER',
      f'Belongs to {BANK} ({th(N)} pages, {th(D.pdf_size)} bytes). Written {now} by tools/bank/breports.py.',
-     f'Part 1: the {th(nrec)} records of the bank, in the order of the bank (subsection; year; May/June before October/November; variant; paper; question number).',
-     f'Part 2: the {th(len(exc))} questions of the 156 papers used that are not on a selected subsection. Part 3: the {len(unp)} questions of the 10 question papers without a mark scheme. Part 4: {len(dup)} duplicate files.',
+     f'Part 1: the {th(nrec)} records of the bank, in the order of the bank (subsection; then newest first: year from 2026 down to 2004, October/November before May/June of the same year; variant; paper; question number).',
+     f'Part 2: the {th(len(exc))} questions of the 156 papers used that are not on a selected subsection. Part 3: the {len(unp)} questions of the 10 question papers without a mark scheme. Part 4: {len(dup)} duplicate files. Parts 2 and 3 are in paper order, newest paper first.',
      'A record is one original question printed once under one syllabus subsection. Record ID = subsection | session and year (s = May/June, w = October/November) | paper | variant | question number. A Paper 2 question that tests several selected subsections has one record in each; several tracker rows of the same question in one subsection are one record.',
      'Scope: the bank always shows the WHOLE question and the WHOLE official mark scheme of that question. The scope field names the parts (and marks) that put the question into the subsection.',
      'Source pages are page numbers of the source PDF (first page = 1). Bank pages are page numbers of the bank PDF.',
-     'Diagram preservation: "preserved" = the question is reproduced as pictures of the full width of the source page, from the first line of the question to its last line; every picture was compared pixel by pixel with a fresh rendering of the source region (check B3b of the audit), no stroke crosses a cut line (V11) and no ink of the page is left outside the crops (V10).',
-     'Association verification: "verified" = the scheme shown is the scheme of the question with the same number in the mark scheme of the same paper (same year, session, paper, variant). Paper 2: the crop runs from the label of the question in the scheme to the label of the next question; in the paper-by-paper verification every sub-question of the paper was matched to its scheme entry. Paper 1: the crop is the row of the published answer key with that question number; the answer recorded in the verification (worked out from the question; for a question repeated word for word in another paper, taken from that question) agrees with the key letter for all '+th(p1agree)+' questions of the '+str(len(D.res1))+' papers.',
+     'Diagram preservation: "preserved" = the question is reproduced as pictures of the full width of the source page, from the first line of the question to its last line; the pictures are white on black (the source page rendered as printed, grey values inverted) and every picture was compared pixel by pixel with the inverted fresh rendering of the source region (check B3b of the audit), no stroke crosses a cut line (V11) and no ink of the page is left outside the crops (V10).',
+     'Association verification: "verified" = the scheme shown is the scheme of the question with the same number in the mark scheme of the same paper (same year, session, paper, variant). Paper 2: the crop runs from the label of the question in the scheme to the label of the next question; in the paper-by-paper verification every sub-question of the paper was matched to its scheme entry. Paper 1: the answer is typeset as text; it is the key letter in the row of the published answer key with that question number, read from the mark scheme PDF and read again from it by check C3 of the audit; the answer recorded in the verification (worked out from the question; for a question repeated word for word in another paper, taken from that question) agrees with the key letter for all '+th(p1agree)+' questions of the '+str(len(D.res1))+' papers.',
      'Excluded rows: "not on a selected subsection" = no part of the question belongs to a selected subsection (the subsection field names the sections it belongs to).',
      'Final status: INCLUDED, or EXCLUDED with the reason.']
     fpath=os.path.join(QB,STEM+'tracker.txt')
@@ -481,14 +493,14 @@ def main():
     for pid,fn,pg in lined: bl.setdefault(fn,[]).append(pg)
     for fn,pgs in bl.items(): A(f'      {fn}: source pages {rng(pgs)}')
     A(f'  * rows of the Paper 2 mark schemes that belong to no question ({len(v4)} text rows): covers bound into the scheme file, general')
-    A('    marking notes, the legend of the mark codes and "Total for paper" lines. Each row, with file and source page:')
+    A('    marking notes, the legend of the mark codes and "Total for paper" lines. The first 60 characters of each row, with file and page:')
     last=None
     for pid,pg,y,hit,text,pos in v4:
         fn=G[pid]['ms']
         if (fn,pg,pos)!=last: A(f'      {fn} p. {pg} ({pos}):'); last=(fn,pg,pos)
         A(f'          {text}')
-    A('  * Paper 1 mark schemes: only the row of the answer key of the question is shown (question number, key letter and, where')
-    A('    printed, the mark). The rest of the key table belongs to other questions.'); A('')
+    A('  * Paper 1 mark schemes: no picture. The answer of the question is typeset as text (\"Answer: C\"); the letter is the key')
+    A('    letter in the row of that question in the answer key. The rest of the key table belongs to other questions.'); A('')
     IP=inside_pictures(M)
     def ipn(k): return f"{len(IP[k]['pictures'])} pictures, shown on {len(IP[k]['pages'])} pages of the bank ({len(IP[k]['records'])} records)"
     A('D2. Inside a picture although not part of the question. A picture is the full width of the page and has no holes, so what')
@@ -502,8 +514,18 @@ def main():
         A(f"    A heading that is not the first line of its picture: {ipn('scheme heading not first')}; bank pages {', '.join(map(str,IP['scheme heading not first']['pages']))}.")
     else:
         A('    In every one of them the heading is the first line of the picture; no scheme picture holds a heading anywhere else.')
+    # the Paper 2 question papers that print the margin notice (found by their text, not assumed from the year)
+    import fitz
+    mg=[]
+    for pid,g in G.items():
+        if g['paper']!=2: continue
+        d=fitz.open(os.path.join(SRC,g['qp']))
+        if any(re.search(r'DO\s+NOT\s+WRITE\s+IN\s+THIS\s+MARGIN',pg.get_text()) for pg in d): mg.append(pid)
+    mg.sort(key=lambda x:(int(x[1:3]),x[0]=='w'))
+    mname=lambda x: f"{sname(x.split('_')[0])} {2000+int(x[1:3])}"
     A('  * the column "For Examiner\'s Use" of the older papers with its label and its rule, the corner marks of the page, and the')
-    A('    vertical notice "DO NOT WRITE IN THIS MARGIN" of the papers of 2025 and 2026 (the notice is cut where a picture ends);')
+    A(f'    vertical notice "DO NOT WRITE IN THIS MARGIN" of the {len(mg)} Paper 2 papers of {mname(mg[0])} to {mname(mg[-1])} (the notice is cut')
+    A('    where a picture ends);')
     pn=IP['page number']
     yrs=[2000+int(re.search(r'_[sw](\d\d)_',f).group(1)) for f in pn['files']]
     A(f"  * the page number, in {len(pn['files'])} Paper 2 question papers of {min(yrs)}-{max(yrs)} only. In these papers the label 'For Examiner's Use' begins on the")
@@ -570,7 +592,10 @@ def main():
     eo=[e for e in E if e.get('either_or')]
     A(f"  EITHER/OR questions                             {len({(e['pid'],e['q']) for e in eo})} questions, {len(eo)} records, both alternatives and both schemes shown; the marks in the header are those of one alternative:")
     for e in eo: A(f"      {e['rid']:24s} {e['marks_sec']} of {e['marks_q']} marks ({e['marks_basis']})")
-    A(f"  pictures                                        16 grey levels, {V['info'].get('min_dpi',180)} dpi or more, shown at original size; text is black on white")
+    A(f"  pictures                                        16 grey levels, {V['info'].get('min_dpi',180)} dpi or more, shown at original size; white on black (grey values of the rendered source page inverted)")
+    A(f"  Paper 1 answers                                 {th(V['info'].get('p1_answers',0)):>7s}   typeset as text below the question (\"Answer: C\"), from the key row of the mark scheme; no picture of the key")
+    A( "  order                                           subsection; then newest first: year 2026 down to 2004, October/November before May/June of the same year; variant 1 before 2; Paper 1 before Paper 2; question number")
+    A(f"                                                  first record {E[0]['rid']}, last record {E[-1]['rid']}")
     A('')
     A('3. RECONCILIATION'); A('-'*17)
     for ok,name,detail in R: line(ok,name,detail)
@@ -618,14 +643,58 @@ def main():
         for l in D.review: A(l)
     A('')
     A('9. HOW THE BANK WAS MADE, AND LIMITS'); A('-'*36)
+    # where the inversion is most visible: pages with large light areas (large black areas of the print: photographs,
+    # silhouettes, filled drawings) and pictures with much mid-grey (grey-shaded artwork)
+    def pagelist(pp,width=124):
+        out=[]; ln='    '
+        for k,t in enumerate(pp):
+            t=str(t)+(', ' if k<len(pp)-1 else '')
+            if len(ln)+len(t)>width: out.append(ln.rstrip()); ln='    '
+            ln+=t
+        if ln.strip(): out.append(ln.rstrip())
+        return out
+    br=[(sh_,pg) for sh_,pg in V['info']['brightest'] if M['pages'][pg-1]['kind']=='entry']
+    lightp=sorted(pg for sh_,pg in br if sh_>=LIGHT_SHARE); complete=bool(br) and min(sh_ for sh_,_ in br)<LIGHT_SHARE
+    gp=collections.OrderedDict()
+    for i,p in enumerate(M['pages']):
+        for it in p.get('items',[]):
+            if it.get('mid',0)>=GREY_SHARE: gp.setdefault(tuple(it['spec']),[]).append(i+1)
+    greyp=sorted({pg for v in gp.values() for pg in v})
+    GREYLINES=[f"  Where it shows most (measured, not judged): on {len(lightp)}{'' if complete else ' or more'} pages more than {LIGHT_SHARE*100:.0f} % of the page is light, which means large black areas",
+               '  in the print (photographs, silhouettes, filled drawings):']+pagelist(lightp)+[
+               f"  and in {len(gp)} of the {th(V['info']['distinct_pictures'])} pictures {GREY_SHARE*100:.0f} % or more of the pixels are mid-grey (grey-shaded artwork), on {len(greyp)} pages:"]+pagelist(greyp)+[
+               ]
+    ex=[i+1 for i,p in enumerate(M['pages']) if any(it['spec'][0]=='5054_s26_qp_21.pdf' and it['spec'][1]==12 for it in p.get('items',[]))]
+    if ex: GREYLINES+=[f"  Example: page {'/'.join(map(str,ex))} (May/June 2026, Paper 2 variant 1, Question 6(b)). The question says that the inside surface of a lamp",
+                       '  "darkens" where metal atoms condense; in the bank the darkened part of the drawing is the lighter part.']
     for l in [
      '* Source: the PDF files in the folder physics-5054 of the repository. Every picture of the bank is rendered directly from them',
      '  by tools/bank/bbuild.py. No page of an earlier bank is used.',
      '* The files of the repository are stored with inverted colours: each page content is wrapped in a block that paints the page',
      '  white and inverts it with a blend mode. The wrapper also leaves white as the fill colour, so text that the original draws in',
      '  the default colour is invisible in the stored copy (282 pages of 31 of the files used, mostly papers of 2004-2009).',
-     '  The bank removes the wrapper from the page content before rendering; it does not invert pixels. All pages of the bank are',
-     '  black on white (check B1) and the text that is invisible in the stored copies is present.',
+     '  The bank removes the wrapper from the page content before rendering. That restores the page as it was printed, with the',
+     '  text that is invisible in the stored copies.',
+     '* Colours: the bank is white on black, as requested on 13 November 2026. The restored page is rendered black on white,',
+     '  reduced to 16 grey levels and then inverted, so that print is white and paper is black. Check B3b compares every picture',
+     '  with exactly this rendering, and check B1 finds no light page. The stored inverted copies are not used for it.',
+     '  Everything inside a picture is inverted, photographs and shaded drawings included: they appear as negatives. A part that',
+     '  a question calls black or dark is white or light in its picture, and the other way round.',
+]+GREYLINES+[
+     '* Paper 1 answers are text, as requested on 13 November 2026: "Answer: C" below the question, and above it a line with the',
+     '  name of the mark scheme file and the page. The letter is the key recorded in the verified findings. It is compared with',
+     '  the row of that question in the answer key when the bank is built, and again by check C3. There is no picture of the key.',
+     '* Order: newest first, as requested on 13 November 2026. Inside a subsection: year from 2026 down to 2004, October/November',
+     '  before May/June of the same year, then variant, paper and question number.',
+     '* The checks that are new with these changes were tried with planted faults. On a build of 60 records, a picture left',
+     '  black on white is reported by B1, B3b and B6, and a wrong answer letter by C1 and C3. On pages made for the purpose,',
+     '  check F12 of bfinal.py reports a white page, a white border and a page without print, and check F13 reports black or',
+     '  dark grey text on black and black text on white.',
+     '* The PDF copies of the tracker, of the exclusions and of this audit are white on black as well (checks F12 and F13',
+     '  render every page of them). The .txt copies are plain text and have no colours.',
+     '  Check F12 failed when it was first run, on all 16 pages of the exclusions and audit PDFs: rendered at half size, the',
+     '  thin strokes of their typewriter font were too dim to count as print. The check now renders at 108 dpi, and the two',
+     '  PDFs are set in the bold cut of that font, which is easier to read on black.',
      '* Landscape mark schemes (2017 on) carry a page rotation or are landscape pages. The rotation is removed with the display',
      '  transformation of the page before any coordinate is measured; these schemes are shown on landscape pages, upright.',
      '* A question is cut out over the full page width from the blank band above its first line to the blank band below its last',
@@ -652,6 +721,7 @@ def main():
     elif not review_ok: print('FAIL visual_review.txt does not name the sha256 of the bank PDF on disk, or carries a [FAIL] line')
     print('RESULT:','all passed' if all_ok else 'NOT PASSED')
     return all_ok
+GREY_SHARE=0.05; LIGHT_SHARE=0.04
 # cut lines that a stroke crosses or touches (V7, V11); each inspected by eye, enlarged: (paper, 'qp'|'ms', source page, y) -> what was seen
 CROSS_OK={
  ('s04_2','qp',11,795.6):"the mark '[9]', last line of Question 10, touches the page footer '[Turn over' (gap 0.12 pt, found at 8 pixels per point); the cut is at the lower end of the brackets and '[9]' is complete in the picture",

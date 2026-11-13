@@ -7,7 +7,8 @@ An entry is one original question shown once in one syllabus subsection:
            assigned to in the verification tracker (first in-scope code of the tracker row); several tracker rows of the
            same question and subsection give ONE entry (the rows are consolidated, the parts are listed in the entry);
   Paper 1: a multiple-choice question is listed under the first in-scope code of its tracker row.
-Order: subsection, year, session (May/June, October/November), variant, paper, original question number."""
+Order: subsection; then newest first: year (latest first), October/November before May/June of the same year; then
+variant (1, 2), paper (1, 2), original question number."""
 import sys, os, re, json, pickle, collections
 HERE=os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0,os.path.dirname(HERE))
 from lib import WORK, sess_key
@@ -66,6 +67,10 @@ def question_marks(pm,tracker_total,has_or_rows,where):
         total=sum(pm['before_or']); basis='printed marks above the OR alternative'
     if has_or_rows and total!=tracker_total: raise SystemExit(f'{where}: marks {total} ({basis}) differ from the tracker rows without the OR alternative ({tracker_total})')
     return total,True,basis
+def sort_key(e):
+    """order of the bank: subsection; newest first (year descending, October/November before May/June of the same year);
+    variant 1 before 2; Paper 1 before Paper 2; original question number"""
+    return (ORDER[e['sec']],-e['year'],0 if e['sess'][0]=='w' else 1,e['variant'],e['paper'],e['q'])
 fallback=[]          # tracker rows on a selected subsection whose label is not a unit of the parser (named by part_label)
 def build():
     import bgeom, bparts
@@ -131,7 +136,7 @@ def build():
                 e=dict(base); e.update(sec=f,q=n,parts=['whole question'],marks_sec=1,marks_q=1,either_or=False,tracker_rows=1,other_secs=[],
                     qbands=g['q'][str(n)],key=g['k'][str(n)],letter=r['key'][n-1],dup=dup)
                 E.append(e)
-    E.sort(key=lambda e:(ORDER[e['sec']],e['year'],0 if e['sess'][0]=='s' else 1,e['variant'],e['paper'],e['q']))
+    E.sort(key=sort_key)
     for i,e in enumerate(E):
         e['rid']=f"{e['sec']}|{e['sess']}|P{e['paper']}|V{e['variant']}|Q{e['q']}"
         e['seq']=i+1
